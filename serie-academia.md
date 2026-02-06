@@ -1,3 +1,8 @@
+---
+layout: default
+title: Série de Musculação
+---
+
 # Série de Musculação — Academia 3x/semana (1h)
 
 > **Aviso:** Este documento é um guia informativo baseado em evidências e no histórico clínico documentado. NÃO substitui a avaliação de um educador físico, fisioterapeuta ou médico. Valide os exercícios com o profissional da academia e priorize a realização dos exames de RM pendentes (ombro direito, cervical, dorsal). As restrições de ombro/coluna são PREVENTIVAS e permanecem até liberação clínica.

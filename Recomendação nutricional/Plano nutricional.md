@@ -1,3 +1,8 @@
+---
+layout: default
+title: Plano Nutricional
+---
+
 # Plano Nutricional — Patrick
 
 > Guia informativo. Não substitui nutricionista.

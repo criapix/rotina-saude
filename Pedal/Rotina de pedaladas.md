@@ -1,3 +1,8 @@
+---
+layout: default
+title: Rotina de Pedaladas
+---
+
 # Rotina de Pedaladas
 
 ## Dados atuais (fev/2026)

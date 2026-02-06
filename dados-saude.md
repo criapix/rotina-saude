@@ -1,3 +1,8 @@
+---
+layout: default
+title: Consolidação Clínica
+---
+
 # Consolidação Clínica – Dor Torácica Mecânica
 
 ## 1. Contexto Geral
