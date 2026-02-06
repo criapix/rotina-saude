@@ -88,36 +88,136 @@ title: Consolidação Clínica
 
 ### Exames solicitados:
 
-* RM ombro direito
-* RM coluna cervical
-* RM coluna dorsal
+* RM ombro direito ✅
+* RM coluna cervical ✅
+* RM coluna dorsal ✅
 
 ### Leitura crítica:
 
 * Correta identificação de **cadeia ombro–cervical–torácica**
 * Ombro tratado como consequência, não como causa primária
+* **Confirmada síndrome do impacto** com rotura parcial do supraespinhal (laudo 02/02/2026)
 
 ---
 
-## 6. Diagnóstico Funcional Provável
+## 6. Laudos de Ressonância Magnética (02/02/2026)
 
-> **Bloqueio funcional torácico médio + rigidez + compensação cervical**, agravados por postura, impacto do MTB e carga axial da musculação.
+### 6.1 RM Coluna Cervical
+
+**Achados principais:**
+
+* Retificação/mínima inversão da lordose cervical
+* Osteófitos marginais nos corpos vertebrais
+* **Alterações degenerativas em C5-C6 e C6-C7** com focos de edema ósseo (Modic I)
+* **Uncoartrose bilateral em C5-C6 e C6-C7** com redução da amplitude dos forames neurais correspondentes
+* **Discopatia degenerativa** com desidratação e redução de altura discal em C5-C6 e C6-C7
+* Protrusão discal central em C2-C3 (discreta indentação dural)
+* Protrusão disco-osteofitária em C3-C4 (leve indentação dural)
+* **Protrusões disco-osteofitárias em C5-C6 e C6-C7** (maior à esquerda em C5-C6) comprimindo face anterior do saco dural
+* Canal raquiano sem estenose significativa
+* Medula cervical de espessura e sinal normais
+
+**Achado incidental:**
+* Imagem ovalada hiperintensa no lobo direito da tireoide → **requer ultrassonografia**
+
+**Interpretação:**
+* Doença degenerativa cervical moderada, concentrada em C5-C6 e C6-C7
+* Correlaciona com o episódio de dormência no mindinho (território C8/ulnar)
+* Sem comprometimento medular significativo
 
 ---
 
-## 7. Conduta Atual (Base do Tratamento)
+### 6.2 RM Coluna Dorsal (Torácica)
 
-### O que evitar temporariamente
+**Achados principais:**
 
-* Exercícios em pé com carga axial
-* Movimentos com rotação + carga
-* Exercícios sem apoio de tronco
+* Corpos vertebrais com altura preservada
+* Discretos osteófitos marginais
+* **Desidratação parcial dos discos de D3-D4 a D9-D10**
+* **Sem protrusões discais significativas**
+* Canal raquiano e forames neurais dorsais com boa amplitude
+* Medula dorsal de espessura e sinal normais
+
+**Interpretação:**
+* Degeneração discal leve a moderada na região torácica média (D3-D10)
+* **Achados estáveis/comparáveis ao exame de 2015**
+* Confirma origem **funcional** da dor torácica (não estrutural grave)
+* Hipomobilidade e rigidez segmentar permanecem como hipótese principal
+
+---
+
+### 6.3 RM Ombro Direito
+
+**Achados principais:**
+
+* **Acrômio tipo II de Bigliani** (morfologia que predispõe ao impacto)
+* **Tendinose do supraespinhal com ROTURA PARCIAL BURSAL**:
+  * Localização: subtotal justainsercional das fibras médias
+  * Dimensão: ~1,0 cm no eixo anteroposterior
+  * Distância da tuberosidade maior: ~0,6 cm
+* **Formação cística subcortical** e **edema ósseo** na tuberosidade maior (osteíte reacional)
+* **Tendinose do subescapular e infraespinhal** (manguito rotador comprometido)
+* **Bursite subacromial-deltoidea leve**
+* Articulações acrômio-clavicular e glenoumeral sem alterações
+* Sem derrame articular significativo
+* Labro glenoide preservado
+
+**Interpretação:**
+* **SÍNDROME DO IMPACTO CONFIRMADA** com lesão estabelecida do manguito rotador
+* Rotura parcial do supraespinhal é achado significativo que requer tratamento específico
+* Comprometimento de 3 tendões do manguito (supraespinhal, subescapular, infraespinhal)
+* Osteíte reacional indica processo inflamatório/degenerativo ativo
+
+---
+
+## 7. Diagnóstico Integrado (Atualizado Fev/2026)
+
+### Diagnósticos Confirmados:
+
+1. **Síndrome do Impacto do Ombro Direito** com rotura parcial do supraespinhal
+2. **Discopatia Degenerativa Cervical** (C5-C6 e C6-C7) com protrusões e compressão dural
+3. **Discopatia Degenerativa Torácica** leve (D3-D10) — componente funcional predominante
+
+### Correlação Clínica:
+
+* A **dormência no mindinho direito** correlaciona com a degeneração cervical em C5-C6/C6-C7 (território C8)
+* A **dor torácica mecânica** tem base degenerativa leve, mas componente funcional (hipomobilidade) importante
+* O **ombro direito** tem lesão estrutural real (rotura parcial) que justifica restrições específicas
+
+> **Diagnóstico atualizado:** Síndrome do impacto com rotura parcial do manguito + discopatia cervicotorácica degenerativa + hipomobilidade funcional segmentar
+
+---
+
+## 8. Conduta Atualizada (Pós-Exames Fev/2026)
+
+### ⚠️ RESTRIÇÕES CRÍTICAS — OMBRO DIREITO (Rotura Parcial do Manguito)
+
+* **SUSPENDER COMPLETAMENTE:**
+  * Exercícios overhead (elevação acima de 90°)
+  * Supino com barra ou halteres
+  * Crucifixo / fly
+  * Remada alta
+  * Desenvolvimento (shoulder press)
+  * Qualquer movimento que cause dor no ombro
+
+* **PERMITIDO COM CAUTELA:**
+  * Rotação externa com elástico/cabo (carga LEVE, foco em estabilização)
+  * Face pull (carga leve, sem compensação)
+  * Remada sentada com pegada neutra (cotovelos junto ao corpo)
+
+### Restrições da Coluna (Cervical + Torácica)
+
+* Evitar exercícios em pé com carga axial pesada
+* Evitar movimentos com rotação + carga
+* Evitar exercícios sem apoio de tronco
+* Evitar extensão cervical forçada
 
 ### O que manter
 
-* Exercícios com **peito apoiado**
-* Puxadas sentadas
+* Exercícios com **peito apoiado** ou sentado
+* Puxadas sentadas (neutra ou pronada)
 * Cargas moderadas, foco em controle
+* Membros inferiores: sem restrição (hack, leg press, extensora, flexora)
 
 ---
 
@@ -180,12 +280,13 @@ title: Consolidação Clínica
 
 ---
 
-## 11. Conclusão
+## 11. Conclusão (Atualizada Fev/2026)
 
-* Não há sinal de lesão estrutural grave
-* O problema é **funcional e reversível**
-* Mobilidade torácica + fisioterapia direcionada são o eixo do tratamento
-* Força sem mobilidade foi o fator que expôs o problema
+* **OMBRO:** Rotura parcial do supraespinhal confirmada — lesão estrutural significativa que requer fisioterapia específica e possível avaliação cirúrgica
+* **CERVICAL:** Discopatia degenerativa moderada em C5-C6/C6-C7 com compressão dural; explica sintomas neurológicos (dormência)
+* **TORÁCICA:** Degeneração leve; componente **funcional predominante** — mobilidade + fisioterapia são o eixo do tratamento
+* Força sem mobilidade e movimentos repetitivos acima de 90° foram fatores agravantes
+* **Fisioterapia é URGENTE** para evitar progressão da lesão do manguito
 
 ---
 
@@ -212,19 +313,21 @@ title: Consolidação Clínica
 
 ## 13. Status Atual (Fevereiro 2026)
 
-- **Exames (RM ombro, cervical, dorsal):** pendentes — ainda não realizados
-- **Fisioterapia (10 sessões prescritas):** ainda não iniciada
-- **Dor:** sem dor durante treinos; restrições mantidas como prevenção
-- **Atividade:** pedal MTB 3x/semana (2h, Z2, 7h–9h) + academia 3x/semana (1h, 19h–20h)
+- **Exames (RM ombro, cervical, dorsal):** ✅ REALIZADOS em 02/02/2026
+- **Fisioterapia (10 sessões prescritas):** ainda não iniciada — **URGENTE**
+- **Dor:** sem dor intensa durante treinos; restrições severas aplicadas após resultados
+- **Atividade:** pedal MTB 3x/semana (2h, Z2, 7h–9h) + academia 3x/semana (série adaptada para proteção do manguito)
 - **Suplementação:** whey protein
-- **Objetivo atual:** recomposição corporal
+- **Objetivo atual:** recuperação do ombro + manutenção da forma física
 
 ### Pendências prioritárias
-1. Realizar os exames de RM solicitados pelo ortopedista
-2. Iniciar fisioterapia prescrita (10 sessões)
-3. Retorno ao ortopedista com resultados
+1. ✅ ~~Realizar os exames de RM solicitados pelo ortopedista~~ (concluído 02/02/2026)
+2. 🔴 **URGENTE:** Iniciar fisioterapia prescrita (10 sessões) — foco no manguito rotador
+3. 🔴 **URGENTE:** Retorno ao ortopedista para discussão dos resultados e definição de conduta
+4. ⚠️ Realizar ultrassonografia de tireoide (achado incidental na RM cervical)
+5. Ajustar série de academia para fase de recuperação (FEITO)
 
 ---
 
 **Observação final:**
-Este documento serve como base para acompanhamento pessoal, discussão com fisioterapeuta e ajuste de treino. As restrições de ombro/coluna permanecem como prevenção até liberação clínica pós-exames.
+Este documento serve como base para acompanhamento pessoal, discussão com fisioterapeuta e ajuste de treino. As **restrições de ombro são OBRIGATÓRIAS** devido à rotura parcial confirmada. O retorno aos exercícios de ombro depende de liberação clínica pós-fisioterapia.
