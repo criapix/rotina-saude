@@ -1,328 +1,333 @@
 ---
 layout: default
-title: Resumo de Saúde - Coluna e Ombro
+title: Consolidação Clínica
 ---
 
-# Resumo de Saúde – Dor nas Costas e Ombro
+# Consolidação Clínica – Dor Torácica Mecânica
 
-## 1. Quem é o Paciente
+## 1. Contexto Geral
 
-* **Nome:** Patrick Santos Coelho
-* **O que aconteceu antes:**
-  * Fez ressonância da coluna torácica (meio das costas) em **2015**, quando era sedentário
-  * Hoje é ativo: pratica **musculação e ciclismo (MTB)**
-  * Queixas atuais: dor no meio das costas, desconforto ao dormir, dificuldade em alguns exercícios
+* **Paciente:** Patrick Santos Coelho
+* **Histórico relevante:**
 
----
-
-## 2. Exame de 2015 – Coluna do Meio das Costas
-
-**O que a ressonância mostrou:**
-
-* A coluna está alinhada corretamente
-* As vértebras (ossos da coluna) têm tamanho normal
-* O disco entre a 5ª e 6ª vértebra torácica está um pouco "secando" (desgaste natural)
-* Os outros discos também mostram leve desgaste
-* **NÃO há hérnia de disco, NÃO há nervos prensados, NÃO há problema na medula**
-
-**O que isso significa:**
-* Existe um desgaste leve e precoce, mas nada grave
-* A estrutura da coluna está intacta
-* Esse desgaste não explica sintomas mais sérios
+  * RM coluna dorsal em **2015** (sedentário)
+  * Atualmente ativo: **musculação + MTB**
+  * Queixas atuais: dor torácica, desconforto no sono, limitação em exercícios com carga axial
 
 ---
 
-## 3. O Que Você Está Sentindo Hoje
+## 2. Laudo de RM Torácica (2015 – Resumo Técnico)
+
+**Achados:**
+
+* Alinhamento vertebral normal
+* Altura dos corpos vertebrais preservada
+* **Desidratação discal degenerativa em D5–D6**, com discreta redução de altura
+* Discreta desidratação dos demais discos dorsais
+* **Sem hérnias, sem compressão neural, sem alteração medular**
+
+**Interpretação:**
+
+* Degeneração leve e precoce
+* Estrutura preservada
+* Não explica sintomas neurológicos importantes
+
+---
+
+## 3. Sintomas Atuais (Relato Detalhado)
 
 * **Dor:**
-  * Localizada no **meio das costas**
-  * Dor constante, que piora com movimento
 
+  * Localizada no **meio das costas (torácica média)**
+  * Dor constante, mecânica
 * **Sono:**
-  * A dor te acorda durante a noite
-  * Melhora quando muda de posição
-  * Pela manhã, sente rigidez que melhora rapidamente
 
+  * Dor desperta durante a noite
+  * Melhora ao mudar posição
+  * Rigidez matinal com melhora rápida
 * **Movimentos que pioram:**
-  * Girar o tronco (especialmente para a direita)
-  * Exercícios com peso sobre a coluna
 
-* **Exercícios que causavam crises (que você parou de fazer):**
-  * Levantamento terra (deadlift)
-  * Puxada inclinada sem apoio
+  * Rotação de tronco (principalmente para a direita)
+  * Exercícios com carga axial
+* **Exercícios que causavam crise (suspensos):**
+
+  * Deadlift
+  * Puxada inclinada sem banco
   * Tríceps francês
+* **Sintoma neurológico associado:**
 
-* **Sintoma nos nervos:**
-  * Teve dormência no **dedo mindinho da mão direita** (sinal de possível compressão de nervo)
-
----
-
-## 4. O Que Provavelmente Está Causando a Dor
-
-### O que parece ser o problema:
-
-* **Dor mecânica crônica no meio das costas** (causada por movimento/postura)
-* **Travamento de vértebras** na região do meio das costas (provável T5–T7)
-* **Problema na articulação entre costela e vértebra** do lado direito
-* **Compensação no pescoço** (a região cervical está "compensando" o problema nas costas)
-
-### O que NÃO parece ser:
-
-* Hérnia de disco grave
-* Problema na medula espinhal
-* Inflamação no corpo todo (como reumatismo)
+  * Episódio de dormência no **mindinho da mão direita** (território C8 / nervo ulnar)
 
 ---
 
-## 5. O Que o Ortopedista Disse
+## 4. Avaliação Funcional Integrada
 
-### Ele receitou:
+### Padrão compatível com:
+
+* **Dor torácica mecânica crônica**
+* **Hipomobilidade torácica segmentar (provável T5–T7)**
+* **Disfunção costo-vertebral unilateral (direita)**
+* **Compensação cervical (C7–T1)**
+
+### O que NÃO parece:
+
+* Hérnia torácica sintomática
+* Lesão medular
+* Processo inflamatório sistêmico
+
+---
+
+## 5. Avaliação do Ortopedista
+
+### Prescrição:
 
 * 10 sessões de **fisioterapia**
-* Tratamento para a **dor no ombro direito**
-* Suspeita de **impacto no ombro** (o osso "batendo" no tendão)
-* Fortalecimento dos músculos que seguram o ombro (manguito rotador)
+* Tratamento de **dor no ombro direito**
+* Suspeita de **síndrome do impacto**
+* Solicitação de fortalecimento do manguito rotador
 
-### Exames pedidos (todos feitos em 02/02/2026):
+### Exames solicitados:
 
-* ✅ Ressonância do ombro direito
-* ✅ Ressonância do pescoço (coluna cervical)
-* ✅ Ressonância do meio das costas (coluna torácica)
+* RM ombro direito ✅
+* RM coluna cervical ✅
+* RM coluna dorsal ✅
 
-### O que ele acertou:
+### Leitura crítica:
 
-* Viu que ombro, pescoço e meio das costas estão conectados
-* Tratou o ombro como consequência, não como a causa principal
-* **Confirmou a lesão no ombro** nos exames
-
----
-
-## 6. Resultados dos Exames (02/02/2026)
-
-### 6.1 Pescoço (Coluna Cervical)
-
-**O que o exame mostrou:**
-
-* A curva natural do pescoço está um pouco achatada
-* Pequenos "bicos de papagaio" (osteófitos) nos ossos
-* **Desgaste nos discos C5-C6 e C6-C7** (discos entre a 5ª/6ª e 6ª/7ª vértebra do pescoço) com sinais de inflamação
-* **Artrose nas articulações laterais** (desgaste nas "juntinhas" dos lados), diminuindo o espaço por onde passam os nervos
-* **Discos "secando" e ficando mais baixos** em C5-C6 e C6-C7
-* Pequenas saliências dos discos pressionando levemente o canal da medula
-* Canal por onde passa a medula está OK
-* Medula está normal
-
-**Achado extra:**
-* Foi visto um pequeno nódulo na tireoide → **precisa fazer ultrassom para investigar**
-
-**O que isso significa:**
-* Desgaste moderado no pescoço, concentrado em dois níveis
-* **Explica a dormência no mindinho** (os nervos daquela região controlam essa parte da mão)
-* A medula não está em perigo
+* Correta identificação de **cadeia ombro–cervical–torácica**
+* Ombro tratado como consequência, não como causa primária
+* **Confirmada síndrome do impacto** com rotura parcial do supraespinhal (laudo 02/02/2026)
 
 ---
 
-### 6.2 Meio das Costas (Coluna Torácica)
+## 6. Laudos de Ressonância Magnética (02/02/2026)
 
-**O que o exame mostrou:**
+### 6.1 RM Coluna Cervical
 
-* As vértebras têm tamanho normal
-* Pequenos "bicos de papagaio"
-* **Discos "secando"** de D3-D4 até D9-D10 (da 3ª até a 10ª vértebra torácica)
-* **NÃO há hérnias ou saliências importantes**
-* Espaço para nervos e medula está bom
-* Medula está normal
+**Achados principais:**
 
-**O que isso significa:**
-* Desgaste leve a moderado no meio das costas
-* **Está estável desde 2015** — não piorou
-* A dor é mais por **travamento e falta de movimento** do que por problema grave nos discos
-* Mobilidade e fisioterapia são o caminho
+* Retificação/mínima inversão da lordose cervical
+* Osteófitos marginais nos corpos vertebrais
+* **Alterações degenerativas em C5-C6 e C6-C7** com focos de edema ósseo (Modic I)
+* **Uncoartrose bilateral em C5-C6 e C6-C7** com redução da amplitude dos forames neurais correspondentes
+* **Discopatia degenerativa** com desidratação e redução de altura discal em C5-C6 e C6-C7
+* Protrusão discal central em C2-C3 (discreta indentação dural)
+* Protrusão disco-osteofitária em C3-C4 (leve indentação dural)
+* **Protrusões disco-osteofitárias em C5-C6 e C6-C7** (maior à esquerda em C5-C6) comprimindo face anterior do saco dural
+* Canal raquiano sem estenose significativa
+* Medula cervical de espessura e sinal normais
 
----
+**Achado incidental:**
+* Imagem ovalada hiperintensa no lobo direito da tireoide → **requer ultrassonografia**
 
-### 6.3 Ombro Direito
-
-**O que o exame mostrou:**
-
-* **Formato do osso do ombro (acrômio) tipo II** — esse formato aumenta a chance de atrito
-* **RASGO PARCIAL no tendão do supraespinhal**:
-  * Localização: nas fibras do meio, perto de onde o tendão gruda no osso
-  * Tamanho: ~1 cm
-  * Distância do osso: ~0,6 cm
-* **Inflamação e edema no osso** onde o tendão se conecta
-* **Inflamação nos outros tendões do manguito** (subescapular e infraespinhal)
-* **Bursite leve** (inflamação da "bolsinha" que protege o ombro)
-* Outras estruturas do ombro estão normais
-
-**O que isso significa:**
-* **SÍNDROME DO IMPACTO CONFIRMADA** — o osso está "batendo" no tendão
-* **Existe uma lesão real no tendão** — precisa de tratamento específico
-* 3 dos 4 tendões que seguram o ombro estão comprometidos
-* A inflamação no osso mostra que o processo está ativo
+**Interpretação:**
+* Doença degenerativa cervical moderada, concentrada em C5-C6 e C6-C7
+* Correlaciona com o episódio de dormência no mindinho (território C8/ulnar)
+* Sem comprometimento medular significativo
 
 ---
 
-## 7. Diagnóstico Final (Fevereiro/2026)
+### 6.2 RM Coluna Dorsal (Torácica)
 
-### O que você tem:
+**Achados principais:**
 
-1. **Síndrome do Impacto no Ombro Direito** com rasgo parcial do tendão supraespinhal
-2. **Desgaste nos discos do pescoço** (C5-C6 e C6-C7) com saliências que pressionam levemente
-3. **Desgaste leve nos discos do meio das costas** (D3-D10) — problema principal é travamento/falta de movimento
+* Corpos vertebrais com altura preservada
+* Discretos osteófitos marginais
+* **Desidratação parcial dos discos de D3-D4 a D9-D10**
+* **Sem protrusões discais significativas**
+* Canal raquiano e forames neurais dorsais com boa amplitude
+* Medula dorsal de espessura e sinal normais
 
-### Como os problemas se conectam:
-
-* A **dormência no mindinho direito** é por causa do desgaste no pescoço (os nervos de lá vão para essa mão)
-* A **dor no meio das costas** tem um pouco de desgaste, mas o problema principal é travamento e falta de mobilidade
-* O **ombro direito** tem uma lesão de verdade (rasgo parcial) que precisa de cuidado
-
-> **Resumo:** Lesão real no tendão do ombro + desgaste nos discos do pescoço e costas + travamento nas costas causando dor
+**Interpretação:**
+* Degeneração discal leve a moderada na região torácica média (D3-D10)
+* **Achados estáveis/comparáveis ao exame de 2015**
+* Confirma origem **funcional** da dor torácica (não estrutural grave)
+* Hipomobilidade e rigidez segmentar permanecem como hipótese principal
 
 ---
 
-## 8. O Que Você Deve Fazer (Restrições)
+### 6.3 RM Ombro Direito
 
-### ⚠️ PROIBIDO — OMBRO DIREITO (Tendão Rasgado)
+**Achados principais:**
 
-* **PARE COMPLETAMENTE:**
-  * Exercícios com braço acima da cabeça (ou acima de 90°)
-  * Supino (com barra ou halteres)
-  * Crucifixo / voador
+* **Acrômio tipo II de Bigliani** (morfologia que predispõe ao impacto)
+* **Tendinose do supraespinhal com ROTURA PARCIAL BURSAL**:
+  * Localização: subtotal justainsercional das fibras médias
+  * Dimensão: ~1,0 cm no eixo anteroposterior
+  * Distância da tuberosidade maior: ~0,6 cm
+* **Formação cística subcortical** e **edema ósseo** na tuberosidade maior (osteíte reacional)
+* **Tendinose do subescapular e infraespinhal** (manguito rotador comprometido)
+* **Bursite subacromial-deltoidea leve**
+* Articulações acrômio-clavicular e glenoumeral sem alterações
+* Sem derrame articular significativo
+* Labro glenoide preservado
+
+**Interpretação:**
+* **SÍNDROME DO IMPACTO CONFIRMADA** com lesão estabelecida do manguito rotador
+* Rotura parcial do supraespinhal é achado significativo que requer tratamento específico
+* Comprometimento de 3 tendões do manguito (supraespinhal, subescapular, infraespinhal)
+* Osteíte reacional indica processo inflamatório/degenerativo ativo
+
+---
+
+## 7. Diagnóstico Integrado (Atualizado Fev/2026)
+
+### Diagnósticos Confirmados:
+
+1. **Síndrome do Impacto do Ombro Direito** com rotura parcial do supraespinhal
+2. **Discopatia Degenerativa Cervical** (C5-C6 e C6-C7) com protrusões e compressão dural
+3. **Discopatia Degenerativa Torácica** leve (D3-D10) — componente funcional predominante
+
+### Correlação Clínica:
+
+* A **dormência no mindinho direito** correlaciona com a degeneração cervical em C5-C6/C6-C7 (território C8)
+* A **dor torácica mecânica** tem base degenerativa leve, mas componente funcional (hipomobilidade) importante
+* O **ombro direito** tem lesão estrutural real (rotura parcial) que justifica restrições específicas
+
+> **Diagnóstico atualizado:** Síndrome do impacto com rotura parcial do manguito + discopatia cervicotorácica degenerativa + hipomobilidade funcional segmentar
+
+---
+
+## 8. Conduta Atualizada (Pós-Exames Fev/2026)
+
+### ⚠️ RESTRIÇÕES CRÍTICAS — OMBRO DIREITO (Rotura Parcial do Manguito)
+
+* **SUSPENDER COMPLETAMENTE:**
+  * Exercícios overhead (elevação acima de 90°)
+  * Supino com barra ou halteres
+  * Crucifixo / fly
   * Remada alta
   * Desenvolvimento (shoulder press)
-  * Qualquer movimento que dê dor no ombro
+  * Qualquer movimento que cause dor no ombro
 
-* **PODE FAZER COM CUIDADO:**
-  * Rotação externa com elástico/cabo (peso LEVE, para estabilizar)
-  * Face pull (peso leve, sem forçar)
-  * Remada sentada com mãos paralelas (cotovelos junto ao corpo)
+* **PERMITIDO COM CAUTELA:**
+  * Rotação externa com elástico/cabo (carga LEVE, foco em estabilização)
+  * Face pull (carga leve, sem compensação)
+  * Remada sentada com pegada neutra (cotovelos junto ao corpo)
 
-### Restrições para a Coluna (Pescoço + Costas)
+### Restrições da Coluna (Cervical + Torácica)
 
-* Evitar exercícios em pé com muito peso sobre a coluna
-* Evitar movimentos que giram + têm peso junto
-* Evitar exercícios sem apoio nas costas
-* Evitar jogar o pescoço para trás
+* Evitar exercícios em pé com carga axial pesada
+* Evitar movimentos com rotação + carga
+* Evitar exercícios sem apoio de tronco
+* Evitar extensão cervical forçada
 
-### O que pode continuar fazendo
+### O que manter
 
 * Exercícios com **peito apoiado** ou sentado
-* Puxadas sentadas
-* Pesos moderados, focando em controle
-* Pernas: sem restrição (hack, leg press, cadeira extensora, mesa flexora)
+* Puxadas sentadas (neutra ou pronada)
+* Cargas moderadas, foco em controle
+* Membros inferiores: sem restrição (hack, leg press, extensora, flexora)
 
 ---
 
-## 9. Exercícios de Mobilidade para Fazer Todo Dia (10 minutos)
+## 8. Protocolo Diário de Mobilidade Torácica (10 minutos)
 
-### 1. Extensão das costas apoiada
+### 1. Extensão torácica apoiada
 
-* Coloque uma toalha enrolada ou rolo no meio das costas
-* Faça 10–12 repetições devagar
+* Toalha ou rolo no meio das costas
+* 10–12 repetições lentas
 
-### 2. Rotação deitado de lado (Open Book)
+### 2. Rotação torácica em decúbito lateral (Open Book)
 
-* Deitado de lado, gire abrindo o braço de cima
-* 8–10 repetições de cada lado
-* Dê mais atenção ao lado que dói
+* 8–10 repetições por lado
+* Ênfase no lado sintomático
 
-### 3. Respiração profunda de quatro apoios
+### 3. Mobilidade torácica com respiração costal (quatro apoios)
 
-* Fique de quatro (mãos e joelhos no chão)
-* Respire fundo expandindo as costelas
-* 8–10 respirações
+* 8–10 ciclos respiratórios
 
-### 4. Rotação sentado
+### 4. Rotação sentada controlada
 
-* Sentado em uma cadeira, gire o tronco devagar
-* 6–8 repetições para cada lado
+* 6–8 repetições por lado
 
 **Regras:**
 
 * Sem dor
 * Sem pressa
-* Sem peso
+* Sem carga
 
 ---
 
-## 10. Vídeos de Exercícios
+## 9. Vídeos de Referência (Mobilidade Torácica)
 
-* **Extensão e rotação das costas – básico:**
+* **Extensão e rotação torácica – básico:**
+
   * [https://www.youtube.com/watch?v=Tn46NVrfgxY](https://www.youtube.com/watch?v=Tn46NVrfgxY)
+* **Rotina curta de mobilidade T-spine:**
 
-* **Rotina curta de mobilidade das costas:**
   * [https://www.youtube.com/watch?v=0OgCdUpVI7Y](https://www.youtube.com/watch?v=0OgCdUpVI7Y)
-
 * Pesquisar também por:
-  * "exercícios mobilidade torácica"
-  * "alongamento coluna"
+
+  * "thoracic mobility exercises"
+  * "T-spine mobility"
 
 ---
 
-## 11. Como Saber Se Está Melhorando
+## 10. Critérios de Evolução
 
-### Sinais bons:
+### Sinais de melhora
 
 * Menos dor ao dormir
-* Consegue girar o corpo igual para os dois lados
-* Menos desconforto depois do treino
+* Rotação mais simétrica
+* Menor sensibilidade pós-treino
 
-### Quando procurar o médico de novo:
+### Quando investigar mais
 
-* Dor que não melhora em 6 semanas
-* Novos episódios de dormência nos braços/mãos
-* Dor que aumenta à noite (mesmo sem fazer nada)
-
----
-
-## 12. Resumo Final (Fevereiro 2026)
-
-* **OMBRO:** Tem um rasgo parcial confirmado — lesão real que precisa de fisioterapia e possivelmente avaliação para cirurgia
-* **PESCOÇO:** Desgaste moderado nos discos com saliências que pressionam nervos; explica a dormência
-* **MEIO DAS COSTAS:** Desgaste leve; o problema principal é **travamento** — mobilidade e fisioterapia resolvem
-* Fazer força sem mobilidade e movimentos repetidos acima do ombro pioraram tudo
-* **Fisioterapia é URGENTE** para não piorar a lesão do ombro
+* Persistência > 6 semanas sem melhora
+* Novos episódios neurológicos
+* Aumento da dor noturna
 
 ---
 
-## 13. Evolução do Corpo (Bioimpedância)
+## 11. Conclusão (Atualizada Fev/2026)
 
-| Data | Peso | Gordura | Massa Magra | Metabolismo Basal |
-|---|---|---|---|---|
-| 24/08/2025 | 78,0 kg | 11,7% | 65,1 kg | 1717 kcal |
-| 15/10/2025 | 77,8 kg | 13,9% | 62,3 kg | 1707 kcal |
-| 02/11/2025 | 78,3 kg | 14,1% | 62,6 kg | 1714 kcal |
-| 16/11/2025 | 78,0 kg | 14,3% | 62,2 kg | 1710 kcal |
-| 11/01/2026 | 80,3 kg | 15,9% | 62,8 kg | 1741 kcal |
-| 25/01/2026 | 78,8 kg | 14,0% | 63,1 kg | 1721 kcal |
-
-**O que isso mostra:**
-- Massa magra estável em ~63 kg (a primeira medição pode ter sido afetada por hidratação)
-- Gordura oscilou entre 14–16%, hoje está em ~14%
-- Peso subiu em janeiro (80,3 kg) mas voltou em 2 semanas
-- Metabolismo basal estável ~1710–1720 kcal (o que seu corpo gasta em repouso)
+* **OMBRO:** Rotura parcial do supraespinhal confirmada — lesão estrutural significativa que requer fisioterapia específica e possível avaliação cirúrgica
+* **CERVICAL:** Discopatia degenerativa moderada em C5-C6/C6-C7 com compressão dural; explica sintomas neurológicos (dormência)
+* **TORÁCICA:** Degeneração leve; componente **funcional predominante** — mobilidade + fisioterapia são o eixo do tratamento
+* Força sem mobilidade e movimentos repetitivos acima de 90° foram fatores agravantes
+* **Fisioterapia é URGENTE** para evitar progressão da lesão do manguito
 
 ---
 
-## 14. Situação Atual (Fevereiro 2026)
+---
 
-- **Exames de ressonância:** ✅ FEITOS em 02/02/2026
-- **Fisioterapia (10 sessões):** ainda não começou — **URGENTE**
-- **Dor:** sem dor forte durante os treinos; restrições aplicadas após os resultados
-- **Atividades:** pedal de MTB 3x/semana (2h, intensidade leve) + academia 3x/semana (série adaptada)
+## 12. Evolução da Composição Corporal (Bioimpedância)
+
+| Data | Peso (kg) | BF% | FM (kg) | FFM (kg) | TMB (kcal) | VFL |
+|---|---|---|---|---|---|---|
+| 24/08/2025 | 78,0 | 11,7% | 9,2 | 65,1 | 1717 | 4 |
+| 15/10/2025 | 77,8 | 13,9% | 10,8 | 62,3 | 1707 | 5 |
+| 02/11/2025 | 78,3 | 14,1% | 11,0 | 62,6 | 1714 | 5 |
+| 16/11/2025 | 78,0 | 14,3% | 11,2 | 62,2 | 1710 | 5 |
+| 11/01/2026 | 80,3 | 15,9% | 12,7 | 62,8 | 1741 | 5 |
+| 25/01/2026 | 78,8 | 14,0% | 11,0 | 63,1 | 1721 | 5 |
+
+**Análise da tendência:**
+- FFM estabilizou em ~63 kg (queda de ~2 kg em relação a ago/2025 — possível variação de hidratação na primeira medição)
+- BF oscilou entre 14–16%; atualmente ~14%
+- Pico de peso em jan/2026 (80,3 kg) revertido em 2 semanas
+- TMB estável ~1710–1720 kcal
+
+---
+
+## 13. Status Atual (Fevereiro 2026)
+
+- **Exames (RM ombro, cervical, dorsal):** ✅ REALIZADOS em 02/02/2026
+- **Fisioterapia (10 sessões prescritas):** ainda não iniciada — **URGENTE**
+- **Dor:** sem dor intensa durante treinos; restrições severas aplicadas após resultados
+- **Atividade:** pedal MTB 3x/semana (2h, Z2, 7h–9h) + academia 3x/semana (série adaptada para proteção do manguito)
 - **Suplementação:** whey protein
-- **Objetivo atual:** recuperar o ombro + manter a forma física
+- **Objetivo atual:** recuperação do ombro + manutenção da forma física
 
-### O Que Precisa Fazer (Por Ordem de Prioridade)
-
-1. ✅ ~~Fazer os exames de ressonância~~ (concluído 02/02/2026)
-2. 🔴 **URGENTE:** Começar fisioterapia (10 sessões) — foco no ombro
-3. 🔴 **URGENTE:** Voltar no ortopedista para discutir resultados e próximos passos
-4. ⚠️ Fazer ultrassom da tireoide (achado durante o exame do pescoço)
-5. Ajustar série da academia para fase de recuperação (FEITO)
+### Pendências prioritárias
+1. ✅ ~~Realizar os exames de RM solicitados pelo ortopedista~~ (concluído 02/02/2026)
+2. 🔴 **URGENTE:** Iniciar fisioterapia prescrita (10 sessões) — foco no manguito rotador
+3. 🔴 **URGENTE:** Retorno ao ortopedista para discussão dos resultados e definição de conduta
+4. ⚠️ Realizar ultrassonografia de tireoide (achado incidental na RM cervical)
+5. Ajustar série de academia para fase de recuperação (FEITO)
 
 ---
 
 **Observação final:**
-Este documento é para você acompanhar sua saúde, conversar com o fisioterapeuta e ajustar os treinos. As **restrições do ombro são OBRIGATÓRIAS** por causa do rasgo no tendão. Só pode voltar a fazer exercícios de ombro quando o médico ou fisioterapeuta liberar.
+Este documento serve como base para acompanhamento pessoal, discussão com fisioterapeuta e ajuste de treino. As **restrições de ombro são OBRIGATÓRIAS** devido à rotura parcial confirmada. O retorno aos exercícios de ombro depende de liberação clínica pós-fisioterapia.
