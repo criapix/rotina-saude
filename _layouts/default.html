@@ -2,12 +2,20 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>{{ page.title }} — {{ site.title }}</title>
+  <meta name="theme-color" content="#0f172a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="manifest" href="{{ '/manifest.json' | relative_url }}">
+  <link rel="icon" href="{{ '/icon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="{{ '/icon.svg' | relative_url }}">
   <style>
     :root {
       --sidebar-w: 260px;
       --header-h: 48px;
+      --safe-top: env(safe-area-inset-top, 0px);
+      --safe-bottom: env(safe-area-inset-bottom, 0px);
       --bg: #f8fafc;
       --bg-sidebar: #1e293b;
       --bg-header: #0f172a;
@@ -29,15 +37,17 @@
       color: var(--text);
       background: var(--bg);
       line-height: 1.6;
+      overscroll-behavior-y: contain;
     }
 
     /* Header */
     .header {
       position: fixed; top: 0; left: 0; right: 0;
-      height: var(--header-h);
+      height: calc(var(--header-h) + var(--safe-top));
+      padding-top: var(--safe-top);
       background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
       display: flex; align-items: center;
-      padding: 0 16px;
+      padding-left: 16px; padding-right: 16px;
       z-index: 100;
       box-shadow: 0 2px 8px rgba(0,0,0,0.15);
     }
@@ -62,13 +72,16 @@
       display: flex; align-items: center; justify-content: center;
       border-radius: 6px;
       flex-shrink: 0;
+      -webkit-tap-highlight-color: transparent;
     }
     .menu-btn:hover { background: rgba(255,255,255,0.1); }
     .menu-btn svg { width: 22px; height: 22px; }
 
     /* Sidebar */
     .sidebar {
-      position: fixed; top: var(--header-h); left: 0; bottom: 0;
+      position: fixed;
+      top: calc(var(--header-h) + var(--safe-top));
+      left: 0; bottom: 0;
       width: var(--sidebar-w);
       background: var(--bg-sidebar);
       transform: translateX(-100%);
@@ -76,18 +89,21 @@
       z-index: 90;
       overflow-y: auto;
       padding: 20px 0;
+      padding-bottom: calc(20px + var(--safe-bottom));
+      -webkit-overflow-scrolling: touch;
     }
     .sidebar.open { transform: translateX(0); }
     .sidebar-nav a {
       display: flex;
       align-items: center;
       gap: 10px;
-      padding: 11px 20px;
+      padding: 12px 20px;
       color: var(--text-sidebar);
       text-decoration: none;
       font-size: 0.88rem;
       border-left: 3px solid transparent;
       transition: all 0.15s;
+      -webkit-tap-highlight-color: transparent;
     }
     .sidebar-nav a:hover {
       background: rgba(255,255,255,0.05);
@@ -129,13 +145,15 @@
 
     /* Main */
     .main {
-      margin-top: var(--header-h);
-      padding: 32px 24px 64px;
+      margin-top: calc(var(--header-h) + var(--safe-top));
+      padding: 32px 24px;
+      padding-bottom: calc(64px + var(--safe-bottom));
       max-width: 860px;
       margin-left: auto;
       margin-right: auto;
-      transition: margin-left 0.25s ease;
+      transition: opacity 0.2s ease, transform 0.2s ease, margin-left 0.25s ease;
     }
+    .main.fading { opacity: 0; transform: translateY(8px); }
 
     /* Desktop */
     @media (min-width: 769px) {
@@ -292,10 +310,7 @@
     var main = document.getElementById('main');
     var isDesktop = window.innerWidth >= 769;
 
-    // Desktop: start open. Mobile: start closed.
-    if (isDesktop) {
-      sidebar.classList.add('open');
-    }
+    if (isDesktop) sidebar.classList.add('open');
 
     function toggleSidebar() {
       if (isDesktop) {
@@ -317,6 +332,88 @@
         if (isDesktop) sidebar.classList.add('open');
       }
     });
+
+    /* ── SPA Navigation ── */
+    var pageCache = {};
+    var navigating = false;
+
+    function normPath(url) {
+      return decodeURIComponent(new URL(url, location.href).pathname).replace(/\/+$/, '') || '/';
+    }
+
+    pageCache[normPath(location.href)] = { html: main.innerHTML, title: document.title };
+
+    function updateActive(url) {
+      var path = normPath(url);
+      document.querySelectorAll('.sidebar-nav a').forEach(function(a) {
+        if (normPath(a.href) === path) {
+          a.classList.add('active');
+        } else {
+          a.classList.remove('active');
+        }
+      });
+    }
+
+    function navigateTo(url, push) {
+      if (navigating) return;
+      var key = normPath(url);
+      if (key === normPath(location.href) && push !== false) return;
+
+      navigating = true;
+      main.classList.add('fading');
+
+      function render(data) {
+        setTimeout(function() {
+          main.innerHTML = data.html;
+          document.title = data.title;
+          window.scrollTo(0, 0);
+          if (push !== false) history.pushState(null, '', url);
+          updateActive(url);
+          if (!isDesktop && sidebar.classList.contains('open')) toggleSidebar();
+          main.classList.remove('fading');
+          navigating = false;
+        }, 200);
+      }
+
+      if (pageCache[key]) {
+        render(pageCache[key]);
+      } else {
+        fetch(url).then(function(r) { return r.text(); }).then(function(html) {
+          var doc = new DOMParser().parseFromString(html, 'text/html');
+          var m = doc.getElementById('main');
+          var t = doc.querySelector('title');
+          if (m) {
+            var data = { html: m.innerHTML, title: t ? t.textContent : document.title };
+            pageCache[key] = data;
+            render(data);
+          } else {
+            location.href = url;
+          }
+        }).catch(function() { location.href = url; });
+      }
+    }
+
+    document.addEventListener('click', function(e) {
+      var link = e.target.closest('a');
+      if (!link) return;
+      var href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#') return;
+      try {
+        var dest = new URL(href, location.href);
+        if (dest.origin !== location.origin) return;
+        e.preventDefault();
+        navigateTo(dest.href);
+      } catch(ex) {}
+    });
+
+    window.addEventListener('popstate', function() {
+      navigateTo(location.href, false);
+    });
+
+    /* ── Service Worker ── */
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('{{ "/sw.js" | relative_url }}');
+    }
   </script>
 </body>
 </html>

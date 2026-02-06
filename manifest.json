@@ -1,0 +1,18 @@
+{
+  "name": "Rotina de Saúde — Patrick",
+  "short_name": "Rotina Saúde",
+  "description": "Saúde, treino, nutrição e ciclismo",
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
