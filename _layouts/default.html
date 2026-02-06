@@ -8,14 +8,19 @@
     :root {
       --sidebar-w: 260px;
       --header-h: 48px;
-      --bg: #fff;
+      --bg: #f8fafc;
       --bg-sidebar: #1e293b;
       --bg-header: #0f172a;
       --text: #1e293b;
       --text-light: #94a3b8;
-      --text-sidebar: #e2e8f0;
+      --text-sidebar: #cbd5e1;
       --accent: #3b82f6;
       --border: #e2e8f0;
+      --color-gym: #3b82f6;
+      --color-nutrition: #10b981;
+      --color-cycling: #f59e0b;
+      --color-health: #8b5cf6;
+      --color-home: #64748b;
     }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     html { font-size: 16px; }
@@ -30,10 +35,11 @@
     .header {
       position: fixed; top: 0; left: 0; right: 0;
       height: var(--header-h);
-      background: var(--bg-header);
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
       display: flex; align-items: center;
       padding: 0 16px;
       z-index: 100;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
     }
     .header-title {
       color: #fff;
@@ -43,6 +49,11 @@
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
+    }
+    .header-icon {
+      width: 20px; height: 20px;
+      margin-left: 12px;
+      flex-shrink: 0;
     }
     .menu-btn {
       background: none; border: none;
@@ -68,11 +79,13 @@
     }
     .sidebar.open { transform: translateX(0); }
     .sidebar-nav a {
-      display: block;
-      padding: 10px 24px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 11px 20px;
       color: var(--text-sidebar);
       text-decoration: none;
-      font-size: 0.9rem;
+      font-size: 0.88rem;
       border-left: 3px solid transparent;
       transition: all 0.15s;
     }
@@ -81,16 +94,27 @@
       color: #fff;
     }
     .sidebar-nav a.active {
-      border-left-color: var(--accent);
       color: #fff;
       background: rgba(255,255,255,0.08);
       font-weight: 600;
     }
+    .sidebar-nav a.active.nav-home { border-left-color: var(--color-home); }
+    .sidebar-nav a.active.nav-gym { border-left-color: var(--color-gym); }
+    .sidebar-nav a.active.nav-nutrition { border-left-color: var(--color-nutrition); }
+    .sidebar-nav a.active.nav-cycling { border-left-color: var(--color-cycling); }
+    .sidebar-nav a.active.nav-health { border-left-color: var(--color-health); }
+    .sidebar-nav .nav-icon {
+      width: 18px; height: 18px;
+      flex-shrink: 0;
+      opacity: 0.7;
+    }
+    .sidebar-nav a:hover .nav-icon,
+    .sidebar-nav a.active .nav-icon { opacity: 1; }
     .sidebar-label {
-      padding: 8px 24px 4px;
-      font-size: 0.7rem;
+      padding: 8px 20px 6px;
+      font-size: 0.68rem;
       text-transform: uppercase;
-      letter-spacing: 0.08em;
+      letter-spacing: 0.1em;
       color: var(--text-light);
     }
 
@@ -142,13 +166,13 @@
       border: 1px solid var(--border);
       text-align: left;
     }
-    .main th { background: #f8fafc; font-weight: 600; white-space: nowrap; }
+    .main th { background: #f1f5f9; font-weight: 600; white-space: nowrap; }
     .main tr:hover td { background: #f8fafc; }
     .main blockquote {
       margin: 12px 0;
       padding: 12px 16px;
       border-left: 4px solid var(--accent);
-      background: #f0f9ff;
+      background: #eff6ff;
       border-radius: 0 6px 6px 0;
       font-size: 0.92rem;
     }
@@ -163,23 +187,46 @@
     .main a { color: var(--accent); text-decoration: none; }
     .main a:hover { text-decoration: underline; }
 
-    /* Index page */
+    /* Index page — doc-links cards */
     .main .doc-links { list-style: none; padding: 0; }
     .main .doc-links li { margin: 0; }
     .main .doc-links a {
-      display: block;
-      padding: 14px 16px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 16px 18px;
+      background: #fff;
       border: 1px solid var(--border);
-      border-radius: 8px;
-      margin: 8px 0;
-      transition: all 0.15s;
+      border-radius: 10px;
+      margin: 10px 0;
+      transition: all 0.2s;
       font-weight: 500;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
     }
     .main .doc-links a:hover {
-      background: #f0f9ff;
-      border-color: var(--accent);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
       text-decoration: none;
     }
+    .main .doc-links .card-icon {
+      width: 40px; height: 40px;
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+    }
+    .main .doc-links .card-icon svg { width: 22px; height: 22px; }
+    .main .doc-links .card-icon.gym { background: #dbeafe; color: var(--color-gym); }
+    .main .doc-links .card-icon.nutrition { background: #d1fae5; color: var(--color-nutrition); }
+    .main .doc-links .card-icon.cycling { background: #fef3c7; color: var(--color-cycling); }
+    .main .doc-links .card-icon.health { background: #ede9fe; color: var(--color-health); }
+    .main .doc-links a:hover .card-icon.gym { background: var(--color-gym); color: #fff; }
+    .main .doc-links a:hover .card-icon.nutrition { background: var(--color-nutrition); color: #fff; }
+    .main .doc-links a:hover .card-icon.cycling { background: var(--color-cycling); color: #fff; }
+    .main .doc-links a:hover .card-icon.health { background: var(--color-health); color: #fff; }
+    .main .doc-links .card-text { display: flex; flex-direction: column; }
+    .main .doc-links .card-title { font-size: 0.95rem; color: var(--text); }
+    .main .doc-links .card-desc { font-size: 0.78rem; color: var(--text-light); font-weight: 400; margin-top: 2px; }
+    .main .doc-links a:hover .card-title { color: var(--accent); }
   </style>
 </head>
 <body>
@@ -191,17 +238,45 @@
         <line x1="3" y1="18" x2="21" y2="18"/>
       </svg>
     </button>
+    <svg class="header-icon" viewBox="0 0 24 24" fill="none" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78z"/>
+    </svg>
     <span class="header-title">{{ site.title }}</span>
   </header>
 
   <nav class="sidebar" id="sidebar">
     <div class="sidebar-label">Documentos</div>
     <div class="sidebar-nav">
-      <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Início</a>
-      <a href="{{ '/serie-academia' | relative_url }}" {% if page.title == 'Série de Musculação' %}class="active"{% endif %}>Série de Musculação</a>
-      <a href="{{ '/Recomendação nutricional/Plano nutricional' | relative_url }}" {% if page.title == 'Plano Nutricional' %}class="active"{% endif %}>Plano Nutricional</a>
-      <a href="{{ '/Pedal/Rotina de pedaladas' | relative_url }}" {% if page.title == 'Rotina de Pedaladas' %}class="active"{% endif %}>Rotina de Pedaladas</a>
-      <a href="{{ '/dados-saude' | relative_url }}" {% if page.title == 'Consolidação Clínica' %}class="active"{% endif %}>Consolidação Clínica</a>
+      <a href="{{ '/' | relative_url }}" class="nav-home {% if page.url == '/' %}active{% endif %}">
+        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
+        </svg>
+        Inicio
+      </a>
+      <a href="{{ '/serie-academia' | relative_url }}" class="nav-gym {% if page.title == 'Série de Musculação' %}active{% endif %}">
+        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6.5 6.5h-2a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h2"/><path d="M17.5 6.5h2a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1h-2"/><rect x="6.5" y="4" width="2" height="16" rx="1"/><rect x="15.5" y="4" width="2" height="16" rx="1"/><line x1="8.5" y1="12" x2="15.5" y2="12"/>
+        </svg>
+        Musculacao
+      </a>
+      <a href="{{ '/Recomendação nutricional/Plano nutricional' | relative_url }}" class="nav-nutrition {% if page.title == 'Plano Nutricional' %}active{% endif %}">
+        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/>
+        </svg>
+        Nutricao
+      </a>
+      <a href="{{ '/Pedal/Rotina de pedaladas' | relative_url }}" class="nav-cycling {% if page.title == 'Rotina de Pedaladas' %}active{% endif %}">
+        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="5.5" cy="17.5" r="3.5"/><circle cx="18.5" cy="17.5" r="3.5"/><path d="M15 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" fill="currentColor"/><path d="M12 17.5V14l-3-3 4-3 2 3h3"/>
+        </svg>
+        Pedaladas
+      </a>
+      <a href="{{ '/dados-saude' | relative_url }}" class="nav-health {% if page.title == 'Consolidação Clínica' %}active{% endif %}">
+        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+        </svg>
+        Saude
+      </a>
     </div>
   </nav>
 
