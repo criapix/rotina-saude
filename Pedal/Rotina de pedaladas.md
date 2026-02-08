@@ -8,10 +8,22 @@ title: Rotina de Pedaladas
 ## Dados atuais (fev/2026)
 - Frequência: 3x por semana
 - Modalidade: MTB predominante, esporadicamente speed
-- Duração: 2 horas por sessão
+- Duração: 2 horas por sessão (1h30 na 1a semana de retorno)
 - Intensidade: zona 2 (aeróbico confortável)
 - Horário: 7h às 9h
 - Gasto calórico estimado: ~1000 kcal por sessão
+
+## Protocolo de Retorno (após 3 semanas parado)
+
+> **Semana 1 (09–15/02):** pedal 1h30, Z1-Z2 leve, sem forçar. Foco em retomar o hábito.
+>
+> **Semana 2 (16–22/02):** pedal 1h45, Z2. Aumentar levemente intensidade.
+>
+> **Semana 3+ :** retorno ao volume normal (2h, Z2).
+
+- **Nutrição no retorno:** manter calorias de dia duplo/pedal normais mesmo com volume reduzido (priorizar reconstrução muscular)
+- **Hidratação reforçada:** 500–800ml/h com sódio durante + 3,5L/dia total
+- **Whey pós-pedal obrigatório:** 30g + banana dentro de 30min após desmontar
 
 ---
 
@@ -57,17 +69,20 @@ title: Rotina de Pedaladas
 ---
 
 ## Integração com a rotina
-- Dias alternados com academia (ver serie-academia.md)
-- Não pedalar e malhar no mesmo dia (exceto mobilidade leve)
+- Ter/Qui: dias duplos (pedal manhã + academia tarde) — seguir calorias de dia duplo
+- Sex: pedal apenas
+- Seg: academia apenas
 - Nutrição pré/durante/pós-ride: ver Plano nutricional.md
+- **Whey 30g + banana imediatamente pós-pedal** — não esperar o almoço
 
 ---
 
 ## Observações
 - Pedal gera volume significativo para quadríceps; musculação foca posterior chain e upper body
 - Manter hidratação com eletrólitos durante o pedal (500–700 mg sódio/L)
-- Se houver fadiga acumulada do pedal, reduzir intensidade na academia (não o contrário)
+- Se houver fadiga acumulada do pedal, reduzir intensidade na academia nos **acessórios** (manter compostos de perna)
 - **Pós-pedal:** Fazer mobilidade torácica e cervical leve (Open Book, rotação cervical suave)
+- **Atenção à hidratação:** TBW caiu para 44,7 L na última bioimpedância — reforçar ingestão hídrica
 
 ---
 

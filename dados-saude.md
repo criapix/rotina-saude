@@ -302,32 +302,44 @@ title: Consolidação Clínica
 | 16/11/2025 | 78,0 | 14,3% | 11,2 | 62,2 | 1710 | 5 |
 | 11/01/2026 | 80,3 | 15,9% | 12,7 | 62,8 | 1741 | 5 |
 | 25/01/2026 | 78,8 | 14,0% | 11,0 | 63,1 | 1721 | 5 |
+| **08/02/2026** | **77,8** | **15,6%** | **12,1** | **61,1** | **1707** | **5** |
 
-**Análise da tendência:**
-- FFM estabilizou em ~63 kg (queda de ~2 kg em relação a ago/2025 — possível variação de hidratação na primeira medição)
-- BF oscilou entre 14–16%; atualmente ~14%
-- Pico de peso em jan/2026 (80,3 kg) revertido em 2 semanas
-- TMB estável ~1710–1720 kcal
+**Análise da tendência (atualizada 08/02/2026):**
+- **FFM caiu para 61,1 kg — menor valor registrado** (perda de 2,0 kg de massa magra em 2 semanas)
+- BF subiu para 15,6% (+1,6% em 2 semanas); FM aumentou 1,1 kg
+- TBW caiu para 44,7 L (-1,5 L) — sugere componente de desidratação na perda de FFM
+- Peso voltou a 77,8 kg, mas com composição corporal pior que em outubro/2025
+- Perda de massa magra concentrada no tronco (-1,5 kg) — compatível com restrição de treino superior
+- Recomposição no sentido errado: perdeu músculo e ganhou gordura ao mesmo peso
+- **Causa principal:** destreinamento nas últimas 3 semanas (pouca academia e pouco pedal) + restrições de ombro que já limitavam treino superior
+- **Retorno programado:** 09/02/2026 — retomada gradual de pedal e academia
+- **Ações tomadas:** proteína aumentada para 170g/dia, creatina obrigatória, hidratação 3,5 L/dia, volume de pernas aumentado, protocolo de retorno gradual (2 semanas)
 
 ---
 
 ## 13. Status Atual (Fevereiro 2026)
 
 - **Exames (RM ombro, cervical, dorsal):** ✅ REALIZADOS em 02/02/2026
+- **Bioimpedância 08/02/2026:** ⚠️ FFM caiu para 61,1 kg (pior resultado); BF subiu para 15,6%
 - **Fisioterapia (10 sessões prescritas):** ainda não iniciada — **URGENTE**
 - **Dor:** sem dor intensa durante treinos; restrições severas aplicadas após resultados
-- **Atividade:** pedal MTB 3x/semana (2h, Z2, 7h–9h) + academia 3x/semana (série adaptada para proteção do manguito)
-- **Suplementação:** whey protein
-- **Objetivo atual:** recuperação do ombro + manutenção da forma física
+- **Atividade:** retomada em 09/02 — pedal MTB 3x/semana + academia 3x/semana (volume de pernas aumentado); protocolo de retorno gradual nas primeiras 2 semanas
+- **Suplementação:** whey protein + creatina 5g/dia (obrigatório)
+- **Nutrição:** proteína aumentada para 170g/dia (~2,2 g/kg); calorias ajustadas para preservar massa magra
+- **Hidratação:** alvo 3,5 L/dia (TBW em queda)
+- **Objetivo atual:** **preservar massa magra** + recuperação do ombro + perda gradual de gordura
 
 ### Pendências prioritárias
 1. ✅ ~~Realizar os exames de RM solicitados pelo ortopedista~~ (concluído 02/02/2026)
 2. 🔴 **URGENTE:** Iniciar fisioterapia prescrita (10 sessões) — foco no manguito rotador
 3. 🔴 **URGENTE:** Retorno ao ortopedista para discussão dos resultados e definição de conduta
-4. ⚠️ Realizar ultrassonografia de tireoide (achado incidental na RM cervical)
-5. Ajustar série de academia para fase de recuperação (FEITO)
+4. 🔴 **URGENTE:** Reverter perda de massa magra (61,1 kg é o menor valor registrado)
+5. ⚠️ Realizar ultrassonografia de tireoide (achado incidental na RM cervical)
+6. ⚠️ Melhorar hidratação (TBW caiu para 44,7 L — mínimo registrado)
+7. ✅ ~~Ajustar série de academia para fase de recuperação~~ → ajustada para volume de pernas (FEITO)
+8. ✅ ~~Ajustar nutrição e pedal pós-bioimpedância 08/02~~ (FEITO)
 
 ---
 
 **Observação final:**
-Este documento serve como base para acompanhamento pessoal, discussão com fisioterapeuta e ajuste de treino. As **restrições de ombro são OBRIGATÓRIAS** devido à rotura parcial confirmada. O retorno aos exercícios de ombro depende de liberação clínica pós-fisioterapia.
+Este documento serve como base para acompanhamento pessoal, discussão com fisioterapeuta e ajuste de treino. As **restrições de ombro são OBRIGATÓRIAS** devido à rotura parcial confirmada. O retorno aos exercícios de ombro depende de liberação clínica pós-fisioterapia. A **perda de massa magra é preocupante** e requer ação imediata em nutrição, hidratação e estímulo muscular.

@@ -6,22 +6,26 @@ title: Plano Nutricional
 # Plano Nutricional — Patrick
 
 > Guia informativo. Não substitui nutricionista.
+>
+> **Atualizado 08/02/2026** — ajustado após bioimpedância mostrar perda de massa magra
 
 ## Resumo
 
-- 78,8 kg | 47 anos | BF 14% | Objetivo: recomposição
-- Proteína fixa: **150g/dia** (~1,9 g/kg)
+- 77,8 kg | 47 anos | BF 15,6% | Objetivo: **preservar massa magra + perda gradual de gordura**
+- Proteína fixa: **170g/dia** (~2,2 g/kg) — aumentada para combater catabolismo
 - Gordura fixa: **~80g/dia**
 - Carboidrato varia conforme o dia
+- Hidratação: **3,5 L/dia** (TBW em queda — atenção)
+- Creatina: **5g/dia obrigatório** (retenção intramuscular + preservação de massa magra)
 
 ## Calorias e macros por tipo de dia
 
 | Dia | Exemplo | Kcal | P | G | C |
 |---|---|---|---|---|---|
-| **Duplo** (pedal + academia) | Ter, Qui | 3500 | 150 | 80 | 545 |
-| **Pedal** apenas | Sex | 3200 | 150 | 80 | 470 |
-| **Academia** apenas | Seg | 2500 | 150 | 80 | 295 |
-| **Descanso** | Qua, Sáb, Dom | 2200 | 150 | 75 | 230 |
+| **Duplo** (pedal + academia) | Ter, Qui | 3500 | 170 | 80 | 525 |
+| **Pedal** apenas | Sex | 3200 | 170 | 80 | 450 |
+| **Academia** apenas | Seg | 2700 | 170 | 80 | 325 |
+| **Descanso** | Qua, Sáb, Dom | 2300 | 170 | 75 | 236 |
 
 ## Opções de café da manhã
 
@@ -54,10 +58,12 @@ Escolha uma opção:
 |---|---|
 | **Café ~5:30** (pré-pedal) | Opção A, B, C ou D acima |
 | **Durante pedal** | Malto 60–70g/h (~130g total) + água com sódio |
+| **Pós-pedal ~9:30** | Whey 30g + banana (janela anabólica) |
 | **Almoço ~12h** | Arroz 300g + feijão 150g + frango 200g + azeite + salada |
 | **Lanche ~17h** (pré-treino) | Pão de forma 2 fatias + banana + requeijão |
 | **Whey ~18:30** | Whey 30g em água |
 | **Jantar ~20:15** (pós-treino) | Batata 350g + peixe 180g ou 3 ovos + legumes + azeite |
+| **Antes de dormir** | Caseína 25g ou iogurte grego 200g (proteína lenta) |
 
 ## Refeições — Pedal apenas (Sex) ~3200 kcal
 
@@ -65,42 +71,48 @@ Escolha uma opção:
 |---|---|
 | **Café ~5:30** (pré-pedal) | Opção A, B, C ou D acima |
 | **Durante pedal** | Malto 60–70g/h (~130g total) + água com sódio |
+| **Pós-pedal ~9:15** | Whey 30g + banana (janela anabólica) |
 | **Almoço ~12h** | Arroz 300g + feijão 120g + peixe 180g + azeite + salada |
 | **Lanche ~16h** | Iogurte Probio2 170g + aveia 50g + banana + mel |
 | **Jantar ~20h** | Batata 300g + frango 160g + legumes + azeite |
 
-## Refeições — Academia apenas (Seg) ~2500 kcal
+## Refeições — Academia apenas (Seg) ~2700 kcal
 
 | Refeição | O que |
 |---|---|
 | **Café ~7h** | Opção 1, 2, 3, 4 ou 5 acima |
-| **Almoço ~12h** | Arroz 250g + feijão 120g + frango 180g + azeite + salada |
+| **Almoço ~12h** | Arroz 280g + feijão 120g + frango 200g + azeite + salada |
 | **Lanche ~17h** (pré-treino) | Pão de forma 2 fatias + banana + requeijão |
 | **Whey ~18:30** | Whey 30g em água |
 | **Jantar ~20:15** (pós-treino) | Batata 300g + peixe 180g ou 3 ovos + legumes + azeite |
+| **Antes de dormir** | Caseína 25g ou iogurte grego 200g |
 
-## Refeições — Descanso (Qua/Sáb/Dom) ~2200 kcal
+## Refeições — Descanso (Qua/Sáb/Dom) ~2300 kcal
 
 | Refeição | O que |
 |---|---|
 | **Café ~8h** | Opção 1, 2, 3, 4 ou 5 acima |
-| **Almoço ~12h** | Arroz 200g + feijão 100g + frango 180g + azeite + salada |
+| **Almoço ~12h** | Arroz 200g + feijão 100g + frango 200g + azeite + salada |
 | **Lanche ~16h** | Whey 25g + banana |
 | **Jantar ~20h** | Batata 250g + 3 ovos + legumes + azeite |
+| **Antes de dormir** | Iogurte grego 200g ou caseína 25g |
 
 ## Suplementação
 
 | O que | Dose | Obs |
 |---|---|---|
-| **Whey** | 25–30g | Dias de treino |
-| **Creatina** | 3–5g/dia | Todo dia — **recomendo iniciar** |
+| **Whey** | 30g | Dias de treino (2x nos dias duplos: pós-pedal + pré-jantar) |
+| **Creatina** | **5g/dia** | **Todo dia — OBRIGATÓRIO** (preserva massa magra + hidratação intramuscular) |
+| **Caseína** | 25g | Antes de dormir nos dias de treino (ou iogurte grego 200g) |
 | **Omega-3** | 1,5–2g EPA+DHA/dia | Ou 3–4x peixe/semana |
 
 ## Regras simples
 
-- **Pedal:** malto + sódio durante; almoço é a recuperação
-- **Academia:** lanche + whey antes; jantar depois
-- **Hidratação:** ~3L/dia; no pedal 500–800ml/h com sódio
+- **Pedal:** malto + sódio durante; whey + banana imediatamente pós-pedal; almoço é a recuperação
+- **Academia:** lanche + whey antes; jantar depois; caseína antes de dormir
+- **Hidratação:** **3,5 L/dia** (aumentado — TBW em queda); no pedal 500–800ml/h com sódio
+- **Proteína distribuída:** mínimo 4 refeições com proteína ao longo do dia (não concentrar)
 - **Priorizar:** peixe, azeite, nozes, frutas, vegetais coloridos
 - **Reduzir:** ultraprocessados, álcool, óleos refinados
 - **Ajuste:** se energia cair, aumentar carbo nos dias duplos primeiro
+- **Retorno pós-pausa:** nas primeiras 2 semanas, manter calorias no topo da faixa mesmo se treino mais leve
