@@ -238,7 +238,583 @@ title: Fisioterapia
 
 ---
 
-## 10) Resumo Prático
+## 10) GUIA ILUSTRADO — Como Fazer Cada Exercicio em Casa
+
+> Esta secao explica TODOS os exercicios em linguagem simples, para que voce possa fazer sozinho em casa com seguranca.
+
+---
+
+### EXERCICIOS CERVICAIS (PESCOCO)
+
+#### 1. Chin Tuck (Retracao Axial) — "Queixo para tras"
+
+**O que e:** Movimento de "acenar NAO" suave, empurrando o queixo para tras sem abaixar ou levantar a cabeca.
+
+**Como fazer:**
+1. Sente ou fique em pe com as costas retas
+2. Olhe para frente (nao para baixo nem para cima)
+3. Imagine que alguem empurra sua testa suavemente para tras
+4. Voce vai sentir alongar a nuca e fazer um "queixo duplo"
+5. Mantenha 5 segundos, relaxe
+6. Repita 10 vezes
+
+**Erros comuns:**
+- Abaixar o queixo em direcao ao peito (errado — o movimento e para TRAS, nao para baixo)
+- Empurrar a cabeca para frente primeiro (comece ja com a cabeca reta)
+
+**Onde fazer:** Em casa (manha/noite), no trabalho (a cada 30 min), no carro parado
+
+**Importante:** Nao deve doer. Se doer, diminua a intensidade.
+
+---
+
+#### 2. Rotacao Cervical Suave
+
+**O que e:** Girar a cabeca para os lados lentamente, como se fosse olhar atras de voce.
+
+**Como fazer:**
+1. Sente com as costas retas ou fique em pe
+2. Mantenha os ombros relaxados e parados (so a cabeca gira)
+3. Gire a cabeca para a direita, como se fosse olhar por cima do ombro direito
+4. Va ate onde for confortavel (NAO force)
+5. Volte ao centro lentamente
+6. Repita para o lado esquerdo
+7. Faca 8 repeticoes de cada lado
+
+**Erros comuns:**
+- Girar os ombros junto com a cabeca (ombros ficam PARADOS)
+- Forcar alem do confortavel (se doer ou ficar rigido, pare ali)
+
+**Dica:** Imagine que sua cabeca e uma coruja girando suavemente.
+
+---
+
+#### 3. Flexao Cranio-Cervical com Sustentacao (Flexores Profundos)
+
+**O que e:** Treinar os musculos da frente do pescoco que seguram a cabeca (sao os mais fracos na maioria das pessoas).
+
+**Como fazer (versao deitado — mais facil):**
+1. Deite de barriga para cima, sem travesseiro
+2. Faca o chin tuck (queixo para tras)
+3. MANTENDO o chin tuck, levante APENAS a cabeca 1-2 cm do chao
+4. Nao levante os ombros — so a cabeca sobe
+5. Segure 5 segundos
+6. Abaixe devagar
+7. Repita 10 vezes
+
+**Como fazer (versao sentado — mais dificil):**
+1. Sente com costas retas
+2. Faca o chin tuck
+3. Empurre suavemente a testa para tras com a mao (resistencia leve)
+4. Tente empurrar a cabeca para frente contra a mao (sua cabeca nao se move, so faz forca)
+5. Segure 10 segundos
+6. Relaxe, repita 10 vezes
+
+**Erros comuns:**
+- Levantar o queixo em vez de fazer chin tuck primeiro (tem que comecar com queixo para tras)
+- Usar a barriga para levantar a cabeca (use so o pescoco)
+
+---
+
+#### 4. Isometrias Cervicais Multidirecionais
+
+**O que e:** Exercicios de forca em que voce empurra a cabeca contra a mao, mas a cabeca NAO se move.
+
+**Como fazer — FLEXAO (empurrar para frente):**
+1. Sente com costas retas
+2. Coloque as palmas das duas maos na testa
+3. Empurre a cabeca para frente contra as maos
+4. As maos empurram de volta — a cabeca NAO se move
+5. Forca moderada (60% do maximo), sem dor
+6. Segure 10 segundos, relaxe
+7. Repita 3 vezes
+
+**Como fazer — EXTENSAO (empurrar para tras):**
+1. Coloque as maos atras da cabeca (na nuca)
+2. Empurre a cabeca para tras contra as maos
+3. As maos empurram de volta — cabeca nao se move
+4. Segure 10 segundos
+5. Repita 3 vezes
+
+**Como fazer — INCLINACAO LATERAL (empurrar para o lado):**
+1. Coloque a mao direita na lateral direita da cabeca (acima da orelha)
+2. Empurre a cabeca para a direita contra a mao
+3. A mao empurra de volta — cabeca nao se move
+4. Segure 10 segundos
+5. Repita do outro lado
+6. Faca 3 series de cada lado
+
+**Importante:** NUNCA faca forca maxima. Use 50-60% da sua forca. Deve cansar o musculo, mas sem dor.
+
+---
+
+### EXERCICIOS TORACICOS (MEIO DAS COSTAS)
+
+#### 5. Cat-Cow (Gato-Vaca) Focando Toracica
+
+**O que e:** Movimento de arquear e curvar as costas, focando no meio das costas (entre as escapulas).
+
+**Como fazer:**
+1. Fique em quatro apoios (maos e joelhos no chao)
+2. Maos abaixo dos ombros, joelhos abaixo do quadril
+3. **VACA (extensao):** Olhe para cima, deixe a barriga descer, arqueie o MEIO das costas (nao so a lombar)
+4. Segure 2 segundos
+5. **GATO (flexao):** Olhe para o umbigo, arredonde as costas para cima (como um gato assustado)
+6. Segure 2 segundos
+7. Alterne suavemente, 10 ciclos completos
+
+**Foco especial:** Tente mover principalmente o MEIO das costas (entre as escapulas), nao apenas o pescoco e a lombar.
+
+**Respiracao:** Inspire na extensao (vaca), expire na flexao (gato).
+
+---
+
+#### 6. Open Book (Livro Abrindo)
+
+**O que e:** Rotacao toracica deitado de lado, abrindo o peito como se fosse um livro.
+
+**Como fazer:**
+1. Deite de lado esquerdo (para trabalhar o lado direito primeiro)
+2. Dobre os joelhos a 90 graus, um sobre o outro
+3. Estenda os bracos para frente, palmas juntas
+4. MANTENDO os joelhos parados, pegue o braco direito e abra para o lado direito, girando o tronco
+5. Tente encostar o ombro direito no chao (ou chegar o mais perto possivel sem forcar)
+6. A cabeca acompanha o movimento (olhe para a mao direita)
+7. Segure 2 segundos, volte devagar
+8. Faca 8 repeticoes
+9. Vire para o outro lado e repita
+
+**Erros comuns:**
+- Deixar os joelhos se abrirem (joelhos ficam COLADOS)
+- Forcar demais — va ate onde for confortavel
+
+**Dica:** Imagine que seu peito e um livro abrindo para o teto.
+
+---
+
+#### 7. Extensao Toracica sobre Foam Roller (ou Toalha Enrolada)
+
+**O que e:** Alongamento das costas para tras, usando um rolo de espuma ou toalha enrolada como apoio.
+
+**Como fazer:**
+1. Coloque o foam roller (ou toalha enrolada grossa) no chao
+2. Deite de barriga para cima com o rolo posicionado no MEIO das costas (altura das escapulas, T6-T8)
+3. Dobre os joelhos, pes apoiados no chao
+4. Coloque as maos atras da cabeca para apoiar o pescoco
+5. Deixe o corpo relaxar para tras sobre o rolo (as costas vao arquear para tras)
+6. Respire fundo 3 vezes nessa posicao
+7. Levante o quadril levemente e role o rolo 2-3 cm para cima
+8. Relaxe novamente, respire 3 vezes
+9. Repita ate cobrir toda a regiao das costas (do meio ate logo abaixo do pescoco)
+
+**Erros comuns:**
+- Colocar o rolo na lombar (errado — e no MEIO das costas, entre as escapulas)
+- Esquecer de respirar (respire fundo para relaxar)
+
+**Importante:** Nao coloque o rolo direto no pescoco. Pare logo abaixo dele.
+
+---
+
+#### 8. Rotacao Toracica Sentada
+
+**O que e:** Girar o tronco para os lados sentado, mantendo o quadril parado.
+
+**Como fazer:**
+1. Sente em uma cadeira sem bracos (ou na beirada da cadeira)
+2. Pes apoiados no chao, afastados na largura do quadril
+3. Cruze os bracos sobre o peito (como se estivesse se abraçando)
+4. MANTENDO o quadril e as pernas parados, gire o tronco para a direita
+5. Va ate onde for confortavel, segure 2 segundos
+6. Volte ao centro
+7. Repita para o lado esquerdo
+8. Faca 8 repeticoes de cada lado
+
+**Erros comuns:**
+- Girar o quadril junto (quadril fica TRAVADO, so o tronco gira)
+- Forcar demais — va devagar
+
+---
+
+#### 9. Respiracao Costal (Respiracao nas Costelas)
+
+**O que e:** Respiracao focada em expandir as costelas lateralmente (nao so encher a barriga).
+
+**Como fazer:**
+1. Sente ou fique em pe com costas retas
+2. Coloque as maos nas costelas laterais (lados do tronco)
+3. Inspire profundamente pelo nariz tentando empurrar as maos para os LADOS (expandir as costelas)
+4. Nao levante os ombros — so as costelas se movem
+5. Expire lentamente pela boca
+6. Repita 8-10 respiracoes profundas
+
+**Foco:** Sentir as costelas se expandirem lateralmente, como se voce estivesse enchendo um balao dentro do peito.
+
+---
+
+### EXERCICIOS DO OMBRO
+
+#### 10. Pendulo de Codman
+
+**O que e:** Balanco suave do braco deixando o ombro relaxado, usando a gravidade.
+
+**Como fazer:**
+1. Fique em pe, incline o tronco para frente (apoie a mao esquerda em uma mesa ou cadeira)
+2. Deixe o braco direito pendurado, totalmente relaxado
+3. Faca pequenos circulos no ar com a mao direita (deixe o braco balançar sozinho)
+4. Comece com circulos pequenos, va aumentando aos poucos
+5. Faca 30 segundos no sentido horario
+6. Faca 30 segundos no sentido anti-horario
+7. Faca movimentos para frente e para tras (30 segundos)
+8. Faca movimentos para os lados (30 segundos)
+
+**Erros comuns:**
+- Usar o musculo do ombro para balançar (tem que estar RELAXADO, deixe a gravidade fazer o trabalho)
+- Balançar muito forte (comece suave)
+
+**Dica:** Imagine que seu braco e um pendulo de relogio balançando livremente.
+
+---
+
+#### 11. Isometria de Rotacao Externa (Cotovelo a 0 Graus)
+
+**O que e:** Treinar os musculos que giram o ombro para fora, sem mover o braco.
+
+**Como fazer:**
+1. Fique em pe de lado para uma parede ou batente de porta
+2. Dobre o cotovelo direito a 90 graus, mantendo o cotovelo colado ao corpo
+3. Coloque uma toalha enrolada entre o cotovelo e o corpo (para nao deixar o cotovelo sair)
+4. A palma da mao direita fica virada para frente
+5. Encoste a mao na parede/batente (ou faca resistencia com a mao esquerda se nao tiver parede)
+6. Empurre a mao para fora contra a resistencia (como se quisesse girar o braco para fora)
+7. A mao NAO se move — so faz forca
+8. Segure 10 segundos com forca moderada (50-60%)
+9. Relaxe 5 segundos
+10. Repita 5 vezes
+
+**Importante:** O cotovelo NUNCA sai do corpo. Sempre com toalha entre cotovelo e corpo.
+
+---
+
+#### 12. Isometria de Rotacao Interna (Cotovelo a 0 Graus)
+
+**O que e:** Treinar os musculos que giram o ombro para dentro, sem mover o braco.
+
+**Como fazer:**
+1. Fique em pe de frente para uma parede ou batente
+2. Dobre o cotovelo direito a 90 graus, cotovelo colado ao corpo
+3. Toalha enrolada entre cotovelo e corpo
+4. A palma da mao direita fica virada para o corpo
+5. Encoste o dorso da mao (costas da mao) na parede
+6. Empurre para dentro contra a parede (como se quisesse girar o braco para dentro)
+7. A mao NAO se move — so faz forca
+8. Segure 10 segundos com forca moderada
+9. Relaxe 5 segundos
+10. Repita 5 vezes
+
+---
+
+#### 13. Isometria de Abducao (Empurrar para o Lado)
+
+**O que e:** Treinar o musculo que levanta o braco para o lado (supraespinhal), sem movimento.
+
+**Como fazer:**
+1. Fique em pe de lado para uma parede
+2. Braco relaxado ao lado do corpo
+3. Cotovelo levemente dobrado (nao totalmente reto)
+4. Levante o braco 20-30 graus para o lado (bem pouco — como se fosse abrir uma asa pequena)
+5. Encoste o braco na parede
+6. Empurre o braco contra a parede para o lado (como se quisesse levantar o braco, mas a parede nao deixa)
+7. Segure 10 segundos
+8. Relaxe 5 segundos
+9. Repita 5 vezes
+
+**Importante:** Nao levante o braco muito alto — so 20-30 graus (um palmo da coxa).
+
+---
+
+#### 14. Scapular Setting (Retracao e Depressao Escapular)
+
+**O que e:** Exercicio de postura para "encaixar" as escapulas na posicao correta.
+
+**Como fazer:**
+1. Sente ou fique em pe com costas retas
+2. Deixe os bracos relaxados ao lado do corpo
+3. Imagine que voce tem dois lapis entre as escapulas (no meio das costas)
+4. "Aperte os lapis" puxando as escapulas uma em direcao a outra (retracao)
+5. Ao mesmo tempo, empurre as escapulas levemente para baixo (depressao — afaste ombros das orelhas)
+6. Nao force demais — movimento e sutil
+7. Segure 3 segundos
+8. Relaxe completamente
+9. Repita 12 vezes
+
+**Dica:** Imagine que voce esta colocando as escapulas nos bolsos de tras da calca.
+
+**Erros comuns:**
+- Levantar os ombros em vez de abaixar (tem que AFASTAR ombros das orelhas)
+- Arquear demais a lombar (mantenha tronco reto)
+
+---
+
+#### 15. Rotacao Externa com Elastico (Fase 2)
+
+**O que e:** Fortalecer os rotadores externos do ombro usando elastico (theraband ou faixa elastica).
+
+**Como fazer:**
+1. Amarre o elastico em uma maçaneta ou corrimão na altura do cotovelo
+2. Fique de lado para o ponto de fixacao (elastico a sua direita)
+3. Segure o elastico com a mao direita
+4. Dobre o cotovelo a 90 graus, cotovelo COLADO ao corpo
+5. Coloque toalha enrolada entre cotovelo e corpo
+6. Posicao inicial: mao direita cruzada na frente da barriga (elastico com tensao leve)
+7. MANTENDO o cotovelo colado, gire a mao para FORA (para longe do corpo)
+8. Va devagar (3 segundos para girar para fora)
+9. Segure 1 segundo
+10. Volte devagar (3 segundos para voltar)
+11. Faca 15 repeticoes
+12. Repita por 3 series
+
+**Erros comuns:**
+- Deixar o cotovelo sair do corpo (cotovelo SEMPRE colado)
+- Girar o corpo junto (so o braco gira)
+- Usar elastico muito forte (comece com resistencia leve — cor amarela/vermelha)
+
+---
+
+#### 16. Scaption (Elevacao no Plano Escapular)
+
+**O que e:** Levantar o braco na diagonal (30 graus a frente do corpo), com polegar para cima.
+
+**Como fazer:**
+1. Fique em pe com costas retas
+2. Braco relaxado ao lado do corpo
+3. Gire a mao para que o polegar fique apontando para cima (como se fosse dar "joia")
+4. Levante o braco na DIAGONAL (30 graus a frente do corpo — entre frente e lado)
+5. Va devagar, levantando so ate 60 graus nas primeiras 4 semanas (altura do ombro = 90 graus, entao va ate 2/3 do caminho)
+6. Nao encolha o ombro (mantenha ombro abaixado)
+7. Segure 1 segundo em cima
+8. Abaixe devagar
+9. Faca 10 repeticoes
+10. Repita por 3 series
+
+**IMPORTANTE — Progressao:**
+- **Semanas 1-4:** So ate 60 graus, SEM PESO
+- **Semanas 5-8:** Ate 80 graus, pode usar 0,5-1 kg (garrafa de agua pequena)
+- **Semanas 9+:** Ate 90 graus (altura do ombro), 1-2 kg
+
+**Teste antes de progredir:** Se o teste de Jobe (consulte fisioterapeuta) for negativo e nao houver dor, pode avancar.
+
+---
+
+#### 17. Wall Slides (Serrátil Anterior)
+
+**O que e:** Deslizar as maos para cima na parede, treinando o musculo que "cola" a escapula nas costas.
+
+**Como fazer:**
+1. Fique em pe de frente para uma parede, a 15-20 cm de distancia
+2. Apoie as maos e antebracos na parede, cotovelos dobrados a 90 graus
+3. Deslize as maos para cima na parede, estendendo os bracos (como se estivesse fazendo um "Y" com o corpo)
+4. Va devagar, mantendo os antebracos sempre em contato com a parede
+5. Suba ate onde for confortavel (nao force)
+6. Volte devagar a posicao inicial
+7. Faca 12 repeticoes
+8. Repita por 2 series
+
+**Foco:** Sentir as escapulas deslizando para cima e se afastando uma da outra.
+
+**Erros comuns:**
+- Tirar os antebracos da parede (mantenha sempre colado)
+- Arquear a lombar (mantenha barriga levemente contraida)
+
+---
+
+#### 18. T e W em Banco Inclinado (Fase 2)
+
+**O que e:** Exercicios para fortalecer os musculos das costas que estabilizam o ombro.
+
+**Equipamento:** Banco inclinado a 45 graus (pode usar sofa ou cama inclinada com almofadas)
+
+**Como fazer — T:**
+1. Deite de barriga para baixo no banco inclinado
+2. Deixe os bracos penduradom para baixo, com pequenos halteres (0,5-1 kg) ou sem peso
+3. Levante os bracos para os LADOS (abrindo em "T"), com polegares apontando para cima
+4. Bracos em linha reta com os ombros (90 graus)
+5. Aperte as escapulas juntas enquanto sobe
+6. Segure 2 segundos em cima
+7. Abaixe devagar
+8. Faca 10 repeticoes
+
+**Como fazer — W:**
+1. Mesma posicao inicial (barriga para baixo, bracos pendentes)
+2. Dobre os cotovelos a 90 graus
+3. Puxe os cotovelos para tras e para cima, como se fosse fazer uma remada
+4. O movimento forma um "W" com os bracos
+5. Aperte as escapulas juntas
+6. Segure 2 segundos
+7. Abaixe devagar
+8. Faca 10 repeticoes
+
+**IMPORTANTE:** O exercicio "Y" (bracos acima da cabeca) fica SUSPENSO nas primeiras 6 semanas. So fazer T e W.
+
+---
+
+#### 19. Protocolo Excentrico — Side-Lying Eccentric ER (Fase 2, semanas 5-8)
+
+**O que e:** Exercicio especifico para reparar o tendao do supraespinhal. A parte LENTA (excentrica) e a mais importante.
+
+**Como fazer:**
+1. Deite de lado ESQUERDO (lado sao embaixo)
+2. Dobre o cotovelo direito a 90 graus
+3. Segure um peso leve na mao direita (comece SEM peso, depois 0,5 kg, depois 1 kg)
+4. Posicao inicial: mao direita descansando na barriga
+5. Com a mao ESQUERDA (a de baixo), ajude a levantar a mao direita (gire o antebraco para cima ate a mao apontar para o teto)
+6. Tire a mao esquerda
+7. AGORA VEM A PARTE IMPORTANTE: Abaixe a mao direita SOZINHA, contando 5 segundos (um-mil, dois-mil, tres-mil, quatro-mil, cinco-mil)
+8. Abaixe bem devagar ate a mao voltar a barriga
+9. Use a mao esquerda para ajudar a subir de novo
+10. Repita 15 vezes
+11. Descanse 1 minuto
+12. Faca mais 2 series (total: 3 series de 15)
+
+**MUITO IMPORTANTE:**
+- A parte de DESCER tem que ser LENTA (5 segundos)
+- Use a outra mao para ajudar a SUBIR (a fase de subida nao importa)
+- Comece SEM peso. So aumente peso quando conseguir fazer 3x15 sem dor
+
+**Progressao de peso:** 0 kg (2 semanas) -> 0,5 kg (2 semanas) -> 1 kg (2 semanas) -> 2 kg
+
+---
+
+#### 20. Protocolo Excentrico — Eccentric Empty Can Adaptado (Fase 2)
+
+**O que e:** Versao modificada do "empty can" focando na descida lenta.
+
+**Como fazer:**
+1. Fique em pe com costas retas
+2. Braco direito ao lado do corpo
+3. Gire o polegar para BAIXO (como se estivesse esvaziando uma latinha)
+4. Com a mao ESQUERDA, ajude a levantar o braco direito na diagonal (30 graus a frente) ate 60 graus de altura
+5. Tire a mao esquerda
+6. Abaixe o braco SOZINHO, contando 5 segundos
+7. Abaixe bem devagar
+8. Use a mao esquerda para ajudar a subir de novo
+9. Repita 10 vezes
+10. Faca 3 series
+
+**IMPORTANTE:**
+- Polegar SEMPRE para baixo durante o exercicio
+- Descer devagar (5 segundos) e obrigatorio
+- Comece ate 60 graus. Depois de 2 semanas sem dor, pode subir ate 90 graus
+
+---
+
+#### 21. Protocolo Excentrico — Eccentric Scaption (Fase 2)
+
+**O que e:** Scaption com descida lenta de um braco so.
+
+**Como fazer:**
+1. Fique em pe com costas retas
+2. Segure um peso leve em CADA mao (0,5-1 kg)
+3. Polegares para cima
+4. Levante AMBOS os bracos na diagonal (scaption) ate 60-90 graus
+5. Quando chegar la em cima, ABAIXE APENAS o braco DIREITO, contando 5 segundos
+6. O braco esquerdo fica parado la em cima
+7. Quando o direito chegar embaixo, abaixe o esquerdo tambem
+8. Levante os dois juntos de novo
+9. Repita (proximo ciclo: desce so o direito de novo)
+10. Faca 10 repeticoes
+11. Faca 3 series
+
+---
+
+### EXERCICIOS ADICIONAIS
+
+#### 22. Alongamento Peitoral na Porta
+
+**O que e:** Alongar o musculo peitoral (peito) que fica encurtado em quem trabalha sentado.
+
+**Como fazer:**
+1. Fique em pe em um batente de porta
+2. Coloque o braco direito no batente, cotovelo dobrado a 90 graus (como um "L")
+3. O cotovelo fica na altura do ombro
+4. De um passo a frente com o pe direito, girando o corpo para a esquerda
+5. Voce vai sentir alongar o peito do lado direito
+6. Segure 30 segundos
+7. Nao force — alongamento suave
+8. Repita 2 vezes de cada lado
+
+---
+
+#### 23. Alongamento Posterior do Ombro
+
+**O que e:** Alongar a parte de tras do ombro.
+
+**Como fazer:**
+1. Fique em pe ou sente
+2. Leve o braco direito para a frente na horizontal
+3. Com a mao esquerda, segure o cotovelo direito
+4. Puxe o braco direito para a ESQUERDA (atravessando na frente do peito)
+5. Mantenha o ombro direito abaixado (nao encolha)
+6. Segure 30 segundos
+7. Repita 2 vezes de cada lado
+
+---
+
+#### 24. Respiracao Diafragmatica (Para Relaxar)
+
+**O que e:** Respiracao profunda usando o diafragma, para relaxar antes de dormir.
+
+**Como fazer:**
+1. Deite de barriga para cima ou sente confortavelmente
+2. Coloque uma mao na barriga e outra no peito
+3. Inspire lentamente pelo nariz contando ate 4
+4. A mao da BARRIGA deve subir (encha a barriga, nao o peito)
+5. A mao do peito fica quase parada
+6. Expire lentamente pela boca contando ate 6
+7. Esvazie completamente
+8. Repita 10 ciclos
+
+**Dica:** Imagine que voce tem um balao na barriga que enche e esvazia.
+
+---
+
+## 11) DICAS GERAIS DE SEGURANCA
+
+### Quando PARAR Imediatamente
+- Dor aguda ou em facada
+- Dor que irradia para o braco ou mao
+- Formigamento ou dormencia que aparece durante o exercicio
+- Sensacao de fraqueza subita
+- Estalo com dor
+- Tontura
+
+### Como Saber se Esta Fazendo Certo
+- Sentir cansaco no musculo = BOM
+- Sentir alongamento suave = BOM
+- Sentir queimacao leve no musculo = BOM
+- Sentir dor na articulacao = RUIM (pare)
+- Sentir dor que irradia = RUIM (pare)
+- Compensar com outros musculos = RUIM (corrija a postura)
+
+### Progressao Segura
+1. Comece SEMPRE sem peso
+2. Faca 2 semanas sem peso e sem dor
+3. So depois adicione peso minimo (0,5 kg)
+4. Se doer, volte ao peso anterior
+5. Progredir nao e corrida — vai devagar
+
+### Autoavaliacao Semanal
+Toda segunda-feira, pergunte a si mesmo:
+- A dor melhorou em relacao a semana passada?
+- Consigo levantar o braco mais alto sem dor?
+- A dor noturna diminuiu?
+- Consigo fazer os exercicios com menos desconforto?
+
+Se a resposta for SIM para a maioria: esta progredindo bem.
+Se a resposta for NAO: reduza intensidade ou procure orientacao.
+
+---
+
+## 12) Resumo Prático
 - Cervical: chin tuck, mobilidade torácica, estabilidade de escápulas, tracao intermitente, ergonomia rigorosa
 - Dorsal: rotina diária curta de mobilidade, foam roller em T6-T8
 - Ombro: pêndulo, isometrias, rotação externa, scaption progressiva, protocolo excentrico, criterios objetivos de progressao
