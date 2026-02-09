@@ -331,13 +331,60 @@ title: Consolidação Clínica
 
 ### Pendências prioritárias
 1. ✅ ~~Realizar os exames de RM solicitados pelo ortopedista~~ (concluído 02/02/2026)
-2. 🔴 **URGENTE:** Iniciar fisioterapia prescrita (10 sessões) — foco no manguito rotador
-3. 🔴 **URGENTE:** Retorno ao ortopedista para discussão dos resultados e definição de conduta
-4. 🔴 **URGENTE:** Reverter perda de massa magra (61,1 kg é o menor valor registrado)
-5. ⚠️ Realizar ultrassonografia de tireoide (achado incidental na RM cervical)
-6. ⚠️ Melhorar hidratação (TBW caiu para 44,7 L — mínimo registrado)
-7. ✅ ~~Ajustar série de academia para fase de recuperação~~ → ajustada para volume de pernas (FEITO)
-8. ✅ ~~Ajustar nutrição e pedal pós-bioimpedância 08/02~~ (FEITO)
+2. ✅ **Parecer multidisciplinar concluído em 08/02/2026** (nutricionista, personal trainer, ortopedista, fisioterapeuta)
+3. 🔴 **URGENTE:** Iniciar fisioterapia prescrita (10 sessões) — foco no manguito rotador. Probabilidade de necessitar mais 10 sessões: **60-70%**
+4. 🔴 **URGENTE:** Retorno ao ortopedista para discussão dos resultados e definição de conduta
+5. 🔴 **URGENTE:** Reverter perda de massa magra (61,1 kg é o menor valor registrado)
+6. 🔴 **ENMG do membro superior direito** — recomendada em até **60 dias**. Objetivo: diferenciar radiculopatia C8 vs neuropatia ulnar
+7. 🔴 **US tireoide com Doppler** — prioridade alta (**30 dias**) + solicitar TSH, T4L, anti-TPO
+8. ⚠️ **Exames de sangue recomendados:** 25-OH vitamina D, testosterona total e livre, hemograma, PCR
+9. ⚠️ Melhorar hidratação (TBW caiu para 44,7 L — mínimo registrado)
+10. 🎯 **Meta bioimpedância 08/03/2026:** FFM >= 62,5 kg, TBW >= 46 L
+11. ✅ ~~Ajustar série de academia para fase de recuperação~~ → ajustada para volume de pernas (FEITO)
+12. ✅ ~~Ajustar nutrição e pedal pós-bioimpedância 08/02~~ (FEITO)
+
+---
+
+## 14. Prognóstico por Região (Fev/2026)
+
+### Ombro Direito
+- **Prognóstico:** reservado a moderado
+- Tratamento conservador com **60-75% de taxa de sucesso**
+- **Sem indicação cirúrgica atual** — reavaliar após ciclo completo de fisioterapia
+- Critérios de indicação cirúrgica futura: ver seção 15 (Restrições e Alertas)
+
+### Coluna Cervical (C5-C6 / C6-C7)
+- **Prognóstico:** moderado
+- Tratamento conservador com **70-80% de taxa de sucesso**
+- **Atenção:** alterações Modic I podem converter para Modic II em **12-24 meses** (cronificação)
+- Acompanhamento clínico necessário para monitorar evolução
+
+### Coluna Torácica (D3-D10)
+- **Prognóstico:** bom
+- **Origem funcional** predominante (hipomobilidade segmentar)
+- Responde bem a mobilidade + fisioterapia
+
+### Dormência Mão Direita (Mindinho)
+- **Investigar double crush syndrome:** radiculopatia cervical C8 + handlebar palsy (compressão do nervo ulnar no canal de Guyon)
+- ENMG do membro superior direito é fundamental para diferenciar os níveis de compressão
+- Ajustes ergonômicos no guidão/luvas do MTB podem aliviar componente periférico
+
+---
+
+## 15. Restrições, Alertas e Critérios Cirúrgicos
+
+### Critérios de indicação cirúrgica futura — Ombro Direito
+> Cirurgia NÃO indicada atualmente. Reavaliar se qualquer dos critérios abaixo for atingido:
+
+1. **Falha do tratamento conservador** após 3-6 meses completos de fisioterapia
+2. **Progressão da lesão na RM** de controle (aumento da rotura parcial ou evolução para rotura completa)
+3. **Perda súbita de força** no braço direito (rotação externa, abdução)
+
+### 🚨 Red Flags — Procurar atendimento IMEDIATO se ocorrer
+- **Perda súbita de força no braço direito** (não consegue levantar objetos leves)
+- **Dormência progressiva bilateral** (ambas as mãos / ambos os braços)
+- **Alteração de marcha ou incontinência** (sinais de mielopatia cervical)
+- **Dor cervical intensa após trauma** (queda no MTB, impacto)
 
 ---
 

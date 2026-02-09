@@ -9,6 +9,59 @@ Historico de alteracoes no plano de treino, nutricao e acompanhamento clinico.
 
 ---
 
+## 08/02/2026 — Parecer multidisciplinar (nutricionista, personal trainer, ortopedista, fisioterapeuta)
+
+**Contexto:** Revisao integrada de TODOS os dados de treino, dieta e saude por equipe de 4 especialistas. Documento completo em `parecer-multidisciplinar-08-02-2026.md`.
+
+### Consenso da equipe — Acoes urgentes
+1. Iniciar fisioterapia (10 sessoes) — IMEDIATA
+2. Retornar ao ortopedista com laudos de RM — esta semana
+3. Agendar US de tireoide (nodulo incidental) — 30 dias
+4. Solicitar ENMG membro superior direito — 60 dias
+5. Reverter perda de massa magra (FFM 61,1 kg) — proximas 4-6 semanas
+
+### Ajustes nutricionais recomendados
+- Proteina: 170g -> **187g/dia (2,4 g/kg)** por 4-6 semanas (resistencia anabolica + destreino + idade)
+- Hidratacao dias pedal: 3,5L -> **4,0-4,5 L/dia**
+- Calorias descanso: 2300 -> **2400-2500 kcal** (temporario ate FFM estabilizar)
+- Omega-3: 1,5-2g -> **3g EPA+DHA/dia** (dose terapeutica anti-inflamatoria)
+- Novos suplementos: **D3 4000UI + K2 200mcg + Mg 400mg + Colageno 15g + Vit C 500mg + Zn 30mg**
+- Adicionar proteina ao lanche das 17h e ao jantar dos dias de descanso
+- Estrategia anti-inflamatoria alimentar (curcuma, gengibre, frutas vermelhas)
+
+### Ajustes no treino de academia
+- Supino maquina: 3x8-10 RPE 6-7 -> **2x8-10 RPE 5 maximo**
+- Rotacao ext. 90 graus: **SUSPENDER ate liberacao da fisio**
+- Tempo 3-1-2: implementar apenas a partir da semana 2
+- Compostos de perna semana 1: reduzir para 3 series
+- Adicionar Pendulo de Codman e wall slides ao aquecimento
+- Lacunas identificadas: serratil anterior, exercicio unilateral de MI, core
+
+### Ajustes no pedal
+- Preferir road/gravel temporariamente (menos impacto)
+- Luvas com padding ulnar (protecao nervo ulnar)
+- Gelo no ombro 15min pos-pedal
+
+### Parecer do fisioterapeuta (adicionado ao time)
+- Protocolo atual avaliado como 70-75% adequado — lacunas criticas identificadas e corrigidas
+- **Protocolo excentrico completo** para rotura parcial do supraespinhal (3 exercicios, 5s excentrica)
+- Cronograma detalhado das **10 sessoes** (4 blocos: avaliacao, movimento ativo, excentrico, alta)
+- Metas temporais e criterios objetivos para cada fase (testes Jobe, Neer, goniometria, DASH)
+- **Protocolo domiciliar** estruturado (manha 15min + noite 10min)
+- Abordagem da dormencia: testes diferenciadores radiculopatia vs neuropatia ulnar
+- Integracao semanal: fisio ideal Seg + Qui (manha), academia a tarde
+- Probabilidade de necessitar mais 10 sessoes: 60-70%
+- Timeline de liberacao de cada exercicio suspenso (semana 4 a 20+)
+- Protocolo pre e pos pedal especifico para as lesoes
+
+### Prognostico ortopedico
+- Ombro: reservado-moderado, tratamento conservador (60-75% sucesso)
+- Cervical: moderado, conservador controla em 70-80%
+- Toracica: bom, origem funcional
+- Sem indicacao cirurgica no momento
+
+---
+
 ## 08/02/2026 — Ajuste pos-bioimpedancia + retorno apos pausa
 
 **Contexto:** Bioimpedancia mostrou perda significativa de massa magra (FFM 63,1 -> 61,1 kg) e aumento de gordura (BF 14,0% -> 15,6%) apos 3 semanas de inatividade (pouco pedal e pouca academia). Retomada das atividades em 09/02.

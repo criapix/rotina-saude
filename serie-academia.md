@@ -25,11 +25,11 @@ Tempo: **3-1-2** nos compostos de perna (3s excêntrica, 1s pausa, 2s concêntri
 |---|---|---|---|
 | 1 | **Hack squat** | 4 × 8–12 | Tempo 3-1-2; carga progressiva |
 | 2 | **Mesa flexora** | 3 × 10–12 | |
-| 3 | **Stiff com halteres** | 3 × 10–12 | Carga leve-moderada, foco em posterior |
+| 3 | **Stiff com halteres** | 3 × 10–12 | Carga leve-moderada, foco em posterior. Se desconforto no ombro direito ao sustentar carga, substituir por stiff na Smith ou hip thrust. |
 | 4 | **Panturrilha sentada** | 3 × 15 | |
 | 5 | **Remada máquina** (cavalinho) | 3 × 10–12 | Cotovelos junto ao corpo |
 | 6 | **Puxada frontal neutra** | 3 × 10–12 | Pegada neutra, sem forçar |
-| 7 | **Rotação externa no cabo** | 3 × 15 | Carga LEVE (reabilitação) |
+| 7 | **Rotação externa no cabo** | 3 × 15 | Carga LEVE (reabilitação). Quando fisioterapia iniciar, ELIMINAR este exercício da academia (evitar sobreposição). Deixar exclusivamente para a fisio. |
 | 8 | **Prancha frontal** | 3 × 30–45s | |
 
 ---
@@ -44,8 +44,8 @@ Tempo: **3-1-2** nos compostos de perna (3s excêntrica, 1s pausa, 2s concêntri
 | 2 | **Cadeira extensora** | 3 × 12–15 | |
 | 3 | **Cadeira abdutora** | 3 × 12–15 | Foco em glúteo |
 | 4 | **Panturrilha em pé** | 3 × 12–15 | |
-| 5 | **Supino máquina** (chest press) | 3 × 8–10 | Cotovelos ~45°, sem ultrapassar linha do ombro |
-| 6 | **Face pull** (corda) | 3 × 15 | Carga LEVE (reabilitação) |
+| 5 | **Supino máquina** (chest press) | 2 × 8–10 | Cotovelos ~45°, sem ultrapassar linha do ombro. RPE 5 máximo. Se dor noturna após sessão, suspender e consultar fisioterapeuta. |
+| 6 | **Face pull** (corda) | 3 × 15 | Carga LEVE (reabilitação). Não realizar no dia de sessão de fisioterapia. Quando fisio iniciar Fase 2 (semana 5+), reduzir para 2×12. |
 | 7 | **Tríceps pulley** (corda) | 3 × 12–15 | |
 | 8 | **Rosca scott máquina** | 3 × 10–12 | |
 | 9 | **Elevação de pernas** | 3 × 12–15 | |
@@ -58,10 +58,12 @@ Fazer ANTES de cada treino, com elástico leve ou sem carga:
 
 | # | Exercício | Reps |
 |---|---|---|
-| 1 | Rotação externa 0° (cotovelo no corpo) | 2 × 15 |
-| 2 | Rotação externa 90° (se sem dor) | 2 × 10 |
-| 3 | Isometria de abdução (lado da parede) | 2 × 10s |
-| 4 | Retração escapular | 2 × 12 |
+| 1 | Pêndulo de Codman | 3 × 30–45s cada direção (antes de tudo) |
+| 2 | Rotação externa 0° (cotovelo no corpo) | 2 × 15 |
+| 3 | Rotação externa 90° — **SUSPENSO até liberação do fisioterapeuta (semana 6–8 de reabilitação)** | — |
+| 4 | Isometria de abdução (lado da parede) | 2 × 10s |
+| 5 | Retração escapular | 2 × 12 |
+| 6 | Wall slides (serrátil anterior) | 2 × 12 |
 
 **Regra:** Se qualquer exercício causar dor, **NÃO FAZER** e informar o fisioterapeuta.
 
@@ -89,6 +91,8 @@ Fazer ANTES de cada treino, com elástico leve ou sem carga:
 - **Não tentar cargas anteriores imediatamente** — DOMS severo atrasa o retorno
 - Manter volume completo (séries × reps) desde o início, reduzir apenas carga
 - Priorizar hidratação e proteína nas primeiras 2 semanas (corpo vai reter água novamente)
+- **Tempo:** Semana 1: usar tempo normal (2-0-1). Semana 2+: implementar tempo 3-1-2.
+- **Volume:** Semana 1: 3 séries nos compostos de perna. Semana 2+: retomar 4 séries.
 
 ## Progressão
 
@@ -99,6 +103,14 @@ Fazer ANTES de cada treino, com elástico leve ou sem carga:
 - Acessórios: RPE 6–7
 - Rotação/face pull: RPE 4–5 (foco em qualidade, não carga)
 - Deload a cada 4–6 semanas: reduzir carga 30–40% por 1 semana
+
+---
+
+## Lacunas a preencher (a partir da semana 3)
+
+- **Exercício unilateral de MI:** afundo com halteres ou step-up (2 × 10 cada lado) — adicionar ao Treino A
+- **Core adicional:** pallof press (2 × 10 cada lado) ou dead bug (2 × 8 cada lado)
+- **Serrátil anterior:** já adicionado ao protocolo de ativação (wall slides)
 
 ---
 
