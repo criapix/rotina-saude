@@ -9,7 +9,9 @@ title: Série de Musculação
 >
 > Válida até liberação clínica pós-fisioterapia
 >
-> **Atualizada 08/02/2026** — volume de pernas aumentado após perda de massa magra (FFM 61,1 kg)
+> **Atualizada 10/02/2026** — peitoral ampliado, pernas reestruturadas para ciclismo, abdômen reforçado
+>
+> Ajustes validados por: fisioterapeuta (impacto ombro) + ortopedista (impacto coluna e ombro)
 
 Semana 1: **A — B — A** | Semana 2: **B — A — B**
 Descanso: 90–120s compostos, 60–90s acessórios
@@ -17,38 +19,38 @@ Tempo: **3-1-2** nos compostos de perna (3s excêntrica, 1s pausa, 2s concêntri
 
 ---
 
-## TREINO A (Foco: Posterior de Pernas + Costas Baixa + Reabilitação)
+## TREINO A (Foco: Pernas + Peito + Costas + Braços + Core + Reabilitação)
 
 **Aquecimento:** bike 5 min + protocolo de ativação manguito (ver abaixo)
 
 | # | Exercício | Séries × Reps | Notas |
 |---|---|---|---|
-| 1 | **Hack squat** | 4 × 8–12 | Tempo 3-1-2; carga progressiva |
-| 2 | **Mesa flexora** | 3 × 10–12 | |
-| 3 | **Stiff com halteres** | 3 × 10–12 | Carga leve-moderada, foco em posterior. Se desconforto no ombro direito ao sustentar carga, substituir por stiff na Smith ou hip thrust. |
-| 4 | **Panturrilha sentada** | 3 × 15 | |
-| 5 | **Remada máquina** (cavalinho) | 3 × 10–12 | Cotovelos junto ao corpo |
-| 6 | **Puxada frontal neutra** | 3 × 10–12 | Pegada neutra, sem forçar |
-| 7 | **Rotação externa no cabo** | 3 × 15 | Carga LEVE (reabilitação). Quando fisioterapia iniciar, ELIMINAR este exercício da academia (evitar sobreposição). Deixar exclusivamente para a fisio. |
-| 8 | **Prancha frontal** | 3 × 30–45s | |
+| 1 | **Leg press 45°** | 3 × 10–12 | Tempo 3-1-2; amplitude completa |
+| 2 | **Mesa flexora** | 3 × 10–12 | Hamstrings — fase de tração do pedal |
+| 3 | **Supino máquina** (chest press) | 3 × 8–10 | Cotovelos ~45°; RPE 5 máximo. Mesmas regras do Treino B. Dá frequência 2x/semana de peito. |
+| 4 | **Remada máquina** (cavalinho) | 3 × 10–12 | Cotovelos junto ao corpo |
+| 5 | **Puxada frontal neutra** | 3 × 10–12 | Pegada neutra, sem forçar |
+| 6 | **Rosca martelo** | 3 × 10–12 | Pegada neutra; trabalha bíceps + braquial. Sem envolvimento de ombro. |
+| 7 | **Tríceps pulley** (barra reta) | 3 × 12–15 | Extensão de cotovelo isolada. Sem envolvimento de ombro. |
+| 8 | **Rotação externa no cabo** | 3 × 15 | Carga LEVE (reabilitação). Quando fisioterapia iniciar, ELIMINAR este exercício da academia (evitar sobreposição). Deixar exclusivamente para a fisio. |
 
 ---
 
-## TREINO B (Foco: Anterior de Pernas + Peito Leve + Braços)
+## TREINO B (Foco: Anterior + Peito + Costas + Braços)
 
 **Aquecimento:** bike 5 min + protocolo de ativação manguito (ver abaixo)
 
 | # | Exercício | Séries × Reps | Notas |
 |---|---|---|---|
-| 1 | **Leg press 45°** | 4 × 8–12 | Tempo 3-1-2; carga progressiva |
-| 2 | **Cadeira extensora** | 3 × 12–15 | |
-| 3 | **Cadeira abdutora** | 3 × 12–15 | Foco em glúteo |
-| 4 | **Panturrilha em pé** | 3 × 12–15 | |
-| 5 | **Supino máquina** (chest press) | 2 × 8–10 | Cotovelos ~45°, sem ultrapassar linha do ombro. RPE 5 máximo. Se dor noturna após sessão, suspender e consultar fisioterapeuta. |
+| 1 | **Cadeira extensora** | 3 × 12–15 | Resistência de quadríceps para pedal |
+| 2 | **Panturrilha em pé** | 3 × 12–15 | Estabilidade do tornozelo no pedal |
+| 3 | **Supino máquina** (chest press) | 4 × 8–10 | Cotovelos ~45°, sem ultrapassar linha do ombro. RPE 5 máximo. **Nos dias de sessão de fisio, manter 2×8-10.** Se dor noturna após sessão, voltar para 2 séries e consultar fisioterapeuta. |
+| 4 | **Remada sentada no cabo** | 3 × 10–12 | Pegada neutra; cotovelos junto ao corpo. Complementa costas do Treino A. |
+| 5 | **Puxada frontal** (pegada fechada) | 3 × 10–12 | Pegada neutra fechada; complementa remada (puxada vertical). |
 | 6 | **Face pull** (corda) | 3 × 15 | Carga LEVE (reabilitação). Não realizar no dia de sessão de fisioterapia. Quando fisio iniciar Fase 2 (semana 5+), reduzir para 2×12. |
 | 7 | **Tríceps pulley** (corda) | 3 × 12–15 | |
 | 8 | **Rosca scott máquina** | 3 × 10–12 | |
-| 9 | **Elevação de pernas** | 3 × 12–15 | |
+| 9 | **Rosca direta** (barra ou halteres) | 3 × 10–12 | Complementa rosca scott (diferente ângulo de ativação). |
 
 ---
 
@@ -99,18 +101,24 @@ Fazer ANTES de cada treino, com elástico leve ou sem carga:
 - Atingiu o topo da faixa de reps por 2 sessões seguidas → sobe 1 pino
 - Ao subir carga, volta para o limite inferior de reps
 - Compostos de perna: **RPE 7–8** (estímulo alto — prioridade para preservar massa magra)
-- Costas/peito: RPE 6–7
+- Costas: RPE 6–7
+- Peito (supino/flexão): **RPE 5–6** (proteção do manguito)
 - Acessórios: RPE 6–7
+- Core (dead bug/pallof): RPE 6 (foco em qualidade e controle)
 - Rotação/face pull: RPE 4–5 (foco em qualidade, não carga)
 - Deload a cada 4–6 semanas: reduzir carga 30–40% por 1 semana
 
 ---
 
-## Lacunas a preencher (a partir da semana 3)
+## Lacunas preenchidas (10/02/2026)
 
-- **Exercício unilateral de MI:** afundo com halteres ou step-up (2 × 10 cada lado) — adicionar ao Treino A
-- **Core adicional:** pallof press (2 × 10 cada lado) ou dead bug (2 × 8 cada lado)
-- **Serrátil anterior:** já adicionado ao protocolo de ativação (wall slides)
+- ~~Exercício unilateral de MI:~~ ✅ leg press unilateral adicionado ao Treino B
+- **Serrátil anterior:** já no protocolo de ativação (wall slides)
+
+## Lacunas remanescentes (a partir da semana 3)
+
+- **Step-up ou afundo:** considerar adicionar ao Treino A (2×10 cada lado) para transferência funcional ao pedal
+- **Core:** removido a pedido — ciclismo e exercícios compostos fornecem estímulo indireto de core
 
 ---
 
@@ -133,9 +141,9 @@ Fazer ANTES de cada treino, com elástico leve ou sem carga:
 
 - **Membros inferiores:** sem restrição
 - **Costas:** remadas sentadas, puxadas neutras (cotovelos junto ao corpo)
-- **Peito:** supino máquina com carga leve-moderada, cotovelos a 45°
+- **Peito:** supino máquina com carga leve-moderada (cotovelos a 45°), 2x/semana. **Máximo 8 sets/semana de pushing até liberação da fisio.**
 - **Braços:** bíceps e tríceps isolados (sem envolver ombro)
-- **Core:** plancha, elevação de pernas, hollow hold
+- **Core:** hollow hold, prancha lateral (se desejar adicionar futuramente)
 
 ---
 
@@ -151,11 +159,14 @@ Fazer ANTES de cada treino, com elástico leve ou sem carga:
 
 ## Notas
 
-- Dias duplos (Ter/Qui): se fadiga do pedal, tirar 1 série dos acessórios (manter compostos de perna)
-- Hack/leg press a 4 séries é **padrão** (não opcional — volume de pernas é prioridade)
+- Dias duplos (Ter/Qui): se fadiga do pedal, tirar 1 série dos acessórios (manter compostos de perna e peito)
 - Quarta de descanso entre dias duplos é **inegociável**
 - **Prioridade atual:** recuperar massa magra perdida (FFM caiu para 61,1 kg) enquanto protege o ombro
-- Pernas são o maior grupo muscular sem restrição — maximizar estímulo aqui
+- Pernas reduzidas (4 exercícios) — ciclismo 3x/semana complementa o estímulo de membros inferiores
+- Peito: ~7 sets/semana (supino 3×A + 4×B) — limite de segurança é **8 sets/semana** de pushing até liberação da fisio
+- Costas: ~9 sets/semana (remada + puxada em A, remada + puxada em B) — boa frequência 2x/semana
+- Braços: tríceps 2x/semana + bíceps 2x/semana (3 variações de rosca + 2 de tríceps)
 - Tempo 3-1-2 nos compostos de perna: mais tempo sob tensão = mais estímulo hipertrófico
+- NUNCA fisioterapia e exercícios de peito no mesmo dia com <6h de intervalo
 - Após fisioterapia e liberação clínica, a série será expandida para upper body progressivamente
 

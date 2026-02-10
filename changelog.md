@@ -9,6 +9,45 @@ Historico de alteracoes no plano de treino, nutricao e acompanhamento clinico.
 
 ---
 
+## 10/02/2026 — Reestruturacao da serie (peito + pernas ciclismo + abdomen + rebalanceamento)
+
+**Contexto:** Solicitacao de mais exercicios de peitoral, reestruturacao de pernas exclusivamente para performance no ciclismo (com reducao de volume), e adicao de exercicios abdominais. Ajustes propostos pelo personal trainer e **validados pelo fisioterapeuta e ortopedista** quanto ao impacto no ombro (rotura parcial supraespinhal) e coluna (Modic I cervical). Ajustes adicionais a pedido do paciente (substituicoes e remocoes).
+
+### Peitoral — Supino maquina 2x/semana (~7 sets/semana)
+- **Adicionado:** supino maquina ao Treino A (3x8-10, RPE 5) — frequencia 2x/semana de peito
+- **Aumentado:** supino maquina no Treino B de 2x8-10 para **4x8-10** (nos dias de fisio, manter 2x8-10)
+- Total: 7 sets/semana (limite de seguranca: 8 sets/semana)
+
+### Pernas — Reestruturadas para ciclismo (de 8 para 4 exercicios)
+- **Removidos:** hack squat, stiff com halteres, cadeira abdutora, panturrilha sentada
+- **Mantidos:** leg press 45° (3 series), mesa flexora, cadeira extensora, panturrilha em pe
+- Volume reduzido compensado pelo ciclismo 3x/semana
+
+### Costas — Equilibradas entre os dois treinos
+- **Adicionados ao Treino B:** remada sentada no cabo (3x10-12) + puxada frontal pegada fechada (3x10-12)
+- Treino A ja tinha remada maquina + puxada frontal neutra
+- Total: ~12 sets/semana de costas com frequencia 2x/semana
+
+### Bracos — Equilibrados entre os dois treinos
+- **Adicionados ao Treino A:** rosca martelo (3x10-12) + triceps pulley barra reta (3x12-15)
+- Treino B ja tinha triceps pulley corda + rosca scott + rosca direta
+- Total: biceps 3 variacoes + triceps 2 variacoes, frequencia 2x/semana
+
+### Core — Removido a pedido do paciente
+- **Removidos:** prancha frontal, dead bug, pallof press, elevacao de pernas
+- Core mantido indiretamente via exercicios compostos e ciclismo
+
+### Tempo de treino — Calibrado para ~1 hora
+- Treino A: 8 exercicios (~55-60 min incluindo aquecimento)
+- Treino B: 9 exercicios (~55-60 min incluindo aquecimento)
+
+### Resumo de validacao multidisciplinar
+- Fisioterapeuta: **APROVADO** — volume de pushing (7 sets/sem) dentro do limite de seguranca (8 sets/sem)
+- Ortopedista: **APROVADO** — restricoes de ombro e coluna mantidas integralmente
+- Alerta mantido: NUNCA fisioterapia e exercicios de peito no mesmo dia com <6h de intervalo
+
+---
+
 ## 08/02/2026 — Parecer multidisciplinar (nutricionista, personal trainer, ortopedista, fisioterapeuta)
 
 **Contexto:** Revisao integrada de TODOS os dados de treino, dieta e saude por equipe de 4 especialistas. Documento completo em `parecer-multidisciplinar-08-02-2026.md`.
