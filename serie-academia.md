@@ -84,17 +84,41 @@ Fazer ANTES de cada treino, com elástico leve ou sem carga:
 
 ---
 
+## ⚠️ ALERTA: CK (Creatina Quinase) Elevada — Exame 10/02/2026
+
+**Resultado**: CK = 480 U/L (referência: 35-232 U/L) — **2x acima do limite superior**
+
+**Significado**: Sobrecarga muscular ou microlesão muscular. Comum em atletas, mas requer monitoramento.
+
+### 🚨 Sinais de Alerta — Procurar Médico IMEDIATAMENTE se:
+- **Dor muscular severa** (diferente de DOMS normal)
+- **Urina escura** (cor de Coca-Cola ou chá preto)
+- **Fadiga extrema** ou fraqueza muscular generalizada
+- **Náusea, vômito ou confusão mental**
+
+### Ações Obrigatórias:
+1. ✅ **Protocolo de retorno gradual** (descrito abaixo) é ESSENCIAL — não pular etapas
+2. ✅ **Hidratação rigorosa**: 3,5-4,5 L/dia conforme atividade (já implementada no plano nutricional)
+3. 🔴 **Repetir exame de CK em 4-6 semanas** para verificar normalização
+4. ⚠️ **EVITAR anti-inflamatórios** (ibuprofeno, diclofenaco) — pioram função renal com CK alta
+5. ⚠️ **Se dor muscular**: usar gelo, descanso, alongamento leve (NUNCA massagem profunda com CK alta)
+
+---
+
 ## Protocolo de Retorno (após 3 semanas parado)
 
+> ⚠️ **CRÍTICO**: Com CK elevada, este protocolo é OBRIGATÓRIO (não opcional)
+>
 > Semanas 1–2: adaptar com 70–80% da carga anterior; RPE 6–7; foco em reconectar padrão motor
 >
 > Semana 3 em diante: retomar progressão normal abaixo
 
-- **Não tentar cargas anteriores imediatamente** — DOMS severo atrasa o retorno
+- **Não tentar cargas anteriores imediatamente** — DOMS severo atrasa o retorno E pode elevar ainda mais a CK
 - Manter volume completo (séries × reps) desde o início, reduzir apenas carga
-- Priorizar hidratação e proteína nas primeiras 2 semanas (corpo vai reter água novamente)
+- **Priorizar hidratação** (CRÍTICO com CK alta) e proteína nas primeiras 2 semanas (corpo vai reter água novamente)
 - **Tempo:** Semana 1: usar tempo normal (2-0-1). Semana 2+: implementar tempo 3-1-2.
 - **Volume:** Semana 1: 3 séries nos compostos de perna. Semana 2+: retomar 4 séries.
+- ⚠️ **Monitorar urina**: deve estar clara-palha. Se escurecer, PARAR treino e procurar médico.
 
 ## Progressão
 

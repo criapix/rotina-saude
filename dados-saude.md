@@ -337,7 +337,7 @@ title: Consolidação Clínica
 5. 🔴 **URGENTE:** Reverter perda de massa magra (61,1 kg é o menor valor registrado)
 6. 🔴 **ENMG do membro superior direito** — recomendada em até **60 dias**. Objetivo: diferenciar radiculopatia C8 vs neuropatia ulnar
 7. 🔴 **US tireoide com Doppler** — prioridade alta (**30 dias**) + solicitar TSH, T4L, anti-TPO
-8. ⚠️ **Exames de sangue recomendados:** 25-OH vitamina D, testosterona total e livre, hemograma, PCR
+8. ✅ ~~**Exames de sangue realizados em 10/02/2026**~~ — ver seção 16 para resultados
 9. ⚠️ Melhorar hidratação (TBW caiu para 44,7 L — mínimo registrado)
 10. 🎯 **Meta bioimpedância 08/03/2026:** FFM >= 62,5 kg, TBW >= 46 L
 11. ✅ ~~Ajustar série de academia para fase de recuperação~~ → ajustada para volume de pernas (FEITO)
@@ -385,6 +385,81 @@ title: Consolidação Clínica
 - **Dormência progressiva bilateral** (ambas as mãos / ambos os braços)
 - **Alteração de marcha ou incontinência** (sinais de mielopatia cervical)
 - **Dor cervical intensa após trauma** (queda no MTB, impacto)
+
+---
+
+## 16. Resultados de Exames Laboratoriais (10/02/2026)
+
+### Resumo Executivo
+
+**✅ Parâmetros Excelentes:**
+- **Glicemia**: 81 mg/dL (ref: 70-99) | **HbA1c**: 4,6% (ref: <5,7%) — controle glicêmico perfeito
+- **Perfil Lipídico**: Colesterol total 171 mg/dL, HDL 43 mg/dL, LDL 109 mg/dL, Triglicerídeos 93 mg/dL — todos em valores ótimos
+- **Função Renal**: Creatinina 0,99 mg/dL, Ureia 39 mg/dL — função renal normal
+- **Função Hepática**: TGP 18 U/L, TGO 21 U/L — função hepática excelente
+- **Hemograma Completo**: Todas as séries dentro da normalidade
+- **Tireoide**: TSH 2,00 µUI/mL, T4 Livre 1,19 ng/dL — função tireoidiana normal
+- **Ferritina**: 292 ng/mL (ref: 30-400) — excelente estoque de ferro
+- **Eletrólitos**: Magnésio, Cálcio, Potássio, Sódio — todos normais
+- **Ácido Úrico**: 5,7 mg/dL — dentro da normalidade
+
+### ⚠️ Achados que Requerem Atenção e Ação
+
+#### 1. CK (Creatina Quinase) ELEVADA
+- **Resultado**: 480 U/L (referência: 35-232 U/L) — **2x acima do limite superior**
+- **Interpretação**: Indica sobrecarga muscular ou microlesão muscular recente
+- **Contexto**:
+  - Patrick esteve em destreino nas 3 semanas anteriores ao exame
+  - Pode refletir treinos intensos antes da pausa OU retorno recente ao treino
+  - CK elevada em atletas é comum, mas este valor requer monitoramento
+- **⚠️ Risco**: Se persistir elevada ou aumentar, pode indicar rabdomiólise ou overtraining
+- **Ações Necessárias**:
+  1. ✅ Protocolo de retorno gradual já implementado (70-80% carga nas semanas 1-2)
+  2. 🔴 **Repetir CK em 4-6 semanas** para verificar se normaliza com treino adequado
+  3. ⚠️ **Sinais de alerta**: dor muscular severa, urina escura, fadiga extrema → procurar médico IMEDIATAMENTE
+  4. ✅ Hidratação aumentada já implementada (3,5-4,5 L/dia conforme atividade)
+  5. ⚠️ **Evitar AINES** (ibuprofeno, diclofenaco) — pioram função renal se CK alta
+
+#### 2. Vitamina D NO LIMITE INFERIOR
+- **Resultado**: 28,2 ng/mL (referência: 20-60 ng/mL)
+- **Interpretação**: Insuficiência de vitamina D (ideal para atletas/recuperação: 40-60 ng/mL)
+- **Contexto**:
+  - Patrick tem **lesão tendínea ativa** (rotura parcial do supraespinhal)
+  - Vitamina D é CRÍTICA para: saúde óssea, síntese de colágeno tendíneo, função imune, força muscular
+  - Níveis <30 ng/mL estão associados a maior risco de lesões músculo-esqueléticas
+- **Ações Necessárias**:
+  1. 🔴 **Aumentar suplementação de Vitamina D3**:
+     - **Dose de ataque**: 10.000 UI/dia por 8 semanas (elevar de 28 → 45-50 ng/mL)
+     - Após 8 semanas: **Dose de manutenção**: 5.000 UI/dia
+     - Sempre com refeição contendo gordura (almoço ou jantar)
+  2. 🔴 **Repetir 25-OH Vitamina D em 8-12 semanas** (após dose de ataque)
+  3. ✅ Vitamina K2 (MK-7) já está no protocolo — manter 100-200 mcg/dia (sinergia com D3)
+
+#### 3. Vitamina B12 LEVEMENTE ELEVADA
+- **Resultado**: 838 pg/mL (referência: 197-771 pg/mL)
+- **Interpretação**: Leve elevação, geralmente benigna
+- **Contexto**: Pode estar relacionada a suplementação ou consumo elevado de proteína animal
+- **Ação Necessária**:
+  1. ⚠️ **Verificar suplementação atual**: Patrick está tomando complexo B ou B12 isolada?
+  2. Se confirmada suplementação de B12, **suspender** (não há necessidade com este nível)
+  3. Não requer ação imediata se assintomático
+
+### Conclusão dos Exames Laboratoriais
+
+**Perfil metabólico e de saúde geral: EXCELENTE**
+- Controle glicêmico perfeito (HbA1c 4,6%)
+- Perfil lipídico ótimo
+- Função renal e hepática preservadas
+- Ausência de anemia, inflamação sistêmica ou disfunção tireoidiana
+
+**Ajustes necessários:**
+1. 🔴 **Vitamina D**: aumentar dose para 10.000 UI/dia por 8 semanas (CRÍTICO para recuperação do ombro)
+2. ⚠️ **CK elevada**: monitorar evolução, manter protocolo de retorno gradual, hidratar bem
+3. ⚠️ **Vitamina B12**: verificar suplementação e suspender se confirmada
+
+**Exames ainda pendentes (do parecer multidisciplinar):**
+- Testosterona total e livre (importante para homem 47 anos + perda de massa magra)
+- PCR (marcador inflamatório)
 
 ---
 
