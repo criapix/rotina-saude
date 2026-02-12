@@ -9,6 +9,45 @@ Historico de alteracoes no plano de treino, nutricao e acompanhamento clinico.
 
 ---
 
+## 11/02/2026 — Ajustes nutricionais e suplementação com base nos exames de sangue
+
+**Contexto:** Resultados dos exames laboratoriais de 10/02/2026 mostraram alguns pontos de atenção que requerem ajustes na suplementação e monitoramento.
+
+### Principais achados do exame de sangue (10/02/2026)
+- **✅ Pontos positivos:** HbA1c excelente (4,6%), perfil lipídico bom (Col total 171, LDL 109, TG 93), testosterona adequada (557 ng/dL), função hepática e renal normais
+- **⚠️ CK elevado (480 U/L):** dobro do limite superior (ref: 35-232) — indica dano muscular recente ou overtraining; compatível com retorno ao treino em 09/02
+- **⚠️ Vitamina D baixa (28,2 ng/mL):** abaixo do ideal (30-60) para população de risco com lesões ósseas/tendíneas
+- **⚠️ HDL baixo (43 mg/dL):** limítrofe (ideal >50) — risco cardiovascular aumentado
+- **⚠️ CHCM levemente alto (36,6 g/dL):** possível desidratação leve
+
+### Ajustes implementados
+
+#### Suplementação
+- **Vitamina D3:** aumentada de 4000 para **5000 UI/dia**
+  - Reavaliar em 8-12 semanas
+  - Alvo: 30-60 ng/mL (população de risco com rotura parcial supraespinhal + osteíte reacional)
+- **Omega-3:** mantido em 3g EPA+DHA/dia
+  - Dupla função: anti-inflamatório + aumentar HDL
+
+#### Hidratação
+- Reforçada importância da hidratação (CHCM elevado sugere desidratação leve):
+  - Dias de pedal: 4,0-4,5 L/dia
+  - Dias de descanso: 3,0-3,5 L/dia
+  - Regra prática: urina clara-palha até as 14h
+
+### Próximos passos laboratoriais
+1. **CK:** repetir em 3-4 semanas (monitorar overtraining)
+2. **Vitamina D:** reavaliar em 8-12 semanas
+3. **US tireoide + anti-TPO:** investigar nódulo incidental (30 dias)
+4. **PCR:** ainda não realizado — solicitar próxima avaliação
+5. **Próximo painel completo:** Maio/2026 (3 meses)
+
+### Documentação atualizada
+- **dados-saude.md:** adicionada seção completa de exames de sangue (10/02/2026)
+- **Plano nutricional.md:** ajustada suplementação e adicionados resultados dos exames
+
+---
+
 ## 10/02/2026 — Reestruturacao da serie (peito + pernas ciclismo + abdomen + rebalanceamento)
 
 **Contexto:** Solicitacao de mais exercicios de peitoral, reestruturacao de pernas exclusivamente para performance no ciclismo (com reducao de volume), e adicao de exercicios abdominais. Ajustes propostos pelo personal trainer e **validados pelo fisioterapeuta e ortopedista** quanto ao impacto no ombro (rotura parcial supraespinhal) e coluna (Modic I cervical). Ajustes adicionais a pedido do paciente (substituicoes e remocoes).

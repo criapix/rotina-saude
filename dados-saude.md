@@ -292,7 +292,147 @@ title: Consolidação Clínica
 
 ---
 
-## 12. Evolução da Composição Corporal (Bioimpedância)
+## 12. Exames de Sangue (10/02/2026)
+
+### Resultados Gerais — Resumo Executivo
+
+| Categoria | Status | Observação |
+|---|---|---|
+| **Controle Glicêmico** | ✅ EXCELENTE | HbA1c 4,6%, glicemia 81 mg/dL |
+| **Perfil Lipídico** | ✅ BOM | Col total 171, LDL 109, TG 93 |
+| **HDL Colesterol** | ⚠️ LIMÍTROFE | 43 mg/dL (ideal >50) |
+| **CK (Creatina Quinase)** | ⚠️ ELEVADO | 480 U/L (ref: 35-232) |
+| **Vitamina D** | ⚠️ ABAIXO IDEAL | 28,2 ng/mL (ideal 30-60) |
+| **Vitamina B12** | ⚠️ LEVEMENTE ALTO | 838 pg/mL (ref: 197-771) |
+| **Testosterona Total** | ✅ BOM | 557 ng/dL (ref: 249-836) |
+| **Testosterona Livre** | ✅ BOM | 12,6 ng/dL (ref: 5,7-17,8) |
+| **Função Hepática** | ✅ NORMAL | TGP 18, TGO 21 |
+| **Função Renal** | ✅ NORMAL | Creatinina 0,99, ureia 39 |
+| **Tireoide** | ✅ NORMAL | TSH 2,0, T4L 1,19 |
+| **Hemograma** | ✅ NORMAL | CHCM leve alto (36,6) |
+
+### Detalhamento dos Exames
+
+#### Eletrólitos e Minerais
+- **Magnésio:** 2,2 mg/dL (ref: 1,7-2,4) — NORMAL
+- **Cálcio:** 9,5 mg/dL (ref: 8,6-10,3) — NORMAL
+- **Potássio:** 4,1 mEq/L (ref: 3,5-5,1) — NORMAL
+- **Sódio:** 141 mEq/L (ref: 136-145) — NORMAL
+
+#### Enzimas Musculares e Hepáticas
+- **CK (Creatina Quinase):** 480 U/L (ref: 35-232) — **ELEVADO** ⚠️
+  - Dano muscular recente ou overtraining
+  - Esperado após treinos intensos, mas está 2x acima do limite
+  - Monitorar em próximo exame (3-4 semanas)
+- **TGP (ALT):** 18 U/L (ref: <45) — NORMAL
+- **TGO (AST):** 21 U/L (ref: <35) — NORMAL
+
+#### Função Renal
+- **Creatinina:** 0,99 mg/dL (ref: 0,90-1,30) — NORMAL
+- **Ureia:** 39 mg/dL (ref: 13-43) — NORMAL
+
+#### Controle Glicêmico
+- **Hemoglobina Glicada (HbA1c):** 4,6% (ref: <5,7%) — **EXCELENTE** ✅
+  - Glicemia média estimada: 85 mg/dL
+- **Glicose de Jejum:** 81 mg/dL (ref: 70-99) — NORMAL
+
+#### Perfil Lipídico
+- **Colesterol Total:** 171 mg/dL (ref: <190) — BOM
+- **HDL:** 43 mg/dL (ref: >40) — **LIMÍTROFE BAIXO** ⚠️
+  - Ideal seria >50 mg/dL para proteção cardiovascular
+- **LDL:** 109 mg/dL (risco baixo: <115) — BOM
+- **Triglicerídeos:** 93 mg/dL (ref: <150) — BOM
+- **VLDL:** 19 mg/dL
+- **Não-HDL:** 128 mg/dL (risco baixo: <145) — BOM
+
+#### Outros Marcadores
+- **Ácido Úrico:** 5,7 mg/dL (ref: 4,4-7,6) — NORMAL
+
+#### Hemograma Completo
+**Série Vermelha:**
+- Eritrócitos: 5,06 milhões/mm³ — NORMAL
+- Hemoglobina: 15,6 g/dL — NORMAL
+- Hematócrito: 42,6% — NORMAL
+- VCM: 84,2 µm³ — NORMAL
+- HCM: 30,8 pg — NORMAL
+- **CHCM:** 36,6 g/dL (ref: 31,4-36,0) — **LEVEMENTE ALTO** ⚠️
+  - Pode indicar desidratação leve
+- RDW: 12,3% — NORMAL
+
+**Série Branca:**
+- Leucócitos: 7.200/mm³ — NORMAL
+- Distribuição normal de neutrófilos, linfócitos, eosinófilos, basófilos e monócitos
+
+**Série Plaquetária:**
+- Plaquetas: 212.000/mm³ — NORMAL
+- VPM: 10,8 fL — NORMAL
+
+#### Tireoide
+- **TSH:** 2,00 µUI/mL (ref: 0,38-5,33) — NORMAL
+- **T4 Livre:** 1,19 ng/dL (ref: 0,92-1,68) — NORMAL
+- **⚠️ Nódulo incidental no lobo direito:** requer ultrassonografia (vide RM cervical)
+
+#### Vitaminas e Reservas
+- **Ferritina:** 292 ng/mL (ref: 30-400) — NORMAL
+- **Vitamina B12:** 838 pg/mL (ref: 197-771) — **LEVEMENTE ELEVADO** ⚠️
+  - Geralmente benigno se não estiver suplementando B12 isolada
+- **Vitamina D (25-OH):** 28,2 ng/mL (ref: 20-60) — **ABAIXO DO IDEAL** ⚠️
+  - Para população de risco (lesões ósseas/tendíneas), ideal: 30-60 ng/mL
+  - Dose ajustada de 4000 para 5000 UI/dia; reavaliar em 8-12 semanas
+
+#### Hormônios
+- **Testosterona Total:** 557 ng/dL (ref 20-49 anos: 249-836) — BOM
+- **Testosterona Livre:** 12,610 ng/dL (ref 20-49 anos: 5,710-17,853) — BOM
+- **SHBG:** 29,8 nmol/L (ref 20-49 anos: 18,3-54,1) — NORMAL
+
+#### Próstata
+- **PSA Total:** 1,56 ng/mL (ref <60 anos: <2,50) — NORMAL
+- **PSA Livre:** 0,30 ng/mL
+
+### Interpretação Clínica Integrada
+
+#### Pontos Positivos
+1. **Excelente controle metabólico:** glicemia e HbA1c no alvo
+2. **Perfil lipídico favorável:** colesterol e triglicerídeos controlados
+3. **Função hepática e renal preservadas**
+4. **Testosterona adequada** para idade (47 anos)
+5. **Tireoide funcionante** (TSH e T4L normais)
+6. **Ausência de anemia ou alterações hematológicas**
+
+#### Pontos de Atenção e Ações Recomendadas
+
+1. **CK elevado (480 U/L) — PRIORIDADE ALTA**
+   - **Significado:** dano muscular recente, overtraining ou treino intenso 24-72h antes da coleta
+   - **Ação:** repetir CK em 3-4 semanas + monitorar hidratação e volume de treino
+   - **Contextualização:** compatível com retorno ao treino após pausa (retomada 09/02, exame 10/02)
+
+2. **HDL baixo (43 mg/dL) — PRIORIDADE MODERADA**
+   - **Significado:** risco cardiovascular aumentado (ideal >50)
+   - **Ação:** manter omega-3 3g/dia, pedal (exercícios aeróbicos), reduzir álcool
+
+3. **Vitamina D abaixo do ideal (28,2 ng/mL) — PRIORIDADE MODERADA**
+   - **Significado:** subótimo para recuperação óssea/tendínea (rotura parcial supraespinhal, osteíte reacional)
+   - **Ação:** dose aumentada de 4000 para 5000 UI/dia; reavaliar em 8-12 semanas
+
+4. **CHCM levemente elevado (36,6 g/dL) — PRIORIDADE BAIXA**
+   - **Significado:** possível desidratação leve no momento da coleta
+   - **Ação:** monitorar hidratação (alvo: 3,5-4,5 L/dia conforme atividade)
+
+5. **Vitamina B12 levemente elevada (838 pg/mL) — PRIORIDADE BAIXA**
+   - **Significado:** geralmente benigno; pode ser variação fisiológica
+   - **Ação:** repetir em próxima avaliação se persistir
+
+### Próximos Passos Laboratoriais
+
+- **CK:** repetir em 3-4 semanas (monitorar overtraining)
+- **Vitamina D:** reavaliar em 8-12 semanas (dose aumentada para 5000 UI/dia)
+- **US tireoide + anti-TPO:** investigar nódulo incidental (30 dias)
+- **PCR (proteína C reativa):** ainda não realizado — considerar próxima avaliação
+- **Próximo painel completo:** Maio/2026 (3 meses)
+
+---
+
+## 13. Evolução da Composição Corporal (Bioimpedância)
 
 | Data | Peso (kg) | BF% | FM (kg) | FFM (kg) | TMB (kcal) | VFL |
 |---|---|---|---|---|---|---|
@@ -317,7 +457,7 @@ title: Consolidação Clínica
 
 ---
 
-## 13. Status Atual (Fevereiro 2026)
+## 14. Status Atual (Fevereiro 2026)
 
 - **Exames (RM ombro, cervical, dorsal):** ✅ REALIZADOS em 02/02/2026
 - **Bioimpedância 08/02/2026:** ⚠️ FFM caiu para 61,1 kg (pior resultado); BF subiu para 15,6%
@@ -332,20 +472,24 @@ title: Consolidação Clínica
 ### Pendências prioritárias
 1. ✅ ~~Realizar os exames de RM solicitados pelo ortopedista~~ (concluído 02/02/2026)
 2. ✅ **Parecer multidisciplinar concluído em 08/02/2026** (nutricionista, personal trainer, ortopedista, fisioterapeuta)
-3. 🔴 **URGENTE:** Iniciar fisioterapia prescrita (10 sessões) — foco no manguito rotador. Probabilidade de necessitar mais 10 sessões: **60-70%**
-4. 🔴 **URGENTE:** Retorno ao ortopedista para discussão dos resultados e definição de conduta
-5. 🔴 **URGENTE:** Reverter perda de massa magra (61,1 kg é o menor valor registrado)
-6. 🔴 **ENMG do membro superior direito** — recomendada em até **60 dias**. Objetivo: diferenciar radiculopatia C8 vs neuropatia ulnar
-7. 🔴 **US tireoide com Doppler** — prioridade alta (**30 dias**) + solicitar TSH, T4L, anti-TPO
-8. ⚠️ **Exames de sangue recomendados:** 25-OH vitamina D, testosterona total e livre, hemograma, PCR
-9. ⚠️ Melhorar hidratação (TBW caiu para 44,7 L — mínimo registrado)
-10. 🎯 **Meta bioimpedância 08/03/2026:** FFM >= 62,5 kg, TBW >= 46 L
-11. ✅ ~~Ajustar série de academia para fase de recuperação~~ → ajustada para volume de pernas (FEITO)
-12. ✅ ~~Ajustar nutrição e pedal pós-bioimpedância 08/02~~ (FEITO)
+3. ✅ ~~Exames de sangue~~ (concluído 10/02/2026) — **CK elevado (480), Vit D baixa (28,2), HDL baixo (43) requerem acompanhamento**
+4. 🔴 **URGENTE:** Iniciar fisioterapia prescrita (10 sessões) — foco no manguito rotador. Probabilidade de necessitar mais 10 sessões: **60-70%**
+5. 🔴 **URGENTE:** Retorno ao ortopedista para discussão dos resultados e definição de conduta
+6. 🔴 **URGENTE:** Reverter perda de massa magra (61,1 kg é o menor valor registrado)
+7. 🔴 **Repetir CK em 3-4 semanas** — monitorar overtraining (resultado atual: 480 U/L, ref: 35-232)
+8. 🔴 **ENMG do membro superior direito** — recomendada em até **60 dias**. Objetivo: diferenciar radiculopatia C8 vs neuropatia ulnar
+9. 🔴 **US tireoide com Doppler** — prioridade alta (**30 dias**) + solicitar anti-TPO (TSH e T4L já realizados: normais)
+10. ⚠️ **Vitamina D reavaliar** em 8-12 semanas (dose aumentada 4000→5000 UI/dia)
+11. ⚠️ **Melhorar hidratação:** TBW 44,7 L (baixo) + CHCM 36,6 (levemente alto) sugerem desidratação
+12. ⚠️ **PCR (proteína C reativa):** ainda não realizado — solicitar próxima avaliação
+13. 🎯 **Meta bioimpedância 08/03/2026:** FFM >= 62,5 kg, TBW >= 46 L
+14. 🎯 **Próximo painel laboratorial completo:** Maio/2026 (3 meses após 10/02)
+15. ✅ ~~Ajustar série de academia para fase de recuperação~~ → ajustada para volume de pernas (FEITO)
+16. ✅ ~~Ajustar nutrição e pedal pós-bioimpedância 08/02~~ (FEITO)
 
 ---
 
-## 14. Prognóstico por Região (Fev/2026)
+## 15. Prognóstico por Região (Fev/2026)
 
 ### Ombro Direito
 - **Prognóstico:** reservado a moderado
@@ -371,7 +515,7 @@ title: Consolidação Clínica
 
 ---
 
-## 15. Restrições, Alertas e Critérios Cirúrgicos
+## 16. Restrições, Alertas e Critérios Cirúrgicos
 
 ### Critérios de indicação cirúrgica futura — Ombro Direito
 > Cirurgia NÃO indicada atualmente. Reavaliar se qualquer dos critérios abaixo for atingido:

@@ -1,0 +1,858 @@
+﻿LAB As melhores experiências
+em sFerviços de saúde.
+
+i
+e
+
+NOME:  PATRICK SANTOS COELHO ATlENDIMENTO:2bb4d994ad0935
+DATA DE NASCIMENTO: 20/09/1978  47a anos d
+
+4 SEXO:M
+CPF: 080.949.377-26 DATA DO AGENDAMENTO:09/02/2026
+HUB: HUB RJ NITERÓI - CNES: 5567971 PAGINA:1/14
+MÉDICO: PEDRO CESAR BRAGA LIMA - CRM-RJ-1013335
+RESPONSÁVEL TÉCNICO: RICARDO DE ALMEIDA SEBBA - CRM RJ 52-0075363-7
+
+Coleta(10/02/2026 06:30) Liberado em (11/02/2026 09:40)
+MAGNÉSIO Valor de referência
+
+ Re s u l t a d o :                           2,2 mg/dL 1,7 a 2,4 mg/dL
+
+Material: SORO
+Método..: COLORIMÉTRICO
+Realizado na unidade: DB RIO DE JANEIRO. CNES: 4574311
+
+Hash laudo: CC12D0824769A7761CF8B1E02FB29300B9762007526647113E3A416812A8
+Liberado por MARINA GOMES DE MORAES SASSI - CRF-SP-106417
+
+ __________________________________________________________________________
+Coleta(10/02/2026 06:30) Liberado em (11/02/2026 09:40)
+CÁLCIO Valor de referência
+
+ Re s u l t a d o :                           9,5 mg/dL 8,6 a 10,3 mg/dL
+
+Método..: COLORIMÉTRICO
+Material: SORO
+Realizado na unidade: DB RIO DE JANEIRO. CNES: 4574311
+
+Hash laudo: 37FA21541D1F1C50BDBEB352D4D8AE71690324591908FDB7D823F3034F32D75E
+Liberado por MARINA GOMES DE MORAES SASSI - CRF-SP-106417
+
+ __________________________________________________________________________
+Coleta(10/02/2026 06:30) Liberado em (11/02/2026 09:40)
+POTÁSSIO Valor de referência
+
+ Re s u l t a d o :                           4,1 mEq/L 3,5 a 5,1 mEq/L
+
+Método..: ELETRODO SELETIVO
+Material: SORO
+Realizado na unidade: DB RIO DE JANEIRO. CNES: 4574311
+
+Hash laudo: C48CD7478A23A7467D13E6AECAB8B94CBAFDBB7458F03DA13DC4720271A1EC9C
+Liberado por MARINA GOMES DE MORAES SASSI - CRF-SP-106417
+
+ __________________________________________________________________________
+Coleta(10/02/2026 06:30) Liberado em (11/02/2026 09:40)
+SÓDIO Valor de referência
+
+ Re s u l t a d o :                           141 mEq/L 136 a 145 mEq/L
+
+Material: SORO
+Método..: ELETRODO SELETIVO
+Realizado na unidade: DB RIO DE JANEIRO. CNES: 4574311
+
+Hash laudo: C5EDF81D92DF1F70AD74213D522ABB25F7734E4C2A9D68F03E9E5CEA70725FBD
+Liberado por MARINA GOMES DE MORAES SASSI - CRF-SP-106417
+
+Dr. Antonio Fabbron Junior • CRM SP 38739 • Diretor Geral Dr. Carlos Aita • CRM SP 68.189 • CRM PR 22.323 • Responsável Técnico
+Unidade produtiva: Diagnósticos do Brasil 0800 643-0376
+RUA SAO LUIZ GONZAGA, 989, SAL 101 SAL 201 SAL,  SAO CRISTOVAO, RJ, CEP 20910-063 (61) 3181-0963
+
+
+
+LAB As melhores experiências
+em sFerviços de saúde.
+
+i
+e
+
+NOME:  PATRICK SANTOS COELHO ATlENDIMENTO:2bb4d994ad0935
+DATA DE NASCIMENTO: 20/09/1978  47a anos d
+
+4 SEXO:M
+CPF: 080.949.377-26 DATA DO AGENDAMENTO:09/02/2026
+HUB: HUB RJ NITERÓI - CNES: 5567971 PAGINA:2/14
+MÉDICO: PEDRO CESAR BRAGA LIMA - CRM-RJ-1013335
+RESPONSÁVEL TÉCNICO: RICARDO DE ALMEIDA SEBBA - CRM RJ 52-0075363-7
+
+Coleta(10/02/2026 06:30) Liberado em (11/02/2026 09:40)
+CREATINA QUINASE - CK Valor de referência
+
+ Re s u l t a d o :                           480 U/L Homens..: 35 a 232 U/L
+
+Material: SORO
+Método..: ENZIMÁTICO
+Realizado na unidade: DB RIO DE JANEIRO. CNES: 4574311
+
+Hash laudo: 4821CE586B1A996E46FD2522E532DB08FA91B4D0AF574AD1CA8284FA7B692D
+Liberado por MARINA GOMES DE MORAES SASSI - CRF-SP-106417
+
+ __________________________________________________________________________
+Coleta(10/02/2026 06:30) Liberado em (11/02/2026 09:40)
+ALANINA AMINOTRANSFERASE - TGP Valor de referência
+
+ Re s u l t a d o :                            18 U/L Homem.: Inferior a 45 U/L
+Mulher: Inferior a 34 U/L
+
+Material: SORO
+Método..: ENZIMÁTICO
+Realizado na unidade: DB RIO DE JANEIRO. CNES: 4574311
+
+Hash laudo: 32E426F5D170144CAAAB6980DB3AAFB9227E213E1F41A65B43058E8D616E1F9
+Liberado por MARINA GOMES DE MORAES SASSI - CRF-SP-106417
+
+ __________________________________________________________________________
+Coleta(10/02/2026 06:30) Liberado em (11/02/2026 09:40)
+ASPARTATO AMINOTRANSFERASE - TGO Valor de referência
+
+ Re s u l t a d o :                            21 U/L Homem.: Inferior a 35 U/L
+Mulher: Inferior a 31 U/L
+
+Material: SORO
+Método..: ENZIMÁTICO
+Realizado na unidade: DB RIO DE JANEIRO. CNES: 4574311
+
+Hash laudo: DE7F718A1EC7FA1C5177B2D62792DB0DA8A63A4FE85B602EABAE2BC88181448
+Liberado por MARINA GOMES DE MORAES SASSI - CRF-SP-106417
+
+ __________________________________________________________________________
+Coleta(10/02/2026 06:30) Liberado em (11/02/2026 09:40)
+CREATININA Valor de referência
+
+ Re s u l t a d o :                          0,99 mg/dL 0,90 a 1,30 mg/dL
+Método..: COLORIMÉTRICO
+Material: SORO
+Realizado na unidade: DB RIO DE JANEIRO. CNES: 4574311
+
+Hash laudo: 32D94253536426CE551FA761A6A9160D535CA87EF734B9CE6FD77B172202
+Liberado por MARINA GOMES DE MORAES SASSI - CRF-SP-106417
+
+Dr. Antonio Fabbron Junior • CRM SP 38739 • Diretor Geral Dr. Carlos Aita • CRM SP 68.189 • CRM PR 22.323 • Responsável Técnico
+Unidade produtiva: Diagnósticos do Brasil 0800 643-0376
+RUA SAO LUIZ GONZAGA, 989, SAL 101 SAL 201 SAL,  SAO CRISTOVAO, RJ, CEP 20910-063 (61) 3181-0963
+
+
+
+LAB As melhores experiências
+em sFerviços de saúde.
+
+i
+e
+
+NOME:  PATRICK SANTOS COELHO ATlENDIMENTO:2bb4d994ad0935
+DATA DE NASCIMENTO: 20/09/1978  47a anos d
+
+4 SEXO:M
+CPF: 080.949.377-26 DATA DO AGENDAMENTO:09/02/2026
+HUB: HUB RJ NITERÓI - CNES: 5567971 PAGINA:3/14
+MÉDICO: PEDRO CESAR BRAGA LIMA - CRM-RJ-1013335
+RESPONSÁVEL TÉCNICO: RICARDO DE ALMEIDA SEBBA - CRM RJ 52-0075363-7
+
+Coleta(10/02/2026 06:30) Liberado em (11/02/2026 09:40)
+UREIA Valor de referência
+
+ Re s u l t a d o :                            39 mg/dL Prematuro (1 semana)......:  6 a 54 mg/dL
+Recém Nascido.............:  8 a 26 mg/dL
+Crianças..................: 11 a 38 mg/dL
+Adultos...................: 13 a 43 mg/dL
+Adultos superior a 60 anos: 17 a 49 mg/dL
+
+Material: SORO
+Método..: CINÉTICA
+Realizado na unidade: DB RIO DE JANEIRO. CNES: 4574311
+
+Hash laudo: EA7FF22ACBC2733468CE992D613069CDBFCFD7F2B9A9F978E4A7F6F449258668
+Liberado por MARINA GOMES DE MORAES SASSI - CRF-SP-106417
+
+ __________________________________________________________________________
+Coleta(10/02/2026 06:30) Liberado em (11/02/2026 13:18)
+HEMOGLOBINA GLICADA - A1C Valor de referência
+
+Hb A1c: 4,6 % Normal: Menor que 5,7%
+
+Pré-diabetes: 5,7% a 6,4%
+
+Diabetes: Maior que 6,4%
+
+Meta terapêutica:
+
+Pacientes DM1 ou DM2 menor que 7,0%
+
+Idoso Saudável menor que 7,5%
+
+Idoso Comprometido menor que 8,5%
+
+Criança e Adolescente menor que 7,0%
+
+Referência: Diretriz Oficial da Sociedade Brasileira
+de Diabetes (2022)
+
+Glicemia estimada média: 85 mg/dL
+
+Para o diagnóstico do diabetes valores superiores a 6,5% devem ser confirmados por repetição em nova amostra em uma
+segunda ocasião.
+O método utilizado nesta dosagem de hemoglobina é certificado pelo National Glycohemoglobin Standardization Program - USA
+(NGSP).
+
+Método..: CROMATOGRAFIA LÍQUIDA - HPLC
+Material: SANGUE TOTAL
+Realizado na unidade: DB RIO DE JANEIRO. CNES: 4574311
+
+Hash laudo: 3C4869116CD737D242AB6D1EED468F0F7E09D7843363C8154AE55DDE2FE7E6D
+Liberado por MARINA GOMES DE MORAES SASSI - CRF-SP-106417
+
+Dr. Antonio Fabbron Junior • CRM SP 38739 • Diretor Geral Dr. Carlos Aita • CRM SP 68.189 • CRM PR 22.323 • Responsável Técnico
+Unidade produtiva: Diagnósticos do Brasil 0800 643-0376
+RUA SAO LUIZ GONZAGA, 989, SAL 101 SAL 201 SAL,  SAO CRISTOVAO, RJ, CEP 20910-063 (61) 3181-0963
+
+
+
+LAB As melhores experiências
+em sFerviços de saúde.
+
+i
+e
+
+NOME:  PATRICK SANTOS COELHO ATlENDIMENTO:2bb4d994ad0935
+DATA DE NASCIMENTO: 20/09/1978  47a anos d
+
+4 SEXO:M
+CPF: 080.949.377-26 DATA DO AGENDAMENTO:09/02/2026
+HUB: HUB RJ NITERÓI - CNES: 5567971 PAGINA:4/14
+MÉDICO: PEDRO CESAR BRAGA LIMA - CRM-RJ-1013335
+RESPONSÁVEL TÉCNICO: RICARDO DE ALMEIDA SEBBA - CRM RJ 52-0075363-7
+
+Coleta(10/02/2026 06:30) Liberado em (11/02/2026 09:40)
+GLICOSE DE JEJUM Valor de referência
+
+ Re s u l t a d o :                            81 mg/dL Glicemia em jejum:
+Normal..................: 70 a 99 mg/dL
+
+Diagnóstico de Diabetes Mellitus tipo 2:
+Normal..................: Inferior a 100 mg/dL
+Pré-diabetes mellitus...: 100 a 125 mg/dL
+Diabetes mellitus tipo 2: Superior a 125 mg/dL
+
+Valores de referência para o "Diagnóstico de Diabetes Mellitus tipo 2" conforme a Diretriz da Sociedade Brasileira de
+Diabetes. Para confirmação do DM2, além da glicemia em jejum é necessário que a glicemia 2 horas após sobrecarga de 75 g
+de glicose ou a hemoglobina glicada também estejam alterados. Se somente um exame estiver alterado, este deverá ser
+repetido para confirmação.
+
+Método..: ENZIMÁTICO
+Material: PLASMA FLUORETADO OU SORO
+Realizado na unidade: DB RIO DE JANEIRO. CNES: 4574311
+
+Hash laudo: 4A8A67F74A25245CD77B754A5895EB3DE6AEE0A9F31EBB7CB9B6ACF8D16D0EE
+Liberado por MARINA GOMES DE MORAES SASSI - CRF-SP-106417
+
+ __________________________________________________________________________
+
+Dr. Antonio Fabbron Junior • CRM SP 38739 • Diretor Geral Dr. Carlos Aita • CRM SP 68.189 • CRM PR 22.323 • Responsável Técnico
+Unidade produtiva: Diagnósticos do Brasil 0800 643-0376
+RUA SAO LUIZ GONZAGA, 989, SAL 101 SAL 201 SAL,  SAO CRISTOVAO, RJ, CEP 20910-063 (61) 3181-0963
+
+
+
+LAB As melhores experiências
+em sFerviços de saúde.
+
+i
+e
+
+NOME:  PATRICK SANTOS COELHO ATlENDIMENTO:2bb4d994ad0935
+DATA DE NASCIMENTO: 20/09/1978  47a anos d
+
+4 SEXO:M
+CPF: 080.949.377-26 DATA DO AGENDAMENTO:09/02/2026
+HUB: HUB RJ NITERÓI - CNES: 5567971 PAGINA:5/14
+MÉDICO: PEDRO CESAR BRAGA LIMA - CRM-RJ-1013335
+RESPONSÁVEL TÉCNICO: RICARDO DE ALMEIDA SEBBA - CRM RJ 52-0075363-7
+
+Coleta(10/02/2026 06:30) Liberado em (11/02/2026 09:40)
+PERFIL LIPÍDICO
+COLESTEROL TOTAL Valor de referência desejável
+
+ Re s u l t a d o :                    171 mg/dL Adultos acima de 20 anos: Inferior a 190 mg/dL
+
+Crianças e adolescentes.: Inferior a 170 mg/dL
+
+Método: ENZIMÁTICO
+Material: SORO
+
+Nota:
+Valores de Colesterol Total maior ou igual a 310 mg/dL em adultos, ou maior ou igual a 230 mg/dL para pacientes entre 2 e
+19 anos de idade, podem ser indicativos de Hipercolesterolemia Familiar, se excluídas as dislipidemias secundárias.
+
+HDL - COLESTEROL Valor de referência desejável
+
+ Re s u l t a d o :                     43 mg/dL Adultos acima de 20 anos: Superior a 40 mg/dL
+
+Crianças e adolescentes.: Superior a 45 mg/dL
+
+Método: COLORIMÉTRICO
+Material: SORO
+
+LDL - COLESTEROL Valores de meta terapêutica conforme
+avaliação de risco cardiovascular estimado
+
+ Re s u l t a d o :                    109 mg/dL Adultos acima de 20 anos:
+
+Para pacientes com baixo risco cardiovascular........: Inferior a 115 mg/dL
+Para pacientes com risco cardiovascular intermediário: Inferior a 100 mg/dL
+Para pacientes com alto risco cardiovascular.........: Inferior a  70 mg/dL
+Para pacientes com risco cardiovascular muito alto...: Inferior a  50 mg/dL
+Para pacientes com risco cardiovascular extremo......: Inferior a  40 mg/dL
+
+Valor de referência desejável
+Crianças e adolescentes: Inferior a 110 mg/dL
+
+Método: CÁLCULO - FÓRMULA DE MARTIN
+Material: SORO
+
+Nota:
+Pacientes com diabetes devem usar como referência a diretriz tríplice SBD, SBEM e SBC para Diabetes. Nesta diretriz,
+pacientes com diabetes e sem fatores de risco ou sem evidência de aterosclerose subclínica devem manter o LDL-C abaixo de
+100 mg/dL. Pacientes com Fatores de Risco ou Doença Ateroscleróca subclínica devem manter LDL-C abaixo de 70 mg/dL.
+Pacientes com história de infarto agudo do miocárdio, AVC ou revascularização coronariana, carotídea ou periférica, ou
+história de amputação devem manter o LDL-C abaixo de 50 mg/dL.
+Quando os valores de triglicérides estão acima de 800 mg/dL, os resultados de LDL calculados pela fórmula de Martin podem
+estar subestimados. Nesses casos recomenda-se a avaliação do não-HDL.
+
+Dr. Antonio Fabbron Junior • CRM SP 38739 • Diretor Geral Dr. Carlos Aita • CRM SP 68.189 • CRM PR 22.323 • Responsável Técnico
+Unidade produtiva: Diagnósticos do Brasil 0800 643-0376
+RUA SAO LUIZ GONZAGA, 989, SAL 101 SAL 201 SAL,  SAO CRISTOVAO, RJ, CEP 20910-063 (61) 3181-0963
+
+
+
+LAB As melhores experiências
+em sFerviços de saúde.
+
+i
+e
+
+NOME:  PATRICK SANTOS COELHO ATlENDIMENTO:2bb4d994ad0935
+DATA DE NASCIMENTO: 20/09/1978  47a anos d
+
+4 SEXO:M
+CPF: 080.949.377-26 DATA DO AGENDAMENTO:09/02/2026
+HUB: HUB RJ NITERÓI - CNES: 5567971 PAGINA:6/14
+MÉDICO: PEDRO CESAR BRAGA LIMA - CRM-RJ-1013335
+RESPONSÁVEL TÉCNICO: RICARDO DE ALMEIDA SEBBA - CRM RJ 52-0075363-7
+
+COLESTEROL NÃO - HDL Valores de meta terapêutica conforme
+avaliação de risco cardiovascular estimado
+
+ Re s u l t a d o :                    128 mg/dL Adultos acima de 20 anos:
+
+Categoria de risco
+Baixo               Inferior a 145 mg/dL
+Intermediário       Inferior a 130 mg/dL
+Alto                Inferior a 100 mg/dL
+Muito alto          Inferior a  80 mg/dL
+Extremo             Inferior a  70 mg/dL
+
+Método: CÁLCULO
+Material: SORO
+
+VLDL - COLESTEROL Valor de referência
+
+ Re s u l t a d o :                       19 mg/dL Não há valores de referência definidos para este exame.
+
+Método: FÓRMULA DE MARTIN
+Material: SORO
+
+TRIGLICÉRIDES Valor de referência desejável
+
+ Re s u l t a d o :                  93 mg/dL Adultos acima de 20 anos:
+
+Com jejum: Inferior a 150 mg/dL
+Sem jejum: Inferior a 175 mg/dL
+
+Crianças e adolescentes:
+
+              Com jejum              Sem jejum
+0 a 9 anos    Inferior a 75 mg/dL    Inferior a 85 mg/dL
+10 a 19 anos  Inferior a 90 mg/dL    Inferior a 100 mg/dL
+
+*ATENÇÃO PARA NOVOS VALORES DE
+REFERÊNCIA A PARTIR DE 17/12/2025.
+
+Método: COLORIMÉTRICO
+Material: SORO
+
+Nota:
+
+Dr. Antonio Fabbron Junior • CRM SP 38739 • Diretor Geral Dr. Carlos Aita • CRM SP 68.189 • CRM PR 22.323 • Responsável Técnico
+Unidade produtiva: Diagnósticos do Brasil 0800 643-0376
+RUA SAO LUIZ GONZAGA, 989, SAL 101 SAL 201 SAL,  SAO CRISTOVAO, RJ, CEP 20910-063 (61) 3181-0963
+
+
+
+LAB As melhores experiências
+em sFerviços de saúde.
+
+i
+e
+
+NOME:  PATRICK SANTOS COELHO ATlENDIMENTO:2bb4d994ad0935
+DATA DE NASCIMENTO: 20/09/1978  47a anos d
+
+4 SEXO:M
+CPF: 080.949.377-26 DATA DO AGENDAMENTO:09/02/2026
+HUB: HUB RJ NITERÓI - CNES: 5567971 PAGINA:7/14
+MÉDICO: PEDRO CESAR BRAGA LIMA - CRM-RJ-1013335
+RESPONSÁVEL TÉCNICO: RICARDO DE ALMEIDA SEBBA - CRM RJ 52-0075363-7
+
+Quando os níveis de triglicérides estiverem acima de 440 mg/dL (sem jejum), sugere-se nova determinação com jejum de 12
+h, a critério médico.
+
+A interpretação clínica dos resultados deverá levar em consideração o motivo da indicação do exame, o estado metabólico
+do paciente e estratificação do risco para estabelecimento das metas terapêuticas.
+
+Consenso Brasileiro para a Normatização da Determinação Laboratorial do Perfil Lipídico. SBAC, SBC, SBD, SBEN, SBPC,
+2016.
+
+Método..: CONFORME DESCRITO EM CADA EXAME QUE COMPÕE O PERFIL
+Realizado na unidade: DB RIO DE JANEIRO. CNES: 4574311
+
+Hash laudo: 4BF02F09E53D62217ECF22C21E3FC36BE09346B1159B87C378C7DF333FA351
+Liberado por MARINA GOMES DE MORAES SASSI - CRF-SP-106417
+
+Dr. Antonio Fabbron Junior • CRM SP 38739 • Diretor Geral Dr. Carlos Aita • CRM SP 68.189 • CRM PR 22.323 • Responsável Técnico
+Unidade produtiva: Diagnósticos do Brasil 0800 643-0376
+RUA SAO LUIZ GONZAGA, 989, SAL 101 SAL 201 SAL,  SAO CRISTOVAO, RJ, CEP 20910-063 (61) 3181-0963
+
+
+
+LAB As melhores experiências
+em sFerviços de saúde.
+
+i
+e
+
+NOME:  PATRICK SANTOS COELHO ATlENDIMENTO:2bb4d994ad0935
+DATA DE NASCIMENTO: 20/09/1978  47a anos d
+
+4 SEXO:M
+CPF: 080.949.377-26 DATA DO AGENDAMENTO:09/02/2026
+HUB: HUB RJ NITERÓI - CNES: 5567971 PAGINA:8/14
+MÉDICO: PEDRO CESAR BRAGA LIMA - CRM-RJ-1013335
+RESPONSÁVEL TÉCNICO: RICARDO DE ALMEIDA SEBBA - CRM RJ 52-0075363-7
+
+Coleta(10/02/2026 06:30) Liberado em (11/02/2026 09:40)
+ÁCIDO ÚRICO Valor de referência
+
+ Re s u l t a d o :                           5,7 mg/dL 4,4 a 7,6 mg/dL
+
+Em pacientes em tratamento para gota, recomenda-se níveis séricos de ácido úrico abaixo de 6,0 mg/dL.
+
+Método..: ENZIMÁTICO
+Material: SORO
+Realizado na unidade: DB RIO DE JANEIRO. CNES: 4574311
+
+Hash laudo: 9CE5E828AA5373176BDAD1FEAA96E7F6CBC739E29DD6A0E13123AA6250C86B2
+Liberado por MARINA GOMES DE MORAES SASSI - CRF-SP-106417
+
+ __________________________________________________________________________
+
+Dr. Antonio Fabbron Junior • CRM SP 38739 • Diretor Geral Dr. Carlos Aita • CRM SP 68.189 • CRM PR 22.323 • Responsável Técnico
+Unidade produtiva: Diagnósticos do Brasil 0800 643-0376
+RUA SAO LUIZ GONZAGA, 989, SAL 101 SAL 201 SAL,  SAO CRISTOVAO, RJ, CEP 20910-063 (61) 3181-0963
+
+
+
+LAB As melhores experiências
+em sFerviços de saúde.
+
+i
+e
+
+NOME:  PATRICK SANTOS COELHO ATlENDIMENTO:2bb4d994ad0935
+DATA DE NASCIMENTO: 20/09/1978  47a anos d
+
+4 SEXO:M
+CPF: 080.949.377-26 DATA DO AGENDAMENTO:09/02/2026
+HUB: HUB RJ NITERÓI - CNES: 5567971 PAGINA:9/14
+MÉDICO: PEDRO CESAR BRAGA LIMA - CRM-RJ-1013335
+RESPONSÁVEL TÉCNICO: RICARDO DE ALMEIDA SEBBA - CRM RJ 52-0075363-7
+
+Coleta(10/02/2026 06:30) Liberado em (11/02/2026 08:57)
+HEMOGRAMA COMPLETO
+
+SÉRIE VERMELHA Valores de Referência
+
+ ER I T R Ó C I T O S              5,06 milhões/mm³ 4,10 a 5,60 milhões/mm³
+ HE M O G L O B I N A              15,6 g/dL 12,5 a 17,0 g/dL
+
+ HE M A T Ó C R I T O              42,6 % 37,5 a 51,0 %
+ VC M                      84,2 µm³ 80,0 a 99,9 µm³
+
+ HC M                      30,8 pg 23,8 a 33,4 pg
+
+ CH C M                     36,6 g/dL 31,4 a 36,0 g/dL
+ RD W                      12,3 % 12,0 a 15,4 %
+
+SÉRIE BRANCA
+
+LEUCÓCITOS 7200 /mm³ 3600 a 12000 /mm³
+
+BASTONETES 0 % 0 /mm³ 0 a 5 % 0 a 600 /mm³
+SEGMENTADOS 52 % 3.744 /mm³ 40 a 75 % 1.440 a 9.000 /mm³
+
+EOSINÓFILOS 2 % 144 /mm³ 1 a 5 % 36   a 600 /mm³
+BASÓFILOS 1 % 72 /mm³ 0 a 2 % 0 a 240 /mm³
+LINFÓCITOS 38 % 2.736 /mm³ 20 a 45 % 720 a 5.400 /mm³
+
+MONÓCITOS 7 % 504 /mm³ 1 a 12 % 36 a 1.440 /mm³
+
+SÉRIE PLAQUETÁRIA Valor de referência
+
+Plaquetas: 212000 /mm³ 150000 a 450000 /mm³
+
+VPM: 10,8 fL Masculino:
+7,4 a 11,4 fL
+
+Feminino:
+7,9 a 10,8 fL
+
+Método..: RESISTIVIDADE - IMPEDÂNCIA - MICROSCOPIA
+Material: SANGUE TOTAL COM EDTA
+Realizado na unidade: DB RIO DE JANEIRO. CNES: 4574311
+
+Hash laudo: 46C850AE184D9F01AD903D6BDA0E22CB93ECDBF81E1656B46323BCAB978837F3
+Liberado por MARINA GOMES DE MORAES SASSI - CRF-SP-106417
+
+Dr. Antonio Fabbron Junior • CRM SP 38739 • Diretor Geral Dr. Carlos Aita • CRM SP 68.189 • CRM PR 22.323 • Responsável Técnico
+Unidade produtiva: Diagnósticos do Brasil 0800 643-0376
+RUA SAO LUIZ GONZAGA, 989, SAL 101 SAL 201 SAL,  SAO CRISTOVAO, RJ, CEP 20910-063 (61) 3181-0963
+
+
+
+LAB As melhores experiências
+em sFerviços de saúde.
+
+i
+e
+
+NOME:  PATRICK SANTOS COELHO ATlENDIMENTO:2bb4d994ad0935
+DATA DE NASCIMENTO: 20/09/1978  47a anos d
+
+4 SEXO:M
+CPF: 080.949.377-26 DATA DO AGENDAMENTO:09/02/2026
+HUB: HUB RJ NITERÓI - CNES: 5567971 PAGINA:10/14
+MÉDICO: PEDRO CESAR BRAGA LIMA - CRM-RJ-1013335
+RESPONSÁVEL TÉCNICO: RICARDO DE ALMEIDA SEBBA - CRM RJ 52-0075363-7
+
+Coleta(10/02/2026 06:30) Liberado em (11/02/2026 15:02)
+T4 - TIROXINA LIVRE Valor de referência
+
+ Re s u l t a d o :                          1,19 ng/dL Crianças: 0 a 1 mês: 1,24 a 3,89 ng/dL
+          1 a 12 meses: 1,09 a 1,71 ng/dL
+          1 a 19 anos: 1,01 a 1,63 ng/dL
+
+Adultos...............: 0,92 a 1,68 ng/dL
+
+Método..: ELETROQUIMIOLUMINESCÊNCIA
+Material: SORO
+Realizado na unidade: DB RIO DE JANEIRO. CNES: 4574311
+
+Hash laudo: 209A67C7AEBEB82EA4B110645552D40DCC0E12463FDFA995A741AAAB57EBF61E
+Liberado por MARINA GOMES DE MORAES SASSI - CRF-SP-106417
+
+ __________________________________________________________________________
+Coleta(10/02/2026 06:30) Liberado em (11/02/2026 14:45)
+TSH - HORMÔNIO TIREOESTIMULANTE Valor de referência
+
+Re s u l t a d o :                          2,00 µUI/mL Até 12 anos.: 0,79 a 5,85 µUI/mL
+12 a 19 anos: 0,68 a 3,35 µUI/mL
+Adultos.....: 0,38 a 5,33 µUI/mL
+
+Gravidez:
+1° trimestre: 0,05 a 3,70 µUI/mL
+2° trimestre: 0,31 a 4,35 µUI/mL
+3º trimestre: 0,41 a 5,18 µUI/mL
+
+Para avaliação dos níveis de TSH na gestação, o Posicionamento FEBRASGO 2022  "Rastreio, diagnóstico e manejo do
+hipotireoidismo na gestação"  faz as seguintes recomendações:
+- Níveis de TSH inferiores ou iguais a 2,5 µUI/mL, considerar como Eutireoidismo.
+- Níveis de TSH superiores a 2,5 e inferiores ou iguais a 4,0 µUI/mL devem ser avaliados preferencialmente em conjunto
+com a dosagem de anticorpos anti-TPO para definição do quadro. A positividade para anticorpos anti-TPO nesses casos,
+sugere iniciar tratamento.
+- Níveis de TSH superiores a 4,0 e inferiores ou iguais a 10,0 µUI/mL devem ser avaliados preferencialmente em conjunto
+com a dosagem de T4 livre para definição do quadro. Níveis de T4 livre dentro dos valores de referência sugerem a
+presença de Hipotireoidismo subclínico. Níveis de T4 livre abaixo do limite inferior de referência, sugerem a presença de
+Hipotireoidismo clínico.
+- Níveis de TSH superiores a 10,0 µUI/mL indicam provável Hipotireoidismo clínico.
+FEBRASGO POSITION STATEMENT, Rastreio, diagnóstico e manejo do hipotireoidismo na gestação, Número 10 - outubro 2022.
+
+Em caso de dúvida, a critério clínico sugere-se repetição da dosagem em nova amostra.
+
+Método..: ELETROQUIMIOLUMINESCÊNCIA
+Material: SORO
+Realizado na unidade: DB RIO DE JANEIRO. CNES: 4574311
+
+Hash laudo: B6225B964CD14F31E80774C3B5B63CE7A303124D7EC0D49FF94BE6779B6F74E6
+Liberado por MARINA GOMES DE MORAES SASSI - CRF-SP-106417
+
+Dr. Antonio Fabbron Junior • CRM SP 38739 • Diretor Geral Dr. Carlos Aita • CRM SP 68.189 • CRM PR 22.323 • Responsável Técnico
+Unidade produtiva: Diagnósticos do Brasil 0800 643-0376
+RUA SAO LUIZ GONZAGA, 989, SAL 101 SAL 201 SAL,  SAO CRISTOVAO, RJ, CEP 20910-063 (61) 3181-0963
+
+
+
+LAB As melhores experiências
+em sFerviços de saúde.
+
+i
+e
+
+NOME:  PATRICK SANTOS COELHO ATlENDIMENTO:2bb4d994ad0935
+DATA DE NASCIMENTO: 20/09/1978  47a anos d
+
+4 SEXO:M
+CPF: 080.949.377-26 DATA DO AGENDAMENTO:09/02/2026
+HUB: HUB RJ NITERÓI - CNES: 5567971 PAGINA:11/14
+MÉDICO: PEDRO CESAR BRAGA LIMA - CRM-RJ-1013335
+RESPONSÁVEL TÉCNICO: RICARDO DE ALMEIDA SEBBA - CRM RJ 52-0075363-7
+
+Coleta(10/02/2026 06:30) Liberado em (11/02/2026 14:45)
+FERRITINA Valor de referência
+
+ Re s u l t a d o :                        292,00 ng/mL Adultos:
+Feminino
+20 a 60 anos...........: 13,00 a 150,00 ng/mL
+Acima de 60 anos.......: 48,18 a 554,88 ng/mL
+
+Masculino
+20 a 60 anos...........: 30,00 a 400,00 ng/mL
+Acima de 60 anos.......: 24,44 a 627,09 ng/mL
+
+Infantil:
+Feminino
+Até 01 mês.............: 150,00 a 973,00 ng/mL
+De 01 mês até 06 meses.: 8,46 a 580,00 ng/mL
+De 06 meses até 15 anos: 14,00 a 101,00 ng/mL
+15 a 19 anos...........: 3,88 a 114,00 ng/mL
+
+Masculino
+Até 01 mês.............: 150,00 a 973,00 ng/mL
+De 01 mês até 06 meses.: 8,46 a 580,00 ng/mL
+De 06 meses até 15 anos: 14,00 a 101,00 ng/mL
+15 a 19 anos...........: 20,90 a 173,00 ng/mL
+
+As concentrações séricas de Ferritina mostram importante correlação com as reservas de Ferro no organismo, sendo de
+grande utilidade na avaliação laboratorial em situações tanto de deficiência quanto de acúmulo deste elemento.
+Entretanto, pelo fato de ser uma proteína de fase aguda, sua concentração sérica pode apresentar-se elevada em diversas
+situações, principalmente em processos inflamatórios agudos e crônicos, infecções e tumores.
+
+Método..: ELETROQUIMIOLUMINESCÊNCIA
+Material: SORO
+Realizado na unidade: DB RIO DE JANEIRO. CNES: 4574311
+
+Hash laudo: 8BA0169A1DF1FBE11232A163D60DF833B23C7D29EC92F6FAE173F2B3801B43
+Liberado por MARINA GOMES DE MORAES SASSI - CRF-SP-106417
+
+Dr. Antonio Fabbron Junior • CRM SP 38739 • Diretor Geral Dr. Carlos Aita • CRM SP 68.189 • CRM PR 22.323 • Responsável Técnico
+Unidade produtiva: Diagnósticos do Brasil 0800 643-0376
+RUA SAO LUIZ GONZAGA, 989, SAL 101 SAL 201 SAL,  SAO CRISTOVAO, RJ, CEP 20910-063 (61) 3181-0963
+
+
+
+LAB As melhores experiências
+em sFerviços de saúde.
+
+i
+e
+
+NOME:  PATRICK SANTOS COELHO ATlENDIMENTO:2bb4d994ad0935
+DATA DE NASCIMENTO: 20/09/1978  47a anos d
+
+4 SEXO:M
+CPF: 080.949.377-26 DATA DO AGENDAMENTO:09/02/2026
+HUB: HUB RJ NITERÓI - CNES: 5567971 PAGINA:12/14
+MÉDICO: PEDRO CESAR BRAGA LIMA - CRM-RJ-1013335
+RESPONSÁVEL TÉCNICO: RICARDO DE ALMEIDA SEBBA - CRM RJ 52-0075363-7
+
+Coleta(10/02/2026 06:30) Liberado em (11/02/2026 15:29)
+VITAMINA B12 Valor de referência
+
+ Re s u l t a d o :                           838 pg/mL 197 a 771 pg/mL
+
+Método..: ELETROQUIMIOLUMINESCÊNCIA
+Material: SORO
+Realizado na unidade: DB RIO DE JANEIRO. CNES: 4574311
+
+Hash laudo: BFBAA0C8A521314022C4A1AD3635773BFB81A78B8605C98A73E5ED2A5D1388A8
+Liberado por MARINA GOMES DE MORAES SASSI - CRF-SP-106417
+
+ __________________________________________________________________________
+Coleta(10/02/2026 06:30) Liberado em (11/02/2026 15:02)
+VITAMINA D - 25 HIDROXI Valor de referência
+
+ Re s u l t a d o :                     28,2 ng/mL Deficiência............................: Inferior a 20,0 ng/mL
+Valores normais para a população geral.: Entre 20,0 e 60,0 ng/mL
+Valores ideais para população de risco*: Entre 30,0 e 60,0 ng/mL
+Risco de intoxicação...................: Superior a 100,0 ng/mL
+
+* Entende-se por população de risco: idosos (acima de 65 anos),
+gestantes, indivíduos com fraturas e quedas frequentes, pós-cirurgia
+bariátrica, em uso de fármacos que interferem no metabolismo da
+vitamina D, doenças osteometabólicas (osteoporose, osteomalácia,
+osteogênese imperfeita, hiperparatireoidismo primário e secundário),
+sarcopenia, diabetes mellitus tipo 1, doença renal crônica,
+insuficiência hepática, anorexia nervosa, síndrome de má absorção e
+câncer.
+
+Posicionamento Oficial da Sociedade Brasileira de Patologia Clínica/Medicina Laboratorial (SBPC/ML) e da
+Sociedade Brasileira de Endocrinologia e Metabologia (SBEM) - Intervalo de Referência da Vitamina D - 25(OH)D.
+
+Os níveis de Vitamina D podem variar significativamente quando obtidos por diferentes métodos e plataformas analíticas.
+Em casos de monitoramento sequencial dos níveis séricos, sugere-se realização das dosagens pela mesma plataforma ou
+realinhamento prévio dos níveis no novo método de dosagem.
+
+Material: SORO
+Método..: ELETROQUIMIOLUMINESCÊNCIA
+Realizado na unidade: DB RIO DE JANEIRO. CNES: 4574311
+
+Hash laudo: E3126706F46A28BF967792D61F314FC75ADD364B48610949E158FE6B49FB178
+Liberado por MARINA GOMES DE MORAES SASSI - CRF-SP-106417
+
+Dr. Antonio Fabbron Junior • CRM SP 38739 • Diretor Geral Dr. Carlos Aita • CRM SP 68.189 • CRM PR 22.323 • Responsável Técnico
+Unidade produtiva: Diagnósticos do Brasil 0800 643-0376
+RUA SAO LUIZ GONZAGA, 989, SAL 101 SAL 201 SAL,  SAO CRISTOVAO, RJ, CEP 20910-063 (61) 3181-0963
+
+
+
+LAB As melhores experiências
+em sFerviços de saúde.
+
+i
+e
+
+NOME:  PATRICK SANTOS COELHO ATlENDIMENTO:2bb4d994ad0935
+DATA DE NASCIMENTO: 20/09/1978  47a anos d
+
+4 SEXO:M
+CPF: 080.949.377-26 DATA DO AGENDAMENTO:09/02/2026
+HUB: HUB RJ NITERÓI - CNES: 5567971 PAGINA:13/14
+MÉDICO: PEDRO CESAR BRAGA LIMA - CRM-RJ-1013335
+RESPONSÁVEL TÉCNICO: RICARDO DE ALMEIDA SEBBA - CRM RJ 52-0075363-7
+
+Coleta(10/02/2026 06:30) Liberado em (11/02/2026 18:07)
+TESTOSTERONA TOTAL Valor de referência
+
+Re s u l t a d o :                        557,00 ng/dL Homens 20 a 49 anos......: 249,19 a 836,42 ng/dL
+Homens acima de 50 anos..: 192,66 a 741,24 ng/dL
+Mulheres 20 a 49 anos.......: 8,36 a 48,17 ng/dL
+Mulheres acima de 50 anos...: 2,91 a 40,96 ng/dL
+
+Dosagens de hormônios esteroides por método de imunoensaio são sujeitas a interferências analíticas, especialmente por
+reações cruzadas com outros hormônios esteroides e seus metabólitos com estrutura similar, bem como medicamentos e
+suplementos contendo esteroides anabólicos e glicocorticoides sintéticos. Nestas situações os resultados das dosagens
+devem ser interpretados com cautela.
+
+Método..: ELETROQUIMIOLUMINESCÊNCIA
+Material: SORO
+Realizado na unidade: DB RIO DE JANEIRO. CNES: 4574311
+
+Hash laudo: C391FABC942336DA97C81BF2E3CAA2D56B32344CDB34119E9BCD27B28C0A1234
+Liberado por MARINA GOMES DE MORAES SASSI - CRF-SP-106417
+
+ __________________________________________________________________________
+Coleta(10/02/2026 06:30) Liberado em (11/02/2026 18:07)
+TESTOSTERONA LIVRE Valor de referência
+
+SHBGE: 29,8 nmol/L Homens 20 a 49 anos..........: 18,3 a 54,1 nmol/L
+Homens a partir de 50 anos...: 20,6 a 76,7 nmol/L
+Mulheres 20 a 49 anos.......: 32,4 a 128,0 nmol/L
+Mulheres a partir de 50 anos: 27,1 a 128,0 nmol/L
+
+TESTL: 12,610 ng/dL Homens 20 a 49 anos......: 5,710 a 17,853 ng/dL
+Homens acima de 50 anos..: 4,701 a 13,642 ng/dL
+Mulheres 20 a 49 anos.....: 0,086 a 0,951 ng/dL
+Mulheres acima de 50 anos.: 0,028 a 0,576 ng/dL
+
+Material: SORO
+Método..: ELETROQUIMIOLUNESCÊNCIA E CÁLCULO
+Realizado na unidade: DB RIO DE JANEIRO. CNES: 4574311
+
+Hash laudo: A7074982BA4BDF3034B4E3EF5345CD694C7EC268DFB9E2F9BD81380ACDF6CC3
+Liberado por MARINA GOMES DE MORAES SASSI - CRF-SP-106417
+
+Dr. Antonio Fabbron Junior • CRM SP 38739 • Diretor Geral Dr. Carlos Aita • CRM SP 68.189 • CRM PR 22.323 • Responsável Técnico
+Unidade produtiva: Diagnósticos do Brasil 0800 643-0376
+RUA SAO LUIZ GONZAGA, 989, SAL 101 SAL 201 SAL,  SAO CRISTOVAO, RJ, CEP 20910-063 (61) 3181-0963
+
+
+
+LAB As melhores experiências
+em sFerviços de saúde.
+
+i
+e
+
+NOME:  PATRICK SANTOS COELHO ATlENDIMENTO:2bb4d994ad0935
+DATA DE NASCIMENTO: 20/09/1978  47a anos d
+
+4 SEXO:M
+CPF: 080.949.377-26 DATA DO AGENDAMENTO:09/02/2026
+HUB: HUB RJ NITERÓI - CNES: 5567971 PAGINA:14/14
+MÉDICO: PEDRO CESAR BRAGA LIMA - CRM-RJ-1013335
+RESPONSÁVEL TÉCNICO: RICARDO DE ALMEIDA SEBBA - CRM RJ 52-0075363-7
+
+Coleta(10/02/2026 06:30) Liberado em (11/02/2026 18:07)
+PSA TOTAL - ANTÍGENO PROSTÁTICO ESPECÍFICO Valor de referência
+
+Re s u l t a d o :                          1,56 ng/mL Homens:
+Até 60 anos.....: Inferior a 2,50 ng/mL
+Acima de 60 anos: Inferior a 4,00 ng/mL
+
+Mulheres:
+Não detectável
+
+*limite de detecção 0,03 ng/ml
+
+Resultados de PSA não devem ser utilizados de forma isolada para estabelecer ou afastar o diagnóstico de neoplasias
+prostáticas, sendo necessária a avaliação clínica em conjunto com toque retal, biopsia e demais exames complementares.
+
+Elevações transitórias do PSA podem ocorrer em diversas condições clínicas benignas, sendo importante nestas situações a
+interpretação do resultado pelo médico assistente e eventualmente a repetição do exame em nova coleta.
+
+Método..: ELETROQUIMIOLUMINESCÊNCIA
+Material: SORO
+Realizado na unidade: DB RIO DE JANEIRO. CNES: 4574311
+
+Hash laudo: 8EEED9684036509ECF52CE8B6444BC0453776A8BE7312C6849569AA9FB2B658D
+Liberado por MARINA GOMES DE MORAES SASSI - CRF-SP-106417
+
+ __________________________________________________________________________
+Coleta(10/02/2026 06:30) Liberado em (11/02/2026 18:07)
+PSA LIVRE - ANTÍGENO PROSTÁTICO ESPECÍFICO Valor de referência
+
+ Re s u l t a d o :                          0,30 ng/mL Não há valores de referência definidos para este exame,
+devendo correlacionar-se com o PSA total.
+
+Resultados de PSA Livre devem ser avaliados em conjunto com PSA Total, através da relação PSA Livre/PSA Total.
+
+Ref.: Nota oficial SBU e SBPC/ML - Rastreio de Câncer de Próstata, 2018.
+
+Método..: ELETROQUIMIOLUMINESCÊNCIA
+Material: SORO
+Realizado na unidade: DB RIO DE JANEIRO. CNES: 4574311
+
+Hash laudo: C144321E67B0F0CFE3499E5D5C307CAD8441C4766510326FFB57E9BE2B7EB8F5
+Liberado por MARINA GOMES DE MORAES SASSI - CRF-SP-106417
+
+Dr. Antonio Fabbron Junior • CRM SP 38739 • Diretor Geral Dr. Carlos Aita • CRM SP 68.189 • CRM PR 22.323 • Responsável Técnico
+Unidade produtiva: Diagnósticos do Brasil 0800 643-0376
+RUA SAO LUIZ GONZAGA, 989, SAL 101 SAL 201 SAL,  SAO CRISTOVAO, RJ, CEP 20910-063 (61) 3181-0963

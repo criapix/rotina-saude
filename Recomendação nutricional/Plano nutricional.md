@@ -107,8 +107,8 @@ Escolha uma opção:
 | **Whey** | 30g | Dias de treino (2x nos dias duplos: pós-pedal + pré-jantar) |
 | **Creatina** | **5g/dia** | **Todo dia — OBRIGATÓRIO** (preserva massa magra + hidratação intramuscular) |
 | **Caseína** | 25g | Antes de dormir nos dias de treino (ou iogurte grego 200g) |
-| **Omega-3** | **3g de EPA+DHA/dia** | Dose terapêutica anti-inflamatória (osteíte reacional no ombro + Modic I cervical). Predominância EPA (razão 2:1). Dividir em 2 doses com almoço e jantar. NÃO substituir por peixe neste momento. |
-| **Vitamina D3** | 4000 UI/dia | Com almoço (com gordura). Saúde óssea, recuperação tendínea. |
+| **Omega-3** | **3g de EPA+DHA/dia** | Dose terapêutica anti-inflamatória (osteíte reacional no ombro + Modic I cervical). Predominância EPA (razão 2:1). Dividir em 2 doses com almoço e jantar. NÃO substituir por peixe neste momento. **Também contribui para aumentar HDL (exame 10/02: 43 mg/dL está baixo).** |
+| **Vitamina D3** | **5000 UI/dia** | Com almoço (com gordura). **Ajustado de 4000 para 5000 UI após exame 10/02 mostrar 28,2 ng/mL** (abaixo do ideal 30-60 para população de risco). Reavaliar em 8-12 semanas. Saúde óssea, recuperação tendínea. |
 | **Vitamina K2 (MK-7)** | 100-200 mcg/dia | Com D3. Sinergia com D3, direciona cálcio. |
 | **Magnésio bisglicinato** | 400 mg/dia | Antes de dormir. Recuperação muscular, sono. |
 | **Colágeno hidrolisado tipo I** | 15g/dia | 60 min antes da fisioterapia + 50mg vit C. Síntese de colágeno tendíneo (Shaw et al., 2017). |
@@ -119,7 +119,7 @@ Escolha uma opção:
 
 - **Pedal:** malto + sódio durante; whey + banana imediatamente pós-pedal; almoço é a recuperação
 - **Academia:** lanche + whey antes; jantar depois; caseína antes de dormir
-- **Hidratação:** **Dias de pedal: 4,0-4,5 L/dia** (incluindo volume durante pedal); **Dias de descanso: 3,0-3,5 L/dia**; no pedal 500–800ml/h com sódio. Regra prática: urina clara-palha até as 14h.
+- **Hidratação:** **Dias de pedal: 4,0-4,5 L/dia** (incluindo volume durante pedal); **Dias de descanso: 3,0-3,5 L/dia**; no pedal 500–800ml/h com sódio. Regra prática: urina clara-palha até as 14h. **⚠️ CHCM elevado (36,6) no exame 10/02 sugere desidratação leve — aumentar vigilância.**
 - **Proteína distribuída:** mínimo 4 refeições com proteína ao longo do dia (não concentrar)
 - **Priorizar:** peixe, azeite, nozes, frutas, vegetais coloridos
 - **Reduzir:** ultraprocessados, álcool, óleos refinados
@@ -142,15 +142,39 @@ Escolha uma opção:
 - Óleos vegetais refinados
 - Álcool (ideal zero com lesão tendínea ativa)
 
-## Exames de sangue recomendados
+## Exames de sangue (últimos resultados: 10/02/2026)
 
-| Exame | Alvo / Motivo |
-|---|---|
-| 25-OH vitamina D | Alvo: 40-60 ng/mL |
-| Testosterona total e livre | Monitorar suporte hormonal |
-| Hemograma completo | Avaliação geral |
-| PCR | Marcador inflamatório |
-| TSH, T4 livre, anti-TPO | Tireoide — nódulo incidental |
+| Exame | Resultado | Ref/Alvo | Status |
+|---|---|---|---|
+| Hemoglobina Glicada | 4,6% | <5,7% | ✅ Excelente |
+| Glicemia jejum | 81 mg/dL | 70-99 | ✅ Normal |
+| Colesterol Total | 171 mg/dL | <190 | ✅ Bom |
+| HDL | 43 mg/dL | >50 ideal | ⚠️ Baixo |
+| LDL | 109 mg/dL | <115 | ✅ Bom |
+| Triglicerídeos | 93 mg/dL | <150 | ✅ Bom |
+| **CK** | **480 U/L** | 35-232 | ⚠️ **ELEVADO** |
+| Creatinina | 0,99 mg/dL | 0,90-1,30 | ✅ Normal |
+| TGP/TGO | 18/21 U/L | <45/<35 | ✅ Normal |
+| **Vitamina D** | **28,2 ng/mL** | 30-60 ideal | ⚠️ **Abaixo ideal** |
+| Vitamina B12 | 838 pg/mL | 197-771 | ⚠️ Leve elevação |
+| Testosterona Total | 557 ng/dL | 249-836 | ✅ Bom |
+| Testosterona Livre | 12,6 ng/dL | 5,7-17,8 | ✅ Bom |
+| TSH | 2,0 µUI/mL | 0,38-5,33 | ✅ Normal |
+| T4 Livre | 1,19 ng/dL | 0,92-1,68 | ✅ Normal |
+| Ferritina | 292 ng/mL | 30-400 | ✅ Normal |
+
+### Interpretação dos resultados:
+- **CK elevado (480):** indica dano muscular recente ou overtraining — compatível com retorno ao treino (09/02). Repetir em 3-4 semanas.
+- **HDL baixo (43):** omega-3 3g/dia e pedal ajudam a elevar.
+- **Vitamina D (28,2):** dose aumentada para 5000 UI/dia; reavaliar em 8-12 semanas.
+- **CHCM levemente alto (36,6):** possível desidratação leve — reforçar hidratação.
+
+### Próximos passos laboratoriais:
+- **CK:** repetir em 3-4 semanas (monitorar overtraining)
+- **Vitamina D:** reavaliar em 8-12 semanas (dose aumentada para 5000 UI/dia)
+- **US tireoide + anti-TPO:** investigar nódulo incidental (30 dias)
+- **PCR:** ainda não realizado — considerar solicitar próxima avaliação
+- **Próximo painel completo:** Maio/2026 (3 meses)
 
 ## Meta de monitoramento
 
