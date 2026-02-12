@@ -11,13 +11,25 @@ title: Plano Nutricional
 
 ## Resumo
 
-- 77,8 kg | 47 anos | BF 15,6% | Objetivo: **preservar massa magra + perda gradual de gordura**
+**Dados atuais (Avaliação Física Pollock 7 Dobras — 11/02/2026):**
+- Peso: 77,70 kg | Idade: 47 anos
+- BF%: 20,23% (Pollock) / 15,6% (Bioimpedância 08/02)
+- Massa Magra (FFM): 61,98 kg (Pollock) / 61,1 kg (Bioimpedância)
+- Meta BF%: 17,00% (Pollock)
+- Peso ideal: 74,67 kg
+
+**Objetivo:** **Preservar/aumentar massa magra (FFM ≥ 62,5 kg) + reduzir gordura de 20,23% → 17%**
+
+**Macronutrientes:**
 - Proteína fixa: **170g/dia** (~2,2 g/kg) — aumentada para combater catabolismo
-  - **Temporariamente elevada para 187g/dia (2,4 g/kg) por 4-6 semanas** (resistência anabólica + destreino + idade 47). Retornar a 170g/dia após FFM estabilizar acima de 62 kg.
+  - **Temporariamente elevada para 187g/dia (2,4 g/kg) por 4-6 semanas** (resistência anabólica + destreino + idade 47). Retornar a 170g/dia após FFM estabilizar acima de 62,5 kg.
 - Gordura fixa: **~80g/dia**
 - Carboidrato varia conforme o dia
 - Hidratação: **Dias de pedal: 4,0-4,5 L/dia** (incluindo volume durante pedal). Dias de descanso: 3,0-3,5 L/dia. Regra prática: urina clara-palha até as 14h.
 - Creatina: **5g/dia obrigatório** (retenção intramuscular + preservação de massa magra)
+
+**Análise da composição corporal:**
+> Os dois métodos (bioimpedância e Pollock 7 dobras) medem de forma diferente. A adipometria (Pollock) tende a marcar valores maiores e é considerada padrão-ouro. O importante é que a **FFM está estável em ~62 kg**, sinal de recuperação após o período de destreino. Meta: perder ~2,5 kg de gordura mantendo os 62 kg de massa magra.
 
 ## Calorias e macros por tipo de dia
 
@@ -178,5 +190,18 @@ Escolha uma opção:
 
 ## Meta de monitoramento
 
-- **Bioimpedância em 08/03/2026:** FFM >= 62,5 kg, TBW >= 46 L
-- Se meta não atingida, reavaliar calorias e distribuição proteica
+**Próxima avaliação física (Pollock 7 Dobras):** 11/03/2026 (mensal)
+- Meta FFM: ≥ 62,5 kg (manter ou aumentar)
+- Meta BF%: ≤ 19,0% (redução progressiva rumo aos 17%)
+- Meta peso gordo: ≤ 14,8 kg (redução de ~1 kg)
+
+**Bioimpedância:** 08/03/2026
+- Meta FFM: ≥ 62,5 kg
+- Meta TBW: ≥ 46 L
+- Meta BF%: ≤ 14,5%
+
+**Se metas não atingidas:**
+- Reavaliar calorias (possível déficit excessivo ou insuficiente)
+- Verificar distribuição proteica ao longo do dia
+- Avaliar qualidade do sono e níveis de estresse
+- Considerar aumentar proteína para 2,5 g/kg temporariamente
