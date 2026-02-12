@@ -9,6 +9,27 @@ Historico de alteracoes no plano de treino, nutricao e acompanhamento clinico.
 
 ---
 
+## 12/02/2026 — Imagens de referência nos exercícios e redistribuição de rosca direta
+
+**Contexto:** Adição de fotos ilustrativas (📸) a todos os exercícios para facilitar consulta durante o treino. Redistribuição da rosca direta do Treino B para o Treino A.
+
+### Imagens de referência
+- Adicionados links de imagem (📸) a **todos os exercícios** dos Treinos A e B e do protocolo de aquecimento de ombro
+- Objetivo: referência visual rápida durante o treino na academia
+
+### Redistribuição de braços
+- **Movida:** rosca direta do Treino B para o **Treino A** (exercício #8, entre tríceps pulley e rotação externa)
+- **Removida** do Treino B (que já tem rosca scott)
+- Nova distribuição: martelo + direta no A, scott no B
+- Rosca direta separada do martelo pelo tríceps pulley (recuperação do bíceps entre exercícios)
+
+### Resultado
+- Treino A: 9 exercícios (era 8)
+- Treino B: 8 exercícios (era 9)
+- Volume total de bíceps mantido (3 variações, 2x/semana)
+
+---
+
 ## 11/02/2026 — Ajustes nutricionais e suplementação com base nos exames de sangue
 
 **Contexto:** Resultados dos exames laboratoriais de 10/02/2026 mostraram alguns pontos de atenção que requerem ajustes na suplementação e monitoramento.
