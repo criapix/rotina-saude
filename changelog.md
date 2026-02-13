@@ -9,9 +9,9 @@ Historico de alteracoes no plano de treino, nutricao e acompanhamento clinico.
 
 ---
 
-## 12/02/2026 — Imagens de referência nos exercícios e redistribuição de rosca direta
+## 12/02/2026 — Imagens de referência, redistribuição de rosca direta e adição de core
 
-**Contexto:** Adição de fotos ilustrativas (📸) a todos os exercícios para facilitar consulta durante o treino. Redistribuição da rosca direta do Treino B para o Treino A.
+**Contexto:** Adição de fotos ilustrativas (📸) a todos os exercícios para facilitar consulta durante o treino. Redistribuição da rosca direta do Treino B para o Treino A. Reintrodução de exercícios de core (lacuna identificada pelo parecer multidisciplinar de 08/02).
 
 ### Imagens de referência
 - Adicionados links de imagem (📸) a **todos os exercícios** dos Treinos A e B e do protocolo de aquecimento de ombro
@@ -23,10 +23,23 @@ Historico de alteracoes no plano de treino, nutricao e acompanhamento clinico.
 - Nova distribuição: martelo + direta no A, scott no B
 - Rosca direta separada do martelo pelo tríceps pulley (recuperação do bíceps entre exercícios)
 
+### Core — Reintroduzido (academia + domiciliar)
+- **Academia:** Pallof press (cabo) adicionado aos Treinos A (em pé) e B (meia-ajoelhado) — 2×10 cada lado, RPE 6
+  - Anti-rotação: estabilidade de core sem carga axial, sem envolvimento cervical
+  - Exercício recomendado pelo parecer multidisciplinar (08/02)
+- **Domiciliar:** Novo protocolo de core em casa (~10 min, 3x/semana):
+  - Dead bug 3×8 cada lado (anti-extensão)
+  - Prancha frontal 3×20-30s (isométrico)
+  - Prancha lateral 2×15-20s cada lado (estabilidade lateral)
+  - Bird dog 2×10 cada lado (anti-rotação + anti-extensão)
+- **Justificativa:** core anterior fraco contribui para hipercifose; estabilização é essencial para discopatia cervical e ciclismo
+- Lacuna de core removida da seção "Lacunas remanescentes"
+
 ### Resultado
-- Treino A: 9 exercícios (era 8)
-- Treino B: 8 exercícios (era 9)
+- Treino A: 10 exercícios (era 9)
+- Treino B: 9 exercícios (era 8)
 - Volume total de bíceps mantido (3 variações, 2x/semana)
+- Core: ~8 sets/semana (4 academia + 4 domiciliar)
 
 ---
 

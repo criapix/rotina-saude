@@ -39,11 +39,12 @@ Tempo: **3-1-2** nos compostos de perna (3s excêntrica, 1s pausa, 2s concêntri
 | 6 | **Rosca martelo** | 3 × 10–12 [📸](https://static1.minhavida.com.br/articles/39/76/c9/c4/makatserchykshutterstock-orig-1.jpg) | Pegada neutra; trabalha bíceps + braquial. Sem envolvimento de ombro. |
 | 7 | **Tríceps pulley** (barra reta) | 3 × 12–15 [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-do-triceps-pulley.jpg) | Extensão de cotovelo isolada. Sem envolvimento de ombro. |
 | 8 | **Rosca direta** (barra ou halteres) | 3 × 10–12 [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/08/rosca-direta-com-barra-1.jpg) | Pegada supinada; complementa rosca martelo (ângulo diferente). Separada por tríceps para recuperação do bíceps. |
-| 9 | **Rotação externa no cabo** | 3 × 15 [📸](https://s32540.pcdn.co/wp-content/uploads/2018/11/rota%C3%A7aoexterna241118-Copy.jpg) | **CORREÇÃO POSTURAL CRÍTICA:** Combate rotação interna dos ombros. Carga LEVE (reabilitação). Quando fisioterapia iniciar, ELIMINAR este exercício da academia (evitar sobreposição). Deixar exclusivamente para a fisio. |
+| 9 | **Pallof press** (cabo) | 2 × 10 cada lado [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2023/03/pallof-press.jpg) | Anti-rotação; estabilidade de core sem carga axial. Empurrar o cabo à frente do peito e segurar 2s. RPE 6. |
+| 10 | **Rotação externa no cabo** | 3 × 15 [📸](https://s32540.pcdn.co/wp-content/uploads/2018/11/rota%C3%A7aoexterna241118-Copy.jpg) | **CORREÇÃO POSTURAL CRÍTICA:** Combate rotação interna dos ombros. Carga LEVE (reabilitação). Quando fisioterapia iniciar, ELIMINAR este exercício da academia (evitar sobreposição). Deixar exclusivamente para a fisio. |
 
 ---
 
-## TREINO B (Foco: Anterior + Peito + Costas + Braços)
+## TREINO B (Foco: Anterior + Peito + Costas + Braços + Core)
 
 **Aquecimento:** bike 5 min + protocolo de ativação manguito (ver abaixo)
 
@@ -57,6 +58,7 @@ Tempo: **3-1-2** nos compostos de perna (3s excêntrica, 1s pausa, 2s concêntri
 | 6 | **Face pull** (corda) | 3 × 15 [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2019/10/face-pulls.jpg) | **CORREÇÃO POSTURAL CRÍTICA:** Combate protração escapular + rotação interna. Puxar corda em direção ao rosto, abrir cotovelos, apertar escápulas. Carga LEVE (reabilitação). Não realizar no dia de sessão de fisioterapia. Quando fisio iniciar Fase 2 (semana 5+), reduzir para 2×12. |
 | 7 | **Tríceps pulley** (corda) | 3 × 12–15 [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/10/execucao-do-triceps-corda.jpg) | |
 | 8 | **Rosca scott máquina** | 3 × 10–12 [📸](https://static1.minhavida.com.br/articles/a0/79/bd/2f/makatserchykshutterstock-orig-1.jpg) | |
+| 9 | **Pallof press** (cabo, meia-ajoelhado) | 2 × 10 cada lado [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2023/03/pallof-press.jpg) | Variação meia-ajoelhado: maior demanda de estabilidade de quadril. Anti-rotação; segurar 2s. RPE 6. |
 
 ---
 
@@ -74,6 +76,21 @@ Fazer ANTES de cada treino, com elástico leve ou sem carga:
 | 6 | Wall slides (serrátil anterior) [📸](https://ksquaredfitness.com/wp-content/uploads/2022/04/Serratus-wall-slide.png) | 2 × 12 |
 
 **Regra:** Se qualquer exercício causar dor, **NÃO FAZER** e informar o fisioterapeuta.
+
+---
+
+## Protocolo de Core Domiciliar (~10 min)
+
+Fazer **3x/semana** nos dias de descanso ou antes do pedal. Não precisa de equipamento.
+
+| # | Exercício | Séries × Reps | Notas |
+|---|---|---|---|
+| 1 | **Dead bug** | 3 × 8 cada lado | Anti-extensão; manter lombar colada no chão. Braço e perna opostos. Expirar ao estender. |
+| 2 | **Prancha frontal** | 3 × 20–30s | Isométrico; apertar glúteos e abdômen. NÃO deixar quadril cair. Progredir tempo quando ficar fácil. |
+| 3 | **Prancha lateral** | 2 × 15–20s cada lado | Estabilidade lateral; cotovelo sob o ombro. Manter corpo em linha reta. |
+| 4 | **Bird dog** | 2 × 10 cada lado | Anti-rotação + anti-extensão; braço e perna opostos. Manter quadril nivelado (não rodar). |
+
+**Progressão:** quando conseguir completar todos os sets sem dificuldade, aumentar 5s nas pranchas e 2 reps nos dinâmicos.
 
 ---
 
@@ -124,7 +141,6 @@ Fazer ANTES de cada treino, com elástico leve ou sem carga:
 ## Lacunas remanescentes (a partir da semana 3)
 
 - **Step-up ou afundo:** considerar adicionar ao Treino A (2×10 cada lado) para transferência funcional ao pedal
-- **Core:** removido a pedido — ciclismo e exercícios compostos fornecem estímulo indireto de core
 
 ---
 
@@ -149,7 +165,7 @@ Fazer ANTES de cada treino, com elástico leve ou sem carga:
 - **Costas:** remadas sentadas, puxadas neutras (cotovelos junto ao corpo)
 - **Peito:** supino máquina com carga leve-moderada (cotovelos a 45°), 2x/semana. **Máximo 8 sets/semana de pushing até liberação da fisio.**
 - **Braços:** bíceps e tríceps isolados (sem envolver ombro)
-- **Core:** hollow hold, prancha lateral (se desejar adicionar futuramente)
+- **Core:** Pallof press (cabo), dead bug, prancha frontal/lateral, bird dog — sem carga axial ou extensão cervical
 
 ---
 
@@ -207,6 +223,7 @@ Fazer ANTES de cada treino, com elástico leve ou sem carga:
 - Peito: ~7 sets/semana (supino 3×A + 4×B) — limite de segurança é **8 sets/semana** de pushing até liberação da fisio
 - Costas: ~9 sets/semana (remada + puxada em A, remada + puxada em B) — **também serve como correção postural**
 - Braços: tríceps 2x/semana + bíceps 2x/semana (3 variações: martelo + direta no A, scott no B; 2 de tríceps)
+- Core: Pallof press 2x/semana (academia) + protocolo domiciliar 3x/semana (dead bug, prancha, bird dog)
 - Tempo 3-1-2 nos compostos de perna: mais tempo sob tensão = mais estímulo hipertrófico
 - NUNCA fisioterapia e exercícios de peito no mesmo dia com <6h de intervalo
 - **NOVO:** Alongamento de isquiotibiais OBRIGATÓRIO antes e depois do treino de perna
