@@ -182,7 +182,6 @@ Protração Escapular SIM
 Encurtamento do Trapézio NÃO
 Retração Escapular NÃO
 Genu Valgo NÃO
-Genu Varo SIM
 Elevação Pelve Direita NÃO
 Elevação Ombro Direito NÃO
 Pé Aduto   NÃO

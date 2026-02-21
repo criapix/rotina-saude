@@ -520,7 +520,6 @@ title: Consolidação Clínica
 | **Retificação Lombar** | ✅ SIM | Coluna Lombar |
 | **Pé Varo** | ✅ SIM | Tornozelo/Pé |
 | **Protração Escapular** | ✅ SIM | Escápula |
-| **Genu Varo** | ✅ SIM | Joelho |
 
 **Observações da avaliação:**
 - "Alongar os músculos adutores e isquiotibiais!"
@@ -541,7 +540,7 @@ title: Consolidação Clínica
    - Encurtamento de flexores de quadril e isquiotibiais
    - Afeta posicionamento no pedal (MTB)
 
-4. **Genu Varo + Pé Varo:**
+4. **Pé Varo:**
    - Impacta distribuição de carga no pedal
    - Pode contribuir para assimetria de panturrilhas (D: 30 cm, E: 28 cm)
    - Requer atenção à pisada e calçado
@@ -551,13 +550,13 @@ title: Consolidação Clínica
 1. **ALTA:** Hipercifose torácica + protração escapular (impacta ombro diretamente)
 2. **ALTA:** Rotação interna dos ombros (impacta ombro diretamente)
 3. **MODERADA:** Anterversão de quadril + encurtamento de isquiotibiais/adutores
-4. **MODERADA:** Genu varo + pé varo (ajustes biomecânicos no pedal)
+4. **MODERADA:** Pé varo (ajustes biomecânicos no pedal)
 
 **Ações Implementadas:**
 - ✅ Protocolo de mobilidade torácica diário (Cat-Cow, Open Book, extensão sobre rolo)
 - ✅ Fortalecimento de rotadores externos (fisioterapia + academia)
 - ⏳ Alongamento de isquiotibiais e adutores (adicionar ao protocolo)
-- ⏳ Avaliação bike fit (ajustar posicionamento no pedal considerando genu varo)
+- ⏳ Avaliação bike fit (ajustar posicionamento no pedal)
 
 ---
 
