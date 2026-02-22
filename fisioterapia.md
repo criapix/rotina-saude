@@ -532,13 +532,13 @@ Manter: rotação externa/interna com elástico, scaption (progredir para 80-90 
 2. **MODERADA PRIORIDADE (cadeia cinética e pedal):**
    - Anterversão de quadril + retificação lombar → compensação em cadeia
    - Encurtamento de isquiotibiais e adutores (identificado pelo avaliador)
-   - Genu varo + pé varo → afeta biomecânica no pedal
+   - Pé varo → afeta biomecânica no pedal
 
 **Ações Corretivas Adicionadas:**
 - ✅ Alongamento de isquiotibiais: 2x/dia (manhã e noite)
 - ✅ Alongamento de adutores: 2x/dia (manhã e noite)
 - ✅ Alongamento de flexores do quadril: 2x/dia (correção anterversão)
-- ⏳ Avaliar bike fit considerando genu varo e pé varo
+- ⏳ Avaliar bike fit considerando pé varo
 
 ---
 

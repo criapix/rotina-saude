@@ -17,7 +17,6 @@ title: Série de Musculação
 > - Correção de hipercifose torácica e protração escapular
 > - Fortalecimento de rotadores externos (já implementado)
 > - Ênfase em posterior de coxa (isquiotibiais encurtados)
-> - Consciência de genu varo durante exercícios de perna
 
 Semana 1: **A — B — A** | Semana 2: **B — A — B**
 Descanso: 90–120s compostos, 60–90s acessórios
@@ -31,7 +30,7 @@ Tempo: **3-1-2** nos compostos de perna (3s excêntrica, 1s pausa, 2s concêntri
 
 | # | Exercício | Séries × Reps | Notas |
 |---|---|---|---|
-| 1 | **Leg press 45°** | 3 × 10–12 [📸](https://treinomestre.com.br/wp-content/uploads/2019/06/leg-press-45.jpg) | Tempo 3-1-2; amplitude completa. **ATENÇÃO:** Genu varo identificado — manter joelhos alinhados com pés (não deixar abrir). |
+| 1 | **Leg press 45°** | 3 × 10–12 [📸](https://treinomestre.com.br/wp-content/uploads/2019/06/leg-press-45.jpg) | Tempo 3-1-2; amplitude completa. |
 | 2 | **Mesa flexora** | 3 × 10–12 [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-da-mesa-flexora1.jpg) | **PRIORIDADE:** Hamstrings encurtados (avaliação 11/02) — alongar antes e depois. Fase de tração do pedal. |
 | 3 | **Supino máquina** (chest press) | 3 × 8–10 [📸](https://totalpass.com/wp-content/uploads/2025/01/supino-maquina.jpg) | Cotovelos ~45°; RPE 5 máximo. **ATENÇÃO:** Retrair escápulas ANTES de empurrar (correção protração escapular). |
 | 4 | **Remada máquina** (cavalinho) | 3 × 10–12 [📸](https://static1.minhavida.com.br/articles/b5/42/64/cf/lio-putrashutterstock-remada-cavalinho-na-maquina-orig-1.jpg) | Cotovelos junto ao corpo. **CORREÇÃO POSTURAL:** Apertar escápulas ao final (retração) — combate protração e hipercifose. |
@@ -50,7 +49,7 @@ Tempo: **3-1-2** nos compostos de perna (3s excêntrica, 1s pausa, 2s concêntri
 
 | # | Exercício | Séries × Reps | Notas |
 |---|---|---|---|
-| 1 | **Cadeira extensora** | 3 × 12–15 [📸](https://totalpass.com/br/blog/wp-content/uploads/2024/02/cadeira-extensora-homem.jpg) | Resistência de quadríceps para pedal. **ATENÇÃO:** Genu varo — manter joelhos alinhados. |
+| 1 | **Cadeira extensora** | 3 × 12–15 [📸](https://totalpass.com/br/blog/wp-content/uploads/2024/02/cadeira-extensora-homem.jpg) | Resistência de quadríceps para pedal. |
 | 2 | **Panturrilha em pé** | 3 × 12–15 [📸](https://www.mundoboaforma.com.br/wp-content/uploads/2022/10/aparelho-panturrilha.jpg) | Estabilidade do tornozelo no pedal. **ATENÇÃO:** Pé varo identificado — focar em empurrar uniformemente (não supinar). |
 | 3 | **Supino máquina** (chest press) | 4 × 8–10 | Cotovelos ~45°, sem ultrapassar linha do ombro. RPE 5 máximo. **CORREÇÃO:** Retrair escápulas ANTES de empurrar (combate protração). Nos dias de sessão de fisio, manter 2×8-10. Se dor noturna após sessão, voltar para 2 séries e consultar fisioterapeuta. |
 | 4 | **Remada sentada no cabo** | 3 × 10–12 [📸](https://static.wixstatic.com/media/2edbed_56a6cbe28714421c96fb1f932516ed07~mv2.jpg/v1/fill/w_1000,h_600,al_c,q_85/2edbed_56a6cbe28714421c96fb1f932516ed07~mv2.jpg) | Pegada neutra; cotovelos junto ao corpo. **CORREÇÃO POSTURAL:** Apertar escápulas ao final — combate protração e hipercifose. Complementa costas do Treino A. |
@@ -201,13 +200,7 @@ Fazer **3x/semana** nos dias de descanso ou antes do pedal. Não precisa de equi
 - **OBRIGATÓRIO:** Alongar antes e depois do treino (2x30s cada lado)
 - **Complemento:** Alongamento 2x/dia (manhã e noite)
 
-**4. Genu Varo (joelhos para fora)**
-- **Exercícios afetados:** Leg press, cadeira extensora
-- **Como fazer:** Consciência de manter joelhos ALINHADOS com os pés (não deixar abrir)
-- **Dica:** Usar espelho lateral se necessário para checagem visual
-- **Complemento:** Avaliar bike fit (pode estar contribuindo)
-
-**5. Pé Varo (tornozelo supinado)**
+**4. Pé Varo (tornozelo supinado)**
 - **Exercícios afetados:** Panturrilha em pé
 - **Como fazer:** Empurrar uniformemente (não supinar o pé)
 - **Complemento:** Avaliar tênis de treino e palmilhas se necessário
