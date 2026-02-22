@@ -9,6 +9,41 @@ Historico de alteracoes no plano de treino, nutricao e acompanhamento clinico.
 
 ---
 
+## 22/02/2026 — Bioimpedância: meta de massa magra atingida
+
+**Contexto:** Avaliação de bioimpedância de 22/02/2026 confirmou recuperação completa da massa magra e melhora expressiva da composição corporal após 2 semanas de protocolo de retorno (iniciado 09/02).
+
+### Resultados (22/02/2026 vs 08/02/2026)
+- **FFM:** 61,1 → **62,7 kg (+1,6 kg)** — ✅ **META DE 62,5 kg ATINGIDA**
+- **BF%:** 15,6% → **13,9% (-1,7%)** — melhor valor do histórico
+- **FM:** 12,1 → **10,9 kg (-1,2 kg)** — perda de gordura significativa
+- **TBW:** 44,7 → **45,9 L (+1,2 L)** — hidratação melhorada (meta: 46 L)
+- **SMM:** 35,8 → **37,8 kg (+2,0 kg)** — massa muscular esquelética recuperada
+- **VFA:** 34,0 → **30,9 cm²** — gordura visceral reduzida
+
+### Atualizações realizadas
+
+#### Consolidação Clínica (dados-saude.md)
+- Adicionada linha 22/02/2026 na tabela de evolução da composição corporal
+- Análise da tendência atualizada (recomposição positiva confirmada)
+- Status atual atualizado: FFM na meta, hidratação recuperando
+- Item 6 das pendências marcado como concluído (reversão da perda de massa magra)
+- Nova meta bioimpedância 08/03/2026: FFM ≥ 63,0 kg, TBW ≥ 46 L, BF% ≤ 13,5%
+
+#### Plano Nutricional (Plano nutricional.md)
+- Dados atuais atualizados para bioimpedância 22/02/2026
+- Trigger de retorno da proteína confirmado (FFM > 62,5 kg atingido)
+- Plano: manter 187g/dia até 08/03 (completar 4 semanas do ciclo) → retornar a 170g/dia
+- Metas de monitoramento atualizadas para próxima bioimpedância (08/03)
+
+### Próximos passos
+- Retornar proteína a 170g/dia em 08/03/2026 (após completar ciclo de 4 semanas)
+- Bioimpedância: ~08/03/2026 — meta FFM ≥ 63,0 kg, TBW ≥ 46 L
+- Avaliação Pollock: 11/03/2026
+- Repetir CK: até ~10/03/2026 (3-4 semanas após 10/02)
+
+---
+
 ## 12/02/2026 — Imagens de referência, redistribuição de rosca direta e adição de core
 
 **Contexto:** Adição de fotos ilustrativas (📸) a todos os exercícios para facilitar consulta durante o treino. Redistribuição da rosca direta do Treino B para o Treino A. Reintrodução de exercícios de core (lacuna identificada pelo parecer multidisciplinar de 08/02).

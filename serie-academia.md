@@ -9,7 +9,7 @@ title: Série de Musculação
 >
 > Válida até liberação clínica pós-fisioterapia
 >
-> **Atualizada 11/02/2026** — ajustes para correções posturais (avaliação física)
+> **Atualizada 22/02/2026** — bioimpedância confirmou recuperação (FFM 62,7 kg); protocolo de retorno concluído; regime normal a partir de agora
 >
 > Ajustes validados por: fisioterapeuta (impacto ombro) + ortopedista (impacto coluna e ombro)
 >
@@ -109,15 +109,15 @@ Fazer **3x/semana** nos dias de descanso ou antes do pedal. Não precisa de equi
 
 ## Protocolo de Retorno (após 3 semanas parado)
 
-> Semanas 1–2: adaptar com 70–80% da carga anterior; RPE 6–7; foco em reconectar padrão motor
+> ✅ **Semanas 1–2 concluídas (09–22/02/2026)** — FFM recuperada para 62,7 kg (meta atingida)
 >
-> Semana 3 em diante: retomar progressão normal abaixo
+> **Semana 3 em diante (a partir de 22/02): regime normal — RPE 7–8 nos compostos de perna**
 
 - **Não tentar cargas anteriores imediatamente** — DOMS severo atrasa o retorno
 - Manter volume completo (séries × reps) desde o início, reduzir apenas carga
 - Priorizar hidratação e proteína nas primeiras 2 semanas (corpo vai reter água novamente)
-- **Tempo:** Semana 1: usar tempo normal (2-0-1). Semana 2+: implementar tempo 3-1-2.
-- **Volume:** Semana 1: 3 séries nos compostos de perna. Semana 2+: retomar 4 séries.
+- **Tempo:** Semana 1: usar tempo normal (2-0-1). Semana 2+: implementar tempo 3-1-2. ✅ Ativo
+- **Volume:** Leg press e mesa flexora: 3 séries (conforme reestruturação de pernas para ciclismo — 10/02)
 
 ## Progressão
 
@@ -135,7 +135,7 @@ Fazer **3x/semana** nos dias de descanso ou antes do pedal. Não precisa de equi
 
 ## Lacunas preenchidas (10/02/2026)
 
-- ~~Exercício unilateral de MI:~~ ✅ leg press unilateral adicionado ao Treino B
+- ~~Exercício unilateral de MI:~~ mantido via ciclismo 3x/semana (pedalada é predominantemente unilateral)
 - **Serrátil anterior:** já no protocolo de ativação (wall slides)
 
 ## Lacunas remanescentes (a partir da semana 3)
@@ -218,7 +218,7 @@ Fazer **3x/semana** nos dias de descanso ou antes do pedal. Não precisa de equi
 
 - Dias duplos (Ter/Qui): se fadiga do pedal, tirar 1 série dos acessórios (manter compostos de perna e peito)
 - Quarta de descanso entre dias duplos é **inegociável**
-- **Prioridade atual:** recuperar massa magra perdida (FFM ~62 kg) enquanto protege o ombro + corrigir desvios posturais
+- **Prioridade atual:** ✅ ~~recuperar massa magra~~ **CONCLUÍDO** (FFM 62,7 kg em 22/02) → agora **manter/aumentar FFM acima de 62,5 kg** enquanto protege o ombro + corrigir desvios posturais
 - Pernas reduzidas (4 exercícios) — ciclismo 3x/semana complementa o estímulo de membros inferiores
 - Peito: ~7 sets/semana (supino 3×A + 4×B) — limite de segurança é **8 sets/semana** de pushing até liberação da fisio
 - Costas: ~9 sets/semana (remada + puxada em A, remada + puxada em B) — **também serve como correção postural**

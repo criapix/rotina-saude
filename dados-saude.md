@@ -445,6 +445,18 @@ title: Consolidação Clínica
 | 11/01/2026 | 80,3 | 15,9% | 12,7 | 62,8 | 1741 | 5 |
 | 25/01/2026 | 78,8 | 14,0% | 11,0 | 63,1 | 1721 | 5 |
 | **08/02/2026** | **77,8** | **15,6%** | **12,1** | **61,1** | **1707** | **5** |
+| **22/02/2026** | **78,2** | **13,9%** | **10,9** | **62,7** | **1713** | **5** |
+
+**Análise da tendência (22/02/2026):**
+- **FFM recuperou para 62,7 kg — meta de 62,5 kg ATINGIDA** (+1,6 kg de massa magra em 2 semanas)
+- BF caiu para 13,9% (-1,7%) — melhor valor registrado no histórico
+- FM caiu para 10,9 kg (-1,2 kg de gordura perdida em 2 semanas)
+- TBW recuperou para 45,9 L (+1,2 L) — hidratação melhorada, próxima da meta de 46 L
+- SSM (músculo esquelético) recuperou: 37,8 kg (+1,9 kg vs 08/02) — reversão completa do destreinamento
+- VFA caiu para 30,9 cm² (era 34,0 em 08/02) — gordura visceral reduzida
+- **Recomposição corporal no sentido correto:** +1,6 kg de músculo e -1,2 kg de gordura simultaneamente
+- **Causa:** protocolo de retorno funcional (proteína 170-187g, creatina, treino gradual, hidratação)
+- **Ações continuadas:** manter protocolo atual; proteína pode retornar a 170g/dia (trigger FFM>62,5 kg atingido); avaliar na bioimpedância de 08/03
 
 **Análise da tendência (08/02/2026):**
 - **FFM caiu para 61,1 kg — menor valor registrado** (perda de 2,0 kg de massa magra em 2 semanas)
@@ -566,14 +578,14 @@ title: Consolidação Clínica
 - **Exames (RM ombro, cervical, dorsal):** ✅ REALIZADOS em 02/02/2026
 - **Exames de sangue:** ✅ REALIZADOS em 10/02/2026
 - **Avaliação física (Pollock 7 Dobras):** ✅ REALIZADA em 11/02/2026 — BF 20,23%, FFM 61,98 kg
-- **Bioimpedância 08/02/2026:** ⚠️ FFM 61,1 kg; BF 15,6% (método diferente da adipometria)
+- **Bioimpedância 22/02/2026:** ✅ FFM 62,7 kg (meta atingida!); BF 13,9% (melhor valor do histórico); TBW 45,9 L
 - **Fisioterapia (10 sessões prescritas):** ainda não iniciada — **URGENTE**
 - **Dor:** sem dor intensa durante treinos; restrições severas aplicadas após resultados
-- **Atividade:** retomada em 09/02 — pedal MTB 3x/semana + academia 3x/semana (volume de pernas aumentado); protocolo de retorno gradual nas primeiras 2 semanas
-- **Suplementação:** whey protein + creatina 5g/dia (obrigatório)
-- **Nutrição:** proteína aumentada para 170g/dia (~2,2 g/kg); calorias ajustadas para preservar massa magra
-- **Hidratação:** alvo 3,5-4,5 L/dia conforme atividade (TBW em queda)
-- **Objetivo atual:** **preservar/recuperar massa magra** (FFM ~62 kg estável) + recuperação do ombro + reduzir BF de 20,23% para 17% (perder ~2,5 kg de gordura)
+- **Atividade:** pedal MTB 3x/semana + academia 3x/semana; protocolo de retorno completo (2 semanas concluídas)
+- **Suplementação:** whey protein + creatina 5g/dia (obrigatório) + protocolo anti-inflamatório
+- **Nutrição:** proteína 170-187g/dia; trigger para retorno a 170g atingido (FFM > 62,5 kg); calorias ajustadas
+- **Hidratação:** alvo 3,5-4,5 L/dia conforme atividade (TBW recuperando: 44,7 → 45,9 L)
+- **Objetivo atual:** **manter/aumentar massa magra acima de 62,5 kg** + recuperação do ombro + continuar redução de BF (meta Pollock: 17%)
 
 ### Pendências prioritárias
 1. ✅ ~~Realizar os exames de RM solicitados pelo ortopedista~~ (concluído 02/02/2026)
@@ -581,17 +593,19 @@ title: Consolidação Clínica
 3. ✅ ~~Exames de sangue~~ (concluído 10/02/2026) — **CK elevado (480), Vit D baixa (28,2), HDL baixo (43) requerem acompanhamento**
 4. 🔴 **URGENTE:** Iniciar fisioterapia prescrita (10 sessões) — foco no manguito rotador. Probabilidade de necessitar mais 10 sessões: **60-70%**
 5. 🔴 **URGENTE:** Retorno ao ortopedista para discussão dos resultados e definição de conduta
-6. 🔴 **URGENTE:** Reverter perda de massa magra (61,1 kg é o menor valor registrado)
-7. 🔴 **Repetir CK em 3-4 semanas** — monitorar overtraining (resultado atual: 480 U/L, ref: 35-232)
+6. ✅ ~~Reverter perda de massa magra~~ — FFM recuperada para 62,7 kg (22/02/2026) — **META ATINGIDA**
+7. 🔴 **Repetir CK em 3-4 semanas** — monitorar overtraining (resultado atual: 480 U/L, ref: 35-232) — janela: até ~10/03/2026
 8. 🔴 **ENMG do membro superior direito** — recomendada em até **60 dias**. Objetivo: diferenciar radiculopatia C8 vs neuropatia ulnar
-9. 🔴 **US tireoide com Doppler** — prioridade alta (**30 dias**) + solicitar anti-TPO (TSH e T4L já realizados: normais)
-10. ⚠️ **Vitamina D reavaliar** em 8-12 semanas (dose aumentada 4000→5000 UI/dia)
-11. ⚠️ **Melhorar hidratação:** TBW 44,7 L (baixo) + CHCM 36,6 (levemente alto) sugerem desidratação
+9. 🔴 **US tireoide com Doppler** — prioridade alta (**30 dias** a partir de 10/02) + solicitar anti-TPO (TSH e T4L normais)
+10. ⚠️ **Vitamina D reavaliar** em 8-12 semanas a partir de 10/02 (dose aumentada 4000→5000 UI/dia) — janela: abr/2026
+11. ⚠️ **Hidratação:** TBW recuperando (44,7 → 45,9 L); manter alvo 3,5-4,5 L/dia; meta 46 L na próxima bio
 12. ⚠️ **PCR (proteína C reativa):** ainda não realizado — solicitar próxima avaliação
-13. 🎯 **Meta bioimpedância 08/03/2026:** FFM >= 62,5 kg, TBW >= 46 L
+13. 🎯 **Meta bioimpedância 08/03/2026:** FFM >= 63,0 kg, TBW >= 46 L, BF% <= 13,5%
 14. 🎯 **Próximo painel laboratorial completo:** Maio/2026 (3 meses após 10/02)
-15. ✅ ~~Ajustar série de academia para fase de recuperação~~ → ajustada para volume de pernas (FEITO)
-16. ✅ ~~Ajustar nutrição e pedal pós-bioimpedância 08/02~~ (FEITO)
+15. 🎯 **Avaliação física Pollock:** 11/03/2026 — meta BF ≤ 19,0%, FFM ≥ 62,5 kg
+16. ✅ ~~Ajustar série de academia para fase de recuperação~~ → ajustada para volume de pernas (FEITO)
+17. ✅ ~~Ajustar nutrição e pedal pós-bioimpedância 08/02~~ (FEITO)
+18. ⚠️ **Proteína:** trigger FFM>62,5 kg atingido — pode retornar de 187g para 170g/dia (completar 4 semanas: ~08/03)
 
 ---
 

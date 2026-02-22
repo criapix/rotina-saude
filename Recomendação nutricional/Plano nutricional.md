@@ -7,29 +7,29 @@ title: Plano Nutricional
 
 > Guia informativo. Não substitui nutricionista.
 >
-> **Atualizado 08/02/2026** — ajustado após bioimpedância mostrar perda de massa magra
+> **Atualizado 22/02/2026** — ajustado após bioimpedância confirmar recuperação da massa magra (FFM 62,7 kg — meta atingida)
 
 ## Resumo
 
-**Dados atuais (Avaliação Física Pollock 7 Dobras — 11/02/2026):**
-- Peso: 77,70 kg | Idade: 47 anos
-- BF%: 20,23% (Pollock) / 15,6% (Bioimpedância 08/02)
-- Massa Magra (FFM): 61,98 kg (Pollock) / 61,1 kg (Bioimpedância)
-- Meta BF%: 17,00% (Pollock)
-- Peso ideal: 74,67 kg
+**Dados atuais (Bioimpedância — 22/02/2026):**
+- Peso: 78,2 kg | Idade: 47 anos
+- BF%: 13,9% (Bioimpedância 22/02) / 20,23% (Pollock 11/02)
+- Massa Magra (FFM): 62,7 kg (Bioimpedância) / 61,98 kg (Pollock)
+- Meta BF% Pollock: 17,00%
+- Peso ideal (Pollock): 74,67 kg
 
-**Objetivo:** **Preservar/aumentar massa magra (FFM ≥ 62,5 kg) + reduzir gordura de 20,23% → 17%**
+**Objetivo:** **Manter FFM acima de 62,5 kg + reduzir gordura progressivamente (meta Pollock: 17%)**
 
 **Macronutrientes:**
-- Proteína fixa: **170g/dia** (~2,2 g/kg) — aumentada para combater catabolismo
-  - **Temporariamente elevada para 187g/dia (2,4 g/kg) por 4-6 semanas** (resistência anabólica + destreino + idade 47). Retornar a 170g/dia após FFM estabilizar acima de 62,5 kg.
+- Proteína fixa: **170g/dia** (~2,2 g/kg)
+  - ✅ **Trigger de retorno atingido:** FFM = 62,7 kg (> 62,5 kg). Retornar a 170g/dia a partir de **08/03/2026** (completando 4 semanas do ciclo). Até lá, manter 187g/dia.
 - Gordura fixa: **~80g/dia**
 - Carboidrato varia conforme o dia
 - Hidratação: **Dias de pedal: 4,0-4,5 L/dia** (incluindo volume durante pedal). Dias de descanso: 3,0-3,5 L/dia. Regra prática: urina clara-palha até as 14h.
 - Creatina: **5g/dia obrigatório** (retenção intramuscular + preservação de massa magra)
 
 **Análise da composição corporal:**
-> Os dois métodos (bioimpedância e Pollock 7 dobras) medem de forma diferente. A adipometria (Pollock) tende a marcar valores maiores e é considerada padrão-ouro. O importante é que a **FFM está estável em ~62 kg**, sinal de recuperação após o período de destreino. Meta: perder ~2,5 kg de gordura mantendo os 62 kg de massa magra.
+> Os dois métodos (bioimpedância e Pollock 7 dobras) medem de forma diferente. A adipometria (Pollock) tende a marcar valores maiores e é considerada padrão-ouro. **Bioimpedância 22/02:** FFM 62,7 kg (meta de 62,5 kg atingida), BF 13,9% (melhor valor do histórico), TBW 45,9 L (+1,2 L vs 08/02). A recomposição corporal está no sentido correto: +1,6 kg de músculo e -1,2 kg de gordura em 2 semanas. Meta: continuar redução de gordura (Pollock: 20,23% → 17% = ~2,5 kg de gordura) mantendo FFM ≥ 62,5 kg.
 
 ## Calorias e macros por tipo de dia
 
@@ -190,18 +190,23 @@ Escolha uma opção:
 
 ## Meta de monitoramento
 
+**Bioimpedância atual (22/02/2026) — resultado:**
+- ✅ FFM: 62,7 kg (meta 62,5 kg **ATINGIDA**)
+- ⚠️ TBW: 45,9 L (meta 46 L — quase lá, apenas 0,1 L abaixo)
+- ✅ BF%: 13,9% (meta ≤ 14,5% **ATINGIDA** — melhor valor do histórico)
+
+**Próxima bioimpedância:** ~08/03/2026
+- Meta FFM: ≥ 63,0 kg
+- Meta TBW: ≥ 46 L
+- Meta BF%: ≤ 13,5%
+
 **Próxima avaliação física (Pollock 7 Dobras):** 11/03/2026 (mensal)
-- Meta FFM: ≥ 62,5 kg (manter ou aumentar)
+- Meta FFM: ≥ 62,5 kg (manter)
 - Meta BF%: ≤ 19,0% (redução progressiva rumo aos 17%)
 - Meta peso gordo: ≤ 14,8 kg (redução de ~1 kg)
-
-**Bioimpedância:** 08/03/2026
-- Meta FFM: ≥ 62,5 kg
-- Meta TBW: ≥ 46 L
-- Meta BF%: ≤ 14,5%
 
 **Se metas não atingidas:**
 - Reavaliar calorias (possível déficit excessivo ou insuficiente)
 - Verificar distribuição proteica ao longo do dia
 - Avaliar qualidade do sono e níveis de estresse
-- Considerar aumentar proteína para 2,5 g/kg temporariamente
+- Considerar manter proteína elevada (187g/dia) por mais 2 semanas
