@@ -27,14 +27,14 @@ Tempo: **3-1-2** nos compostos de perna (3s excêntrica, 1s pausa, 2s concêntri
 |---|---|---|---|
 | 1 | **Leg press 45°** | 3 × 10–12 [📸](https://treinomestre.com.br/wp-content/uploads/2019/06/leg-press-45.jpg) | Tempo 3-1-2; amplitude completa. |
 | 2 | **Mesa flexora** | 3 × 10–12 [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-da-mesa-flexora1.jpg) | Hamstrings — fase de tração do pedal. |
-| 3 | **Supino máquina** (chest press) | 3 × 8–10 [📸](https://totalpass.com/wp-content/uploads/2025/01/supino-maquina.jpg) | Cotovelos ~45°; RPE 5 máximo. Mesmas regras do Treino B. Dá frequência 2x/semana de peito. |
+| 3 | **Supino máquina** (chest press) | 4 × 8–10 [📸](https://totalpass.com/wp-content/uploads/2025/01/supino-maquina.jpg) | Cotovelos ~45°; RPE 5 máximo. Segurar 1–2s na contração máxima (miolo do peitoral). Mesmas regras do Treino B. Dá frequência 2x/semana de peito. |
 | 4 | **Remada máquina** (cavalinho) | 3 × 10–12 [📸](https://static1.minhavida.com.br/articles/b5/42/64/cf/lio-putrashutterstock-remada-cavalinho-na-maquina-orig-1.jpg) | Cotovelos junto ao corpo. |
 | 5 | **Puxada frontal neutra** | 3 × 10–12 [📸](https://i.ytimg.com/vi/ual2wWatHvo/hq2.jpg?sqp=-oaymwEYCOgCEOgCSFryq4qpAwoIARUAAIhC0AEB&rs=AOn4CLAGvcJLT7geFyIXLk9BtVST1tRQlw) | Pegada neutra, sem forçar. |
 | 6 | **Rosca martelo** | 3 × 10–12 [📸](https://static1.minhavida.com.br/articles/39/76/c9/c4/makatserchykshutterstock-orig-1.jpg) | Pegada neutra; trabalha bíceps + braquial. Sem envolvimento de ombro. |
 | 7 | **Tríceps pulley** (barra reta) | 3 × 12–15 [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-do-triceps-pulley.jpg) | Extensão de cotovelo isolada. Sem envolvimento de ombro. |
 | 8 | **Rosca direta** (barra ou halteres) | 3 × 10–12 [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/08/rosca-direta-com-barra-1.jpg) | Pegada supinada; complementa rosca martelo (ângulo diferente). Separada por tríceps para recuperação do bíceps. |
 | 9 | **Abdominal na máquina** (crunch machine) | 3 × 12–15 [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | Apoio no peito (NÃO na nuca). Flexão de tronco controlada. RPE 6. Sem envolvimento cervical ou de ombro. |
-| 10 | **Rotação externa no cabo** | 3 × 15 [📸](https://s32540.pcdn.co/wp-content/uploads/2018/11/rota%C3%A7aoexterna241118-Copy.jpg) | Carga LEVE (reabilitação). Quando fisioterapia iniciar, ELIMINAR este exercício da academia (evitar sobreposição). Deixar exclusivamente para a fisio. |
+| 10 | **Rotação externa no cabo** | 2 × 15 [📸](https://s32540.pcdn.co/wp-content/uploads/2018/11/rota%C3%A7aoexterna241118-Copy.jpg) | Carga LEVE (reabilitação). Exercício prescrito pela fisioterapia, executado na academia. Reduzido de 3→2 séries para comportar a 4ª série do supino no tempo de treino. |
 
 ---
 
@@ -179,7 +179,7 @@ Fazer **3x/semana** nos dias de descanso ou antes do pedal. Não precisa de equi
 - Quarta de descanso entre dias duplos é **inegociável**
 - **Prioridade atual:** ✅ ~~recuperar massa magra~~ **CONCLUÍDO** (FFM 62,7 kg em 22/02) → agora **manter/aumentar FFM acima de 62,5 kg** enquanto protege o ombro
 - Pernas reduzidas (4 exercícios) — ciclismo 3x/semana complementa o estímulo de membros inferiores
-- Peito: ~7 sets/semana (supino 3×A + 4×B) — limite de segurança é **8 sets/semana** de pushing até liberação da fisio
+- Peito: **8 sets/semana** (supino 4×A + 4×B) — no limite de segurança de pushing até liberação da fisio. Após liberação: adicionar pec deck com ROM controlada (cotovelos na frente do plano do ombro) como exercício dedicado para miolo do peitoral.
 - Costas: ~9 sets/semana (remada + puxada em A, remada + puxada em B) — boa frequência 2x/semana
 - Braços: tríceps 2x/semana + bíceps 2x/semana (3 variações: martelo + direta no A, scott no B; 2 de tríceps)
 - Core: abdominal na máquina 2x/semana (academia) + protocolo domiciliar 3x/semana (dead bug, prancha, bird dog)
