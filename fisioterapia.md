@@ -327,49 +327,6 @@ Manter: rotação externa/interna com elástico, scaption (progredir para 80-90 
 2. Puxe para a esquerda com a outra mão
 3. Segure 30s
 
-#### Isquiotibiais (Hamstrings) — 2x30s cada lado
-
-**Importância:** Avaliação física (11/02/2026) identificou encurtamento — prioridade para correção postural.
-
-1. Deitado de costas, perna estendida no chão
-2. Levante uma perna para cima (joelho reto)
-3. Segure atrás da coxa ou use toalha/faixa
-4. Puxe suavemente em direção ao peito
-5. Segure 30s, troque de lado
-
-**Variação em pé:**
-1. Pé sobre banco/cadeira (altura do quadril)
-2. Joelho reto, ponta do pé para cima
-3. Incline tronco para frente (costas retas)
-4. Segure 30s
-
-#### Adutores — 2x30s cada lado
-
-**Importância:** Avaliação física (11/02/2026) identificou encurtamento — prioridade para correção postural.
-
-**Borboleta (sentado):**
-1. Sente no chão, junte solas dos pés
-2. Segure os pés com as mãos
-3. Empurre joelhos para baixo com os cotovelos
-4. Incline tronco para frente
-5. Segure 30s
-
-**Abertura lateral (em pé):**
-1. Em pé, pernas bem afastadas
-2. Incline para um lado, dobrando o joelho desse lado
-3. Mantenha o outro joelho reto
-4. Segure 30s cada lado
-
-#### Flexores do Quadril — 2x30s cada lado
-
-**Importância:** Correção da anterversão de quadril identificada na avaliação.
-
-1. Ajoelhe com uma perna à frente (90°)
-2. Joelho de trás no chão
-3. Empurre quadril para frente
-4. Mantenha tronco ereto
-5. Segure 30s, troque de lado
-
 ---
 
 ### Mobilidade Cervical
@@ -415,7 +372,7 @@ Manter: rotação externa/interna com elástico, scaption (progredir para 80-90 
 
 ## PROTOCOLO DOMICILIAR
 
-### MANHÃ (20 min — ao acordar)
+### MANHÃ (15 min — ao acordar)
 
 | # | Exercício | Rep |
 |---|-----------|-----|
@@ -427,11 +384,6 @@ Manter: rotação externa/interna com elástico, scaption (progredir para 80-90 
 | 6 | Pêndulo Codman | 30s/direção |
 | 7 | Isometrias RE/RI | 5x10s cada |
 | 8 | Respiração costal | 8 resp |
-| 9 | **Alongamento isquiotibiais** | **2x30s/lado** |
-| 10 | **Alongamento flexores quadril** | **2x30s/lado** |
-
-**Prioridade pós-avaliação 11/02:** Exercícios 9-10 são OBRIGATÓRIOS para correção postural.
-
 ---
 
 ### NOITE (15 min — antes de dormir)
@@ -443,12 +395,8 @@ Manter: rotação externa/interna com elástico, scaption (progredir para 80-90 
 | 3 | Pêndulo Codman | 30s/direção |
 | 4 | Isometrias RE/RI | 5x10s cada |
 | 5 | Alongamento peitoral | 2x30s |
-| 6 | **Alongamento adutores** | **2x30s (borboleta)** |
-| 7 | **Alongamento isquiotibiais** | **2x30s/lado (deitado)** |
-| 8 | Respiração diafragmática | 10 ciclos |
-| 9 | Gelo no ombro | 15 min |
-
-**Prioridade pós-avaliação 11/02:** Exercícios 6-7 são OBRIGATÓRIOS para correção postural (encurtamento identificado).
+| 6 | Respiração diafragmática | 10 ciclos |
+| 7 | Gelo no ombro | 15 min |
 
 ---
 
@@ -520,27 +468,6 @@ Manter: rotação externa/interna com elástico, scaption (progredir para 80-90 
 - Degeneração leve D3-D10 (estável desde 2015)
 - Origem FUNCIONAL (hipomobilidade)
 
-### Avaliação Postural (11/02/2026)
-
-**Desvios Identificados — PRIORIDADES:**
-
-1. **ALTA PRIORIDADE (impactam ombro diretamente):**
-   - Hipercifose torácica → comprime espaço subacromial
-   - Protração escapular → agrava síndrome do impacto
-   - Rotação interna dos ombros → sobrecarrega supraespinhal
-
-2. **MODERADA PRIORIDADE (cadeia cinética e pedal):**
-   - Anterversão de quadril + retificação lombar → compensação em cadeia
-   - Encurtamento de isquiotibiais e adutores (identificado pelo avaliador)
-   - Pé varo → afeta biomecânica no pedal
-
-**Ações Corretivas Adicionadas:**
-- ✅ Alongamento de isquiotibiais: 2x/dia (manhã e noite)
-- ✅ Alongamento de adutores: 2x/dia (manhã e noite)
-- ✅ Alongamento de flexores do quadril: 2x/dia (correção anterversão)
-- ⏳ Avaliar bike fit considerando pé varo
-
----
 
 ### Cronograma das 10 Sessões Presenciais
 

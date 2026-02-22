@@ -12,11 +12,6 @@ title: Série de Musculação
 > **Atualizada 22/02/2026** — bioimpedância confirmou recuperação (FFM 62,7 kg); protocolo de retorno concluído; regime normal a partir de agora
 >
 > Ajustes validados por: fisioterapeuta (impacto ombro) + ortopedista (impacto coluna e ombro)
->
-> **Foco pós-avaliação postural (11/02/2026):**
-> - Correção de hipercifose torácica e protração escapular
-> - Fortalecimento de rotadores externos (já implementado)
-> - Ênfase em posterior de coxa (isquiotibiais encurtados)
 
 Semana 1: **A — B — A** | Semana 2: **B — A — B**
 Descanso: 90–120s compostos, 60–90s acessórios
@@ -31,15 +26,15 @@ Tempo: **3-1-2** nos compostos de perna (3s excêntrica, 1s pausa, 2s concêntri
 | # | Exercício | Séries × Reps | Notas |
 |---|---|---|---|
 | 1 | **Leg press 45°** | 3 × 10–12 [📸](https://treinomestre.com.br/wp-content/uploads/2019/06/leg-press-45.jpg) | Tempo 3-1-2; amplitude completa. |
-| 2 | **Mesa flexora** | 3 × 10–12 [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-da-mesa-flexora1.jpg) | **PRIORIDADE:** Hamstrings encurtados (avaliação 11/02) — alongar antes e depois. Fase de tração do pedal. |
-| 3 | **Supino máquina** (chest press) | 3 × 8–10 [📸](https://totalpass.com/wp-content/uploads/2025/01/supino-maquina.jpg) | Cotovelos ~45°; RPE 5 máximo. **ATENÇÃO:** Retrair escápulas ANTES de empurrar (correção protração escapular). |
-| 4 | **Remada máquina** (cavalinho) | 3 × 10–12 [📸](https://static1.minhavida.com.br/articles/b5/42/64/cf/lio-putrashutterstock-remada-cavalinho-na-maquina-orig-1.jpg) | Cotovelos junto ao corpo. **CORREÇÃO POSTURAL:** Apertar escápulas ao final (retração) — combate protração e hipercifose. |
-| 5 | **Puxada frontal neutra** | 3 × 10–12 [📸](https://i.ytimg.com/vi/ual2wWatHvo/hq2.jpg?sqp=-oaymwEYCOgCEOgCSFryq4qpAwoIARUAAIhC0AEB&rs=AOn4CLAGvcJLT7geFyIXLk9BtVST1tRQlw) | Pegada neutra, sem forçar. **CORREÇÃO:** Deprimir escápulas antes de puxar (não encolher ombros). |
+| 2 | **Mesa flexora** | 3 × 10–12 [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-da-mesa-flexora1.jpg) | Hamstrings — fase de tração do pedal. |
+| 3 | **Supino máquina** (chest press) | 3 × 8–10 [📸](https://totalpass.com/wp-content/uploads/2025/01/supino-maquina.jpg) | Cotovelos ~45°; RPE 5 máximo. Mesmas regras do Treino B. Dá frequência 2x/semana de peito. |
+| 4 | **Remada máquina** (cavalinho) | 3 × 10–12 [📸](https://static1.minhavida.com.br/articles/b5/42/64/cf/lio-putrashutterstock-remada-cavalinho-na-maquina-orig-1.jpg) | Cotovelos junto ao corpo. |
+| 5 | **Puxada frontal neutra** | 3 × 10–12 [📸](https://i.ytimg.com/vi/ual2wWatHvo/hq2.jpg?sqp=-oaymwEYCOgCEOgCSFryq4qpAwoIARUAAIhC0AEB&rs=AOn4CLAGvcJLT7geFyIXLk9BtVST1tRQlw) | Pegada neutra, sem forçar. |
 | 6 | **Rosca martelo** | 3 × 10–12 [📸](https://static1.minhavida.com.br/articles/39/76/c9/c4/makatserchykshutterstock-orig-1.jpg) | Pegada neutra; trabalha bíceps + braquial. Sem envolvimento de ombro. |
 | 7 | **Tríceps pulley** (barra reta) | 3 × 12–15 [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-do-triceps-pulley.jpg) | Extensão de cotovelo isolada. Sem envolvimento de ombro. |
 | 8 | **Rosca direta** (barra ou halteres) | 3 × 10–12 [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/08/rosca-direta-com-barra-1.jpg) | Pegada supinada; complementa rosca martelo (ângulo diferente). Separada por tríceps para recuperação do bíceps. |
 | 9 | **Abdominal na máquina** (crunch machine) | 3 × 12–15 [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | Apoio no peito (NÃO na nuca). Flexão de tronco controlada. RPE 6. Sem envolvimento cervical ou de ombro. |
-| 10 | **Rotação externa no cabo** | 3 × 15 [📸](https://s32540.pcdn.co/wp-content/uploads/2018/11/rota%C3%A7aoexterna241118-Copy.jpg) | **CORREÇÃO POSTURAL CRÍTICA:** Combate rotação interna dos ombros. Carga LEVE (reabilitação). Quando fisioterapia iniciar, ELIMINAR este exercício da academia (evitar sobreposição). Deixar exclusivamente para a fisio. |
+| 10 | **Rotação externa no cabo** | 3 × 15 [📸](https://s32540.pcdn.co/wp-content/uploads/2018/11/rota%C3%A7aoexterna241118-Copy.jpg) | Carga LEVE (reabilitação). Quando fisioterapia iniciar, ELIMINAR este exercício da academia (evitar sobreposição). Deixar exclusivamente para a fisio. |
 
 ---
 
@@ -50,11 +45,11 @@ Tempo: **3-1-2** nos compostos de perna (3s excêntrica, 1s pausa, 2s concêntri
 | # | Exercício | Séries × Reps | Notas |
 |---|---|---|---|
 | 1 | **Cadeira extensora** | 3 × 12–15 [📸](https://totalpass.com/br/blog/wp-content/uploads/2024/02/cadeira-extensora-homem.jpg) | Resistência de quadríceps para pedal. |
-| 2 | **Panturrilha em pé** | 3 × 12–15 [📸](https://www.mundoboaforma.com.br/wp-content/uploads/2022/10/aparelho-panturrilha.jpg) | Estabilidade do tornozelo no pedal. **ATENÇÃO:** Pé varo identificado — focar em empurrar uniformemente (não supinar). |
-| 3 | **Supino máquina** (chest press) | 4 × 8–10 | Cotovelos ~45°, sem ultrapassar linha do ombro. RPE 5 máximo. **CORREÇÃO:** Retrair escápulas ANTES de empurrar (combate protração). Nos dias de sessão de fisio, manter 2×8-10. Se dor noturna após sessão, voltar para 2 séries e consultar fisioterapeuta. |
-| 4 | **Remada sentada no cabo** | 3 × 10–12 [📸](https://static.wixstatic.com/media/2edbed_56a6cbe28714421c96fb1f932516ed07~mv2.jpg/v1/fill/w_1000,h_600,al_c,q_85/2edbed_56a6cbe28714421c96fb1f932516ed07~mv2.jpg) | Pegada neutra; cotovelos junto ao corpo. **CORREÇÃO POSTURAL:** Apertar escápulas ao final — combate protração e hipercifose. Complementa costas do Treino A. |
-| 5 | **Puxada frontal** (pegada fechada) | 3 × 10–12 [📸](https://treinomestre.com.br/wp-content/uploads/2022/06/puxada-fechada-pegada-supinada.png) | Pegada neutra fechada. **CORREÇÃO:** Deprimir escápulas antes de puxar. Complementa remada (puxada vertical). |
-| 6 | **Face pull** (corda) | 3 × 15 [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2019/10/face-pulls.jpg) | **CORREÇÃO POSTURAL CRÍTICA:** Combate protração escapular + rotação interna. Puxar corda em direção ao rosto, abrir cotovelos, apertar escápulas. Carga LEVE (reabilitação). Não realizar no dia de sessão de fisioterapia. Quando fisio iniciar Fase 2 (semana 5+), reduzir para 2×12. |
+| 2 | **Panturrilha em pé** | 3 × 12–15 [📸](https://www.mundoboaforma.com.br/wp-content/uploads/2022/10/aparelho-panturrilha.jpg) | Estabilidade do tornozelo no pedal. |
+| 3 | **Supino máquina** (chest press) | 4 × 8–10 | Cotovelos ~45°, sem ultrapassar linha do ombro. RPE 5 máximo. Nos dias de sessão de fisio, manter 2×8-10. Se dor noturna após sessão, voltar para 2 séries e consultar fisioterapeuta. |
+| 4 | **Remada sentada no cabo** | 3 × 10–12 [📸](https://static.wixstatic.com/media/2edbed_56a6cbe28714421c96fb1f932516ed07~mv2.jpg/v1/fill/w_1000,h_600,al_c,q_85/2edbed_56a6cbe28714421c96fb1f932516ed07~mv2.jpg) | Pegada neutra; cotovelos junto ao corpo. Complementa costas do Treino A. |
+| 5 | **Puxada frontal** (pegada fechada) | 3 × 10–12 [📸](https://treinomestre.com.br/wp-content/uploads/2022/06/puxada-fechada-pegada-supinada.png) | Pegada neutra fechada; complementa remada (puxada vertical). |
+| 6 | **Face pull** (corda) | 3 × 15 [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2019/10/face-pulls.jpg) | Carga LEVE (reabilitação). Não realizar no dia de sessão de fisioterapia. Quando fisio iniciar Fase 2 (semana 5+), reduzir para 2×12. |
 | 7 | **Tríceps pulley** (corda) | 3 × 12–15 [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/10/execucao-do-triceps-corda.jpg) | |
 | 8 | **Rosca scott máquina** | 3 × 10–12 [📸](https://static1.minhavida.com.br/articles/a0/79/bd/2f/makatserchykshutterstock-orig-1.jpg) | |
 | 9 | **Abdominal na máquina** (crunch machine) | 3 × 12–15 [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | Apoio no peito (NÃO na nuca). Flexão de tronco controlada. RPE 6. Sem envolvimento cervical ou de ombro. |
@@ -178,47 +173,17 @@ Fazer **3x/semana** nos dias de descanso ou antes do pedal. Não precisa de equi
 
 ---
 
-## Correções Posturais Integradas ao Treino (Avaliação 11/02/2026)
-
-### Desvios Identificados e Como o Treino Ajuda
-
-**1. Hipercifose Torácica + Protração Escapular**
-- **Exercícios corretivos:** Remadas (cavalinho e cabo), face pull, rotação externa
-- **Como fazer:** APERTAR escápulas ao final de cada repetição de remada
-- **Frequência:** 2x/semana (Treinos A e B)
-- **Complemento:** Mobilidade torácica diária (Cat-Cow, Open Book, extensão sobre rolo)
-
-**2. Rotação Interna dos Ombros**
-- **Exercícios corretivos:** Rotação externa no cabo, face pull
-- **Como fazer:** Foco em amplitude completa e contração no final
-- **Frequência:** 2x/semana até fisio iniciar (depois só na fisio)
-- **Complemento:** Alongamento de peitoral 2x/dia
-
-**3. Encurtamento de Isquiotibiais**
-- **Exercícios que trabalham:** Mesa flexora (PRIORIDADE)
-- **Como fazer:** Amplitude completa + fase excêntrica controlada
-- **OBRIGATÓRIO:** Alongar antes e depois do treino (2x30s cada lado)
-- **Complemento:** Alongamento 2x/dia (manhã e noite)
-
-**4. Pé Varo (tornozelo supinado)**
-- **Exercícios afetados:** Panturrilha em pé
-- **Como fazer:** Empurrar uniformemente (não supinar o pé)
-- **Complemento:** Avaliar tênis de treino e palmilhas se necessário
-
----
-
 ## Notas
 
 - Dias duplos (Ter/Qui): se fadiga do pedal, tirar 1 série dos acessórios (manter compostos de perna e peito)
 - Quarta de descanso entre dias duplos é **inegociável**
-- **Prioridade atual:** ✅ ~~recuperar massa magra~~ **CONCLUÍDO** (FFM 62,7 kg em 22/02) → agora **manter/aumentar FFM acima de 62,5 kg** enquanto protege o ombro + corrigir desvios posturais
+- **Prioridade atual:** ✅ ~~recuperar massa magra~~ **CONCLUÍDO** (FFM 62,7 kg em 22/02) → agora **manter/aumentar FFM acima de 62,5 kg** enquanto protege o ombro
 - Pernas reduzidas (4 exercícios) — ciclismo 3x/semana complementa o estímulo de membros inferiores
 - Peito: ~7 sets/semana (supino 3×A + 4×B) — limite de segurança é **8 sets/semana** de pushing até liberação da fisio
-- Costas: ~9 sets/semana (remada + puxada em A, remada + puxada em B) — **também serve como correção postural**
+- Costas: ~9 sets/semana (remada + puxada em A, remada + puxada em B) — boa frequência 2x/semana
 - Braços: tríceps 2x/semana + bíceps 2x/semana (3 variações: martelo + direta no A, scott no B; 2 de tríceps)
 - Core: abdominal na máquina 2x/semana (academia) + protocolo domiciliar 3x/semana (dead bug, prancha, bird dog)
 - Tempo 3-1-2 nos compostos de perna: mais tempo sob tensão = mais estímulo hipertrófico
 - NUNCA fisioterapia e exercícios de peito no mesmo dia com <6h de intervalo
-- **NOVO:** Alongamento de isquiotibiais OBRIGATÓRIO antes e depois do treino de perna
 - Após fisioterapia e liberação clínica, a série será expandida para upper body progressivamente
 

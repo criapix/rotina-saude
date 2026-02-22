@@ -432,9 +432,7 @@ title: Consolidação Clínica
 
 ---
 
-## 13. Evolução da Composição Corporal
-
-### Bioimpedância
+## 13. Evolução da Composição Corporal (Bioimpedância)
 
 | Data | Peso (kg) | BF% | FM (kg) | FFM (kg) | TMB (kcal) | VFL |
 |---|---|---|---|---|---|---|
@@ -469,114 +467,12 @@ title: Consolidação Clínica
 - **Retorno programado:** 09/02/2026 — retomada gradual de pedal e academia
 - **Ações tomadas:** proteína aumentada para 170g/dia, creatina obrigatória, hidratação 3,5 L/dia, volume de pernas aumentado, protocolo de retorno gradual (2 semanas)
 
-### Avaliação Física — Pollock 7 Dobras (11/02/2026)
-
-**Dados antropométricos:**
-- Peso: 77,70 kg
-- Altura: 1,78 m
-- Idade: 47 anos
-- IMC: 24,80 (Ideal)
-
-**Composição Corporal:**
-- **% Gordura Atual:** 20,23%
-- **% Gordura Ideal:** 17,00%
-- **Peso Gordo:** 15,72 kg
-- **Peso Magro (FFM):** 61,98 kg
-- **Peso Ideal:** 74,67 kg
-
-**Relação Cintura-Quadril (RCQ):**
-- Atual: 0,81
-- Normal: 0,88 - 0,95
-
-**Dobras Cutâneas (em mm):**
-- Subescapular: 15,00
-- Tricipital: 17,00
-- Peitoral: 12,00
-- Axilar Média: 14,00
-- Abdominal: 15,00
-- Coxa: 33,00
-- Supra-ilíaca: 19,00
-
-**Perímetros (em cm):**
-- Antebraço D/E: 18,00
-- Braço Relaxado D/E: 21,00
-- Braço Contraído D: 27,00 / E: 26,00
-- Coxa Distal D: 37,00 / E: 38,00
-- Coxa Medial D: 49,00 / E: 46,00
-- Coxa Proximal D: 54,00 / E: 51,00
-- Panturrilha D: 30,00 / E: 28,00
-- Abdômen: 76,00
-- Cintura: 75,00
-- Ombro: 101,00
-- Pescoço: 31,00
-- Tórax: 82,00
-- Quadril: 93,00
-
-**Análise comparativa — Bioimpedância vs Pollock 7 Dobras:**
-> **IMPORTANTE:** Os dois métodos medem composição corporal de forma diferente:
-> - **Bioimpedância (08/02):** 15,6% BF, 61,1 kg FFM — método rápido, sensível a hidratação
-> - **Pollock 7 Dobras (11/02):** 20,23% BF, 61,98 kg FFM — método padrão-ouro por adipômetro
-> - A diferença de ~4,5% é esperada entre os métodos (adipometria tende a marcar valores maiores)
-> - **FFM praticamente estável:** 61,1 kg → 61,98 kg (+0,88 kg) — sinal positivo de recuperação da massa magra
-> - **Meta:** Reduzir BF de 20,23% para 17% (Pollock) = perder ~2,5 kg de gordura mantendo FFM
-
-### Avaliação Postural (11/02/2026)
-
-**Desvios Posturais Identificados:**
-
-| Desvio | Status | Região |
-|---|---|---|
-| **Anterversão de Quadril** | ✅ SIM | Quadril |
-| **Hipercifose Torácica** | ✅ SIM | Coluna Torácica |
-| **Rotação Interna dos Ombros** | ✅ SIM | Ombro |
-| **Retificação Lombar** | ✅ SIM | Coluna Lombar |
-| **Pé Varo** | ✅ SIM | Tornozelo/Pé |
-| **Protração Escapular** | ✅ SIM | Escápula |
-
-**Observações da avaliação:**
-- "Alongar os músculos adutores e isquiotibiais!"
-
-**Correlação com Diagnósticos Existentes:**
-
-1. **Hipercifose Torácica + Protração Escapular:**
-   - Correlaciona com síndrome do impacto do ombro direito
-   - Agrava compressão do espaço subacromial
-   - Requer mobilidade torácica (protocolo já implementado)
-
-2. **Rotação Interna dos Ombros:**
-   - Contribui para rotura do supraespinhal
-   - Necessita fortalecimento de rotadores externos (já em andamento)
-
-3. **Anterversão de Quadril + Retificação Lombar:**
-   - Padrão comum que gera compensação em cadeia
-   - Encurtamento de flexores de quadril e isquiotibiais
-   - Afeta posicionamento no pedal (MTB)
-
-4. **Pé Varo:**
-   - Impacta distribuição de carga no pedal
-   - Pode contribuir para assimetria de panturrilhas (D: 30 cm, E: 28 cm)
-   - Requer atenção à pisada e calçado
-
-**Prioridades de Correção:**
-
-1. **ALTA:** Hipercifose torácica + protração escapular (impacta ombro diretamente)
-2. **ALTA:** Rotação interna dos ombros (impacta ombro diretamente)
-3. **MODERADA:** Anterversão de quadril + encurtamento de isquiotibiais/adutores
-4. **MODERADA:** Pé varo (ajustes biomecânicos no pedal)
-
-**Ações Implementadas:**
-- ✅ Protocolo de mobilidade torácica diário (Cat-Cow, Open Book, extensão sobre rolo)
-- ✅ Fortalecimento de rotadores externos (fisioterapia + academia)
-- ⏳ Alongamento de isquiotibiais e adutores (adicionar ao protocolo)
-- ⏳ Avaliação bike fit (ajustar posicionamento no pedal)
-
 ---
 
 ## 14. Status Atual (Fevereiro 2026)
 
 - **Exames (RM ombro, cervical, dorsal):** ✅ REALIZADOS em 02/02/2026
 - **Exames de sangue:** ✅ REALIZADOS em 10/02/2026
-- **Avaliação física (Pollock 7 Dobras):** ✅ REALIZADA em 11/02/2026 — BF 20,23%, FFM 61,98 kg
 - **Bioimpedância 22/02/2026:** ✅ FFM 62,7 kg (meta atingida!); BF 13,9% (melhor valor do histórico); TBW 45,9 L
 - **Fisioterapia (10 sessões prescritas):** ainda não iniciada — **URGENTE**
 - **Dor:** sem dor intensa durante treinos; restrições severas aplicadas após resultados
@@ -584,7 +480,7 @@ title: Consolidação Clínica
 - **Suplementação:** whey protein + creatina 5g/dia (obrigatório) + protocolo anti-inflamatório
 - **Nutrição:** proteína 170-187g/dia; trigger para retorno a 170g atingido (FFM > 62,5 kg); calorias ajustadas
 - **Hidratação:** alvo 3,5-4,5 L/dia conforme atividade (TBW recuperando: 44,7 → 45,9 L)
-- **Objetivo atual:** **manter/aumentar massa magra acima de 62,5 kg** + recuperação do ombro + continuar redução de BF (meta Pollock: 17%)
+- **Objetivo atual:** **manter/aumentar massa magra acima de 62,5 kg** + recuperação do ombro + continuar redução de BF
 
 ### Pendências prioritárias
 1. ✅ ~~Realizar os exames de RM solicitados pelo ortopedista~~ (concluído 02/02/2026)
@@ -601,7 +497,6 @@ title: Consolidação Clínica
 12. ⚠️ **PCR (proteína C reativa):** ainda não realizado — solicitar próxima avaliação
 13. 🎯 **Meta bioimpedância 08/03/2026:** FFM >= 63,0 kg, TBW >= 46 L, BF% <= 13,5%
 14. 🎯 **Próximo painel laboratorial completo:** Maio/2026 (3 meses após 10/02)
-15. 🎯 **Avaliação física Pollock:** 11/03/2026 — meta BF ≤ 19,0%, FFM ≥ 62,5 kg
 16. ✅ ~~Ajustar série de academia para fase de recuperação~~ → ajustada para volume de pernas (FEITO)
 17. ✅ ~~Ajustar nutrição e pedal pós-bioimpedância 08/02~~ (FEITO)
 18. ⚠️ **Proteína:** trigger FFM>62,5 kg atingido — pode retornar de 187g para 170g/dia (completar 4 semanas: ~08/03)

@@ -39,7 +39,6 @@ Historico de alteracoes no plano de treino, nutricao e acompanhamento clinico.
 ### Próximos passos
 - Retornar proteína a 170g/dia em 08/03/2026 (após completar ciclo de 4 semanas)
 - Bioimpedância: ~08/03/2026 — meta FFM ≥ 63,0 kg, TBW ≥ 46 L
-- Avaliação Pollock: 11/03/2026
 - Repetir CK: até ~10/03/2026 (3-4 semanas após 10/02)
 
 ---
