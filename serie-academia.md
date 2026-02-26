@@ -117,10 +117,10 @@ title: Série de Musculação
 |---|---|---|---|
 | 1 | **Leg press 45°** [📸](https://treinomestre.com.br/wp-content/uploads/2019/06/leg-press-45.jpg) | 4 × 10–12 | Tempo 3-1-2; amplitude completa; RPE 7–8. Força de saída no pedal — exercício principal de perna. |
 | 2 | **Mesa flexora** [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-da-mesa-flexora1.jpg) | 3 × 10–12 | Isquiotibiais — fase de tração do pedal; tempo controlado; cabeça apoiada neutra. |
-| 3 | **Cadeira abdutora** | 3 × 15 | Glúteo médio — estabilidade lateral no selim; RPE 7. Fundamental para não balançar no ciclismo. |
+| 3 | **Cadeira abdutora** [📸](https://cdn.muscleandstrength.com/sites/default/files/hip-abduction-machine.jpg) | 3 × 15 | Glúteo médio — estabilidade lateral no selim; RPE 7. Fundamental para não balançar no ciclismo. |
 | 4 | **Panturrilha em pé** (máquina) [📸](https://www.mundoboaforma.com.br/wp-content/uploads/2022/10/aparelho-panturrilha.jpg) | 3 × 12–15 | Amplitude completa; estabilidade do tornozelo no pedal. |
-| 5 | **Abdominal na máquina** (crunch machine) | 3 × 12–15 | Apoio no peito; RPE 6. |
-| 6 | **Prancha frontal** | 3 × 30–45s | Glúteos e abdômen contraídos; quadril alinhado. Progredir 5s quando ficar fácil. |
+| 5 | **Abdominal na máquina** (crunch machine) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | 3 × 12–15 | Apoio no peito; RPE 6. |
+| 6 | **Prancha frontal** [📸](https://upload.wikimedia.org/wikipedia/commons/8/89/Plank.jpg) | 3 × 30–45s | Glúteos e abdômen contraídos; quadril alinhado. Progredir 5s quando ficar fácil. |
 
 **Volume B:** 19 sets — Quadríceps: 4 · Isquiotibiais: 3 · Glúteo: 3 · Panturrilha: 3 · Core: 6
 
@@ -143,7 +143,7 @@ title: Série de Musculação
 | 5 | **Tríceps pulley** (corda) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/10/execucao-do-triceps-corda.jpg) | 3 × 12–15 | Corda: ativação diferente da cabeça lateral vs. barra do Treino A. |
 | 6 | **Rosca direta** (barra ou halteres) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/08/rosca-direta-com-barra-1.jpg) | 3 × 10–12 | Pegada supinada — ângulo diferente da rosca martelo; pico de bíceps. |
 | 7 | **Rosca scott máquina** [📸](https://static1.minhavida.com.br/articles/a0/79/bd/2f/makatserchykshutterstock-orig-1.jpg) | 2 × 10–12 | Apoio completo do cotovelo; máxima contração do bíceps; sem compensação. |
-| 8 | **Abdominal na máquina** (crunch machine) | 3 × 12–15 | Apoio no peito; RPE 6. |
+| 8 | **Abdominal na máquina** (crunch machine) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | 3 × 12–15 | Apoio no peito; RPE 6. |
 
 **Volume C:** 23 sets — Peito: 4 · Costas: 6 · Tríceps: 3 · Bíceps: 5 · Core: 3 · Reabilitação: 2
 
@@ -162,10 +162,10 @@ title: Série de Musculação
 | 1 | **Cadeira extensora** [📸](https://totalpass.com/br/blog/wp-content/uploads/2024/02/cadeira-extensora-homem.jpg) | 3 × 12–15 | Quadríceps isolado; fase concêntrica do pedal. RPE 7. Iniciar pelo isolado pré-cansa antes do composto. |
 | 2 | **Leg press 45°** [📸](https://treinomestre.com.br/wp-content/uploads/2019/06/leg-press-45.jpg) | 3 × 10–12 | Tempo 3-1-2; RPE 7–8. Composto após isolado = maior estímulo com carga menor. |
 | 3 | **Mesa flexora** [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-da-mesa-flexora1.jpg) | 3 × 10–12 | Isquiotibiais — frequência 2×/semana garante estímulo para fase de tração do pedal. |
-| 4 | **Panturrilha em pé** (máquina) | 3 × 12–15 | Amplitude completa; frequência 2×/semana. |
-| 5 | **Abdominal na máquina** (crunch machine) | 3 × 12–15 | Apoio no peito; RPE 6. |
-| 6 | **Prancha lateral** | 2 × 20–30s (cada lado) | Estabilidade lateral — fundamental para não balançar no selim. Progredir 5s. |
-| 7 | **Pallof press** (cabo) | 2 × 10 (cada lado) | Anti-rotação isométrica — core funcional para ciclismo. Tronco NÃO rotaciona; apenas resiste. Aprovado na avaliação ortopédica. |
+| 4 | **Panturrilha em pé** (máquina) [📸](https://www.mundoboaforma.com.br/wp-content/uploads/2022/10/aparelho-panturrilha.jpg) | 3 × 12–15 | Amplitude completa; frequência 2×/semana. |
+| 5 | **Abdominal na máquina** (crunch machine) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | 3 × 12–15 | Apoio no peito; RPE 6. |
+| 6 | **Prancha lateral** [📸](https://upload.wikimedia.org/wikipedia/commons/9/92/Side_Plank.jpg) | 2 × 20–30s (cada lado) | Estabilidade lateral — fundamental para não balançar no selim. Progredir 5s. |
+| 7 | **Pallof press** (cabo) [📸](https://bodybuilding-wizard.com/wp-content/uploads/2022/03/cable-pallof-press-exercise-instructions.jpg) | 2 × 10 (cada lado) | Anti-rotação isométrica — core funcional para ciclismo. Tronco NÃO rotaciona; apenas resiste. Aprovado na avaliação ortopédica. |
 
 **Volume D:** 19 sets — Quadríceps: 6 · Isquiotibiais: 3 · Panturrilha: 3 · Core: 7
 
@@ -224,10 +224,10 @@ Fazer nos dias de descanso (Sex/Sab/Dom) ou antes do pedal. Complementa o core d
 
 | # | Exercício | Séries × Reps | Notas |
 |---|---|---|---|
-| 1 | **Dead bug** | 3 × 8 cada lado | Anti-extensão; lombar colada no chão. Braço e perna opostos. Expirar ao estender. |
-| 2 | **Prancha frontal** | 3 × 30–45s | Glúteos e abdômen contraídos; não deixar quadril cair. |
-| 3 | **Prancha lateral** | 2 × 20–30s cada lado | Corpo em linha reta; cotovelo sob o ombro. |
-| 4 | **Bird dog** | 2 × 10 cada lado | Anti-rotação; quadril nivelado (não rodar). |
+| 1 | **Dead bug** [📸](https://www.spotebi.com/wp-content/uploads/2014/10/dead_bug_exercise.png) | 3 × 8 cada lado | Anti-extensão; lombar colada no chão. Braço e perna opostos. Expirar ao estender. |
+| 2 | **Prancha frontal** [📸](https://upload.wikimedia.org/wikipedia/commons/8/89/Plank.jpg) | 3 × 30–45s | Glúteos e abdômen contraídos; não deixar quadril cair. |
+| 3 | **Prancha lateral** [📸](https://upload.wikimedia.org/wikipedia/commons/9/92/Side_Plank.jpg) | 2 × 20–30s cada lado | Corpo em linha reta; cotovelo sob o ombro. |
+| 4 | **Bird dog** [📸](https://upload.wikimedia.org/wikipedia/commons/3/32/Back_extension_with_opposite_arm_and_leg.jpg) | 2 × 10 cada lado | Anti-rotação; quadril nivelado (não rodar). |
 
 ---
 
