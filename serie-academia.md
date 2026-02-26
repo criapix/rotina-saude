@@ -16,56 +16,6 @@ title: Série de Musculação
 
 ---
 
-## Avaliação Clínica — Baseada nos Laudos (26/02/2026)
-
-> Avaliação realizada com base na RM do ombro direito, coluna cervical e coluna dorsal (02/02/2026) e prescrição do Dr. Igor Natário Pinheiro (29/01/2026). Sem fisioterapia formal — estratégia de compensação integrada à série.
-
-### Avaliação Ortopédica
-
-**Ombro direito** (RM 02/02/2026 — rotura parcial bursal supraespinhal 1,0 cm, acrômio tipo II Bigliani, tendinose multitendínea, bursite leve):
-
-| Exercício da série | Decisão | Justificativa |
-|---|---|---|
-| Supino máquina (cotovelos 45°) | ✅ APROVADO | Cotovelos a 45° reduz o arco de impacto subacromial; carga moderada (RPE 6–7) é segura com essa ROM |
-| Remada cavalinho (peito apoiado) | ✅ APROVADO | Apoio peitoral elimina estabilização ativa do manguito; cotovelos junto ao corpo = baixo impacto |
-| Remada sentada no cabo | ✅ APROVADO | Mesmo raciocínio; pegada neutra; cotovelos nunca acima de 90° |
-| Puxada frontal neutra | ✅ APROVADO | Pegada neutra + cotovelos apontando para baixo = ativação mínima do supraespinhal |
-| Tríceps pulley (barra / corda) | ✅ APROVADO | Exercício de cotovelo isolado; manguito não é motor primário |
-| Rosca (martelo / direta / scott) | ✅ APROVADO | Cotovelo isolado; ombro em posição neutra em todos os três |
-| Rotação externa no cabo 0° | ✅ APROVADO | Terapêutico — substitui rotação externa com elástico da fisioterapia; carga leve obrigatória |
-| Face pull (corda, leve) | ✅ APROVADO | Terapêutico — ativa rotadores externos e retratores escapulares; carga leve |
-| Overhead / desenvolvimento | ❌ NEGADO | Supraespinhal plenamente carregado acima de 90° — alto risco de progressão da rotura |
-| Supino com barra / crucifixo | ❌ NEGADO | Maior estresse anterior no ombro + perda de controle da ROM |
-| Elevação lateral | ❌ NEGADO | Recruta supraespinhal diretamente em posição de impacto |
-| Remada alta / pullover | ❌ NEGADO | Impacto subacromial / extensão forçada do ombro |
-
-**Coluna cervical** (C5-C6, C6-C7 — Modic I, uncoartrose bilateral, protrusões disco-osteofitárias):
-
-- Todos os exercícios da série são sentados ou com apoio → sem carga axial em pé ✅
-- Mesa flexora (decúbito ventral): cabeça apoiada normalmente no equipamento → sem extensão cervical forçada ✅
-- Pallof press (anti-rotação isométrica): tronco não rotaciona; cervical em posição neutra → **APROVADO** ✅
-
-**Coluna torácica** (D3-D10, degeneração leve, estável desde 2015): sem restrição adicional de exercícios além das globais ✅
-
-### Avaliação Fisioterapêutica (sem fisioterapia formal)
-
-**Estratégia de compensação dentro da série:**
-
-| Recurso fisioterapêutico | Substituto na série |
-|---|---|
-| Rotação externa com elástico | Rotação externa no cabo 0° (Treino A, 2×15) |
-| Trabalho escapular / infraespinhal | Face pull corda leve (Treino C, 2×15) |
-| Ativação do manguito pré-sessão | Protocolo de ativação pré-treino A e C |
-| Mobilidade articular | Protocolo matinal domiciliar (pêndulo Codman, chin tuck, cat-cow, open book) |
-
-**Compensação dentro da série:** Rotação externa no cabo 0° (Treino A, 3×15) e face pull leve (Treino C, 2×15) substituem os exercícios de reabilitação do manguito que seriam feitos com elástico na fisioterapia. O protocolo de ativação pré-treino complementa o trabalho de estabilização escapular.
-
-**Risco residual:** sem terapia manual cervical e sem tração cervical, a compressão foraminal em C5-C7 não terá alívio mecânico. Monitorar dormência no mindinho como indicador de piora cervical. **Sinal de alarme: dor noturna que desperta → reduzir RPE do supino para 5 imediatamente.**
-
-**Decisão:** Série **APROVADA** para execução com as restrições vigentes e compensações integradas.
-
----
-
 ## Calendário Semanal
 
 | Dia | Treino | Pedal | Lógica |
@@ -242,6 +192,56 @@ Fazer nos dias de descanso (Sex/Sab/Dom) ou antes do pedal. Complementa o core d
 - **Core:** RPE 6 — foco em qualidade e controle
 - **Reabilitação (rot. ext / face pull):** RPE 4–5 — carga leve sempre, foco em execução
 - **Deload** a cada 4–6 semanas: reduzir carga 30–40% por 1 semana
+
+---
+
+## Avaliação Clínica — Baseada nos Laudos (26/02/2026)
+
+> Avaliação realizada com base na RM do ombro direito, coluna cervical e coluna dorsal (02/02/2026) e prescrição do Dr. Igor Natário Pinheiro (29/01/2026). Sem fisioterapia formal — estratégia de compensação integrada à série.
+
+### Avaliação Ortopédica
+
+**Ombro direito** (RM 02/02/2026 — rotura parcial bursal supraespinhal 1,0 cm, acrômio tipo II Bigliani, tendinose multitendínea, bursite leve):
+
+| Exercício da série | Decisão | Justificativa |
+|---|---|---|
+| Supino máquina (cotovelos 45°) | ✅ APROVADO | Cotovelos a 45° reduz o arco de impacto subacromial; carga moderada (RPE 6–7) é segura com essa ROM |
+| Remada cavalinho (peito apoiado) | ✅ APROVADO | Apoio peitoral elimina estabilização ativa do manguito; cotovelos junto ao corpo = baixo impacto |
+| Remada sentada no cabo | ✅ APROVADO | Mesmo raciocínio; pegada neutra; cotovelos nunca acima de 90° |
+| Puxada frontal neutra | ✅ APROVADO | Pegada neutra + cotovelos apontando para baixo = ativação mínima do supraespinhal |
+| Tríceps pulley (barra / corda) | ✅ APROVADO | Exercício de cotovelo isolado; manguito não é motor primário |
+| Rosca (martelo / direta / scott) | ✅ APROVADO | Cotovelo isolado; ombro em posição neutra em todos os três |
+| Rotação externa no cabo 0° | ✅ APROVADO | Terapêutico — substitui rotação externa com elástico da fisioterapia; carga leve obrigatória |
+| Face pull (corda, leve) | ✅ APROVADO | Terapêutico — ativa rotadores externos e retratores escapulares; carga leve |
+| Overhead / desenvolvimento | ❌ NEGADO | Supraespinhal plenamente carregado acima de 90° — alto risco de progressão da rotura |
+| Supino com barra / crucifixo | ❌ NEGADO | Maior estresse anterior no ombro + perda de controle da ROM |
+| Elevação lateral | ❌ NEGADO | Recruta supraespinhal diretamente em posição de impacto |
+| Remada alta / pullover | ❌ NEGADO | Impacto subacromial / extensão forçada do ombro |
+
+**Coluna cervical** (C5-C6, C6-C7 — Modic I, uncoartrose bilateral, protrusões disco-osteofitárias):
+
+- Todos os exercícios da série são sentados ou com apoio → sem carga axial em pé ✅
+- Mesa flexora (decúbito ventral): cabeça apoiada normalmente no equipamento → sem extensão cervical forçada ✅
+- Pallof press (anti-rotação isométrica): tronco não rotaciona; cervical em posição neutra → **APROVADO** ✅
+
+**Coluna torácica** (D3-D10, degeneração leve, estável desde 2015): sem restrição adicional de exercícios além das globais ✅
+
+### Avaliação Fisioterapêutica (sem fisioterapia formal)
+
+**Estratégia de compensação dentro da série:**
+
+| Recurso fisioterapêutico | Substituto na série |
+|---|---|
+| Rotação externa com elástico | Rotação externa no cabo 0° (Treino A, 2×15) |
+| Trabalho escapular / infraespinhal | Face pull corda leve (Treino C, 2×15) |
+| Ativação do manguito pré-sessão | Protocolo de ativação pré-treino A e C |
+| Mobilidade articular | Protocolo matinal domiciliar (pêndulo Codman, chin tuck, cat-cow, open book) |
+
+**Compensação dentro da série:** Rotação externa no cabo 0° (Treino A, 3×15) e face pull leve (Treino C, 2×15) substituem os exercícios de reabilitação do manguito que seriam feitos com elástico na fisioterapia. O protocolo de ativação pré-treino complementa o trabalho de estabilização escapular.
+
+**Risco residual:** sem terapia manual cervical e sem tração cervical, a compressão foraminal em C5-C7 não terá alívio mecânico. Monitorar dormência no mindinho como indicador de piora cervical. **Sinal de alarme: dor noturna que desperta → reduzir RPE do supino para 5 imediatamente.**
+
+**Decisão:** Série **APROVADA** para execução com as restrições vigentes e compensações integradas.
 
 ---
 
