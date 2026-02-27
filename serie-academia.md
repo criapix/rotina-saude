@@ -42,11 +42,11 @@ title: Série de Musculação
 | # | Exercício | Séries × Reps | Notas |
 |---|---|---|---|
 | 1 | **Supino máquina** (chest press) [📸](https://totalpass.com/wp-content/uploads/2025/01/supino-maquina.jpg) | 4 × 8–10 | Cotovelos ~45° (nunca abrir a 90°); RPE 6–7; segurar 1–2s na contração máxima. Chave para ganho de peitoral. |
-| 2 | **Remada cavalinho** (máquina) [📸](https://img.youtube.com/vi/9ScowHJ12HI/hqdefault.jpg) | 3 × 10–12 | Peito apoiado; cotovelos junto ao corpo; escápulas retraídas no pico. |
+| 2 | **Remada cavalinho** (máquina) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/08/remada-cavalinho.jpg) | 3 × 10–12 | Peito apoiado; cotovelos junto ao corpo; escápulas retraídas no pico. |
 | 3 | **Puxada frontal neutra** [📸](https://img.youtube.com/vi/ual2wWatHvo/hqdefault.jpg) | 3 × 10–12 | Pegada neutra; cotovelos apontando para baixo; sem compensar ombro. |
 | 4 | **Tríceps pulley** (barra reta) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-do-triceps-pulley.jpg) | 3 × 12–15 | Cotovelos fixos ao lado do corpo; extensão isolada; sem envolver ombro. |
-| 5 | **Rosca martelo** [📸](https://img.youtube.com/vi/jBWXld2k_Tc/hqdefault.jpg) | 3 × 10–12 | Pegada neutra; trabalha bíceps + braquial; sem movimentar ombro. |
-| 6 | **Rotação externa no cabo** (0°) [📸](https://cdn.muscleandstrength.com/sites/default/files/styles/400x400/public/exercises/cable-external-rotation.jpg) | 3 × 15 | Carga LEVE — terapêutico; cotovelo colado ao corpo a 0°. 3 séries para compensar ausência do protocolo excêntrico. |
+| 5 | **Rosca martelo** [📸](https://img.mundoboaforma.com.br/uploads/2023/08/rosca-martelo.jpg) | 3 × 10–12 | Pegada neutra; trabalha bíceps + braquial; sem movimentar ombro. |
+| 6 | **Rotação externa no cabo** (0°) [📸](https://img.youtube.com/vi/ahXvsRp4IHM/hqdefault.jpg) | 3 × 15 | Carga LEVE — terapêutico; cotovelo colado ao corpo a 0°. 3 séries para compensar ausência do protocolo excêntrico. |
 | 7 | **Abdominal na máquina** (crunch machine) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | 3 × 12–15 | Apoio no PEITO (nunca na nuca); flexão de tronco controlada; RPE 6. |
 
 **Volume A:** 22 sets — Peito: 4 · Costas: 6 · Tríceps: 3 · Bíceps: 3 · Core: 3 · Reabilitação: 3
@@ -92,7 +92,7 @@ title: Série de Musculação
 | 4 | **Face pull** (corda) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2019/10/face-pulls.jpg) | 2 × 15 | Carga LEVE — ativa infraespinhal e retratores escapulares. |
 | 5 | **Tríceps pulley** (corda) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/10/execucao-do-triceps-corda.jpg) | 3 × 12–15 | Corda: ativação diferente da cabeça lateral vs. barra do Treino A. |
 | 6 | **Rosca direta** (barra ou halteres) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/08/rosca-direta-com-barra-1.jpg) | 3 × 10–12 | Pegada supinada — ângulo diferente da rosca martelo; pico de bíceps. |
-| 7 | **Rosca scott máquina** [📸](https://img.youtube.com/vi/pAzhLQcFO30/hqdefault.jpg) | 2 × 10–12 | Apoio completo do cotovelo; máxima contração do bíceps; sem compensação. |
+| 7 | **Rosca scott máquina** [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-da-rosca-scott1.jpg) | 2 × 10–12 | Apoio completo do cotovelo; máxima contração do bíceps; sem compensação. |
 | 8 | **Abdominal na máquina** (crunch machine) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | 3 × 12–15 | Apoio no peito; RPE 6. |
 
 **Volume C:** 23 sets — Peito: 4 · Costas: 6 · Tríceps: 3 · Bíceps: 5 · Core: 3 · Reabilitação: 2
@@ -156,8 +156,8 @@ Fazer ANTES de cada treino Upper. Com elástico leve ou sem carga:
 
 | # | Exercício | Reps |
 |---|---|---|
-| 1 | Pêndulo de Codman [📸](https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/EJERCICIO_DE_CODMAN.ogv/800px--EJERCICIO_DE_CODMAN.ogv.jpg) | 3 × 30–45s cada direção — PRIMEIRO, antes de qualquer coisa |
-| 2 | Rotação externa 0° (cotovelo colado ao corpo) [📸](https://weighttraining.guide/wp-content/uploads/2016/10/dumbbell-lying-external-shoulder-rotation-resized-2.png) | 2 × 15 |
+| 1 | Pêndulo de Codman [📸](https://upload.wikimedia.org/wikipedia/commons/4/47/Exercise_Pendulum_Swings.png) | 3 × 30–45s cada direção — PRIMEIRO, antes de qualquer coisa |
+| 2 | Rotação externa 0° (cotovelo colado ao corpo) [📸](https://img.youtube.com/vi/j59bK_mhvLs/hqdefault.jpg) | 2 × 15 |
 | 3 | Isometria de abdução (lado da parede) [📸](https://static1.squarespace.com/static/5f5e8592d2b0854b18af6975/5fb7c850d4788b5df8d8af32/61cc8e39d8fd7838e530d37b/1733174875782/Isometric%2BShoulder%2BAbduction.jpg?format=1500w) | 2 × 10s |
 | 4 | Retração escapular [📸](https://www.itcvertebral.com.br/wp-content/uploads/2024/09/retracao-escapular-1-1900x1024.jpg) | 2 × 12 |
 | 5 | Wall slides (serrátil anterior) [📸](https://ksquaredfitness.com/wp-content/uploads/2022/04/Serratus-wall-slide.png) | 2 × 12 |
