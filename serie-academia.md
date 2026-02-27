@@ -195,53 +195,234 @@ Fazer nos dias de descanso (Sex/Sab/Dom) ou antes do pedal. Complementa o core d
 
 ---
 
-## Avaliação Clínica — Baseada nos Laudos (26/02/2026)
+## Parecer Multidisciplinar — Avaliação da Série (27/02/2026)
 
-> Avaliação realizada com base na RM do ombro direito, coluna cervical e coluna dorsal (02/02/2026) e prescrição do Dr. Igor Natário Pinheiro (29/01/2026). Sem fisioterapia formal — estratégia de compensação integrada à série.
+> Avaliação realizada por três especialistas com base em: RM do ombro direito, coluna cervical e coluna dorsal (02/02/2026), exames de sangue (10/02/2026), bioimpedância (22/02/2026), prescrição do Dr. Igor Natário Pinheiro (29/01/2026) e protocolo de fisioterapia domiciliar vigente. Caráter educativo e de apoio — não substitui acompanhamento presencial.
 
-### Avaliação Ortopédica
+---
 
-**Ombro direito** (RM 02/02/2026 — rotura parcial bursal supraespinhal 1,0 cm, acrômio tipo II Bigliani, tendinose multitendínea, bursite leve):
+### 🏋️ Agente 1 — Personal Trainer
 
-| Exercício da série | Decisão | Justificativa |
+**Condições consideradas:** rotura parcial do supraespinhal direito · discopatia cervicotorácica · CK elevado (480 U/L) · pedal MTB 3×/semana · 47 anos · FFM 62,7 kg · objetivo: ganho de peito/braço + redução de gordura abdominal + força para ciclismo
+
+#### Análise da Estrutura de Periodização
+
+A divisão **A/B/C/D — 4×/semana** com cada grupo muscular trabalhado 2×/semana é a escolha correta para o perfil atual. A alternância upper/lower respeita as 48h de recuperação e viabiliza o pedal nos dias duplos sem comprometer a qualidade do treino de força.
+
+| Aspecto | Avaliação | Observação |
 |---|---|---|
-| Supino máquina (cotovelos 45°) | ✅ APROVADO | Cotovelos a 45° reduz o arco de impacto subacromial; carga moderada (RPE 6–7) é segura com essa ROM |
-| Remada cavalinho (peito apoiado) | ✅ APROVADO | Apoio peitoral elimina estabilização ativa do manguito; cotovelos junto ao corpo = baixo impacto |
-| Remada sentada no cabo | ✅ APROVADO | Mesmo raciocínio; pegada neutra; cotovelos nunca acima de 90° |
-| Puxada frontal neutra | ✅ APROVADO | Pegada neutra + cotovelos apontando para baixo = ativação mínima do supraespinhal |
-| Tríceps pulley (barra / corda) | ✅ APROVADO | Exercício de cotovelo isolado; manguito não é motor primário |
-| Rosca (martelo / direta / scott) | ✅ APROVADO | Cotovelo isolado; ombro em posição neutra em todos os três |
-| Rotação externa no cabo 0° | ✅ APROVADO | Terapêutico — substitui rotação externa com elástico da fisioterapia; carga leve obrigatória |
-| Face pull (corda, leve) | ✅ APROVADO | Terapêutico — ativa rotadores externos e retratores escapulares; carga leve |
-| Overhead / desenvolvimento | ❌ NEGADO | Supraespinhal plenamente carregado acima de 90° — alto risco de progressão da rotura |
-| Supino com barra / crucifixo | ❌ NEGADO | Maior estresse anterior no ombro + perda de controle da ROM |
-| Elevação lateral | ❌ NEGADO | Recruta supraespinhal diretamente em posição de impacto |
-| Remada alta / pullover | ❌ NEGADO | Impacto subacromial / extensão forçada do ombro |
+| Frequência (4×/semana) | ✅ ADEQUADA | Ótima para ganho muscular em masters; limite seguro com pedal |
+| Divisão A/B/C/D | ✅ ADEQUADA | Cada grupo 2×/semana = frequência ideal para hipertrofia |
+| Volume semanal total (83 sets) | ⚠️ ALTO | Com CK 480 U/L, monitorar sinais de overtraining nas primeiras 4 semanas |
+| Volume de peito (8 sets/semana) | ✅ ADEQUADO | Limite correto dado o ombro — não ultrapassar |
+| Volume de costas (12 sets/semana) | ✅ ADEQUADO | Equilíbrio agonista/antagonista com peito preservado |
+| Volume de braços (bíceps 8 · tríceps 6) | ✅ ADEQUADO | Cobertura de ângulos variados com 3 variações de rosca |
+| Volume de pernas (10 quad · 6 isq · 6 pant) | ✅ FORTE | Excelente base para ciclismo; leg press 7 sets/sem = motor do pedal |
+| Volume de core (19 sets/semana + domiciliar) | ✅ ALTO | Core estabilizador funcional para ciclismo — manter |
+| Dias duplos Ter/Qua (pedal + academia) | ✅ VIÁVEL | Pedal aeróbico Z2 não interfere no treino de força noturno se nutrido |
 
-**Coluna cervical** (C5-C6, C6-C7 — Modic I, uncoartrose bilateral, protrusões disco-osteofitárias):
+#### Análise Exercício a Exercício
 
-- Todos os exercícios da série são sentados ou com apoio → sem carga axial em pé ✅
-- Mesa flexora (decúbito ventral): cabeça apoiada normalmente no equipamento → sem extensão cervical forçada ✅
-- Cable Chop / Lift (padrão diagonal no cabo): core multiplanar; cervical em posição neutra → **APROVADO** ✅
+**TREINO A — Upper A**
 
-**Coluna torácica** (D3-D10, degeneração leve, estável desde 2015): sem restrição adicional de exercícios além das globais ✅
+| Exercício | Avaliação PT | Notas |
+|---|---|---|
+| Supino máquina 4×8–10 | ✅ APROVADO | Chave para ganho de peito; cotovelos 45° protegem o ombro; progressão constante = resultado |
+| Remada cavalinho 3×10–12 | ✅ APROVADO | Apoio peitoral = estabilidade total; cotovelos junto ao corpo; ótimo para espessura de dorsal |
+| Puxada frontal neutra 3×10–12 | ✅ APROVADO | Pegada neutra favorece depressão escapular; complementa remada no plano vertical |
+| Tríceps pulley barra 3×12–15 | ✅ APROVADO | Tríceps isolado sem envolver ombro; variação barra = cabeça longa/medial |
+| Rosca martelo 3×10–12 | ✅ APROVADO | Pegada neutra = braquial + bíceps; complementa rosca direta do Treino C |
+| Rotação externa cabo 0° 3×15 | ✅ APROVADO | Terapêutico — manter carga leve; não é exercício de hipertrofia |
+| Abdominal máquina 3×12–15 | ✅ APROVADO | Apoio no peito; flexão controlada; RPE 6 correto |
 
-### Avaliação Fisioterapêutica (sem fisioterapia formal)
+**TREINO B — Lower A**
 
-**Estratégia de compensação dentro da série:**
+| Exercício | Avaliação PT | Notas |
+|---|---|---|
+| Leg press 45° 4×10–12 | ✅ APROVADO | Motor do pedal; tempo 3-1-2 maximiza estímulo com carga controlada |
+| Mesa flexora 3×10–12 | ✅ APROVADO | Isquiotibiais para tração do pedal; cabeça apoiada neutra |
+| Cadeira abdutora 3×15 | ✅ APROVADO | Glúteo médio = estabilidade lateral no selim; fundamental para ciclismo |
+| Panturrilha em pé 3×12–15 | ✅ APROVADO | Amplitude completa; frequência 2×/semana adequada |
+| Abdominal máquina 3×12–15 | ✅ APROVADO | Consistência de core em todos os treinos |
+| Prancha frontal 3×30–45s | ✅ APROVADO | Anti-extensão; progressão por tempo; qualidade > quantidade |
 
-| Recurso fisioterapêutico | Substituto na série |
+**TREINO C — Upper B**
+
+| Exercício | Avaliação PT | Notas |
+|---|---|---|
+| Supino máquina 4×8–10 | ✅ APROVADO | Frequência 2×/semana no supino máquina = estímulo máximo dentro da restrição |
+| Remada sentada cabo 3×10–12 | ✅ APROVADO | Ângulo horizontal complementa remada cavalinho do Treino A |
+| Puxada frontal fechada 3×10–12 | ✅ APROVADO | Variação de ângulo no vertical; pegada fechada = maior ROM no bíceps |
+| Face pull corda 2×15 | ✅ APROVADO | Terapêutico; carga leve; ativa infraespinhal e retratores |
+| Tríceps pulley corda 3×12–15 | ✅ APROVADO | Variação corda = cabeça lateral; complementa barra do Treino A |
+| Rosca direta 3×10–12 | ✅ APROVADO | Pico de bíceps; pegada supinada = ângulo diferente do martelo |
+| Rosca scott máquina 2×10–12 | ✅ APROVADO | Cotovelo apoiado = isolamento total; finalização de volume bíceps |
+| Abdominal máquina 3×12–15 | ✅ APROVADO | Consistência de core |
+
+**TREINO D — Lower B**
+
+| Exercício | Avaliação PT | Notas |
+|---|---|---|
+| Cadeira extensora 3×12–15 | ✅ APROVADO | Pré-exaustão antes do leg press = maior estímulo com carga menor |
+| Leg press 45° 3×10–12 | ✅ APROVADO | Composto após isolado; RPE 7–8 após pré-exaustão = estímulo eficiente |
+| Mesa flexora 3×10–12 | ✅ APROVADO | Frequência 2×/semana para isquiotibiais = equilíbrio com quadríceps |
+| Panturrilha em pé 3×12–15 | ✅ APROVADO | Frequência 2×/semana; amplitude completa |
+| Abdominal máquina 3×12–15 | ✅ APROVADO | Core em todos os treinos |
+| Cable Suitcase Hold 2×20–30s | ✅ APROVADO | Anti-lateral — essencial para estabilidade no selim; isométrico seguro |
+| Cable Chop/Lift 2×10 | ✅ APROVADO | Core multiplanar funcional para ciclismo; amplitude e carga progressiva |
+
+#### Pontos de Atenção — Personal Trainer
+
+1. **CK elevado (480 U/L):** volume total alto para o estado atual. Priorizar qualidade de execução sobre quantidade de sets nas primeiras 4 semanas. Se CK > 400 no próximo exame (10/03), reduzir 1 série em cada treino upper.
+2. **Progressão de carga:** manter log de cargas. Sem progressão em 2 sessões seguidas = subiu 1 pino. Sem subir depois de 3 semanas = investigar recuperação/nutrição.
+3. **Dias duplos Ter/Qua:** se fadiga subjetiva ≥ 7/10 ao chegar na academia → tirar 1 série dos acessórios (braços); manter sempre supino e leg press.
+4. **Deload obrigatório** a cada 4–6 semanas: reduzir carga 30–40%, manter volume. Próximo deload previsto: ~5ª semana de março/2026.
+
+**Decisão PT:** Série **APROVADA**. Estrutura técnica adequada para os objetivos. Monitorar CK e sinais de overtraining.
+
+---
+
+### 🦴 Agente 2 — Ortopedista
+
+**Condições consideradas:** rotura parcial bursal do supraespinhal direito (~1,0 cm, RM 02/02/2026) · acrômio tipo II de Bigliani · tendinose multitendínea (supraespinhal, subescapular, infraespinhal) · bursite subacromial-deltoidea leve · discopatia degenerativa cervical C5-C6 e C6-C7 (Modic I, uncoartrose bilateral, protrusões) · discopatia torácica leve D3-D10 · osteíte reacional na tuberosidade maior
+
+#### Avaliação do Ombro Direito por Exercício
+
+| Exercício da série | Decisão | Justificativa ortopédica |
+|---|---|---|
+| Supino máquina (cotovelos 45°) | ✅ APROVADO | Cotovelos a 45° mantém o supraespinhal fora do arco de impacto subacromial; carga RPE 6–7 não sobrecarrega a rotura parcial |
+| Remada cavalinho (peito apoiado) | ✅ APROVADO | Apoio peitoral elimina estabilização ativa do manguito; cotovelos junto ao corpo evita impacto |
+| Remada sentada no cabo | ✅ APROVADO | Pegada neutra + cotovelos nunca acima de 90° = carga mínima no supraespinhal |
+| Puxada frontal neutra | ✅ APROVADO | Cotovelos apontando para baixo = depressão escapular sem impacto subacromial |
+| Puxada frontal fechada | ✅ APROVADO | Mesmo princípio; variação de ângulo sem alterar biomecânica de segurança |
+| Tríceps pulley (barra / corda) | ✅ APROVADO | Exercício de cotovelo isolado; manguito rotador não é motor primário |
+| Rosca (martelo / direta / scott) | ✅ APROVADO | Ombro em posição neutra em todos os três; sem demanda no supraespinhal |
+| Rotação externa no cabo 0° | ✅ APROVADO | Terapêutico — substitui elástico da fisioterapia; cotovelo a 0° evita conflito subacromial |
+| Face pull (corda, leve) | ✅ APROVADO | Ativa infraespinhal e retratores escapulares; carga leve = seguro com tendinose |
+| Overhead / desenvolvimento | ❌ NEGADO | Supraespinhal plenamente carregado acima de 90° = alto risco de progressão da rotura |
+| Supino com barra / crucifixo | ❌ NEGADO | Estresse anterior do ombro + perda de controle da ROM = risco de alargamento da rotura |
+| Elevação lateral | ❌ NEGADO | Recruta supraespinhal diretamente no arco de impacto (60–120°) |
+| Remada alta / pullover | ❌ NEGADO | Impacto subacromial máximo / extensão forçada do ombro |
+
+**⚠️ Alerta ortopédico — osteíte reacional:** a formação cística subcortical e o edema ósseo na tuberosidade maior indicam processo inflamatório ativo. Qualquer carga que produza dor local = suspender exercício imediatamente e comunicar.
+
+#### Avaliação da Coluna Cervical (C5-C6 / C6-C7)
+
+| Situação | Avaliação |
 |---|---|
-| Rotação externa com elástico | Rotação externa no cabo 0° (Treino A, 2×15) |
-| Trabalho escapular / infraespinhal | Face pull corda leve (Treino C, 2×15) |
-| Ativação do manguito pré-sessão | Protocolo de ativação pré-treino A e C |
-| Mobilidade articular | Protocolo matinal domiciliar (pêndulo Codman, chin tuck, cat-cow, open book) |
+| Exercícios sentados ou com apoio (toda a série) | ✅ Sem carga axial em pé — correto |
+| Mesa flexora (decúbito ventral) | ✅ Cabeça apoiada no equipamento — sem extensão cervical forçada |
+| Cable Chop / Lift (padrão diagonal) | ✅ Cervical em posição neutra durante o movimento |
+| Cable Suitcase Hold (isométrico lateral) | ✅ Sem rotação de tronco com carga — correto |
+| Abdominal máquina (apoio no peito) | ✅ Apoio no PEITO (nunca na nuca) = sem compressão cervical |
 
-**Compensação dentro da série:** Rotação externa no cabo 0° (Treino A, 3×15) e face pull leve (Treino C, 2×15) substituem os exercícios de reabilitação do manguito que seriam feitos com elástico na fisioterapia. O protocolo de ativação pré-treino complementa o trabalho de estabilização escapular.
+**Atenção — Modic I (C5-C6 / C6-C7):** edema ósseo ativo indica processo inflamatório em andamento. Dormência no mindinho (território C8/ulnar) é sinal de alerta. **Sinal de alarme ortopédico: piora da dormência ou dor irradiada para o braço durante/após qualquer exercício → suspender e agendar retorno imediato.**
 
-**Risco residual:** sem terapia manual cervical e sem tração cervical, a compressão foraminal em C5-C7 não terá alívio mecânico. Monitorar dormência no mindinho como indicador de piora cervical. **Sinal de alarme: dor noturna que desperta → reduzir RPE do supino para 5 imediatamente.**
+#### Avaliação da Coluna Torácica (D3-D10)
 
-**Decisão:** Série **APROVADA** para execução com as restrições vigentes e compensações integradas.
+- Degeneração leve e estável desde 2015 — sem restrição adicional além das globais ✅
+- Cable Chop / Lift realiza rotação torácica controlada com progressão de carga — padrão funcional seguro ✅
+- Sem exercícios com rotação de tronco descontrolada ou carga axial em pé ✅
+
+#### Alertas e Restrições Ortopédicas
+
+1. **Vitamina D (28,2 ng/mL):** subótima para recuperação tendínea e óssea. Dose de 5.000 UI/dia correta. Reavaliar em abril/2026. Vitamina D adequada reduz risco de progressão de tendinopatias.
+2. **Dor noturna persistente pós-treino:** sinal de sobrecarga do manguito → reduzir RPE do supino para 5 e comunicar ortopedista imediatamente.
+3. **Retorno ao ortopedista:** obrigatório após ciclo completo de fisioterapia para reavaliar a rotura e discutir progressão ou necessidade cirúrgica.
+4. **RM de controle:** recomendada após 3–4 meses de tratamento conservador para checar evolução da rotura parcial.
+
+**Decisão Ortopédica:** Série **APROVADA** com as restrições vigentes. Lista de exercícios suspensos está correta e completa. Qualquer dor articular nova = suspender e comunicar.
+
+---
+
+### 🩺 Agente 3 — Fisioterapeuta
+
+**Condições consideradas:** rotura parcial bursal do supraespinhal direito · tendinose multitendínea · bursite subacromial · discopatia cervical C5-C6/C6-C7 (Modic I) · compressão foraminal bilateral · dormência no mindinho (território C8/ulnar) · hipomobilidade torácica segmentar · ausência de fisioterapia formal (10 sessões prescritas ainda não iniciadas)
+
+#### Mapeamento Fisioterapêutico da Série
+
+| Técnica fisioterapêutica | Substituto integrado na série | Qualidade da compensação |
+|---|---|---|
+| Rotação externa com elástico (reabilitação do manguito) | Rotação externa no cabo 0°, 3×15, carga leve (Treino A) | ✅ Boa — mesmo padrão de movimento, carga controlada |
+| Trabalho de infraespinhal e retratores escapulares | Face pull corda leve, 2×15 (Treino C) | ✅ Boa — ativa rotadores externos e estabilizadores escapulares |
+| Ativação pré-sessão do manguito (protocolo excêntrico da Fase 2) | Protocolo de ativação pré-treino A e C (pêndulo Codman + rotação ext + isometrias + retração + wall slides) | ✅ Adequada para fase atual; limitada sem protocolo excêntrico formal |
+| Mobilidade articular diária | Protocolo matinal domiciliar (pêndulo Codman, chin tuck, cat-cow, open book) | ✅ Boa — cobre cervical e torácica |
+| Terapia manual cervical | ❌ SEM SUBSTITUTO | Risco residual: compressão foraminal C5-C7 não tem alívio mecânico |
+| Tração cervical mecânica | ❌ SEM SUBSTITUTO | Risco residual: idem — urgente iniciar fisioterapia formal |
+| Protocolo excêntrico formal do supraespinhal | ❌ PARCIALMENTE COMPENSADO | Os exercícios atuais não reproduzem a especificidade do protocolo excêntrico clínico |
+
+#### Análise de Risco por Estrutura
+
+**Manguito rotador (ombro direito):**
+- A série respeita as restrições de amplitude (sem movimento acima de 90°) ✅
+- Rotação externa no cabo 0° e face pull substituem parcialmente o trabalho de elástico ✅
+- **Risco:** sem protocolo excêntrico formal (fisioterapia), a reparação tendínea progride mais lentamente. Probabilidade de manutenção/piora da rotura parcial sem fisioterapia: estimada em 40–50% em 3–6 meses.
+- **Recomendação:** iniciar as 10 sessões prescritas com URGÊNCIA. Integrar protocolo excêntrico (Side-lying Eccentric ER + Eccentric Empty Can) da Fase 2 do guia de fisioterapia assim que a dor de repouso for ≤ 2/10.
+
+**Coluna cervical (C5-C6 / C6-C7 — Modic I ativo):**
+- Exercícios da série em posição sentada ou com apoio: sem carga axial em pé ✅
+- Abdominal na máquina com apoio no PEITO: sem compressão cervical ✅
+- Mesa flexora com cabeça apoiada: sem extensão cervical forçada ✅
+- **Risco residual:** sem terapia manual e sem tração cervical, a compressão foraminal em C5-C7 não terá alívio mecânico. Modic I pode cronificar para Modic II em 12–24 meses sem tratamento.
+- **Sinal de alarme:** dormência no mindinho que piora durante ou após treino → suspender exercícios de upper body e agendar avaliação imediata.
+
+**Coluna torácica (D3-D10 — hipomobilidade funcional):**
+- Protocolo matinal (cat-cow, open book, extensão torácica) aborda diretamente a hipomobilidade ✅
+- Cable Chop / Lift realiza rotação torácica controlada com carga progressiva ✅
+- **Sem risco adicional** identificado para os exercícios da série ✅
+
+#### Análise do Protocolo de Ativação do Manguito (Pré-Treino A e C)
+
+| Exercício do protocolo | Avaliação fisioterapêutica |
+|---|---|
+| Pêndulo de Codman (3×30–45s) | ✅ EXCELENTE — descompressão subacromial passiva; deve ser o PRIMEIRO exercício |
+| Rotação externa 0° (2×15) | ✅ ADEQUADO — ativação dos rotadores externos sem conflito |
+| Isometria de abdução (2×10s) | ✅ ADEQUADO — ativação do deltóide médio e supraespinhal em amplitude segura |
+| Retração escapular (2×12) | ✅ EXCELENTE — prepara a escápula para centrar a cabeça umeral |
+| Wall slides / serrátil (2×12) | ✅ EXCELENTE — ativa o serrátil anterior, fundamental para cinemática escapular |
+
+O protocolo de ativação pré-treino está bem estruturado e cobre os principais estabilizadores do manguito. É uma compensação válida, porém **não substitui a fisioterapia formal** (terapia manual, tração, protocolo excêntrico supervisionado).
+
+#### Integração com o Calendário de Fisioterapia
+
+Quando as sessões formais forem iniciadas (10 sessões prescritas), aplicar os seguintes ajustes na série:
+
+| Fase da fisio | Rotação ext. cabo (Treino A) | Face pull (Treino C) | Supino máquina |
+|---|---|---|---|
+| **Fase 0–1** (sem 1–4) | ⚠️ Reduzir para 2×12 RPE 4 | 2×12 RPE 4 | 2×8 RPE 5 máx |
+| **Fase 2** (sem 5–8) | 2×12 (não no dia de fisio) | 2×12 | 2×8–10 RPE 6 |
+| **Fase 3** (sem 9–12) | 3×12–15 | 3×12–15 | 3×8–10 RPE 6–7 |
+
+**Regra absoluta:** NUNCA fazer fisioterapia e treino upper body no mesmo dia com menos de 6h de intervalo.
+
+#### Recomendações Fisioterapêuticas Adicionais
+
+1. **Iniciar fisioterapia formal (10 sessões) com URGÊNCIA** — foco no manguito rotador direito + terapia manual cervical.
+2. **ENMG do membro superior direito** dentro de 60 dias (a partir de 10/02) para diferenciar radiculopatia C8 vs neuropatia ulnar (handlebar palsy) — relevante para ajuste do guidão do MTB.
+3. **Protocolo domiciliar (manhã + noite)** descrito no guia de fisioterapia: manter diariamente, independentemente da academia.
+4. **Gelo no ombro** após cada treino upper e após pedal: 15–20 minutos para controle da bursite.
+5. **Ergonomia no MTB:** luvas com padding ulnar, pausas de 10s a cada 20 min para aliviar compressão ulnar no guidão.
+
+**Decisão Fisioterapêutica:** Série **APROVADA** para execução com as compensações integradas e as restrições vigentes. **Risco residual aceito** apenas enquanto a fisioterapia formal não é iniciada. Iniciar as sessões prescritas o quanto antes.
+
+---
+
+### 🤝 Consenso Multidisciplinar
+
+**Os 3 especialistas concordam:**
+
+| # | Ponto de consenso |
+|---|---|
+| 1 | Série **APROVADA** para execução — estrutura técnica, restrições e compensações estão corretas |
+| 2 | Lista de **exercícios suspensos está correta e completa** |
+| 3 | **Fisioterapia formal (10 sessões) é URGENTE** — risco de progressão da rotura sem ela |
+| 4 | **Protocolo de ativação pré-treino A e C é obrigatório** — não pular |
+| 5 | **Sinal de alarme unificado:** dor noturna que desperta ou piora de dormência no mindinho → reduzir RPE e comunicar médico |
+| 6 | **Vitamina D 5.000 UI/dia** — dose correta para recuperação tendínea; reavaliar abril/2026 |
+| 7 | **CK elevado (480 U/L):** monitorar sinais de overtraining; repetir exame em ~10/03/2026 |
+| 8 | **Deload obrigatório** a cada 4–6 semanas — próximo: ~5ª semana de março/2026 |
+| 9 | **Retorno ao ortopedista** após ciclo de fisioterapia para reavaliar rotura e definir conduta |
+| 10 | **ENMG do membro superior direito** em até 60 dias (a partir de 10/02) — prioridade |
 
 ---
 
