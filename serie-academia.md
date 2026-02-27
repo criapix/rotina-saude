@@ -114,8 +114,8 @@ title: Série de Musculação
 | 3 | **Mesa flexora** [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-da-mesa-flexora1.jpg) | 3 × 10–12 | Isquiotibiais — frequência 2×/semana garante estímulo para fase de tração do pedal. |
 | 4 | **Panturrilha em pé** (máquina) [📸](https://www.mundoboaforma.com.br/wp-content/uploads/2022/10/aparelho-panturrilha.jpg) | 3 × 12–15 | Amplitude completa; frequência 2×/semana. |
 | 5 | **Abdominal na máquina** (crunch machine) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | 3 × 12–15 | Apoio no peito; RPE 6. |
-| 6 | **Cable Suitcase Hold** (cabo) [📸](https://www.skimble.com/exercises/23429-suitcase-squat-squat-hold-cable-with-one-hand-how-to-do-exercise) | 2 × 20–30s (cada lado) | Segurar o cabo lateral sem inclinar o tronco — resistência lateral isométrica; fundamental para não balançar no selim. |
-| 7 | **Cable Chop / Lift** (cabo) [📸](https://prehabexercises.com/chop-and-lift-progression/) | 2 × 10 (cada lado) | Padrão diagonal no cabo: Chop = topo → baixo; Lift = baixo → topo. Alternar entre sessões. Core funcional multiplanar para ciclismo. |
+| 6 | **Cable Suitcase Hold** (cabo) [📸](https://s3assets.skimble.com/assets/1183483/image_iphone.jpg) | 2 × 20–30s (cada lado) | Segurar o cabo lateral sem inclinar o tronco — resistência lateral isométrica; fundamental para não balançar no selim. |
+| 7 | **Cable Chop / Lift** (cabo) [📸](https://prehabexercises.com/wp-content/uploads/2017/11/PreHab-Exercises-Chop-and-Lift-Progressions-for-Stability-and-Integration-1-e1511740788329.png) | 2 × 10 (cada lado) | Padrão diagonal no cabo: Chop = topo → baixo; Lift = baixo → topo. Alternar entre sessões. Core funcional multiplanar para ciclismo. |
 
 **Volume D:** 19 sets — Quadríceps: 6 · Isquiotibiais: 3 · Panturrilha: 3 · Core: 7
 
