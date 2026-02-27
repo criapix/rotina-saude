@@ -114,8 +114,8 @@ title: Série de Musculação
 | 3 | **Mesa flexora** [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-da-mesa-flexora1.jpg) | 3 × 10–12 | Isquiotibiais — frequência 2×/semana garante estímulo para fase de tração do pedal. |
 | 4 | **Panturrilha em pé** (máquina) [📸](https://www.mundoboaforma.com.br/wp-content/uploads/2022/10/aparelho-panturrilha.jpg) | 3 × 12–15 | Amplitude completa; frequência 2×/semana. |
 | 5 | **Abdominal na máquina** (crunch machine) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | 3 × 12–15 | Apoio no peito; RPE 6. |
-| 6 | **Prancha lateral** [📸](https://upload.wikimedia.org/wikipedia/commons/9/92/Side_Plank.jpg) | 2 × 20–30s (cada lado) | Estabilidade lateral — fundamental para não balançar no selim. Progredir 5s. |
-| 7 | **Pallof press** (cabo) [📸](https://bodybuilding-wizard.com/wp-content/uploads/2022/03/cable-pallof-press-exercise-instructions.jpg) | 2 × 10 (cada lado) | Anti-rotação isométrica — core funcional para ciclismo. Tronco NÃO rotaciona; apenas resiste. Aprovado na avaliação ortopédica. |
+| 6 | **Cable Suitcase Hold** (cabo) [📸](https://www.acefitness.org/resources/everyone/exercise-library/media/exercise_img/cable-suitcase-carry.jpg) | 2 × 20–30s (cada lado) | Segurar o cabo lateral sem inclinar o tronco — resistência lateral isométrica; fundamental para não balançar no selim. |
+| 7 | **Cable Chop / Lift** (cabo) [📸](https://www.acefitness.org/resources/everyone/exercise-library/media/exercise_img/231/cable-chop-1.jpg) | 2 × 10 (cada lado) | Padrão diagonal no cabo: Chop = topo → baixo; Lift = baixo → topo. Alternar entre sessões. Core funcional multiplanar para ciclismo. |
 
 **Volume D:** 19 sets — Quadríceps: 6 · Isquiotibiais: 3 · Panturrilha: 3 · Core: 7
 
@@ -222,7 +222,7 @@ Fazer nos dias de descanso (Sex/Sab/Dom) ou antes do pedal. Complementa o core d
 
 - Todos os exercícios da série são sentados ou com apoio → sem carga axial em pé ✅
 - Mesa flexora (decúbito ventral): cabeça apoiada normalmente no equipamento → sem extensão cervical forçada ✅
-- Pallof press (anti-rotação isométrica): tronco não rotaciona; cervical em posição neutra → **APROVADO** ✅
+- Cable Chop / Lift (padrão diagonal no cabo): core multiplanar; cervical em posição neutra → **APROVADO** ✅
 
 **Coluna torácica** (D3-D10, degeneração leve, estável desde 2015): sem restrição adicional de exercícios além das globais ✅
 
@@ -267,14 +267,14 @@ Fazer nos dias de descanso (Sex/Sab/Dom) ou antes do pedal. Complementa o core d
 - **Costas:** remadas sentadas ou com apoio; puxadas neutras com cotovelos junto ao corpo
 - **Peito:** supino máquina, cotovelos a 45°, **máximo 8 sets/semana.** Após liberação: pec deck com ROM controlada (cotovelos à frente do plano do ombro)
 - **Braços:** bíceps e tríceps isolados, sem envolver ombro acima de 90°
-- **Core:** abdominal na máquina, prancha frontal/lateral, pallof press (anti-rotação), dead bug, bird dog
+- **Core:** abdominal na máquina, prancha frontal/lateral, cable chop/lift, cable suitcase hold, dead bug, bird dog
 
 ---
 
 ## Restrições (Coluna)
 
 - Sem exercícios em pé com carga axial pesada
-- Sem rotação de tronco **com carga** (pallof press = anti-rotação isométrica — o tronco não rotaciona)
+- Sem rotação de tronco **descontrolada com carga** (cable chop/lift = padrão rotacional controlado — amplitude e carga progressiva)
 - Sem extensão cervical forçada (na mesa flexora: cabeça apoiada neutra)
 - Cotovelos ~45° no supino — nunca abrir a 90°
 - **Sentiu dor → para o exercício**
