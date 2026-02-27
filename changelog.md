@@ -9,6 +9,21 @@ Historico de alteracoes no plano de treino, nutricao e acompanhamento clinico.
 
 ---
 
+## 27/02/2026 — Parecer multidisciplinar da série de musculação (3 agentes)
+
+**Contexto:** A seção "Avaliação Clínica" da série de musculação foi expandida para um **Parecer Multidisciplinar completo**, com avaliações independentes de três especialistas considerando todos os documentos clínicos (RM ombro/cervical/torácica, exames de sangue, bioimpedância, protocolo de fisioterapia).
+
+### Alterações realizadas
+
+#### Série de Musculação (serie-academia.md)
+- Substituída a seção "Avaliação Clínica — Baseada nos Laudos (26/02/2026)" pelo novo **Parecer Multidisciplinar — Avaliação da Série (27/02/2026)**
+- **Agente 1 — Personal Trainer:** análise da estrutura de periodização + avaliação individual de todos os 21 exercícios da série (Treinos A, B, C e D) + pontos de atenção de overtraining (CK 480 U/L) e progressão
+- **Agente 2 — Ortopedista:** avaliação de cada exercício da série frente às lesões (rotura parcial do supraespinhal, discopatia cervical Modic I, discopatia torácica) + alertas de osteíte reacional + critérios de retorno e RM de controle
+- **Agente 3 — Fisioterapeuta:** mapeamento fisioterapêutico de cada compensação integrada na série + análise de risco por estrutura (manguito, cervical, torácica) + avaliação do protocolo de ativação pré-treino + tabela de ajustes por fase da fisioterapia formal
+- **Consenso Multidisciplinar:** 10 pontos de concordância entre os três especialistas, incluindo aprovação da série, urgência da fisioterapia formal e sinais de alarme unificados
+
+---
+
 ## 22/02/2026 — Bioimpedância: meta de massa magra atingida
 
 **Contexto:** Avaliação de bioimpedância de 22/02/2026 confirmou recuperação completa da massa magra e melhora expressiva da composição corporal após 2 semanas de protocolo de retorno (iniciado 09/02).
