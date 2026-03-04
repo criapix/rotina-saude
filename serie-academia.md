@@ -99,8 +99,8 @@ title: Série de Musculação
 | 3 | **Mesa flexora** [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-da-mesa-flexora1.jpg) | 3 × 10–12 | Isquiotibiais — frequência 2×/semana garante estímulo para fase de tração do pedal. |
 | 4 | **Panturrilha em pé** (máquina) [📸](https://www.mundoboaforma.com.br/wp-content/uploads/2022/10/aparelho-panturrilha.jpg) | 3 × 12–15 | Amplitude completa; frequência 2×/semana. |
 | 5 | **Abdominal na máquina** (crunch machine) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | 3 × 12–15 | Apoio no peito; RPE 6. |
-| 6 | **Cable Suitcase Hold** (cabo) [📸](https://s3assets.skimble.com/assets/1183483/image_iphone.jpg) | 2 × 20–30s (cada lado) | Segurar o cabo lateral sem inclinar o tronco — resistência lateral isométrica; fundamental para não balançar no selim. |
-| 7 | **Cable Chop / Lift** (cabo) [📸](https://prehabexercises.com/wp-content/uploads/2017/11/PreHab-Exercises-Chop-and-Lift-Progressions-for-Stability-and-Integration-1-e1511740788329.png) | 2 × 10 (cada lado) | Padrão diagonal no cabo: Chop = topo → baixo; Lift = baixo → topo. Alternar entre sessões. Core funcional multiplanar para ciclismo. |
+| 6 | **Cadeira abdutora — anti-lateral unilateral** [📸](https://cdn.muscleandstrength.com/sites/default/files/hip-abduction-machine.jpg) | 2 × 15–20 (cada lado) | ⚠️ Substitui Cable Suitcase Hold (causou dor no ombro). Sentar centralizado; uma perna por vez; **tronco vertical ativo** — não deixar o corpo inclinar ipsilateralmente durante a abertura; mãos sem preensão nos apoios; cervical neutra. |
+| 7 | **Máquina de rotação de tronco** (torso rotation machine) [📸](https://totalpass.com/wp-content/uploads/2025/12/twist1.png) | 2 × 12 (cada lado) | ⚠️ Substitui Cable Chop/Lift (causou dor no ombro). Carga LEVE; antebraços nos suportes (mãos sem preensão ativa); movimento pelo tronco — não pelos ombros; tempo 3-1-2 (3s retorno); **olhar fixo à frente** — cervical NÃO rotaciona junto. |
 
 **Volume D:** 19 sets — Quadríceps: 6 · Isquiotibiais: 3 · Panturrilha: 3 · Core: 7
 
@@ -426,6 +426,78 @@ Quando as sessões formais forem iniciadas (10 sessões prescritas), aplicar os 
 
 ---
 
+---
+
+## Parecer Multidisciplinar — Substituição de Exercícios de Core (04/03/2026)
+
+> **Motivo:** Cable Suitcase Hold e Cable Chop/Lift causaram dor no ombro direito em uso. Avaliação realizada pelos mesmos 3 agentes com base no histórico clínico vigente. Restrição adicional: academia sem espaço no chão (exercícios em colchonete inviáveis).
+
+---
+
+### Mecanismo de Dor — Por Que Causaram Problema
+
+| Exercício | Mecanismo identificado |
+|---|---|
+| Cable Suitcase Hold | Co-contração isométrica do manguito contra tração lateral do cabo → compressão do supraespinhal lesado na tuberosidade maior com osteíte reacional ativa; preensão transmitia carga ao nervo ulnar (C8) |
+| Cable Chop/Lift | Elevação ativa do braço direito acima de 60–70° com resistência → supraespinhal como motor primário no arco de impacto subacromial; fase excêntrica de retorno com carga = risco de progressão da rotura |
+
+---
+
+### 🏋️ Personal Trainer — Substitutos Aprovados
+
+**Substituto 1 — Anti-lateral (Suitcase Hold):** Cadeira abdutora unilateral isométrica lateral
+- Mesmos músculos-alvo (oblíquos, quadrado lombar, glúteo médio); carga gerada pela máquina no femur — ombro completamente passivo
+- 2 × 15–20 cada lado; tronco vertical ativo, sem preensão ativa nos apoios
+
+**Substituto 2 — Anti-rotacional (Chop/Lift):** Máquina de rotação de tronco sentado
+- Isola a rotação do tronco com resistência progressiva; antebraços em suportes fixos — ombro não é motor
+- 2 × 12 cada lado; carga leve; tempo 3-1-2; cervical neutra (olhar fixo à frente)
+
+---
+
+### 🦴 Ortopedista — Aprovação
+
+| Exercício | Decisão | Risco Supraespinhal | Risco Cervical |
+|---|---|---|---|
+| Cadeira abdutora anti-lateral | ✅ APROVADO | MÍNIMO | BAIXO |
+| Máquina de rotação de tronco | ✅ APROVADO | BAIXO | BAIXO |
+| Cable rotacional sentado (backup) | ⚠️ CONDICIONAL | BAIXO | BAIXO |
+| Pallof press / cabo com preensão | ❌ NEGADO | MODERADO | MODERADO |
+
+**Nota ortopédica:** Candidatos com preensão ativa sob carga (cabo, manete) foram negados — reproduzem o mecanismo de lesão do supraespinhal e de agravamento do nervo ulnar (C8). Backup se a academia não tiver máquina de rotação: cabo rotacional sentado com cotovelo nunca acima de 90°.
+
+---
+
+### 🩺 Fisioterapeuta — Aprovação
+
+| Exercício | Ombro | Cervical | C8/Ulnar | Veredicto |
+|---|---|---|---|---|
+| Cadeira abdutora anti-lateral | SEGURO | SEGURO | MÍNIMO | ✅ APROVADO |
+| Máquina de rotação de tronco | SEGURO | SEGURO | BAIXO | ✅ APROVADO |
+| Banco romano lateral | RISCO (abdução passiva) | MODERADO | MODERADO | ❌ REPROVADO |
+| Cabo rotacional com preensão | MODERADO | MODERADO | ALTO | ❌ REPROVADO |
+
+**Nota fisioterapêutica:** Máquina de rotação tem bônus terapêutico — força rotação torácica D3-D10 em área com hipomobilidade funcional documentada. Cuidado crítico: cervical NÃO acompanha a rotação (olhar fixo à frente).
+
+**Progressão recomendada — Máquina de rotação:**
+- Fase 1 (sem. 1–2): carga mínima, 2 × 12, foco em dissociação cervical/torácica
+- Fase 2 (após fisio iniciar): 1 pino a mais + pausa isométrica 1s no pico
+- Fase 3 (fisio Fase 2+): ampliar ROM conforme mobilidade D3-D10 melhorar
+
+---
+
+### 🤝 Consenso Multidisciplinar — 04/03/2026
+
+| # | Ponto de consenso |
+|---|---|
+| 1 | Cable Suitcase Hold e Cable Chop/Lift **suspensos definitivamente** — ombro relatou dor em uso |
+| 2 | **Cadeira abdutora anti-lateral** e **Máquina de rotação de tronco** são os substitutos aprovados unanimemente |
+| 3 | Qualquer exercício com preensão ativa sob carga (cabos com manete) está **negado até resolução da neuropatia C8/ulnar** |
+| 4 | **Sinal de alarme:** piora da dormência no dedo mínimo durante qualquer exercício → suspender e comunicar imediatamente |
+| 5 | **ENMG do membro superior direito** continua prioritária (prazo: 60 dias a partir de 10/02/2026) |
+
+---
+
 ## ⛔ Exercícios Suspensos (até liberação clínica)
 
 | Exercício | Motivo |
@@ -448,7 +520,7 @@ Quando as sessões formais forem iniciadas (10 sessões prescritas), aplicar os 
 - **Costas:** remadas sentadas ou com apoio; puxadas neutras com cotovelos junto ao corpo
 - **Peito:** supino máquina, cotovelos a 45°, **máximo 8 sets/semana.** Após liberação: pec deck com ROM controlada (cotovelos à frente do plano do ombro)
 - **Braços:** bíceps e tríceps isolados, sem envolver ombro acima de 90°
-- **Core:** abdominal na máquina, prancha frontal/lateral, cable chop/lift, cable suitcase hold, dead bug, bird dog
+- **Core:** abdominal na máquina, prancha frontal/lateral, cadeira abdutora anti-lateral, máquina de rotação de tronco, dead bug, bird dog
 
 ---
 
