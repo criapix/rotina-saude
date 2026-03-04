@@ -1,3 +1,36 @@
+# Laudo 4 — Ultrassonografia da Tireoide com Doppler Colorido
+
+## Identificação
+- **Exame:** Ultrassonografia da Tireoide com Doppler Colorido
+- **Data:** 03/03/2026
+
+## Principais Achados
+- Tireoide tópica, móvel à deglutição, contorno regular, ecogenicidade **heterogênea**.
+- **Nódulo sólido hipoecoico**, mais largo que alto, contorno regular, **sem calcificações**, situado no **terço inferior do lobo direito**, medindo **0,9 × 0,6 × 0,5 cm**.
+  - Classificação: **TIRADS 4** (risco intermediário).
+  - Doppler colorido: **vascularização predominantemente central (Chammas IV)**.
+- Sem nódulos no lobo esquerdo e istmo.
+- **Volumes:**
+  - Lobo direito: 4,2 × 1,7 × 1,4 cm → 5,2 cm³
+  - Lobo esquerdo: 4,3 × 1,3 × 1,1 cm → 3,2 cm³
+  - Istmo: 1,5 × 1,0 × 0,3 cm → 0,2 cm³
+  - **Volume glandular total: 8,6 cm³** (normal)
+- Traqueia centrada.
+- **Ausência de linfonodomegalias adjacentes.**
+
+## Interpretação Clínica
+- Nódulo de **risco intermediário (TIRADS 4)** com características predominantemente benignas:
+  - Mais largo que alto: sinal favorável.
+  - Contorno regular, sem calcificações: sinais favoráveis.
+  - Hipoecoico sólido: fator de atenção.
+  - Chammas IV (vascularização central): requer correlação clínica.
+- Parênquima **heterogêneo** sugere possível tireoidite autoimune (Hashimoto) → **anti-TPO ainda pendente**.
+- Função tireoidiana normal nos exames de sangue de 10/02/2026 (TSH 2,0, T4L 1,19).
+- Nódulo abaixo de 1,0 cm: critério de PAAF não atingido pelos guidelines ACR TIRADS (PAAF recomendada a partir de 1,5 cm para TIRADS 4 — ou se ≥1,0 cm em TIRADS 5).
+- **Conduta indicada:** avaliação com endocrinologista + anti-TPO + ultrassom de controle em 6–12 meses para avaliar crescimento.
+
+---
+
 # Laudo 1 — Ressonância Magnética da Coluna Cervical
 
 ## Identificação

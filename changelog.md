@@ -9,6 +9,38 @@ Historico de alteracoes no plano de treino, nutricao e acompanhamento clinico.
 
 ---
 
+## 03/03/2026 — Ultrassonografia da Tireoide com Doppler Colorido
+
+**Contexto:** Realização do US de tireoide com Doppler, pendência prioritária identificada desde a RM cervical de 02/02/2026 e reforçada nos exames de sangue de 10/02/2026 (achado incidental de nódulo + TSH/T4L normais).
+
+### Achados do exame
+- **Nódulo sólido hipoecoico** no terço inferior do lobo direito: 0,9 × 0,6 × 0,5 cm
+- Classificação: **TIRADS 4** (risco intermediário)
+- Doppler: **Chammas IV** (vascularização predominantemente central)
+- Características favoráveis: mais largo que alto, contorno regular, sem calcificações
+- Parênquima com **ecogenicidade heterogênea** → sinal possível de tireoidite autoimune
+- Sem linfonodomegalias. Volume glandular total: 8,6 cm³ (normal)
+
+### Interpretação clínica
+- Nódulo TIRADS 4 (0,9 cm): **PAAF não indicada** pelos guidelines ACR TIRADS (threshold para TIRADS 4: ≥ 1,5 cm)
+- Parênquima heterogêneo associado a TSH normal sugere possível tireoidite de Hashimoto em fase eutireoidea → **anti-TPO é decisivo**
+- Função tireoidiana atual normal: TSH 2,0 e T4L 1,19 (exames de 10/02/2026)
+
+### Atualizações realizadas
+- **laudos_medicos_documentos_markdown.md:** adicionado Laudo 4 com US tireoide completo
+- **dados-saude.md:**
+  - Adicionada seção detalhada do US na parte de tireoide (seção 12)
+  - Pendência 9 marcada como ✅ concluída
+  - Novas pendências inseridas: consulta endocrinologista, anti-TPO, US de controle 6–12 meses
+  - Status atual (seção 14) atualizado
+
+### Próximos passos
+- 🔴 **Consulta com endocrinologista** — avaliação do TIRADS 4 + parênquima heterogêneo
+- 🔴 **Anti-TPO** — solicitar no próximo exame de sangue (painel Maio/2026, mas pode antecipar)
+- ⚠️ **US de controle:** em 6–12 meses para monitorar possível crescimento do nódulo
+
+---
+
 ## 27/02/2026 — Parecer multidisciplinar da série de musculação (3 agentes)
 
 **Contexto:** A seção "Avaliação Clínica" da série de musculação foi expandida para um **Parecer Multidisciplinar completo**, com avaliações independentes de três especialistas considerando todos os documentos clínicos (RM ombro/cervical/torácica, exames de sangue, bioimpedância, protocolo de fisioterapia).

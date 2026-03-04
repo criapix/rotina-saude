@@ -16,21 +16,6 @@ title: Série de Musculação
 
 ---
 
-## Calendário Semanal
-
-| Dia | Treino | Pedal | Lógica |
-|-----|--------|-------|--------|
-| **Seg** | **A — Upper A** | — | Pernas descansadas do fim de semana; upper intenso sem interferência |
-| **Ter** | **B — Lower A** | Pedal Z2 (manhã/tarde) | Pedal aeróbico não impede lower noturno; repor carboidrato entre as sessões |
-| **Qua** | **C — Upper B** | Pedal Z2 (manhã/tarde) | Upper não é afetado pelo pedal; 48h de recuperação de upper desde Seg |
-| **Qui** | **D — Lower B** | — | 48h de recuperação de lower desde Ter; pernas frescas |
-| **Sex** | — | Pedal Z2 | Recuperação ativa; pernas descansam de lower pesado |
-| **Sab–Dom** | — | — | Descanso |
-
-> **Dias duplos (Ter/Qua):** Comer carboidrato imediatamente após o pedal (malto ou banana) antes do treino noturno. Se fadiga alta do pedal, reduzir 1 série nos compostos de perna — manter os compostos, tirar dos acessórios.
-
----
-
 ## TREINO A — Upper A (Segunda)
 
 **Foco:** Peito · Costas horizontal · Tríceps · Bíceps · Abdominal · Reabilitação ombro
@@ -270,6 +255,21 @@ A divisão **A/B/C/D — 4×/semana** com cada grupo muscular trabalhado 2×/sem
 | Abdominal máquina 3×12–15 | ✅ APROVADO | Core em todos os treinos |
 | Cable Suitcase Hold 2×20–30s | ✅ APROVADO | Anti-lateral — essencial para estabilidade no selim; isométrico seguro |
 | Cable Chop/Lift 2×10 | ✅ APROVADO | Core multiplanar funcional para ciclismo; amplitude e carga progressiva |
+
+---
+
+## Calendário Semanal
+
+| Dia | Treino | Pedal | Lógica |
+|-----|--------|-------|--------|
+| **Seg** | **A — Upper A** | — | Pernas descansadas do fim de semana; upper intenso sem interferência |
+| **Ter** | **B — Lower A** | Pedal Z2 (manhã/tarde) | Pedal aeróbico não impede lower noturno; repor carboidrato entre as sessões |
+| **Qua** | **C — Upper B** | Pedal Z2 (manhã/tarde) | Upper não é afetado pelo pedal; 48h de recuperação de upper desde Seg |
+| **Qui** | **D — Lower B** | — | 48h de recuperação de lower desde Ter; pernas frescas |
+| **Sex** | — | Pedal Z2 | Recuperação ativa; pernas descansam de lower pesado |
+| **Sab–Dom** | — | — | Descanso |
+
+> **Dias duplos (Ter/Qua):** Comer carboidrato imediatamente após o pedal (malto ou banana) antes do treino noturno. Se fadiga alta do pedal, reduzir 1 série nos compostos de perna — manter os compostos, tirar dos acessórios.
 
 #### Pontos de Atenção — Personal Trainer
 

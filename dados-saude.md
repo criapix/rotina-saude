@@ -372,6 +372,16 @@ title: Consolidação Clínica
 - **T4 Livre:** 1,19 ng/dL (ref: 0,92-1,68) — NORMAL
 - **⚠️ Nódulo incidental no lobo direito:** requer ultrassonografia (vide RM cervical)
 
+#### Ultrassonografia da Tireoide com Doppler Colorido (03/03/2026)
+- **Nódulo sólido hipoecoico no terço inferior do lobo direito:** 0,9 × 0,6 × 0,5 cm — **TIRADS 4** (risco intermediário)
+  - Mais largo que alto: sinal favorável
+  - Contorno regular, sem calcificações: sinais favoráveis
+  - Vascularização predominantemente central — **Chammas IV**
+- Parênquima **heterogêneo** → possível tireoidite autoimune (Hashimoto) — anti-TPO ainda pendente
+- Sem linfonodomegalias adjacentes. Volume glandular total: 8,6 cm³ (normal)
+- Nódulo < 1,0 cm: PAAF não indicada pelos guidelines ACR TIRADS (PAAF a partir de 1,5 cm para TIRADS 4)
+- **Próximo passo:** avaliação com endocrinologista + anti-TPO + US de controle em 6–12 meses
+
 #### Vitaminas e Reservas
 - **Ferritina:** 292 ng/mL (ref: 30-400) — NORMAL
 - **Vitamina B12:** 838 pg/mL (ref: 197-771) — **LEVEMENTE ELEVADO** ⚠️
@@ -473,6 +483,7 @@ title: Consolidação Clínica
 
 - **Exames (RM ombro, cervical, dorsal):** ✅ REALIZADOS em 02/02/2026
 - **Exames de sangue:** ✅ REALIZADOS em 10/02/2026
+- **US tireoide com Doppler:** ✅ REALIZADO em 03/03/2026 — TIRADS 4 (0,9 cm, lobo direito) + parênquima heterogêneo → endocrinologista + anti-TPO pendentes
 - **Bioimpedância 22/02/2026:** ✅ FFM 62,7 kg (meta atingida!); BF 13,9% (melhor valor do histórico); TBW 45,9 L
 - **Fisioterapia (10 sessões prescritas):** ainda não iniciada — **URGENTE**
 - **Dor:** sem dor intensa durante treinos; restrições severas aplicadas após resultados
@@ -491,7 +502,11 @@ title: Consolidação Clínica
 6. ✅ ~~Reverter perda de massa magra~~ — FFM recuperada para 62,7 kg (22/02/2026) — **META ATINGIDA**
 7. 🔴 **Repetir CK em 3-4 semanas** — monitorar overtraining (resultado atual: 480 U/L, ref: 35-232) — janela: até ~10/03/2026
 8. 🔴 **ENMG do membro superior direito** — recomendada em até **60 dias**. Objetivo: diferenciar radiculopatia C8 vs neuropatia ulnar
-9. 🔴 **US tireoide com Doppler** — prioridade alta (**30 dias** a partir de 10/02) + solicitar anti-TPO (TSH e T4L normais)
+9. ✅ ~~**US tireoide com Doppler** — realizado em **03/03/2026**~~
+   - Resultado: **TIRADS 4**, nódulo 0,9 cm lobo direito, Chammas IV, parênquima heterogêneo
+   - 🔴 **Consulta com endocrinologista** — necessária para avaliar TIRADS 4 e parênquima heterogêneo
+   - 🔴 **Anti-TPO** — ainda pendente (parênquima heterogêneo sugere tireoidite autoimune)
+   - ⚠️ **US de controle:** em 6–12 meses para monitorar crescimento do nódulo
 10. ⚠️ **Vitamina D reavaliar** em 8-12 semanas a partir de 10/02 (dose aumentada 4000→5000 UI/dia) — janela: abr/2026
 11. ⚠️ **Hidratação:** TBW recuperando (44,7 → 45,9 L); manter alvo 3,5-4,5 L/dia; meta 46 L na próxima bio
 12. ⚠️ **PCR (proteína C reativa):** ainda não realizado — solicitar próxima avaliação
