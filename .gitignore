@@ -6,7 +6,6 @@ Desktop.ini
 # IDE / Tools
 .vscode/
 .idea/
-.claude/
 
 # Temporary
 *.tmp
