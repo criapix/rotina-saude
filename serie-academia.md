@@ -7,7 +7,7 @@ title: Série de Musculação
 
 > ⚠️ **SÉRIE ADAPTADA** para proteção do manguito rotador (rotura parcial do supraespinhal) e coluna cervicotorácica degenerativa
 >
-> **Atualizada 26/02/2026** — Nova estrutura 4×/semana (A/B/C/D); cada grupo muscular 2×/semana; calendário ajustado para academia Seg–Qui + pedal Ter/Qua/Sex
+> **Atualizada 04/03/2026** — Corrigida após revisão multidisciplinar (5 agentes): adicionados hip thrust e cadeira abdutora no Treino D; rotação interna 0° no protocolo de ativação; ajuste de notas biomecânicas
 
 **Objetivos:** Ganho de peitoral e braço · Redução de gordura abdominal · Fortalecimento de core · Melhora de força para ciclismo
 
@@ -51,7 +51,7 @@ title: Série de Musculação
 | # | Exercício | Séries × Reps | Notas |
 |---|---|---|---|
 | 1 | **Leg press 45°** [📸](https://treinomestre.com.br/wp-content/uploads/2019/06/leg-press-45.jpg) | 4 × 10–12 | Tempo 3-1-2; amplitude completa; RPE 7–8. Força de saída no pedal — exercício principal de perna. |
-| 2 | **Mesa flexora** [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-da-mesa-flexora1.jpg) | 3 × 10–12 | Isquiotibiais — fase de tração do pedal; tempo controlado; cabeça apoiada neutra. |
+| 2 | **Mesa flexora** [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-da-mesa-flexora1.jpg) | 3 × 10–12 | Isquiotibiais — fase de tração do pedal; tempo controlado; cabeça apoiada neutra. ⚠️ Verificar se máquina tem apoio facial adequado; se não → toalha dobrada para evitar extensão cervical (C5-C7). |
 | 3 | **Cadeira abdutora** [📸](https://cdn.muscleandstrength.com/sites/default/files/hip-abduction-machine.jpg) | 3 × 15 | Glúteo médio — estabilidade lateral no selim; RPE 7. Fundamental para não balançar no ciclismo. |
 | 4 | **Panturrilha em pé** (máquina) [📸](https://www.mundoboaforma.com.br/wp-content/uploads/2022/10/aparelho-panturrilha.jpg) | 3 × 12–15 | Amplitude completa; estabilidade do tornozelo no pedal. |
 | 5 | **Abdominal na máquina** (crunch machine) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | 3 × 12–15 | Apoio no peito; RPE 6. |
@@ -86,23 +86,25 @@ title: Série de Musculação
 
 ## TREINO D — Lower B (Quinta)
 
-**Foco:** Quadríceps (isolado + composto) · Isquiotibiais · Panturrilha · Core lateral e anti-rotacional
+**Foco:** Glúteo máximo · Quadríceps (isolado + composto) · Isquiotibiais · Glúteo médio · Panturrilha · Core lateral e anti-rotacional
 
 **Aquecimento:** Bike 5 min + mobilidade dinâmica de quadril e tornozelo (3 min) · **~8 min**
 
-**Tempo estimado do treino: ~62 min**
+**Tempo estimado do treino: ~70 min**
 
 | # | Exercício | Séries × Reps | Notas |
 |---|---|---|---|
-| 1 | **Cadeira extensora** [📸](https://totalpass.com/br/blog/wp-content/uploads/2024/02/cadeira-extensora-homem.jpg) | 3 × 12–15 | Quadríceps isolado; fase concêntrica do pedal. RPE 7. Iniciar pelo isolado pré-cansa antes do composto. |
-| 2 | **Leg press 45°** [📸](https://treinomestre.com.br/wp-content/uploads/2019/06/leg-press-45.jpg) | 3 × 10–12 | Tempo 3-1-2; RPE 7–8. Composto após isolado = maior estímulo com carga menor. |
-| 3 | **Mesa flexora** [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-da-mesa-flexora1.jpg) | 3 × 10–12 | Isquiotibiais — frequência 2×/semana garante estímulo para fase de tração do pedal. |
-| 4 | **Panturrilha em pé** (máquina) [📸](https://www.mundoboaforma.com.br/wp-content/uploads/2022/10/aparelho-panturrilha.jpg) | 3 × 12–15 | Amplitude completa; frequência 2×/semana. |
-| 5 | **Abdominal na máquina** (crunch machine) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | 3 × 12–15 | Apoio no peito; RPE 6. |
-| 6 | **Cadeira abdutora — anti-lateral unilateral** [📸](https://cdn.muscleandstrength.com/sites/default/files/hip-abduction-machine.jpg) | 2 × 15–20 (cada lado) | ⚠️ Substitui Cable Suitcase Hold (causou dor no ombro). Sentar centralizado; uma perna por vez; **tronco vertical ativo** — não deixar o corpo inclinar ipsilateralmente durante a abertura; mãos sem preensão nos apoios; cervical neutra. |
-| 7 | **Máquina de rotação de tronco** (torso rotation machine) [📸](https://totalpass.com/wp-content/uploads/2025/12/twist1.png) | 2 × 12 (cada lado) | ⚠️ Substitui Cable Chop/Lift (causou dor no ombro). Carga LEVE; antebraços nos suportes (mãos sem preensão ativa); movimento pelo tronco — não pelos ombros; tempo 3-1-2 (3s retorno); **olhar fixo à frente** — cervical NÃO rotaciona junto. |
+| 1 | **Hip thrust na máquina** (elevação pélvica) [📸](https://www.hsefitness.com/wp-content/uploads/2024/12/How-to-Use-the-Hip-Thrust-Machine-Correctly-600x400.png) | 3 × 12–15 | Glúteo máximo — força de saída no pedal (0°–90° da pedalada). Tempo 3-1-2; RPE 7. Contrair glúteos no pico 1–2s. Sem hiperextensão lombar. |
+| 2 | **Cadeira extensora** [📸](https://image.tuasaude.com/media/article/ov/fb/cadeira-extensora_75064.gif) | 3 × 12–15 | Quadríceps isolado; fase concêntrica do pedal. RPE 7. Pré-cansa antes do composto. |
+| 3 | **Leg press 45°** [📸](https://treinomestre.com.br/wp-content/uploads/2019/06/leg-press-45.jpg) | 3 × 10–12 | Tempo 3-1-2; RPE 7–8. Composto após isolado = maior estímulo com carga menor. ⚠️ NUNCA permitir retroversão pélvica (bunda sair do apoio); parar descida ANTES de perder curva lombar neutra. Descansar 90–120s após extensora. |
+| 4 | **Mesa flexora** [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-da-mesa-flexora1.jpg) | 3 × 10–12 | Isquiotibiais — frequência 2×/semana garante estímulo para fase de tração do pedal. ⚠️ Verificar apoio facial; se inadequado → toalha dobrada para evitar extensão cervical (C5-C7). |
+| 5 | **Cadeira abdutora** [📸](https://cdn.muscleandstrength.com/sites/default/files/hip-abduction-machine.jpg) | 2 × 15 | Glúteo médio — frequência 2×/semana (complementa Treino B); estabilidade lateral no selim. RPE 7. |
+| 6 | **Panturrilha em pé** (máquina) [📸](https://www.mundoboaforma.com.br/wp-content/uploads/2022/10/aparelho-panturrilha.jpg) | 3 × 12–15 | Amplitude completa; frequência 2×/semana. |
+| 7 | **Abdominal na máquina** (crunch machine) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | 3 × 12–15 | Apoio no peito; RPE 6. |
+| 8 | **Cadeira abdutora — anti-lateral unilateral** [📸](https://cdn.muscleandstrength.com/sites/default/files/hip-abduction-machine.jpg) | 2 × 15–20 (cada lado) | ⚠️ Substitui Cable Suitcase Hold (causou dor no ombro). Sentar centralizado; uma perna por vez; **tronco vertical ativo** — não deixar o corpo inclinar ipsilateralmente durante a abertura; mãos sem preensão nos apoios; cervical neutra. |
+| 9 | **Máquina de rotação de tronco** (torso rotation machine) [📸](https://totalpass.com/wp-content/uploads/2025/12/twist1.png) | 2 × 12 (cada lado) | ⚠️ Substitui Cable Chop/Lift (causou dor no ombro). Carga LEVE; antebraços nos suportes (mãos sem preensão ativa); movimento pelo tronco — não pelos ombros; tempo 3-1-2 (3s retorno); **olhar fixo à frente** — cervical NÃO rotaciona junto. |
 
-**Volume D:** 19 sets — Quadríceps: 6 · Isquiotibiais: 3 · Panturrilha: 3 · Core: 7
+**Volume D:** 24 sets — Glúteo máximo: 3 · Quadríceps: 6 · Isquiotibiais: 3 · Glúteo médio: 2 · Panturrilha: 3 · Core: 7
 
 ---
 
@@ -116,19 +118,21 @@ title: Série de Musculação
 | **Costas total** | 6 | — | 6 | — | **12** |
 | **Tríceps** | 3 | — | 3 | — | **6** |
 | **Bíceps** | 3 | — | 5 | — | **8** |
+| **Glúteo máximo** | — | — | — | 3 | **3** |
 | **Quadríceps** | — | 4 | — | 6 | **10** |
 | **Isquiotibiais** | — | 3 | — | 3 | **6** |
 | **Panturrilha** | — | 3 | — | 3 | **6** |
-| **Glúteo médio** | — | 3 | — | — | 3 |
+| **Glúteo médio** | — | 3 | — | 2 | **5** |
 | **Core abdominal** | 3 | 3 | 3 | 3 | **12** |
 | **Core estabilidade** | — | 3 | — | 4 | **7** |
-| **Reabilitação / terapêutico** | 5 | — | 4 | — | **9** |
+| **Reabilitação / terapêutico** | 7 | — | 6 | — | **13** |
 
 ### Mapeamento dos Exercícios que Compensam a Fisioterapia
 
 | Técnica fisioterapêutica | Exercício equivalente na academia | Treino |
 |---|---|---|
 | Rotação externa com elástico | Rotação externa no cabo 0°, 3×15, carga leve | A |
+| Rotação interna com elástico (subescapular) | Rotação interna 0° no protocolo de ativação, 2×15, carga leve | A · C |
 | Trabalho de infraespinhal / retratores escapulares | Face pull corda leve, 2×15 | C |
 | Ativação pré-sessão do manguito | Protocolo de ativação pré-treino A e C | A · C |
 | Mobilidade articular diária | Protocolo matinal (pêndulo Codman, chin tuck, cat-cow, open book) | domiciliar |
@@ -143,9 +147,10 @@ Fazer ANTES de cada treino Upper. Com elástico leve ou sem carga:
 |---|---|---|
 | 1 | Pêndulo de Codman [📸](https://fisioterapiaelainedaltoe.com.br/wp-content/uploads/cache/images/2026/02/Exercicios-pendulares-de-Codman/Exercicios-pendulares-de-Codman-1378541090.jpg) | 3 × 30–45s cada direção — PRIMEIRO, antes de qualquer coisa |
 | 2 | Rotação externa 0° (cotovelo colado ao corpo) [📸](https://s32540.pcdn.co/wp-content/uploads/2018/11/rotacao-externa-com-halteres241118-Copy-1024x430.jpg) | 2 × 15 |
-| 3 | Isometria de abdução (lado da parede) [📸](https://static1.squarespace.com/static/5f5e8592d2b0854b18af6975/5fb7c850d4788b5df8d8af32/61cc8e39d8fd7838e530d37b/1733174875782/Isometric%2BShoulder%2BAbduction.jpg?format=1500w) | 2 × 10s |
-| 4 | Retração escapular [📸](https://www.itcvertebral.com.br/wp-content/uploads/2024/09/retracao-escapular-1-1900x1024.jpg) | 2 × 12 |
-| 5 | Wall slides (serrátil anterior) [📸](https://ksquaredfitness.com/wp-content/uploads/2022/04/Serratus-wall-slide.png) | 2 × 12 |
+| 3 | Rotação interna 0° (cotovelo colado ao corpo, contra batente/elástico) [📸](https://static1.minhavida.com.br/articles/39/76/c9/c4/makatserchykshutterstock-orig-1.jpg) | 2 × 15 — carga LEVE; ativa subescapular (tendinose documentada); mesmo setup da rotação externa, girando para DENTRO |
+| 4 | Isometria de abdução (lado da parede) [📸](https://static1.squarespace.com/static/5f5e8592d2b0854b18af6975/5fb7c850d4788b5df8d8af32/61cc8e39d8fd7838e530d37b/1733174875782/Isometric%2BShoulder%2BAbduction.jpg?format=1500w) | 2 × 10s — força LEVE (RPE 3–4); amplitude ≤ 30–40° (nunca máxima); osteíte reacional ativa na tuberosidade maior |
+| 5 | Retração escapular [📸](https://www.itcvertebral.com.br/wp-content/uploads/2024/09/retracao-escapular-1-1900x1024.jpg) | 2 × 12 |
+| 6 | Wall slides (serrátil anterior) [📸](https://ksquaredfitness.com/wp-content/uploads/2022/04/Serratus-wall-slide.png) | 2 × 12 |
 
 **Regra:** Se qualquer exercício causar dor → não fazer e monitorar.
 
@@ -555,4 +560,207 @@ Quando as sessões formais forem iniciadas (10 sessões prescritas), aplicar os 
 - **Peitoral:** 8 sets/semana é o limite atual de segurança. Para maximizar ganho dentro desse limite: carga progressiva + contração isométrica de 1–2s no pico em todas as reps
 - **Braços:** bíceps 8 sets/semana com 3 variações (martelo + direta + scott) = cobertura de diferentes ângulos; tríceps 6 sets com 2 variações (barra + corda)
 - **Core:** 19 sets/semana na academia + protocolo domiciliar 3×/semana nos dias de descanso
-- **Ciclismo:** leg press 7 sets + mesa flexora 6 sets + extensora 3 sets + abdutora 3 sets + panturrilha 6 sets = base de força para o pedal
+- **Ciclismo:** hip thrust 3 sets + leg press 7 sets + mesa flexora 6 sets + extensora 3 sets + abdutora 5 sets + panturrilha 6 sets = base de força para o pedal
+- **Glúteo máximo:** adicionado hip thrust no Treino D (revisão 04/03/2026) — força de saída no pedal (0°–90° da pedalada); ausência era lacuna crítica
+- **Glúteo médio:** frequência aumentada para 2×/semana (Treino B + D) — estabilidade lateral no selim; 5 sets/semana
+- **Leg press pós-extensora (Treino D):** descansar 90–120s entre extensora e leg press; se fadiga ≥ 8/10 após extensora → tirar 1 série do leg press
+- **Luvas com padding ulnar:** OBRIGATÓRIAS no pedal — proteção do nervo ulnar (handlebar palsy / double crush syndrome)
+
+---
+
+## Parecer Multidisciplinar — Revisão Completa da Série (04/03/2026)
+
+> Avaliação realizada por **5 especialistas**: Personal Trainer, Ortopedista, Fisioterapeuta Preventivo, Coach de Ciclismo e Nutricionista Esportivo. Base clínica: RM ombro/cervical/dorsal (02/02/2026), exames de sangue (10/02/2026), bioimpedância (22/02/2026), US tireoide (03/03/2026). Inclui avaliação dos substitutos de core (cadeira abdutora anti-lateral e máquina de rotação de tronco).
+
+---
+
+### Decisão Unificada
+
+**Série APROVADA para execução** por unanimidade dos 5 agentes. Nota geral: **8,5/10**.
+
+A estrutura técnica está sólida, as restrições de ombro estão corretas, e as compensações terapêuticas são eficazes. Os ajustes abaixo são refinamentos, não reestruturação.
+
+---
+
+### Consenso dos 5 Especialistas
+
+| # | Ponto de consenso |
+|---|---|
+| 1 | Série **APROVADA** — divisão A/B/C/D com frequência 2×/semana por grupo é ideal para o perfil |
+| 2 | Lista de **exercícios suspensos está COMPLETA e CORRETA** — sem omissões |
+| 3 | Substitutos de core (cadeira abdutora anti-lateral + máquina de rotação de tronco) são **SEGUROS e EFICAZES** |
+| 4 | **Fisioterapia formal (10 sessões) é URGENTE** — maior ameaça é a AUSÊNCIA de fisio, não a série |
+| 5 | **CK elevado (480 U/L)** — repetir exame IMEDIATAMENTE (prazo ~10/03 já passou) |
+| 6 | **ENMG do membro superior direito** — prazo até ~10/04/2026 (prioridade alta) |
+| 7 | **Glúteo máximo** adicionado (hip thrust Treino D) — lacuna crítica corrigida |
+| 8 | Volume total (88 sets + 6h pedal) está **no limite superior** para 47 anos com CK elevado |
+| 9 | **Hidratação cronicamente insuficiente** — TBW 45,9 L (meta 46 L); estruturar por horário |
+| 10 | **Vitamina D 5000 UI/dia** mantida; reavaliar abril/2026 |
+
+---
+
+### Achados Novos por Especialidade
+
+#### Personal Trainer
+
+| Achado | Ação recomendada |
+|---|---|
+| **Glúteo máximo ausente** — nenhum exercício isola glúteo máximo na série | Adicionar hip thrust ou elevação pélvica na máquina no Treino D: 3×12–15, tempo 3-1-2, RPE 7 |
+| **Glúteo médio baixa frequência** — apenas 3 sets/semana (Treino B) | Adicionar 2 séries de cadeira abdutora no Treino D (total: 5 sets/semana) |
+| **Volume alto com CK elevado** — 83 sets podem exceder capacidade de recuperação | Se CK > 400 no próximo exame → reduzir 1 série em cada treino upper (83 → 79 sets) |
+| **Exercícios unilaterais ausentes** — todos bilaterais | Após 8–12 semanas: substituir extensora (Treino D) por afundo búlgaro 3×8–10 cada lado |
+| **Cadeira abdutora anti-lateral — execução crítica** | Semanas 1–2: carga MÍNIMA, filmar execução. Tronco DEVE permanecer vertical |
+| **Máquina de rotação — dissociação cervical** | Colocar referência visual no chão à frente para manter olhar fixo. Carga máx 1–2 pinos inicialmente |
+
+**Nota PT:** 8,5/10 — Série tecnicamente forte; principal lacuna é glúteo máximo.
+
+---
+
+#### Ortopedista
+
+| Achado | Ação recomendada |
+|---|---|
+| **Todos os exercícios upper respeitam amplitude segura (<90° abdução)** | ✅ Manter |
+| **Osteíte reacional ativa na tuberosidade maior** — dor noturna pós-treino é sinal de sobrecarga | Se dor noturna persistir → reduzir RPE supino de 6–7 para 5–6; intensificar gelo + omega-3 |
+| **Mesa flexora — apoio facial** | Verificar se máquina tem apoio adequado para rosto. Se não → toalha dobrada ou trocar para flexora sentada |
+| **Double crush syndrome nos dias duplos** — pedal comprime ulnar + upper body à noite | Luvas com padding ulnar OBRIGATÓRIAS; pausas a cada 20 min no pedal; se dormência piorar em dias duplos → separar pedal e upper |
+| **Cadeira extensora pré-exaustão (Treino D)** — fadiga pode comprometer forma no leg press | Descansar 90–120s entre extensora e leg press; NUNCA permitir retroversão pélvica no leg press |
+| **Isometria de abdução (protocolo ativação)** — carga excessiva pode comprimir tuberosidade | Força LEVE (RPE 3–4); amplitude ≤ 30–40°; nunca máxima |
+
+**Decisão ortopédica:** Serie APROVADA. Lista de suspensos COMPLETA. Sem indicação cirúrgica atual.
+
+---
+
+#### Fisioterapeuta Preventivo
+
+| Achado | Ação recomendada |
+|---|---|
+| **Protocolo de ativação 85% completo — FALTA rotação interna 0°** | Adicionar rotação interna 0° com elástico leve (2×15) ao protocolo pré-treino A e C — subescapular tem tendinose documentada |
+| **Compensação da série sem fisio: 7/10** — insuficiente a longo prazo | Sem fisio: 40–50% chance de recuperação completa. Com fisio: 70–85%. **URGENTE iniciar** |
+| **Risco de progressão da rotura sem protocolo excêntrico: 15–20%** | Protocolo excêntrico (Side-Lying Eccentric ER + Eccentric Empty Can) NÃO pode ser feito em academia — requer supervisão |
+| **Risco cervical Modic I → Modic II: 40–50% em 12–24 meses sem terapia manual** | Tração cervical + mobilização Maitland são exclusivos da fisioterapia formal |
+| **Máquina de rotação: bônus terapêutico** | Força rotação torácica D3-D10 em área com hipomobilidade documentada — manter |
+| **Cadeira abdutora anti-lateral: 90% de adequação** | Substituto seguro; elimina completamente mecanismo de lesão do Cable Suitcase Hold |
+
+**Decisão fisioterapêutica:** Serie APROVADA. Risco residual aceito apenas enquanto fisioterapia formal não inicia.
+
+---
+
+#### Coach de Ciclismo
+
+| Achado | Ação recomendada |
+|---|---|
+| **Leg press 7 sets/semana = EXCELENTE** para força de saída no pedal | Manter como prioridade absoluta de pernas |
+| **Equilíbrio quad/isquio 10:6 = proporção ~1,6:1** | ✅ Ideal para ciclismo (referência: 1,5–2:1) |
+| **Tempo 3-1-2 = IDEAL para ciclista** | TUT 6s/rep mimetiza fases do pedal; seguro para articulações; manter |
+| **Transferência ao pedal: forte** | Leg press (saída), mesa flexora (tração), abdutora (estabilidade lateral), panturrilha (tornozelo) |
+| **Dias duplos (Ter/Qua) VIÁVEIS mas no limite** | Monitorar RPE das últimas 2 séries de leg press na Terça. Se RPE >9 por 2 semanas → ajustar |
+| **Ausência de trabalho unilateral** | Após 8–12 semanas: afundo búlgaro 3×8–10 (corrige desbalanceamentos laterais comuns em ciclistas) |
+| **Risco de overtraining: MODERADO** | Deload obrigatório a cada 4 semanas; FC repouso diária; CK seriado |
+| **Periodização anual sugerida** | Mar–Abr: hipertrofia (atual) → Mai–Jun: força máxima (5×6–8) → Jul–Ago: potência (explosivo) → Set+: manutenção |
+
+**Avaliação ciclismo:** Série de pernas 9/10 para transferência ao pedal. Principal lacuna: glúteo máximo.
+
+---
+
+#### Nutricionista Esportivo
+
+| Achado | Ação recomendada |
+|---|---|
+| **Calorias dias de descanso ABAIXO DO IDEAL (2300 kcal)** | Elevar: Qua 2500 kcal, Sáb 2400 kcal, Dom 2300 kcal (recuperação pós-dia duplo) |
+| **Proteína — NÃO reduzir para 170g ainda** | Manter 187g/dia por mais 4 semanas até CK normalizar; depois retornar a 170g |
+| **Lanche pré-treino (17h) com proteína insuficiente (~15g)** | Elevar para 25–30g: adicionar 80–100g peito de peru OU 3 ovos cozidos |
+| **Vitamina C subdosada (500mg/dia)** | Elevar para 1500mg/dia (500mg 3×): com colágeno + almoço + jantar |
+| **Hidratação cronicamente abaixo** — CHCM 36,6 (desidratação leve) | Estruturar por horário: 5000ml dias de pedal, 3500ml outros dias; eletrólitos com Na+K+Mg |
+| **Suplementos a adicionar** | MSM 3–5g/dia (anti-inflamatório tendíneo); Glutamina 10g/dia (recuperação); Cherry Tart 300ml/dia (reduz CK + melhora sono) |
+| **Volume de 83 sets + 6h pedal É SUSTENTÁVEL** | MAS apenas se nutrição, hidratação e sono forem impecáveis. CK 480 = limite da capacidade de recuperação |
+
+**Avaliação nutricional:** Plano conceitualmente excelente; precisa ajustes finos de execução (calorias descanso + hidratação + vitamina C).
+
+---
+
+### Quadro de Ajustes Recomendados — Consolidado
+
+#### Ajustes na Série (por ordem de prioridade)
+
+| # | Ajuste | Treino | Urgência |
+|---|---|---|---|
+| 1 | Adicionar **hip thrust / elevação pélvica** 3×12–15 RPE 7 | D (antes da extensora) | ALTA |
+| 2 | Adicionar **cadeira abdutora** 2×15 | D (após máquina de rotação) | ALTA |
+| 3 | Adicionar **rotação interna 0°** 2×15 elástico leve ao protocolo de ativação | Pré-treino A e C | ALTA |
+| 4 | Verificar **apoio facial da mesa flexora** — se inadequado, usar toalha dobrada | B e D | MODERADA |
+| 5 | **Afundo búlgaro** 3×8–10 cada lado (substituir extensora Treino D) | D | Após 8–12 semanas |
+
+#### Ajustes Nutricionais
+
+| # | Ajuste | Urgência |
+|---|---|---|
+| 1 | Elevar calorias dias de descanso (Qua: 2500, Sáb: 2400) | IMEDIATA |
+| 2 | Manter proteína 187g/dia (não reduzir até CK normalizar) | IMEDIATA |
+| 3 | Lanche pré-treino: elevar proteína para 25–30g | IMEDIATA |
+| 4 | Vitamina C: 1500mg/dia (500mg 3×) | IMEDIATA |
+| 5 | Hidratação estruturada por horário (5L pedal / 3,5L outros) | IMEDIATA |
+| 6 | Adicionar: MSM 3–5g, Glutamina 10g, Cherry Tart 300ml | MODERADA |
+
+#### Exames e Consultas Pendentes
+
+| # | Ação | Prazo | Status |
+|---|---|---|---|
+| 1 | **Repetir CK** | IMEDIATO (prazo ~10/03 já passou) | 🔴 ATRASADO |
+| 2 | **Iniciar fisioterapia** (10 sessões) | IMEDIATO | 🔴 ATRASADO |
+| 3 | **ENMG membro superior direito** | Até ~10/04/2026 | 🔴 URGENTE |
+| 4 | **Consulta endocrinologista** + anti-TPO | 30 dias | 🔴 PENDENTE |
+| 5 | **Retorno ao ortopedista** | IMEDIATO | 🔴 PENDENTE |
+| 6 | Reavaliar Vitamina D | Abril/2026 | ⚠️ PROGRAMADO |
+| 7 | Bioimpedância de controle | ~08/03/2026 | ⚠️ PROGRAMADO |
+| 8 | RM controle ombro | 3–4 meses (~Jun/2026) | ⚠️ PROGRAMADO |
+
+---
+
+### Volume Semanal Atualizado (ajustes já aplicados)
+
+| Grupo | Antes | Agora | Variação |
+|---|---|---|---|
+| Peito | 8 | 8 | = (limite ombro) |
+| Costas | 12 | 12 | = |
+| Tríceps | 6 | 6 | = |
+| Bíceps | 8 | 8 | = |
+| **Glúteo máximo** | **0** | **3** | **+3 (hip thrust Treino D)** |
+| Quadríceps | 10 | 10 | = |
+| Isquiotibiais | 6 | 6 | = |
+| **Glúteo médio** | **3** | **5** | **+2 (abdutora Treino D)** |
+| Panturrilha | 6 | 6 | = |
+| Core abdominal | 12 | 12 | = |
+| Core estabilidade | 7 | 7 | = |
+| **Reabilitação** | **9** | **13** | **+4 (rotação interna 0° no protocolo ativação A e C)** |
+| **TOTAL série** | **83** | **88** | **+5 sets na série principal** |
+
+> **Nota:** Os 4 sets extras de reabilitação (rotação interna 0°) são do protocolo de ativação (aquecimento), não da série principal. Volume da série principal: 88 sets. Se CK > 400 no próximo exame → reduzir 1 série de rosca scott (Treino C) e 1 série de puxada frontal (Treino A ou C), mantendo ~85 sets.
+
+---
+
+### Sinais de Alarme Unificados (5 especialistas concordam)
+
+**PARAR TREINO e procurar atendimento IMEDIATO:**
+- Perda súbita de força no braço direito
+- Dormência progressiva bilateral (ambas as mãos)
+- Alteração de marcha ou incontinência (mielopatia)
+- Dor cervical intensa após trauma (queda MTB)
+
+**REDUZIR RPE e monitorar por 1 semana:**
+- Dor noturna que desperta do sono após treino upper
+- Piora da dormência no mindinho durante ou após exercício
+- DOMS severo persistindo além de 72h
+- Fadiga subjetiva ≥ 7/10 ao chegar na academia (dias duplos)
+- Perda de progressão de carga por 2 semanas consecutivas
+
+---
+
+### Protocolo de Deload (consenso PT + Cycling + Nutri)
+
+**A cada 4 semanas (próximo: ~5ª semana de março/2026):**
+- Reduzir carga 30–40% em TODOS os exercícios
+- Manter volume (sets × reps)
+- Pedal em Z1 (2h conversação fácil)
+- Manter alimentação normal (não reduzir calorias)
+- Se CK normalizado após deload → série validada para próximo ciclo
