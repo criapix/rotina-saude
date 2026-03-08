@@ -7,23 +7,26 @@ title: Plano Nutricional
 
 > Guia informativo. Não substitui nutricionista.
 >
-> **Atualizado 22/02/2026** — ajustado após bioimpedância confirmar recuperação da massa magra (FFM 62,7 kg — meta atingida)
+> **Atualizado 08/03/2026** — ajustado após bioimpedância confirmar melhor resultado do histórico (FFM 63,3 kg — recorde; BF% 13,3% — recorde; TBW 46,4 L — meta atingida; VFL 4 — primeira vez)
 
 ## Resumo
 
-**Dados atuais (Bioimpedância — 22/02/2026):**
-- Peso: 78,2 kg | Idade: 47 anos
-- BF%: 13,9%
-- Massa Magra (FFM): 62,7 kg
+**Dados atuais (Bioimpedância — 08/03/2026):**
+- Peso: 78,4 kg | Idade: 47 anos
+- BF%: 13,3% (recorde)
+- Massa Magra (FFM): 63,3 kg (recorde, acima do range normal)
+- TBW: 46,4 L (meta 46 L atingida)
+- VFL: 4 (primeira vez, era 5)
+- Idade metabólica: 37 (primeira vez, era 38)
 
-**Objetivo:** **Manter FFM acima de 62,5 kg + reduzir gordura progressivamente**
+**Objetivo:** **Manter FFM acima de 63 kg + reverter perda de SSM nos braços + continuar redução de gordura**
 
 **Macronutrientes:**
 - Proteína fixa: **170g/dia** (~2,2 g/kg)
-  - ✅ **Trigger de retorno atingido:** FFM = 62,7 kg (> 62,5 kg). Retornar a 170g/dia a partir de **08/03/2026** (completando 4 semanas do ciclo). Até lá, manter 187g/dia.
+  - ✅ **Retorno a 170g/dia CONFIRMADO** — trigger FFM > 62,5 kg mantido por 2 bioimpedâncias consecutivas (62,7 em 22/02 e 63,3 em 08/03). Ciclo de 4 semanas a 187g/dia concluído com sucesso.
 - Gordura fixa: **~80g/dia**
 - Carboidrato varia conforme o dia
-- Hidratação: **Dias de pedal: 4,0-4,5 L/dia** (incluindo volume durante pedal). Dias de descanso: 3,0-3,5 L/dia. Regra prática: urina clara-palha até as 14h.
+- Hidratação: **Dias de pedal: 4,0-4,5 L/dia** (incluindo volume durante pedal). Dias de descanso: 3,0-3,5 L/dia. Regra prática: urina clara-palha até as 14h. ✅ Meta de TBW 46 L atingida — manter protocolo.
 - Creatina: **5g/dia obrigatório** (retenção intramuscular + preservação de massa magra)
 
 ## Calorias e macros por tipo de dia
@@ -35,7 +38,7 @@ title: Plano Nutricional
 | **Academia** apenas | Seg | 2700 | 170 | 80 | 325 |
 | **Descanso** | Qua, Sáb, Dom | 2300 | 170 | 75 | 236 |
 
-> **Temporariamente elevado para 2400-2500 kcal** nos dias de descanso nas primeiras 4-6 semanas de retorno, até FFM estabilizar.
+> ~~Temporariamente elevado para 2400-2500 kcal nos dias de descanso~~ — **FFM estabilizada acima de 63 kg por 2 bioimpedâncias. Retornar a 2300 kcal nos dias de descanso a partir de 08/03/2026.**
 
 ## Opções de café da manhã
 
@@ -177,26 +180,41 @@ Escolha uma opção:
 - **CHCM levemente alto (36,6):** possível desidratação leve — reforçar hidratação.
 
 ### Próximos passos laboratoriais:
-- **CK:** repetir em 3-4 semanas (monitorar overtraining)
-- **Vitamina D:** reavaliar em 8-12 semanas (dose aumentada para 5000 UI/dia)
-- **US tireoide + anti-TPO:** investigar nódulo incidental (30 dias)
-- **PCR:** ainda não realizado — considerar solicitar próxima avaliação
-- **Próximo painel completo:** Maio/2026 (3 meses)
+- 🔴 **CK:** repetir IMEDIATAMENTE — prazo ~10/03 já chegou (último: 480 U/L em 10/02). Solicitar PCR junto
+- ⚠️ **Vitamina D:** reavaliar abril/2026 (8-12 semanas após dose 5000 UI/dia iniciada em fev/2026)
+- 🔴 **Anti-TPO:** ainda pendente (parênquima heterogêneo sugere tireoidite autoimune)
+- 🔴 **Consulta endocrinologista:** avaliar TIRADS 4 + parênquima heterogêneo
+- 🔴 **ENMG membro superior direito:** prazo até ~10/04/2026
+- ⚠️ **US tireoide controle:** em 6-12 meses (set/2026-mar/2027)
+- 🎯 **Próximo painel completo:** Maio/2026 (3 meses após 10/02)
 
 ## Meta de monitoramento
 
-**Bioimpedância atual (22/02/2026) — resultado:**
-- ✅ FFM: 62,7 kg (meta 62,5 kg **ATINGIDA**)
-- ⚠️ TBW: 45,9 L (meta 46 L — quase lá, apenas 0,1 L abaixo)
-- ✅ BF%: 13,9% (meta ≤ 14,5% **ATINGIDA** — melhor valor do histórico)
+**Bioimpedância 08/03/2026 — resultado (MELHOR DO HISTÓRICO):**
+- ✅ FFM: 63,3 kg (meta >= 63,0 kg **ATINGIDA** — recorde, acima do range normal)
+- ✅ TBW: 46,4 L (meta >= 46 L **ATINGIDA**)
+- ✅ BF%: 13,3% (meta <= 13,5% **ATINGIDA** — recorde)
+- ✅ VFL: 4 (primeira vez abaixo de 5)
+- ✅ VFA: 29,7 cm² (queda contínua: 34,0→30,9→29,7)
+- ✅ Idade metabólica: 37 (primeira vez, -10 anos vs cronológica)
+- ⚠️ SSM: 36,9 kg (queda de 37,8 — perda concentrada nos braços por restrições de ombro)
 
-**Próxima bioimpedância:** ~08/03/2026
-- Meta FFM: ≥ 63,0 kg
-- Meta TBW: ≥ 46 L
-- Meta BF%: ≤ 13,5%
+**Bioimpedância anterior (22/02/2026):**
+- FFM: 62,7 kg | TBW: 45,9 L | BF%: 13,9% | VFL: 5 | SSM: 37,8 kg
 
-**Se metas não atingidas:**
-- Reavaliar calorias (possível déficit excessivo ou insuficiente)
-- Verificar distribuição proteica ao longo do dia
-- Avaliar qualidade do sono e níveis de estresse
-- Considerar manter proteína elevada (187g/dia) por mais 2 semanas
+**Próxima bioimpedância:** ~22/03/2026
+
+| Meta | Alvo | Justificativa |
+|---|---|---|
+| FFM | >= 63,0 kg | Manter (não regredir) |
+| TBW | >= 46,0 L | Manter hidratação |
+| BF% | <= 13,0% | Progressão conservadora |
+| **SSM** | **>= 37,0 kg** | **NOVA META — reverter queda nos braços** |
+| VFA | <= 29,0 cm² | Manter tendência de queda |
+| VFL | 4 | Consolidar no nível 4 |
+
+**Se SSM continuar em queda:**
+- Priorizar liberação de exercícios upper body via fisioterapia (URGENTE)
+- Avaliar se calorias nos dias de treino upper estão suficientes
+- Considerar manter proteína em 187g/dia por mais 2 semanas
+- Verificar qualidade do sono e recuperação

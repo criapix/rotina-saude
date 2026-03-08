@@ -452,69 +452,79 @@ title: Consolidação Clínica
 | 16/11/2025 | 78,0 | 14,3% | 11,2 | 62,2 | 1710 | 5 |
 | 11/01/2026 | 80,3 | 15,9% | 12,7 | 62,8 | 1741 | 5 |
 | 25/01/2026 | 78,8 | 14,0% | 11,0 | 63,1 | 1721 | 5 |
-| **08/02/2026** | **77,8** | **15,6%** | **12,1** | **61,1** | **1707** | **5** |
-| **22/02/2026** | **78,2** | **13,9%** | **10,9** | **62,7** | **1713** | **5** |
+| 08/02/2026 | 77,8 | 15,6% | 12,1 | 61,1 | 1707 | 5 |
+| 22/02/2026 | 78,2 | 13,9% | 10,9 | 62,7 | 1713 | 5 |
+| **08/03/2026** | **78,4** | **13,3%** | **10,4** | **63,3** | **1715** | **4** |
+
+**Análise da tendência (08/03/2026) — MELHOR RESULTADO DO HISTÓRICO:**
+- **FFM atingiu 63,3 kg — NOVO RECORDE e acima do range normal da balança (max 62,0 kg)**
+- **BF% caiu para 13,3% — NOVO RECORDE** (-0,6% em 2 semanas)
+- **FM caiu para 10,4 kg** (-0,5 kg de gordura)
+- **TBW atingiu 46,4 L — META DE 46 L ATINGIDA** (+0,5 L). Razão ECW/ICW melhorou (0,649→0,624 = melhor hidratação intracelular)
+- **VFL caiu para 4** pela primeira vez no histórico (era 5 desde outubro/2025)
+- **VFA em queda contínua:** 34,0→30,9→29,7 cm² (3 medições consecutivas de queda)
+- **Idade metabólica caiu para 37** pela primeira vez (era 38 desde o início) — 10 anos abaixo da cronológica
+- **SSM (músculo esquelético) caiu para 36,9 kg (-0,9 kg)** — perda concentrada nos braços (impedância braço D: 305→331, braço E: 311→332). Pernas ganharam (impedância perna D: 283→279, perna E: 289→283). Compatível com restrições de ombro limitando treino upper body
+- Recomposição corporal perfeita: +0,6 kg de massa magra e -0,5 kg de gordura ao mesmo peso
+- **3 metas atingidas:** FFM >= 63,0 kg, TBW >= 46 L, BF% <= 13,5%
+- **Causa:** protocolo integrado funcionando (proteína 187g, creatina 5g, hidratação estruturada, treino progressivo, omega-3 3g, anti-inflamatório alimentar)
+- **Ações:** retornar proteína para 170g/dia (trigger confirmado por 2 medições); monitorar SSM dos braços — priorizar liberação de exercícios upper body via fisioterapia
 
 **Análise da tendência (22/02/2026):**
-- **FFM recuperou para 62,7 kg — meta de 62,5 kg ATINGIDA** (+1,6 kg de massa magra em 2 semanas)
-- BF caiu para 13,9% (-1,7%) — melhor valor registrado no histórico
+- FFM recuperou para 62,7 kg — meta de 62,5 kg ATINGIDA (+1,6 kg de massa magra em 2 semanas)
+- BF caiu para 13,9% (-1,7%) — melhor valor registrado até então
 - FM caiu para 10,9 kg (-1,2 kg de gordura perdida em 2 semanas)
-- TBW recuperou para 45,9 L (+1,2 L) — hidratação melhorada, próxima da meta de 46 L
+- TBW recuperou para 45,9 L (+1,2 L) — hidratação melhorada
 - SSM (músculo esquelético) recuperou: 37,8 kg (+1,9 kg vs 08/02) — reversão completa do destreinamento
-- VFA caiu para 30,9 cm² (era 34,0 em 08/02) — gordura visceral reduzida
-- **Recomposição corporal no sentido correto:** +1,6 kg de músculo e -1,2 kg de gordura simultaneamente
-- **Causa:** protocolo de retorno funcional (proteína 170-187g, creatina, treino gradual, hidratação)
-- **Ações continuadas:** manter protocolo atual; proteína pode retornar a 170g/dia (trigger FFM>62,5 kg atingido); avaliar na bioimpedância de 08/03
+- VFA caiu para 30,9 cm² (era 34,0 em 08/02)
+- Recomposição corporal no sentido correto
 
 **Análise da tendência (08/02/2026):**
-- **FFM caiu para 61,1 kg — menor valor registrado** (perda de 2,0 kg de massa magra em 2 semanas)
-- BF subiu para 15,6% (+1,6% em 2 semanas); FM aumentou 1,1 kg
-- TBW caiu para 44,7 L (-1,5 L) — sugere componente de desidratação na perda de FFM
-- Peso voltou a 77,8 kg, mas com composição corporal pior que em outubro/2025
-- Perda de massa magra concentrada no tronco (-1,5 kg) — compatível com restrição de treino superior
-- Recomposição no sentido errado: perdeu músculo e ganhou gordura ao mesmo peso
-- **Causa principal:** destreinamento nas últimas 3 semanas (pouca academia e pouco pedal) + restrições de ombro que já limitavam treino superior
-- **Retorno programado:** 09/02/2026 — retomada gradual de pedal e academia
-- **Ações tomadas:** proteína aumentada para 170g/dia, creatina obrigatória, hidratação 3,5 L/dia, volume de pernas aumentado, protocolo de retorno gradual (2 semanas)
+- FFM caiu para 61,1 kg — menor valor registrado (perda de 2,0 kg de massa magra em 2 semanas)
+- Causa principal: destreinamento nas últimas 3 semanas
+- Ações tomadas: proteína aumentada para 187g/dia, creatina obrigatória, hidratação 3,5 L/dia, volume de pernas aumentado
 
 ---
 
-## 14. Status Atual (Fevereiro 2026)
+## 14. Status Atual (Março 2026)
 
 - **Exames (RM ombro, cervical, dorsal):** ✅ REALIZADOS em 02/02/2026
 - **Exames de sangue:** ✅ REALIZADOS em 10/02/2026
 - **US tireoide com Doppler:** ✅ REALIZADO em 03/03/2026 — TIRADS 4 (0,9 cm, lobo direito) + parênquima heterogêneo → endocrinologista + anti-TPO pendentes
-- **Bioimpedância 22/02/2026:** ✅ FFM 62,7 kg (meta atingida!); BF 13,9% (melhor valor do histórico); TBW 45,9 L
+- **Bioimpedância 08/03/2026:** ✅ **MELHOR RESULTADO DO HISTÓRICO** — FFM 63,3 kg (recorde, acima do range normal); BF 13,3% (recorde); TBW 46,4 L (meta atingida); VFL 4 (primeira vez); Idade metabólica 37 (primeira vez)
 - **Fisioterapia (10 sessões prescritas):** ainda não iniciada — **URGENTE**
 - **Dor:** sem dor intensa durante treinos; restrições severas aplicadas após resultados
-- **Atividade:** pedal MTB 3x/semana + academia 3x/semana; protocolo de retorno completo (2 semanas concluídas)
-- **Suplementação:** whey protein + creatina 5g/dia (obrigatório) + protocolo anti-inflamatório
-- **Nutrição:** proteína 170-187g/dia; trigger para retorno a 170g atingido (FFM > 62,5 kg); calorias ajustadas
-- **Hidratação:** alvo 3,5-4,5 L/dia conforme atividade (TBW recuperando: 44,7 → 45,9 L)
-- **Objetivo atual:** **manter/aumentar massa magra acima de 62,5 kg** + recuperação do ombro + continuar redução de BF
+- **Atividade:** pedal MTB 3x/semana + academia 4x/semana (série A/B/C/D); protocolo de retorno concluído
+- **Suplementação:** whey protein + creatina 5g/dia (obrigatório) + protocolo anti-inflamatório completo (omega-3 3g, D3 5000 UI, K2, Mg, colágeno, vit C, zinco)
+- **Nutrição:** proteína retornando de 187g para 170g/dia (trigger confirmado por 2 bioimpedâncias consecutivas com FFM > 62,5 kg); calorias ajustadas por tipo de dia
+- **Hidratação:** alvo atingido — TBW 46,4 L (meta 46 L); manter protocolo estruturado por horário
+- **Objetivo atual:** **manter FFM acima de 63 kg + reverter perda de SSM nos braços (via progressão de fisioterapia e liberação de exercícios upper body) + continuar redução de BF + repetir CK**
 
 ### Pendências prioritárias
 1. ✅ ~~Realizar os exames de RM solicitados pelo ortopedista~~ (concluído 02/02/2026)
 2. ✅ **Parecer multidisciplinar concluído em 08/02/2026** (nutricionista, personal trainer, ortopedista, fisioterapeuta)
 3. ✅ ~~Exames de sangue~~ (concluído 10/02/2026) — **CK elevado (480), Vit D baixa (28,2), HDL baixo (43) requerem acompanhamento**
-4. 🔴 **URGENTE:** Iniciar fisioterapia prescrita (10 sessões) — foco no manguito rotador. Probabilidade de necessitar mais 10 sessões: **60-70%**
+4. 🔴 **URGENTE:** Iniciar fisioterapia prescrita (10 sessões) — foco no manguito rotador. Probabilidade de necessitar mais 10 sessões: **60-70%**. **SSM dos braços em queda (37,8→36,9 kg) reforça urgência — perda muscular nos braços por restrição de treino upper body**
 5. 🔴 **URGENTE:** Retorno ao ortopedista para discussão dos resultados e definição de conduta
-6. ✅ ~~Reverter perda de massa magra~~ — FFM recuperada para 62,7 kg (22/02/2026) — **META ATINGIDA**
-7. 🔴 **Repetir CK em 3-4 semanas** — monitorar overtraining (resultado atual: 480 U/L, ref: 35-232) — janela: até ~10/03/2026
-8. 🔴 **ENMG do membro superior direito** — recomendada em até **60 dias**. Objetivo: diferenciar radiculopatia C8 vs neuropatia ulnar
+6. ✅ ~~Reverter perda de massa magra~~ — FFM recuperada e atingiu recorde de 63,3 kg (08/03/2026) — **META SUPERADA**
+7. 🔴 **Repetir CK IMEDIATAMENTE** — monitorar overtraining (resultado anterior: 480 U/L, ref: 35-232) — **prazo ~10/03 já chegou**
+8. 🔴 **ENMG do membro superior direito** — recomendada em até **60 dias** a partir de 10/02. Objetivo: diferenciar radiculopatia C8 vs neuropatia ulnar — **prazo: até ~10/04/2026**
 9. ✅ ~~**US tireoide com Doppler** — realizado em **03/03/2026**~~
    - Resultado: **TIRADS 4**, nódulo 0,9 cm lobo direito, Chammas IV, parênquima heterogêneo
    - 🔴 **Consulta com endocrinologista** — necessária para avaliar TIRADS 4 e parênquima heterogêneo
    - 🔴 **Anti-TPO** — ainda pendente (parênquima heterogêneo sugere tireoidite autoimune)
    - ⚠️ **US de controle:** em 6–12 meses para monitorar crescimento do nódulo
 10. ⚠️ **Vitamina D reavaliar** em 8-12 semanas a partir de 10/02 (dose aumentada 4000→5000 UI/dia) — janela: abr/2026
-11. ⚠️ **Hidratação:** TBW recuperando (44,7 → 45,9 L); manter alvo 3,5-4,5 L/dia; meta 46 L na próxima bio
-12. ⚠️ **PCR (proteína C reativa):** ainda não realizado — solicitar próxima avaliação
-13. 🎯 **Meta bioimpedância 08/03/2026:** FFM >= 63,0 kg, TBW >= 46 L, BF% <= 13,5%
-14. 🎯 **Próximo painel laboratorial completo:** Maio/2026 (3 meses após 10/02)
+11. ✅ ~~**Hidratação:** TBW atingiu meta de 46 L~~ — TBW 46,4 L em 08/03/2026. Manter protocolo estruturado
+12. ⚠️ **PCR (proteína C reativa):** ainda não realizado — solicitar junto com repetição do CK
+13. ✅ ~~**Meta bioimpedância 08/03/2026:** FFM >= 63,0 kg, TBW >= 46 L, BF% <= 13,5%~~ — **TODAS AS 3 METAS ATINGIDAS** (FFM 63,3 / TBW 46,4 / BF% 13,3%)
+14. 🎯 **Meta bioimpedância ~22/03/2026:** FFM >= 63,0 kg (manter), TBW >= 46 L (manter), BF% <= 13,0%, **SSM >= 37,0 kg (nova meta — reverter queda)**, VFA <= 29 cm², VFL = 4
+15. 🎯 **Próximo painel laboratorial completo:** Maio/2026 (3 meses após 10/02)
 16. ✅ ~~Ajustar série de academia para fase de recuperação~~ → ajustada para volume de pernas (FEITO)
 17. ✅ ~~Ajustar nutrição e pedal pós-bioimpedância 08/02~~ (FEITO)
-18. ⚠️ **Proteína:** trigger FFM>62,5 kg atingido — pode retornar de 187g para 170g/dia (completar 4 semanas: ~08/03)
+18. ✅ ~~**Proteína:** retornar de 187g para 170g/dia~~ — trigger FFM > 62,5 kg confirmado por 2 bioimpedâncias consecutivas (62,7 em 22/02 e 63,3 em 08/03). **Retorno a 170g/dia LIBERADO a partir de 08/03/2026**
+19. ⚠️ **SSM braços em queda** — impedância braço D: 305→331, braço E: 311→332. Monitorar; priorizar liberação de exercícios upper body via fisioterapia
+20. ⚠️ **Deload obrigatório** — programado para 5a semana de março/2026 (reduzir carga 30-40%, manter volume)
 
 ---
 

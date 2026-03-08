@@ -9,6 +9,53 @@ Historico de alteracoes no plano de treino, nutricao e acompanhamento clinico.
 
 ---
 
+## 08/03/2026 — Bioimpedância: melhor resultado do histórico (todas as metas atingidas)
+
+**Contexto:** Avaliação de bioimpedância de 08/03/2026 — sexta medição desde novembro/2025. Todos os indicadores principais atingiram os melhores valores já registrados. As 3 metas definidas em 22/02 foram atingidas.
+
+### Resultados (08/03/2026 vs 22/02/2026)
+- **FFM:** 62,7 → **63,3 kg (+0,6 kg)** — ✅ **RECORDE** (meta >= 63,0 kg atingida; acima do range normal da balança)
+- **BF%:** 13,9% → **13,3% (-0,6%)** — ✅ **RECORDE** (meta <= 13,5% atingida)
+- **FM:** 10,9 → **10,4 kg (-0,5 kg)** — gordura em queda contínua
+- **TBW:** 45,9 → **46,4 L (+0,5 L)** — ✅ **META DE 46 L ATINGIDA** (razão ECW/ICW melhorou: 0,649→0,624)
+- **VFL:** 5 → **4** — primeira vez no nível 4 em todo o histórico
+- **VFA:** 30,9 → **29,7 cm²** — 3 medições consecutivas em queda (34,0→30,9→29,7)
+- **Idade metabólica:** 38 → **37** — primeira vez (10 anos abaixo da cronológica)
+- ⚠️ **SSM:** 37,8 → **36,9 kg (-0,9 kg)** — perda concentrada nos braços (impedância braço D: 305→331, braço E: 311→332); pernas ganharam (perna D: 283→279, perna E: 289→283)
+
+### Análise segmentar
+- **Braços perdendo músculo** — compatível com restrições severas de ombro limitando treino upper body
+- **Pernas ganhando músculo** — série de pernas respondendo bem (leg press 7 sets/sem, hip thrust, extensora, flexora, abdutora)
+- Aumento de FFM é composto por TBW (+0,5 L) + proteína (+0,2 kg) + mineral (+0,05 kg), além do ganho de pernas
+
+### Atualizações realizadas
+
+#### Consolidação Clínica (dados-saude.md)
+- Adicionada linha 08/03/2026 na tabela de evolução da composição corporal
+- Análise de tendência detalhada: melhor resultado do histórico, análise segmentar braços vs pernas
+- Status atual atualizado para março/2026 com novo objetivo (manter FFM > 63 kg + reverter SSM braços)
+- Meta 13 marcada como concluída (3 metas da bio 08/03 atingidas)
+- Nova meta 14: bioimpedância ~22/03/2026 com meta de SSM >= 37,0 kg (nova)
+- Pendência 18 (proteína) marcada como concluída — retorno a 170g/dia liberado
+- Novas pendências: SSM braços em queda (#19), deload obrigatório (#20)
+- Hidratação (#11) marcada como meta atingida
+
+#### Plano Nutricional (Plano nutricional.md)
+- Dados atuais atualizados para bioimpedância 08/03/2026
+- Proteína confirmada em 170g/dia (retorno liberado — trigger confirmado por 2 medições consecutivas)
+- Dias de descanso retornando a 2300 kcal (FFM estabilizada)
+- Metas de monitoramento atualizadas com nova meta SSM >= 37,0 kg
+- Próximos passos laboratoriais atualizados (CK imediato, ENMG, anti-TPO, endocrinologista)
+
+### Próximos passos
+- 🔴 **Repetir CK** — prazo ~10/03 já chegou. Pedir PCR junto
+- 🔴 **Iniciar fisioterapia** — SSM braços em queda reforça urgência de liberar exercícios upper body
+- ✅ **Retornar proteína para 170g/dia** — liberado
+- ⚠️ **Deload obrigatório** — 5a semana de março
+- 🎯 **Próxima bioimpedância:** ~22/03/2026 — meta SSM >= 37,0 kg (reverter queda nos braços)
+
+---
+
 ## 03/03/2026 — Ultrassonografia da Tireoide com Doppler Colorido
 
 **Contexto:** Realização do US de tireoide com Doppler, pendência prioritária identificada desde a RM cervical de 02/02/2026 e reforçada nos exames de sangue de 10/02/2026 (achado incidental de nódulo + TSH/T4L normais).
