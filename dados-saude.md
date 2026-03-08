@@ -16,21 +16,9 @@ title: Consolidação Clínica
 
 ---
 
-## 2. Laudo de RM Torácica (2015 – Resumo Técnico)
+## 2. Laudo de RM Torácica (2015)
 
-**Achados:**
-
-* Alinhamento vertebral normal
-* Altura dos corpos vertebrais preservada
-* **Desidratação discal degenerativa em D5–D6**, com discreta redução de altura
-* Discreta desidratação dos demais discos dorsais
-* **Sem hérnias, sem compressão neural, sem alteração medular**
-
-**Interpretação:**
-
-* Degeneração leve e precoce
-* Estrutura preservada
-* Não explica sintomas neurológicos importantes
+Degeneração discal leve (D5-D6 com discreta redução de altura). Sem hérnias, sem compressão neural. **Achados estáveis** — confirmado pela RM de 2026 (seção 6.2).
 
 ---
 
@@ -104,69 +92,25 @@ title: Consolidação Clínica
 
 ### 6.1 RM Coluna Cervical
 
-**Achados principais:**
+Discopatia degenerativa moderada em **C5-C6 e C6-C7** com Modic I (edema ósseo ativo), uncoartrose bilateral com redução foraminal, protrusões disco-osteofitárias comprimindo saco dural. Sem estenose significativa, sem mielopatia. Achado incidental: nódulo na tireoide (investigado via US em 03/03/2026).
 
-* Retificação/mínima inversão da lordose cervical
-* Osteófitos marginais nos corpos vertebrais
-* **Alterações degenerativas em C5-C6 e C6-C7** com focos de edema ósseo (Modic I)
-* **Uncoartrose bilateral em C5-C6 e C6-C7** com redução da amplitude dos forames neurais correspondentes
-* **Discopatia degenerativa** com desidratação e redução de altura discal em C5-C6 e C6-C7
-* Protrusão discal central em C2-C3 (discreta indentação dural)
-* Protrusão disco-osteofitária em C3-C4 (leve indentação dural)
-* **Protrusões disco-osteofitárias em C5-C6 e C6-C7** (maior à esquerda em C5-C6) comprimindo face anterior do saco dural
-* Canal raquiano sem estenose significativa
-* Medula cervical de espessura e sinal normais
-
-**Achado incidental:**
-* Imagem ovalada hiperintensa no lobo direito da tireoide → **requer ultrassonografia**
-
-**Interpretação:**
-* Doença degenerativa cervical moderada, concentrada em C5-C6 e C6-C7
-* Correlaciona com o episódio de dormência no mindinho (território C8/ulnar)
-* Sem comprometimento medular significativo
+> Laudo completo em `Laudos/laudos_medicos_documentos_markdown.md`
 
 ---
 
 ### 6.2 RM Coluna Dorsal (Torácica)
 
-**Achados principais:**
+Desidratação discal leve D3-D10, **estável desde 2015**. Sem protrusões, sem compressão neural, sem alteração medular. Confirma origem **funcional** da dor torácica (hipomobilidade segmentar).
 
-* Corpos vertebrais com altura preservada
-* Discretos osteófitos marginais
-* **Desidratação parcial dos discos de D3-D4 a D9-D10**
-* **Sem protrusões discais significativas**
-* Canal raquiano e forames neurais dorsais com boa amplitude
-* Medula dorsal de espessura e sinal normais
-
-**Interpretação:**
-* Degeneração discal leve a moderada na região torácica média (D3-D10)
-* **Achados estáveis/comparáveis ao exame de 2015**
-* Confirma origem **funcional** da dor torácica (não estrutural grave)
-* Hipomobilidade e rigidez segmentar permanecem como hipótese principal
+> Laudo completo em `Laudos/laudos_medicos_documentos_markdown.md`
 
 ---
 
 ### 6.3 RM Ombro Direito
 
-**Achados principais:**
+**Rotura parcial bursal do supraespinhal** (~1,0 cm AP), tendinose de 3 tendões (supraespinhal, subescapular, infraespinhal), osteíte reacional na tuberosidade maior, bursite subacromial leve, acrômio tipo II. Labro e articulações preservados. **Síndrome do impacto confirmada** com manguito rotador comprometido.
 
-* **Acrômio tipo II de Bigliani** (morfologia que predispõe ao impacto)
-* **Tendinose do supraespinhal com ROTURA PARCIAL BURSAL**:
-  * Localização: subtotal justainsercional das fibras médias
-  * Dimensão: ~1,0 cm no eixo anteroposterior
-  * Distância da tuberosidade maior: ~0,6 cm
-* **Formação cística subcortical** e **edema ósseo** na tuberosidade maior (osteíte reacional)
-* **Tendinose do subescapular e infraespinhal** (manguito rotador comprometido)
-* **Bursite subacromial-deltoidea leve**
-* Articulações acrômio-clavicular e glenoumeral sem alterações
-* Sem derrame articular significativo
-* Labro glenoide preservado
-
-**Interpretação:**
-* **SÍNDROME DO IMPACTO CONFIRMADA** com lesão estabelecida do manguito rotador
-* Rotura parcial do supraespinhal é achado significativo que requer tratamento específico
-* Comprometimento de 3 tendões do manguito (supraespinhal, subescapular, infraespinhal)
-* Osteíte reacional indica processo inflamatório/degenerativo ativo
+> Laudo completo em `Laudos/laudos_medicos_documentos_markdown.md`
 
 ---
 
@@ -221,46 +165,7 @@ title: Consolidação Clínica
 
 ---
 
-## 8. Protocolo Diário de Mobilidade Torácica (10 minutos)
-
-### 1. Extensão torácica apoiada
-
-* Toalha ou rolo no meio das costas
-* 10–12 repetições lentas
-
-### 2. Rotação torácica em decúbito lateral (Open Book)
-
-* 8–10 repetições por lado
-* Ênfase no lado sintomático
-
-### 3. Mobilidade torácica com respiração costal (quatro apoios)
-
-* 8–10 ciclos respiratórios
-
-### 4. Rotação sentada controlada
-
-* 6–8 repetições por lado
-
-**Regras:**
-
-* Sem dor
-* Sem pressa
-* Sem carga
-
----
-
-## 9. Vídeos de Referência (Mobilidade Torácica)
-
-* **Extensão e rotação torácica – básico:**
-
-  * [https://www.youtube.com/watch?v=Tn46NVrfgxY](https://www.youtube.com/watch?v=Tn46NVrfgxY)
-* **Rotina curta de mobilidade T-spine:**
-
-  * [https://www.youtube.com/watch?v=0OgCdUpVI7Y](https://www.youtube.com/watch?v=0OgCdUpVI7Y)
-* Pesquisar também por:
-
-  * "thoracic mobility exercises"
-  * "T-spine mobility"
+> Protocolo diário de mobilidade torácica: ver `fisioterapia.md` (seção Protocolo Domiciliar)
 
 ---
 
@@ -311,134 +216,22 @@ title: Consolidação Clínica
 | **Tireoide** | ✅ NORMAL | TSH 2,0, T4L 1,19 |
 | **Hemograma** | ✅ NORMAL | CHCM leve alto (36,6) |
 
-### Detalhamento dos Exames
+### Pontos de atenção (ações)
 
-#### Eletrólitos e Minerais
-- **Magnésio:** 2,2 mg/dL (ref: 1,7-2,4) — NORMAL
-- **Cálcio:** 9,5 mg/dL (ref: 8,6-10,3) — NORMAL
-- **Potássio:** 4,1 mEq/L (ref: 3,5-5,1) — NORMAL
-- **Sódio:** 141 mEq/L (ref: 136-145) — NORMAL
+| Marcador | Resultado | Ação |
+|---|---|---|
+| **CK** | 480 U/L (2x ref) | 🔴 Repetir IMEDIATAMENTE + PCR |
+| **HDL** | 43 mg/dL | Omega-3 3g/dia + pedal |
+| **Vitamina D** | 28,2 ng/mL | D3 5000 UI/dia; reavaliar abr/2026 |
+| **CHCM** | 36,6 (leve alto) | Hidratação estruturada |
 
-#### Enzimas Musculares e Hepáticas
-- **CK (Creatina Quinase):** 480 U/L (ref: 35-232) — **ELEVADO** ⚠️
-  - Dano muscular recente ou overtraining
-  - Esperado após treinos intensos, mas está 2x acima do limite
-  - Monitorar em próximo exame (3-4 semanas)
-- **TGP (ALT):** 18 U/L (ref: <45) — NORMAL
-- **TGO (AST):** 21 U/L (ref: <35) — NORMAL
+Demais marcadores normais: eletrólitos, função hepática/renal, hemograma, testosterona, PSA, ferritina. B12 leve elevação (benigna).
 
-#### Função Renal
-- **Creatinina:** 0,99 mg/dL (ref: 0,90-1,30) — NORMAL
-- **Ureia:** 39 mg/dL (ref: 13-43) — NORMAL
-
-#### Controle Glicêmico
-- **Hemoglobina Glicada (HbA1c):** 4,6% (ref: <5,7%) — **EXCELENTE** ✅
-  - Glicemia média estimada: 85 mg/dL
-- **Glicose de Jejum:** 81 mg/dL (ref: 70-99) — NORMAL
-
-#### Perfil Lipídico
-- **Colesterol Total:** 171 mg/dL (ref: <190) — BOM
-- **HDL:** 43 mg/dL (ref: >40) — **LIMÍTROFE BAIXO** ⚠️
-  - Ideal seria >50 mg/dL para proteção cardiovascular
-- **LDL:** 109 mg/dL (risco baixo: <115) — BOM
-- **Triglicerídeos:** 93 mg/dL (ref: <150) — BOM
-- **VLDL:** 19 mg/dL
-- **Não-HDL:** 128 mg/dL (risco baixo: <145) — BOM
-
-#### Outros Marcadores
-- **Ácido Úrico:** 5,7 mg/dL (ref: 4,4-7,6) — NORMAL
-
-#### Hemograma Completo
-**Série Vermelha:**
-- Eritrócitos: 5,06 milhões/mm³ — NORMAL
-- Hemoglobina: 15,6 g/dL — NORMAL
-- Hematócrito: 42,6% — NORMAL
-- VCM: 84,2 µm³ — NORMAL
-- HCM: 30,8 pg — NORMAL
-- **CHCM:** 36,6 g/dL (ref: 31,4-36,0) — **LEVEMENTE ALTO** ⚠️
-  - Pode indicar desidratação leve
-- RDW: 12,3% — NORMAL
-
-**Série Branca:**
-- Leucócitos: 7.200/mm³ — NORMAL
-- Distribuição normal de neutrófilos, linfócitos, eosinófilos, basófilos e monócitos
-
-**Série Plaquetária:**
-- Plaquetas: 212.000/mm³ — NORMAL
-- VPM: 10,8 fL — NORMAL
-
-#### Tireoide
-- **TSH:** 2,00 µUI/mL (ref: 0,38-5,33) — NORMAL
-- **T4 Livre:** 1,19 ng/dL (ref: 0,92-1,68) — NORMAL
-- **⚠️ Nódulo incidental no lobo direito:** requer ultrassonografia (vide RM cervical)
-
-#### Ultrassonografia da Tireoide com Doppler Colorido (03/03/2026)
-- **Nódulo sólido hipoecoico no terço inferior do lobo direito:** 0,9 × 0,6 × 0,5 cm — **TIRADS 4** (risco intermediário)
-  - Mais largo que alto: sinal favorável
-  - Contorno regular, sem calcificações: sinais favoráveis
-  - Vascularização predominantemente central — **Chammas IV**
-- Parênquima **heterogêneo** → possível tireoidite autoimune (Hashimoto) — anti-TPO ainda pendente
-- Sem linfonodomegalias adjacentes. Volume glandular total: 8,6 cm³ (normal)
-- Nódulo < 1,0 cm: PAAF não indicada pelos guidelines ACR TIRADS (PAAF a partir de 1,5 cm para TIRADS 4)
-- **Próximo passo:** avaliação com endocrinologista + anti-TPO + US de controle em 6–12 meses
-
-#### Vitaminas e Reservas
-- **Ferritina:** 292 ng/mL (ref: 30-400) — NORMAL
-- **Vitamina B12:** 838 pg/mL (ref: 197-771) — **LEVEMENTE ELEVADO** ⚠️
-  - Geralmente benigno se não estiver suplementando B12 isolada
-- **Vitamina D (25-OH):** 28,2 ng/mL (ref: 20-60) — **ABAIXO DO IDEAL** ⚠️
-  - Para população de risco (lesões ósseas/tendíneas), ideal: 30-60 ng/mL
-  - Dose ajustada de 4000 para 5000 UI/dia; reavaliar em 8-12 semanas
-
-#### Hormônios
-- **Testosterona Total:** 557 ng/dL (ref 20-49 anos: 249-836) — BOM
-- **Testosterona Livre:** 12,610 ng/dL (ref 20-49 anos: 5,710-17,853) — BOM
-- **SHBG:** 29,8 nmol/L (ref 20-49 anos: 18,3-54,1) — NORMAL
-
-#### Próstata
-- **PSA Total:** 1,56 ng/mL (ref <60 anos: <2,50) — NORMAL
-- **PSA Livre:** 0,30 ng/mL
-
-### Interpretação Clínica Integrada
-
-#### Pontos Positivos
-1. **Excelente controle metabólico:** glicemia e HbA1c no alvo
-2. **Perfil lipídico favorável:** colesterol e triglicerídeos controlados
-3. **Função hepática e renal preservadas**
-4. **Testosterona adequada** para idade (47 anos)
-5. **Tireoide funcionante** (TSH e T4L normais)
-6. **Ausência de anemia ou alterações hematológicas**
-
-#### Pontos de Atenção e Ações Recomendadas
-
-1. **CK elevado (480 U/L) — PRIORIDADE ALTA**
-   - **Significado:** dano muscular recente, overtraining ou treino intenso 24-72h antes da coleta
-   - **Ação:** repetir CK em 3-4 semanas + monitorar hidratação e volume de treino
-   - **Contextualização:** compatível com retorno ao treino após pausa (retomada 09/02, exame 10/02)
-
-2. **HDL baixo (43 mg/dL) — PRIORIDADE MODERADA**
-   - **Significado:** risco cardiovascular aumentado (ideal >50)
-   - **Ação:** manter omega-3 3g/dia, pedal (exercícios aeróbicos), reduzir álcool
-
-3. **Vitamina D abaixo do ideal (28,2 ng/mL) — PRIORIDADE MODERADA**
-   - **Significado:** subótimo para recuperação óssea/tendínea (rotura parcial supraespinhal, osteíte reacional)
-   - **Ação:** dose aumentada de 4000 para 5000 UI/dia; reavaliar em 8-12 semanas
-
-4. **CHCM levemente elevado (36,6 g/dL) — PRIORIDADE BAIXA**
-   - **Significado:** possível desidratação leve no momento da coleta
-   - **Ação:** monitorar hidratação (alvo: 3,5-4,5 L/dia conforme atividade)
-
-5. **Vitamina B12 levemente elevada (838 pg/mL) — PRIORIDADE BAIXA**
-   - **Significado:** geralmente benigno; pode ser variação fisiológica
-   - **Ação:** repetir em próxima avaliação se persistir
-
-### Próximos Passos Laboratoriais
-
-- **CK:** repetir em 3-4 semanas (monitorar overtraining)
-- **Vitamina D:** reavaliar em 8-12 semanas (dose aumentada para 5000 UI/dia)
-- **US tireoide + anti-TPO:** investigar nódulo incidental (30 dias)
-- **PCR (proteína C reativa):** ainda não realizado — considerar próxima avaliação
-- **Próximo painel completo:** Maio/2026 (3 meses)
+#### US Tireoide com Doppler (03/03/2026)
+- Nódulo 0,9 cm lobo direito — **TIRADS 4**, Chammas IV. Contorno regular, sem calcificações
+- Parênquima heterogêneo → possível Hashimoto (anti-TPO pendente)
+- PAAF não indicada (< 1,5 cm para TIRADS 4)
+- **Ação:** endocrinologista + anti-TPO + US controle 6-12 meses
 
 ---
 
@@ -470,19 +263,7 @@ title: Consolidação Clínica
 - **Causa:** protocolo integrado funcionando (proteína 187g, creatina 5g, hidratação estruturada, treino progressivo, omega-3 3g, anti-inflamatório alimentar)
 - **Ações:** retornar proteína para 170g/dia (trigger confirmado por 2 medições); monitorar SSM dos braços — priorizar liberação de exercícios upper body via fisioterapia
 
-**Análise da tendência (22/02/2026):**
-- FFM recuperou para 62,7 kg — meta de 62,5 kg ATINGIDA (+1,6 kg de massa magra em 2 semanas)
-- BF caiu para 13,9% (-1,7%) — melhor valor registrado até então
-- FM caiu para 10,9 kg (-1,2 kg de gordura perdida em 2 semanas)
-- TBW recuperou para 45,9 L (+1,2 L) — hidratação melhorada
-- SSM (músculo esquelético) recuperou: 37,8 kg (+1,9 kg vs 08/02) — reversão completa do destreinamento
-- VFA caiu para 30,9 cm² (era 34,0 em 08/02)
-- Recomposição corporal no sentido correto
-
-**Análise da tendência (08/02/2026):**
-- FFM caiu para 61,1 kg — menor valor registrado (perda de 2,0 kg de massa magra em 2 semanas)
-- Causa principal: destreinamento nas últimas 3 semanas
-- Ações tomadas: proteína aumentada para 187g/dia, creatina obrigatória, hidratação 3,5 L/dia, volume de pernas aumentado
+**Histórico resumido:** 08/02 — pior resultado (FFM 61,1 kg, BF 15,6%) por destreinamento de 3 semanas; ações corretivas tomadas. 22/02 — recuperação completa (FFM 62,7, BF 13,9%, SSM 37,8 kg). Recomposição positiva confirmada.
 
 ---
 
@@ -500,31 +281,23 @@ title: Consolidação Clínica
 - **Hidratação:** alvo atingido — TBW 46,4 L (meta 46 L); manter protocolo estruturado por horário
 - **Objetivo atual:** **manter FFM acima de 63 kg + reverter perda de SSM nos braços (via progressão de fisioterapia e liberação de exercícios upper body) + continuar redução de BF + repetir CK**
 
-### Pendências prioritárias
-1. ✅ ~~Realizar os exames de RM solicitados pelo ortopedista~~ (concluído 02/02/2026)
-2. ✅ **Parecer multidisciplinar concluído em 08/02/2026** (nutricionista, personal trainer, ortopedista, fisioterapeuta)
-3. ✅ ~~Exames de sangue~~ (concluído 10/02/2026) — **CK elevado (480), Vit D baixa (28,2), HDL baixo (43) requerem acompanhamento**
-4. 🔴 **URGENTE:** Iniciar fisioterapia prescrita (10 sessões) — foco no manguito rotador. Probabilidade de necessitar mais 10 sessões: **60-70%**. **SSM dos braços em queda (37,8→36,9 kg) reforça urgência — perda muscular nos braços por restrição de treino upper body**
-5. 🔴 **URGENTE:** Retorno ao ortopedista para discussão dos resultados e definição de conduta
-6. ✅ ~~Reverter perda de massa magra~~ — FFM recuperada e atingiu recorde de 63,3 kg (08/03/2026) — **META SUPERADA**
-7. 🔴 **Repetir CK IMEDIATAMENTE** — monitorar overtraining (resultado anterior: 480 U/L, ref: 35-232) — **prazo ~10/03 já chegou**
-8. 🔴 **ENMG do membro superior direito** — recomendada em até **60 dias** a partir de 10/02. Objetivo: diferenciar radiculopatia C8 vs neuropatia ulnar — **prazo: até ~10/04/2026**
-9. ✅ ~~**US tireoide com Doppler** — realizado em **03/03/2026**~~
-   - Resultado: **TIRADS 4**, nódulo 0,9 cm lobo direito, Chammas IV, parênquima heterogêneo
-   - 🔴 **Consulta com endocrinologista** — necessária para avaliar TIRADS 4 e parênquima heterogêneo
-   - 🔴 **Anti-TPO** — ainda pendente (parênquima heterogêneo sugere tireoidite autoimune)
-   - ⚠️ **US de controle:** em 6–12 meses para monitorar crescimento do nódulo
-10. ⚠️ **Vitamina D reavaliar** em 8-12 semanas a partir de 10/02 (dose aumentada 4000→5000 UI/dia) — janela: abr/2026
-11. ✅ ~~**Hidratação:** TBW atingiu meta de 46 L~~ — TBW 46,4 L em 08/03/2026. Manter protocolo estruturado
-12. ⚠️ **PCR (proteína C reativa):** ainda não realizado — solicitar junto com repetição do CK
-13. ✅ ~~**Meta bioimpedância 08/03/2026:** FFM >= 63,0 kg, TBW >= 46 L, BF% <= 13,5%~~ — **TODAS AS 3 METAS ATINGIDAS** (FFM 63,3 / TBW 46,4 / BF% 13,3%)
-14. 🎯 **Meta bioimpedância ~22/03/2026:** FFM >= 63,0 kg (manter), TBW >= 46 L (manter), BF% <= 13,0%, **SSM >= 37,0 kg (nova meta — reverter queda)**, VFA <= 29 cm², VFL = 4
-15. 🎯 **Próximo painel laboratorial completo:** Maio/2026 (3 meses após 10/02)
-16. ✅ ~~Ajustar série de academia para fase de recuperação~~ → ajustada para volume de pernas (FEITO)
-17. ✅ ~~Ajustar nutrição e pedal pós-bioimpedância 08/02~~ (FEITO)
-18. ✅ ~~**Proteína:** retornar de 187g para 170g/dia~~ — trigger FFM > 62,5 kg confirmado por 2 bioimpedâncias consecutivas (62,7 em 22/02 e 63,3 em 08/03). **Retorno a 170g/dia LIBERADO a partir de 08/03/2026**
-19. ⚠️ **SSM braços em queda** — impedância braço D: 305→331, braço E: 311→332. Monitorar; priorizar liberação de exercícios upper body via fisioterapia
-20. ⚠️ **Deload obrigatório** — programado para 5a semana de março/2026 (reduzir carga 30-40%, manter volume)
+### Pendências ativas
+1. 🔴 **Iniciar fisioterapia** (10 sessões) — foco manguito rotador; SSM braços em queda reforça urgência
+2. 🔴 **Retorno ao ortopedista** — discussão dos resultados e conduta
+3. 🔴 **Repetir CK** + PCR — prazo ~10/03 já chegou (último: 480 U/L)
+4. 🔴 **ENMG membro superior direito** — prazo até ~10/04/2026 (radiculopatia C8 vs neuropatia ulnar)
+5. 🔴 **Consulta endocrinologista** + **anti-TPO** — avaliar TIRADS 4 + parênquima heterogêneo
+6. ⚠️ **Vitamina D reavaliar** — janela abr/2026 (dose 5000 UI/dia desde fev)
+7. ⚠️ **US tireoide controle** — 6-12 meses (set/2026-mar/2027)
+8. ⚠️ **SSM braços em queda** — impedância braço D: 305→331, E: 311→332; priorizar liberação upper body
+9. ⚠️ **Deload obrigatório** — 5a semana de março/2026
+10. 🎯 **Meta bio ~22/03/2026:** FFM >= 63,0 · TBW >= 46 · BF% <= 13,0% · SSM >= 37,0 · VFA <= 29 · VFL = 4
+11. 🎯 **Próximo painel completo:** Maio/2026
+
+### Concluídos (histórico)
+- ✅ RM ombro/cervical/dorsal (02/02), exames de sangue (10/02), US tireoide (03/03), parecer multidisciplinar (08/02)
+- ✅ FFM recuperada (63,3 kg — recorde), TBW 46,4 L (meta atingida), BF% 13,3% (recorde)
+- ✅ Proteína retornada de 187g para 170g/dia, série/nutrição/pedal ajustados
 
 ---
 
@@ -569,7 +342,3 @@ title: Consolidação Clínica
 - **Alteração de marcha ou incontinência** (sinais de mielopatia cervical)
 - **Dor cervical intensa após trauma** (queda no MTB, impacto)
 
----
-
-**Observação final:**
-Este documento serve como base para acompanhamento pessoal, discussão com fisioterapeuta e ajuste de treino. As **restrições de ombro são OBRIGATÓRIAS** devido à rotura parcial confirmada. O retorno aos exercícios de ombro depende de liberação clínica pós-fisioterapia. A **perda de massa magra é preocupante** e requer ação imediata em nutrição, hidratação e estímulo muscular.

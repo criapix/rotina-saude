@@ -9,404 +9,114 @@ Historico de alteracoes no plano de treino, nutricao e acompanhamento clinico.
 
 ---
 
-## 08/03/2026 — Bioimpedância: melhor resultado do histórico (todas as metas atingidas)
+## 08/03/2026 — Bioimpedancia: melhor resultado do historico
 
-**Contexto:** Avaliação de bioimpedância de 08/03/2026 — sexta medição desde novembro/2025. Todos os indicadores principais atingiram os melhores valores já registrados. As 3 metas definidas em 22/02 foram atingidas.
+**Todas as 3 metas atingidas:** FFM 63,3 kg (recorde), BF% 13,3% (recorde), TBW 46,4 L (meta). VFL 4 e idade metabolica 37 pela primeira vez. SSM bracos em queda (-0,9 kg) por restricoes de ombro.
 
-### Resultados (08/03/2026 vs 22/02/2026)
-- **FFM:** 62,7 → **63,3 kg (+0,6 kg)** — ✅ **RECORDE** (meta >= 63,0 kg atingida; acima do range normal da balança)
-- **BF%:** 13,9% → **13,3% (-0,6%)** — ✅ **RECORDE** (meta <= 13,5% atingida)
-- **FM:** 10,9 → **10,4 kg (-0,5 kg)** — gordura em queda contínua
-- **TBW:** 45,9 → **46,4 L (+0,5 L)** — ✅ **META DE 46 L ATINGIDA** (razão ECW/ICW melhorou: 0,649→0,624)
-- **VFL:** 5 → **4** — primeira vez no nível 4 em todo o histórico
-- **VFA:** 30,9 → **29,7 cm²** — 3 medições consecutivas em queda (34,0→30,9→29,7)
-- **Idade metabólica:** 38 → **37** — primeira vez (10 anos abaixo da cronológica)
-- ⚠️ **SSM:** 37,8 → **36,9 kg (-0,9 kg)** — perda concentrada nos braços (impedância braço D: 305→331, braço E: 311→332); pernas ganharam (perna D: 283→279, perna E: 289→283)
-
-### Análise segmentar
-- **Braços perdendo músculo** — compatível com restrições severas de ombro limitando treino upper body
-- **Pernas ganhando músculo** — série de pernas respondendo bem (leg press 7 sets/sem, hip thrust, extensora, flexora, abdutora)
-- Aumento de FFM é composto por TBW (+0,5 L) + proteína (+0,2 kg) + mineral (+0,05 kg), além do ganho de pernas
-
-### Atualizações realizadas
-
-#### Consolidação Clínica (dados-saude.md)
-- Adicionada linha 08/03/2026 na tabela de evolução da composição corporal
-- Análise de tendência detalhada: melhor resultado do histórico, análise segmentar braços vs pernas
-- Status atual atualizado para março/2026 com novo objetivo (manter FFM > 63 kg + reverter SSM braços)
-- Meta 13 marcada como concluída (3 metas da bio 08/03 atingidas)
-- Nova meta 14: bioimpedância ~22/03/2026 com meta de SSM >= 37,0 kg (nova)
-- Pendência 18 (proteína) marcada como concluída — retorno a 170g/dia liberado
-- Novas pendências: SSM braços em queda (#19), deload obrigatório (#20)
-- Hidratação (#11) marcada como meta atingida
-
-#### Plano Nutricional (Plano nutricional.md)
-- Dados atuais atualizados para bioimpedância 08/03/2026
-- Proteína confirmada em 170g/dia (retorno liberado — trigger confirmado por 2 medições consecutivas)
-- Dias de descanso retornando a 2300 kcal (FFM estabilizada)
-- Metas de monitoramento atualizadas com nova meta SSM >= 37,0 kg
-- Próximos passos laboratoriais atualizados (CK imediato, ENMG, anti-TPO, endocrinologista)
-
-### Próximos passos
-- 🔴 **Repetir CK** — prazo ~10/03 já chegou. Pedir PCR junto
-- 🔴 **Iniciar fisioterapia** — SSM braços em queda reforça urgência de liberar exercícios upper body
-- ✅ **Retornar proteína para 170g/dia** — liberado
-- ⚠️ **Deload obrigatório** — 5a semana de março
-- 🎯 **Próxima bioimpedância:** ~22/03/2026 — meta SSM >= 37,0 kg (reverter queda nos braços)
+- Atualizado: `dados-saude.md` (bio, status, pendencias), `Plano nutricional.md` (proteina retornada a 170g, metas)
+- Proximos: repetir CK, iniciar fisio (urgente), deload 5a semana marco
 
 ---
 
-## 03/03/2026 — Ultrassonografia da Tireoide com Doppler Colorido
+## 03/03/2026 — US Tireoide com Doppler
 
-**Contexto:** Realização do US de tireoide com Doppler, pendência prioritária identificada desde a RM cervical de 02/02/2026 e reforçada nos exames de sangue de 10/02/2026 (achado incidental de nódulo + TSH/T4L normais).
+Nodulo 0,9 cm lobo direito — **TIRADS 4**, Chammas IV. Parenquima heterogeneo (possivel Hashimoto). PAAF nao indicada (<1,5 cm).
 
-### Achados do exame
-- **Nódulo sólido hipoecoico** no terço inferior do lobo direito: 0,9 × 0,6 × 0,5 cm
-- Classificação: **TIRADS 4** (risco intermediário)
-- Doppler: **Chammas IV** (vascularização predominantemente central)
-- Características favoráveis: mais largo que alto, contorno regular, sem calcificações
-- Parênquima com **ecogenicidade heterogênea** → sinal possível de tireoidite autoimune
-- Sem linfonodomegalias. Volume glandular total: 8,6 cm³ (normal)
-
-### Interpretação clínica
-- Nódulo TIRADS 4 (0,9 cm): **PAAF não indicada** pelos guidelines ACR TIRADS (threshold para TIRADS 4: ≥ 1,5 cm)
-- Parênquima heterogêneo associado a TSH normal sugere possível tireoidite de Hashimoto em fase eutireoidea → **anti-TPO é decisivo**
-- Função tireoidiana atual normal: TSH 2,0 e T4L 1,19 (exames de 10/02/2026)
-
-### Atualizações realizadas
-- **laudos_medicos_documentos_markdown.md:** adicionado Laudo 4 com US tireoide completo
-- **dados-saude.md:**
-  - Adicionada seção detalhada do US na parte de tireoide (seção 12)
-  - Pendência 9 marcada como ✅ concluída
-  - Novas pendências inseridas: consulta endocrinologista, anti-TPO, US de controle 6–12 meses
-  - Status atual (seção 14) atualizado
-
-### Próximos passos
-- 🔴 **Consulta com endocrinologista** — avaliação do TIRADS 4 + parênquima heterogêneo
-- 🔴 **Anti-TPO** — solicitar no próximo exame de sangue (painel Maio/2026, mas pode antecipar)
-- ⚠️ **US de controle:** em 6–12 meses para monitorar possível crescimento do nódulo
+- Atualizado: `Laudos/` (laudo adicionado), `dados-saude.md` (resultados + pendencias)
+- Proximos: endocrinologista + anti-TPO + US controle 6-12 meses
 
 ---
 
-## 27/02/2026 — Parecer multidisciplinar da série de musculação (3 agentes)
+## 27/02/2026 — Parecer multidisciplinar da serie (3 agentes)
 
-**Contexto:** A seção "Avaliação Clínica" da série de musculação foi expandida para um **Parecer Multidisciplinar completo**, com avaliações independentes de três especialistas considerando todos os documentos clínicos (RM ombro/cervical/torácica, exames de sangue, bioimpedância, protocolo de fisioterapia).
+Avaliacao completa da serie por Personal Trainer, Ortopedista e Fisioterapeuta. **Serie APROVADA.** Analise exercicio-a-exercicio, consenso de 10 pontos.
 
-### Alterações realizadas
-
-#### Série de Musculação (serie-academia.md)
-- Substituída a seção "Avaliação Clínica — Baseada nos Laudos (26/02/2026)" pelo novo **Parecer Multidisciplinar — Avaliação da Série (27/02/2026)**
-- **Agente 1 — Personal Trainer:** análise da estrutura de periodização + avaliação individual de todos os 21 exercícios da série (Treinos A, B, C e D) + pontos de atenção de overtraining (CK 480 U/L) e progressão
-- **Agente 2 — Ortopedista:** avaliação de cada exercício da série frente às lesões (rotura parcial do supraespinhal, discopatia cervical Modic I, discopatia torácica) + alertas de osteíte reacional + critérios de retorno e RM de controle
-- **Agente 3 — Fisioterapeuta:** mapeamento fisioterapêutico de cada compensação integrada na série + análise de risco por estrutura (manguito, cervical, torácica) + avaliação do protocolo de ativação pré-treino + tabela de ajustes por fase da fisioterapia formal
-- **Consenso Multidisciplinar:** 10 pontos de concordância entre os três especialistas, incluindo aprovação da série, urgência da fisioterapia formal e sinais de alarme unificados
+- Atualizado: `serie-academia.md` (parecer integrado — posteriormente removido na limpeza de duplicatas)
 
 ---
 
-## 22/02/2026 — Bioimpedância: meta de massa magra atingida
+## 22/02/2026 — Bioimpedancia: meta de massa magra atingida
 
-**Contexto:** Avaliação de bioimpedância de 22/02/2026 confirmou recuperação completa da massa magra e melhora expressiva da composição corporal após 2 semanas de protocolo de retorno (iniciado 09/02).
+FFM recuperou para 62,7 kg (+1,6 kg). BF% 13,9% (melhor ate entao). TBW 45,9 L. Recomposicao positiva confirmada.
 
-### Resultados (22/02/2026 vs 08/02/2026)
-- **FFM:** 61,1 → **62,7 kg (+1,6 kg)** — ✅ **META DE 62,5 kg ATINGIDA**
-- **BF%:** 15,6% → **13,9% (-1,7%)** — melhor valor do histórico
-- **FM:** 12,1 → **10,9 kg (-1,2 kg)** — perda de gordura significativa
-- **TBW:** 44,7 → **45,9 L (+1,2 L)** — hidratação melhorada (meta: 46 L)
-- **SMM:** 35,8 → **37,8 kg (+2,0 kg)** — massa muscular esquelética recuperada
-- **VFA:** 34,0 → **30,9 cm²** — gordura visceral reduzida
-
-### Atualizações realizadas
-
-#### Consolidação Clínica (dados-saude.md)
-- Adicionada linha 22/02/2026 na tabela de evolução da composição corporal
-- Análise da tendência atualizada (recomposição positiva confirmada)
-- Status atual atualizado: FFM na meta, hidratação recuperando
-- Item 6 das pendências marcado como concluído (reversão da perda de massa magra)
-- Nova meta bioimpedância 08/03/2026: FFM ≥ 63,0 kg, TBW ≥ 46 L, BF% ≤ 13,5%
-
-#### Plano Nutricional (Plano nutricional.md)
-- Dados atuais atualizados para bioimpedância 22/02/2026
-- Trigger de retorno da proteína confirmado (FFM > 62,5 kg atingido)
-- Plano: manter 187g/dia até 08/03 (completar 4 semanas do ciclo) → retornar a 170g/dia
-- Metas de monitoramento atualizadas para próxima bioimpedância (08/03)
-
-### Próximos passos
-- Retornar proteína a 170g/dia em 08/03/2026 (após completar ciclo de 4 semanas)
-- Bioimpedância: ~08/03/2026 — meta FFM ≥ 63,0 kg, TBW ≥ 46 L
-- Repetir CK: até ~10/03/2026 (3-4 semanas após 10/02)
+- Atualizado: `dados-saude.md` (bio + status), `Plano nutricional.md` (trigger proteina confirmado)
 
 ---
 
-## 12/02/2026 — Imagens de referência, redistribuição de rosca direta e adição de core
+## 12/02/2026 — Imagens de referencia + redistribuicao bracos + core
 
-**Contexto:** Adição de fotos ilustrativas (📸) a todos os exercícios para facilitar consulta durante o treino. Redistribuição da rosca direta do Treino B para o Treino A. Reintrodução de exercícios de core (lacuna identificada pelo parecer multidisciplinar de 08/02).
+Fotos (📸) adicionadas a todos os exercicios. Rosca direta movida do Treino B para A. Core reintroduzido (Pallof press academia + protocolo domiciliar).
 
-### Imagens de referência
-- Adicionados links de imagem (📸) a **todos os exercícios** dos Treinos A e B e do protocolo de aquecimento de ombro
-- Objetivo: referência visual rápida durante o treino na academia
-
-### Redistribuição de braços
-- **Movida:** rosca direta do Treino B para o **Treino A** (exercício #8, entre tríceps pulley e rotação externa)
-- **Removida** do Treino B (que já tem rosca scott)
-- Nova distribuição: martelo + direta no A, scott no B
-- Rosca direta separada do martelo pelo tríceps pulley (recuperação do bíceps entre exercícios)
-
-### Core — Reintroduzido (academia + domiciliar)
-- **Academia:** Pallof press (cabo) adicionado aos Treinos A (em pé) e B (meia-ajoelhado) — 2×10 cada lado, RPE 6
-  - Anti-rotação: estabilidade de core sem carga axial, sem envolvimento cervical
-  - Exercício recomendado pelo parecer multidisciplinar (08/02)
-- **Domiciliar:** Novo protocolo de core em casa (~10 min, 3x/semana):
-  - Dead bug 3×8 cada lado (anti-extensão)
-  - Prancha frontal 3×20-30s (isométrico)
-  - Prancha lateral 2×15-20s cada lado (estabilidade lateral)
-  - Bird dog 2×10 cada lado (anti-rotação + anti-extensão)
-- **Justificativa:** core anterior fraco contribui para hipercifose; estabilização é essencial para discopatia cervical e ciclismo
-- Lacuna de core removida da seção "Lacunas remanescentes"
-
-### Resultado
-- Treino A: 10 exercícios (era 9)
-- Treino B: 9 exercícios (era 8)
-- Volume total de bíceps mantido (3 variações, 2x/semana)
-- Core: ~8 sets/semana (4 academia + 4 domiciliar)
+- Atualizado: `serie-academia.md`
 
 ---
 
-## 11/02/2026 — Ajustes nutricionais e suplementação com base nos exames de sangue
+## 11/02/2026 — Ajustes pos-exames de sangue
 
-**Contexto:** Resultados dos exames laboratoriais de 10/02/2026 mostraram alguns pontos de atenção que requerem ajustes na suplementação e monitoramento.
+CK elevado (480), Vit D baixa (28,2), HDL baixo (43). D3 aumentada para 5000 UI. Hidratacao reforcada.
 
-### Principais achados do exame de sangue (10/02/2026)
-- **✅ Pontos positivos:** HbA1c excelente (4,6%), perfil lipídico bom (Col total 171, LDL 109, TG 93), testosterona adequada (557 ng/dL), função hepática e renal normais
-- **⚠️ CK elevado (480 U/L):** dobro do limite superior (ref: 35-232) — indica dano muscular recente ou overtraining; compatível com retorno ao treino em 09/02
-- **⚠️ Vitamina D baixa (28,2 ng/mL):** abaixo do ideal (30-60) para população de risco com lesões ósseas/tendíneas
-- **⚠️ HDL baixo (43 mg/dL):** limítrofe (ideal >50) — risco cardiovascular aumentado
-- **⚠️ CHCM levemente alto (36,6 g/dL):** possível desidratação leve
-
-### Ajustes implementados
-
-#### Suplementação
-- **Vitamina D3:** aumentada de 4000 para **5000 UI/dia**
-  - Reavaliar em 8-12 semanas
-  - Alvo: 30-60 ng/mL (população de risco com rotura parcial supraespinhal + osteíte reacional)
-- **Omega-3:** mantido em 3g EPA+DHA/dia
-  - Dupla função: anti-inflamatório + aumentar HDL
-
-#### Hidratação
-- Reforçada importância da hidratação (CHCM elevado sugere desidratação leve):
-  - Dias de pedal: 4,0-4,5 L/dia
-  - Dias de descanso: 3,0-3,5 L/dia
-  - Regra prática: urina clara-palha até as 14h
-
-### Próximos passos laboratoriais
-1. **CK:** repetir em 3-4 semanas (monitorar overtraining)
-2. **Vitamina D:** reavaliar em 8-12 semanas
-3. **US tireoide + anti-TPO:** investigar nódulo incidental (30 dias)
-4. **PCR:** ainda não realizado — solicitar próxima avaliação
-5. **Próximo painel completo:** Maio/2026 (3 meses)
-
-### Documentação atualizada
-- **dados-saude.md:** adicionada seção completa de exames de sangue (10/02/2026)
-- **Plano nutricional.md:** ajustada suplementação e adicionados resultados dos exames
+- Atualizado: `dados-saude.md` (exames completos), `Plano nutricional.md` (suplementacao)
 
 ---
 
-## 10/02/2026 — Reestruturacao da serie (peito + pernas ciclismo + abdomen + rebalanceamento)
+## 10/02/2026 — Reestruturacao da serie (peito + pernas ciclismo + core)
 
-**Contexto:** Solicitacao de mais exercicios de peitoral, reestruturacao de pernas exclusivamente para performance no ciclismo (com reducao de volume), e adicao de exercicios abdominais. Ajustes propostos pelo personal trainer e **validados pelo fisioterapeuta e ortopedista** quanto ao impacto no ombro (rotura parcial supraespinhal) e coluna (Modic I cervical). Ajustes adicionais a pedido do paciente (substituicoes e remocoes).
+Supino maquina 2x/semana. Pernas reestruturadas para ciclismo (4 exercicios). Costas e bracos equilibrados entre treinos A/B. Core removido a pedido. Validado por fisioterapeuta e ortopedista.
 
-### Peitoral — Supino maquina 2x/semana (~7 sets/semana)
-- **Adicionado:** supino maquina ao Treino A (3x8-10, RPE 5) — frequencia 2x/semana de peito
-- **Aumentado:** supino maquina no Treino B de 2x8-10 para **4x8-10** (nos dias de fisio, manter 2x8-10)
-- Total: 7 sets/semana (limite de seguranca: 8 sets/semana)
-
-### Pernas — Reestruturadas para ciclismo (de 8 para 4 exercicios)
-- **Removidos:** hack squat, stiff com halteres, cadeira abdutora, panturrilha sentada
-- **Mantidos:** leg press 45° (3 series), mesa flexora, cadeira extensora, panturrilha em pe
-- Volume reduzido compensado pelo ciclismo 3x/semana
-
-### Costas — Equilibradas entre os dois treinos
-- **Adicionados ao Treino B:** remada sentada no cabo (3x10-12) + puxada frontal pegada fechada (3x10-12)
-- Treino A ja tinha remada maquina + puxada frontal neutra
-- Total: ~12 sets/semana de costas com frequencia 2x/semana
-
-### Bracos — Equilibrados entre os dois treinos
-- **Adicionados ao Treino A:** rosca martelo (3x10-12) + triceps pulley barra reta (3x12-15)
-- Treino B ja tinha triceps pulley corda + rosca scott + rosca direta
-- Total: biceps 3 variacoes + triceps 2 variacoes, frequencia 2x/semana
-
-### Core — Removido a pedido do paciente
-- **Removidos:** prancha frontal, dead bug, pallof press, elevacao de pernas
-- Core mantido indiretamente via exercicios compostos e ciclismo
-
-### Tempo de treino — Calibrado para ~1 hora
-- Treino A: 8 exercicios (~55-60 min incluindo aquecimento)
-- Treino B: 9 exercicios (~55-60 min incluindo aquecimento)
-
-### Resumo de validacao multidisciplinar
-- Fisioterapeuta: **APROVADO** — volume de pushing (7 sets/sem) dentro do limite de seguranca (8 sets/sem)
-- Ortopedista: **APROVADO** — restricoes de ombro e coluna mantidas integralmente
-- Alerta mantido: NUNCA fisioterapia e exercicios de peito no mesmo dia com <6h de intervalo
+- Atualizado: `serie-academia.md`
 
 ---
 
-## 08/02/2026 — Parecer multidisciplinar (nutricionista, personal trainer, ortopedista, fisioterapeuta)
+## 08/02/2026 — Parecer multidisciplinar (4 especialistas)
 
-**Contexto:** Revisao integrada de TODOS os dados de treino, dieta e saude por equipe de 4 especialistas. Documento completo em `parecer-multidisciplinar-08-02-2026.md`.
+Revisao integrada completa. Documento em `parecer-multidisciplinar-08-02-2026.md`.
 
-### Consenso da equipe — Acoes urgentes
-1. Iniciar fisioterapia (10 sessoes) — IMEDIATA
-2. Retornar ao ortopedista com laudos de RM — esta semana
-3. Agendar US de tireoide (nodulo incidental) — 30 dias
-4. Solicitar ENMG membro superior direito — 60 dias
-5. Reverter perda de massa magra (FFM 61,1 kg) — proximas 4-6 semanas
-
-### Ajustes nutricionais recomendados
-- Proteina: 170g -> **187g/dia (2,4 g/kg)** por 4-6 semanas (resistencia anabolica + destreino + idade)
-- Hidratacao dias pedal: 3,5L -> **4,0-4,5 L/dia**
-- Calorias descanso: 2300 -> **2400-2500 kcal** (temporario ate FFM estabilizar)
-- Omega-3: 1,5-2g -> **3g EPA+DHA/dia** (dose terapeutica anti-inflamatoria)
-- Novos suplementos: **D3 4000UI + K2 200mcg + Mg 400mg + Colageno 15g + Vit C 500mg + Zn 30mg**
-- Adicionar proteina ao lanche das 17h e ao jantar dos dias de descanso
-- Estrategia anti-inflamatoria alimentar (curcuma, gengibre, frutas vermelhas)
-
-### Ajustes no treino de academia
-- Supino maquina: 3x8-10 RPE 6-7 -> **2x8-10 RPE 5 maximo**
-- Rotacao ext. 90 graus: **SUSPENDER ate liberacao da fisio**
-- Tempo 3-1-2: implementar apenas a partir da semana 2
-- Compostos de perna semana 1: reduzir para 3 series
-- Adicionar Pendulo de Codman e wall slides ao aquecimento
-- Lacunas identificadas: serratil anterior, exercicio unilateral de MI, core
-
-### Ajustes no pedal
-- Preferir road/gravel temporariamente (menos impacto)
-- Luvas com padding ulnar (protecao nervo ulnar)
-- Gelo no ombro 15min pos-pedal
-
-### Parecer do fisioterapeuta (adicionado ao time)
-- Protocolo atual avaliado como 70-75% adequado — lacunas criticas identificadas e corrigidas
-- **Protocolo excentrico completo** para rotura parcial do supraespinhal (3 exercicios, 5s excentrica)
-- Cronograma detalhado das **10 sessoes** (4 blocos: avaliacao, movimento ativo, excentrico, alta)
-- Metas temporais e criterios objetivos para cada fase (testes Jobe, Neer, goniometria, DASH)
-- **Protocolo domiciliar** estruturado (manha 15min + noite 10min)
-- Abordagem da dormencia: testes diferenciadores radiculopatia vs neuropatia ulnar
-- Integracao semanal: fisio ideal Seg + Qui (manha), academia a tarde
-- Probabilidade de necessitar mais 10 sessoes: 60-70%
-- Timeline de liberacao de cada exercicio suspenso (semana 4 a 20+)
-- Protocolo pre e pos pedal especifico para as lesoes
-
-### Prognostico ortopedico
-- Ombro: reservado-moderado, tratamento conservador (60-75% sucesso)
-- Cervical: moderado, conservador controla em 70-80%
-- Toracica: bom, origem funcional
-- Sem indicacao cirurgica no momento
+- Acoes urgentes: fisioterapia, retorno ortopedista, US tireoide, ENMG, reverter FFM
+- Ajustes: proteina 187g/dia, omega-3 3g, suplementacao completa, supino conservador, rot. ext. 90° suspensa
+- Atualizado: `serie-academia.md`, `Plano nutricional.md`, `fisioterapia.md` (criada), `Pedal/Rotina de pedaladas.md`
 
 ---
 
 ## 08/02/2026 — Ajuste pos-bioimpedancia + retorno apos pausa
 
-**Contexto:** Bioimpedancia mostrou perda significativa de massa magra (FFM 63,1 -> 61,1 kg) e aumento de gordura (BF 14,0% -> 15,6%) apos 3 semanas de inatividade (pouco pedal e pouca academia). Retomada das atividades em 09/02.
+FFM caiu para 61,1 kg (pior resultado) por destreinamento de 3 semanas. Proteina elevada para 170g, creatina obrigatoria, hidratacao 3,5 L, volume de pernas aumentado.
 
-### Consolidacao Clinica (dados-saude)
-- Adicionada avaliacao 08/02/2026 na tabela de evolucao corporal
-- Analise atualizada: destreinamento como causa principal da perda de massa magra
-- Status atualizado com novas prioridades (reverter perda de FFM, hidratacao)
-- Objetivo alterado para "preservar massa magra + recuperacao do ombro"
-
-### Plano Nutricional
-- Proteina: 150g -> **170g/dia** (~2,2 g/kg) — anti-catabolico
-- Calorias dia academia: 2500 -> **2700 kcal** (reduzir deficit)
-- Calorias dia descanso: 2200 -> **2300 kcal**
-- Creatina: recomendacao -> **obrigatoria 5g/dia**
-- Hidratacao: 3L -> **3,5 L/dia** (TBW em queda)
-- Adicionado whey pos-pedal imediato (30g + banana em 30min)
-- Adicionada caseina/iogurte grego antes de dormir nos dias de treino
-- Regra: proteina distribuida em minimo 4 refeicoes
-- Regra: manter calorias no topo da faixa nas 2 primeiras semanas de retorno
-
-### Serie de Musculacao
-- Hack squat e leg press fixados em **4 series** (era 3-4)
-- RPE compostos de perna: 6-7 -> **7-8**
-- Adicionados ao Treino A: **stiff com halteres** + **panturrilha sentada**
-- Adicionados ao Treino B: **cadeira abdutora** + **panturrilha em pe**
-- Adicionado tempo **3-1-2** nos compostos de perna (mais tempo sob tensao)
-- Adicionado **protocolo de retorno**: semanas 1-2 com 70-80% da carga, manter volume
-- Dias duplos: prioridade em compostos de perna (reduzir acessorios se fadiga, nunca pernas)
-
-### Rotina de Pedaladas
-- Mantido 3x/semana (causa da perda foi inatividade, nao excesso)
-- Adicionado **protocolo de retorno gradual**: sem 1 -> 1h30, sem 2 -> 1h45, sem 3+ -> 2h
-- Whey pos-pedal obrigatorio dentro de 30min
-- Corrigida inconsistencia sobre dias duplos (pedal + academia no mesmo dia e a pratica real)
-- Adicionado alerta de hidratacao (TBW em queda)
+- Atualizado: `dados-saude.md`, `Plano nutricional.md`, `serie-academia.md`, `Pedal/Rotina de pedaladas.md`
 
 ---
 
-## 02/02/2026 — Laudos de ressonancia magnetica
+## 02/02/2026 — Laudos de RM
 
-**Contexto:** Resultados das 3 RMs solicitadas pelo ortopedista (ombro direito, cervical, dorsal).
+3 RMs realizadas: ombro (rotura parcial supraespinhal), cervical (discopatia C5-C7 Modic I), dorsal (estavel desde 2015). Serie reestruturada para recuperacao. Fisioterapia criada.
 
-### Consolidacao Clinica (dados-saude)
-- Adicionados laudos completos: RM cervical, RM dorsal, RM ombro direito
-- Diagnostico integrado atualizado com 3 diagnosticos confirmados
-- Sindrome do impacto com rotura parcial do supraespinhal confirmada
-- Discopatia cervical C5-C6/C6-C7 com protrusoes
-- Discopatia toracica leve D3-D10 (estavel vs 2015)
-- Restricoes criticas de ombro adicionadas
-
-### Serie de Musculacao
-- Serie completamente reestruturada para fase de recuperacao
-- Exercicios overhead e supino com barra suspensos
-- Foco redirecionado para membros inferiores
-- Protocolo de ativacao do manguito rotador adicionado
-- RPE reduzido para todos os exercicios (conservador)
-
-### Rotina de Pedaladas
-- Adicionados cuidados especiais pos-RM
-- Ajustes de bike fit recomendados
-- Tecnica de pilotagem adaptada
-- Sinais de alerta definidos
-- MTB tecnico suspenso temporariamente
-
-### Fisioterapia
-- Pagina criada com protocolos por regiao (cervical, toracica, ombro)
-- 4 fases de reabilitacao do ombro definidas
-- Rotina diaria de mobilidade toracica documentada
-
----
-
-## 25/01/2026 — Bioimpedancia e ajustes
-
-**Contexto:** Bioimpedancia mostrou reversao do pico de peso (80,3 -> 78,8 kg) com melhora da composicao (FFM 63,1 kg, BF 14,0%).
-
-### Consolidacao Clinica
-- Adicionada avaliacao 25/01/2026 na tabela de evolucao
+- Atualizado: `dados-saude.md` (laudos + diagnostico), `serie-academia.md`, `Pedal/`, `fisioterapia.md`
 
 ---
 
 ## 29/01/2026 — Consulta ortopedista
 
-**Contexto:** Prescricao de fisioterapia (10 sessoes), solicitacao de 3 RMs.
+Prescricao de 10 sessoes de fisio + 3 RMs. Suspeita de sindrome do impacto.
 
-### Consolidacao Clinica
-- Adicionada avaliacao do ortopedista
-- Suspeita de sindrome do impacto registrada
-- Exames solicitados documentados
+- Atualizado: `dados-saude.md`
+
+---
+
+## 25/01/2026 — Bioimpedancia
+
+Reversao do pico de peso (80,3→78,8 kg). FFM 63,1 kg, BF 14,0%.
+
+- Atualizado: `dados-saude.md`
 
 ---
 
 ## 11/01/2026 — Bioimpedancia
 
-**Contexto:** Pico de peso em 80,3 kg, BF 15,9%.
+Pico de peso em 80,3 kg, BF 15,9%.
 
-### Consolidacao Clinica
-- Adicionada avaliacao 11/01/2026 na tabela de evolucao
-- Alerta sobre pico de peso e gordura visceral
+- Atualizado: `dados-saude.md`
 
 ---
 
 ## Criacao inicial (2025)
 
-- Dashboard criado como SPA + PWA (Jekyll + GitHub Pages)
-- Paginas: serie de musculacao, plano nutricional, rotina de pedaladas, consolidacao clinica
-- Bioimpedancia historica registrada (ago/2025 em diante)
-- Protocolo de mobilidade toracica documentado
+Dashboard SPA + PWA (Jekyll + GitHub Pages). Paginas: serie de musculacao, plano nutricional, rotina de pedaladas, consolidacao clinica. Bioimpedancia historica (ago/2025+).

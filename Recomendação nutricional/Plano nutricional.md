@@ -152,41 +152,16 @@ Escolha uma opção:
 - Óleos vegetais refinados
 - Álcool (ideal zero com lesão tendínea ativa)
 
-## Exames de sangue (últimos resultados: 10/02/2026)
+## Exames com impacto nutricional (10/02/2026)
 
-| Exame | Resultado | Ref/Alvo | Status |
+| Exame | Resultado | Status | Ação nutricional |
 |---|---|---|---|
-| Hemoglobina Glicada | 4,6% | <5,7% | ✅ Excelente |
-| Glicemia jejum | 81 mg/dL | 70-99 | ✅ Normal |
-| Colesterol Total | 171 mg/dL | <190 | ✅ Bom |
-| HDL | 43 mg/dL | >50 ideal | ⚠️ Baixo |
-| LDL | 109 mg/dL | <115 | ✅ Bom |
-| Triglicerídeos | 93 mg/dL | <150 | ✅ Bom |
-| **CK** | **480 U/L** | 35-232 | ⚠️ **ELEVADO** |
-| Creatinina | 0,99 mg/dL | 0,90-1,30 | ✅ Normal |
-| TGP/TGO | 18/21 U/L | <45/<35 | ✅ Normal |
-| **Vitamina D** | **28,2 ng/mL** | 30-60 ideal | ⚠️ **Abaixo ideal** |
-| Vitamina B12 | 838 pg/mL | 197-771 | ⚠️ Leve elevação |
-| Testosterona Total | 557 ng/dL | 249-836 | ✅ Bom |
-| Testosterona Livre | 12,6 ng/dL | 5,7-17,8 | ✅ Bom |
-| TSH | 2,0 µUI/mL | 0,38-5,33 | ✅ Normal |
-| T4 Livre | 1,19 ng/dL | 0,92-1,68 | ✅ Normal |
-| Ferritina | 292 ng/mL | 30-400 | ✅ Normal |
+| **CK** | 480 U/L (ref 35-232) | ⚠️ ELEVADO | Manter proteína alta + hidratação agressiva + deload |
+| **Vitamina D** | 28,2 ng/mL (ideal 30-60) | ⚠️ BAIXO | D3 5000 UI/dia; reavaliar abril/2026 |
+| **HDL** | 43 mg/dL (ideal >50) | ⚠️ BAIXO | Omega-3 3g/dia + pedal |
+| **CHCM** | 36,6 (ref 31,4-36,0) | ⚠️ LEVE ALTO | Desidratação leve — reforçar hidratação |
 
-### Interpretação dos resultados:
-- **CK elevado (480):** indica dano muscular recente ou overtraining — compatível com retorno ao treino (09/02). Repetir em 3-4 semanas.
-- **HDL baixo (43):** omega-3 3g/dia e pedal ajudam a elevar.
-- **Vitamina D (28,2):** dose aumentada para 5000 UI/dia; reavaliar em 8-12 semanas.
-- **CHCM levemente alto (36,6):** possível desidratação leve — reforçar hidratação.
-
-### Próximos passos laboratoriais:
-- 🔴 **CK:** repetir IMEDIATAMENTE — prazo ~10/03 já chegou (último: 480 U/L em 10/02). Solicitar PCR junto
-- ⚠️ **Vitamina D:** reavaliar abril/2026 (8-12 semanas após dose 5000 UI/dia iniciada em fev/2026)
-- 🔴 **Anti-TPO:** ainda pendente (parênquima heterogêneo sugere tireoidite autoimune)
-- 🔴 **Consulta endocrinologista:** avaliar TIRADS 4 + parênquima heterogêneo
-- 🔴 **ENMG membro superior direito:** prazo até ~10/04/2026
-- ⚠️ **US tireoide controle:** em 6-12 meses (set/2026-mar/2027)
-- 🎯 **Próximo painel completo:** Maio/2026 (3 meses após 10/02)
+> Exames completos e interpretação clínica em `dados-saude.md` seção 12. Pendências laboratoriais em `dados-saude.md` seção 14.
 
 ## Meta de monitoramento
 
