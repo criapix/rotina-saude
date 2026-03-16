@@ -40,7 +40,7 @@ title: Série de Musculação
 
 ## TREINO B — Lower A (Terça + Pedal)
 
-**Foco:** Quadríceps · Isquiotibiais · Glúteo médio · Panturrilha · Core (força e prancha)
+**Foco:** Quadríceps · Isquiotibiais · Glúteo médio · Panturrilha · Core (abdominal)
 
 **Aquecimento:** Bike 5 min + mobilidade dinâmica de quadril e tornozelo (3 min) · **~8 min**
 
@@ -55,9 +55,10 @@ title: Série de Musculação
 | 3 | **Cadeira abdutora** [📸](https://cdn.muscleandstrength.com/sites/default/files/hip-abduction-machine.jpg) | 3 × 15 | Glúteo médio — estabilidade lateral no selim; RPE 7. Fundamental para não balançar no ciclismo. |
 | 4 | **Panturrilha em pé** (máquina) [📸](https://www.mundoboaforma.com.br/wp-content/uploads/2022/10/aparelho-panturrilha.jpg) | 3 × 12–15 | Amplitude completa; estabilidade do tornozelo no pedal. |
 | 5 | **Abdominal na máquina** (crunch machine) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | 3 × 12–15 | Apoio no peito; RPE 6. |
-| 6 | **Prancha frontal** [📸](https://upload.wikimedia.org/wikipedia/commons/8/89/Plank.jpg) | 3 × 30–45s | Glúteos e abdômen contraídos; quadril alinhado. Progredir 5s quando ficar fácil. |
 
-**Volume B:** 19 sets — Quadríceps: 4 · Isquiotibiais: 3 · Glúteo: 3 · Panturrilha: 3 · Core: 6
+> 💡 **Prancha frontal/lateral:** feita no protocolo de core domiciliar (dias de descanso), não na academia.
+
+**Volume B:** 16 sets — Quadríceps: 4 · Isquiotibiais: 3 · Glúteo: 3 · Panturrilha: 3 · Core: 3
 
 ---
 
@@ -101,10 +102,9 @@ title: Série de Musculação
 | 5 | **Cadeira abdutora** [📸](https://cdn.muscleandstrength.com/sites/default/files/hip-abduction-machine.jpg) | 2 × 15 | Glúteo médio — frequência 2×/semana (complementa Treino B); estabilidade lateral no selim. RPE 7. |
 | 6 | **Panturrilha em pé** (máquina) [📸](https://www.mundoboaforma.com.br/wp-content/uploads/2022/10/aparelho-panturrilha.jpg) | 3 × 12–15 | Amplitude completa; frequência 2×/semana. |
 | 7 | **Abdominal na máquina** (crunch machine) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | 3 × 12–15 | Apoio no peito; RPE 6. |
-| 8 | **Cadeira abdutora — anti-lateral unilateral** [📸](https://cdn.muscleandstrength.com/sites/default/files/hip-abduction-machine.jpg) | 2 × 15–20 (cada lado) | ⚠️ Substitui Cable Suitcase Hold (causou dor no ombro). Sentar centralizado; uma perna por vez; **tronco vertical ativo** — não deixar o corpo inclinar ipsilateralmente durante a abertura; mãos sem preensão nos apoios; cervical neutra. |
-| 9 | **Máquina de rotação de tronco** (torso rotation machine) [📸](https://totalpass.com/wp-content/uploads/2025/12/twist1.png) | 2 × 12 (cada lado) | ⚠️ Substitui Cable Chop/Lift (causou dor no ombro). Carga LEVE; antebraços nos suportes (mãos sem preensão ativa); movimento pelo tronco — não pelos ombros; tempo 3-1-2 (3s retorno); **olhar fixo à frente** — cervical NÃO rotaciona junto. |
+| 8 | **Máquina de rotação de tronco** (torso rotation machine) [📸](https://totalpass.com/wp-content/uploads/2025/12/twist1.png) | 2 × 12 (cada lado) | ⚠️ Substitui Cable Chop/Lift (causou dor no ombro). Carga LEVE; antebraços nos suportes (mãos sem preensão ativa); movimento pelo tronco — não pelos ombros; tempo 3-1-2 (3s retorno); **olhar fixo à frente** — cervical NÃO rotaciona junto. |
 
-**Volume D:** 24 sets — Glúteo máximo: 3 · Quadríceps: 6 · Isquiotibiais: 3 · Glúteo médio: 2 · Panturrilha: 3 · Core: 7
+**Volume D:** 22 sets — Glúteo máximo: 3 · Quadríceps: 6 · Isquiotibiais: 3 · Glúteo médio: 2 · Panturrilha: 3 · Core: 5
 
 ---
 
@@ -124,7 +124,7 @@ title: Série de Musculação
 | **Panturrilha** | — | 3 | — | 3 | **6** |
 | **Glúteo médio** | — | 3 | — | 2 | **5** |
 | **Core abdominal** | 3 | 3 | 3 | 3 | **12** |
-| **Core estabilidade** | — | 3 | — | 4 | **7** |
+| **Core estabilidade** | — | — | — | 2 | **2** *(prancha: domiciliar)* |
 | **Reabilitação / terapêutico** | 7 | — | 6 | — | **13** |
 
 ### Mapeamento dos Exercícios que Compensam a Fisioterapia
@@ -220,7 +220,7 @@ Fazer nos dias de descanso (Sex/Sab/Dom) ou antes do pedal. Complementa o core d
 - **Costas:** remadas sentadas ou com apoio; puxadas neutras com cotovelos junto ao corpo
 - **Peito:** supino máquina, cotovelos a 45°, **máximo 8 sets/semana.** Após liberação: pec deck com ROM controlada (cotovelos à frente do plano do ombro)
 - **Braços:** bíceps e tríceps isolados, sem envolver ombro acima de 90°
-- **Core:** abdominal na máquina, prancha frontal/lateral, cadeira abdutora anti-lateral, máquina de rotação de tronco, dead bug, bird dog
+- **Core (academia):** abdominal na máquina, máquina de rotação de tronco · **Core (domiciliar):** prancha frontal/lateral, dead bug, bird dog
 
 ---
 
@@ -254,7 +254,7 @@ Fazer nos dias de descanso (Sex/Sab/Dom) ou antes do pedal. Complementa o core d
 - **Dor noturna persistente após treino:** sinal de alarme → reduzir RPE do supino para 5 e monitorar por 1 semana
 - **Peitoral:** 8 sets/semana é o limite atual de segurança. Para maximizar ganho dentro desse limite: carga progressiva + contração isométrica de 1–2s no pico em todas as reps
 - **Braços:** bíceps 8 sets/semana com 3 variações (martelo + direta + scott) = cobertura de diferentes ângulos; tríceps 6 sets com 2 variações (barra + corda)
-- **Core:** 19 sets/semana na academia + protocolo domiciliar 3×/semana nos dias de descanso
+- **Core:** 14 sets/semana na academia (abdominal + rotação) + protocolo domiciliar 3×/semana (prancha frontal/lateral, dead bug, bird dog)
 - **Ciclismo:** hip thrust 3 sets + leg press 7 sets + mesa flexora 6 sets + extensora 3 sets + abdutora 5 sets + panturrilha 6 sets = base de força para o pedal
 - **Glúteo máximo:** adicionado hip thrust no Treino D (revisão 04/03/2026) — força de saída no pedal (0°–90° da pedalada); ausência era lacuna crítica
 - **Glúteo médio:** frequência aumentada para 2×/semana (Treino B + D) — estabilidade lateral no selim; 5 sets/semana
