@@ -23,18 +23,18 @@ Tempo: **3-1-2** nos compostos de perna (3s excêntrica, 1s pausa, 2s concêntri
 
 **Aquecimento:** bike 5 min + protocolo de ativação manguito (ver abaixo)
 
-| # | Exercício | Séries × Reps | Notas |
-|---|---|---|---|
-| 1 | **Leg press 45°** | 3 × 10–12 [📸](https://treinomestre.com.br/wp-content/uploads/2019/06/leg-press-45.jpg) | Tempo 3-1-2; amplitude completa. |
-| 2 | **Mesa flexora** | 3 × 10–12 [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-da-mesa-flexora1.jpg) | Hamstrings — fase de tração do pedal. |
-| 3 | **Supino máquina** (chest press) | 4 × 8–10 [📸](https://totalpass.com/wp-content/uploads/2025/01/supino-maquina.jpg) | Cotovelos ~45°; RPE 5 máximo. Segurar 1–2s na contração máxima (miolo do peitoral). Mesmas regras do Treino B. Dá frequência 2x/semana de peito. |
-| 4 | **Remada máquina** (cavalinho) | 3 × 10–12 [📸](https://static1.minhavida.com.br/articles/b5/42/64/cf/lio-putrashutterstock-remada-cavalinho-na-maquina-orig-1.jpg) | Cotovelos junto ao corpo. |
-| 5 | **Puxada frontal neutra** | 3 × 10–12 [📸](https://i.ytimg.com/vi/ual2wWatHvo/hq2.jpg?sqp=-oaymwEYCOgCEOgCSFryq4qpAwoIARUAAIhC0AEB&rs=AOn4CLAGvcJLT7geFyIXLk9BtVST1tRQlw) | Pegada neutra, sem forçar. |
-| 6 | **Rosca martelo** | 3 × 10–12 [📸](https://static1.minhavida.com.br/articles/39/76/c9/c4/makatserchykshutterstock-orig-1.jpg) | Pegada neutra; trabalha bíceps + braquial. Sem envolvimento de ombro. |
-| 7 | **Tríceps pulley** (barra reta) | 3 × 12–15 [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-do-triceps-pulley.jpg) | Extensão de cotovelo isolada. Sem envolvimento de ombro. |
-| 8 | **Rosca direta** (barra ou halteres) | 3 × 10–12 [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/08/rosca-direta-com-barra-1.jpg) | Pegada supinada; complementa rosca martelo (ângulo diferente). Separada por tríceps para recuperação do bíceps. |
-| 9 | **Abdominal na máquina** (crunch machine) | 3 × 12–15 [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | Apoio no peito (NÃO na nuca). Flexão de tronco controlada. RPE 6. Sem envolvimento cervical ou de ombro. |
-| 10 | **Rotação externa no cabo** | 2 × 15 [📸](https://s32540.pcdn.co/wp-content/uploads/2018/11/rota%C3%A7aoexterna241118-Copy.jpg) | Carga LEVE (reabilitação). Exercício prescrito pela fisioterapia, executado na academia. Reduzido de 3→2 séries para comportar a 4ª série do supino no tempo de treino. |
+| # | Exercício | Séries × Reps | Notas | Equivalentes |
+|---|---|---|---|---|
+| 1 | **Leg press 45°** | 3 × 10–12 [📸](https://treinomestre.com.br/wp-content/uploads/2019/06/leg-press-45.jpg) | Tempo 3-1-2; amplitude completa. | Hack squat máquina; Prensa horizontal (leg press 180°) |
+| 2 | **Mesa flexora** | 3 × 10–12 [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-da-mesa-flexora1.jpg) | Hamstrings — fase de tração do pedal. | Cadeira flexora (seated leg curl); Stiff com halteres (amplitude parcial, joelhos levemente flexionados) |
+| 3 | **Supino máquina** (chest press) | 4 × 8–10 [📸](https://totalpass.com/wp-content/uploads/2025/01/supino-maquina.jpg) | Cotovelos ~45°; RPE 5 máximo. Segurar 1–2s na contração máxima (miolo do peitoral). Mesmas regras do Treino B. Dá frequência 2x/semana de peito. | Crossover no cabo (cotovelos à frente do plano do ombro, ROM curta); Flexão de braço elevada (mãos em caixa/banco — reduz carga no ombro) |
+| 4 | **Remada máquina** (cavalinho) | 3 × 10–12 [📸](https://static1.minhavida.com.br/articles/b5/42/64/cf/lio-putrashutterstock-remada-cavalinho-na-maquina-orig-1.jpg) | Cotovelos junto ao corpo. | Remada unilateral com haltere (apoio no banco); Remada na máquina convergente |
+| 5 | **Puxada frontal neutra** | 3 × 10–12 [📸](https://i.ytimg.com/vi/ual2wWatHvo/hq2.jpg?sqp=-oaymwEYCOgCEOgCSFryq4qpAwoIARUAAIhC0AEB&rs=AOn4CLAGvcJLT7geFyIXLk9BtVST1tRQlw) | Pegada neutra, sem forçar. | Puxada supinada (pegada bíceps, cotovelos à frente); Remada invertida na máquina Smith (inclinação controlada) |
+| 6 | **Rosca martelo** | 3 × 10–12 [📸](https://static1.minhavida.com.br/articles/39/76/c9/c4/makatserchykshutterstock-orig-1.jpg) | Pegada neutra; trabalha bíceps + braquial. Sem envolvimento de ombro. | Rosca no cabo (pegada neutra, unilateral); Rosca concentrada com haltere |
+| 7 | **Tríceps pulley** (barra reta) | 3 × 12–15 [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-do-triceps-pulley.jpg) | Extensão de cotovelo isolada. Sem envolvimento de ombro. | Tríceps pulley unilateral no cabo (pegada neutra); Extensão de tríceps sentado com haltere (cotovelo fixo, sem elevar o braço) |
+| 8 | **Rosca direta** (barra ou halteres) | 3 × 10–12 [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/08/rosca-direta-com-barra-1.jpg) | Pegada supinada; complementa rosca martelo (ângulo diferente). Separada por tríceps para recuperação do bíceps. | Rosca no cabo baixo (pegada supinada, contração constante); Rosca 21 com barra |
+| 9 | **Abdominal na máquina** (crunch machine) | 3 × 12–15 [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | Apoio no peito (NÃO na nuca). Flexão de tronco controlada. RPE 6. Sem envolvimento cervical ou de ombro. | Abdominal no cabo (kneeling crunch — mãos no peito, sem puxar pela nuca); Elevação de pernas deitado (anti-extensão lombar) |
+| 10 | **Rotação externa no cabo** | 2 × 15 [📸](https://s32540.pcdn.co/wp-content/uploads/2018/11/rota%C3%A7aoexterna241118-Copy.jpg) | Carga LEVE (reabilitação). Exercício prescrito pela fisioterapia, executado na academia. Reduzido de 3→2 séries para comportar a 4ª série do supino no tempo de treino. | Rotação externa com elástico (mesmo movimento, se não houver cabo disponível); Side-lying external rotation com haltere levíssimo |
 
 ---
 
@@ -42,17 +42,17 @@ Tempo: **3-1-2** nos compostos de perna (3s excêntrica, 1s pausa, 2s concêntri
 
 **Aquecimento:** bike 5 min + protocolo de ativação manguito (ver abaixo)
 
-| # | Exercício | Séries × Reps | Notas |
-|---|---|---|---|
-| 1 | **Cadeira extensora** | 3 × 12–15 [📸](https://totalpass.com/br/blog/wp-content/uploads/2024/02/cadeira-extensora-homem.jpg) | Resistência de quadríceps para pedal. |
-| 2 | **Panturrilha em pé** | 3 × 12–15 [📸](https://www.mundoboaforma.com.br/wp-content/uploads/2022/10/aparelho-panturrilha.jpg) | Estabilidade do tornozelo no pedal. |
-| 3 | **Supino máquina** (chest press) | 4 × 8–10 | Cotovelos ~45°, sem ultrapassar linha do ombro. RPE 5 máximo. Nos dias de sessão de fisio, manter 2×8-10. Se dor noturna após sessão, voltar para 2 séries e consultar fisioterapeuta. |
-| 4 | **Remada sentada no cabo** | 3 × 10–12 [📸](https://static.wixstatic.com/media/2edbed_56a6cbe28714421c96fb1f932516ed07~mv2.jpg/v1/fill/w_1000,h_600,al_c,q_85/2edbed_56a6cbe28714421c96fb1f932516ed07~mv2.jpg) | Pegada neutra; cotovelos junto ao corpo. Complementa costas do Treino A. |
-| 5 | **Puxada frontal** (pegada fechada) | 3 × 10–12 [📸](https://treinomestre.com.br/wp-content/uploads/2022/06/puxada-fechada-pegada-supinada.png) | Pegada neutra fechada; complementa remada (puxada vertical). |
-| 6 | **Face pull** (corda) | 3 × 15 [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2019/10/face-pulls.jpg) | Carga LEVE (reabilitação). Não realizar no dia de sessão de fisioterapia. Quando fisio iniciar Fase 2 (semana 5+), reduzir para 2×12. |
-| 7 | **Tríceps pulley** (corda) | 3 × 12–15 [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/10/execucao-do-triceps-corda.jpg) | |
-| 8 | **Rosca scott máquina** | 3 × 10–12 [📸](https://static1.minhavida.com.br/articles/a0/79/bd/2f/makatserchykshutterstock-orig-1.jpg) | |
-| 9 | **Abdominal na máquina** (crunch machine) | 3 × 12–15 [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | Apoio no peito (NÃO na nuca). Flexão de tronco controlada. RPE 6. Sem envolvimento cervical ou de ombro. |
+| # | Exercício | Séries × Reps | Notas | Equivalentes |
+|---|---|---|---|---|
+| 1 | **Cadeira extensora** | 3 × 12–15 [📸](https://totalpass.com/br/blog/wp-content/uploads/2024/02/cadeira-extensora-homem.jpg) | Resistência de quadríceps para pedal. | Step-up na caixa (2 × 10 cada perna); Agachamento goblet com haltere leve (carga axial moderada) |
+| 2 | **Panturrilha em pé** | 3 × 12–15 [📸](https://www.mundoboaforma.com.br/wp-content/uploads/2022/10/aparelho-panturrilha.jpg) | Estabilidade do tornozelo no pedal. | Panturrilha sentada (máquina — recruta mais sóleo); Panturrilha unilateral com haltere no degrau |
+| 3 | **Supino máquina** (chest press) | 4 × 8–10 | Cotovelos ~45°, sem ultrapassar linha do ombro. RPE 5 máximo. Nos dias de sessão de fisio, manter 2×8-10. Se dor noturna após sessão, voltar para 2 séries e consultar fisioterapeuta. | Crossover no cabo (cotovelos à frente do plano do ombro, ROM curta); Flexão de braço elevada (mãos em caixa/banco — reduz carga no ombro) |
+| 4 | **Remada sentada no cabo** | 3 × 10–12 [📸](https://static.wixstatic.com/media/2edbed_56a6cbe28714421c96fb1f932516ed07~mv2.jpg/v1/fill/w_1000,h_600,al_c,q_85/2edbed_56a6cbe28714421c96fb1f932516ed07~mv2.jpg) | Pegada neutra; cotovelos junto ao corpo. Complementa costas do Treino A. | Remada máquina (cavalinho); Remada com haltere unilateral (apoio no banco) |
+| 5 | **Puxada frontal** (pegada fechada) | 3 × 10–12 [📸](https://treinomestre.com.br/wp-content/uploads/2022/06/puxada-fechada-pegada-supinada.png) | Pegada neutra fechada; complementa remada (puxada vertical). | Puxada frontal neutra (triângulo); Pulldown no cabo com triangulo unilateral (alternado) |
+| 6 | **Face pull** (corda) | 3 × 15 [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2019/10/face-pulls.jpg) | Carga LEVE (reabilitação). Não realizar no dia de sessão de fisioterapia. Quando fisio iniciar Fase 2 (semana 5+), reduzir para 2×12. | Band pull-apart com elástico; Crucifixo invertido com halteres levíssimos (debruçado no banco inclinado) |
+| 7 | **Tríceps pulley** (corda) | 3 × 12–15 [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/10/execucao-do-triceps-corda.jpg) | | Tríceps pulley barra reta (já no Treino A — variar para manter frequência); Extensão de tríceps sentado com haltere (cotovelo fixo) |
+| 8 | **Rosca scott máquina** | 3 × 10–12 [📸](https://static1.minhavida.com.br/articles/a0/79/bd/2f/makatserchykshutterstock-orig-1.jpg) | | Rosca scott com barra W (banco scott); Rosca concentrada com haltere |
+| 9 | **Abdominal na máquina** (crunch machine) | 3 × 12–15 [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | Apoio no peito (NÃO na nuca). Flexão de tronco controlada. RPE 6. Sem envolvimento cervical ou de ombro. | Abdominal no cabo (kneeling crunch — mãos no peito, sem puxar pela nuca); Elevação de pernas deitado (anti-extensão lombar) |
 
 ---
 
