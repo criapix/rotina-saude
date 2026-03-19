@@ -32,6 +32,13 @@
 - **Cadeira abdutora anti-lateral unilateral** (substitui Cable Suitcase Hold) — 2×15-20/lado; tronco vertical ativo; mãos sem preensão
 - **Máquina de rotação de tronco** (substitui Cable Chop/Lift) — 2×12/lado; cervical NÃO rotaciona (olhar fixo à frente); tempo 3-1-2; BÔNUS: força hipomobilidade D3-D10
 
+### Novos Exercícios Avaliados (18/03/2026)
+- **Tríceps unilateral no cabo (A5):** APROVADO — cotovelo fixo ao tronco, RPE max 7, parar se formigamento C8/ulnar; reduzir para 2 series enquanto fisioterapia não iniciada
+- **Rosca no cabo supinada (A7):** APROVADO — executar SEMPRE de frente para a polia; braco ao lado do tronco (sem extensão de ombro); cadencia 2-1-3
+- **Rosca hammer no cabo (C8):** APROVADO — opcao mais segura para o complexo anterior do ombro; mesmas restricoes de posicionamento
+- **Cadeira adutora (B6 e D6):** APROVADO — pelve apoiada no encosto; monitorar desconforto lombopelvico
+- **Máquina de rotação de tronco em C (C9):** APROVADO para frequência 2×/semana (Qua+Qui) — dissociação cervical OBRIGATÓRIA em cada repetição; amplitude limitada ao ponto onde cervical começa a ser arrastada
+
 ### Compensações Fisioterapêuticas Integradas na Série
 1. Rotação externa no cabo 0° (3×15, Treino A) → substitui rotação externa com elástico da fisio
 2. Face pull corda leve (2×15, Treino C) → trabalha infraespinhal + retratores escapulares
@@ -112,11 +119,13 @@
 | Série + fisio + ajustes + possível 2º ciclo | **80-85%** |
 
 ### Pendências URGENTES
-1. 🔴 **INICIAR FISIOTERAPIA FORMAL (10 sessões)** — PRIORIDADE MÁXIMA
-2. 🔴 **ENMG membro superior direito** (prazo: 60 dias a partir 10/02/2026)
-3. 🔴 **Repetir CK** em 3-4 semanas (até ~10/03/2026)
-4. ⚠️ Adicionar rotação interna 0° ao protocolo de ativação
-5. ⚠️ Ajustar tempo 3-1-2 no supino e rotação externa cabo
+1. INICIAR FISIOTERAPIA FORMAL (10 sessões) — PRIORIDADE MÁXIMA
+2. ENMG membro superior direito — prazo 10/04/2026 (URGENTE, agendar imediatamente)
+3. Repetir CK — prazo já passou (10/03/2026), fazer na próxima semana
+4. Rotação interna 0° JÁ incluída no protocolo de ativação (2×15) — aprovado, não progredir sem avaliação presencial
+5. Ajustar tempo 3-1-2 no supino e rotação externa cabo
+6. Reduzir 1 rosca de bíceps no Treino A (volume de ombro elevado sem fisioterapia em curso)
+7. Reduzir tríceps unilateral cabo para 2 series (enquanto fisioterapia não iniciada)
 
 ### Padrões Identificados
 - **Rotura parcial do manguito:** Protocolo excêntrico é ESSENCIAL — não pode ser replicado em academia

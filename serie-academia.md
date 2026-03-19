@@ -7,7 +7,7 @@ title: Série de Musculação
 
 > ⚠️ **SÉRIE ADAPTADA** para proteção do manguito rotador (rotura parcial do supraespinhal) e coluna cervicotorácica degenerativa
 >
-> **Atualizada 04/03/2026** — Corrigida após revisão multidisciplinar (5 agentes): adicionados hip thrust e cadeira abdutora no Treino D; rotação interna 0° no protocolo de ativação; ajuste de notas biomecânicas
+> **Atualizada 18/03/2026** — Ajuste de duração: todas as séries ~80 min totais; adicionados cadeira extensora e glúteo kick-back no Treino B; ajuste de volumes em B/C/D
 
 **Objetivos:** Ganho de peitoral e braço · Redução de gordura abdominal · Fortalecimento de core · Melhora de força para ciclismo
 
@@ -22,7 +22,7 @@ title: Série de Musculação
 
 **Aquecimento:** Bike 5 min + protocolo de ativação manguito (ver abaixo) · **~15 min**
 
-**Tempo estimado do treino: ~65 min**
+**Tempo estimado do treino: ~80 min**
 
 | # | Exercício | Séries × Reps | Notas |
 |---|---|---|---|
@@ -30,11 +30,13 @@ title: Série de Musculação
 | 2 | **Remada cavalinho** (máquina) [📸](https://static1.minhavida.com.br/articles/b5/42/64/cf/lio-putrashutterstock-remada-cavalinho-na-maquina-orig-1.jpg) | 3 × 10–12 | Peito apoiado; cotovelos junto ao corpo; escápulas retraídas no pico. |
 | 3 | **Puxada frontal neutra** [📸](https://i.ytimg.com/vi/ual2wWatHvo/hq2.jpg) | 3 × 10–12 | Pegada neutra; cotovelos apontando para baixo; sem compensar ombro. |
 | 4 | **Tríceps pulley** (barra reta) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-do-triceps-pulley.jpg) | 3 × 12–15 | Cotovelos fixos ao lado do corpo; extensão isolada; sem envolver ombro. |
-| 5 | **Rosca martelo** [📸](https://static1.minhavida.com.br/articles/39/76/c9/c4/makatserchykshutterstock-orig-1.jpg) | 3 × 10–12 | Pegada neutra; trabalha bíceps + braquial; sem movimentar ombro. |
-| 6 | **Rotação externa no cabo** (0°) [📸](https://s32540.pcdn.co/wp-content/uploads/2018/11/rota%C3%A7aoexterna241118-Copy.jpg) | 3 × 15 | Carga LEVE — terapêutico; cotovelo colado ao corpo a 0°. 3 séries para compensar ausência do protocolo excêntrico. |
-| 7 | **Abdominal na máquina** (crunch machine) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | 3 × 12–15 | Apoio no PEITO (nunca na nuca); flexão de tronco controlada; RPE 6. |
+| 5 | **Tríceps unilateral no cabo** | 2 × 12–15 | Braço junto ao corpo; extensão completa; foca em cada lado isoladamente — controle motor diferente do pulley bilateral. |
+| 6 | **Rosca martelo** [📸](https://static1.minhavida.com.br/articles/39/76/c9/c4/makatserchykshutterstock-orig-1.jpg) | 3 × 10–12 | Pegada neutra; trabalha bíceps + braquial; sem movimentar ombro. |
+| 7 | **Rosca no cabo** (polia baixa, pegada supinada) | 3 × 10–12 | Tensão constante em toda a amplitude — diferente do halter que perde tensão no fundo. Complementa o martelo com ângulo supinado. |
+| 8 | **Rotação externa no cabo** (0°) [📸](https://s32540.pcdn.co/wp-content/uploads/2018/11/rota%C3%A7aoexterna241118-Copy.jpg) | 3 × 15 | Carga LEVE — terapêutico; cotovelo colado ao corpo a 0°. 3 séries para compensar ausência do protocolo excêntrico. |
+| 9 | **Abdominal na máquina** (crunch machine) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | 3 × 12–15 | Apoio no PEITO (nunca na nuca); flexão de tronco controlada; RPE 6. |
 
-**Volume A:** 22 sets — Peito: 4 · Costas: 6 · Tríceps: 3 · Bíceps: 3 · Core: 3 · Reabilitação: 3
+**Volume A:** 27 sets — Peito: 4 · Costas: 6 · Tríceps: 5 · Bíceps: 6 · Core: 3 · Reabilitação: 3
 
 ---
 
@@ -46,19 +48,22 @@ title: Série de Musculação
 
 > O protocolo de ativação do manguito **não é necessário** nos treinos Lower.
 
-**Tempo estimado do treino: ~58 min**
+**Tempo estimado do treino: ~80 min**
 
 | # | Exercício | Séries × Reps | Notas |
 |---|---|---|---|
 | 1 | **Leg press 45°** [📸](https://treinomestre.com.br/wp-content/uploads/2019/06/leg-press-45.jpg) | 4 × 10–12 | Tempo 3-1-2; amplitude completa; RPE 7–8. Força de saída no pedal — exercício principal de perna. |
-| 2 | **Mesa flexora** [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-da-mesa-flexora1.jpg) | 3 × 10–12 | Isquiotibiais — fase de tração do pedal; tempo controlado; cabeça apoiada neutra. ⚠️ Verificar se máquina tem apoio facial adequado; se não → toalha dobrada para evitar extensão cervical (C5-C7). |
-| 3 | **Cadeira abdutora** [📸](https://cdn.muscleandstrength.com/sites/default/files/hip-abduction-machine.jpg) | 3 × 15 | Glúteo médio — estabilidade lateral no selim; RPE 7. Fundamental para não balançar no ciclismo. |
-| 4 | **Panturrilha em pé** (máquina) [📸](https://www.mundoboaforma.com.br/wp-content/uploads/2022/10/aparelho-panturrilha.jpg) | 3 × 12–15 | Amplitude completa; estabilidade do tornozelo no pedal. |
-| 5 | **Abdominal na máquina** (crunch machine) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | 3 × 12–15 | Apoio no peito; RPE 6. |
+| 2 | **Cadeira extensora** [📸](https://image.tuasaude.com/media/article/ov/fb/cadeira-extensora_75064.gif) | 3 × 12–15 | Quadríceps isolado — complementa o leg press; RPE 7. Pré-cansa o quadríceps para demandar mais glúteo na sequência. |
+| 3 | **Glúteo kick-back na polia baixa** (cabo) | 2 × 15 (cada lado) | Glúteo máximo — extensão de quadril isolada, sem carga axial. Uma mão no suporte para equilíbrio; tronco levemente inclinado; extensão completa do quadril sem hiperextensão lombar. |
+| 4 | **Mesa flexora** [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-da-mesa-flexora1.jpg) | 3 × 10–12 | Isquiotibiais — fase de tração do pedal; tempo controlado; cabeça apoiada neutra. ⚠️ Verificar se máquina tem apoio facial adequado; se não → toalha dobrada para evitar extensão cervical (C5-C7). |
+| 5 | **Cadeira abdutora** [📸](https://cdn.muscleandstrength.com/sites/default/files/hip-abduction-machine.jpg) | 2 × 15 | Glúteo médio — estabilidade lateral no selim; RPE 7. Fundamental para não balançar no ciclismo. |
+| 6 | **Cadeira adutora** [📸](https://cdn.muscleandstrength.com/sites/default/files/hip-adduction-machine.jpg) | 3 × 15 | Adutores do quadril — complementa a abdutora; estabilidade pélvica no pedal e prevenção de lesão de virilha. RPE 6. |
+| 7 | **Panturrilha em pé** (máquina) [📸](https://www.mundoboaforma.com.br/wp-content/uploads/2022/10/aparelho-panturrilha.jpg) | 3 × 12–15 | Amplitude completa; estabilidade do tornozelo no pedal. |
+| 8 | **Abdominal na máquina** (crunch machine) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | 3 × 12–15 | Apoio no peito; RPE 6. |
 
 > 💡 **Prancha frontal/lateral:** feita no protocolo de core domiciliar (dias de descanso), não na academia.
 
-**Volume B:** 16 sets — Quadríceps: 4 · Isquiotibiais: 3 · Glúteo: 3 · Panturrilha: 3 · Core: 3
+**Volume B:** 23 sets — Glúteo máximo: 2 · Quadríceps: 7 · Isquiotibiais: 3 · Glúteo médio: 2 · Adutores: 3 · Panturrilha: 3 · Core: 3
 
 ---
 
@@ -68,7 +73,7 @@ title: Série de Musculação
 
 **Aquecimento:** Bike 5 min + protocolo de ativação manguito (ver abaixo) · **~15 min**
 
-**Tempo estimado do treino: ~68 min**
+**Tempo estimado do treino: ~80 min**
 
 | # | Exercício | Séries × Reps | Notas |
 |---|---|---|---|
@@ -78,10 +83,12 @@ title: Série de Musculação
 | 4 | **Face pull** (corda) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2019/10/face-pulls.jpg) | 2 × 15 | Carga LEVE — ativa infraespinhal e retratores escapulares. |
 | 5 | **Tríceps pulley** (corda) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/10/execucao-do-triceps-corda.jpg) | 3 × 12–15 | Corda: ativação diferente da cabeça lateral vs. barra do Treino A. |
 | 6 | **Rosca direta** (barra ou halteres) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/08/rosca-direta-com-barra-1.jpg) | 3 × 10–12 | Pegada supinada — ângulo diferente da rosca martelo; pico de bíceps. |
-| 7 | **Rosca scott máquina** [📸](https://static1.minhavida.com.br/articles/a0/79/bd/2f/makatserchykshutterstock-orig-1.jpg) | 2 × 10–12 | Apoio completo do cotovelo; máxima contração do bíceps; sem compensação. |
-| 8 | **Abdominal na máquina** (crunch machine) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | 3 × 12–15 | Apoio no peito; RPE 6. |
+| 7 | **Rosca hammer no cabo** (polia baixa, pegada neutra) | 3 × 10–12 | Tensão constante no braquial + bíceps; grip neutro diferente das roscas supinadas. Cabo varia o vetor de força vs. halter. |
+| 8 | **Rosca scott máquina** [📸](https://static1.minhavida.com.br/articles/a0/79/bd/2f/makatserchykshutterstock-orig-1.jpg) | 2 × 10–12 | Apoio completo do cotovelo; máxima contração do bíceps; sem compensação. Finishing set — vem após o hammer para fatiga máxima. |
+| 9 | **Máquina de rotação de tronco** [📸](https://totalpass.com/wp-content/uploads/2025/12/twist1.png) | 2 × 12 (cada lado) | Core rotacional — frequência 2×/semana (complementa Treino D). Carga LEVE; movimento pelo tronco; cervical fixa à frente. |
+| 10 | **Abdominal na máquina** (crunch machine) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | 3 × 12–15 | Apoio no peito; RPE 6. |
 
-**Volume C:** 23 sets — Peito: 4 · Costas: 6 · Tríceps: 3 · Bíceps: 5 · Core: 3 · Reabilitação: 2
+**Volume C:** 28 sets — Peito: 4 · Costas: 6 · Tríceps: 3 · Bíceps: 8 · Core: 5 · Reabilitação: 2
 
 ---
 
@@ -91,20 +98,21 @@ title: Série de Musculação
 
 **Aquecimento:** Bike 5 min + mobilidade dinâmica de quadril e tornozelo (3 min) · **~8 min**
 
-**Tempo estimado do treino: ~70 min**
+**Tempo estimado do treino: ~80 min**
 
 | # | Exercício | Séries × Reps | Notas |
 |---|---|---|---|
-| 1 | **Hip thrust na máquina** (elevação pélvica) [📸](https://www.hsefitness.com/wp-content/uploads/2024/12/How-to-Use-the-Hip-Thrust-Machine-Correctly-600x400.png) | 3 × 12–15 | Glúteo máximo — força de saída no pedal (0°–90° da pedalada). Tempo 3-1-2; RPE 7. Contrair glúteos no pico 1–2s. Sem hiperextensão lombar. |
+| 1 | **Hip thrust na máquina** (elevação pélvica) [📸](https://www.hsefitness.com/wp-content/uploads/2024/12/How-to-Use-the-Hip-Thrust-Machine-Correctly-600x400.png) | 4 × 12–15 | Glúteo máximo — força de saída no pedal (0°–90° da pedalada). Tempo 3-1-2; RPE 7. Contrair glúteos no pico 1–2s. Sem hiperextensão lombar. |
 | 2 | **Cadeira extensora** [📸](https://image.tuasaude.com/media/article/ov/fb/cadeira-extensora_75064.gif) | 3 × 12–15 | Quadríceps isolado; fase concêntrica do pedal. RPE 7. Pré-cansa antes do composto. |
 | 3 | **Leg press 45°** [📸](https://treinomestre.com.br/wp-content/uploads/2019/06/leg-press-45.jpg) | 3 × 10–12 | Tempo 3-1-2; RPE 7–8. Composto após isolado = maior estímulo com carga menor. ⚠️ NUNCA permitir retroversão pélvica (bunda sair do apoio); parar descida ANTES de perder curva lombar neutra. Descansar 90–120s após extensora. |
-| 4 | **Mesa flexora** [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-da-mesa-flexora1.jpg) | 3 × 10–12 | Isquiotibiais — frequência 2×/semana garante estímulo para fase de tração do pedal. ⚠️ Verificar apoio facial; se inadequado → toalha dobrada para evitar extensão cervical (C5-C7). |
+| 4 | **Mesa flexora** [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-da-mesa-flexora1.jpg) | 4 × 10–12 | Isquiotibiais — frequência 2×/semana garante estímulo para fase de tração do pedal. ⚠️ Verificar apoio facial; se inadequado → toalha dobrada para evitar extensão cervical (C5-C7). |
 | 5 | **Cadeira abdutora** [📸](https://cdn.muscleandstrength.com/sites/default/files/hip-abduction-machine.jpg) | 2 × 15 | Glúteo médio — frequência 2×/semana (complementa Treino B); estabilidade lateral no selim. RPE 7. |
-| 6 | **Panturrilha em pé** (máquina) [📸](https://www.mundoboaforma.com.br/wp-content/uploads/2022/10/aparelho-panturrilha.jpg) | 3 × 12–15 | Amplitude completa; frequência 2×/semana. |
-| 7 | **Abdominal na máquina** (crunch machine) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | 3 × 12–15 | Apoio no peito; RPE 6. |
-| 8 | **Máquina de rotação de tronco** (torso rotation machine) [📸](https://totalpass.com/wp-content/uploads/2025/12/twist1.png) | 2 × 12 (cada lado) | ⚠️ Substitui Cable Chop/Lift (causou dor no ombro). Carga LEVE; antebraços nos suportes (mãos sem preensão ativa); movimento pelo tronco — não pelos ombros; tempo 3-1-2 (3s retorno); **olhar fixo à frente** — cervical NÃO rotaciona junto. |
+| 6 | **Cadeira adutora** [📸](https://cdn.muscleandstrength.com/sites/default/files/hip-adduction-machine.jpg) | 3 × 15 | Adutores do quadril — par com a abdutora; estabilidade pélvica e prevenção de lesão de virilha. RPE 6. |
+| 7 | **Panturrilha em pé** (máquina) [📸](https://www.mundoboaforma.com.br/wp-content/uploads/2022/10/aparelho-panturrilha.jpg) | 3 × 12–15 | Amplitude completa; frequência 2×/semana. |
+| 8 | **Abdominal na máquina** (crunch machine) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | 3 × 12–15 | Apoio no peito; RPE 6. |
+| 9 | **Máquina de rotação de tronco** (torso rotation machine) [📸](https://totalpass.com/wp-content/uploads/2025/12/twist1.png) | 2 × 12 (cada lado) | ⚠️ Substitui Cable Chop/Lift (causou dor no ombro). Carga LEVE; antebraços nos suportes (mãos sem preensão ativa); movimento pelo tronco — não pelos ombros; tempo 3-1-2 (3s retorno); **olhar fixo à frente** — cervical NÃO rotaciona junto. |
 
-**Volume D:** 22 sets — Glúteo máximo: 3 · Quadríceps: 6 · Isquiotibiais: 3 · Glúteo médio: 2 · Panturrilha: 3 · Core: 5
+**Volume D:** 27 sets — Glúteo máximo: 4 · Quadríceps: 6 · Isquiotibiais: 4 · Glúteo médio: 2 · Adutores: 3 · Panturrilha: 3 · Core: 5
 
 ---
 
@@ -113,18 +121,20 @@ title: Série de Musculação
 | Grupo | Treino A (Seg) | Treino B (Ter) | Treino C (Qua) | Treino D (Qui) | **Total** |
 |-------|:-:|:-:|:-:|:-:|:-:|
 | **Peito** | 4 | — | 4 | — | **8** (limite atual) |
-| **Costas horizontal** | 3 | — | 3 | — | 6 |
-| **Costas vertical** | 3 | — | 3 | — | 6 |
+| **Costas horizontal** | 3 | — | 3 | — | **6** |
+| **Costas vertical** | 3 | — | 3 | — | **6** |
 | **Costas total** | 6 | — | 6 | — | **12** |
-| **Tríceps** | 3 | — | 3 | — | **6** |
-| **Bíceps** | 3 | — | 5 | — | **8** |
-| **Glúteo máximo** | — | — | — | 3 | **3** |
-| **Quadríceps** | — | 4 | — | 6 | **10** |
-| **Isquiotibiais** | — | 3 | — | 3 | **6** |
+| **Tríceps** | 5 | — | 3 | — | **8** |
+| **Bíceps** | 6 | — | 8 | — | **14** |
+| **Glúteo máximo** | — | 2 | — | 4 | **6** |
+| **Quadríceps** | — | 7 | — | 6 | **13** |
+| **Isquiotibiais** | — | 3 | — | 4 | **7** |
 | **Panturrilha** | — | 3 | — | 3 | **6** |
-| **Glúteo médio** | — | 3 | — | 2 | **5** |
+| **Glúteo médio** | — | 2 | — | 2 | **4** |
+| **Adutores** | — | 3 | — | 3 | **6** |
 | **Core abdominal** | 3 | 3 | 3 | 3 | **12** |
-| **Core estabilidade** | — | — | — | 2 | **2** *(prancha: domiciliar)* |
+| **Core rotacional** | — | — | 2 | 2 | **4** |
+| **Core estabilidade** | — | — | — | — | *(prancha: domiciliar)* |
 | **Reabilitação / terapêutico** | 7 | — | 6 | — | **13** |
 
 ### Mapeamento dos Exercícios que Compensam a Fisioterapia
@@ -178,7 +188,7 @@ Fazer nos dias de descanso (Sex/Sab/Dom) ou antes do pedal. Complementa o core d
 - **Compostos de perna:** RPE 7–8 — prioridade para força no pedal
 - **Peito (supino máquina):** RPE 6–7 — chave para ganho: progressão constante + 1–2s de contração no pico. Após liberação clínica: adicionar pec deck como isolado de peito
 - **Costas:** RPE 6–7
-- **Braços:** RPE 6–7 — tríceps é o maior músculo do braço; 6 sets + bíceps 8 sets garantem estímulo semanal adequado
+- **Braços:** RPE 6–7 — tríceps é o maior músculo do braço; 9 sets com 3 variações + bíceps 14 sets com 4 variações = máximo estímulo dentro das restrições do ombro
 - **Core:** RPE 6 — foco em qualidade e controle
 - **Reabilitação (rot. ext / face pull):** RPE 4–5 — carga leve sempre, foco em execução
 - **Deload** a cada 4–6 semanas: reduzir carga 30–40% por 1 semana
@@ -253,11 +263,11 @@ Fazer nos dias de descanso (Sex/Sab/Dom) ou antes do pedal. Complementa o core d
 - **Dias duplos Ter/Qua:** comer carboidrato entre pedal e academia (malto, banana, batata-doce). Se fadiga alta, tirar 1 série dos acessórios; manter sempre leg press e supino
 - **Dor noturna persistente após treino:** sinal de alarme → reduzir RPE do supino para 5 e monitorar por 1 semana
 - **Peitoral:** 8 sets/semana é o limite atual de segurança. Para maximizar ganho dentro desse limite: carga progressiva + contração isométrica de 1–2s no pico em todas as reps
-- **Braços:** bíceps 8 sets/semana com 3 variações (martelo + direta + scott) = cobertura de diferentes ângulos; tríceps 6 sets com 2 variações (barra + corda)
+- **Braços:** bíceps 14 sets/semana com 4 variações (martelo + rosca cabo + direta + scott + hammer cabo) = máxima cobertura angular; tríceps 9 sets com 3 variações (barra bilateral + unilateral + corda)
 - **Core:** 14 sets/semana na academia (abdominal + rotação) + protocolo domiciliar 3×/semana (prancha frontal/lateral, dead bug, bird dog)
-- **Ciclismo:** hip thrust 3 sets + leg press 7 sets + mesa flexora 6 sets + extensora 3 sets + abdutora 5 sets + panturrilha 6 sets = base de força para o pedal
-- **Glúteo máximo:** adicionado hip thrust no Treino D (revisão 04/03/2026) — força de saída no pedal (0°–90° da pedalada); ausência era lacuna crítica
-- **Glúteo médio:** frequência aumentada para 2×/semana (Treino B + D) — estabilidade lateral no selim; 5 sets/semana
+- **Ciclismo:** hip thrust 4 sets + kick-back glúteo 2 sets + leg press 7 sets + mesa flexora 6 sets + extensora 6 sets + abdutora 4 sets + adutora 6 sets + panturrilha 6 sets = base de força para o pedal
+- **Glúteo máximo:** hip thrust no Treino D (4 sets) + kick-back cabo no Treino B (2 sets) = 6 sets/semana; lacuna crítica preenchida em ambos os Lower days
+- **Glúteo médio:** 2×/semana (Treino B + D) — estabilidade lateral no selim; 4 sets/semana
 - **Leg press pós-extensora (Treino D):** descansar 90–120s entre extensora e leg press; se fadiga ≥ 8/10 após extensora → tirar 1 série do leg press
 - **Luvas com padding ulnar:** OBRIGATÓRIAS no pedal — proteção do nervo ulnar (handlebar palsy / double crush syndrome)
 
