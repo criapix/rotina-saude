@@ -9,6 +9,16 @@ Historico de alteracoes no plano de treino, nutricao e acompanhamento clinico.
 
 ---
 
+## 02/04/2026 — Foco em correcao de protracao escapular + remocao de fisioterapia
+
+Ombros ainda em protracao apos 2 meses. Diagnostico: faltava trabalho de depressao escapular (trapezio inferior) alem da retracao horizontal. Ajustes aplicados diretamente na serie sem protocolos separados.
+
+- Atualizado: `serie-academia.md` — face pull em A (novo, 2×15) e C (movido para C2, 2×15 → 3×15); cadencia 2-2-3 e cue "ombros no bolso de tras" em ambos; remadas A3/C3 com pausa retracao+depressao e carga -10-15%; puxadas A4/C4 com pre-depressao; cadeira abdutora 2×15 → 3×15 em B e D (gluteo medio 4 → 6 sets/semana); kick-back removido
+- Removido: `fisioterapia.md`; protocolo de ativacao do manguito; tabela de mapeamento fisioterapia-academia; card de fisioterapia no `index.md`; memoria do agente fisioterapeuta
+- Parecer multidisciplinar (Personal Trainer + Ortopedista + Coach de Ciclismo): serie aprovada com os ajustes acima incorporados
+
+---
+
 ## 08/03/2026 — Bioimpedancia: melhor resultado do historico
 
 **Todas as 3 metas atingidas:** FFM 63,3 kg (recorde), BF% 13,3% (recorde), TBW 46,4 L (meta). VFL 4 e idade metabolica 37 pela primeira vez. SSM bracos em queda (-0,9 kg) por restricoes de ombro.
