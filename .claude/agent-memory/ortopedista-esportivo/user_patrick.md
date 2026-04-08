@@ -6,8 +6,8 @@ type: user
 
 ## Dados Pessoais
 - Nome: Patrick Santos Coelho
-- Idade: 47 anos (avaliação 02/04/2026)
-- Altura: 178 cm | Peso: 77,8 kg | BF: 15,6% | FFM: 61,1 kg
+- Idade: 47 anos
+- Altura: 178 cm | Peso: 78,8 kg | BF: 11,7% | FFM: 65,1 kg | SMM: 39,3 kg (bioimpedância 04/04/2026)
 - Ciclista amador + frequentador de academia (4x/semana)
 
 ## Diagnósticos Ortopédicos Ativos
@@ -32,8 +32,8 @@ type: user
 - ENMG recomendada (não confirmado se realizada)
 
 ## Decisão do Paciente
-- Fisioterapia formal: NÃO será realizada (decisão do paciente, registrada em 02/04/2026)
-- Consequência: série de academia precisa compensar ausência de protocolo fisioterapêutico com rigor técnico máximo
+- Fisioterapia formal: ❌ NÃO será realizada (decisão definitiva — 02/04/2026)
+- Consequência: série de academia compensa com rigor técnico máximo (protração escapular, ativação manguito, qualidade mecânica > carga)
 
 ## Restrições Absolutas (exercícios suspensos)
 - Desenvolvimento / shoulder press

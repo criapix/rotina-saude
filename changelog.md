@@ -9,6 +9,16 @@ Historico de alteracoes no plano de treino, nutricao e acompanhamento clinico.
 
 ---
 
+## 04/04/2026 — Bioimpedancia: novo recorde absoluto
+
+**FFM 65,1 kg (novo record), SMM 39,3 kg (novo recorde), BF% 11,7% (novo recorde — proximo ao limite inferior 11%), TBW 47,7 L, VFA 26,7 cm² (−26% desde fev), Idade metabolica 36 (novo minimo).** Reversal completo da queda de SMM dos bracos documentada em marco.
+
+- Atualizado: `dados-saude.md` (tabela bio + analise + status abril), `Plano nutricional.md` (resumo, objetivo, metas)
+- Objetivo muda: de "continuar reduzindo gordura" para "manter FFM/SMM + vigilancia de BF% abaixo de 11%"
+- Proximos: ENMG (~10/04 — iminente), repetir CK (vencido), vitamina D reavaliar (abr), endocrinologista + anti-TPO
+
+---
+
 ## 02/04/2026 — Foco em correcao de protracao escapular + remocao de fisioterapia
 
 Ombros ainda em protracao apos 2 meses. Diagnostico: faltava trabalho de depressao escapular (trapezio inferior) alem da retracao horizontal. Ajustes aplicados diretamente na serie sem protocolos separados.

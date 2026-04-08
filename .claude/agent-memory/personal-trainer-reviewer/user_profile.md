@@ -4,7 +4,7 @@ description: Informações sobre o aluno cujas séries são revisadas — restri
 type: user
 ---
 
-Aluno masculino, pratica ciclismo (Z2 em dias de treino, Ter/Qua/Sex) e musculação 4x/semana (Seg/Ter/Qua/Qui).
+Aluno masculino, pratica ciclismo (Z2 em dias de treino, Ter/Qua/Sex) e musculação 4x/semana (Seg/Ter/Qua/Qui). **Bioimpedância 04/04/2026:** 78,8 kg | BF% 11,7% (próximo ao limite inferior 11%) | FFM 65,1 kg | SMM 39,3 kg (novos recordes absolutos).
 
 **Restrições físicas documentadas:**
 - Rotura parcial do supraespinhal (manguito rotador) — ombro direito presumido

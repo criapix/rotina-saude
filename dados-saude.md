@@ -247,57 +247,55 @@ Demais marcadores normais: eletrólitos, função hepática/renal, hemograma, te
 | 25/01/2026 | 78,8 | 14,0% | 11,0 | 63,1 | 1721 | 5 |
 | 08/02/2026 | 77,8 | 15,6% | 12,1 | 61,1 | 1707 | 5 |
 | 22/02/2026 | 78,2 | 13,9% | 10,9 | 62,7 | 1713 | 5 |
-| **08/03/2026** | **78,4** | **13,3%** | **10,4** | **63,3** | **1715** | **4** |
+| 08/03/2026 | 78,4 | 13,3% | 10,4 | 63,3 | 1715 | 4 |
+| 21/03/2026 | 78,0 | 13,1% | 10,2 | 63,2 | 1710 | 4 |
+| **04/04/2026** | **78,8** | **11,7%** | **9,2** | **65,1** | **1721** | **4** |
 
-**Análise da tendência (08/03/2026) — MELHOR RESULTADO DO HISTÓRICO:**
-- **FFM atingiu 63,3 kg — NOVO RECORDE e acima do range normal da balança (max 62,0 kg)**
-- **BF% caiu para 13,3% — NOVO RECORDE** (-0,6% em 2 semanas)
-- **FM caiu para 10,4 kg** (-0,5 kg de gordura)
-- **TBW atingiu 46,4 L — META DE 46 L ATINGIDA** (+0,5 L). Razão ECW/ICW melhorou (0,649→0,624 = melhor hidratação intracelular)
-- **VFL caiu para 4** pela primeira vez no histórico (era 5 desde outubro/2025)
-- **VFA em queda contínua:** 34,0→30,9→29,7 cm² (3 medições consecutivas de queda)
-- **Idade metabólica caiu para 37** pela primeira vez (era 38 desde o início) — 10 anos abaixo da cronológica
-- **SSM (músculo esquelético) caiu para 36,9 kg (-0,9 kg)** — perda concentrada nos braços (impedância braço D: 305→331, braço E: 311→332). Pernas ganharam (impedância perna D: 283→279, perna E: 289→283). Compatível com restrições de ombro limitando treino upper body
-- Recomposição corporal perfeita: +0,6 kg de massa magra e -0,5 kg de gordura ao mesmo peso
-- **3 metas atingidas:** FFM >= 63,0 kg, TBW >= 46 L, BF% <= 13,5%
-- **Causa:** protocolo integrado funcionando (proteína 187g, creatina 5g, hidratação estruturada, treino progressivo, omega-3 3g, anti-inflamatório alimentar)
-- **Ações:** retornar proteína para 170g/dia (trigger confirmado por 2 medições); monitorar SSM dos braços — priorizar liberação de exercícios upper body via fisioterapia
+**Análise da tendência (04/04/2026) — MELHOR RESULTADO DO HISTÓRICO:**
+- **FFM atingiu 65,1 kg — NOVO RECORDE ABSOLUTO** (+1,8 kg vs recorde anterior de 63,3 em mar/26; muito acima do range normal da balança max 62,0 kg)
+- **BF% caiu para 11,7% — NOVO RECORDE** — ⚠️ próximo ao limite inferior da normalidade (11%); objetivo muda de "continuar reduzindo gordura" para **"prioridade em manutenção/ganho de massa magra"**
+- **FM caiu para 9,2 kg** (-1,2 kg vs 08/03)
+- **TBW atingiu 47,7 L** (+1,3 L vs 08/03) — melhor hidratação intracelular do histórico
+- **SMM chegou a 39,3 kg — NOVO RECORDE** (+2,4 kg vs 08/03; reversal total da queda dos braços documentada em março)
+- **VFA em queda contínua:** 34,0→30,9→29,7→26,7 cm² (4 medições consecutivas; −26% desde pico em fev)
+- **Idade metabólica caiu para 36** — nova mínima (−11 anos vs cronológica de 47)
+- **Índice apendicular: 9,80** (crescendo consistentemente: 9,47→9,56→9,70→9,80)
+- Recomposição corporal excepcional: +0,8 kg peso total, −1,0 kg gordura, +1,8 kg massa magra (vs 21/03)
+- **Causa provável:** progressão de carga/volume upper body após ajustes de protração escapular (abr/2026) + maturação do ciclo de creatina + nutrição otimizada
 
-**Histórico resumido:** 08/02 — pior resultado (FFM 61,1 kg, BF 15,6%) por destreinamento de 3 semanas; ações corretivas tomadas. 22/02 — recuperação completa (FFM 62,7, BF 13,9%, SSM 37,8 kg). Recomposição positiva confirmada.
+**Histórico resumido:** 08/02 — pior resultado (FFM 61,1 kg, BF 15,6%) por destreinamento; ações corretivas tomadas. 22/02 — recuperação completa. 08/03 — 1º recorde (FFM 63,3 kg). 04/04 — novo recorde absoluto (FFM 65,1 kg, SMM 39,3 kg, BF% 11,7%).
 
 ---
 
-## 14. Status Atual (Março 2026)
+## 14. Status Atual (Abril 2026)
 
 - **Exames (RM ombro, cervical, dorsal):** ✅ REALIZADOS em 02/02/2026
 - **Exames de sangue:** ✅ REALIZADOS em 10/02/2026
 - **US tireoide com Doppler:** ✅ REALIZADO em 03/03/2026 — TIRADS 4 (0,9 cm, lobo direito) + parênquima heterogêneo → endocrinologista + anti-TPO pendentes
-- **Bioimpedância 08/03/2026:** ✅ **MELHOR RESULTADO DO HISTÓRICO** — FFM 63,3 kg (recorde, acima do range normal); BF 13,3% (recorde); TBW 46,4 L (meta atingida); VFL 4 (primeira vez); Idade metabólica 37 (primeira vez)
-- **Fisioterapia (10 sessões prescritas):** ainda não iniciada — **URGENTE**
-- **Dor:** sem dor intensa durante treinos; restrições severas aplicadas após resultados
-- **Atividade:** pedal MTB 3x/semana + academia 4x/semana (série A/B/C/D); protocolo de retorno concluído
+- **Bioimpedância 04/04/2026:** ✅ **MELHOR RESULTADO DO HISTÓRICO** — FFM 65,1 kg (novo recorde); BF 11,7% (novo recorde, ⚠️ próximo ao limite inferior 11%); SMM 39,3 kg (novo recorde); TBW 47,7 L; VFL 4; Idade metabólica 36 (novo mínimo)
+- **Fisioterapia:** ❌ NÃO será realizada — decisão do paciente (02/04/2026). Série de academia compensa com rigor técnico máximo
+- **Dor:** sem dor intensa durante treinos; restrições severas mantidas (ombro + cervical)
+- **Atividade:** pedal MTB/Speed 3x/semana + academia 4x/semana (série A/B/C/D)
 - **Suplementação:** whey protein + creatina 5g/dia (obrigatório) + protocolo anti-inflamatório completo (omega-3 3g, D3 5000 UI, K2, Mg, colágeno, vit C, zinco)
-- **Nutrição:** proteína retornando de 187g para 170g/dia (trigger confirmado por 2 bioimpedâncias consecutivas com FFM > 62,5 kg); calorias ajustadas por tipo de dia
-- **Hidratação:** alvo atingido — TBW 46,4 L (meta 46 L); manter protocolo estruturado por horário
-- **Objetivo atual:** **manter FFM acima de 63 kg + reverter perda de SSM nos braços (via progressão de fisioterapia e liberação de exercícios upper body) + continuar redução de BF + repetir CK**
+- **Nutrição:** proteína 170g/dia; calorias ajustadas por tipo de dia; ⚠️ BF% em 11,7% — não reduzir calorias, manter ou aumentar levemente para suportar ganho muscular
+- **Hidratação:** TBW 47,7 L — excelente; manter protocolo estruturado
+- **Objetivo atual:** **manter FFM acima de 65 kg + manter BF% acima de 11% (não deixar cair abaixo do limite) + continuar progressão de SMM**
 
 ### Pendências ativas
-1. 🔴 **Iniciar fisioterapia** (10 sessões) — foco manguito rotador; SSM braços em queda reforça urgência
-2. 🔴 **Retorno ao ortopedista** — discussão dos resultados e conduta
-3. 🔴 **Repetir CK** + PCR — prazo ~10/03 já chegou (último: 480 U/L)
-4. 🔴 **ENMG membro superior direito** — prazo até ~10/04/2026 (radiculopatia C8 vs neuropatia ulnar)
-5. 🔴 **Consulta endocrinologista** + **anti-TPO** — avaliar TIRADS 4 + parênquima heterogêneo
-6. ⚠️ **Vitamina D reavaliar** — janela abr/2026 (dose 5000 UI/dia desde fev)
-7. ⚠️ **US tireoide controle** — 6-12 meses (set/2026-mar/2027)
-8. ⚠️ **SSM braços em queda** — impedância braço D: 305→331, E: 311→332; priorizar liberação upper body
-9. ⚠️ **Deload obrigatório** — 5a semana de março/2026
-10. 🎯 **Meta bio ~22/03/2026:** FFM >= 63,0 · TBW >= 46 · BF% <= 13,0% · SSM >= 37,0 · VFA <= 29 · VFL = 4
-11. 🎯 **Próximo painel completo:** Maio/2026
+1. 🔴 **Repetir CK** + PCR — vencido (prazo era ~10/03); último: 480 U/L
+2. 🔴 **ENMG membro superior direito** — prazo ~10/04/2026 (iminente); radiculopatia C8 vs neuropatia ulnar
+3. 🔴 **Consulta endocrinologista** + **anti-TPO** — avaliar TIRADS 4 + parênquima heterogêneo
+4. ⚠️ **Vitamina D reavaliar** — janela abr/2026 (agora); dose 5000 UI/dia desde fev
+5. ⚠️ **US tireoide controle** — 6-12 meses (set/2026-mar/2027)
+6. ⚠️ **BF% em 11,7%** — monitorar na próxima bio; se cair abaixo de 11%, aumentar calorias nos dias de treino
+7. 🎯 **Meta bio ~mai/2026:** FFM >= 65,0 · SMM >= 39,0 · BF% >= 11,0% (não cair abaixo) · VFA <= 26 · VFL = 4
+8. 🎯 **Próximo painel completo:** Maio/2026
 
 ### Concluídos (histórico)
 - ✅ RM ombro/cervical/dorsal (02/02), exames de sangue (10/02), US tireoide (03/03), parecer multidisciplinar (08/02)
-- ✅ FFM recuperada (63,3 kg — recorde), TBW 46,4 L (meta atingida), BF% 13,3% (recorde)
-- ✅ Proteína retornada de 187g para 170g/dia, série/nutrição/pedal ajustados
+- ✅ FFM 65,1 kg (novo recorde absoluto), SMM 39,3 kg (novo recorde), BF% 11,7% (novo recorde), TBW 47,7 L
+- ✅ Proteína estabilizada em 170g/dia; série ajustada para protração escapular (abr/2026)
+- ✅ Fisioterapia formal descartada (decisão 02/04/2026); protocolo compensatório na série
 
 ---
 

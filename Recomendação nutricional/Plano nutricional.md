@@ -7,23 +7,24 @@ title: Plano Nutricional
 
 > Guia informativo. Não substitui nutricionista.
 >
-> **Atualizado 08/03/2026** — ajustado após bioimpedância confirmar melhor resultado do histórico (FFM 63,3 kg — recorde; BF% 13,3% — recorde; TBW 46,4 L — meta atingida; VFL 4 — primeira vez)
+> **Atualizado 04/04/2026** — ajustado após bioimpedância confirmar novo recorde absoluto (FFM 65,1 kg; BF% 11,7% — próximo ao limite inferior 11%; SMM 39,3 kg — novo recorde; TBW 47,7 L; VFL 4; Idade metabólica 36)
 
 ## Resumo
 
-**Dados atuais (Bioimpedância — 08/03/2026):**
-- Peso: 78,4 kg | Idade: 47 anos
-- BF%: 13,3% (recorde)
-- Massa Magra (FFM): 63,3 kg (recorde, acima do range normal)
-- TBW: 46,4 L (meta 46 L atingida)
-- VFL: 4 (primeira vez, era 5)
-- Idade metabólica: 37 (primeira vez, era 38)
+**Dados atuais (Bioimpedância — 04/04/2026):**
+- Peso: 78,8 kg | Idade: 47 anos
+- BF%: 11,7% (novo recorde — ⚠️ próximo ao limite inferior da normalidade: 11%)
+- Massa Magra (FFM): 65,1 kg (novo recorde absoluto)
+- SMM: 39,3 kg (novo recorde — reversal completo da queda de março)
+- TBW: 47,7 L
+- VFL: 4 | VFA: 26,7 cm²
+- Idade metabólica: 36 (novo mínimo — 11 anos abaixo da cronológica)
 
-**Objetivo:** **Manter FFM acima de 63 kg + reverter perda de SSM nos braços + continuar redução de gordura**
+**Objetivo:** **Manter FFM acima de 65 kg + manter BF% acima de 11% (não empurrar mais gordura) + continuar progressão de SMM**
 
 **Macronutrientes:**
-- Proteína fixa: **170g/dia** (~2,2 g/kg)
-  - ✅ **Retorno a 170g/dia CONFIRMADO** — trigger FFM > 62,5 kg mantido por 2 bioimpedâncias consecutivas (62,7 em 22/02 e 63,3 em 08/03). Ciclo de 4 semanas a 187g/dia concluído com sucesso.
+- Proteína fixa: **170g/dia** (~2,2 g/kg FFM)
+  - ✅ Estabilizada em 170g/dia desde 08/03; dois ciclos de bioimpedância confirmam eficácia para manter e ganhar massa magra.
 - Gordura fixa: **~80g/dia**
 - Carboidrato varia conforme o dia
 - Hidratação: **Dias de pedal: 4,0-4,5 L/dia** (incluindo volume durante pedal). Dias de descanso: 3,0-3,5 L/dia. Regra prática: urina clara-palha até as 14h. ✅ Meta de TBW 46 L atingida — manter protocolo.
@@ -165,31 +166,31 @@ Escolha uma opção:
 
 ## Meta de monitoramento
 
-**Bioimpedância 08/03/2026 — resultado (MELHOR DO HISTÓRICO):**
-- ✅ FFM: 63,3 kg (meta >= 63,0 kg **ATINGIDA** — recorde, acima do range normal)
-- ✅ TBW: 46,4 L (meta >= 46 L **ATINGIDA**)
-- ✅ BF%: 13,3% (meta <= 13,5% **ATINGIDA** — recorde)
-- ✅ VFL: 4 (primeira vez abaixo de 5)
-- ✅ VFA: 29,7 cm² (queda contínua: 34,0→30,9→29,7)
-- ✅ Idade metabólica: 37 (primeira vez, -10 anos vs cronológica)
-- ⚠️ SSM: 36,9 kg (queda de 37,8 — perda concentrada nos braços por restrições de ombro)
+**Bioimpedância 04/04/2026 — resultado (MELHOR DO HISTÓRICO):**
+- ✅ FFM: 65,1 kg (novo recorde absoluto — era 63,3 em 08/03)
+- ✅ SMM: 39,3 kg (novo recorde — reversal completo da queda de março)
+- ✅ TBW: 47,7 L
+- ✅ VFL: 4 (mantido)
+- ✅ VFA: 26,7 cm² (queda contínua: 34,0→30,9→29,7→26,7 — 4 medições)
+- ✅ Idade metabólica: 36 (novo mínimo)
+- ⚠️ BF%: 11,7% (novo recorde, mas próximo ao limite inferior da normalidade: 11%)
 
-**Bioimpedância anterior (22/02/2026):**
-- FFM: 62,7 kg | TBW: 45,9 L | BF%: 13,9% | VFL: 5 | SSM: 37,8 kg
+**Bioimpedância anterior (21/03/2026):**
+- FFM: 63,2 kg | TBW: 46,2 L | BF%: 13,1% | VFL: 4 | SMM: 37,8 kg
 
-**Próxima bioimpedância:** ~22/03/2026
+**Próxima bioimpedância:** ~mai/2026
 
 | Meta | Alvo | Justificativa |
 |---|---|---|
-| FFM | >= 63,0 kg | Manter (não regredir) |
-| TBW | >= 46,0 L | Manter hidratação |
-| BF% | <= 13,0% | Progressão conservadora |
-| **SSM** | **>= 37,0 kg** | **NOVA META — reverter queda nos braços** |
-| VFA | <= 29,0 cm² | Manter tendência de queda |
-| VFL | 4 | Consolidar no nível 4 |
+| FFM | >= 65,0 kg | Manter novo recorde |
+| TBW | >= 47,0 L | Manter hidratação |
+| BF% | >= 11,0% | **Limite inferior — não deixar cair abaixo** |
+| SMM | >= 39,0 kg | Manter novo recorde |
+| VFA | <= 26,0 cm² | Continuar tendência |
+| VFL | 4 | Manter |
 
-**Se SSM continuar em queda:**
-- Priorizar liberação de exercícios upper body via fisioterapia (URGENTE)
-- Avaliar se calorias nos dias de treino upper estão suficientes
-- Considerar manter proteína em 187g/dia por mais 2 semanas
-- Verificar qualidade do sono e recuperação
+**Se BF% cair abaixo de 11%:**
+- Aumentar calorias nos dias de treino (+200-300 kcal em dias de academia ou pedal)
+- Priorizar carbo ao redor dos treinos (pré e pós)
+- Não reduzir proteína
+- Reavaliar em 2 semanas

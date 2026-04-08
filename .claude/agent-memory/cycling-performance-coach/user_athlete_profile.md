@@ -7,7 +7,7 @@ type: user
 **Nome:** Patrick Santos Coelho
 **Modalidade principal:** MTB + Speed (ciclismo)
 **Nível:** Intermediário
-**Peso (mar/2026):** 78,4 kg | **BF%:** 13,3% | **FFM:** 63,3 kg (recorde)
+**Peso (abr/2026):** 78,8 kg | **BF%:** 11,7% (⚠️ próximo ao limite inferior 11%) | **FFM:** 65,1 kg (novo recorde absoluto) | **SMM:** 39,3 kg (novo recorde)
 
 ## Lesões ativas (fev/2026)
 - Rotura parcial do supraespinhal (ombro direito) — fisioterapia ainda não iniciada (urgente)
