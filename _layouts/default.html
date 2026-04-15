@@ -29,6 +29,7 @@
       --color-cycling: #f59e0b;
       --color-health: #8b5cf6;
       --color-home: #64748b;
+      --color-derma: #ec4899;
     }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     html { font-size: 16px; }
@@ -119,6 +120,7 @@
     .sidebar-nav a.active.nav-nutrition { border-left-color: var(--color-nutrition); }
     .sidebar-nav a.active.nav-cycling { border-left-color: var(--color-cycling); }
     .sidebar-nav a.active.nav-health { border-left-color: var(--color-health); }
+    .sidebar-nav a.active.nav-derma { border-left-color: var(--color-derma); }
     .sidebar-nav .nav-icon {
       width: 18px; height: 18px;
       flex-shrink: 0;
@@ -237,10 +239,12 @@
     .main .doc-links .card-icon.nutrition { background: #d1fae5; color: var(--color-nutrition); }
     .main .doc-links .card-icon.cycling { background: #fef3c7; color: var(--color-cycling); }
     .main .doc-links .card-icon.health { background: #ede9fe; color: var(--color-health); }
+    .main .doc-links .card-icon.derma { background: #fce7f3; color: var(--color-derma); }
     .main .doc-links a:hover .card-icon.gym { background: var(--color-gym); color: #fff; }
     .main .doc-links a:hover .card-icon.nutrition { background: var(--color-nutrition); color: #fff; }
     .main .doc-links a:hover .card-icon.cycling { background: var(--color-cycling); color: #fff; }
     .main .doc-links a:hover .card-icon.health { background: var(--color-health); color: #fff; }
+    .main .doc-links a:hover .card-icon.derma { background: var(--color-derma); color: #fff; }
     .main .doc-links .card-text { display: flex; flex-direction: column; }
     .main .doc-links .card-title { font-size: 0.95rem; color: var(--text); }
     .main .doc-links .card-desc { font-size: 0.78rem; color: var(--text-light); font-weight: 400; margin-top: 2px; }
@@ -300,6 +304,12 @@
           <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
         </svg>
         Saude
+      </a>
+      <a href="{{ '/dermatologia' | relative_url }}" class="nav-derma {% if page.title == 'Dermatologia' %}active{% endif %}">
+        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 2a5 5 0 0 1 5 5c0 3-2 5.5-5 8-3-2.5-5-5-5-8a5 5 0 0 1 5-5z"/><path d="M12 22v-7"/>
+        </svg>
+        Dermatologia
       </a>
       <a href="{{ '/changelog' | relative_url }}" class="nav-home {% if page.title == 'Changelog' %}active{% endif %}">
         <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">

@@ -58,4 +58,17 @@ title: Início
       </div>
     </a>
   </li>
+  <li>
+    <a href="{{ '/dermatologia' | relative_url }}">
+      <div class="card-icon derma">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 2a5 5 0 0 1 5 5c0 3-2 5.5-5 8-3-2.5-5-5-5-8a5 5 0 0 1 5-5z"/><path d="M12 22v-7"/>
+        </svg>
+      </div>
+      <div class="card-text">
+        <span class="card-title">Dermatologia</span>
+        <span class="card-desc">Receita de skincare e capilares</span>
+      </div>
+    </a>
+  </li>
 </ul>
