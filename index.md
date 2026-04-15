@@ -7,6 +7,19 @@ title: Início
 
 <ul class="doc-links">
   <li>
+    <a href="{{ '/academia' | relative_url }}">
+      <div class="card-icon gym">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/>
+        </svg>
+      </div>
+      <div class="card-text">
+        <span class="card-title">Academia</span>
+        <span class="card-desc">Escolha a série do dia e treine</span>
+      </div>
+    </a>
+  </li>
+  <li>
     <a href="{{ '/serie-academia' | relative_url }}">
       <div class="card-icon gym">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
