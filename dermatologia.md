@@ -49,6 +49,15 @@ title: Dermatologia
 
 **Quantidade:** 1 embalagem
 
+> **Alternativas de menor custo** — mesma função (hidratação + suporte de barreira para uso com tretinoína):
+>
+> | Produto | Ativos principais | Preço aprox. |
+> |---|---|---|
+> | **Principia AH-2 Sérum** (30mL) | HA 2% (4 pesos moleculares) + Vitamina B5 1% | ~R$ 50–65 |
+> | **Vichy Minéral 89** (30mL) | HA puro + Água vulcânica + Glicerina | ~R$ 105–115 |
+>
+> Ambas são compatíveis com tretinoína (manhã e noite), sem fragrância, textura leve e não oclusiva. A tretinoína (Vitanol-A) realiza o trabalho anti-aging principal — o sérum atua sobretudo como hidratante e protetor de barreira.
+
 ---
 
 ### 3. Vitanol-A 0,5mg/g, Creme tópico (30g)
