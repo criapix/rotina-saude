@@ -393,6 +393,14 @@
       function render(data) {
         setTimeout(function() {
           main.innerHTML = data.html;
+          main.querySelectorAll('script').forEach(function(oldScript) {
+            var newScript = document.createElement('script');
+            Array.from(oldScript.attributes).forEach(function(attr) {
+              newScript.setAttribute(attr.name, attr.value);
+            });
+            newScript.textContent = oldScript.textContent;
+            oldScript.parentNode.replaceChild(newScript, oldScript);
+          });
           document.title = data.title;
           window.scrollTo(0, 0);
           if (push !== false) history.pushState(null, '', url);
