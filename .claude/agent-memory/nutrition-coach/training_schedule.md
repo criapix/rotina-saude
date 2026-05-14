@@ -21,6 +21,12 @@ type: user
 - Dead bug
 - Bird dog
 
+## Status atual do ciclismo (mai/2026)
+- Patrick voltando ao pedal após período sem pedalar muito
+- Limiar de lactato e eficiência oxidativa temporariamente reduzidos
+- Queima de quadríceps em <1 min ao tentar acompanhar grupo = normal nesta fase de retorno
+- Progressão deve ser gradual; não acompanhar grupo em intensidade acima do limiar atual
+
 ## Observações para nutrição
 - Terça e Quarta são dias de duplo estímulo (academia + ciclismo Z2 pela manhã)
 - Esses dias exigem atenção especial ao carb timing e reposição de glicogênio

@@ -29,7 +29,7 @@ type: user
 ### Síndrome Neurológica
 - Double crush syndrome: radiculopatia C8 + handlebar palsy (neuropatia ulnar por compressão no guidão)
 - Sintoma principal: dormência no mindinho direito
-- ENMG recomendada (não confirmado se realizada)
+- ENMG: já realizada e analisada pelo médico (todos os exames concluídos — confirmado 14/05/2026)
 
 ## Decisão do Paciente
 - Fisioterapia formal: ❌ NÃO será realizada (decisão definitiva — 02/04/2026)
@@ -63,3 +63,13 @@ type: user
 - Redução de gordura abdominal
 - Fortalecimento de core
 - Melhora de força para ciclismo
+
+## Queixa Ativa — Joelho Esquerdo (14/05/2026)
+- Dor no joelho esquerdo durante leg press 45° e cadeira extensora
+- Localização PRECISA (refinada 14/05/2026): LATERAL, logo acima da borda superior da patela — ponto superolateral da patela / região da inserção do tendão quadricipital próxima ao vasto lateral
+- Hipótese principal refinada: tendinopatia quadricipital com tração predominante do vasto lateral (entesopatia superolateral da patela)
+- Hipótese secundária relevante: plica sinovial supralateral / síndrome de atrito patelofemoral lateral
+- Hipóteses menos prováveis: síndrome do trato iliotibial porção proximal, bursite suprapatelar lateral
+- Contexto ciclístico: volta ao pedal após inatividade; queimação no quadríceps ao tentar acompanhar grupo por mais de 1 min; treino de 1h30 com exaustão — sugere limiar de fadiga muscular baixo e relação direta com sobrecarga do vasto lateral no pedal
+- Conduta prescrita (atualizada): suspender cadeira extensora por 14 dias, modificar leg press (ROM 0-60°, -30-40% carga, pés levemente mais altos no apoio, abertura natural), reduzir pedal 50% por 14 dias, gelo superolateral pós-treino, isometria de quadríceps (45s x 5 séries/dia fora dos dias de perna), liberação miofascial do vasto lateral + TIT com rolo ou bola de lacrosse
+- Prazo para avaliação presencial: 14 dias sem melhora (até 28/05/2026) → ortopedista presencial + ultrassonografia do tendão quadricipital e plica sinovial

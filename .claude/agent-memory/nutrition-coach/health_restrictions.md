@@ -6,6 +6,13 @@ type: user
 
 ## Restrições Confirmadas
 
+### 3. Provável tendinopatia do quadríceps — joelho esquerdo (identificada 14/05/2026)
+- Dor acima da patela joelho esquerdo — em investigação médica
+- Para nutrição: colágeno 15g + vit C 50mg 60 MIN ANTES do treino que carrega o tendão (não horário livre)
+- Evitar leg press com amplitude total e agachamento profundo até investigação concluída
+
+## Restrições Confirmadas Originais
+
 ### 1. Rotura parcial do manguito rotador
 - Impacta exercícios de ombro e tração supina
 - Para nutrição: garantir ingestão adequada de proteína para suporte ao tecido conectivo
