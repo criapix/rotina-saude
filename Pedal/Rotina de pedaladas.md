@@ -77,6 +77,42 @@ title: Rotina de Pedaladas
 
 ---
 
+## 🚴 Plano de Resistência ao Quadríceps (14/05/2026)
+
+> **Problema:** queima de quadríceps em <1 min ao acompanhar o grupo em alta intensidade.
+> **Diagnóstico:** **limiar de lactato reduzido** pelo destreino — não fraqueza muscular. O músculo perdeu a capacidade aeróbia específica para o gesto da pedalada.
+
+### Sessões de rolo (2–3×/semana, 30–40 min)
+
+Compatível com o protocolo do joelho — alta cadência poupa o tendão. Faça em qualquer dia, **não nos dias D (Lower B)** porque o quadríceps está fadigado.
+
+| Sessão | Estrutura | Intensidade | Cadência |
+|---|---|---|---|
+| **Sweet Spot intervals** | Aquecimento 10 min Z2 + **3 blocos de 5 min** com 3 min de recuperação Z1 + 5 min volta à calma | RPE 7 (~88–94% FTP) | 90–100 rpm |
+| **Progressão semanal** | Sem 1: 3 blocos · Sem 2: 4 blocos · Sem 3: 5 blocos · Sem 4: deload (volta a 2 blocos) | Mesma | Mesma |
+
+**Por quê funciona:** sweet spot treina exatamente o limiar de lactato — eleva o teto onde o quadríceps queima. Cadência alta (90–100 rpm) recruta o sistema aeróbico em vez de carregar o tendão.
+
+### Estratégia em campo (puxada do grupo)
+
+- **Posicione-se nas fileiras 3–5** do pelotão, nunca na frente — drafting reduz ~30% do esforço.
+- Antes do grupo apertar, **suba cadência primeiro** (não a marcha). Só aumente marcha quando estabilizar respiração.
+- **Não persiga sozinho** quando soltar. Aceita soltar, recupera, reagrupa no próximo semáforo / parada.
+- **Respiração 2:2** (2 ciclos de pedal inspirando, 2 expirando) sustenta esforço por mais tempo que respiração curta.
+
+### Progressão realista
+
+| Marco | Sustentar puxada por |
+|---|---|
+| Semana 0 (hoje) | <1 min |
+| Semana 2 | ~3 min |
+| Semana 4 | ~5 min |
+| Semanas 8–10 | ~10 min |
+
+**Condicional:** progressão depende do joelho não regredir. Se houver dor durante/após o rolo, suspender intervals e fazer só Z2 contínuo.
+
+---
+
 ## Observações
 - Pedal gera volume significativo para quadríceps; musculação foca posterior chain e upper body
 - Manter hidratação com eletrólitos durante o pedal (500–700 mg sódio/L)

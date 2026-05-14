@@ -282,14 +282,13 @@ Demais marcadores normais: eletrólitos, função hepática/renal, hemograma, te
 - **Objetivo atual:** **manter FFM acima de 65 kg + manter BF% acima de 11% (não deixar cair abaixo do limite) + continuar progressão de SMM**
 
 ### Pendências ativas
-1. 🔴 **Repetir CK** + PCR — vencido (prazo era ~10/03); último: 480 U/L
-2. 🔴 **ENMG membro superior direito** — prazo ~10/04/2026 (iminente); radiculopatia C8 vs neuropatia ulnar
-3. 🔴 **Consulta endocrinologista** + **anti-TPO** — avaliar TIRADS 4 + parênquima heterogêneo
-4. ⚠️ **Vitamina D reavaliar** — janela abr/2026 (agora); dose 5000 UI/dia desde fev
-5. ⚠️ **US tireoide controle** — 6-12 meses (set/2026-mar/2027)
-6. ⚠️ **BF% em 11,7%** — monitorar na próxima bio; se cair abaixo de 11%, aumentar calorias nos dias de treino
-7. 🎯 **Meta bio ~mai/2026:** FFM >= 65,0 · SMM >= 39,0 · BF% >= 11,0% (não cair abaixo) · VFA <= 26 · VFL = 4
-8. 🎯 **Próximo painel completo:** Maio/2026
+1. ✅ **Exames laboratoriais (CK, ENMG, painel completo):** todos realizados e analisados pelo médico (confirmado pelo paciente em 14/05/2026) — resultados arquivados; reavaliar individualmente conforme indicação clínica
+2. 🔴 **Consulta endocrinologista** + **anti-TPO** — avaliar TIRADS 4 + parênquima heterogêneo
+3. ⚠️ **US tireoide controle** — 6-12 meses (set/2026-mar/2027)
+4. ⚠️ **BF% em 11,7%** — monitorar na próxima bio; se cair abaixo de 11%, aumentar calorias nos dias de treino
+5. 🦵 **Joelho esquerdo (NOVO 14/05/2026):** entesopatia do tendão quadricipital lateral (hipótese clínica) — janela de reavaliação 28/05/2026; se dor não reduzir 50%, ortopedista presencial + USG. Ver Seção 17.
+6. 🎯 **Meta bio ~mai/2026:** FFM >= 65,0 · SMM >= 39,0 · BF% >= 11,0% (não cair abaixo) · VFA <= 26 · VFL = 4
+7. 🎯 **Próximo painel completo:** Maio/2026
 
 ### Concluídos (histórico)
 - ✅ RM ombro/cervical/dorsal (02/02), exames de sangue (10/02), US tireoide (03/03), parecer multidisciplinar (08/02)
@@ -339,4 +338,49 @@ Demais marcadores normais: eletrólitos, função hepática/renal, hemograma, te
 - **Dormência progressiva bilateral** (ambas as mãos / ambos os braços)
 - **Alteração de marcha ou incontinência** (sinais de mielopatia cervical)
 - **Dor cervical intensa após trauma** (queda no MTB, impacto)
+
+---
+
+## 17. Joelho Esquerdo — Entesopatia Quadricipital Lateral (14/05/2026)
+
+### Apresentação clínica
+- **Localização:** dor superolateral no joelho esquerdo — ponto exato: inserção do vasto lateral no tendão quadricipital (polo superior da patela, borda lateral)
+- **Desencadeantes:** leg press 45° e cadeira extensora (em amplitude completa com carga)
+- **Contexto:** retomada do pedal com quadríceps sobrecarregado + 1h30 de treino completo
+- **Sem diagnóstico formal ainda** — hipóteses clínicas em janela de observação
+
+### Hipóteses diagnósticas (ordem de probabilidade)
+1. **Tendinopatia/entesopatia do tendão quadricipital — vetor lateral** (inserção do vasto lateral) — principal
+2. Síndrome de compressão patelofemoral lateral (tracking patelar lateral)
+3. Síndrome da plica sinovial supralateral
+
+**Mecanismo:** ciclismo encurta TFL/IT band e superativa vasto lateral → patela traciona lateralmente → estresse na inserção superolateral do tendão quadricipital.
+
+### Testes domiciliares de auto-avaliação
+1. **Palpação:** pressionar o canto superolateral da patela esquerda com perna estendida e relaxada — dor focal confirma entesopatia local
+2. **J-sign:** sentado, estender lentamente o joelho. Observar se a patela "salta" para lateral nos últimos graus = tração lateral excessiva
+3. **Compressão patelar lateral:** empurrar a patela para lateral com o polegar e contrair quadríceps — dor superolateral aponta para plica ou entesopatia lateral
+
+### Conduta ativa (ver detalhes em serie-academia.md)
+- Cadeira extensora → **TKE** no Treino B
+- Cadeira extensora → **Isométrico de leg press em 45–60°** no Treino D
+- Leg press 45° restrito a 60–70° com carga −20–25% e pés em rotação externa
+- Aquecimento com foam roll TFL + vasto lateral, ativação VMO em 30°, clamshell, dorsiflexão step
+- Wall squat excêntrico adicionado
+- Pós-treino: alongamento Ober + mobilização patelar + gelo
+- **Colágeno 15g + vitamina C 50mg 60 min antes** dos Treinos B e D
+
+### Janela de reavaliação
+- **28/05/2026** — se dor não reduzir 50%: ortopedista presencial + **ultrassonografia** do tendão quadricipital e plica sinovial supralateral (preferível à RM para essa topografia)
+
+### Sinais de alarme (busca presencial imediata)
+- Inchaço visível ou calor articular
+- Crepitação nova com dor ao descer escada
+- Incapacidade de estender o joelho completamente
+- Dor em repouso ou que acorda à noite
+- Joelho "travando" ou "falhando"
+
+### Critérios de progressão (alta do protocolo)
+- **Fase 2:** dor 0–1/10 no leg press restrito por 2 treinos seguidos + wall squat 3×8 sem dor → liberar amplitude/carga progressiva
+- **Fase 3:** retorno ao protocolo original quando amplitude completa indolor por 3 semanas
 

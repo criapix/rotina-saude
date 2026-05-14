@@ -9,6 +9,36 @@ Historico de alteracoes no plano de treino, nutricao e acompanhamento clinico.
 
 ---
 
+## 14/05/2026 — Joelho esquerdo + queda de energia em 1h30 + resistencia quadriceps no pedal
+
+**Tres queixas integradas em parecer multidisciplinar (4 agentes):** dor superolateral no joelho esquerdo durante leg press 45 e cadeira extensora; queima de quadriceps em <1 min no pedal ao acompanhar grupo; queda de energia em 1h30 de treino.
+
+**Hipotese clinica do joelho:** entesopatia do tendao quadricipital lateral (insercao do vasto lateral). Janela de reavaliacao 28/05/2026; se nao reduzir 50%: ortopedista presencial + USG.
+
+**Adaptacoes da serie (Treinos B e D):**
+- Cadeira extensora substituida por TKE (B) e isometrico de leg press (D)
+- Leg press 45 restrito a 60-70 graus, carga -20-25%, pes em rotacao externa 15-20
+- Mesa flexora aumentada em D (4 → 5 series)
+- Aquecimento com foam roll TFL + vasto lateral, ativacao VMO em 30 graus, clamshell, dorsiflexao step
+- Wall squat excentrico (3x8 com excentrica 8-10s) adicionado em B e D
+- Pos-treino: alongamento Ober + mobilizacao patelar + gelo
+
+**Plano de resistencia no pedal:**
+- Sweet spot intervals no rolo (3-5 blocos de 5 min, RPE 7, 90-100 rpm), 2-3x/semana
+- Estrategia em campo: fileiras 3-5 do peloton, subir cadencia antes de marcha, nao perseguir sozinho
+
+**Nutricao — corrigir queda em 1h30:**
+- Regra do relogio: 2 tamaras no minuto 45 do treino
+- Cafe duplo (160-200mg) 30-40 min antes do treino, separado do cafe da manha
+- Cafe da manha sem queijo gordo quando treino e logo apos (substituir por cottage magro/clara)
+- Colageno 15g + vit C 50mg 60 min antes dos Treinos B e D
+
+**Pendencias de exames atualizadas:** paciente confirmou que todos os exames laboratoriais (CK, ENMG, painel) foram realizados e analisados pelo medico. Permanecem ativas: consulta endocrinologista + anti-TPO, US tireoide controle, monitoramento BF%.
+
+- Atualizado: `serie-academia.md` (Treinos B e D, secao Joelho Esquerdo, lista de Suspensos, volume semanal), `Pedal/Rotina de pedaladas.md` (Plano de Resistencia ao Quadriceps), `Recomendação nutricional/Plano nutricional.md` (Estrategia para treino matinal precoce, tabela Academia Seg, Regras simples), `dados-saude.md` (Pendencias atualizadas, nova Secao 17)
+
+---
+
 ## 04/04/2026 — Bioimpedancia: novo recorde absoluto
 
 **FFM 65,1 kg (novo record), SMM 39,3 kg (novo recorde), BF% 11,7% (novo recorde — proximo ao limite inferior 11%), TBW 47,7 L, VFA 26,7 cm² (−26% desde fev), Idade metabolica 36 (novo minimo).** Reversal completo da queda de SMM dos bracos documentada em marco.

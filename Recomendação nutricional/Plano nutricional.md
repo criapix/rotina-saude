@@ -7,6 +7,8 @@ title: Plano Nutricional
 
 > Guia informativo. Não substitui nutricionista.
 >
+> **Atualizado 14/05/2026** — refinamentos para corrigir queda de energia em 1h30 de treino: intra-treino na academia, cafeína pré-treino otimizada, ajuste do café da manhã quando treino é logo após. Ver seção [**Estratégia para treino matinal precoce**](#estratégia-para-treino-matinal-precoce-14052026) abaixo.
+>
 > **Atualizado 04/04/2026** — ajustado após bioimpedância confirmar novo recorde absoluto (FFM 65,1 kg; BF% 11,7% — próximo ao limite inferior 11%; SMM 39,3 kg — novo recorde; TBW 47,7 L; VFL 4; Idade metabólica 36)
 
 ## Resumo
@@ -66,6 +68,58 @@ Escolha uma opção:
 
 ---
 
+## Estratégia para treino matinal precoce (14/05/2026)
+
+> **Cenário:** Patrick toma café da manhã às 7h e começa o treino entre 7h30–9h (academia direto após o café da manhã, sem refeição intermediária).
+
+### Por que a queda em 1h30 acontece
+- BF% em 11,7% → quase zero gordura de reserva como substrato → corpo depende inteiramente do glicogênio
+- Tapioca + queijo gordo + banana + mel = ~55–57g de CHO, suficientes para ~60–75 min de treino intenso
+- **Sem intra-treino, o glicogênio acaba exatamente no minuto 60–90** — bate o "muro" da depleção
+
+### Café da manhã otimizado para treino imediatamente após (até 1h30 depois)
+
+**Manter a base** (tapioca + banana + mel), **substituir o queijo gordo** que retarda absorção de CHO:
+
+| Substituição | Quantidade | Por quê |
+|---|---|---|
+| **Cottage magro** | 15g | Mantém proteína sem gordura excessiva — não retarda glicose |
+| **Clara de ovo cozida** | 1–2 claras | Proteína magra, absorção rápida |
+| **Peito de peru magro** | 40g | Alternativa prática |
+
+Mel + canela podem ficar. **Café da manhã tomado separado do café estimulante.**
+
+### Cafeína pré-treino otimizada
+
+- **Não junto com a refeição** — tome o café estimulante **30–40 min ANTES do treino**, separado
+- **Dose ergogênica:** 2 xícaras de café coado **OU** 1 espresso duplo (~160–200mg de cafeína)
+- 1 xícara só com a refeição é subdose para 78,8 kg — não atinge o pico no início do treino
+
+### Intra-treino na academia — REGRA DO RELÓGIO
+
+> **Aos 45 minutos exatos de treino, comer.** Não esperar a sensação de fadiga — quando bate é tarde.
+
+| Opção | Quantidade | CHO | Vantagem |
+|---|---|---|---|
+| **Tâmaras secas** ⭐ | 2 unidades | ~28–30g | Densas, não pesam no estômago |
+| Banana | 1 unidade | ~25g | Acessível |
+| Mel puro | 25g (1 colher) | ~20g | Absorção rápida |
+
+Manter sempre na mochila. Esta é a **mudança mais importante** das três.
+
+### Hidratação intra-academia
+
+- 600–800ml de água durante o treino, em goles a cada 15 min
+- Em dias duplos: soro caseiro às 14–15h (500ml água + 1g sal + suco de limão + 1 col. mel)
+
+### Resumo das 3 mudanças prioritárias
+
+1. **2 tâmaras no minuto 45** do treino (qualquer dia de academia)
+2. **Café duplo 30–40 min antes** do treino, separado do café da manhã
+3. **Trocar o queijo gordo do café da manhã** por cottage magro / clara / peito de peru quando treino é logo após
+
+---
+
 ## Refeições — Dia duplo (Ter/Qui) ~3500 kcal
 
 | Refeição | O que |
@@ -94,10 +148,12 @@ Escolha uma opção:
 
 | Refeição | O que |
 |---|---|
-| **Café ~7h** | Opção 1, 2, 3, 4 ou 5 acima |
+| **Café ~7h** | Opção 1, 2, 3, 4 ou 5 acima — **se treino for logo após, ver [Estratégia para treino matinal precoce](#estratégia-para-treino-matinal-precoce-14052026)** |
 | **Almoço ~12h** | Arroz 280g + feijão 120g + frango 200g + azeite + salada |
-| **Lanche ~17h** (pré-treino) | Pão de forma 2 fatias + banana + requeijão + 60-80g de peito de peru ou 2 ovos cozidos (elevar proteína para 25-30g nesta refeição) |
-| **Whey ~18:30** | Whey 30g em água |
+| **Lanche ~17h** (pré-treino, se treino à tarde) | Pão de forma 2 fatias + banana + requeijão + 60-80g de peito de peru ou 2 ovos cozidos (elevar proteína para 25-30g nesta refeição) |
+| **Cafeína pré-treino** | 2 xícaras café coado OU 1 espresso duplo, **30–40 min antes** do treino |
+| **Intra-treino (min 45)** | 🆕 2 tâmaras secas OU 1 banana — regra do relógio, não da sensação |
+| **Whey ~18:30** (se treino à tarde) | Whey 30g em água |
 | **Jantar ~20:15** (pós-treino) | Batata 300g + peixe 180g ou 3 ovos + legumes + azeite |
 | **Antes de dormir** | Caseína 25g ou iogurte grego 200g |
 
@@ -130,6 +186,8 @@ Escolha uma opção:
 
 - **Pedal:** malto + sódio durante; whey + banana imediatamente pós-pedal; almoço é a recuperação
 - **Academia:** lanche + whey antes; jantar depois; caseína antes de dormir
+- **🆕 Academia matinal (treino logo após o café):** café da manhã sem queijo gordo + café duplo 30–40 min antes + 2 tâmaras no minuto 45 do treino
+- **🆕 Colágeno hidrolisado 15g + vit. C 50mg → 60 min ANTES dos Treinos B e D** (proteção do tendão quadricipital — janela de síntese tendínea)
 - **Hidratação:** **Dias de pedal: 4,0-4,5 L/dia** (incluindo volume durante pedal); **Dias de descanso: 3,0-3,5 L/dia**; no pedal 500–800ml/h com sódio. Regra prática: urina clara-palha até as 14h. **⚠️ CHCM elevado (36,6) no exame 10/02 sugere desidratação leve — aumentar vigilância.**
 - **Proteína distribuída:** mínimo 4 refeições com proteína ao longo do dia (não concentrar)
 - **Priorizar:** peixe, azeite, nozes, frutas, vegetais coloridos

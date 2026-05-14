@@ -1,4 +1,4 @@
-var CACHE = 'rotina-v1';
+var CACHE = 'rotina-v2-2026-05-14';
 
 var PRECACHE = [
   './',
