@@ -36,7 +36,8 @@ metadata:
 - Ativação VMO: isométrico em 30° com rotação externa do pé, hold 5s, 2×15 (aquecimento B e D) — REVISADO de bola entre joelhos
 - Clamshell: 2×15/lado (aquecimento B e D)
 - Dorsiflexão no step: 2×10/perna (aquecimento B e D)
-- Wall squat excêntrico: 3×8 a 8–10s (finalização B e D)
+- Wall squat excêntrico: 3×8 a 8–10s (finalização B apenas — removido de D em 18/05/2026)
+- Cadeira extensora isométrica terminal (20°→0°): 3×10, hold 3s, cadência 2-3-3, RPE 4 — SUBSTITUIU wall squat no Treino D (18/05/2026)
 
 ### TKE — execução refinada para VMO
 - Pé em rotação externa 15–20°, hold 2s em extensão máxima com feedback tátil (mão no VMO)
