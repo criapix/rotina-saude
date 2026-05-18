@@ -72,11 +72,6 @@ title: Série de Musculação
 | 7 | **Wall squat excêntrico** | 3 × 8 (excêntrica de 8–10s) | 🦵 **Adicionado 14/05.** Descida lenta encostado na parede até ~60° de flexão; sem dor. Finalização do treino para reforço de quadríceps em carga controlada. |
 | 8 | **Rollout no trilho em C** [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | 3 × 8–10 | Apoio no cotovelo; ajoelhado no carrinho; cadência 3-1-2; amplitude ~60–80% do trilho. **Queixo levemente recolhido — cervical neutra durante todo o movimento**; parar a saída antes de qualquer extensão cervical. |
 
-**Pós-treino (~4 min):**
-- **Alongamento Ober** (TFL/IT band): 2×30s/lado
-- **Mobilização patelar passiva**: 1 min
-- **Gelo no polo superior da patela esquerda**: 10–12 min
-
 **Volume B:** 22 sets — Quadríceps: 6 (TKE 3 + Leg press 3) · Wall squat excêntrico: 3 · Isquiotibiais: 4 · Glúteo médio: 3 · Adutores: 3 · Panturrilha: 3 · Core: 3
 
 ---
@@ -135,11 +130,6 @@ title: Série de Musculação
 | 8 | **Rollout no trilho reto inclinado** [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | 3 × 8–10 | Apoio no cotovelo; ajoelhado no carrinho; cadência 3-1-2; iniciar com ~60% do trilho, progredir amplitude progressivamente. **Queixo levemente recolhido — cervical neutra durante todo o movimento**. |
 | 9 | **Cadeira extensora — isométrico terminal** | 3 × 10 (hold 3s em extensão máxima) | 🦵 **Substituiu wall squat excêntrico em 18/05.** Amplitude restrita a **20°→0° apenas** — não descer além de 20° de flexão. Pé em rotação externa 15–20°; mão no VMO para feedback tátil; hold 3s em extensão máxima; cadência 2-3-3; carga LEVE (RPE 4). Objetivo: recrutar VMO em arco sem estresse de tração na inserção tendínea. Wall squat mantido apenas no Treino B. |
 | 10 | **Máquina de rotação de tronco** (torso rotation machine) [📸](https://totalpass.com/wp-content/uploads/2025/12/twist1.png) | 2 × 12 (cada lado) | ⚠️ Substitui Cable Chop/Lift (causou dor no ombro). Carga LEVE; antebraços nos suportes (mãos sem preensão ativa); movimento pelo tronco — não pelos ombros; tempo 3-1-2 (3s retorno); **olhar fixo à frente** — cervical NÃO rotaciona junto. |
-
-**Pós-treino (~4 min):**
-- **Alongamento Ober** (TFL/IT band): 2×30s/lado
-- **Mobilização patelar passiva**: 1 min
-- **Gelo no polo superior da patela esquerda**: 10–12 min
 
 **Volume D:** 30 sets — Glúteo máximo: 4 · Quadríceps: 9 (Isométrico leg press 3 + Leg press 3 + Extensora terminal 3) · Isquiotibiais: 5 · Glúteo médio: 3 · Adutores: 3 · Panturrilha: 3 · Core: 5
 
@@ -233,7 +223,6 @@ Vasto lateral encurtado/dominante (resultado do retorno ao ciclismo) traciona a 
 - Leg press 45°: ROM 60–70°, carga −20–25%, pés em rotação externa 15–20°, terço médio-superior da plataforma
 - Aquecimento: foam roll TFL + vasto lateral (5 min), ativação VMO em 30° com rotação externa, clamshell, dorsiflexão no step
 - Wall squat excêntrico (3×8 com excêntrica de 8–10s): mantido ao final de B; removido de D em 18/05 — substituído por cadeira extensora isométrica terminal (20°→0°, 3×10, hold 3s, RPE 4)
-- Pós-treino: alongamento Ober + mobilização patelar passiva + gelo 10–12 min
 
 ### Critérios de progressão
 - **Fase 2:** dor 0–1/10 no leg press restrito por 2 treinos seguidos + wall squat 3×8 sem dor → liberar amplitude/carga progressiva no leg press
