@@ -37,7 +37,7 @@ title: Série de Musculação
 | 7 | **Rosca martelo** [📸](https://static1.minhavida.com.br/articles/39/76/c9/c4/makatserchykshutterstock-orig-1.jpg) | 3 × 10–12 | Pegada neutra; trabalha bíceps + braquial; sem movimentar ombro. |
 | 8 | **Rosca no cabo** (polia baixa, pegada supinada) | 3 × 10–12 | Tensão constante em toda a amplitude — diferente do halter que perde tensão no fundo. Complementa o martelo com ângulo supinado. |
 | 9 | **Rotação externa no cabo** (0°) [📸](https://s32540.pcdn.co/wp-content/uploads/2018/11/rota%C3%A7aoexterna241118-Copy.jpg) | 3 × 15 | Carga LEVE — terapêutico; cotovelo colado ao corpo a 0°; cadência 3-1-2. |
-| 10 | **Abdominal na máquina** (crunch machine) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | 3 × 12–15 | Apoio no PEITO (nunca na nuca); flexão de tronco controlada; RPE 6. |
+| 10 | **Abdominal na máquina** (cadeira abdominal; punhos acima da cabeça) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | 3 × 12–15 | Sentado; segurar os punhos acima da cabeça; **antes de cada série: retrair e deprimir as escápulas ("ombros no bolso de trás das calças") e manter durante todo o movimento** — ombros não sobem; flexão de tronco controlada (não puxar pelos braços); cervical neutra; RPE 6. Interromper se sentir pressão no ombro direito. |
 
 **Volume A:** 29 sets — Peito: 4 · Costas: 6 · Tríceps: 5 · Bíceps: 6 · Core: 3 · Reabilitação: 5
 
@@ -95,7 +95,7 @@ title: Série de Musculação
 | 7 | **Rosca hammer no cabo** (polia baixa, pegada neutra) | 3 × 10–12 | Tensão constante no braquial + bíceps; grip neutro diferente das roscas supinadas. Cabo varia o vetor de força vs. halter. |
 | 8 | **Rosca scott máquina** [📸](https://static1.minhavida.com.br/articles/a0/79/bd/2f/makatserchykshutterstock-orig-1.jpg) | 2 × 10–12 | Apoio completo do cotovelo; máxima contração do bíceps; sem compensação. Finishing set — vem após o hammer para fatiga máxima. |
 | 9 | **Máquina de rotação de tronco** [📸](https://totalpass.com/wp-content/uploads/2025/12/twist1.png) | 2 × 12 (cada lado) | Core rotacional — frequência 2×/semana (complementa Treino D). Carga LEVE; movimento pelo tronco; cervical fixa à frente. |
-| 10 | **Abdominal na máquina** (crunch machine) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | 3 × 12–15 | Apoio no peito; RPE 6. |
+| 10 | **Abdominal na máquina** (cadeira abdominal; punhos acima da cabeça) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | 3 × 12–15 | Sentado; segurar os punhos acima da cabeça; retrair e deprimir escápulas ("ombros no bolso") antes de cada série e manter; flexão de tronco controlada (não puxar pelos braços); cervical neutra; RPE 6. Parar se sentir pressão no ombro direito. |
 
 **Volume C:** 29 sets — Peito: 4 · Costas: 6 · Tríceps: 3 · Bíceps: 8 · Core: 5 · Reabilitação: 3
 
@@ -335,7 +335,7 @@ A série foi desenhada com **variação A vs. C dentro do mesmo mesociclo.** A c
 - **Dor noturna persistente após treino:** sinal de alarme → reduzir RPE do supino para 5 e monitorar por 1 semana
 - **Peitoral:** 8 sets/semana é o limite atual de segurança. Para maximizar ganho dentro desse limite: carga progressiva + contração isométrica de 1–2s no pico em todas as reps
 - **Braços:** bíceps 14 sets/semana com 4 variações (martelo + rosca cabo + direta + scott + hammer cabo) = máxima cobertura angular; tríceps 9 sets com 3 variações (barra bilateral + unilateral + corda)
-- **Core:** 10 sets/semana na academia (abdominal 2× crunch machine em A e C + 2× rollout em B e D; rotação 2×)
+- **Core:** 10 sets/semana na academia (abdominal 2× cadeira abdominal em A e C + 2× rollout em B e D; rotação 2×)
 - **Ciclismo:** hip thrust 4 sets + kick-back glúteo 2 sets + leg press 7 sets + mesa flexora 6 sets + extensora 6 sets + abdutora 4 sets + adutora 6 sets + panturrilha 6 sets = base de força para o pedal
 - **Glúteo máximo:** hip thrust no Treino D (4 sets) = 4 sets/semana
 - **Glúteo médio:** 2×/semana (Treino B + D) — estabilidade lateral no selim; 4 sets/semana
