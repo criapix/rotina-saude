@@ -49,9 +49,10 @@ type: project
 
 **Alertas de monitoramento ativos:**
 - Nervo ulnar: volume de bíceps em 14 sets/semana + ciclismo Z2 na Quarta = risco de acúmulo de compressão ulnar. Monitorar formigamento/dormência em 4° e 5° dedos pós-treinos A e C.
-- Proporção quad:isquio: 13:7 (~1,9:1) — na borda superior do aceitável para saúde do joelho (ideal até 2:1). Considerar +2 sets de mesa flexora no Treino B.
+- Proporção quad:isquio (21/05/2026): 15:8 (1,87:1) — dentro do limite 2:1. Volume quad aumentou de 13 para 15 sets com retorno da extensora 0–60° em B e D.
 - Assimetria de proteção escapular: face pull está apenas no Treino C (3 sets). Treino A não tem face pull — avaliação de 02/04/2026 identificou isso como falha residual. Sugerido adicionar 2 sets de face pull em A2 no Treino A.
 - Tabela de volume semanal (seção final do arquivo) contém erro: linha "Reabilitação/terapêutico: 14" é resíduo de versão anterior (incluía protocolo de ativação removido). O correto é 6 sets (3 rot. externa em A + 3 face pull em C). Pendente correção.
+- Volume de quadríceps no Treino D (9 sets) é o teto monitorado da Fase 2: se joelho reagir, reduzir extensora 0–60° de 3 para 2 sets antes de qualquer outra alteração.
 
 **Protocolo de ativação de manguito:** REMOVIDO da série em 02/04/2026. Não consta mais em nenhum treino.
 

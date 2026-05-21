@@ -57,9 +57,29 @@ metadata:
 - Alongamento iliopsoas em afundo: 2×30s/lado — mantido
 - Gelo polo superior pós-treino: 10–12 min — mantido
 
-## Critérios de progressão
-- Fase 2: dor 0–1/10 no leg press restrito por 2 treinos seguidos + wall squat 3×8 sem dor
-- Fase 3: retorno ao protocolo original quando amplitude completa indolor por 3 semanas
+## Status e progressão
+
+### Fase 1 → Fase 2 (21/05/2026)
+- Patrick relatou cessação de dor após 7 dias de protocolo Fase 1
+- Critérios de progressão cumpridos → Fase 2 iniciada em 21/05/2026
+
+### Fase 2 — Adaptações ativas (21/05/2026)
+- Cadeira extensora reintroduzida: 0–60°, carga −30%, RPE 5–6 (Treino B posição 2; Treino D posição 2)
+- Leg press ampliado: 80–90° (era 60–70°), carga −10–15% (era −20–25%), cadência 4-1-3, RPE 7
+- Wall squat excêntrico mantido apenas no Treino B (3×8, 8–10s excêntrica)
+- Extensora isométrica terminal mantida ao final do Treino D (20°→0°, 3×10, hold 3s, RPE 4)
+- Mesa flexora retornada a 4 séries em D (era 5 durante Fase 1)
+- Aviso de retroversão pélvica adicionado ao Treino B (já estava no D)
+- Instrução de palpação do polo superolateral antes de cada série de extensora em B e D
+
+### Sinais de retrocesso definidos (21/05/2026)
+- EVA pós-treino ou no dia seguinte > 2/10 → retornar à Fase 1 por 7 dias adicionais
+- Dor à palpação em repouso → substituir extensora pelo TKE no dia
+
+### Critérios de progressão
+- Fase 2 → Fase 3: extensora 0–60° e leg press 80–90° sem dor por 3 semanas → meta ~11/06/2026
+- Fase 3: retorno à amplitude completa — reavaliação formal em 04/06/2026
+- Aquecimento 13 min: manter obrigatório durante toda Fase 2; reduzir somente na Fase 3 após 4+ semanas sem sintoma
 
 ## Sinais de alerta para encaminhamento presencial
 - Sem melhora em 2 semanas
