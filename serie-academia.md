@@ -9,6 +9,8 @@ title: Série de Musculação
 >
 > 🦵 **Atualizado 21/05/2026 — Retorno gradual ao protocolo de quadríceps:** joelho esquerdo sem dor (Fase 2 ativa). Cadeira extensora reintroduzida em amplitude limitada (0–60°, −30% carga, RPE 5–6) em B e D; leg press progressivo para 80–90° com carga −10–15%; foam roll e aquecimento de joelho mantidos obrigatoriamente. Próxima reavaliação: 04/06/2026 (amplitude completa só após 3 semanas sem dor).
 >
+> **Atualizada 21/05/2026 — Ajuste de progressão:** séries de tríceps padronizadas em 10–12 reps (progressão ao atingir 12); notas de progressão acelerada adicionadas para flexora e abdominal (usuário com força acima da média nesses grupos); estrutura 4×/semana confirmada como ótima para os objetivos atuais — sem necessidade de reestruturação completa.
+>
 > **Atualizada 02/04/2026** — Ajustes de protração escapular: face pull movido para C2 (3×15), remadas com pausa retração+depressão, pré-depressão nas puxadas
 
 **Objetivos:** Ganho de peitoral e braço · Redução de gordura abdominal · Fortalecimento de core · Melhora de força para ciclismo
@@ -32,8 +34,8 @@ title: Série de Musculação
 | 2 | **Face pull** (corda) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2019/10/face-pulls.jpg) | 2 × 15 | Carga LEVE; cadência 2-2-3; puxar para altura dos olhos. **No pico: "ombros no bolso de trás das calças" — segurar 2s.** |
 | 3 | **Remada cavalinho** (máquina) [📸](https://static1.minhavida.com.br/articles/b5/42/64/cf/lio-putrashutterstock-remada-cavalinho-na-maquina-orig-1.jpg) | 3 × 10–12 | Peito apoiado; cadência 2-2-3; **reduzir carga 10-15%**; pausa 2s no pico com retração + depressão simultânea ("cotovelos para baixo e para trás"). |
 | 4 | **Puxada frontal neutra** [📸](https://i.ytimg.com/vi/ual2wWatHvo/hq2.jpg) | 3 × 10–12 | Pegada neutra; cotovelos apontando para baixo; **pré-depressão antes de cada rep: afastar ombros das orelhas antes de puxar**. |
-| 5 | **Tríceps pulley** (barra reta) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-do-triceps-pulley.jpg) | 3 × 12–15 | Cotovelos fixos ao lado do corpo; extensão isolada; sem envolver ombro. |
-| 6 | **Tríceps unilateral no cabo** | 2 × 12–15 | Braço junto ao corpo; extensão completa; foca em cada lado isoladamente — controle motor diferente do pulley bilateral. |
+| 5 | **Tríceps pulley** (barra reta) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-do-triceps-pulley.jpg) | 3 × 10–12 | Cotovelos fixos ao lado do corpo; extensão isolada; sem envolver ombro. Progressão: atingir 12 reps por 2 sessões → sobe 1 pino. |
+| 6 | **Tríceps unilateral no cabo** | 2 × 10–12 | Braço junto ao corpo; extensão completa; foca em cada lado isoladamente — controle motor diferente do pulley bilateral. Progressão: atingir 12 reps → sobe carga. |
 | 7 | **Rosca martelo** [📸](https://static1.minhavida.com.br/articles/39/76/c9/c4/makatserchykshutterstock-orig-1.jpg) | 3 × 10–12 | Pegada neutra; trabalha bíceps + braquial; sem movimentar ombro. |
 | 8 | **Rosca no cabo** (polia baixa, pegada supinada) | 3 × 10–12 | Tensão constante em toda a amplitude — diferente do halter que perde tensão no fundo. Complementa o martelo com ângulo supinado. |
 | 9 | **Rotação externa no cabo** (0°) [📸](https://s32540.pcdn.co/wp-content/uploads/2018/11/rota%C3%A7aoexterna241118-Copy.jpg) | 3 × 15 | Carga LEVE — terapêutico; cotovelo colado ao corpo a 0°; cadência 3-1-2. |
@@ -90,7 +92,7 @@ title: Série de Musculação
 | 2 | **Face pull** (corda) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2019/10/face-pulls.jpg) | 3 × 15 | Carga LEVE; cadência 2-2-3; puxar para altura dos olhos. **No pico: "ombros no bolso de trás das calças" — segurar 2s.** Retratores frescos = qualidade postural máxima. |
 | 3 | **Remada sentada na máquina** [📸](https://static.wixstatic.com/media/2edbed_56a6cbe28714421c96fb1f932516ed07~mv2.jpg) | 3 × 10–12 | Pegada neutra; cadência 2-2-3; **reduzir carga 10-15%**; pausa 1s no pico com retração + depressão simultânea. Máquina guiada = melhor rastreabilidade e menos instabilidade cervical. |
 | 4 | **Puxada frontal fechada** (pegada neutra) [📸](https://treinomestre.com.br/wp-content/uploads/2022/06/puxada-fechada-pegada-supinada.png) | 3 × 10–12 | Pegada mais fechada — ângulo diferente do Treino A; **pré-depressão antes de cada rep: afastar ombros das orelhas antes de puxar**. |
-| 5 | **Tríceps pulley** (corda) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/10/execucao-do-triceps-corda.jpg) | 3 × 12–15 | Corda: ativação diferente da cabeça lateral vs. barra do Treino A. |
+| 5 | **Tríceps pulley** (corda) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/10/execucao-do-triceps-corda.jpg) | 3 × 10–12 | Corda: ativação diferente da cabeça lateral vs. barra do Treino A. Progressão: atingir 12 reps por 2 sessões → sobe 1 pino. |
 | 6 | **Rosca direta** (barra ou halteres) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/08/rosca-direta-com-barra-1.jpg) | 3 × 10–12 | Pegada supinada — ângulo diferente da rosca martelo; pico de bíceps. |
 | 7 | **Rosca hammer no cabo** (polia baixa, pegada neutra) | 3 × 10–12 | Tensão constante no braquial + bíceps; grip neutro diferente das roscas supinadas. Cabo varia o vetor de força vs. halter. |
 | 8 | **Rosca scott máquina** [📸](https://static1.minhavida.com.br/articles/a0/79/bd/2f/makatserchykshutterstock-orig-1.jpg) | 2 × 10–12 | Apoio completo do cotovelo; máxima contração do bíceps; sem compensação. Finishing set — vem após o hammer para fatiga máxima. |
@@ -163,13 +165,17 @@ title: Série de Musculação
 
 - Atingiu o topo da faixa de reps por 2 sessões seguidas → sobe 1 pino
 - Ao subir carga, volta ao limite inferior de reps
+- **Padrão de progressão para braços e perna:** +peso ao completar **12 reps** por 2 sessões consecutivas (faixas ajustadas para 10–12 no tríceps)
 - **Compostos de perna:** RPE 7–8 — prioridade para força no pedal
-- **Peito (supino máquina):** RPE 6–7 — chave para ganho: progressão constante + 1–2s de contração no pico. Após liberação clínica: adicionar pec deck como isolado de peito
+- **Peito (supino máquina):** RPE 6–7 — chave para ganho: progressão constante + 1–2s de contração no pico. Após liberação clínica: adicionar pec deck como isolado de peito. ⚠️ Limite de 8 sets/semana é clínico (ombro) — não aumentar sem liberação formal.
 - **Costas:** RPE 6–7
 - **Braços:** RPE 6–7 — tríceps é o maior músculo do braço; 9 sets com 3 variações + bíceps 14 sets com 4 variações = máximo estímulo dentro das restrições do ombro
+- **Mesa flexora (isquiotibiais):** RPE 7–8 — força acima da média; progressão agressiva autorizada. Atingiu 12 reps → sobe carga na sessão seguinte (não aguardar 2 sessões). Unilateral: referência de simetria L/D.
+- **Abdominal na máquina:** RPE 6–7 — força acima da média; manter cadência e execução rigorosa, mas progredir carga quando 15 reps ficarem fáceis (RPE < 5) por 2 sessões.
 - **Core:** RPE 6 — foco em qualidade e controle
 - **Reabilitação (rot. ext / face pull):** RPE 4–5 — carga leve sempre, foco em execução
 - **Deload** a cada 4–6 semanas: reduzir carga 30–40% por 1 semana
+- **Avaliação de estrutura (21/05/2026):** Estrutura 4×/semana (A–D) é ótima para os objetivos. A 5ª sessão não agregaria volume de peito/braços sem risco ao ombro — indicada apenas quando houver liberação clínica para volumes maiores de peitoral.
 
 ---
 
