@@ -7,7 +7,7 @@ title: Série de Musculação
 
 > ⚠️ **SÉRIE ADAPTADA** para proteção do manguito rotador (rotura parcial do supraespinhal) e coluna cervicotorácica degenerativa
 >
-> 🦵 **NOVO 14/05/2026** — Adaptação do joelho esquerdo (entesopatia do tendão quadricipital lateral, hipótese clínica). Leg press 45° com amplitude e carga restritas; cadeira extensora **substituída por TKE** nos Treinos B e D; foam roll TFL + vasto lateral obrigatório no aquecimento de pernas. Janela de reavaliação: 28/05/2026.
+> 🦵 **Atualizado 21/05/2026 — Retorno gradual ao protocolo de quadríceps:** joelho esquerdo sem dor (Fase 2 ativa). Cadeira extensora reintroduzida em amplitude limitada (0–60°, −30% carga, RPE 5–6) em B e D; leg press progressivo para 80–90° com carga −10–15%; foam roll e aquecimento de joelho mantidos obrigatoriamente. Próxima reavaliação: 04/06/2026 (amplitude completa só após 3 semanas sem dor).
 >
 > **Atualizada 02/04/2026** — Ajustes de protração escapular: face pull movido para C2 (3×15), remadas com pausa retração+depressão, pré-depressão nas puxadas
 
@@ -57,14 +57,14 @@ title: Série de Musculação
 7. Mobilidade dinâmica de quadril e tornozelo (~2 min)
 
 > O protocolo de ativação do manguito **não é necessário** nos treinos Lower.
-> 🦵 **Protocolo do joelho esquerdo ativo** (atualizado 14/05/2026): foam roll obrigatório pré-treino. Reavaliação 28/05/2026.
+> 🦵 **Protocolo do joelho esquerdo — Fase 2** (atualizado 21/05/2026): foam roll e aquecimento obrigatórios; extensora 0–60° + leg press 80–90°. Reavaliação 04/06/2026.
 
 **Tempo estimado do treino: ~85 min**
 
 | # | Exercício | Séries × Reps | Notas |
 |---|---|---|---|
-| 1 | **Leg press 45°** [📸](https://treinomestre.com.br/wp-content/uploads/2019/06/leg-press-45.jpg) | 3 × 10 | 🦵 **Adaptado 14/05:** amplitude restrita 60–70° (não descer mais), carga **−20–25%**, cadência **4-1-3**, RPE 6. Pés em **rotação externa 15–20°**, largura dos ombros, calcanhares no **terço médio-superior** da plataforma. Após retorno completo: 4×10–12 amplitude completa, RPE 7–8. |
-| 2 | **Terminal Knee Extension (TKE) no cabo** [📸](https://www.spotebi.com/wp-content/uploads/2014/10/standing-knee-extension-exercise.jpg) | 3 × 15/perna | 🦵 **Substitui cadeira extensora 14/05.** Elástico fixo atrás do joelho; estender o joelho apenas dos últimos **20°→0°**. Pé em rotação externa 15–20°; valgo neutro no hold (joelho não cai para fora); **hold 2s em extensão máxima** com mão no VMO. Cadência 2-1-3. |
+| 1 | **Leg press 45°** [📸](https://treinomestre.com.br/wp-content/uploads/2019/06/leg-press-45.jpg) | 3 × 10 | 🦵 **Retorno gradual 21/05:** amplitude **80–90°** (ainda não amplitude completa), carga **−10–15%**, cadência **4-1-3**, RPE 7. Pés em **rotação externa 15–20°**, largura dos ombros, calcanhares no **terço médio-superior** da plataforma. ⚠️ NUNCA permitir retroversão pélvica (bunda sair do apoio); parar descida ANTES de perder curva lombar neutra. Parar se dor reaparecer → retornar a 60–70°. |
+| 2 | **Cadeira extensora** | 3 × 12–15 | 🦵 **Retorno gradual 21/05:** amplitude **limitada 0–60°** (não descer além de 60° de flexão), carga **−30% da normal**, cadência 3-1-2, RPE 5–6. Pé em rotação externa 15–20°; mão no VMO para feedback tátil; sem dor durante todo o movimento. **Palpar polo superolateral da patela esquerda antes de cada série** — se dor à palpação em repouso, substituir pelo TKE no dia. Se dor durante o movimento → retornar ao TKE. |
 | 3 | **Mesa flexora** [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-da-mesa-flexora1.jpg) | 3 × 10–12 + 1 × 8–10 unilateral (cada lado) | Isquiotibiais — fase de tração do pedal; tempo controlado; cabeça apoiada neutra. ⚠️ Verificar se máquina tem apoio facial adequado; se não → toalha dobrada para evitar extensão cervical (C5-C7). **Unilateral (1 série):** diagnóstico de assimetria de isquiotibiais L/D. |
 | 4 | **Cadeira abdutora** [📸](https://cdn.muscleandstrength.com/sites/default/files/hip-abduction-machine.jpg) | 3 × 15 | Glúteo médio — estabilidade lateral no selim; RPE 7. Fundamental para não balançar no ciclismo. |
 | 5 | **Cadeira adutora** [📸](https://cdn.muscleandstrength.com/sites/default/files/hip-adduction-machine.jpg) | 3 × 15 | Adutores do quadril — complementa a abdutora; estabilidade pélvica no pedal e prevenção de lesão de virilha. RPE 6. |
@@ -72,7 +72,7 @@ title: Série de Musculação
 | 7 | **Wall squat excêntrico** | 3 × 8 (excêntrica de 8–10s) | 🦵 **Adicionado 14/05.** Descida lenta encostado na parede até ~60° de flexão; sem dor. Finalização do treino para reforço de quadríceps em carga controlada. |
 | 8 | **Rollout no trilho em C** [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | 3 × 8–10 | Apoio no cotovelo; ajoelhado no carrinho; cadência 3-1-2; amplitude ~60–80% do trilho. **Queixo levemente recolhido — cervical neutra durante todo o movimento**; parar a saída antes de qualquer extensão cervical. |
 
-**Volume B:** 22 sets — Quadríceps: 6 (TKE 3 + Leg press 3) · Wall squat excêntrico: 3 · Isquiotibiais: 4 · Glúteo médio: 3 · Adutores: 3 · Panturrilha: 3 · Core: 3
+**Volume B:** 22 sets — Quadríceps: 6 (Extensora 0–60°: 3 + Leg press 3) · Wall squat excêntrico: 3 · Isquiotibiais: 4 · Glúteo médio: 3 · Adutores: 3 · Panturrilha: 3 · Core: 3
 
 ---
 
@@ -114,16 +114,16 @@ title: Série de Musculação
 6. **Dorsiflexão no step** 2×10/perna
 7. Mobilidade dinâmica de quadril e tornozelo (~2 min)
 
-> 🦵 **Protocolo do joelho esquerdo ativo** (atualizado 14/05/2026): foam roll obrigatório pré-treino. Reavaliação 28/05/2026.
+> 🦵 **Protocolo do joelho esquerdo — Fase 2** (atualizado 21/05/2026): foam roll e aquecimento obrigatórios; extensora 0–60° + leg press 80–90°. Reavaliação 04/06/2026.
 
 **Tempo estimado do treino: ~85 min**
 
 | # | Exercício | Séries × Reps | Notas |
 |---|---|---|---|
 | 1 | **Hip thrust na máquina** (elevação pélvica) [📸](https://www.hsefitness.com/wp-content/uploads/2024/12/How-to-Use-the-Hip-Thrust-Machine-Correctly-600x400.png) | 4 × 12–15 | Glúteo máximo — força de saída no pedal (0°–90° da pedalada). Tempo 3-1-2; RPE 7. Contrair glúteos no pico 1–2s. Sem hiperextensão lombar. **Mantido sem alteração** — não carrega o mecanismo extensor do joelho. |
-| 2 | **Isométrico de leg press 45° em 45–60°** | 3 × 5 holds de 10s | 🦵 **Substitui cadeira extensora 14/05.** Posição estática a 45–60° de flexão (sem chegar perto da amplitude completa); descanso 30s entre holds. Pés em rotação externa 15–20°, terço médio-superior da plataforma. Pré-cansa o quadríceps sem sobrecarregar o tendão. |
-| 3 | **Leg press 45°** [📸](https://treinomestre.com.br/wp-content/uploads/2019/06/leg-press-45.jpg) | 3 × 10 | 🦵 **Adaptado 14/05:** amplitude restrita 60–70°, carga **−20–25%**, cadência **4-1-3**, RPE 6. Mesmo posicionamento de pés do Treino B. ⚠️ NUNCA permitir retroversão pélvica (bunda sair do apoio); parar descida ANTES de perder curva lombar neutra. Descansar 90–120s após o isométrico. |
-| 4 | **Mesa flexora** [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-da-mesa-flexora1.jpg) | 5 × 10–12 | 🦵 **Aumentado de 4 para 5 séries 14/05** — reforço da cadeia posterior para equilibrar redução temporária do quadríceps. Isquiotibiais — fase de tração do pedal. ⚠️ Verificar apoio facial; se inadequado → toalha dobrada para evitar extensão cervical (C5-C7). |
+| 2 | **Cadeira extensora** | 3 × 12–15 | 🦵 **Retorno gradual 21/05:** amplitude **limitada 0–60°** (não descer além de 60° de flexão), carga **−30% da normal**, cadência 3-1-2, RPE 5–6. Pé em rotação externa 15–20°; mão no VMO para feedback tátil; sem dor durante todo o movimento. **Palpar polo superolateral da patela esquerda antes de cada série** — se dor à palpação em repouso, substituir pelo TKE no dia. Se dor durante o movimento → retornar ao isométrico de leg press. |
+| 3 | **Leg press 45°** [📸](https://treinomestre.com.br/wp-content/uploads/2019/06/leg-press-45.jpg) | 3 × 10 | 🦵 **Retorno gradual 21/05:** amplitude **80–90°**, carga **−10–15%**, cadência **4-1-3**, RPE 7. Mesmo posicionamento de pés do Treino B. ⚠️ NUNCA permitir retroversão pélvica (bunda sair do apoio); parar descida ANTES de perder curva lombar neutra. Descansar 90–120s após a extensora. Parar se dor reaparecer → retornar a 60–70°. |
+| 4 | **Mesa flexora** [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-da-mesa-flexora1.jpg) | 4 × 10–12 | 🦵 **Retornado a 4 séries 21/05** (era 5 séries durante o protocolo de joelho para compensar a redução de quadríceps). Isquiotibiais — fase de tração do pedal. ⚠️ Verificar apoio facial; se inadequado → toalha dobrada para evitar extensão cervical (C5-C7). |
 | 5 | **Cadeira abdutora** [📸](https://cdn.muscleandstrength.com/sites/default/files/hip-abduction-machine.jpg) | 3 × 15 | Glúteo médio — frequência 2×/semana (complementa Treino B); estabilidade lateral no selim. RPE 7. |
 | 6 | **Cadeira adutora** [📸](https://cdn.muscleandstrength.com/sites/default/files/hip-adduction-machine.jpg) | 3 × 15 | Adutores do quadril — par com a abdutora; estabilidade pélvica e prevenção de lesão de virilha. RPE 6. |
 | 7 | **Panturrilha em pé** (máquina) [📸](https://www.mundoboaforma.com.br/wp-content/uploads/2022/10/aparelho-panturrilha.jpg) | 3 × 12–15 | Amplitude completa; frequência 2×/semana. |
@@ -131,7 +131,7 @@ title: Série de Musculação
 | 9 | **Cadeira extensora — isométrico terminal** | 3 × 10 (hold 3s em extensão máxima) | 🦵 **Substituiu wall squat excêntrico em 18/05.** Amplitude restrita a **20°→0° apenas** — não descer além de 20° de flexão. Pé em rotação externa 15–20°; mão no VMO para feedback tátil; hold 3s em extensão máxima; cadência 2-3-3; carga LEVE (RPE 4). Objetivo: recrutar VMO em arco sem estresse de tração na inserção tendínea. Wall squat mantido apenas no Treino B. |
 | 10 | **Máquina de rotação de tronco** (torso rotation machine) [📸](https://totalpass.com/wp-content/uploads/2025/12/twist1.png) | 2 × 12 (cada lado) | ⚠️ Substitui Cable Chop/Lift (causou dor no ombro). Carga LEVE; antebraços nos suportes (mãos sem preensão ativa); movimento pelo tronco — não pelos ombros; tempo 3-1-2 (3s retorno); **olhar fixo à frente** — cervical NÃO rotaciona junto. |
 
-**Volume D:** 30 sets — Glúteo máximo: 4 · Quadríceps: 9 (Isométrico leg press 3 + Leg press 3 + Extensora terminal 3) · Isquiotibiais: 5 · Glúteo médio: 3 · Adutores: 3 · Panturrilha: 3 · Core: 5
+**Volume D:** 29 sets — Glúteo máximo: 4 · Quadríceps: 9 (Extensora 0–60°: 3 + Leg press 3 + Extensora terminal 3) · Isquiotibiais: 4 · Glúteo médio: 3 · Adutores: 3 · Panturrilha: 3 · Core: 5
 
 ---
 
@@ -146,9 +146,9 @@ title: Série de Musculação
 | **Tríceps** | 5 | — | 3 | — | **8** |
 | **Bíceps** | 6 | — | 8 | — | **14** |
 | **Glúteo máximo** | — | — | — | 4 | **4** |
-| **Quadríceps** | — | 6 | — | 9 | **15** (🦵 D ajustado 18/05: extensora terminal substituiu wall squat) |
-| **Wall squat excêntrico** | — | 3 | — | — | **3** (🦵 removido do D em 18/05; mantido no B) |
-| **Isquiotibiais** | — | 4 | — | 5 | **9** (🦵 aumentado 14/05; era 7) |
+| **Quadríceps** | — | 6 | — | 9 | **15** (🦵 retorno gradual 21/05: extensora 0–60° reintroduzida em B e D) |
+| **Wall squat excêntrico** | — | 3 | — | — | **3** (🦵 mantido no B; removido do D) |
+| **Isquiotibiais** | — | 4 | — | 4 | **8** (🦵 retornado a 4 séries em D; era 5 durante protocolo de joelho) |
 | **Panturrilha** | — | 3 | — | 3 | **6** |
 | **Glúteo médio** | — | 3 | — | 3 | **6** |
 | **Adutores** | — | 3 | — | 3 | **6** |
@@ -199,15 +199,15 @@ title: Série de Musculação
 | Deadlift convencional | Carga axial + compensação cervical |
 | Tríceps francês | Extensão cervical com carga |
 | Rotação externa a 90° | Posição de impacto subacromial máximo |
-| **Cadeira extensora amplitude completa com carga** 🦵 | Hipótese de entesopatia quadricipital lateral (14/05/2026) — substituída por TKE em B e isométrico de leg press em D até liberação |
-| **Leg press 45° amplitude completa (>70°)** 🦵 | Mesma condição — restrito a 60–70° com carga reduzida 20–25% |
+| **Cadeira extensora amplitude completa (>60°)** 🦵 | Retorno gradual 21/05: amplitude limitada a 0–60° com carga −30% — amplitude completa somente após 3 semanas sem dor (meta ~11/06/2026) |
+| **Leg press 45° amplitude completa (>90°)** 🦵 | Retorno gradual 21/05: amplitude 80–90° com carga −10–15% — amplitude completa após 3 semanas sem dor |
 
 ---
 
-## 🦵 Protocolo do Joelho Esquerdo (14/05–28/05/2026)
+## 🦵 Protocolo do Joelho Esquerdo (14/05–04/06/2026)
 
 > **Hipótese clínica:** Entesopatia do tendão quadricipital lateral (inserção do vasto lateral no polo superior da patela esquerda).
-> **Janela de reavaliação:** 14 dias (até 28/05/2026). Se a dor não reduzir 50%, agendar ortopedista presencial + ultrassonografia do tendão quadricipital e plica sinovial supralateral.
+> **Status 21/05/2026:** Fase 2 ativa — joelho sem dor. Retorno gradual iniciado. Próxima reavaliação: 04/06/2026.
 
 ### Mecanismo
 Vasto lateral encurtado/dominante (resultado do retorno ao ciclismo) traciona a patela lateralmente → estresse na inserção superolateral do tendão → dor em exercícios de extensão de joelho com carga.
@@ -217,16 +217,17 @@ Vasto lateral encurtado/dominante (resultado do retorno ao ciclismo) traciona a 
 2. **J-sign:** sentado, estender lentamente o joelho. Observar se a patela "salta" para lateral nos últimos graus = tração lateral excessiva.
 3. **Compressão patelar lateral:** empurrar a patela para lateral com o polegar e contrair quadríceps — dor superolateral aponta para plica ou entesopatia lateral.
 
-### Adaptações ativas (já aplicadas nos Treinos B e D)
-- Cadeira extensora **→ TKE** (Terminal Knee Extension, 20°→0°) no Treino B
-- Cadeira extensora **→ Isométrico de leg press em 45–60°** no Treino D
-- Leg press 45°: ROM 60–70°, carga −20–25%, pés em rotação externa 15–20°, terço médio-superior da plataforma
-- Aquecimento: foam roll TFL + vasto lateral (5 min), ativação VMO em 30° com rotação externa, clamshell, dorsiflexão no step
-- Wall squat excêntrico (3×8 com excêntrica de 8–10s): mantido ao final de B; removido de D em 18/05 — substituído por cadeira extensora isométrica terminal (20°→0°, 3×10, hold 3s, RPE 4)
+### Adaptações ativas — Fase 2 (aplicadas 21/05/2026)
+- Cadeira extensora **reintroduzida em amplitude 0–60°** (−30% carga, RPE 5–6) nos Treinos B e D
+- Leg press 45°: ROM ampliado para **80–90°**, carga **−10–15%**
+- Aquecimento de 13 min mantido obrigatoriamente (foam roll TFL + vasto lateral, VMO, clamshell, dorsiflexão)
+- Wall squat excêntrico (3×8): mantido no Treino B (protetor)
+- Cadeira extensora isométrica terminal (20°→0°, 3×10, hold 3s, RPE 4): mantida ao final do Treino D (VMO terminal arc)
+- Mesa flexora retornada a 4 séries em D (era 5 durante a Fase 1)
 
 ### Critérios de progressão
-- **Fase 2:** dor 0–1/10 no leg press restrito por 2 treinos seguidos + wall squat 3×8 sem dor → liberar amplitude/carga progressiva no leg press
-- **Fase 3:** retorno ao protocolo original quando amplitude completa indolor por 3 semanas
+- **Fase 2 (atual):** cadeira extensora 0–60° e leg press 80–90° sem dor por 3 semanas → Fase 3
+- **Fase 3:** retorno à amplitude completa na cadeira extensora e leg press (meta: ~11/06/2026)
 
 ### Sinais de alarme (ortopedista imediatamente)
 - Inchaço visível ou calor articular
