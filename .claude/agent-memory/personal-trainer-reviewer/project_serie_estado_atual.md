@@ -50,9 +50,17 @@ type: project
 **Alertas de monitoramento ativos:**
 - Nervo ulnar: volume de bíceps em 14 sets/semana + ciclismo Z2 na Quarta = risco de acúmulo de compressão ulnar. Monitorar formigamento/dormência em 4° e 5° dedos pós-treinos A e C.
 - Proporção quad:isquio (21/05/2026): 15:8 (1,87:1) — dentro do limite 2:1. Volume quad aumentou de 13 para 15 sets com retorno da extensora 0–60° em B e D.
-- Assimetria de proteção escapular: face pull está apenas no Treino C (3 sets). Treino A não tem face pull — avaliação de 02/04/2026 identificou isso como falha residual. Sugerido adicionar 2 sets de face pull em A2 no Treino A.
-- Tabela de volume semanal (seção final do arquivo) contém erro: linha "Reabilitação/terapêutico: 14" é resíduo de versão anterior (incluía protocolo de ativação removido). O correto é 6 sets (3 rot. externa em A + 3 face pull em C). Pendente correção.
+- Assimetria de proteção escapular: face pull está apenas no Treino C (3 sets). Treino A não tem face pull — avaliação de 02/04/2026 identificou isso como falha residual. Sugerido adicionar 2 sets de face pull em A2 no Treino A. Pendência não resolvida até 21/05/2026.
+- Tabela de volume semanal (seção final do arquivo) contém erro: linha "Reabilitação/terapêutico: 8" inclui sets de protocolos antigos. O valor correto depende de inclusão ou não do face pull no Treino A. Pendente correção formal.
 - Volume de quadríceps no Treino D (9 sets) é o teto monitorado da Fase 2: se joelho reagir, reduzir extensora 0–60° de 3 para 2 sets antes de qualquer outra alteração.
+- Inconsistência de progressão no tríceps (identificada 21/05/2026): tríceps unilateral (A6) não especifica "2 sessões" no critério de progressão, diferente dos outros dois exercícios de tríceps (A5 e C5). Recomendado padronizar para "2 sessões" — ainda pendente de correção no arquivo.
+
+**Ajustes de 21/05/2026 (aprovados nesta data):**
+- Tríceps pulley barra reta (A5): 12–15 → 10–12 reps, progressão a 12 por 2 sessões
+- Tríceps unilateral (A6): 12–15 → 10–12 reps
+- Tríceps pulley corda (C5): 12–15 → 10–12 reps
+- Seção Progressão: padrão 12 reps para braços/perna documentado; mesa flexora com progressão agressiva (sem aguardar 2 sessões); abdominal: progredir quando 15 reps ficarem fáceis por 2 sessões
+- Avaliação estrutural: 4×/semana confirmada como ótima; 5ª sessão não recomendada sem liberação clínica de ombro
 
 **Protocolo de ativação de manguito:** REMOVIDO da série em 02/04/2026. Não consta mais em nenhum treino.
 
