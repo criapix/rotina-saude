@@ -58,9 +58,19 @@ type: project
 **Ajustes de 21/05/2026 (aprovados nesta data):**
 - Tríceps pulley barra reta (A5): 12–15 → 10–12 reps, progressão a 12 por 2 sessões
 - Tríceps unilateral (A6): 12–15 → 10–12 reps
-- Tríceps pulley corda (C5): 12–15 → 10–12 reps
+- Tríceps pulley corda (C5): 12–15 → 10–12 reps; +1 série (3→4, total tríceps 9 sets/semana)
+- RPE abdutora: 7 → 7–8 (máximo) + palpação pré-série obrigatória em B e D (TFL/lateral do quadril)
+- RPE adutora: 6 → 6–7 (máximo) + palpação pré-série obrigatória em B e D (virilha/medial)
+- Wall squat substituído por hack squat na máquina no Treino B (3×8, excêntrica 8–10s, amplitude 50–55°, RPE 5–6) — pedido do usuário
+- Deload imediato recomendado: carga −30–40%, 1 semana; extensora e leg press mantêm amplitudes restritas; abdutora/adutora RPE máx 6 durante deload
+- Mesociclo +1 mapeado — aguarda deload + liberação clínica 04/06/2026
 - Seção Progressão: padrão 12 reps para braços/perna documentado; mesa flexora com progressão agressiva (sem aguardar 2 sessões); abdominal: progredir quando 15 reps ficarem fáceis por 2 sessões
 - Avaliação estrutural: 4×/semana confirmada como ótima; 5ª sessão não recomendada sem liberação clínica de ombro
+
+**Revisão técnica de 21/05/2026 — needs_revision emitido com pendência de ajuste:**
+- Motivo único de bloqueio: hack squat posicionado em B7 (após 6 sets de quadríceps + ~10 sets de MMII acumulados). Excêntrica lenta em tendão em recuperação com músculo prefatigado = risco de reagudização da entesopatia. Ajuste recomendado: mover hack squat para B3 (antes da mesa flexora), quando quadríceps terá cumprido apenas leg press + extensora (6 sets).
+- Todas as outras mudanças (tríceps +1 série, RPE abdutora/adutora com palpação, deload, Mesociclo +1 com trava) foram APROVADAS.
+- Pendências pré-existentes confirmadas: face pull ausente no Treino A (assimetria escapular), progressão do tríceps unilateral A6 sem "2 sessões", kick-back glúteo ausente do volume B (verificar se foi removido intencionalmente).
 
 **Protocolo de ativação de manguito:** REMOVIDO da série em 02/04/2026. Não consta mais em nenhum treino.
 
