@@ -8,19 +8,21 @@ type: project
 
 **Fase atual:** Fase de Progressão (Mar/2026 → Abr/2026). Última revisão multidisciplinar: 04/03/2026 (5 agentes). Última revisão de série: 02/04/2026 (ajustes de protração escapular).
 
-**Divisão e volumes vigentes (a partir de 18/03/2026):**
+**Última revisão:** 21/05/2026 — revisão de mesociclo (2 meses). Aprovadas: +1 set tríceps em C, RPE máximo abdutora/adutora, recomendação de deload urgente, rotação de Mesociclo +1.
+
+**Divisão e volumes vigentes (a partir de 21/05/2026):**
 
 | Treino | Dia | Volume | Foco principal |
 |--------|-----|--------|----------------|
-| A — Upper A | Seg | 28 sets | Peito, costas horizontal, tríceps, bíceps, core, reabilitação |
-| B — Lower A | Ter | 23 sets | Quadríceps, isquiotibiais, glúteo médio, adutores, panturrilha, core |
-| C — Upper B | Qua | 28 sets | Peito, costas vertical, tríceps, bíceps, core rotacional, reabilitação |
-| D — Lower B | Qui | 26 sets | Glúteo máximo, quadríceps, isquiotibiais, glúteo médio, adutores, panturrilha, core |
+| A — Upper A | Seg | 29 sets | Peito, costas horizontal, tríceps, bíceps, core, reabilitação |
+| B — Lower A | Ter | 22 sets | Quadríceps, isquiotibiais, glúteo médio, adutores, panturrilha, core |
+| C — Upper B | Qua | 30 sets | Peito, costas vertical, tríceps, bíceps, core rotacional, reabilitação |
+| D — Lower B | Qui | 29 sets | Glúteo máximo, quadríceps, isquiotibiais, glúteo médio, adutores, panturrilha, core |
 
 **Volume semanal por grupo (academia):**
 - Peito: 8 sets (limite de segurança atual por causa do ombro)
 - Costas total: 12 sets (6 horizontal + 6 vertical)
-- Tríceps: 9 sets (A:6 + C:3) | Bíceps: 14 sets (A:6 + C:8)
+- Tríceps: 9 sets (A:5 + C:4) — atualizado 21/05/2026 (+1 set corda em C) | Bíceps: 14 sets (A:6 + C:8)
 - Quadríceps: 13 sets (B:7 + D:6) | Isquiotibiais: 6 sets
 - Glúteo máximo: 6 sets (B:2 kick-back + D:4 hip thrust) | Glúteo médio: 4 sets (B:2 + D:2)
 - Adutores: 6 sets (B:3 + D:3) — NOVO, adicionado em 18/03/2026
@@ -50,9 +52,10 @@ type: project
 **Alertas de monitoramento ativos:**
 - Nervo ulnar: volume de bíceps em 14 sets/semana + ciclismo Z2 na Quarta = risco de acúmulo de compressão ulnar. Monitorar formigamento/dormência em 4° e 5° dedos pós-treinos A e C.
 - Proporção quad:isquio (21/05/2026): 15:8 (1,87:1) — dentro do limite 2:1. Volume quad aumentou de 13 para 15 sets com retorno da extensora 0–60° em B e D.
-- Assimetria de proteção escapular: face pull está apenas no Treino C (3 sets). Treino A não tem face pull — avaliação de 02/04/2026 identificou isso como falha residual. Sugerido adicionar 2 sets de face pull em A2 no Treino A.
-- Tabela de volume semanal (seção final do arquivo) contém erro: linha "Reabilitação/terapêutico: 14" é resíduo de versão anterior (incluía protocolo de ativação removido). O correto é 6 sets (3 rot. externa em A + 3 face pull em C). Pendente correção.
+- Face pull: PRESENTE em A2 (2×15) e C2 (3×15). Registro anterior de "falha residual — Treino A sem face pull" era incorreto. Corrigido em 21/05/2026.
 - Volume de quadríceps no Treino D (9 sets) é o teto monitorado da Fase 2: se joelho reagir, reduzir extensora 0–60° de 3 para 2 sets antes de qualquer outra alteração.
+- Triceps: 9 sets/semana (A:5 + C:4) após +1 set em 21/05/2026. 4o set de corda no C5 ocorre com triceps prefatigado — monitorar qualidade de execucao na serie 4 (cotovelos nao podem escapar para frente).
+- Deload urgente (21/05/2026): 2 meses sem deload. Protocolo diferenciado: peito/costas reduz carga 30-40% (mantém volume); quadríceps em protocolo Fase 2 — manter amplitude, reduzir carga adicional 15-20% (nao regredir amplitude).
 
 **Protocolo de ativação de manguito:** REMOVIDO da série em 02/04/2026. Não consta mais em nenhum treino.
 
