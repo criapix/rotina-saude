@@ -23,6 +23,6 @@ Aluno masculino, pratica ciclismo (Z2 em dias de treino, Ter/Qua/Sex) e muscula�
 
 **Divisão de treino:** A/B/C/D (Upper A / Lower A / Upper B / Lower B), Seg-Qui
 
-**Equipamentos disponíveis:** Academia com: chest press máquina, remada cavalinho máquina, remada sentada cabo, puxada lat, tríceps pulley, leg press 45°, mesa flexora, cadeira abdutora, cadeira extensora, panturrilha em pé, hip thrust máquina, **cadeira abdominal com punhos overhead** (NÃO tem crunch machine com apoio no peito), máquina de rotação de tronco, cabo com corda e barra reta. Tem elásticos para protocolo de ativação.
+**Equipamentos disponíveis:** Academia com: chest press máquina, remada cavalinho máquina, remada sentada cabo, puxada lat, tríceps pulley, leg press 45°, mesa flexora (prona), **cadeira flexora (sentada) — assumida disponível a partir de 22/05/2026 (substituição aprovada; verificar confirmação)**, cadeira abdutora, cadeira extensora, panturrilha em pé, hip thrust máquina, **cadeira abdominal com punhos overhead** (NÃO tem crunch machine com apoio no peito), máquina de rotação de tronco, cabo com corda e barra reta. Tem elásticos para protocolo de ativação.
 
 **Nota sobre cadeira abdominal (19/05/2026):** Punhos overhead geram demanda isometrica no manguito direito durante todo o set. Cue recomendado: cotovelos a 90° (não elevar acima dos ombros). Pendente validacao multidisciplinar ou ajuste de cue antes de aprovacao definitiva.

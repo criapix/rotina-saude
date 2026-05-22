@@ -22,7 +22,7 @@ Joelho esquerdo sem dor após protocolo ativo desde 14/05/2026. Fase 2 iniciada 
 ### Treino D
 - Isométrico de leg press substituído por Cadeira extensora 0–60°: 3×12–15, carga −30%, RPE 5–6
 - Leg press 45°: amplitude 80–90° (era 60–70°), carga −10–15% (era −20–25%), RPE 7
-- Mesa flexora: reduzida de 5 para 4 séries (era 5 para compensar redução de quadríceps na fase aguda)
+- Mesa flexora (agora cadeira flexora desde 22/05/2026): reduzida de 5 para 4 séries (era 5 para compensar redução de quadríceps na fase aguda)
 - Cadeira extensora isométrica terminal (20°→0°, 3×10, hold 3s, RPE 4): mantida ao final do Treino D
 
 ## Volumes Vigentes Pós-21/05/2026
