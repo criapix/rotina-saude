@@ -7,13 +7,7 @@ title: Série de Musculação
 
 > ⚠️ **SÉRIE ADAPTADA** para proteção do manguito rotador (rotura parcial do supraespinhal) e coluna cervicotorácica degenerativa
 >
-> 🦵 **Atualizado 21/05/2026 — Retorno gradual ao protocolo de quadríceps:** joelho esquerdo sem dor (Fase 2 ativa). Cadeira extensora reintroduzida em amplitude limitada (0–60°, −30% carga, RPE 5–6) em B e D; leg press progressivo para 80–90° com carga −10–15%; foam roll e aquecimento de joelho mantidos obrigatoriamente. Próxima reavaliação: 04/06/2026 (amplitude completa só após 3 semanas sem dor).
->
-> **Atualizada 21/05/2026 — Ajuste de progressão:** séries de tríceps padronizadas em 10–12 reps (progressão ao atingir 12); notas de progressão acelerada adicionadas para flexora e abdominal (usuário com força acima da média nesses grupos); estrutura 4×/semana confirmada como ótima para os objetivos atuais — sem necessidade de reestruturação completa.
->
-> **Atualizada 21/05/2026 — Ajuste fino (série ajustada):** +1 série de tríceps no Treino C (3→4, total 9 sets/semana); RPE máximo 7–8 na abdutora e 6–7 na adutora com palpação pré-série obrigatória em todos os treinos; wall squat substituído por hack squat na máquina (amplitude 50–55°) a pedido do usuário; deload imediato recomendado; Mesociclo +1 mapeado após deload + liberação clínica 04/06/2026.
->
-> **Atualizada 02/04/2026** — Ajustes de protração escapular: face pull movido para C2 (3×15), remadas com pausa retração+depressão, pré-depressão nas puxadas
+> 🦵 **Protocolo de joelho — Fase 2 ativa:** joelho esquerdo sem dor. Extensora 0–60° (−30% carga) e leg press 80–90° (−10–15%). Reavaliação: 04/06/2026.
 
 **Objetivos:** Ganho de peitoral e braço · Redução de gordura abdominal · Fortalecimento de core · Melhora de força para ciclismo
 
@@ -32,14 +26,14 @@ title: Série de Musculação
 
 | # | Exercício | Séries × Reps | Notas |
 |---|---|---|---|
-| 1 | **Supino máquina** (chest press) [📸](https://totalpass.com/wp-content/uploads/2025/01/supino-maquina.jpg) | 4 × 8–10 | Cotovelos ~45° (nunca abrir a 90°); RPE 6–7; segurar 1–2s na contração máxima. Chave para ganho de peitoral. |
+| 1 | **Supino máquina** (chest press) [📸](https://totalpass.com/wp-content/uploads/2025/01/supino-maquina.jpg) | 4 × 8–10 | Cotovelos ~45° (nunca abrir a 90°); RPE 6–7; segurar 1–2s na contração máxima. |
 | 2 | **Face pull** (corda) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2019/10/face-pulls.jpg) | 2 × 15 | Carga LEVE; cadência 2-2-3; puxar para altura dos olhos. **No pico: "ombros no bolso de trás das calças" — segurar 2s.** |
 | 3 | **Remada cavalinho** (máquina) [📸](https://static1.minhavida.com.br/articles/b5/42/64/cf/lio-putrashutterstock-remada-cavalinho-na-maquina-orig-1.jpg) | 3 × 10–12 | Peito apoiado; cadência 2-2-3; **reduzir carga 10-15%**; pausa 2s no pico com retração + depressão simultânea ("cotovelos para baixo e para trás"). |
 | 4 | **Puxada frontal neutra** [📸](https://i.ytimg.com/vi/ual2wWatHvo/hq2.jpg) | 3 × 10–12 | Pegada neutra; cotovelos apontando para baixo; **pré-depressão antes de cada rep: afastar ombros das orelhas antes de puxar**. |
 | 5 | **Tríceps pulley** (barra reta) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-do-triceps-pulley.jpg) | 3 × 10–12 | Cotovelos fixos ao lado do corpo; extensão isolada; sem envolver ombro. Progressão: atingir 12 reps por 2 sessões → sobe 1 pino. |
-| 6 | **Tríceps unilateral no cabo** | 2 × 10–12 | Braço junto ao corpo; extensão completa; foca em cada lado isoladamente — controle motor diferente do pulley bilateral. Progressão: atingir 12 reps → sobe carga. |
+| 6 | **Tríceps unilateral no cabo** | 2 × 10–12 | Braço junto ao corpo; extensão completa; foca em cada lado isoladamente. Progressão: atingir 12 reps → sobe carga. |
 | 7 | **Rosca martelo** [📸](https://static1.minhavida.com.br/articles/39/76/c9/c4/makatserchykshutterstock-orig-1.jpg) | 3 × 10–12 | Pegada neutra; trabalha bíceps + braquial; sem movimentar ombro. |
-| 8 | **Rosca no cabo** (polia baixa, pegada supinada) | 3 × 10–12 | Tensão constante em toda a amplitude — diferente do halter que perde tensão no fundo. Complementa o martelo com ângulo supinado. |
+| 8 | **Rosca no cabo** (polia baixa, pegada supinada) | 3 × 10–12 | Tensão constante em toda a amplitude. |
 | 9 | **Rotação externa no cabo** (0°) [📸](https://s32540.pcdn.co/wp-content/uploads/2018/11/rota%C3%A7aoexterna241118-Copy.jpg) | 3 × 15 | Carga LEVE — terapêutico; cotovelo colado ao corpo a 0°; cadência 3-1-2. |
 | 10 | **Abdominal na máquina** (cadeira abdominal; punhos acima da cabeça) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | 3 × 12–15 | Sentado; segurar os punhos acima da cabeça; **antes de cada série: retrair e deprimir as escápulas ("ombros no bolso de trás das calças") e manter durante todo o movimento** — ombros não sobem; flexão de tronco controlada (não puxar pelos braços); cervical neutra; RPE 6. Interromper se sentir pressão no ombro direito. |
 
@@ -69,10 +63,10 @@ title: Série de Musculação
 |---|---|---|---|
 | 1 | **Leg press 45°** [📸](https://treinomestre.com.br/wp-content/uploads/2019/06/leg-press-45.jpg) | 3 × 10 | 🦵 **Retorno gradual 21/05:** amplitude **80–90°** (ainda não amplitude completa), carga **−10–15%**, cadência **4-1-3**, RPE 7. Pés em **rotação externa 15–20°**, largura dos ombros, calcanhares no **terço médio-superior** da plataforma. ⚠️ NUNCA permitir retroversão pélvica (bunda sair do apoio); parar descida ANTES de perder curva lombar neutra. Parar se dor reaparecer → retornar a 60–70°. |
 | 2 | **Cadeira extensora** | 3 × 12–15 | 🦵 **Retorno gradual 21/05:** amplitude **limitada 0–60°** (não descer além de 60° de flexão), carga **−30% da normal**, cadência 3-1-2, RPE 5–6. Pé em rotação externa 15–20°; mão no VMO para feedback tátil; sem dor durante todo o movimento. **Palpar polo superolateral da patela esquerda antes de cada série** — se dor à palpação em repouso, substituir pelo TKE no dia. Se dor durante o movimento → retornar ao TKE. |
-| 3 | **Hack squat na máquina** | 3 × 8 | 🦵 **Substitui wall squat (pedido do usuário 21/05). Posicionado aqui** — quadríceps ainda fresco (apenas leg press + extensora), o que é fundamental para entesopatia insercional (não executar com tendão fatigado). Costas apoiadas no encosto; amplitude limitada a **50–55° de flexão de joelho**; cadência **3-1-2** (sem excêntrica prolongada — contraindicada para entesopatia insercional); carga LEVE (RPE 5–6); sem dor. Palpar polo superolateral da patela antes de cada série. Se dor → TKE no cabo nesse dia. |
-| 4 | **Mesa flexora** [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-da-mesa-flexora1.jpg) | 3 × 10–12 + 1 × 8–10 unilateral (cada lado) | Isquiotibiais — fase de tração do pedal; tempo controlado; cabeça apoiada neutra. ⚠️ Verificar se máquina tem apoio facial adequado; se não → toalha dobrada para evitar extensão cervical (C5-C7). **Unilateral (1 série):** diagnóstico de assimetria de isquiotibiais L/D. |
-| 5 | **Cadeira abdutora** [📸](https://cdn.muscleandstrength.com/sites/default/files/hip-abduction-machine.jpg) | 3 × 15 | Glúteo médio — estabilidade lateral no selim; RPE **7–8** (máximo); **palpação pré-série obrigatória** (região lateral do quadril/TFL — se dor à palpação, reduzir carga e RPE ≤6). Fundamental para não balançar no ciclismo. |
-| 6 | **Cadeira adutora** [📸](https://cdn.muscleandstrength.com/sites/default/files/hip-adduction-machine.jpg) | 3 × 15 | Adutores do quadril — complementa a abdutora; estabilidade pélvica no pedal e prevenção de lesão de virilha. RPE **6–7** (máximo); **palpação pré-série obrigatória** (virilha/região medial — se dor à palpação, suspender o exercício no dia). |
+| 3 | **Hack squat na máquina** | 3 × 8 | 🦵 Executar com quadríceps ainda fresco (fundamental para entesopatia insercional — não executar com tendão fatigado). Costas apoiadas no encosto; amplitude limitada a **50–55° de flexão de joelho**; cadência **3-1-2** (sem excêntrica prolongada — contraindicada para entesopatia insercional); carga LEVE (RPE 5–6); sem dor. Palpar polo superolateral da patela antes de cada série. Se dor → TKE no cabo nesse dia. |
+| 4 | **Mesa flexora** [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-da-mesa-flexora1.jpg) | 3 × 10–12 + 1 × 8–10 unilateral (cada lado) | Tempo controlado; cabeça apoiada neutra. ⚠️ Verificar se máquina tem apoio facial adequado; se não → toalha dobrada para evitar extensão cervical (C5-C7). **Unilateral (1 série):** diagnóstico de assimetria de isquiotibiais L/D. |
+| 5 | **Cadeira abdutora** [📸](https://cdn.muscleandstrength.com/sites/default/files/hip-abduction-machine.jpg) | 3 × 15 | RPE **7–8** (máximo); **palpação pré-série obrigatória** (região lateral do quadril/TFL — se dor à palpação, reduzir carga e RPE ≤6). |
+| 6 | **Cadeira adutora** [📸](https://cdn.muscleandstrength.com/sites/default/files/hip-adduction-machine.jpg) | 3 × 15 | RPE **6–7** (máximo); **palpação pré-série obrigatória** (virilha/região medial — se dor à palpação, suspender o exercício no dia). |
 | 7 | **Panturrilha em pé** (máquina) [📸](https://www.mundoboaforma.com.br/wp-content/uploads/2022/10/aparelho-panturrilha.jpg) | 3 × 12–15 | Amplitude completa; estabilidade do tornozelo no pedal. |
 | 8 | **Rollout no trilho em C** [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | 3 × 8–10 | Apoio no cotovelo; ajoelhado no carrinho; cadência 3-1-2; amplitude ~60–80% do trilho. **Queixo levemente recolhido — cervical neutra durante todo o movimento**; parar a saída antes de qualquer extensão cervical. |
 
@@ -90,15 +84,15 @@ title: Série de Musculação
 
 | # | Exercício | Séries × Reps | Notas |
 |---|---|---|---|
-| 1 | **Supino máquina** (chest press) [📸](https://totalpass.com/wp-content/uploads/2025/01/supino-maquina.jpg) | 4 × 8–10 | Idêntico ao Treino A. Cotovelos ~45°; RPE 6–7; 1–2s contração. |
-| 2 | **Face pull** (corda) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2019/10/face-pulls.jpg) | 3 × 15 | Carga LEVE; cadência 2-2-3; puxar para altura dos olhos. **No pico: "ombros no bolso de trás das calças" — segurar 2s.** Retratores frescos = qualidade postural máxima. |
-| 3 | **Remada sentada na máquina** [📸](https://static.wixstatic.com/media/2edbed_56a6cbe28714421c96fb1f932516ed07~mv2.jpg) | 3 × 10–12 | Pegada neutra; cadência 2-2-3; **reduzir carga 10-15%**; pausa 1s no pico com retração + depressão simultânea. Máquina guiada = melhor rastreabilidade e menos instabilidade cervical. |
-| 4 | **Puxada frontal fechada** (pegada neutra) [📸](https://treinomestre.com.br/wp-content/uploads/2022/06/puxada-fechada-pegada-supinada.png) | 3 × 10–12 | Pegada mais fechada — ângulo diferente do Treino A; **pré-depressão antes de cada rep: afastar ombros das orelhas antes de puxar**. |
-| 5 | **Tríceps pulley** (corda) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/10/execucao-do-triceps-corda.jpg) | 4 × 10–12 | Corda: ativação diferente da cabeça lateral vs. barra do Treino A; **+1 série adicionada 21/05** (3→4, total tríceps 9 sets/semana). Progressão: atingir 12 reps por 2 sessões → sobe 1 pino. |
-| 6 | **Rosca direta** (barra ou halteres) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/08/rosca-direta-com-barra-1.jpg) | 3 × 10–12 | Pegada supinada — ângulo diferente da rosca martelo; pico de bíceps. |
-| 7 | **Rosca hammer no cabo** (polia baixa, pegada neutra) | 3 × 10–12 | Tensão constante no braquial + bíceps; grip neutro diferente das roscas supinadas. Cabo varia o vetor de força vs. halter. |
-| 8 | **Rosca scott máquina** [📸](https://static1.minhavida.com.br/articles/a0/79/bd/2f/makatserchykshutterstock-orig-1.jpg) | 2 × 10–12 | Apoio completo do cotovelo; máxima contração do bíceps; sem compensação. Finishing set — vem após o hammer para fatiga máxima. |
-| 9 | **Máquina de rotação de tronco** [📸](https://totalpass.com/wp-content/uploads/2025/12/twist1.png) | 2 × 12 (cada lado) | Core rotacional — frequência 2×/semana (complementa Treino D). Carga LEVE; movimento pelo tronco; cervical fixa à frente. |
+| 1 | **Supino máquina** (chest press) [📸](https://totalpass.com/wp-content/uploads/2025/01/supino-maquina.jpg) | 4 × 8–10 | Cotovelos ~45°; RPE 6–7; 1–2s contração. |
+| 2 | **Face pull** (corda) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2019/10/face-pulls.jpg) | 3 × 15 | Carga LEVE; cadência 2-2-3; puxar para altura dos olhos. **No pico: "ombros no bolso de trás das calças" — segurar 2s.** |
+| 3 | **Remada sentada na máquina** [📸](https://static.wixstatic.com/media/2edbed_56a6cbe28714421c96fb1f932516ed07~mv2.jpg) | 3 × 10–12 | Pegada neutra; cadência 2-2-3; **reduzir carga 10-15%**; pausa 1s no pico com retração + depressão simultânea. |
+| 4 | **Puxada frontal fechada** (pegada neutra) [📸](https://treinomestre.com.br/wp-content/uploads/2022/06/puxada-fechada-pegada-supinada.png) | 3 × 10–12 | **Pré-depressão antes de cada rep: afastar ombros das orelhas antes de puxar.** |
+| 5 | **Tríceps pulley** (corda) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/10/execucao-do-triceps-corda.jpg) | 4 × 10–12 | Progressão: atingir 12 reps por 2 sessões → sobe 1 pino. |
+| 6 | **Rosca direta** (barra ou halteres) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/08/rosca-direta-com-barra-1.jpg) | 3 × 10–12 | Pico de bíceps; sem movimentar ombro. |
+| 7 | **Rosca hammer no cabo** (polia baixa, pegada neutra) | 3 × 10–12 | Tensão constante; grip neutro. |
+| 8 | **Rosca scott máquina** [📸](https://static1.minhavida.com.br/articles/a0/79/bd/2f/makatserchykshutterstock-orig-1.jpg) | 2 × 10–12 | Apoio completo do cotovelo; máxima contração do bíceps; sem compensação. |
+| 9 | **Máquina de rotação de tronco** [📸](https://totalpass.com/wp-content/uploads/2025/12/twist1.png) | 2 × 12 (cada lado) | Carga LEVE; antebraços nos suportes (mãos sem preensão ativa); movimento pelo tronco — não pelos ombros; tempo 3-1-2 (3s retorno); **olhar fixo à frente** — cervical NÃO rotaciona junto. |
 | 10 | **Abdominal na máquina** (cadeira abdominal; punhos acima da cabeça) [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | 3 × 12–15 | Sentado; segurar os punhos acima da cabeça; retrair e deprimir escápulas ("ombros no bolso") antes de cada série e manter; flexão de tronco controlada (não puxar pelos braços); cervical neutra; RPE 6. Parar se sentir pressão no ombro direito. |
 
 **Volume C:** 30 sets — Peito: 4 · Costas: 6 · Tríceps: 4 · Bíceps: 8 · Core: 5 · Reabilitação: 3
@@ -124,16 +118,16 @@ title: Série de Musculação
 
 | # | Exercício | Séries × Reps | Notas |
 |---|---|---|---|
-| 1 | **Hip thrust na máquina** (elevação pélvica) [📸](https://www.hsefitness.com/wp-content/uploads/2024/12/How-to-Use-the-Hip-Thrust-Machine-Correctly-600x400.png) | 4 × 12–15 | Glúteo máximo — força de saída no pedal (0°–90° da pedalada). Tempo 3-1-2; RPE 7. Contrair glúteos no pico 1–2s. Sem hiperextensão lombar. **Mantido sem alteração** — não carrega o mecanismo extensor do joelho. |
+| 1 | **Hip thrust na máquina** (elevação pélvica) [📸](https://www.hsefitness.com/wp-content/uploads/2024/12/How-to-Use-the-Hip-Thrust-Machine-Correctly-600x400.png) | 4 × 12–15 | Tempo 3-1-2; RPE 7. Contrair glúteos no pico 1–2s. Sem hiperextensão lombar. |
 | 2 | **Cadeira extensora** | 3 × 12–15 | 🦵 **Retorno gradual 21/05:** amplitude **limitada 0–60°** (não descer além de 60° de flexão), carga **−30% da normal**, cadência 3-1-2, RPE 5–6. Pé em rotação externa 15–20°; mão no VMO para feedback tátil; sem dor durante todo o movimento. **Palpar polo superolateral da patela esquerda antes de cada série** — se dor à palpação em repouso, substituir pelo TKE no dia. Se dor durante o movimento → retornar ao isométrico de leg press. |
-| 3 | **Leg press 45°** [📸](https://treinomestre.com.br/wp-content/uploads/2019/06/leg-press-45.jpg) | 3 × 10 | 🦵 **Retorno gradual 21/05:** amplitude **80–90°**, carga **−10–15%**, cadência **4-1-3**, RPE 7. Mesmo posicionamento de pés do Treino B. ⚠️ NUNCA permitir retroversão pélvica (bunda sair do apoio); parar descida ANTES de perder curva lombar neutra. Descansar 90–120s após a extensora. Parar se dor reaparecer → retornar a 60–70°. |
-| 4 | **Mesa flexora** [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-da-mesa-flexora1.jpg) | 4 × 10–12 | 🦵 **Retornado a 4 séries 21/05** (era 5 séries durante o protocolo de joelho para compensar a redução de quadríceps). Isquiotibiais — fase de tração do pedal. ⚠️ Verificar apoio facial; se inadequado → toalha dobrada para evitar extensão cervical (C5-C7). |
-| 5 | **Cadeira abdutora** [📸](https://cdn.muscleandstrength.com/sites/default/files/hip-abduction-machine.jpg) | 3 × 15 | Glúteo médio — frequência 2×/semana (complementa Treino B); estabilidade lateral no selim. RPE **7–8** (máximo); **palpação pré-série obrigatória** (região lateral do quadril/TFL — se dor à palpação, reduzir carga e RPE ≤6). |
-| 6 | **Cadeira adutora** [📸](https://cdn.muscleandstrength.com/sites/default/files/hip-adduction-machine.jpg) | 3 × 15 | Adutores do quadril — par com a abdutora; estabilidade pélvica e prevenção de lesão de virilha. RPE **6–7** (máximo); **palpação pré-série obrigatória** (virilha/região medial — se dor à palpação, suspender o exercício no dia). |
-| 7 | **Panturrilha em pé** (máquina) [📸](https://www.mundoboaforma.com.br/wp-content/uploads/2022/10/aparelho-panturrilha.jpg) | 3 × 12–15 | Amplitude completa; frequência 2×/semana. |
+| 3 | **Leg press 45°** [📸](https://treinomestre.com.br/wp-content/uploads/2019/06/leg-press-45.jpg) | 3 × 10 | 🦵 **Retorno gradual:** amplitude **80–90°**, carga **−10–15%**, cadência **4-1-3**, RPE 7. ⚠️ NUNCA permitir retroversão pélvica (bunda sair do apoio); parar descida ANTES de perder curva lombar neutra. Descansar 90–120s após a extensora. Parar se dor reaparecer → retornar a 60–70°. |
+| 4 | **Mesa flexora** [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/execucao-da-mesa-flexora1.jpg) | 4 × 10–12 | Tempo controlado; cabeça apoiada neutra. ⚠️ Verificar apoio facial; se inadequado → toalha dobrada para evitar extensão cervical (C5-C7). |
+| 5 | **Cadeira abdutora** [📸](https://cdn.muscleandstrength.com/sites/default/files/hip-abduction-machine.jpg) | 3 × 15 | RPE **7–8** (máximo); **palpação pré-série obrigatória** (região lateral do quadril/TFL — se dor à palpação, reduzir carga e RPE ≤6). |
+| 6 | **Cadeira adutora** [📸](https://cdn.muscleandstrength.com/sites/default/files/hip-adduction-machine.jpg) | 3 × 15 | RPE **6–7** (máximo); **palpação pré-série obrigatória** (virilha/região medial — se dor à palpação, suspender o exercício no dia). |
+| 7 | **Panturrilha em pé** (máquina) [📸](https://www.mundoboaforma.com.br/wp-content/uploads/2022/10/aparelho-panturrilha.jpg) | 3 × 12–15 | Amplitude completa. |
 | 8 | **Rollout no trilho reto inclinado** [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | 3 × 8–10 | Apoio no cotovelo; ajoelhado no carrinho; cadência 3-1-2; iniciar com ~60% do trilho, progredir amplitude progressivamente. **Queixo levemente recolhido — cervical neutra durante todo o movimento**. |
-| 9 | **Cadeira extensora — isométrico terminal** | 3 × 10 (hold 3s em extensão máxima) | 🦵 **Substituiu wall squat excêntrico em 18/05.** Amplitude restrita a **20°→0° apenas** — não descer além de 20° de flexão. Pé em rotação externa 15–20°; mão no VMO para feedback tátil; hold 3s em extensão máxima; cadência 2-3-3; carga LEVE (RPE 4). Objetivo: recrutar VMO em arco sem estresse de tração na inserção tendínea. Wall squat mantido apenas no Treino B. |
-| 10 | **Máquina de rotação de tronco** (torso rotation machine) [📸](https://totalpass.com/wp-content/uploads/2025/12/twist1.png) | 2 × 12 (cada lado) | ⚠️ Substitui Cable Chop/Lift (causou dor no ombro). Carga LEVE; antebraços nos suportes (mãos sem preensão ativa); movimento pelo tronco — não pelos ombros; tempo 3-1-2 (3s retorno); **olhar fixo à frente** — cervical NÃO rotaciona junto. |
+| 9 | **Cadeira extensora — isométrico terminal** | 3 × 10 (hold 3s em extensão máxima) | 🦵 Amplitude restrita a **20°→0° apenas** — não descer além de 20° de flexão. Pé em rotação externa 15–20°; mão no VMO para feedback tátil; hold 3s em extensão máxima; cadência 2-3-3; carga LEVE (RPE 4). |
+| 10 | **Máquina de rotação de tronco** (torso rotation machine) [📸](https://totalpass.com/wp-content/uploads/2025/12/twist1.png) | 2 × 12 (cada lado) | Carga LEVE; antebraços nos suportes (mãos sem preensão ativa); movimento pelo tronco — não pelos ombros; tempo 3-1-2 (3s retorno); **olhar fixo à frente** — cervical NÃO rotaciona junto. |
 
 **Volume D:** 29 sets — Glúteo máximo: 4 · Quadríceps: 9 (Extensora 0–60°: 3 + Leg press 3 + Extensora terminal 3) · Isquiotibiais: 4 · Glúteo médio: 3 · Adutores: 3 · Panturrilha: 3 · Core: 5
 
@@ -150,9 +144,9 @@ title: Série de Musculação
 | **Tríceps** | 5 | — | 4 | — | **9** |
 | **Bíceps** | 6 | — | 8 | — | **14** |
 | **Glúteo máximo** | — | — | — | 4 | **4** |
-| **Quadríceps** | — | 6 | — | 9 | **15** (🦵 retorno gradual 21/05: extensora 0–60° reintroduzida em B e D) |
-| **Hack squat 50–55°** | — | 3 | — | — | **3** (🦵 substitui wall squat no B a pedido do usuário 21/05; cadência 3-1-2, amplitude 50–55°, posição B3) |
-| **Isquiotibiais** | — | 4 | — | 4 | **8** (🦵 retornado a 4 séries em D; era 5 durante protocolo de joelho) |
+| **Quadríceps** | — | 6 | — | 9 | **15** |
+| **Hack squat 50–55°** | — | 3 | — | — | **3** |
+| **Isquiotibiais** | — | 4 | — | 4 | **8** |
 | **Panturrilha** | — | 3 | — | 3 | **6** |
 | **Glúteo médio** | — | 3 | — | 3 | **6** |
 | **Adutores** | — | 3 | — | 3 | **6** |
@@ -171,13 +165,12 @@ title: Série de Musculação
 - **Compostos de perna:** RPE 7–8 — prioridade para força no pedal
 - **Peito (supino máquina):** RPE 6–7 — chave para ganho: progressão constante + 1–2s de contração no pico. Após liberação clínica: adicionar pec deck como isolado de peito. ⚠️ Limite de 8 sets/semana é clínico (ombro) — não aumentar sem liberação formal.
 - **Costas:** RPE 6–7
-- **Braços:** RPE 6–7 — tríceps é o maior músculo do braço; 9 sets com 3 variações + bíceps 14 sets com 4 variações = máximo estímulo dentro das restrições do ombro
-- **Mesa flexora (isquiotibiais):** RPE 7–8 — força acima da média; progressão agressiva autorizada. Atingiu 12 reps → sobe carga na sessão seguinte (não aguardar 2 sessões). Unilateral: referência de simetria L/D.
-- **Abdominal na máquina:** RPE 6–7 — força acima da média; manter cadência e execução rigorosa, mas progredir carga quando 15 reps ficarem fáceis (RPE < 5) por 2 sessões.
+- **Braços:** RPE 6–7
+- **Mesa flexora (isquiotibiais):** RPE 7–8 — progressão agressiva autorizada. Atingiu 12 reps → sobe carga na sessão seguinte (não aguardar 2 sessões). Unilateral: referência de simetria L/D.
+- **Abdominal na máquina:** RPE 6–7 — manter cadência e execução rigorosa; progredir carga quando 15 reps ficarem fáceis (RPE < 5) por 2 sessões.
 - **Core:** RPE 6 — foco em qualidade e controle
 - **Reabilitação (rot. ext / face pull):** RPE 4–5 — carga leve sempre, foco em execução
 - **Deload** a cada 4–6 semanas: reduzir carga 30–40% por 1 semana
-- **Avaliação de estrutura (21/05/2026):** Estrutura 4×/semana (A–D) é ótima para os objetivos. A 5ª sessão não agregaria volume de peito/braços sem risco ao ombro — indicada apenas quando houver liberação clínica para volumes maiores de peitoral.
 
 ---
 
@@ -207,6 +200,7 @@ title: Série de Musculação
 | Deadlift convencional | Carga axial + compensação cervical |
 | Tríceps francês | Extensão cervical com carga |
 | Rotação externa a 90° | Posição de impacto subacromial máximo |
+| **Cable Chop/Lift** | Causou dor no ombro direito — substituído por máquina de rotação de tronco |
 | **Cadeira extensora amplitude completa (>60°)** 🦵 | Retorno gradual 21/05: amplitude limitada a 0–60° com carga −30% — amplitude completa somente após 3 semanas sem dor (meta ~11/06/2026) |
 | **Leg press 45° amplitude completa (>90°)** 🦵 | Retorno gradual 21/05: amplitude 80–90° com carga −10–15% — amplitude completa após 3 semanas sem dor |
 
@@ -367,11 +361,6 @@ A série foi desenhada com **variação A vs. C dentro do mesmo mesociclo.** A c
 - **Dias duplos Ter/Qua:** comer carboidrato entre pedal e academia (malto, banana, batata-doce). Se fadiga alta, tirar 1 série dos acessórios; manter sempre leg press e supino
 - **Dor noturna persistente após treino:** sinal de alarme → reduzir RPE do supino para 5 e monitorar por 1 semana
 - **Peitoral:** 8 sets/semana é o limite atual de segurança. Para maximizar ganho dentro desse limite: carga progressiva + contração isométrica de 1–2s no pico em todas as reps
-- **Braços:** bíceps 14 sets/semana com 4 variações (martelo + rosca cabo + direta + scott + hammer cabo) = máxima cobertura angular; tríceps 9 sets com 3 variações (barra bilateral + unilateral + corda)
-- **Core:** 10 sets/semana na academia (abdominal 2× cadeira abdominal em A e C + 2× rollout em B e D; rotação 2×)
-- **Ciclismo:** hip thrust 4 sets + kick-back glúteo 2 sets + leg press 7 sets + mesa flexora 6 sets + extensora 6 sets + abdutora 4 sets + adutora 6 sets + panturrilha 6 sets = base de força para o pedal
-- **Glúteo máximo:** hip thrust no Treino D (4 sets) = 4 sets/semana
-- **Glúteo médio:** 2×/semana (Treino B + D) — estabilidade lateral no selim; 4 sets/semana
 - **Leg press pós-extensora (Treino D):** descansar 90–120s entre extensora e leg press; se fadiga ≥ 8/10 após extensora → tirar 1 série do leg press
 - **Luvas com padding ulnar:** OBRIGATÓRIAS no pedal — proteção do nervo ulnar (handlebar palsy / double crush syndrome)
 
