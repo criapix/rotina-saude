@@ -65,12 +65,12 @@ title: Série de Musculação
 | 2 | **Cadeira extensora** | 3 × 12–15 | 🦵 **Retorno gradual 21/05:** amplitude **limitada 0–60°** (não descer além de 60° de flexão), carga **−30% da normal**, cadência 3-1-2, RPE 5–6. Pé em rotação externa 15–20°; mão no VMO para feedback tátil; sem dor durante todo o movimento. **Palpar polo superolateral da patela esquerda antes de cada série** — se dor à palpação em repouso, substituir pelo TKE no dia. Se dor durante o movimento → retornar ao TKE. |
 | 3 | **Hack squat na máquina** | 3 × 8 | 🦵 Executar com quadríceps ainda fresco (fundamental para entesopatia insercional — não executar com tendão fatigado). Costas apoiadas no encosto; amplitude limitada a **50–55° de flexão de joelho**; cadência **3-1-2** (sem excêntrica prolongada — contraindicada para entesopatia insercional); carga LEVE (RPE 5–6); sem dor. Palpar polo superolateral da patela antes de cada série. Se dor → TKE no cabo nesse dia. |
 | 4 | **Cadeira flexora** | 3 × 10–12 + 1 × 8–10 unilateral (cada lado) | Tempo controlado; sem compensação de quadril. **Unilateral (1 série):** diagnóstico de assimetria de isquiotibiais L/D. |
-| 5 | **Cadeira abdutora** [📸](https://cdn.muscleandstrength.com/sites/default/files/hip-abduction-machine.jpg) | 3 × 15 | RPE **7–8** (máximo); **palpação pré-série obrigatória** (região lateral do quadril/TFL — se dor à palpação, reduzir carga e RPE ≤6). |
-| 6 | **Cadeira adutora** [📸](https://cdn.muscleandstrength.com/sites/default/files/hip-adduction-machine.jpg) | 3 × 15 | RPE **6–7** (máximo); **palpação pré-série obrigatória** (virilha/região medial — se dor à palpação, suspender o exercício no dia). |
+| 5 | **Cadeira abdutora** [📸](https://cdn.muscleandstrength.com/sites/default/files/hip-abduction-machine.jpg) | 2 × 15 | RPE **7–8** (máximo); **palpação pré-série obrigatória** (região lateral do quadril/TFL — se dor à palpação, reduzir carga e RPE ≤6). Volume reduzido para 2 séries pois usuário utiliza quase todo o peso do aparelho. |
+| 6 | **Cadeira adutora** [📸](https://cdn.muscleandstrength.com/sites/default/files/hip-adduction-machine.jpg) | 2 × 15 | RPE **6–7** (máximo); **palpação pré-série obrigatória** (virilha/região medial — se dor à palpação, suspender o exercício no dia). Volume reduzido para 2 séries pois usuário utiliza quase todo o peso do aparelho. |
 | 7 | **Panturrilha em pé** (máquina) [📸](https://www.mundoboaforma.com.br/wp-content/uploads/2022/10/aparelho-panturrilha.jpg) | 3 × 12–15 | Amplitude completa; estabilidade do tornozelo no pedal. |
 | 8 | **Rollout no trilho em C** [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | 3 × 8–10 | Apoio no cotovelo; ajoelhado no carrinho; cadência 3-1-2; amplitude ~60–80% do trilho. **Queixo levemente recolhido — cervical neutra durante todo o movimento**; parar a saída antes de qualquer extensão cervical. |
 
-**Volume B:** 22 sets — Quadríceps: 9 (Leg press 3 + Extensora 0–60°: 3 + Hack squat 50–55°: 3) · Isquiotibiais: 4 · Glúteo médio: 3 · Adutores: 3 · Panturrilha: 3 · Core: 3
+**Volume B:** 20 sets — Quadríceps: 9 (Leg press 3 + Extensora 0–60°: 3 + Hack squat 50–55°: 3) · Isquiotibiais: 4 · Glúteo médio: 2 · Adutores: 2 · Panturrilha: 3 · Core: 3
 
 ---
 
@@ -122,14 +122,14 @@ title: Série de Musculação
 | 2 | **Cadeira extensora** | 3 × 12–15 | 🦵 **Retorno gradual 21/05:** amplitude **limitada 0–60°** (não descer além de 60° de flexão), carga **−30% da normal**, cadência 3-1-2, RPE 5–6. Pé em rotação externa 15–20°; mão no VMO para feedback tátil; sem dor durante todo o movimento. **Palpar polo superolateral da patela esquerda antes de cada série** — se dor à palpação em repouso, substituir pelo TKE no dia. Se dor durante o movimento → retornar ao isométrico de leg press. |
 | 3 | **Leg press 45°** [📸](https://treinomestre.com.br/wp-content/uploads/2019/06/leg-press-45.jpg) | 3 × 10 | 🦵 **Retorno gradual:** amplitude **80–90°**, carga **−10–15%**, cadência **4-1-3**, RPE 7. ⚠️ NUNCA permitir retroversão pélvica (bunda sair do apoio); parar descida ANTES de perder curva lombar neutra. Descansar 90–120s após a extensora. Parar se dor reaparecer → retornar a 60–70°. |
 | 4 | **Cadeira flexora** | 4 × 10–12 | Tempo controlado; sem compensação de quadril. |
-| 5 | **Cadeira abdutora** [📸](https://cdn.muscleandstrength.com/sites/default/files/hip-abduction-machine.jpg) | 3 × 15 | RPE **7–8** (máximo); **palpação pré-série obrigatória** (região lateral do quadril/TFL — se dor à palpação, reduzir carga e RPE ≤6). |
-| 6 | **Cadeira adutora** [📸](https://cdn.muscleandstrength.com/sites/default/files/hip-adduction-machine.jpg) | 3 × 15 | RPE **6–7** (máximo); **palpação pré-série obrigatória** (virilha/região medial — se dor à palpação, suspender o exercício no dia). |
+| 5 | **Cadeira abdutora** [📸](https://cdn.muscleandstrength.com/sites/default/files/hip-abduction-machine.jpg) | 2 × 15 | RPE **7–8** (máximo); **palpação pré-série obrigatória** (região lateral do quadril/TFL — se dor à palpação, reduzir carga e RPE ≤6). Volume reduzido para 2 séries pois usuário utiliza quase todo o peso do aparelho. |
+| 6 | **Cadeira adutora** [📸](https://cdn.muscleandstrength.com/sites/default/files/hip-adduction-machine.jpg) | 2 × 15 | RPE **6–7** (máximo); **palpação pré-série obrigatória** (virilha/região medial — se dor à palpação, suspender o exercício no dia). Volume reduzido para 2 séries pois usuário utiliza quase todo o peso do aparelho. |
 | 7 | **Panturrilha em pé** (máquina) [📸](https://www.mundoboaforma.com.br/wp-content/uploads/2022/10/aparelho-panturrilha.jpg) | 3 × 12–15 | Amplitude completa. |
 | 8 | **Rollout no trilho reto inclinado** [📸](https://www.hipertrofia.org/blog/wp-content/uploads/2017/09/abdominal-maquina.gif) | 3 × 8–10 | Apoio no cotovelo; ajoelhado no carrinho; cadência 3-1-2; iniciar com ~60% do trilho, progredir amplitude progressivamente. **Queixo levemente recolhido — cervical neutra durante todo o movimento**. |
 | 9 | **Cadeira extensora — isométrico terminal** | 3 × 10 (hold 3s em extensão máxima) | 🦵 Amplitude restrita a **20°→0° apenas** — não descer além de 20° de flexão. Pé em rotação externa 15–20°; mão no VMO para feedback tátil; hold 3s em extensão máxima; cadência 2-3-3; carga LEVE (RPE 4). |
 | 10 | **Máquina de rotação de tronco** (torso rotation machine) [📸](https://totalpass.com/wp-content/uploads/2025/12/twist1.png) | 2 × 12 (cada lado) | Carga LEVE; antebraços nos suportes (mãos sem preensão ativa); movimento pelo tronco — não pelos ombros; tempo 3-1-2 (3s retorno); **olhar fixo à frente** — cervical NÃO rotaciona junto. |
 
-**Volume D:** 29 sets — Glúteo máximo: 4 · Quadríceps: 9 (Extensora 0–60°: 3 + Leg press 3 + Extensora terminal 3) · Isquiotibiais: 4 · Glúteo médio: 3 · Adutores: 3 · Panturrilha: 3 · Core: 5
+**Volume D:** 27 sets — Glúteo máximo: 4 · Quadríceps: 9 (Extensora 0–60°: 3 + Leg press 3 + Extensora terminal 3) · Isquiotibiais: 4 · Glúteo médio: 2 · Adutores: 2 · Panturrilha: 3 · Core: 5
 
 ---
 
@@ -148,8 +148,8 @@ title: Série de Musculação
 | **Hack squat 50–55°** | — | 3 | — | — | **3** |
 | **Isquiotibiais** | — | 4 | — | 4 | **8** |
 | **Panturrilha** | — | 3 | — | 3 | **6** |
-| **Glúteo médio** | — | 3 | — | 3 | **6** |
-| **Adutores** | — | 3 | — | 3 | **6** |
+| **Glúteo médio** | — | 2 | — | 2 | **4** |
+| **Adutores** | — | 2 | — | 2 | **4** |
 | **Core abdominal** | 3 | 3 | 3 | 3 | **12** |
 | **Core rotacional** | — | — | 2 | 2 | **4** |
 | **Reabilitação / terapêutico** | 5 | — | 3 | — | **8** |

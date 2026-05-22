@@ -22,8 +22,8 @@ type: project
 - Costas total: 12 sets (6 horizontal + 6 vertical)
 - Tríceps: 9 sets (A:6 + C:3) | Bíceps: 14 sets (A:6 + C:8)
 - Quadríceps: 13 sets (B:7 + D:6) | Isquiotibiais: 6 sets
-- Glúteo máximo: 6 sets (B:2 kick-back + D:4 hip thrust) | Glúteo médio: 4 sets (B:2 + D:2)
-- Adutores: 6 sets (B:3 + D:3) — NOVO, adicionado em 18/03/2026
+- Glúteo máximo: 4 sets (D:4 hip thrust) | Glúteo médio: 4 sets (B:2 + D:2) — reduzido de 6 para 4 em 22/05/2026 (aprovado; motivo: usuário próximo ao limite máximo da máquina)
+- Adutores: 4 sets (B:2 + D:2) — reduzido de 6 para 4 em 22/05/2026 (aprovado; mesmo motivo)
 - Panturrilha: 6 sets | Core abdominal: 12 sets | Core rotacional: 4 sets (C:2 + D:2)
 - Core isometrico: protocolo domiciliar (prancha frontal + lateral + dead bug + bird dog) — 3x/semana
 
