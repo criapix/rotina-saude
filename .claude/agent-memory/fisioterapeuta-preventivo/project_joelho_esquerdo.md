@@ -71,14 +71,13 @@ metadata:
 - Hack squat (Treino B ex. 3): MANTIDO em 3×8 com amplitude/carga normais (decisão do paciente em 10/06/2026 — set de quadríceps real, prioridade pedal)
 - Os 3 sets liberados (extensora terminal) foram realocados para superiores: +2 costas (remada cavalinho A + remada sentada C) e +1 tríceps pulley (C)
 - Amplitude completa liberada: extensora 0–90°, leg press sem restrição
-- Aquecimento 13 min MANTIDO: preventivo para recidiva (Patrick continua pedalando — mecanismo etiológico ativo)
-- Restrição "não rolar sobre inserção dolorida" no foam roll VL: removida (sem dor)
+- ⚠️ **Aquecimento REMOVIDO da série em 10/06/2026 a pedido do paciente** (ele não faz aquecimento). Foam roll TFL/VL + VMO + clamshell + dorsiflexão saíram dos Treinos B e D. Era a defesa mais direta contra recidiva — fica como PRIMEIRA medida a reintroduzir se a dor superolateral voltar.
 
-### Itens de prevenção de recidiva (manter indefinidamente enquanto pedalando)
-- Foam roll TFL + vasto lateral distal: B e D pré-treino (mecanismo etiológico continua ativo)
-- Ativação VMO isometria 30°: B e D pré-treino (desequilíbrio VL/VMO estrutural em ciclistas)
-- Clamshell 2×15: B e D pré-treino (glúteo médio = estabilizador joelho plano frontal no pedal)
-- Cadeira abdutora 4 sets/semana: manter (único exercício direto de glúteo médio na série)
+### Itens de prevenção de recidiva que SOBRARAM (embutidos nos exercícios — paciente não faz aquecimento)
+- Pé em rotação externa 15–20° na extensora e no leg press: mantido nas notas dos exercícios
+- Cadeira abdutora 4 sets/semana (glúteo médio): mantida
+- Isquiotibiais 8 + adutores 4: mantidos (estabilizadores do tracking patelar)
+- Foam roll TFL/VL + ativação VMO: REMOVIDOS da rotina; reintroduzir ao primeiro sinal de recidiva
 
 ## Sinais de alerta para encaminhamento presencial
 - Sem melhora em 2 semanas

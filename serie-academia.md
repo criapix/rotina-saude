@@ -20,9 +20,7 @@ title: Série de Musculação
 
 **Foco:** Peito · Costas horizontal · Tríceps · Bíceps · Abdominal · Reabilitação ombro
 
-**Aquecimento:** Bike 5 min · **~5 min**
-
-**Tempo estimado do treino: ~80 min**
+**Tempo estimado do treino: ~75 min**
 
 | # | Exercício | Séries × Reps | Notas |
 |---|---|---|---|
@@ -45,18 +43,9 @@ title: Série de Musculação
 
 **Foco:** Quadríceps · Isquiotibiais · Glúteo médio · Panturrilha · Core (abdominal)
 
-**Aquecimento (~10 min):**
-1. **Foam roll TFL** (anterolateral do quadril): 60–90s/lado
-2. **Foam roll vasto lateral distal** (metade distal da coxa lateral): 90s/lado
-3. **Bike** 5 min
-4. **Ativação VMO** — isometria a 30° de flexão com pé em rotação externa, hold 5s, 2×15 (mão no VMO para feedback tátil)
-5. **Clamshell** 2×15/lado
-6. **Dorsiflexão no step** 2×10/perna
+> 🦵 **Joelho recuperado (10/06/2026):** quadríceps liberado em amplitude completa e carga normal. Manter pé em rotação externa 15–20° na extensora e no leg press como prevenção do tracking patelar.
 
-> O protocolo de ativação do manguito **não é necessário** nos treinos Lower.
-> 🦵 **Joelho recuperado (10/06/2026):** foam roll TFL + vasto lateral, ativação VMO e clamshell **mantidos como prevenção de recidiva** (ciclismo encurta TFL/IT band e superativa o vasto lateral). Exercícios de quadríceps liberados em amplitude completa e carga normal.
-
-**Tempo estimado do treino: ~85 min**
+**Tempo estimado do treino: ~75 min**
 
 | # | Exercício | Séries × Reps | Notas |
 |---|---|---|---|
@@ -77,9 +66,7 @@ title: Série de Musculação
 
 **Foco:** Peito · Costas vertical · Tríceps (variação) · Bíceps (variação) · Abdominal · Reabilitação ombro
 
-**Aquecimento:** Bike 5 min · **~5 min**
-
-**Tempo estimado do treino: ~80 min**
+**Tempo estimado do treino: ~75 min**
 
 | # | Exercício | Séries × Reps | Notas |
 |---|---|---|---|
@@ -102,17 +89,9 @@ title: Série de Musculação
 
 **Foco:** Glúteo máximo · Quadríceps (isolado + composto) · Isquiotibiais · Glúteo médio · Panturrilha · Core lateral e anti-rotacional
 
-**Aquecimento (~10 min):**
-1. **Foam roll TFL**: 60–90s/lado
-2. **Foam roll vasto lateral distal**: 90s/lado
-3. **Bike** 5 min
-4. **Ativação VMO** — isometria a 30° com pé em rotação externa, hold 5s, 2×15
-5. **Clamshell** 2×15/lado
-6. **Dorsiflexão no step** 2×10/perna
+> 🦵 **Joelho recuperado (10/06/2026):** quadríceps liberado em amplitude completa e carga normal. Manter pé em rotação externa 15–20° na extensora e no leg press como prevenção do tracking patelar.
 
-> 🦵 **Joelho recuperado (10/06/2026):** foam roll + VMO + clamshell mantidos como prevenção de recidiva (ciclismo). Quadríceps liberado em amplitude completa e carga normal.
-
-**Tempo estimado do treino: ~85 min**
+**Tempo estimado do treino: ~75 min**
 
 | # | Exercício | Séries × Reps | Notas |
 |---|---|---|---|
@@ -215,11 +194,10 @@ title: Série de Musculação
 - **Removida** a cadeira extensora isométrica terminal (20°→0°) do Treino D — era exercício puramente terapêutico; os 3 sets foram realocados para superiores
 
 ### Manutenção preventiva (porque o ciclismo continua)
-> A causa raiz (encurtamento de TFL/IT band + dominância do vasto lateral pelo ciclismo) permanece. Para **prevenir recidiva**, manter sempre:
-- Aquecimento de Lower: **foam roll TFL + vasto lateral, ativação VMO em 30°, clamshell** (não cortar)
+> A causa raiz (encurtamento de TFL/IT band + dominância do vasto lateral pelo ciclismo) permanece. A prevenção agora está embutida nos próprios exercícios (sem aquecimento dedicado — o usuário não o faz):
 - Pé em rotação externa 15–20° na extensora e no leg press
 - Glúteo médio (abdutora), isquiotibiais e adutores no volume atual — estabilizadores do tracking patelar
-- Mobilidade pós-pedal (alongamento de TFL/IT band) nos dias de volume alto de bike
+- ⚠️ **Aquecimento/foam roll/VMO removidos a pedido do usuário (10/06/2026).** Eram a defesa mais direta contra recidiva — se a dor superolateral voltar, retomar foam roll TFL + vasto lateral e ativação VMO antes do Lower é a primeira medida.
 
 ### Sinais de retorno da lesão (retroceder e monitorar)
 - Dor focal no polo superolateral da patela esquerda à palpação ou durante extensão com carga
@@ -322,8 +300,7 @@ A série foi desenhada com **variação A vs. C dentro do mesmo mesociclo.** A c
 
 ## Notas
 
-- **Treinos Upper** (A e C): aquecimento bike 5 min
-- **Treinos Lower** (B e D): mobilidade dinâmica pré-treino (~3 min)
+- **Sem aquecimento dedicado** (A/B/C/D): removido a pedido do usuário (10/06/2026) — ele não o faz. Iniciar as primeiras séries dos compostos (supino, leg press) com carga submáxima serve de aquecimento específico.
 - **Dias duplos Ter/Qua:** comer carboidrato entre pedal e academia (malto, banana, batata-doce). Se fadiga alta, tirar 1 série dos acessórios; manter sempre leg press e supino
 - **Dor noturna persistente após treino:** sinal de alarme → reduzir RPE do supino para 5 e monitorar por 1 semana
 - **Peitoral:** 8 sets/semana é o limite atual de segurança. Para maximizar ganho dentro desse limite: carga progressiva + contração isométrica de 1–2s no pico em todas as reps

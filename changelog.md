@@ -23,8 +23,9 @@ Historico de alteracoes no plano de treino, nutricao e acompanhamento clinico.
 - Restauradas amplitudes/cargas normais: extensora 0–90°, leg press e hack squat normais; removidas as marcacoes de Fase 2 e palpacao pre-serie obrigatoria
 - Realocados os 3 sets: +1 remada cavalinho (A) e +1 remada sentada (C) → costas 12→14; +1 triceps pulley (C) → triceps 9→10
 - Peito mantido em 8 sets (limite clinico do ombro — intocavel); reabilitacao de ombro mantida em 8 sets
-- Aquecimento de Lower mantido como **prevencao de recidiva** (foam roll TFL + vasto lateral, VMO, clamshell) — ciclismo continua
 - Secao do joelho convertida de "Protocolo Fase 2" para "RECUPERADO + manutencao preventiva"; lista de Suspensos limpa (removidas restricoes de amplitude de extensora/leg press); nota de gating do Mesociclo +1 atualizada
+
+**Remocao dos aquecimentos (mesmo dia, a pedido do usuario):** o usuario informou que nao faz aquecimento. Removidos os blocos de aquecimento dos 4 treinos (bike 5 min nos Upper; foam roll TFL + vasto lateral + VMO + clamshell + dorsiflexao nos Lower). ⚠️ Registrado alerta clinico: o aquecimento de Lower era a defesa mais direta contra recidiva da entesopatia (ciclismo segue como causa ativa) — retomar foam roll + VMO e a primeira medida se a dor superolateral voltar. Prevencao remanescente embutida nos exercicios: pe em rotacao externa na extensora/leg press + volume de gluteo medio/isquios/adutores.
 
 **Volume semanal resultante:** Peito 8 · Costas 14 · Triceps 10 · Biceps 14 · Quadriceps 12 + Hack squat 3 · Isquiotibiais 8 · Panturrilha 6 · Gluteo medio 4 · Adutores 4 · Gluteo maximo 4 · Core 12 + rotacional 4 · Reabilitacao 8
 
