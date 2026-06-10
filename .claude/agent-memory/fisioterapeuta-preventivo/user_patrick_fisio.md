@@ -11,11 +11,11 @@ metadata:
 - Fisioterapia presencial: RECUSADA definitivamente (decisão de 02/04/2026)
 - Tratamento via integração terapêutica na série de academia
 
-## Lesões ativas (maio/2026)
-- Ombro direito: rotura parcial bursal supraespinhal ~1 cm + tendinose multitendínea + bursite subacromial leve + acrômio tipo II
+## Lesões ativas (junho/2026)
+- Ombro direito: rotura parcial bursal supraespinhal ~1 cm + tendinose multitendínea + bursite subacromial leve + acrômio tipo II — EM REABILITAÇÃO (8 sets/semana face pull + rot. ext.)
 - Cervical: discopatia degenerativa C5-C6 e C6-C7, Modic I bilateral, compressão foraminal bilateral
 - Síndrome neurológica: double crush C8 + handlebar palsy (nervo ulnar direito) — dormência mindinho direito
-- Joelho esquerdo: irritação suprapatelar (hipótese: tendinopatia de quadríceps proximal, plica sinovial ou síndrome patelofemoral) — NOVA, identificada 14/05/2026
+- Joelho esquerdo: entesopatia quadricipital lateral — RESOLVIDA em 10/06/2026 (amplitude completa, sem dor). Protocolo preventivo de recidiva mantido (foam roll TFL/VL + VMO + clamshell + abdutora).
 
 ## Padrões biomecânicos relevantes
 - Quadríceps sobrecarregado pelo retorno ao pedal (queima em 1 min de alta intensidade)

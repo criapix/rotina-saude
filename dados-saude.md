@@ -286,7 +286,7 @@ Demais marcadores normais: eletrólitos, função hepática/renal, hemograma, te
 2. 🔴 **Consulta endocrinologista** + **anti-TPO** — avaliar TIRADS 4 + parênquima heterogêneo
 3. ⚠️ **US tireoide controle** — 6-12 meses (set/2026-mar/2027)
 4. ⚠️ **BF% em 11,7%** — monitorar na próxima bio; se cair abaixo de 11%, aumentar calorias nos dias de treino
-5. 🦵 **Joelho esquerdo (NOVO 14/05/2026):** entesopatia do tendão quadricipital lateral (hipótese clínica) — janela de reavaliação 28/05/2026; se dor não reduzir 50%, ortopedista presencial + USG. Ver Seção 17.
+5. ✅ **Joelho esquerdo — RECUPERADO (10/06/2026):** entesopatia do tendão quadricipital lateral resolvida; exercícios de perna em amplitude completa e carga normal. Mantida manutenção preventiva (foam roll TFL + VMO + clamshell) por causa do ciclismo. Ver Seção 17.
 6. 🎯 **Meta bio ~mai/2026:** FFM >= 65,0 · SMM >= 39,0 · BF% >= 11,0% (não cair abaixo) · VFA <= 26 · VFL = 4
 7. 🎯 **Próximo painel completo:** Maio/2026
 
@@ -341,7 +341,9 @@ Demais marcadores normais: eletrólitos, função hepática/renal, hemograma, te
 
 ---
 
-## 17. Joelho Esquerdo — Entesopatia Quadricipital Lateral (14/05/2026)
+## 17. Joelho Esquerdo — Entesopatia Quadricipital Lateral (14/05/2026 → RECUPERADO 10/06/2026)
+
+> ✅ **Status 10/06/2026:** RECUPERADO. Paciente realizando exercícios de perna normalmente (amplitude completa, carga normal). Protocolo de Fase 2 encerrado. Mantida manutenção preventiva (foam roll TFL + vasto lateral, ativação VMO, clamshell) porque a causa raiz — encurtamento de TFL/IT band e dominância do vasto lateral pelo ciclismo — permanece e há risco de recidiva. Detalhes do encerramento e da realocação de volume em `serie-academia.md`.
 
 ### Apresentação clínica
 - **Localização:** dor superolateral no joelho esquerdo — ponto exato: inserção do vasto lateral no tendão quadricipital (polo superior da patela, borda lateral)

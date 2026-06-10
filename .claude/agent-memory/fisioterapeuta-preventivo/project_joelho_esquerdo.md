@@ -63,23 +63,21 @@ metadata:
 - Patrick relatou cessação de dor após 7 dias de protocolo Fase 1
 - Critérios de progressão cumpridos → Fase 2 iniciada em 21/05/2026
 
-### Fase 2 — Adaptações ativas (21/05/2026)
-- Cadeira extensora reintroduzida: 0–60°, carga −30%, RPE 5–6 (Treino B posição 2; Treino D posição 2)
-- Leg press ampliado: 80–90° (era 60–70°), carga −10–15% (era −20–25%), cadência 4-1-3, RPE 7
-- Wall squat excêntrico mantido apenas no Treino B (3×8, 8–10s excêntrica)
-- Extensora isométrica terminal mantida ao final do Treino D (20°→0°, 3×10, hold 3s, RPE 4)
-- Mesa flexora retornada a 4 séries em D (era 5 durante Fase 1)
-- Aviso de retroversão pélvica adicionado ao Treino B (já estava no D)
-- Instrução de palpação do polo superolateral antes de cada série de extensora em B e D
+### Fase 2 → RECUPERADO (10/06/2026)
+- Patrick confirmou em 10/06/2026: joelho esquerdo RECUPERADO — amplitude completa, sem dor, exercícios de perna normais
+- Entesopatia quadricipital lateral: RESOLVIDA clinicamente
+- Exercício terapêutico de fase aguda removido da série:
+  - Cadeira extensora isométrica terminal 20°→0° (Treino D ex. 9) — REMOVIDA, redundante após recuperação
+- Hack squat (Treino B ex. 3): MANTIDO em 3×8 com amplitude/carga normais (decisão do paciente em 10/06/2026 — set de quadríceps real, prioridade pedal)
+- Os 3 sets liberados (extensora terminal) foram realocados para superiores: +2 costas (remada cavalinho A + remada sentada C) e +1 tríceps pulley (C)
+- Amplitude completa liberada: extensora 0–90°, leg press sem restrição
+- ⚠️ **Aquecimento REMOVIDO da série em 10/06/2026 a pedido do paciente** (ele não faz aquecimento). Foam roll TFL/VL + VMO + clamshell + dorsiflexão saíram dos Treinos B e D. Era a defesa mais direta contra recidiva — fica como PRIMEIRA medida a reintroduzir se a dor superolateral voltar.
 
-### Sinais de retrocesso definidos (21/05/2026)
-- EVA pós-treino ou no dia seguinte > 2/10 → retornar à Fase 1 por 7 dias adicionais
-- Dor à palpação em repouso → substituir extensora pelo TKE no dia
-
-### Critérios de progressão
-- Fase 2 → Fase 3: extensora 0–60° e leg press 80–90° sem dor por 3 semanas → meta ~11/06/2026
-- Fase 3: retorno à amplitude completa — reavaliação formal em 04/06/2026
-- Aquecimento 13 min: manter obrigatório durante toda Fase 2; reduzir somente na Fase 3 após 4+ semanas sem sintoma
+### Itens de prevenção de recidiva que SOBRARAM (embutidos nos exercícios — paciente não faz aquecimento)
+- Pé em rotação externa 15–20° na extensora e no leg press: mantido nas notas dos exercícios
+- Cadeira abdutora 4 sets/semana (glúteo médio): mantida
+- Isquiotibiais 8 + adutores 4: mantidos (estabilizadores do tracking patelar)
+- Foam roll TFL/VL + ativação VMO: REMOVIDOS da rotina; reintroduzir ao primeiro sinal de recidiva
 
 ## Sinais de alerta para encaminhamento presencial
 - Sem melhora em 2 semanas
