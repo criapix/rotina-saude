@@ -9,6 +9,29 @@ Historico de alteracoes no plano de treino, nutricao e acompanhamento clinico.
 
 ---
 
+## 10/06/2026 — Joelho recuperado + rebalanceamento de volume inferiores→superiores
+
+**Contexto:** paciente informou alta funcional do joelho esquerdo (entesopatia quadricipital lateral resolvida) e retorno aos exercicios de perna em amplitude/carga normais. Pergunta: vale reduzir inferiores e aumentar superiores?
+
+**Parecer (3 agentes — coach de ciclismo + ortopedista + fisioterapeuta):**
+- Nao cortar perna em bloco: quadriceps/gluteos sao prioridade para o pedal e o volume real de trabalho ja era adequado.
+- Superiores tem teto pelo ombro: peito travado em 8 sets (limite clinico), biceps 14 ja no teto util. Espaco real so em costas (protege a escapula) e tricep.
+- O unico volume legitimamente liberavel era terapeutico: a cadeira extensora isometrica terminal (Treino D, 3 sets) so existia para reabilitar a entesopatia.
+
+**Mudancas aplicadas em `serie-academia.md`:**
+- Removida a cadeira extensora isometrica terminal (Treino D) — 3 sets terapeuticos liberados
+- Restauradas amplitudes/cargas normais: extensora 0–90°, leg press e hack squat normais; removidas as marcacoes de Fase 2 e palpacao pre-serie obrigatoria
+- Realocados os 3 sets: +1 remada cavalinho (A) e +1 remada sentada (C) → costas 12→14; +1 triceps pulley (C) → triceps 9→10
+- Peito mantido em 8 sets (limite clinico do ombro — intocavel); reabilitacao de ombro mantida em 8 sets
+- Aquecimento de Lower mantido como **prevencao de recidiva** (foam roll TFL + vasto lateral, VMO, clamshell) — ciclismo continua
+- Secao do joelho convertida de "Protocolo Fase 2" para "RECUPERADO + manutencao preventiva"; lista de Suspensos limpa (removidas restricoes de amplitude de extensora/leg press); nota de gating do Mesociclo +1 atualizada
+
+**Volume semanal resultante:** Peito 8 · Costas 14 · Triceps 10 · Biceps 14 · Quadriceps 12 + Hack squat 3 · Isquiotibiais 8 · Panturrilha 6 · Gluteo medio 4 · Adutores 4 · Gluteo maximo 4 · Core 12 + rotacional 4 · Reabilitacao 8
+
+- Atualizado: `serie-academia.md` (Treinos A/B/C/D, tabela de volume, suspensos, secao do joelho, rotacao de variantes, rodape de pareceres), `dados-saude.md` (pendencia 5 + Secao 17)
+
+---
+
 ## 14/05/2026 — Joelho esquerdo + queda de energia em 1h30 + resistencia quadriceps no pedal
 
 **Tres queixas integradas em parecer multidisciplinar (4 agentes):** dor superolateral no joelho esquerdo durante leg press 45 e cadeira extensora; queima de quadriceps em <1 min no pedal ao acompanhar grupo; queda de energia em 1h30 de treino.
