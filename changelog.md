@@ -9,6 +9,27 @@ Historico de alteracoes no plano de treino, nutricao e acompanhamento clinico.
 
 ---
 
+## 18/06/2026 — Resultado da PAAF da tireoide (Bethesda IV) + consulta endocrinologista
+
+**Contexto:** chegou o laudo do citopatologico da tireoide (PAAF guiada por US, coleta 09/06/2026, liberado 11/06/2026) e o paciente passou em consulta com a endocrinologista em 18/06/2026.
+
+**Resultado da PAAF (RJC26-2408):**
+- Nodulo do lobo direito (0,9 cm) puncionado; amostra adequada e representativa.
+- Citologia: celulas foliculares de padrao oncocitico, sem atipias marcantes.
+- **Classificacao Bethesda: CATEGORIA IV — neoplasia folicular oncocitica** (antes "celulas de Hurthle").
+- Risco de malignidade da categoria: **23-34%** (maioria benigna, mas a citologia nao distingue benigno x maligno — definicao exige histologia do nodulo).
+
+**Conduta da endocrinologista (18/06/2026):**
+- **Sem urgencia** — nodulo pequeno (0,9 cm).
+- **Acompanhamento a cada 6 meses** (proximo controle ~dez/2026).
+- **Encaminhamento para cirurgiao de cabeca e pescoco** para avaliar a conduta sobre o nodulo Bethesda IV.
+
+**Mudancas aplicadas:**
+- Novo laudo arquivado: `Laudos/citopatologico_tireoide_paaf_09-06-2026.txt`
+- `dados-saude.md`: Secao 12 (subsecoes PAAF + consulta endocrinologista), Secao 14 (status PAAF/endocrino), Pendencias 2 e 3 reescritas (cirurgiao de cabeca e pescoco + acompanhamento semestral)
+
+---
+
 ## 10/06/2026 — Joelho recuperado + rebalanceamento de volume inferiores→superiores
 
 **Contexto:** paciente informou alta funcional do joelho esquerdo (entesopatia quadricipital lateral resolvida) e retorno aos exercicios de perna em amplitude/carga normais. Pergunta: vale reduzir inferiores e aumentar superiores?
