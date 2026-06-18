@@ -1,0 +1,43 @@
+EXAME CITOPATOLÓGICO DE TIREOIDE — PAAF GUIADA POR ULTRASSONOGRAFIA
+Protocolo: RJC26-2408 / Atendimento 0348302
+Paciente: Patrick Santos Coelho — DN 20/09/1978 (47 anos), Masculino
+Médico solicitante: Dr. Mario Lucio Cordeiro Araujo Junior (CRM/RJ 757810)
+Data da coleta: 09/06/2026 — Data de recebimento: 10/06/2026
+Liberado por: Dr. Mario Lucio Cordeiro Araujo Junior (CRM/RJ 5275781-0) em 11/06/2026
+
+INFORMAÇÕES CLÍNICAS / HIPÓTESE DIAGNÓSTICA
+Nódulo em lobo direito (terço inferior) da tireoide, hipoecogênico, com margens
+regulares, orientação paralela, sem calcificações e vascularização periférica e
+central (P > C), medindo 0,9 x 0,6 x 0,5 cm. TIRADS 4.
+
+PROCEDIMENTO
+- Punção aspirativa por agulha fina (PAAF) guiada por ultrassonografia
+- Topografia da punção: lobo direito (terço inferior)
+- Lâminas recebidas/processadas: 5 (3 secas ao ar, 1 fixada em álcool e 1 cell block)
+- Espécime/colorações: convencional / cell block — panótico / papanicolaou / H&E
+
+MICROSCOPIA
+- Avaliação da amostra: amostra adequada e representativa
+- Achados citopatológicos: amostra composta exclusivamente por células foliculares
+  de padrão oncocítico, em fundo hemático com escasso coloide. Ausência de atipias
+  citológicas marcantes.
+
+CONCLUSÃO
+PAAF guiada por US de nódulo em lobo direito (terço inferior) da tireoide:
+• Classificação pelo Sistema Bethesda (tireoide): NEOPLASIA FOLICULAR, do tipo
+  ONCOCÍTICA (CATEGORIA IV)
+
+NOTAS
+- A categoria "neoplasia folicular" pode corresponder a doença folicular nodular,
+  adenoma ou carcinoma folicular, ou ainda subtipo folicular do carcinoma papilífero.
+  A caracterização definitiva só pode ser feita por exame histológico do nódulo
+  (avaliação de sinais de invasão e características nucleares).
+- Risco de malignidade por categoria Bethesda: I-Não diagnóstico (5-20%);
+  II-Benigno (2-7%); III-Atipia de significado indeterminado (13-30%);
+  IV-Neoplasia folicular (23-34%, inclui oncocítica / antes "células de Hürthle");
+  V-Suspeito (67-83%); VI-Maligno (97-100%).
+
+Referência: Ali SZ; Vanderlaan PA. The Bethesda System for Reporting Thyroid
+Cytopathology, 3rd ed. Springer Nature, 2023.
+
+09/06/2026

@@ -230,8 +230,19 @@ Demais marcadores normais: eletrólitos, função hepática/renal, hemograma, te
 #### US Tireoide com Doppler (03/03/2026)
 - Nódulo 0,9 cm lobo direito — **TIRADS 4**, Chammas IV. Contorno regular, sem calcificações
 - Parênquima heterogêneo → possível Hashimoto (anti-TPO pendente)
-- PAAF não indicada (< 1,5 cm para TIRADS 4)
-- **Ação:** endocrinologista + anti-TPO + US controle 6-12 meses
+- **Ação:** endocrinologista + anti-TPO + acompanhamento
+
+#### PAAF / Citopatológico de Tireoide (09/06/2026)
+- Punção aspirativa por agulha fina (PAAF) guiada por US do nódulo do lobo direito (terço inferior)
+- Amostra **adequada e representativa**; células foliculares de **padrão oncocítico**, sem atipias marcantes
+- **Resultado: Neoplasia folicular oncocítica — Bethesda CATEGORIA IV**
+- **Risco de malignidade 23-34%** (maioria benigna, mas indistinguível só pela citologia — diferenciar benigno × maligno exige exame histológico do nódulo)
+- > Laudo completo em `Laudos/citopatologico_tireoide_paaf_09-06-2026.txt`
+
+#### Consulta Endocrinologista (18/06/2026)
+- **Sem urgência** — nódulo pequeno (0,9 cm)
+- Conduta: **acompanhamento a cada 6 meses**
+- **Encaminhamento para cirurgião de cabeça e pescoço** (avaliar conduta sobre o nódulo Bethesda IV)
 
 ---
 
@@ -271,7 +282,9 @@ Demais marcadores normais: eletrólitos, função hepática/renal, hemograma, te
 
 - **Exames (RM ombro, cervical, dorsal):** ✅ REALIZADOS em 02/02/2026
 - **Exames de sangue:** ✅ REALIZADOS em 10/02/2026
-- **US tireoide com Doppler:** ✅ REALIZADO em 03/03/2026 — TIRADS 4 (0,9 cm, lobo direito) + parênquima heterogêneo → endocrinologista + anti-TPO pendentes
+- **US tireoide com Doppler:** ✅ REALIZADO em 03/03/2026 — TIRADS 4 (0,9 cm, lobo direito) + parênquima heterogêneo
+- **PAAF tireoide:** ✅ REALIZADA em 09/06/2026 — **Bethesda IV** (neoplasia folicular oncocítica; risco de malignidade 23-34%)
+- **Consulta endocrinologista:** ✅ REALIZADA em 18/06/2026 — sem urgência (nódulo pequeno); acompanhamento a cada 6 meses + encaminhamento para cirurgião de cabeça e pescoço
 - **Bioimpedância 04/04/2026:** ✅ **MELHOR RESULTADO DO HISTÓRICO** — FFM 65,1 kg (novo recorde); BF 11,7% (novo recorde, ⚠️ próximo ao limite inferior 11%); SMM 39,3 kg (novo recorde); TBW 47,7 L; VFL 4; Idade metabólica 36 (novo mínimo)
 - **Fisioterapia:** ❌ NÃO será realizada — decisão do paciente (02/04/2026). Série de academia compensa com rigor técnico máximo
 - **Dor:** sem dor intensa durante treinos; restrições severas mantidas (ombro + cervical)
@@ -283,8 +296,8 @@ Demais marcadores normais: eletrólitos, função hepática/renal, hemograma, te
 
 ### Pendências ativas
 1. ✅ **Exames laboratoriais (CK, ENMG, painel completo):** todos realizados e analisados pelo médico (confirmado pelo paciente em 14/05/2026) — resultados arquivados; reavaliar individualmente conforme indicação clínica
-2. 🔴 **Consulta endocrinologista** + **anti-TPO** — avaliar TIRADS 4 + parênquima heterogêneo
-3. ⚠️ **US tireoide controle** — 6-12 meses (set/2026-mar/2027)
+2. 🔴 **Consultar cirurgião de cabeça e pescoço** — encaminhado pela endocrinologista (18/06/2026) para avaliar conduta sobre o nódulo Bethesda IV
+3. ⚠️ **Acompanhamento da tireoide a cada 6 meses** — próximo controle ~dez/2026 (sem urgência; nódulo pequeno). Manter **anti-TPO** pendente para investigar parênquima heterogêneo (possível Hashimoto)
 4. ⚠️ **BF% em 11,7%** — monitorar na próxima bio; se cair abaixo de 11%, aumentar calorias nos dias de treino
 5. ✅ **Joelho esquerdo — RECUPERADO (10/06/2026):** entesopatia do tendão quadricipital lateral resolvida; exercícios de perna em amplitude completa e carga normal. Mantida manutenção preventiva (foam roll TFL + VMO + clamshell) por causa do ciclismo. Ver Seção 17.
 6. 🎯 **Meta bio ~mai/2026:** FFM >= 65,0 · SMM >= 39,0 · BF% >= 11,0% (não cair abaixo) · VFA <= 26 · VFL = 4
