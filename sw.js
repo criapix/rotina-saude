@@ -1,13 +1,28 @@
-var CACHE = 'rotina-v2-2026-05-14';
+var CACHE = 'rotina-v3-enc-2026-06-30';
 
 var PRECACHE = [
   './',
-  './serie-academia',
-  './dados-saude',
-  './Recomenda%C3%A7%C3%A3o%20nutricional/Plano%20nutricional',
-  './Pedal/Rotina%20de%20pedaladas',
+  './index.html',
+  './marked.min.js',
+  './crypto-config.json',
   './manifest.json',
-  './icon.svg'
+  './icon.svg',
+  './data/manifest.enc.json',
+  './data/serie-academia.enc.json',
+  './data/plano-nutricional.enc.json',
+  './data/rotina-pedaladas.enc.json',
+  './data/dados-saude.enc.json',
+  './data/parecer-multidisciplinar.enc.json',
+  './data/laudos-medicos.enc.json',
+  './data/laudo-ultra-tireoide.enc.json',
+  './data/laudo-paaf-tireoide.enc.json',
+  './data/dermatologia.enc.json',
+  './data/changelog.enc.json',
+  './data/bio-2025-08-24.enc.json',
+  './data/bio-2026-02-08.enc.json',
+  './data/bio-2026-02-22.enc.json',
+  './data/bio-2026-03-08.enc.json',
+  './data/bio-2026-04-04.enc.json'
 ];
 
 self.addEventListener('install', function(e) {

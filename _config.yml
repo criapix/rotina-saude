@@ -1,8 +1,0 @@
-title: Rotina de Saúde — Patrick
-description: Saúde, treino, nutrição e ciclismo
-markdown: kramdown
-
-exclude:
-  - Bioimpedância/
-  - Ortopedista 29-01-2026/
-  - .gitignore
