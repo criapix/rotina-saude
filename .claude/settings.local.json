@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(find:*)",
+      "Bash(while read size file)",
+      "Bash($size / 1024 \")",
+      "Bash(wsl wc:*)",
+      "Bash(powershell -Command:*)",
+      "Bash(powershell -NoProfile -Command \"$files = Get-ChildItem ''C:\\\\Users\\\\criap\\\\OneDrive\\\\Documentos\\\\Github\\\\rotina-saude'' -Recurse -File | Where-Object { $_Extension -eq ''.md'' -or $_Extension -eq ''.txt'' }; foreach \\($f in $files\\) { $kb = [math]::Round\\($f.Length/1024,1\\); Write-Host \\(''{0} KB - {1}'' -f $kb, $f.FullName\\) }\")",
+      "Bash(powershell -NoProfile -File:*)"
+    ]
+  }
+}
