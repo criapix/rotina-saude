@@ -65,3 +65,22 @@ type: project
 - Elevação lateral até 60°: após 4-5 meses sem sintomas
 - Press neutro abaixo de 90°: após 5-6 meses
 - Supino com barra: 6+ meses
+
+## Revisão de Rotação de Variantes (30/06/2026) — "Novos Estímulos, Mesmo Volume"
+Avaliação de troca de variantes (pegada/ângulo/implemento) mantendo sets/grupo idênticos. Joelho E já recuperado (alta 10/06/2026) nesta revisão.
+
+### Aprovadas sem ressalva
+- Supino convergente/plano (variantes A vs C), tríceps (pulley barra V, unilateral cabo, máquina cotovelos apoiados), bíceps (halteres alternados, rosca martelo CORDA, barra W), puxada em máquina guiada descida reta, panturrilhas (leg press, sentada), extensora/flexora UNILATERAL (joelho recuperado — unilateral só redistribui carga entre membros, não muda amplitude/ângulo, zero risco adicional).
+- Regra geral: cabo/máquina guiada com trajetória fixa > halter livre, sempre que envolver ombro D ou cervical.
+
+### Requerem cue de segurança ADICIONAL não previsto na proposta original (escrever na ficha, não deixar implícito)
+1. **Mesa flexora deitada** (Treino B): exige apoio facial/testa obrigatório (rosto para baixo, não para frente) — risco de extensão cervical C5-C7 sob carga repetida se o aparelho não tiver apoio de queixo/testa. Regra já existia para mesa flexora em geral, mas a proposta de trocar p/ variante "deitada" não repetiu o cue.
+2. **Remada unilateral com halter em banco inclinado** (Treino A, mesociclo +2): protege lombar (tronco apoiado) mas NÃO protege ombro D — halter livre permite hiperextensão glenoumeral no fim do curso. Preferir CABO unilateral a halter (trajetória mais previsível); trava: cotovelo nunca passa a linha do tronco; RPE ≤5 na 1ª exposição; manter rotulado como diagnóstico de simetria, não exercício principal.
+3. **Rosca concentrada sentada** (Treino C): ombro seguro (cotovelo apoiado e fixo = sem demanda de manguito), mas risco cervical por projeção de cabeça para frente ao acompanhar o movimento — adicionar cue "coluna torácica neutra, olhar à frente, não para o halter".
+4. **Puxada guiada "em X"** (Treino C, mesociclo +2): é a troca que toca a estrutura mais frágil (cervical, Modic I ativo). Critério "parar se cervical reagir" é REATIVO e inadequado p/ discopatia inflamatória (dor é sinal tardio). Substituir por limite FIXO a priori: amplitude ≤70-80% do curso total desde a primeira rep, não esperar sintoma.
+
+### Belt squat (substituto do hack squat, Treino B)
+Aprovado como upgrade sobre hack squat para coluna degenerativa, mas a justificativa "zero carga axial" da proposta é imprecisa — reduz drasticamente, não zera (ainda exige estabilização de tronco contra peso suspenso via cinto). Condições: ativação de core pré-série (mesma cue do leg press), RPE 6 na primeira sessão antes de subir p/ 7, manter hack squat como fallback explícito se houver desconforto lombar.
+
+### Lição para próximas revisões de "troca de variante mantendo volume"
+Trocar implemento/ângulo/pegada SEM mudar sets é seguro do ponto de vista de volume, mas cada variante nova pode introduzir um vetor de risco diferente para a MESMA articulação frágil — avaliar cada troca individualmente contra as 3 estruturas críticas (ombro D, cervical, joelho E) mesmo que o "volume" esteja correto. A pergunta certa não é "o volume mudou?" mas "essa variante específica empurra a estrutura frágil para uma posição que a variante antiga evitava?".
