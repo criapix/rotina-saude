@@ -64,6 +64,15 @@ type: user
 - Fortalecimento de core
 - Melhora de força para ciclismo
 
+## Atualização Ombro D — 15/07/2026
+- RM de controle ombro (Ago/2026): paciente DECIDIU NÃO REALIZAR (decisão definitiva) — sem confirmação por imagem se a osteíte reacional/bursite acalmaram
+- Status funcional reportado pelo paciente (mesma data):
+  1. 4 meses COMPLETAMENTE assintomático desde que parou elevação lateral (marco de "4-5 meses sem sintomas" considerado atingido)
+  2. Rotação externa EQUIVALENTE ao contralateral (≥80% com folga)
+  3. Dormência no mindinho D resolvida — quadro ulnar/double crush parece quiescente
+- Decisão: aceitar reintrodução FUNCIONAL graduada e monitorada da elevação lateral (protocolo detalhado em project_serie_academia.md), MAIS conservadora do que o planejado originalmente (ROM inicial menor, progressão mais lenta, critérios de parada mais rígidos) precisamente por FALTAR a confirmação de imagem — edema ósseo reacional pode ter lag em relação à melhora clínica
+- Recomendado fortemente: validação presencial com ortopedista assistente (exame físico — Neer, Hawkins, Jobe/empty can, palpação da tuberosidade) antes/no início da reintrodução, como substituto parcial da imagem recusada
+
 ## Queixa Ativa — Joelho Esquerdo (14/05/2026)
 - Dor no joelho esquerdo durante leg press 45° e cadeira extensora
 - Localização PRECISA (refinada 14/05/2026): LATERAL, logo acima da borda superior da patela — ponto superolateral da patela / região da inserção do tendão quadricipital próxima ao vasto lateral

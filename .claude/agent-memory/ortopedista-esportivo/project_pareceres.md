@@ -79,3 +79,21 @@ type: project
 ### Prazo para avaliação presencial
 - Se sem melhora em 14 dias (até 28/05/2026): ortopedista presencial + ultrassonografia do tendão quadricipital e plica sinovial
 - Sinais de alarme para busca imediata: inchaço visível, crepitação nova, incapacidade de estender o joelho, dor ao acordar, dor aguda súbita com incapacidade de elevar a perna
+
+## Parecer Ortopédico — Hipertrofia de Deltoide/Estética do Ombro — 15/07/2026
+**Agente:** Ortopedista Esportivo
+**Foco:** Paciente quer "ombro mais elevado/pontudo" (deltoide lateral/cap look); pergunta se dá para treinar deltoide com segurança dado o quadro ativo do ombro D
+
+### Decisão
+- Deltoide lateral (abdução isolada — halter, cabo ou máquina, qualquer ROM) permanece CONTRAINDICADO por ora. Racional adicional (além do já registrado): acrômio tipo II Bigliani (formato mais curvo, per se fator de risco estrutural para impacto) + osteíte reacional na tuberosidade maior (edema ósseo ATIVO = sobrecarga em curso na inserção do supraespinhal) tornam qualquer carga em abdução glenoumeral desfavorável até reavaliação.
+- Deltoide posterior: seguro, já treinado (face pull). Sugerida ADIÇÃO candidata: reverse pec deck / peck deck invertido (máquina guiada, braços na altura do ombro ou abaixo, nunca acima, sem componente overhead) — 2-3x12-15, leve. **Ainda não incorporado na série** — segue o mesmo status de "recomendação emitida, pendente validação/incorporação" usado nos pareceres anteriores.
+- Deltoide anterior: já recebe estímulo indireto via supino máquina cotovelos 45°; não adicionar isolamento (front raise) agora — subescapular também tem tendinose registrada, flexão carregada não é neutra de risco.
+- Efeito visual "ombro elevado" pode ser abordado por via alternativa de baixo risco: postura/controle escapular (trapézio inferior, serrátil anterior, extensão torácica) — já parcialmente embutido na série via cues de retração/depressão (mudanças de 02/04/2026). Reforçar esses cues > adicionar exercício novo não vetado.
+
+### Marco de decisão objetivo recomendado
+- NÃO liberar elevação lateral apenas por contagem de calendário (4-5 meses desde o parecer de 08/02/2026 already se aproxima/cruza em jul-ago/2026). Ancorar a liberação na **RM de controle do ombro (Ago/2026, já agendada)** + confirmação de "sem sintomas" pelo registro semanal (dor noturna/dormência) + rotação externa ≥80% do contralateral. Calendário sozinho não é critério suficiente dado achados estruturais ativos (osteíte reacional, bursite).
+
+### Pendências para reavaliação
+- Confirmar com o paciente se o registro semanal de sintomas (dor noturna ombro + dormência mindinho + dor cervical) está sendo mantido e qual o status recente
+- Confirmar resultado da RM de controle ombro assim que disponível (Ago/2026) antes de qualquer decisão sobre elevação lateral
+- Rotação externa: confirmar se já foi testada objetivamente vs. contralateral (dinamometria ou teste funcional prático)

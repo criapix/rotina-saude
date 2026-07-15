@@ -62,9 +62,33 @@ type: project
 ## Exercícios a Liberar Progressivamente
 - Supino máquina RPE 8: após 2-3 meses sem dor noturna
 - Pec deck/fly ROM controlada: após 2-3 meses
-- Elevação lateral até 60°: após 4-5 meses sem sintomas
-- Press neutro abaixo de 90°: após 5-6 meses
+- Elevação lateral até 60°: marco de "4-5 meses sem sintomas" ATINGIDO (15/07/2026) por critério funcional (RM Ago/2026 RECUSADA pelo paciente — decisão definitiva). Ver protocolo de reintrodução graduada abaixo — substitui a liberação direta em 60° por um bloco de teste-reteste mais lento, precisamente por faltar confirmação de imagem da osteíte reacional.
+- Press neutro abaixo de 90°: após 5-6 meses, SE rotação externa ≥80% do contralateral (rotação externa já ATINGIU ≥80% em 15/07/2026 — falta só o tempo)
 - Supino com barra: 6+ meses
+
+## Candidato de Adição — Deltoide Posterior (parecer 15/07/2026, NÃO incorporado ainda)
+- Reverse pec deck / peck deck invertido: máquina guiada, braços na altura do ombro ou abaixo (nunca acima), 2-3x12-15, carga leve. Complementa face pull (posterior deltoide) sem risco adicional de impacto subacromial (movimento horizontal, sem componente overhead). Pendente de incorporação formal na ficha.
+
+## Protocolo de Reintrodução Graduada — Elevação Lateral (parecer 15/07/2026, PENDENTE validação presencial)
+Contexto: paciente atingiu os 3 marcadores funcionais (4 meses assintomático, RE ≥80% contralateral, dormência ulnar resolvida) mas RECUSOU a RM de controle — logo sem confirmação de que a osteíte reacional/bursite acalmaram. Protocolo deliberadamente MAIS lento/conservador que o originalmente cogitado, com modelo de monitoramento por dor (análogo a monitoramento de tendinopatia): desconforto durante a série ≤3/10 que resolve em 24h = aceitável; acima disso ou dor noturna = regredir.
+
+- **Fase 0 (2 semanas)**: isometria de abdução submáxima a ~30-40°, braço apoiado (parede/anteparo), 2-3x/semana, 5x10-20s, RPE 3-4. Critério para avançar: zero dor durante/depois, zero dor noturna nas 2 semanas.
+- **Fase 1 (semanas 3-6, 1x/semana apenas)**: elevação lateral no PLANO ESCAPULAR (30-45° à frente do plano coronal), ROM limitado a 0-30° (bem abaixo do teto de 60° planejado originalmente), preferir máquina guiada com stop de ROM ajustável (se disponível) > cabo com resistência fixa > halter (halter é última opção). Pegada neutra/polegares para cima (evitar posição "empty can"/rotação interna). 2x15-20, RPE ≤5, sem momentum. Reavaliar a cada sessão (3 sessões = 3 semanas nessa frequência): zero dor noturna, zero dor residual >24-48h → avançar.
+- **Fase 2 (semanas 7-10)**: ROM 0-45°, ainda plano escapular, frequência sobe para 2x/semana, carga +5-10% só se fase 1 100% limpa.
+- **Fase 3 (semana 11+)**: só se fases 1-2 100% limpas, progredir ao teto de 60° originalmente planejado e integrar à frequência normal da série (respeitando regra de deload a cada 4-6 semanas já em uso).
+- Bloco postural/escapular + deltoide posterior (face pull + candidato reverse pec deck) CONTINUAM sendo a entrega principal/majoritária para o efeito estético — a reintrodução da elevação lateral é um acréscimo de baixo volume, não substitui o restante.
+
+### Critérios de PARADA duros (voltar atrás imediatamente, suspender de novo)
+- Qualquer dor noturna nova (1 episódio já pausa a progressão; 2+ episódios = suspender totalmente + buscar avaliação presencial)
+- Dor durante a série >3-4/10 ou dor residual >24-48h
+- Retorno de dormência/formigamento no mindinho D ou qualquer parestesia nova
+- Perda de força ou fraqueza nova
+- Crepitação nova, estalido doloroso ou sensação de travamento
+- Arco doloroso (dor especificamente entre 60-120° de abdução)
+- Elevação compensatória do ombro/trapézio para completar o movimento (sinal biomecânico de que deltoide/manguito não está tolerando a carga)
+
+### Recomendação de validação presencial
+Fortemente recomendado: validar este protocolo com o ortopedista assistente antes de iniciar, com exame físico (Neer, Hawkins, Jobe/empty can, palpação da tuberosidade maior) como substituto parcial da RM recusada — não é obrigatório para respeitar a decisão do paciente, mas é o único jeito de compensar parcialmente a ausência de confirmação por imagem.
 
 ## Revisão de Rotação de Variantes (30/06/2026) — "Novos Estímulos, Mesmo Volume"
 Avaliação de troca de variantes (pegada/ângulo/implemento) mantendo sets/grupo idênticos. Joelho E já recuperado (alta 10/06/2026) nesta revisão.
