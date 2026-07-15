@@ -62,9 +62,12 @@ type: project
 ## Exercícios a Liberar Progressivamente
 - Supino máquina RPE 8: após 2-3 meses sem dor noturna
 - Pec deck/fly ROM controlada: após 2-3 meses
-- Elevação lateral até 60°: após 4-5 meses sem sintomas
-- Press neutro abaixo de 90°: após 5-6 meses
+- Elevação lateral até 60°: após 4-5 meses sem sintomas — **NÃO liberar só por calendário (ver parecer 15/07/2026): ancorar na RM de controle ombro Ago/2026 + registro semanal "sem sintomas" + rotação externa ≥80% do contralateral**
+- Press neutro abaixo de 90°: após 5-6 meses, SE rotação externa ≥80% do contralateral
 - Supino com barra: 6+ meses
+
+## Candidato de Adição — Deltoide Posterior (parecer 15/07/2026, NÃO incorporado ainda)
+- Reverse pec deck / peck deck invertido: máquina guiada, braços na altura do ombro ou abaixo (nunca acima), 2-3x12-15, carga leve. Complementa face pull (posterior deltoide) sem risco adicional de impacto subacromial (movimento horizontal, sem componente overhead). Pendente de incorporação formal na ficha.
 
 ## Revisão de Rotação de Variantes (30/06/2026) — "Novos Estímulos, Mesmo Volume"
 Avaliação de troca de variantes (pegada/ângulo/implemento) mantendo sets/grupo idênticos. Joelho E já recuperado (alta 10/06/2026) nesta revisão.
