@@ -1,19 +1,33 @@
 {
-  "name": "Rotina de Saúde — Patrick",
-  "short_name": "Rotina Saúde",
-  "description": "Saúde, treino, nutrição e ciclismo",
-  "start_url": "./",
+  "name": "Rotina de Saúde",
+  "short_name": "Rotina",
+  "description": "Treino, nutrição, ciclismo e acompanhamento clínico.",
+  "start_url": "./#/hoje",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#0f172a",
-  "theme_color": "#0f172a",
+  "background_color": "#0b1120",
+  "theme_color": "#0b1120",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "categories": ["health", "fitness"],
   "icons": [
     {
       "src": "icon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
     }
+  ],
+  "shortcuts": [
+    { "name": "Treino de hoje", "url": "./#/treino", "description": "Abre a série do dia" },
+    { "name": "Nutrição", "url": "./#/nutricao", "description": "Macros e refeições" },
+    { "name": "Composição corporal", "url": "./#/saude/composicao", "description": "Bioimpedância" }
   ]
 }

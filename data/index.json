@@ -1,0 +1,17 @@
+{
+ "versao": 2,
+ "geradoEm": "2026-07-30",
+ "documentos": [
+  "perfil",
+  "treinos",
+  "nutricao",
+  "pedal",
+  "saude",
+  "bioimpedancia",
+  "exames",
+  "laudos",
+  "dermatologia",
+  "historico",
+  "pareceres"
+ ]
+}
