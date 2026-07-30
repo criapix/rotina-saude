@@ -18,7 +18,7 @@ function svgEl(tag, attrs = {}) {
   return el;
 }
 
-const numeroBR = (v, casas) => v.toFixed(casas).replace('.', ',');
+const numeroBR = (v, casas) => (Number.isFinite(v) ? v.toFixed(casas).replace('.', ',') : '—');
 
 /**
  * Gráfico de linha com área, grade, rótulos e seleção de ponto.
@@ -26,7 +26,17 @@ const numeroBR = (v, casas) => v.toFixed(casas).replace('.', ',');
  * pontos: [{ x: 'rótulo', y: número }]
  * opcoes: { casas, unidade, piso, indiceAtivo, aoSelecionar }
  */
-export function graficoLinha(pontos, opcoes = {}) {
+export function graficoLinha(todosOsPontos, opcoes = {}) {
+  // Descarta pontos sem valor numérico: um único buraco na série não deve
+  // derrubar o desenho (e o erro aconteceria dentro do ResizeObserver, fora do
+  // try/catch do roteador, deixando só uma caixa vazia). O índice original é
+  // preservado em `orig` para que aoSelecionar continue apontando para a
+  // medição certa mesmo com pontos filtrados.
+  const pontos = todosOsPontos
+    .map((p, i) => ({ ...p, orig: i }))
+    .filter((p) => Number.isFinite(p.y));
+  if (!pontos.length) return h('div.grafico', null, h('p.vazio', { texto: 'Sem dados para esta métrica.' }));
+
   const caixa = h('div.grafico');
   let larguraAnterior = 0;
 
@@ -53,7 +63,10 @@ export function graficoLinha(pontos, opcoes = {}) {
 }
 
 function desenhaSvg(pontos, opcoes, W) {
-  const { casas = 1, piso = null, indiceAtivo = pontos.length - 1, aoSelecionar } = opcoes;
+  const { casas = 1, piso = null, aoSelecionar } = opcoes;
+  // indiceAtivo vem em coordenadas da série original; traduz para a filtrada.
+  const alvo = opcoes.indiceAtivo == null ? pontos[pontos.length - 1].orig : opcoes.indiceAtivo;
+  const indiceAtivo = Math.max(0, pontos.findIndex((p) => p.orig === alvo));
 
   const L = 40, R = 12, T = 12, B = 26;
   const H = ALTURA;
@@ -125,7 +138,7 @@ function desenhaSvg(pontos, opcoes, W) {
       role: 'button',
       'aria-label': `${p.x}: ${numeroBR(p.y, casas)}`
     });
-    if (aoSelecionar) hit.addEventListener('click', () => aoSelecionar(i));
+    if (aoSelecionar) hit.addEventListener('click', () => aoSelecionar(p.orig));
     svg.append(hit);
   });
 

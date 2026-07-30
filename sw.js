@@ -9,7 +9,7 @@
 // O cache guarda apenas ciphertext dos documentos — a chave nunca é cacheada
 // (fica no localStorage do dispositivo).
 
-const VERSAO = 'rotina-v4-2026-07-30';
+const VERSAO = 'rotina-v5-2026-07-30';
 const CACHE_SHELL = `${VERSAO}-shell`;
 const CACHE_DADOS = `${VERSAO}-dados`;
 
@@ -81,8 +81,14 @@ self.addEventListener('fetch', (e) => {
     e.respondWith((async () => {
       try {
         const resp = await fetch(req);
-        if (resp.ok) (await caches.open(CACHE_DADOS)).put(req, resp.clone());
-        return resp;
+        if (resp.ok) {
+          (await caches.open(CACHE_DADOS)).put(req, resp.clone());
+          return resp;
+        }
+        // 404/5xx (portal cativo, deploy pela metade) não é motivo para
+        // descartar um ciphertext válido que já está em cache.
+        const cacheado = await caches.match(req);
+        return cacheado || resp;
       } catch {
         const cacheado = await caches.match(req);
         if (cacheado) return cacheado;

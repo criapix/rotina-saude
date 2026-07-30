@@ -196,7 +196,17 @@ async function abrirBusca() {
   ), 'Buscar');
 
   resultados.replaceChildren(carregando('Preparando índice…'));
-  if (!indiceBusca) indiceBusca = montarIndiceBusca(await store.todos());
+  try {
+    if (!indiceBusca) indiceBusca = montarIndiceBusca(await store.todos());
+  } catch (e) {
+    // Sem isso, a rejeição ficaria sem tratamento e o painel travaria no spinner.
+    resultados.replaceChildren(aviso({
+      nivel: 'critico',
+      titulo: 'Não foi possível montar o índice de busca',
+      texto: String((e && e.message) || e)
+    }));
+    return;
+  }
   resultados.replaceChildren(h('p.legenda', { texto: `${indiceBusca.length} trechos indexados. Digite ao menos 2 letras.` }));
 
   let debounce = null;
@@ -292,7 +302,9 @@ async function depoisDeAbrir() {
 
 function lerHash() {
   const m = location.hash.match(/^#\/([^/]+)(?:\/(.*))?$/);
-  if (!m) return { secao: 'hoje', params: [] };
+  // Hash que não é rota (ex.: o "#conteudo" do link de pular navegação) não
+  // deve jogar o usuário de volta para Hoje: mantém a rota atual.
+  if (!m) return { secao: rotaAtual.secao, params: rotaAtual.params };
   const secao = decodeURIComponent(m[1]);
   const params = m[2] ? m[2].split('/').map(decodeURIComponent).filter(Boolean) : [];
   return { secao, params };
@@ -310,14 +322,21 @@ async function rotear() {
   marcarAtivo(secao.id);
   document.title = secao.id === 'hoje' ? 'Rotina de Saúde' : `${secao.nome} — Rotina de Saúde`;
 
+  // Incrementado antes de qualquer saída para que um render em voo não pinte
+  // por cima do que vem depois.
+  const meu = ++tokenRender;
+
   if (!cofre.aberto) {
-    el.conteudo.replaceChildren(telaDesbloqueio());
-    const campo = el.conteudo.querySelector('input');
-    if (campo) campo.focus();
+    // Reaproveita a tela existente: trocar de aba com o cofre fechado não deve
+    // apagar o que já foi digitado no campo de senha.
+    if (!el.conteudo.firstElementChild || !el.conteudo.firstElementChild.classList.contains('desbloqueio')) {
+      el.conteudo.replaceChildren(telaDesbloqueio());
+      const campo = el.conteudo.querySelector('input');
+      if (campo) campo.focus();
+    }
     return;
   }
 
-  const meu = ++tokenRender;
   el.conteudo.replaceChildren(carregando());
 
   try {
@@ -329,7 +348,7 @@ async function rotear() {
     });
     if (meu !== tokenRender) return; // navegação mais nova já assumiu
     el.conteudo.replaceChildren(vista);
-    window.scrollTo({ top: 0, behavior: 'instant' in window ? 'instant' : 'auto' });
+    window.scrollTo({ top: 0, behavior: 'instant' });
   } catch (e) {
     if (meu !== tokenRender) return;
     el.conteudo.replaceChildren(

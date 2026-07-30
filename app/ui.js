@@ -28,7 +28,7 @@ export function h(seletor, props, ...filhos) {
       if (k === 'html') el.innerHTML = v;
       else if (k === 'texto') el.textContent = v;
       else if (k === 'dataset') Object.assign(el.dataset, v);
-      else if (k === 'estilo') Object.assign(el.style, v);
+      else if (k === 'estilo') aplicarEstilo(el, v);
       else if (k.startsWith('on') && typeof v === 'function') el.addEventListener(k.slice(2).toLowerCase(), v);
       else if (v === true) el.setAttribute(k, '');
       else el.setAttribute(k, String(v));
@@ -37,6 +37,18 @@ export function h(seletor, props, ...filhos) {
 
   anexar(el, filhos);
   return el;
+}
+
+/**
+ * Aplica estilos inline. Propriedades customizadas (--x) exigem setProperty:
+ * `style['--x'] = v` cria só uma propriedade JS solta e não gera declaração CSS.
+ */
+function aplicarEstilo(el, estilos) {
+  for (const [k, v] of Object.entries(estilos)) {
+    if (v == null) continue;
+    if (k.startsWith('--')) el.style.setProperty(k, String(v));
+    else el.style[k] = v;
+  }
 }
 
 function anexar(el, filhos) {
