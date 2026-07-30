@@ -9,7 +9,7 @@
 // O cache guarda apenas ciphertext dos documentos — a chave nunca é cacheada
 // (fica no localStorage do dispositivo).
 
-const VERSAO = 'rotina-v5-2026-07-30';
+const VERSAO = 'rotina-v6-2026-07-30';
 const CACHE_SHELL = `${VERSAO}-shell`;
 const CACHE_DADOS = `${VERSAO}-dados`;
 
@@ -24,7 +24,9 @@ const SHELL = [
   './app/store.js',
   './app/ui.js',
   './app/charts.js',
+  './app/motor.js',
   './app/views/hoje.js',
+  './app/views/semana.js',
   './app/views/treino.js',
   './app/views/pedal.js',
   './app/views/nutricao.js',

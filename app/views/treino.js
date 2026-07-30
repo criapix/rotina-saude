@@ -4,7 +4,8 @@ import {
   h, icone, cabecalhoPagina, aviso, chip, card, cardTitulado, segmentos,
   tabela, lista, definicoes, secao, dataBR, toast
 } from '../ui.js';
-import { volumeSessao, contaNovos, planoDoDia } from '../store.js';
+import { volumeSessao, contaNovos } from '../store.js';
+import { resumoJanela } from '../motor.js';
 import { barrasHorizontais } from '../charts.js';
 
 const SUBABAS = [
@@ -17,14 +18,14 @@ const SUBABAS = [
 ];
 
 export async function render(ctx) {
-  const { store, params } = ctx;
-  const [treinos, perfil, nutricao] = await store.docs('treinos', 'perfil', 'nutricao');
-  const plano = planoDoDia(perfil, treinos, nutricao);
+  const { store, params, registro } = ctx;
+  const [treinos, perfil, nutricao, pedal] = await store.docs('treinos', 'perfil', 'nutricao', 'pedal');
+  const jan = resumoJanela({ treinos, perfil, nutricao, pedal }, registro);
 
   const alvo = params[0] || 'sessoes';
   const sessao = treinos.sessoes.find((s) => s.id === alvo.toUpperCase());
 
-  if (sessao) return telaSessao(sessao, treinos, plano, ctx);
+  if (sessao) return telaSessao(sessao, treinos, jan, ctx);
 
   const sub = SUBABAS.some((s) => s.id === alvo) ? alvo : 'sessoes';
   const raiz = h('div');
@@ -36,13 +37,13 @@ export async function render(ctx) {
   raiz.append(segmentos(SUBABAS, sub, (id) => ctx.navegar(`#/treino/${id}`)));
 
   const corpo = { sessoes: abaSessoes, volume: abaVolume, progressao: abaProgressao, restricoes: abaRestricoes, rotacao: abaRotacao, notas: abaNotas }[sub];
-  raiz.append(corpo(treinos, plano, ctx));
+  raiz.append(corpo(treinos, jan, ctx));
   return raiz;
 }
 
 /* ===================== lista de sessões ===================== */
 
-function abaSessoes(treinos, plano, ctx) {
+function abaSessoes(treinos, jan, ctx) {
   const frag = h('div');
 
   for (const a of treinos.avisos) {
@@ -52,13 +53,14 @@ function abaSessoes(treinos, plano, ctx) {
   frag.append(h('div.seletor-grade.mt-4', null,
     treinos.sessoes.map((s) => {
       const vol = volumeSessao(s);
-      const ehHoje = plano.sessao && plano.sessao.id === s.id;
+      const sugerida = jan.proxima.escolhida && jan.proxima.escolhida.sessao.id === s.id;
+      const feita = jan.feitasIds.includes(s.id);
       return h('button.seletor-card', {
         type: 'button',
-        'aria-current': String(Boolean(ehHoje)),
+        'aria-current': String(Boolean(sugerida)),
         onClick: () => ctx.navegar(`#/treino/${s.id}`)
       },
-        ehHoje && h('span.seletor-hoje', { texto: 'hoje' }),
+        sugerida ? h('span.seletor-hoje', { texto: 'próxima' }) : feita ? h('span.seletor-hoje', { texto: '✓ feita' }) : null,
         h('span.seletor-letra', { texto: s.id }),
         h('span.seletor-nome', { texto: s.nome }),
         h('span.seletor-meta', { texto: `${s.dia} · ${vol.total} séries · ~${s.duracaoMin} min` }),
@@ -78,8 +80,8 @@ function abaSessoes(treinos, plano, ctx) {
 
 /* ===================== detalhe da sessão ===================== */
 
-function telaSessao(s, treinos, plano, ctx) {
-  const { diario } = ctx;
+function telaSessao(s, treinos, jan, ctx) {
+  const { registro } = ctx;
   const vol = volumeSessao(s);
   const raiz = h('div');
 
@@ -98,7 +100,8 @@ function telaSessao(s, treinos, plano, ctx) {
     chip(`${s.exercicios.length} exercícios`),
     contaNovos(s) > 0 && chip(`${contaNovos(s)} variantes novas`, 'info', 'rotacao'),
     s.comPedal && chip('dia duplo (pedal + academia)', 'atencao', 'pedal'),
-    plano.sessao && plano.sessao.id === s.id && chip('é o treino de hoje', 'ok')
+    jan.proxima.escolhida && jan.proxima.escolhida.sessao.id === s.id && chip('próxima sugerida', 'ok'),
+    jan.feitasIds.includes(s.id) && chip(`já feita nos últimos ${jan.janelaDias} dias`, 'info')
   ));
 
   for (const a of s.avisos || []) {
@@ -106,11 +109,11 @@ function telaSessao(s, treinos, plano, ctx) {
   }
 
   // progresso + zerar
-  const prog = diario.progressoSessao(s);
+  const prog = registro.progressoSessao(s);
   const barra = h('i', { estilo: { width: prog.perc + '%' } });
   const contador = h('b.num', { texto: `${prog.feitas}/${prog.total}` });
   const atualizarProgresso = () => {
-    const p = diario.progressoSessao(s);
+    const p = registro.progressoSessao(s);
     barra.style.width = p.perc + '%';
     contador.textContent = `${p.feitas}/${p.total}`;
   };
@@ -122,7 +125,7 @@ function telaSessao(s, treinos, plano, ctx) {
     h('button.icon-btn', {
       type: 'button', 'aria-label': 'Zerar marcações desta sessão', title: 'Zerar marcações',
       onClick: () => {
-        diario.zerarSessao(s.id);
+        registro.zerarSessao(s.id);
         ctx.recarregar();
         toast('Marcações da sessão zeradas.');
       }
@@ -132,7 +135,7 @@ function telaSessao(s, treinos, plano, ctx) {
   if (s.ativacao) raiz.append(blocoAtivacao(s.ativacao));
 
   raiz.append(h('div.mt-3', null,
-    s.exercicios.map((ex) => cartaoExercicio(ex, s, diario, atualizarProgresso))
+    s.exercicios.map((ex) => cartaoExercicio(ex, s, registro, atualizarProgresso))
   ));
 
   raiz.append(secao('Volume da sessão',
@@ -164,7 +167,7 @@ function blocoAtivacao(at) {
   );
 }
 
-function cartaoExercicio(ex, sessao, diario, aoMudar) {
+function cartaoExercicio(ex, sessao, registro, aoMudar) {
   const el = h('article.ex', { dataset: { terapeutico: String(Boolean(ex.terapeutico)) } });
 
   el.append(h('div.ex-topo', null,
@@ -200,7 +203,7 @@ function cartaoExercicio(ex, sessao, diario, aoMudar) {
   const acoes = h('div.ex-acoes');
   const bolinhas = [];
   const desenhar = () => {
-    const feitas = diario.seriesFeitas(sessao.id, ex.ordem);
+    const feitas = registro.seriesFeitas(sessao.id, ex.ordem);
     bolinhas.forEach((b, i) => { b.dataset.feito = String(i < feitas); });
     el.dataset.feito = String(feitas >= ex.series);
   };
@@ -209,7 +212,7 @@ function cartaoExercicio(ex, sessao, diario, aoMudar) {
       type: 'button',
       'aria-label': `Marcar série ${i + 1} de ${ex.series}`,
       onClick: () => {
-        diario.marcarSerie(sessao.id, ex.ordem, ex.series);
+        registro.marcarSerie(sessao.id, ex.ordem, ex.series);
         desenhar();
         aoMudar();
       }

@@ -4,7 +4,7 @@ import {
   h, icone, cabecalhoPagina, aviso, chip, card, cardTitulado, segmentos,
   tabela, lista, definicoes, secao, barraMacro, dataBR
 } from '../ui.js';
-import { planoDoDia } from '../store.js';
+import { resumoDia } from '../motor.js';
 
 const CORES = { p: 'var(--c-nutricao)', g: 'var(--c-atencao)', c: 'var(--c-treino)' };
 
@@ -16,8 +16,8 @@ const ROTULO_FREQUENCIA = {
 
 export async function render(ctx) {
   const { store, params } = ctx;
-  const [nutricao, perfil, treinos] = await store.docs('nutricao', 'perfil', 'treinos');
-  const plano = planoDoDia(perfil, treinos, nutricao);
+  const [nutricao, perfil, treinos, pedal] = await store.docs('nutricao', 'perfil', 'treinos', 'pedal');
+  const dia = resumoDia({ nutricao, perfil, treinos, pedal }, ctx.registro);
 
   const abas = [
     ...nutricao.tiposDia.map((t) => ({ id: t.id, nome: t.nome })),
@@ -26,7 +26,7 @@ export async function render(ctx) {
     { id: 'metas', nome: 'Metas' }
   ];
 
-  const alvo = params[0] || (plano.tipoDia ? plano.tipoDia.id : nutricao.tiposDia[0].id);
+  const alvo = params[0] || dia.tipoId;
   const sub = abas.some((a) => a.id === alvo) ? alvo : abas[0].id;
 
   const raiz = h('div');
@@ -43,16 +43,16 @@ export async function render(ctx) {
   if (sub === 'suplementos') raiz.append(abaSuplementos(nutricao, ctx));
   else if (sub === 'estrategias') raiz.append(abaEstrategias(nutricao));
   else if (sub === 'metas') raiz.append(abaMetas(nutricao));
-  else raiz.append(abaTipoDia(nutricao.tiposDia.find((t) => t.id === sub), nutricao, plano));
+  else raiz.append(abaTipoDia(nutricao.tiposDia.find((t) => t.id === sub), nutricao, dia));
 
   return raiz;
 }
 
 /* ===================== tipo de dia ===================== */
 
-function abaTipoDia(tipo, nutricao, plano) {
+function abaTipoDia(tipo, nutricao, dia) {
   const frag = h('div');
-  const ehHoje = plano.tipoDia && plano.tipoDia.id === tipo.id;
+  const ehHoje = dia.tipoId === tipo.id;
 
   frag.append(h('div.card', { estilo: { '--accent': 'var(--c-nutricao)' } },
     h('div.linha', null,
@@ -60,7 +60,7 @@ function abaTipoDia(tipo, nutricao, plano) {
         h('h2', { texto: `${tipo.kcal} kcal` }),
         h('p.legenda', { texto: `${tipo.nome} — ${tipo.descricao} · dias no documento: ${tipo.diasDoc.join(', ')}` })
       ),
-      ehHoje && chip('é o dia de hoje', 'ok')
+      ehHoje && chip(dia.provisorio ? 'perfil de hoje (sem atividade registrada)' : 'é o dia de hoje', 'ok')
     ),
     h('div.mt-3', null,
       barraMacro('Proteína', tipo.proteinaG, 200, ' g', CORES.p),
@@ -75,9 +75,11 @@ function abaTipoDia(tipo, nutricao, plano) {
       h('span.refeicao-hora', { texto: r.hora }),
       h('div.refeicao-corpo', null,
         h('div.refeicao-nome', null, r.nome, r.tag && chip(r.tag, 'accent'), r.novo && chip('novo', 'ok')),
-        h('div.refeicao-itens', { texto: r.itens })
+        h('div.refeicao-itens', { texto: r.itens }),
+        r.macros && h('div.texto-xs.texto-3', { texto: `~${r.macros.kcal} kcal · P${r.macros.p} G${r.macros.g} C${r.macros.c}` })
       )
-    )))
+    ))),
+    h('p.legenda.mt-3', { texto: nutricao.estimativaMacros.nota })
   ));
 
   // Opções de café da manhã relevantes para este tipo de dia
@@ -119,14 +121,14 @@ function abaTipoDia(tipo, nutricao, plano) {
 /* ===================== suplementos ===================== */
 
 function abaSuplementos(nutricao, ctx) {
-  const { diario } = ctx;
+  const { registro } = ctx;
   const frag = h('div');
 
   frag.append(h('div.pilha-2', null, nutricao.suplementos.map((s) => {
     const item = h('button.check-item', {
       type: 'button',
-      dataset: { feito: String(diario.marcado('suplementos', s.nome)) },
-      onClick: () => { item.dataset.feito = String(diario.alternar('suplementos', s.nome)); }
+      dataset: { feito: String(registro.suplementoTomado(s.nome)) },
+      onClick: () => { item.dataset.feito = String(registro.alternarSuplemento(s.nome)); }
     },
       h('span.check-box', null, icone('check')),
       h('span.check-texto', null,

@@ -4,10 +4,11 @@
 // senha. Só o conteúdo dos documentos é cifrado.
 
 import { Cofre } from './crypto.js';
-import { Store, DiarioLocal, montarIndiceBusca, buscar } from './store.js';
+import { Store, Registro, montarIndiceBusca, buscar } from './store.js';
 import { h, icone, carregando, realcar, toast, aviso } from './ui.js';
 
 import * as vHoje from './views/hoje.js';
+import * as vSemana from './views/semana.js';
 import * as vTreino from './views/treino.js';
 import * as vPedal from './views/pedal.js';
 import * as vNutricao from './views/nutricao.js';
@@ -18,8 +19,9 @@ import * as vMais from './views/mais.js';
 
 const SECOES = [
   { id: 'hoje', nome: 'Hoje', icone: 'hoje', cor: 'var(--c-hoje)', principal: true, render: vHoje.render },
+  { id: 'semana', nome: 'Semana', icone: 'historico', cor: 'var(--c-hoje)', principal: true, render: vSemana.render },
   { id: 'treino', nome: 'Treino', icone: 'treino', cor: 'var(--c-treino)', principal: true, render: vTreino.render },
-  { id: 'pedal', nome: 'Pedal', icone: 'pedal', cor: 'var(--c-pedal)', principal: true, render: vPedal.render },
+  { id: 'pedal', nome: 'Pedal', icone: 'pedal', cor: 'var(--c-pedal)', render: vPedal.render },
   { id: 'nutricao', nome: 'Nutrição', icone: 'nutricao', cor: 'var(--c-nutricao)', principal: true, render: vNutricao.render },
   { id: 'saude', nome: 'Saúde', icone: 'saude', cor: 'var(--c-saude)', principal: true, render: vSaude.render },
   { id: 'dermatologia', nome: 'Dermatologia', icone: 'derma', cor: 'var(--c-derma)', render: vMais.dermatologia },
@@ -35,7 +37,7 @@ const porId = (id) => SECOES.find((s) => s.id === id);
 
 const cofre = new Cofre();
 const store = new Store(cofre);
-const diario = new DiarioLocal();
+const registro = new Registro();
 
 const el = {
   conteudo: document.getElementById('conteudo'),
@@ -341,7 +343,7 @@ async function rotear() {
 
   try {
     const vista = await secao.render({
-      store, diario, cofre,
+      store, registro, cofre,
       params,
       navegar,
       recarregar: rotear

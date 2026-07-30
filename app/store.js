@@ -84,16 +84,13 @@ export function contaNovos(sessao) {
 }
 
 /**
- * Monta o plano do dia combinando a agenda do perfil, as sessões de treino e
- * o tipo de dia da nutrição.
+ * Linha da agenda de referência para um dia da semana. A agenda deixou de
+ * decidir o que fazer (isso agora vem do registro, ver app/motor.js) e serve só
+ * como desenho recomendado da semana.
  */
-export function planoDoDia(perfil, treinos, nutricao, data = new Date()) {
+export function referenciaDoDia(perfil, data = new Date()) {
   const dow = data.getDay();
-  const dia = perfil.agenda.dias.find((d) => d.diaSemana === dow) || perfil.agenda.dias[0];
-  const sessao = dia.treino ? treinos.sessoes.find((s) => s.id === dia.treino) : null;
-  const tipoDia = nutricao.tiposDia.find((t) => t.id === dia.tipoDia) || null;
-  const calendario = treinos.calendario.dias.find((d) => d.diaSemana === dow) || null;
-  return { data, dia, sessao, tipoDia, calendario, descanso: !dia.treino && !dia.pedal };
+  return perfil.agenda.dias.find((d) => d.diaSemana === dow) || perfil.agenda.dias[0];
 }
 
 /* ===================== estado local por dia ===================== */
@@ -106,81 +103,189 @@ const hojeISO = (d = new Date()) => {
 export { hojeISO };
 
 /**
- * Marcações do dia (séries feitas, suplementos tomados). Guardadas no
- * localStorage por data, com limpeza automática do que passou de 14 dias.
+ * Registro do que foi feito e ingerido, por dia, no dispositivo.
+ *
+ * Guardado num único item de localStorage (`rs.registro`) com a forma
+ * `{ dias: { 'AAAA-MM-DD': { atividades, refeicoes, suplementos, series } } }`.
+ * Um item só (em vez de um por data) permite exportar/importar tudo de uma vez,
+ * já que não há servidor para sincronizar.
+ *
+ * - atividades: [{ id, tipo: 'pedal'|'academia'|'rolo', sessao?, em, ... }]
+ * - refeicoes:  [{ id, nome, em, p, g, c, kcal }] — macros gravados no momento
+ *   da marcação, para que mudar o tipo do dia depois não reescreva o passado.
  */
-export class DiarioLocal {
-  constructor(prefixo = 'rs.diario') {
-    this.prefixo = prefixo;
-    this.chave = `${prefixo}.${hojeISO()}`;
+export class Registro {
+  constructor(chave = 'rs.registro', retencaoDias = 180) {
+    this.chave = chave;
+    this.retencaoDias = retencaoDias;
     this.estado = this.#ler();
     this.#podar();
   }
 
   #ler() {
     try {
-      return JSON.parse(localStorage.getItem(this.chave) || '{}');
+      const bruto = JSON.parse(localStorage.getItem(this.chave) || '{}');
+      return bruto && typeof bruto === 'object' && bruto.dias ? bruto : { dias: {} };
     } catch {
-      return {};
+      return { dias: {} };
     }
   }
 
   #gravar() {
-    try { localStorage.setItem(this.chave, JSON.stringify(this.estado)); } catch { /* ignora */ }
+    try { localStorage.setItem(this.chave, JSON.stringify(this.estado)); } catch { /* cota/modo privado */ }
   }
 
   #podar() {
-    const limite = hojeISO(new Date(Date.now() - 14 * 864e5));
-    try {
-      for (let i = localStorage.length - 1; i >= 0; i--) {
-        const k = localStorage.key(i);
-        if (k && k.startsWith(this.prefixo + '.') && k.slice(this.prefixo.length + 1) < limite) {
-          localStorage.removeItem(k);
-        }
-      }
-    } catch { /* ignora */ }
+    const limite = hojeISO(new Date(Date.now() - this.retencaoDias * 864e5));
+    let mexeu = false;
+    for (const d of Object.keys(this.estado.dias)) {
+      if (d < limite) { delete this.estado.dias[d]; mexeu = true; }
+    }
+    if (mexeu) this.#gravar();
   }
 
-  seriesFeitas(sessaoId, ordem) {
-    return (this.estado.series || {})[`${sessaoId}.${ordem}`] || 0;
+  /** Dia em modo leitura (sempre devolve objeto, nunca undefined). */
+  dia(dataISO = hojeISO()) {
+    return this.estado.dias[dataISO] || { atividades: [], refeicoes: [], suplementos: {}, series: {} };
   }
 
-  marcarSerie(sessaoId, ordem, total) {
-    this.estado.series = this.estado.series || {};
-    const k = `${sessaoId}.${ordem}`;
-    const atual = this.estado.series[k] || 0;
-    this.estado.series[k] = atual >= total ? 0 : atual + 1;
+  /** Dia em modo escrita (cria se não existir). */
+  #diaEditavel(dataISO) {
+    const d = this.estado.dias[dataISO] || (this.estado.dias[dataISO] = {});
+    d.atividades = d.atividades || [];
+    d.refeicoes = d.refeicoes || [];
+    d.suplementos = d.suplementos || {};
+    d.series = d.series || {};
+    return d;
+  }
+
+  /* ---------------- atividades ---------------- */
+
+  registrarAtividade(atividade, dataISO = hojeISO()) {
+    const d = this.#diaEditavel(dataISO);
+    const item = {
+      id: `${Date.now().toString(36)}${Math.random().toString(36).slice(2, 6)}`,
+      em: new Date().toISOString(),
+      ...atividade
+    };
+    d.atividades.push(item);
     this.#gravar();
-    return this.estado.series[k];
+    return item;
   }
 
-  zerarSessao(sessaoId) {
-    if (!this.estado.series) return;
-    for (const k of Object.keys(this.estado.series)) {
-      if (k.startsWith(sessaoId + '.')) delete this.estado.series[k];
+  removerAtividade(id, dataISO = hojeISO()) {
+    const d = this.#diaEditavel(dataISO);
+    d.atividades = d.atividades.filter((a) => a.id !== id);
+    this.#gravar();
+  }
+
+  temAtividade(tipo, dataISO = hojeISO()) {
+    return this.dia(dataISO).atividades.some((a) => a.tipo === tipo);
+  }
+
+  /* ---------------- refeições ---------------- */
+
+  refeicaoFeita(id, dataISO = hojeISO()) {
+    return this.dia(dataISO).refeicoes.some((r) => r.id === id);
+  }
+
+  /**
+   * Marca/desmarca uma refeição do plano, gravando os macros no momento da
+   * marcação. Devolve true se ficou marcada.
+   */
+  alternarRefeicao(refeicao, dataISO = hojeISO()) {
+    const d = this.#diaEditavel(dataISO);
+    const i = d.refeicoes.findIndex((r) => r.id === refeicao.id);
+    if (i >= 0) {
+      d.refeicoes.splice(i, 1);
+      this.#gravar();
+      return false;
+    }
+    const m = refeicao.macros || { p: 0, g: 0, c: 0, kcal: 0 };
+    d.refeicoes.push({
+      id: refeicao.id,
+      nome: refeicao.nome,
+      em: new Date().toISOString(),
+      p: m.p, g: m.g, c: m.c, kcal: m.kcal
+    });
+    this.#gravar();
+    return true;
+  }
+
+  /* ---------------- suplementos ---------------- */
+
+  suplementoTomado(nome, dataISO = hojeISO()) {
+    return Boolean(this.dia(dataISO).suplementos[nome]);
+  }
+
+  alternarSuplemento(nome, dataISO = hojeISO()) {
+    const d = this.#diaEditavel(dataISO);
+    d.suplementos[nome] = !d.suplementos[nome];
+    this.#gravar();
+    return d.suplementos[nome];
+  }
+
+  /* ---------------- séries do treino ---------------- */
+
+  seriesFeitas(sessaoId, ordem, dataISO = hojeISO()) {
+    return this.dia(dataISO).series[`${sessaoId}.${ordem}`] || 0;
+  }
+
+  marcarSerie(sessaoId, ordem, total, dataISO = hojeISO()) {
+    const d = this.#diaEditavel(dataISO);
+    const k = `${sessaoId}.${ordem}`;
+    const atual = d.series[k] || 0;
+    d.series[k] = atual >= total ? 0 : atual + 1;
+    this.#gravar();
+    return d.series[k];
+  }
+
+  zerarSessao(sessaoId, dataISO = hojeISO()) {
+    const d = this.#diaEditavel(dataISO);
+    for (const k of Object.keys(d.series)) {
+      if (k.startsWith(sessaoId + '.')) delete d.series[k];
     }
     this.#gravar();
   }
 
-  progressoSessao(sessao) {
+  progressoSessao(sessao, dataISO = hojeISO()) {
     const total = sessao.exercicios.reduce((s, e) => s + e.series, 0);
-    const feitas = sessao.exercicios.reduce((s, e) => s + Math.min(this.seriesFeitas(sessao.id, e.ordem), e.series), 0);
+    const feitas = sessao.exercicios.reduce(
+      (s, e) => s + Math.min(this.seriesFeitas(sessao.id, e.ordem, dataISO), e.series), 0);
     return { feitas, total, perc: total ? Math.round((feitas / total) * 100) : 0 };
   }
 
-  marcado(grupo, id) {
-    return Boolean((this.estado[grupo] || {})[id]);
+  /* ---------------- exportar / importar ---------------- */
+
+  exportar() {
+    return JSON.stringify({
+      versao: 1,
+      geradoEm: new Date().toISOString(),
+      dias: this.estado.dias
+    }, null, 1);
   }
 
-  alternar(grupo, id) {
-    this.estado[grupo] = this.estado[grupo] || {};
-    this.estado[grupo][id] = !this.estado[grupo][id];
+  importar(texto, { substituir = false } = {}) {
+    const bruto = JSON.parse(texto);
+    if (!bruto || typeof bruto !== 'object' || !bruto.dias) throw new Error('arquivo sem o campo "dias"');
+    if (substituir) this.estado.dias = {};
+    let n = 0;
+    for (const [data, dia] of Object.entries(bruto.dias)) {
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(data)) continue;
+      this.estado.dias[data] = dia;
+      n++;
+    }
     this.#gravar();
-    return this.estado[grupo][id];
+    return n;
   }
 
-  contaMarcados(grupo) {
-    return Object.values(this.estado[grupo] || {}).filter(Boolean).length;
+  totalDias() {
+    return Object.keys(this.estado.dias).length;
+  }
+
+  apagarTudo() {
+    this.estado = { dias: {} };
+    this.#gravar();
   }
 }
 
