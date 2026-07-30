@@ -58,7 +58,7 @@ function abaTipoDia(tipo, nutricao, dia) {
     h('div.linha', null,
       h('div.esticar', null,
         h('h2', { texto: `${tipo.kcal} kcal` }),
-        h('p.legenda', { texto: `${tipo.nome} — ${tipo.descricao} · dias no documento: ${tipo.diasDoc.join(', ')}` })
+        h('p.legenda', { texto: `${tipo.nome} — ${tipo.descricao}` })
       ),
       ehHoje && chip(dia.provisorio ? 'perfil de hoje (sem atividade registrada)' : 'é o dia de hoje', 'ok')
     ),
@@ -70,34 +70,39 @@ function abaTipoDia(tipo, nutricao, dia) {
     tipo.nota && h('p.legenda.mt-3', { texto: tipo.nota })
   ));
 
-  frag.append(secao('Refeições',
-    card(tipo.refeicoes.map((r) => h('div.refeicao', null,
-      h('span.refeicao-hora', { texto: r.hora }),
-      h('div.refeicao-corpo', null,
-        h('div.refeicao-nome', null, r.nome, r.tag && chip(r.tag, 'accent'), r.novo && chip('novo', 'ok')),
-        h('div.refeicao-itens', { texto: r.itens }),
-        r.macros && h('div.texto-xs.texto-3', { texto: `~${r.macros.kcal} kcal · P${r.macros.p} G${r.macros.g} C${r.macros.c}` })
-      )
-    ))),
-    h('p.legenda.mt-3', { texto: nutricao.estimativaMacros.nota })
+  const refeicoes = tipo.refeicoes.filter((r) => !r.combustivel);
+  const combustivel = tipo.refeicoes.filter((r) => r.combustivel);
+
+  frag.append(secao(`Refeições (${refeicoes.length})`,
+    card(tipo.refeicoes.map(linhaRefeicao)),
+    combustivel.length
+      ? h('p.legenda.mt-3', { texto: 'Os itens marcados como combustível não são refeições — são carboidrato ingerido durante a atividade.' })
+      : null,
+    h('p.legenda.mt-2', { texto: nutricao.estimativaMacros.nota })
   ));
 
-  // Opções de café da manhã relevantes para este tipo de dia
-  const usaPrePedal = tipo.refeicoes.some((r) => r.ref === 'cafeManha.prePedal');
-  const usaNormal = tipo.refeicoes.some((r) => r.ref === 'cafeManha.normal');
-  for (const [chave, usa] of [['prePedal', usaPrePedal], ['normal', usaNormal]]) {
-    if (!usa) continue;
-    const cm = nutricao.cafeManha[chave];
-    frag.append(secao(cm.titulo,
-      card(
-        h('p.legenda', { texto: cm.descricao }),
-        h('div.mt-3', null, cm.opcoes.map((o) => h('div.refeicao', null,
-          h('span.refeicao-hora', { texto: 'Opção ' + o.id }),
-          h('div.refeicao-corpo', null, h('div.refeicao-itens', { texto: o.itens }))
-        )))
-      )
-    ));
-  }
+  const cm = nutricao.cafeManha;
+  frag.append(secao(cm.titulo,
+    card(
+      h('p.legenda', { texto: cm.descricao }),
+      h('div.mt-3', null, cm.opcoes.map((o) => h('div.refeicao', null,
+        h('span.refeicao-hora', { texto: o.id }),
+        h('div.refeicao-corpo', null,
+          h('div.refeicao-itens', { texto: o.itens }),
+          o.porque && h('div.texto-xs.texto-3.mt-2', { texto: o.porque })
+        )
+      )))
+    )
+  ));
+
+  const tr = nutricao.trocas;
+  frag.append(secao(tr.titulo,
+    tabela(
+      [{ nome: 'Slot' }, { nome: 'Opção 1' }, { nome: 'Opção 2' }, { nome: 'Opção 3' }],
+      tr.linhas.map((l) => [l.slot, ...l.opcoes])
+    ),
+    h('p.legenda.mt-2', { texto: tr.descricao })
+  ));
 
   frag.append(secao('Macros e hidratação',
     card(
@@ -109,13 +114,37 @@ function abaTipoDia(tipo, nutricao, dia) {
     )
   ));
 
-  frag.append(h('div.mt-4', null, aviso({
-    nivel: nutricao.divergenciaAgenda.nivel,
-    titulo: nutricao.divergenciaAgenda.titulo,
-    texto: nutricao.divergenciaAgenda.texto
-  })));
+  const pref = nutricao.preferencias;
+  frag.append(secao(pref.titulo,
+    card(
+      h('p.legenda', { texto: `${pref.descricao} Registrado em ${dataBR(pref.registradoEm)}.` }),
+      h('div.mt-3', null, definicoes(pref.itens.map((i) => [i.campo, i.valor])))
+    ),
+    h('h4.mt-4', { texto: 'O que essas escolhas implicam' }),
+    h('div.pilha-2.mt-2', null, pref.consequencias.map((c) =>
+      aviso({ nivel: c.nivel, titulo: c.titulo, texto: c.texto })
+    ))
+  ));
 
   return frag;
+}
+
+function linhaRefeicao(r) {
+  return h('div.refeicao', null,
+    h('span.refeicao-hora', { texto: r.hora }),
+    h('div.refeicao-corpo', null,
+      h('div.refeicao-nome', null,
+        r.nome,
+        r.tag && chip(r.tag, 'accent'),
+        r.combustivel && chip('combustível', 'atencao', 'pedal')
+      ),
+      h('div.refeicao-itens', { texto: r.itens }),
+      r.macros && h('div.texto-xs.texto-3', { texto: `~${r.macros.kcal} kcal · P${r.macros.p} G${r.macros.g} C${r.macros.c}` }),
+      r.trocas && r.trocas.length
+        ? h('ul.ex-lista.mt-2', null, r.trocas.map((t) => h('li', { texto: t })))
+        : null
+    )
+  );
 }
 
 /* ===================== suplementos ===================== */
