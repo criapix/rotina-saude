@@ -265,7 +265,9 @@ function blocoNutricao(dia, ctx) {
       },
         h('span.check-box', null, icone('check')),
         h('span.check-texto', null,
-          h('strong', null, `${r.hora} · ${r.nome}`, r.tag ? h('span', null, ' ', chip(r.tag, 'accent')) : null),
+          h('strong', null, `${r.hora} · ${r.nome}`,
+            r.tag ? h('span', null, ' ', chip(r.tag, 'accent')) : null,
+            r.combustivel ? h('span', null, ' ', chip('combustível', 'atencao')) : null),
           h('span', { texto: r.itens }),
           h('span.texto-xs', { texto: `~${r.macros.kcal} kcal · P${r.macros.p} G${r.macros.g} C${r.macros.c}` })
         )

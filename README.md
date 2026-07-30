@@ -48,7 +48,7 @@ Cada documento é um JSON tipado, renderizado por componentes (não é markdown)
 |---|---|
 | `perfil` | dados pessoais, objetivos, agenda semanal, alertas ativos, atalhos |
 | `treinos` | sessões A/B/C/D com exercícios estruturados, volume, progressão, restrições, rotação de mesociclo e `plano` (metas da janela, prioridade, limites clínicos) |
-| `nutricao` | macros por tipo de dia, refeições (com macros estimados por refeição), opções de café da manhã, suplementos, regras, metas |
+| `nutricao` | macros por tipo de dia, cardápio (5 refeições com porções e macros), trocas equivalentes, preferências alimentares, suplementos, regras, metas |
 | `pedal` | rotina de ciclismo, bike fit, técnica, plano de resistência ao quadríceps e `plano` (metas da janela) |
 | `saude` | consolidação clínica: diagnósticos, conduta, red flags, pendências |
 | `bioimpedancia` | série temporal consolidada de composição corporal (11 medições) |
@@ -128,6 +128,31 @@ e não tem servidor, então **não há sincronização entre aparelhos**: use *E
 *Importar* na aba Semana para levar o histórico de um dispositivo a outro ou fazer backup —
 limpar os dados do site apaga o registro.
 
+## Cardápio
+
+As refeições não são genéricas: foram montadas a partir das preferências do usuário,
+registradas em `nutricao.preferencias`. São **5 refeições** — 4 grandes (café, almoço,
+lanche, jantar) + 1 após a atividade — mais os itens de *combustível* (maltodextrina
+durante o pedal, tâmaras no minuto 45), que são marcados com `combustivel: true` e não
+contam como refeição.
+
+Cada refeição traz `hora`, `itens` (com as porções em gramas), `macros` e `trocas`
+equivalentes. As porções foram resolvidas por iteração para fechar o total de cada tipo
+de dia — a proteína e o carbo-base de cada refeição são dimensionados para atingir a
+fração-alvo do dia, considerando que arroz, pão e batata também trazem proteína. Desvio
+máximo por dia: 2 g de proteína, 4 g de gordura, 13 g de carboidrato.
+
+Duas refeições são marcadas semanticamente para o motor, em vez de por id:
+`janelaAnabolica: true` (dispara o alerta de pós-atividade) e `regraDoRelogio: true`
+(intra-treino no minuto 45). Renomear a refeição não quebra a regra.
+
+**Para remontar o cardápio** depois de mudar o gosto: atualize `nutricao.preferencias`
+e recalcule as porções — os totais por tipo de dia (que vêm do plano da nutricionista)
+são a restrição, não as porções.
+
+⚠️ As porções são estimativa para acompanhamento, não medição. Os totais diários são
+do plano; o rateio por refeição foi calculado a partir das quantidades dos alimentos.
+
 ## Editar conteúdo
 
 O texto puro **nunca** é versionado. Duas formas de editar:
@@ -188,10 +213,12 @@ Preservadas como estavam nos documentos originais e sinalizadas na interface —
    descanso; o calendário da série (revisão 30/06/2026) coloca pedal + academia em Ter e
    Qua, com Qui de academia apenas. Com o modo flexível isso deixou de decidir o dia — o tipo
    vem do que é registrado — mas a divergência entre os dois documentos segue sinalizada.
-3. **Macros por refeição são estimativa.** Os totais diários (kcal, P/G/C) são do plano
-   nutricional. O rateio por refeição foi calculado a partir das quantidades já listadas em
-   cada refeição e normalizado para somar exatamente o total do dia, para o app poder dizer
-   quanto falta ingerir. É estimativa, não medição, e está rotulada como tal na interface.
+3. **Porções do cardápio são estimativa.** Os totais diários (kcal, P/G/C) são do plano
+   nutricional. As porções de cada refeição foram calculadas para fechar esses totais com os
+   alimentos que o usuário aceita. É estimativa, não medição, e está rotulada como tal.
+   Consequências registradas em `nutricao.preferencias.consequencias`: com peixe limitado a
+   tilápia e merluza, o ômega-3 passou a depender exclusivamente da cápsula de 3 g/dia — o
+   que pesa porque o HDL está em 43 mg/dL.
 4. **Prioridade em semana curta** é escolha do usuário, não recomendação clínica — ver a
    ressalva na seção de modo flexível.
 

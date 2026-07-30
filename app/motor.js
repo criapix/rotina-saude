@@ -114,12 +114,17 @@ function orientacoesDoDia(nutricao, r) {
     }
   }
 
-  // Janela anabólica do pós-pedal.
-  if (atividades.some((a) => a.tipo === 'pedal') && pendentes.some((x) => x.id === 'pos-pedal')) {
+  // Janela anabólica: a refeição é identificada por marcação no dado
+  // (janelaAnabolica), não pelo id — renomear a refeição não quebra a regra.
+  const anabolicaPendente = pendentes.find((x) => x.janelaAnabolica);
+  if (atividades.length && anabolicaPendente) {
+    const pedalou = atividades.some((a) => a.tipo === 'pedal');
     av.push({
       nivel: 'critico',
-      titulo: 'Pós-pedal pendente',
-      texto: 'Whey 30 g + banana em até 30 min após desmontar — não esperar o almoço.'
+      titulo: `${anabolicaPendente.nome} pendente`,
+      texto: pedalou
+        ? `${anabolicaPendente.itens} em até 30 min após desmontar — não esperar o almoço.`
+        : `${anabolicaPendente.itens} logo após o treino.`
     });
   }
 
@@ -132,12 +137,13 @@ function orientacoesDoDia(nutricao, r) {
     });
   }
 
-  // Regra do relógio no intra-treino.
-  if (sessoes.length && pendentes.some((x) => x.id === 'intra')) {
+  // Regra do relógio no intra-treino (também marcado no dado).
+  const relogioPendente = pendentes.find((x) => x.regraDoRelogio);
+  if (sessoes.length && relogioPendente) {
     av.push({
       nivel: 'info',
-      titulo: 'Intra-treino aos 45 min',
-      texto: '2 tâmaras secas ou 1 banana no minuto 45 — regra do relógio, não da sensação.'
+      titulo: `${relogioPendente.nome} — ${relogioPendente.hora}`,
+      texto: `${relogioPendente.itens}. Pelo relógio, não pela sensação.`
     });
   }
 
@@ -150,8 +156,8 @@ function orientacoesDoDia(nutricao, r) {
     });
   }
 
-  // Carboidrato concentrado no fim do dia.
-  if (hora >= 20 && restante.c > tipo.carboG * 0.3) {
+  // Carboidrato concentrado no fim do dia — só cobra quem já começou a comer.
+  if (hora >= 20 && consumido.kcal > 0 && restante.c > tipo.carboG * 0.3) {
     av.push({
       nivel: 'atencao',
       titulo: 'Muito carboidrato pendente para o horário',
