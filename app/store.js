@@ -146,11 +146,32 @@ export class Registro {
 
   /** Dia em modo leitura (sempre devolve objeto, nunca undefined). */
   dia(dataISO = hojeISO()) {
-    return this.estado.dias[dataISO] || { atividades: [], refeicoes: [], suplementos: {}, series: {} };
+    const d = this.estado.dias[dataISO];
+    if (!d) return { atividades: [], refeicoes: [], suplementos: {}, series: {} };
+    return {
+      atividades: d.atividades || [],
+      refeicoes: d.refeicoes || [],
+      suplementos: d.suplementos || {},
+      series: d.series || {}
+    };
+  }
+
+  /** Recarrega do storage — útil quando outra aba gravou. */
+  recarregar() {
+    this.estado = this.#ler();
+  }
+
+  /**
+   * Relê o storage antes de escrever. Sem isso, uma segunda aba (ou o app
+   * reaberto) sobrescreveria com o estado que carregou na inicialização.
+   */
+  #sincronizar() {
+    this.estado = this.#ler();
   }
 
   /** Dia em modo escrita (cria se não existir). */
   #diaEditavel(dataISO) {
+    this.#sincronizar();
     const d = this.estado.dias[dataISO] || (this.estado.dias[dataISO] = {});
     d.atividades = d.atividades || [];
     d.refeicoes = d.refeicoes || [];

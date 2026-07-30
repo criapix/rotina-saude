@@ -99,6 +99,7 @@ function orientacoesDoDia(nutricao, r) {
   const av = [];
   const hora = new Date().getHours();
   const { tipo, tipoId, restante, consumido, pendentes, sessoes, atividades } = r;
+  let jaAvisouDeficitKcal = false;
 
   // O alvo subiu depois de já ter comido como dia mais leve.
   if (tipoId !== 'descanso' && consumido.kcal > 0) {
@@ -109,6 +110,7 @@ function orientacoesDoDia(nutricao, r) {
         titulo: `Alvo do dia subiu para ${tipo.kcal} kcal`,
         texto: `Ao registrar a atividade, o dia virou "${tipo.nome}". Faltam ${restante.kcal} kcal e ${restante.c} g de carboidrato — priorize carboidrato ao redor do treino.`
       });
+      jaAvisouDeficitKcal = true;
     }
   }
 
@@ -176,8 +178,9 @@ function orientacoesDoDia(nutricao, r) {
     });
   }
 
-  // BF% no piso: não é dia de cortar caloria. Idem — só depois de comer algo.
-  if (hora >= 18 && consumido.kcal > 0 && restante.kcal > 400) {
+  // BF% no piso: não é dia de cortar caloria. Idem — só depois de comer algo, e
+  // sem repetir o número que o aviso de "alvo subiu" já deu.
+  if (hora >= 18 && consumido.kcal > 0 && restante.kcal > 400 && !jaAvisouDeficitKcal) {
     av.push({
       nivel: 'atencao',
       titulo: `Faltam ${restante.kcal} kcal`,
