@@ -243,7 +243,8 @@ export async function perfil(ctx) {
         .sort((a, b) => ((a.diaSemana + 6) % 7) - ((b.diaSemana + 6) % 7))
         .map((d) => [d.nome, d.treino || '—', d.pedal || '—', d.tipoDia])
     ),
-    h('p.legenda.mt-2', { texto: `${p.agenda.fonte}. ${p.agenda.nota}` })
+    h('p.legenda.mt-2', { texto: `${p.agenda.fonte}. ${p.agenda.nota}` }),
+    h('div.mt-3', null, aviso({ nivel: 'info', titulo: 'Modo flexível', texto: 'Esta tabela é referência. O que o app orienta vem do que você registra em Hoje, numa janela móvel de 7 dias.' }))
   ));
 
   raiz.append(secao('Alertas ativos',
