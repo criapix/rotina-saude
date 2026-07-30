@@ -11,3 +11,7 @@ Desktop.ini
 *.tmp
 *.bak
 ~$*
+
+# Conteúdo em texto puro extraído por `node tools/crypto.mjs dump`.
+# NUNCA versionar: o repositório guarda apenas os blobs cifrados em data/.
+/content/
