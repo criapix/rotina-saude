@@ -26,6 +26,130 @@ export function janela(dias, ref = new Date()) {
   return out;
 }
 
+/* ===================== gasto calórico ===================== */
+
+/** Interpola uma curva [[min, kcal], ...] e extrapola pela taxa marginal final. */
+function daCurva(curva, min, kcalPorHoraAcima) {
+  if (min <= curva[0][0]) return Math.round(curva[0][1] * min / curva[0][0]);
+  for (let i = 0; i < curva.length - 1; i++) {
+    const [m0, v0] = curva[i], [m1, v1] = curva[i + 1];
+    if (min <= m1) return Math.round(v0 + (v1 - v0) * (min - m0) / (m1 - m0));
+  }
+  const [mUlt, vUlt] = curva[curva.length - 1];
+  return Math.round(vUlt + ((min - mUlt) / 60) * kcalPorHoraAcima);
+}
+
+/**
+ * Gasto de uma atividade registrada. Se o registro traz `kcal` (o usuário
+ * corrigiu pelo ciclocomputador), esse valor manda.
+ */
+export function gastoDaAtividade(atividade, compensacao) {
+  if (Number.isFinite(atividade.kcal)) return Math.round(atividade.kcal);
+
+  const def = compensacao.atividades.find((a) => a.id === atividade.tipo);
+  if (!def) return 0;
+  const min = Number.isFinite(atividade.duracaoMin) ? atividade.duracaoMin : def.duracaoPadraoMin;
+
+  if (def.perfis) {
+    const perfil = def.perfis.find((p) => p.id === atividade.perfil)
+      || def.perfis.find((p) => p.padrao)
+      || def.perfis[0];
+    if (perfil.curvaMin) return daCurva(perfil.curvaMin, min, perfil.kcalPorHoraAcimaDaCurva);
+    return Math.round((perfil.kcalPorHora * min) / 60);
+  }
+  return Math.round((def.kcalPorHora * min) / 60);
+}
+
+/** Soma o gasto de uma lista de atividades. */
+export function gastoTotal(atividades, compensacao) {
+  return atividades.reduce((a, at) => a + gastoDaAtividade(at, compensacao), 0);
+}
+
+/**
+ * Alvo do dia a partir do gasto: base + gasto, limitado ao teto. Proteína e
+ * gordura ficam fixas; o excedente aceito vira carboidrato.
+ */
+export function alvoPorGasto(compensacao, gasto) {
+  const c = compensacao;
+  const bruto = c.baseKcal + gasto;
+  const kcal = Math.min(bruto, c.tetoKcalDia);
+  const gastoAceito = kcal - c.baseKcal;
+  return {
+    gasto,
+    bruto,
+    kcal,
+    p: c.proteinaFixaG,
+    g: c.gorduraFixaG,
+    c: Math.round(c.baseCarboG + gastoAceito / 4),
+    cortadoPeloTeto: bruto - kcal,
+    noTeto: bruto > c.tetoKcalDia
+  };
+}
+
+/** Combustível sugerido para uma atividade de pedal, pela duração. */
+export function combustivelDoPedal(atividades, compensacao) {
+  const min = atividades
+    .filter((a) => a.tipo === 'pedal' || a.tipo === 'rolo')
+    .reduce((a, at) => a + (at.duracaoMin || 0), 0);
+  if (!min) return null;
+
+  const horas = min / 60;
+  const ia = compensacao.intraAtividade;
+  const [minH, maxH] = ia.alvoCarboPorHora;
+  const gel = ia.itens.find((i) => /gel/i.test(i.nome));
+  const iso = ia.itens.find((i) => /isot/i.test(i.nome));
+  const bala = ia.itens.find((i) => /bala/i.test(i.nome));
+
+  const nGel = Math.round(horas);
+  const mlIso = Math.round(horas * 500);
+  // gel + isotônico dão ~55 g/h e não alcançam o alvo: a bala de goma fecha a
+  // diferença. Arredonda para o pacote mais próximo — arredondar para cima
+  // passaria dos 70 g/h e é mais carboidrato do que o estômago aceita.
+  const carboBase = nGel * gel.carboG + (mlIso / 500) * iso.carboG;
+  const alvoCarbo = Math.round(horas * maxH);
+  const nBala = Math.max(0, Math.round((alvoCarbo - carboBase) / bala.carboG));
+
+  const itens = [`${nGel} gel`, `${mlIso} ml de isotônico`];
+  if (nBala) itens.push(`${nBala} pacote${nBala > 1 ? 's' : ''} de bala de goma`);
+
+  const carbo = carboBase + nBala * bala.carboG;
+  return {
+    duracaoMin: min,
+    horas,
+    itens: itens.join(' + '),
+    carboG: Math.round(carbo),
+    kcal: Math.round(nGel * gel.kcal + (mlIso / 500) * iso.kcal + nBala * bala.kcal),
+    faixaAlvo: `${Math.round(horas * minH)}–${alvoCarbo} g`
+  };
+}
+
+/**
+ * Reforço de carboidrato: escolhe itens do cardápio para cobrir um excedente de
+ * calorias, do mais denso para o menos, sem passar muito do alvo.
+ */
+export function sugerirReforco(compensacao, kcalFaltando) {
+  if (kcalFaltando < 100) return null;
+  const itens = compensacao.reforcos.itens.slice().sort((a, b) => b.kcal - a.kcal);
+  const escolhidos = [];
+  let resta = kcalFaltando;
+  for (const it of itens) {
+    const n = Math.floor(resta / it.kcal);
+    if (n < 1) continue;
+    const usar = Math.min(n, 3); // no máximo 3 porções do mesmo item
+    escolhidos.push({ ...it, porcoes: usar });
+    resta -= usar * it.kcal;
+    if (resta < 100) break;
+  }
+  if (!escolhidos.length) return null;
+  const kcal = escolhidos.reduce((a, i) => a + i.porcoes * i.kcal, 0);
+  return {
+    alvoKcal: kcalFaltando,
+    kcal,
+    carboG: escolhidos.reduce((a, i) => a + i.porcoes * i.carboG, 0),
+    texto: escolhidos.map((i) => `${i.porcoes}× ${i.nome} (${i.medida})`).join(' + ')
+  };
+}
+
 /* ===================== tipo de dia derivado ===================== */
 
 /**
@@ -61,7 +185,12 @@ export function resumoDia(dados, registro, dataISO = hojeISO()) {
     { p: 0, g: 0, c: 0, kcal: 0 }
   );
 
-  const alvo = { p: tipo.proteinaG, g: tipo.gorduraG, c: tipo.carboG, kcal: tipo.kcal };
+  // O alvo vem do gasto registrado, não do degrau fixo: base + gasto, limitado
+  // ao teto. O tipo de dia continua servindo de molde para o cardápio.
+  const comp = nutricao.compensacao;
+  const gasto = gastoTotal(atividades, comp);
+  const derivado = alvoPorGasto(comp, gasto);
+  const alvo = { p: derivado.p, g: derivado.g, c: derivado.c, kcal: derivado.kcal };
   const restante = {
     p: alvo.p - consumido.p,
     g: alvo.g - consumido.g,
@@ -84,9 +213,13 @@ export function resumoDia(dados, registro, dataISO = hojeISO()) {
     tipo,
     sessoes,
     alvo,
+    derivado,
+    gasto,
     consumido,
     restante,
     pendentes,
+    combustivel: combustivelDoPedal(atividades, comp),
+    reforco: sugerirReforco(comp, alvo.kcal - tipo.kcal),
     percKcal: alvo.kcal ? Math.min(100, Math.round((consumido.kcal / alvo.kcal) * 100)) : 0,
     provisorio: atividades.length === 0
   };
@@ -94,21 +227,117 @@ export function resumoDia(dados, registro, dataISO = hojeISO()) {
   return resumo;
 }
 
+/**
+ * Banco calórico: o gasto que o teto diário cortou nos últimos dias, menos o
+ * que já foi reposto comendo acima do alvo.
+ */
+export function bancoCalorico(dados, registro, ref = new Date()) {
+  const comp = dados.nutricao.compensacao;
+  const dias = janela(comp.banco.janelaDias, ref);
+
+  let gerado = 0;
+  let reposto = 0;
+  const detalhe = [];
+
+  for (const d of dias) {
+    const dia = registro.dia(d);
+    const atividades = dia.atividades || [];
+    const gasto = gastoTotal(atividades, comp);
+    const alvo = alvoPorGasto(comp, gasto);
+    const consumido = (dia.refeicoes || []).reduce((a, r) => a + r.kcal, 0);
+
+    gerado += alvo.cortadoPeloTeto;
+    const acima = Math.max(0, consumido - alvo.kcal);
+    reposto += acima;
+
+    if (alvo.cortadoPeloTeto > 0 || acima > 0) {
+      detalhe.push({ data: d, gasto, cortado: alvo.cortadoPeloTeto, acimaDoAlvo: acima });
+    }
+  }
+
+  return {
+    janelaDias: comp.banco.janelaDias,
+    gerado,
+    reposto,
+    saldo: Math.max(0, gerado - reposto),
+    detalhe,
+    titulo: comp.banco.titulo,
+    descricao: comp.banco.descricao
+  };
+}
+
+/**
+ * Balanço energético da janela: gasto, alvo derivado e consumido de cada dia,
+ * mais os totais. É o que a aba Semana precisa para mostrar se a compensação
+ * está acontecendo.
+ */
+export function resumoEnergetico(dados, registro, ref = new Date()) {
+  const comp = dados.nutricao.compensacao;
+  const dias = janela(dados.treinos.plano.janelaDias, ref);
+  const hoje = dias[dias.length - 1];
+
+  const linhas = dias.map((data) => {
+    const dia = registro.dia(data);
+    const atividades = dia.atividades || [];
+    const gasto = gastoTotal(atividades, comp);
+    const alvo = alvoPorGasto(comp, gasto);
+    const consumido = (dia.refeicoes || []).reduce((a, r) => a + r.kcal, 0);
+    const registrou = atividades.length > 0 || (dia.refeicoes || []).length > 0;
+    return {
+      data,
+      hoje: data === hoje,
+      atividades,
+      gasto,
+      alvo: alvo.kcal,
+      cortadoPeloTeto: alvo.cortadoPeloTeto,
+      consumido,
+      // sem nada registrado não há saldo: um dia em branco é falta de registro,
+      // não um déficit de 2300 kcal
+      saldo: registrou ? consumido - alvo.kcal : 0,
+      registrou
+    };
+  });
+
+  const somar = (campo) => linhas.reduce((a, l) => a + l[campo], 0);
+  const comRegistro = linhas.filter((l) => l.registrou);
+
+  return {
+    janelaDias: dias.length,
+    dias,
+    hoje,
+    linhas,
+    gasto: somar('gasto'),
+    alvo: somar('alvo'),
+    consumido: somar('consumido'),
+    saldo: somar('saldo'),
+    diasComRegistro: comRegistro.length,
+    mediaGasto: comRegistro.length ? Math.round(somar('gasto') / comRegistro.length) : 0
+  };
+}
+
+function formatarDuracao(min) {
+  const h = Math.floor(min / 60), m = min % 60;
+  if (!h) return `${m} min`;
+  return m ? `${h}h${String(m).padStart(2, '0')}` : `${h}h`;
+}
+
+export { formatarDuracao };
+
 /** Orientações que mudam conforme o registro. A view só renderiza. */
 function orientacoesDoDia(nutricao, r) {
   const av = [];
   const hora = new Date().getHours();
-  const { tipo, tipoId, restante, consumido, pendentes, sessoes, atividades } = r;
+  const { tipo, tipoId, alvo, derivado, restante, consumido, pendentes, sessoes, atividades, combustivel, reforco } = r;
   let jaAvisouDeficitKcal = false;
 
   // O alvo subiu depois de já ter comido como dia mais leve.
   if (tipoId !== 'descanso' && consumido.kcal > 0) {
     const descanso = nutricao.tiposDia.find((t) => t.id === 'descanso');
-    if (descanso && tipo.kcal > descanso.kcal && consumido.kcal < descanso.kcal && restante.kcal > 0) {
+    if (descanso && alvo.kcal > descanso.kcal && consumido.kcal < descanso.kcal && restante.kcal > 0) {
       av.push({
         nivel: 'atencao',
-        titulo: `Alvo do dia subiu para ${tipo.kcal} kcal`,
-        texto: `Ao registrar a atividade, o dia virou "${tipo.nome}". Faltam ${restante.kcal} kcal e ${restante.c} g de carboidrato — priorize carboidrato ao redor do treino.`
+        titulo: `Alvo do dia subiu para ${alvo.kcal} kcal`,
+        texto: `O gasto registrado (${derivado.gasto} kcal) elevou o alvo. Faltam ${restante.kcal} kcal e ${restante.c} g de carboidrato — priorize carboidrato ao redor da atividade.`
       });
       jaAvisouDeficitKcal = true;
     }
@@ -147,6 +376,33 @@ function orientacoesDoDia(nutricao, r) {
     });
   }
 
+  // Combustível durante o pedal, dimensionado pela duração.
+  if (combustivel) {
+    av.push({
+      nivel: combustivel.horas >= 2 ? 'critico' : 'info',
+      titulo: `Combustível para ${formatarDuracao(combustivel.duracaoMin)} de pedal`,
+      texto: `${combustivel.itens} — ${combustivel.carboG} g de carboidrato (alvo ${combustivel.faixaAlvo}). Sem isso, um pedal longo abre um buraco que não fecha comendo depois.`
+    });
+  }
+
+  // O teto cortou parte do gasto: o resto vai para o banco.
+  if (derivado.noTeto) {
+    av.push({
+      nivel: 'atencao',
+      titulo: `Gasto acima do que cabe num dia`,
+      texto: `O gasto foi de ${derivado.gasto} kcal, o que daria um alvo de ${derivado.bruto} kcal. O teto realista é ${alvo.kcal}, então ${derivado.cortadoPeloTeto} kcal vão para o banco calórico — reponha nos próximos dias.`
+    });
+  }
+
+  // O cardápio do tipo de dia não cobre o alvo derivado: sugere reforço.
+  if (reforco && restante.kcal > 200) {
+    av.push({
+      nivel: 'info',
+      titulo: `Reforço de ${reforco.kcal} kcal sobre o cardápio`,
+      texto: `O cardápio de "${tipo.nome}" fecha ${tipo.kcal} kcal e hoje o alvo é ${alvo.kcal}. Para cobrir: ${reforco.texto}.`
+    });
+  }
+
   // Dia duplo.
   if (tipoId === 'duplo') {
     av.push({
@@ -157,11 +413,11 @@ function orientacoesDoDia(nutricao, r) {
   }
 
   // Carboidrato concentrado no fim do dia — só cobra quem já começou a comer.
-  if (hora >= 20 && consumido.kcal > 0 && restante.c > tipo.carboG * 0.3) {
+  if (hora >= 20 && consumido.kcal > 0 && restante.c > alvo.c * 0.3) {
     av.push({
       nivel: 'atencao',
       titulo: 'Muito carboidrato pendente para o horário',
-      texto: `Restam ${restante.c} g de carboidrato (${Math.round((restante.c / tipo.carboG) * 100)}% do dia). Amanhã, adiantar o carbo no café e ao redor do treino.`
+      texto: `Restam ${restante.c} g de carboidrato (${Math.round((restante.c / alvo.c) * 100)}% do dia). Amanhã, adiantar o carbo no café e ao redor da atividade.`
     });
   }
 
@@ -180,7 +436,7 @@ function orientacoesDoDia(nutricao, r) {
     av.push({
       nivel: 'atencao',
       titulo: `${Math.abs(restante.kcal)} kcal acima do alvo`,
-      texto: `O alvo de hoje (${tipo.nome}) é ${tipo.kcal} kcal. Registrar uma atividade eleva o alvo; sem isso, compense amanhã sem cortar proteína.`
+      texto: `O alvo de hoje é ${alvo.kcal} kcal (base ${derivado.bruto - derivado.gasto} + gasto ${derivado.gasto}). Registrar mais atividade eleva o alvo; sem isso, compense amanhã sem cortar proteína.`
     });
   }
 
@@ -206,7 +462,7 @@ function orientacoesDoDia(nutricao, r) {
     av.push({
       nivel: 'info',
       titulo: 'Nenhuma atividade registrada hoje',
-      texto: `O alvo mostrado é de descanso (${tipo.kcal} kcal). Registre o pedal ou a academia e ele se ajusta.`
+      texto: `O alvo mostrado é de descanso (${alvo.kcal} kcal). Registre o pedal ou a academia e ele se ajusta ao gasto.`
     });
   }
 
