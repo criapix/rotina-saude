@@ -375,6 +375,11 @@ export function resumoEnergetico(dados, registro, ref = new Date()) {
   };
 }
 
+/** Troca {campo} pelo valor correspondente — os textos vêm do dado com lacunas. */
+function preencher(texto, valores) {
+  return String(texto).replace(/\{(\w+)\}/g, (m, k) => (k in valores ? String(valores[k]) : m));
+}
+
 function formatarDuracao(min) {
   const h = Math.floor(min / 60), m = min % 60;
   if (!h) return `${m} min`;
@@ -386,6 +391,7 @@ export { formatarDuracao };
 /** Orientações que mudam conforme o registro. A view só renderiza. */
 function orientacoesDoDia(nutricao, r) {
   const av = [];
+  const O = nutricao.orientacoes || {};
   const hora = new Date().getHours();
   const { tipo, tipoId, alvo, derivado, restante, consumido, pendentes, sessoes, atividades, combustivel, reforco } = r;
   let jaAvisouDeficitKcal = false;
@@ -417,13 +423,11 @@ function orientacoesDoDia(nutricao, r) {
     });
   }
 
-  // Colágeno antes dos treinos de perna.
-  if (sessoes.some((s) => ['B', 'D'].includes(s.id))) {
-    av.push({
-      nivel: 'info',
-      titulo: 'Treino de perna hoje',
-      texto: 'Colágeno hidrolisado 15 g + vitamina C 50 mg 60 min antes — proteção do tendão quadricipital.'
-    });
+  // Colágeno antes dos treinos de perna. Quais sessões e qual o texto vêm do
+  // dado: o frontend é público e não guarda particularidade clínica.
+  const pre = O.preTreinoPerna;
+  if (pre && sessoes.some((s) => pre.sessoes.includes(s.id))) {
+    av.push({ nivel: 'info', titulo: pre.titulo, texto: pre.texto });
   }
 
   // Regra do relógio no intra-treino (também marcado no dado).
@@ -464,30 +468,28 @@ function orientacoesDoDia(nutricao, r) {
   }
 
   // Dia duplo.
-  if (tipoId === 'duplo') {
-    av.push({
-      nivel: 'info',
-      titulo: 'Dia duplo',
-      texto: 'Carboidrato imediatamente após o pedal (malto, banana ou batata-doce) antes da academia. Se a fadiga estiver alta, tirar 1 série dos acessórios — manter os compostos de perna e o supino.'
-    });
+  if (tipoId === 'duplo' && O.diaDuplo) {
+    av.push({ nivel: 'info', titulo: O.diaDuplo.titulo, texto: O.diaDuplo.texto });
   }
 
   // Carboidrato concentrado no fim do dia — só cobra quem já começou a comer.
-  if (hora >= 20 && consumido.kcal > 0 && restante.c > alvo.c * 0.3) {
+  const cp = O.carboPendente;
+  if (cp && hora >= cp.horaMinima && consumido.kcal > 0 && restante.c > alvo.c * cp.fracaoLimite) {
     av.push({
       nivel: 'atencao',
-      titulo: 'Muito carboidrato pendente para o horário',
-      texto: `Restam ${restante.c} g de carboidrato (${Math.round((restante.c / alvo.c) * 100)}% do dia). Amanhã, adiantar o carbo no café e ao redor da atividade.`
+      titulo: cp.titulo,
+      texto: `Restam ${restante.c} g de carboidrato (${Math.round((restante.c / alvo.c) * 100)}% do dia). ${cp.texto}`
     });
   }
 
   // Proteína é o macro que não se negocia. Só cobra quem já começou a comer —
   // com o registro vazio isso seria só ruído.
-  if (hora >= 19 && consumido.kcal > 0 && restante.p > 40) {
+  const pp = O.proteinaPendente;
+  if (pp && hora >= pp.horaMinima && consumido.kcal > 0 && restante.p > pp.limiteG) {
     av.push({
       nivel: 'atencao',
       titulo: `Faltam ${restante.p} g de proteína`,
-      texto: 'Proteína é o macro fixo (170 g/dia). Jantar + caseína ou iogurte antes de dormir fecham a conta.'
+      texto: preencher(pp.texto, { proteinaFixaG: alvo.p })
     });
   }
 
@@ -500,13 +502,14 @@ function orientacoesDoDia(nutricao, r) {
     });
   }
 
-  // BF% no piso: não é dia de cortar caloria. Idem — só depois de comer algo, e
-  // sem repetir o número que o aviso de "alvo subiu" já deu.
-  if (hora >= 18 && consumido.kcal > 0 && restante.kcal > 400 && !jaAvisouDeficitKcal) {
+  // Composição corporal no piso: não é dia de cortar caloria. Idem — só depois
+  // de comer algo, e sem repetir o número que o aviso de "alvo subiu" já deu.
+  const dc = O.deficitCalorico;
+  if (dc && hora >= dc.horaMinima && consumido.kcal > 0 && restante.kcal > dc.limiteKcal && !jaAvisouDeficitKcal) {
     av.push({
       nivel: 'atencao',
       titulo: `Faltam ${restante.kcal} kcal`,
-      texto: 'Com BF% em 11,7% (piso clínico 11%), ficar abaixo do alvo é o risco maior — não deixe o dia fechar em déficit.'
+      texto: preencher(dc.texto, dc)
     });
   }
 
@@ -752,10 +755,15 @@ function pendenciaDaJanela(plano, academias, hoje) {
 
 /* ===================== suplementos do dia ===================== */
 
-/** Filtra os suplementos aplicáveis ao que foi registrado hoje. */
-export function suplementosDoDia(suplementos, resumo) {
+/**
+ * Filtra os suplementos aplicáveis ao que foi registrado hoje. Quais sessões
+ * contam como treino de perna vem do dado (a mesma lista que dispara o aviso do
+ * colágeno), não de uma constante aqui.
+ */
+export function suplementosDoDia(suplementos, resumo, orientacoes) {
   const temTreino = resumo.sessoes.length > 0;
-  const ehBD = resumo.sessoes.some((s) => ['B', 'D'].includes(s.id));
+  const dePerna = (orientacoes && orientacoes.preTreinoPerna && orientacoes.preTreinoPerna.sessoes) || [];
+  const ehBD = resumo.sessoes.some((s) => dePerna.includes(s.id));
   return suplementos.filter((s) => {
     if (s.frequencia === 'treino') return temTreino;
     if (s.frequencia === 'treinoBD') return ehBD;

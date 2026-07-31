@@ -479,7 +479,7 @@ function blocoBanco(banco, comp) {
 
 function blocoSuplementos(dia, nutricao, ctx) {
   const { registro } = ctx;
-  const lista = suplementosDoDia(nutricao.suplementos, dia);
+  const lista = suplementosDoDia(nutricao.suplementos, dia, nutricao.orientacoes);
   if (!lista.length) return h('div');
 
   const feitos = () => lista.filter((s) => registro.suplementoTomado(s.nome)).length;
