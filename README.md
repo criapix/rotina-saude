@@ -63,13 +63,64 @@ Exercícios, refeições, suplementos, laudos e medições são **registros com 
 o que antes estava escrito à mão: total de séries por grupo, plano do dia, gráficos,
 busca e checklists.
 
+## Arquitetura de informação: operar × consultar
+
+O app tem duas naturezas de conteúdo e elas não se misturam:
+
+- **Operar** — o que se faz várias vezes por dia. Três telas, cada uma com um trabalho.
+- **Consultar** — plano completo, exames, laudos, histórico, balanço da semana. Se lê de vez
+  em quando; não pode competir por espaço com a operação.
+
+A navegação inferior tem exatamente quatro itens:
+
+| Aba | Responde | Contém |
+|---|---|---|
+| **Hoje** | o que eu faço agora? | uma ação em destaque, quatro atalhos, no máximo um alerta |
+| **Comer** | o que preciso comer? como registro? | progresso do dia, refeição da vez, lista do cardápio, suplementos |
+| **Treinar** | qual série? como registro série e pedal? | série de hoje (ou a sugerida), registro de pedal, o que já entrou |
+| **Consultar** | onde está aquilo? | todo o resto, agrupado |
+
+### Os momentos de uso, e onde cada um resolve
+
+O desenho partiu dos cinco momentos frequentes, não das entidades do domínio:
+
+| Momento | Caminho | Toques |
+|---|---|---|
+| saber o que preciso comer | Comer → refeição da vez em destaque | 1 |
+| registrar o que comi | Comer → **Comi isso**, ou **Comi outra coisa** para compor | 2 |
+| saber qual série tenho que fazer | Treinar → série sugerida no topo | 1 |
+| registrar a série que fiz | Treinar → **Começar o treino X** → marcar série por série | 2 |
+| registrar o pedal que fiz | Treinar → perfil, duração, **Registrar pedal** | 3 |
+
+**Hoje calcula a próxima ação** em vez de listar tudo (`proximaAcao` no motor), por ordem de
+prazo real: janela anabólica aberta (30 min) → refeição da hora → série sugerida → dia fechado.
+O cartão muda de cor com a urgência e leva direto ao lugar de agir.
+
+**Treinar abre na série quando já há treino registrado.** Na academia o que importa é a lista
+de exercícios com as marcações, não um painel — então o painel some.
+
+### Teto de alertas
+
+O problema anterior era acúmulo: orientações do dia, alertas da janela e alertas clínicos
+contínuos empilhados na mesma tela. Agora:
+
+- **Hoje** mostra **um** alerta — o mais urgente. O resto vira `Ver todos os alertas (n)`, que
+  abre uma folha com três grupos: do dia, da janela, atenção contínua.
+- **Comer** mostra só os avisos que mudam o que se vai comer agora.
+- **Treinar** mostra só as ressalvas da sessão sugerida.
+- Alerta clínico contínuo (ombro, composição corporal, cirurgião) não é do dia: vive na folha
+  de alertas e em Consultar → Saúde.
+
+Efeito medido no navegador, com o mesmo estado: a tela Hoje passou de **~10 300 px** de altura
+para **~1 000 px** — cabe numa tela e meia em vez de dez.
+
 ## Modo flexível: registrar e deixar o app se ajustar
 
 Não há programação fixa por dia da semana. Você registra o que fez e o app recalcula.
 
-**O que se registra** (aba Hoje): `Pedalei` e `Malhei` (escolhendo a série) — mais de uma
-execução por dia é aceita. As refeições do plano são marcadas uma a uma, ou
-[personalizadas](#personalizar-refeições) com o que você realmente comeu.
+**O que se registra** (aba Treinar): pedal e série, mais de uma execução por dia. As refeições
+são marcadas na aba Comer, uma a uma, ou [personalizadas](#personalizar-refeições) com o que
+você realmente comeu.
 
 **O que se registra, em detalhe.** Cada execução leva **duração** e, no pedal, um **perfil de
 intensidade**; o gasto estimado aparece no botão antes de gravar e continua editável depois
@@ -93,7 +144,7 @@ apenas nos treinos B e D). Se você já comeu como dia leve e depois treinou, el
 alvo subiu e quanto falta repor. Os macros de cada refeição são gravados no momento da
 marcação, então mudar o tipo do dia depois não reescreve o que já foi comido.
 
-**Ajuste semanal — janela móvel de 7 dias** (aba Semana). A cada dia o app olha os 7 dias
+**Ajuste semanal — janela móvel de 7 dias** (Consultar → Últimos 7 dias). A cada dia o app olha os 7 dias
 anteriores, em vez de uma semana de calendário: treinar no domingo conta e não existe virada
 que zera o progresso. Metas da janela: 4 academias e 3 pedais. Mostra o que falta,
 o que sai da janela nos próximos dias, o volume por grupo muscular comparado ao alvo semanal
@@ -108,8 +159,9 @@ da série, e a próxima sessão sugerida.
 3. 24h desde a última sessão e 48h para a mesma categoria (superior/inferior).
 4. A ordem de prioridade configurada em `treinos.plano.prioridadeParcial`.
 
-Quando tudo tem ressalva, escolhe a menos bloqueada. A aba Semana mostra numa tabela por que
-cada sessão foi ou não escolhida.
+Quando tudo tem ressalva, escolhe a menos bloqueada — e a ressalva aparece no cartão da série
+em Treinar. Consultar → Últimos 7 dias mostra numa tabela por que cada sessão foi ou não
+escolhida.
 
 **Semanas curtas.** Se não couberem as 4 sessões, a ordem atual é **A → C → B → D**
 (superiores primeiro), escolhida pelo usuário em 30/07/2026 para atender o objetivo de ganho
@@ -118,22 +170,28 @@ prioridade absoluta (~40% da massa muscular) pela transferência ao pedal; o app
 avisando quando os inferiores passam 7 dias sem estímulo. Para inverter, troque
 `treinos.plano.prioridadeParcial.ordem` para `["B","D","A","C"]`.
 
-### Demais abas
+### O que há em Consultar
 
-- **Treino** — sessões A/B/C/D com cartões de exercício (séries × reps, cues, alertas,
-  marcação de séries feitas), volume semanal, progressão, restrições e rotação. A lista
-  marca qual é a `próxima` e quais já foram `✓ feitas` na janela.
-- **Nutrição** — um painel por tipo de dia (abre no tipo derivado de hoje), suplementos,
-  estratégias e metas.
+- **Nutrição** — um painel por tipo de dia (abre no tipo derivado de hoje), tabela de
+  alimentos, compensação do gasto, suplementos, estratégias e metas.
+- **Série de musculação** — sessões A/B/C/D com cartões de exercício (séries × reps, cues,
+  alertas, marcação de séries feitas), volume semanal, progressão, restrições e rotação. A
+  lista marca qual é a `próxima` e quais já foram `✓ feitas` na janela.
+- **Ciclismo** — rotina, protocolo do joelho, plano de resistência e cuidados.
+- **Últimos 7 dias** — o que foi feito, gasto e balanço calórico dia a dia, volume por grupo,
+  limites clínicos, por que cada sessão foi escolhida, exportar/importar o registro.
 - **Saúde** — resumo clínico, composição corporal com gráficos, exames, laudos e pendências.
-- **Mais** (`⋯`) — pedal, dermatologia, histórico, pareceres, perfil, editor, tema, bloquear.
+- **Dermatologia · Histórico · Pareceres · Perfil · Editar dados.**
+- **Ir direto** — atalhos vindos de `perfil.atalhos` para sub-abas específicas.
 - **Busca global** (ícone de lupa ou `Ctrl/Cmd+K`) sobre todos os documentos decifrados.
+- `⋯` no topo — Consultar, editor, bloquear e tema.
 
 ### Onde o registro fica guardado
 
 No `localStorage` do navegador, em `rs.registro`, com 180 dias de retenção. O app é estático
 e não tem servidor, então **não há sincronização entre aparelhos**: use *Exportar registro* /
-*Importar* na aba Semana para levar o histórico de um dispositivo a outro ou fazer backup —
+*Importar* em Consultar → Últimos 7 dias para levar o histórico de um aparelho a outro ou
+fazer backup —
 limpar os dados do site apaga o registro.
 
 ## Compensação do gasto calórico
@@ -177,8 +235,9 @@ isso responde por um terço a metade do gasto e não compete com as refeições.
 itens que já estão no seu cardápio (arroz, batata, macarrão, tapioca, pão, banana, aveia, mel)
 para fechar a diferença.
 
-Onde ver: **Hoje** mostra a conta (base · gasto · alvo), o combustível, o reforço e o banco;
-**Semana** mostra gasto/alvo/comido/saldo dia a dia e o balanço da janela; **Nutrição →
+Onde ver: **Comer** mostra o alvo, o que falta, o combustível, o reforço e o banco; **Treinar**
+mostra o gasto de cada atividade registrada, editável; **Consultar → Últimos 7 dias** mostra
+gasto/alvo/comido/saldo dia a dia e o balanço da janela; **Consultar → Nutrição →
 Compensação** é a referência completa, com uma tabela de quanto comer para cada duração de
 pedal.
 
@@ -233,8 +292,10 @@ do plano; o rateio por refeição foi calculado a partir das quantidades dos ali
 
 O cardápio é uma sugestão, não um contrato. Cada refeição tem duas ações:
 
-- **marcar** (toque na linha) — comeu como no plano, entram os macros planejados;
-- **personalizar** (ícone de lápis) — abre o compositor com a composição do plano já carregada;
+- **marcar** (toque na linha, ou **Comi isso** na refeição da vez) — comeu como no plano,
+  entram os macros planejados;
+- **personalizar** (ícone de lápis, ou **Comi outra coisa**) — abre o compositor com a
+  composição do plano já carregada;
   você troca, tira e ajusta as quantidades, e o que entra na conta do dia são os macros do que
   foi montado.
 

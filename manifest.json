@@ -10,7 +10,10 @@
   "theme_color": "#0b1120",
   "lang": "pt-BR",
   "dir": "ltr",
-  "categories": ["health", "fitness"],
+  "categories": [
+    "health",
+    "fitness"
+  ],
   "icons": [
     {
       "src": "icon.svg",
@@ -26,8 +29,20 @@
     }
   ],
   "shortcuts": [
-    { "name": "Treino de hoje", "url": "./#/treino", "description": "Abre a série do dia" },
-    { "name": "Nutrição", "url": "./#/nutricao", "description": "Macros e refeições" },
-    { "name": "Composição corporal", "url": "./#/saude/composicao", "description": "Bioimpedância" }
+    {
+      "name": "O que comer",
+      "url": "./#/comer",
+      "description": "Cardápio do dia e registro das refeições"
+    },
+    {
+      "name": "Treinar",
+      "url": "./#/treinar",
+      "description": "Série de hoje e registro de pedal"
+    },
+    {
+      "name": "Consultar",
+      "url": "./#/consultar",
+      "description": "Plano, exames, laudos e a semana"
+    }
   ]
 }
