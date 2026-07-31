@@ -80,14 +80,16 @@ function abaSessoes(treinos, jan, ctx) {
 
 /* ===================== detalhe da sessão ===================== */
 
-function telaSessao(s, treinos, jan, ctx) {
+export function telaSessao(s, treinos, jan, ctx, opcoes = {}) {
   const { registro } = ctx;
   const vol = volumeSessao(s);
   const raiz = h('div');
 
-  raiz.append(h('button.btn.btn-fantasma', {
-    type: 'button', onClick: () => ctx.navegar('#/treino')
-  }, icone('voltar'), 'Todas as sessões'));
+  if (opcoes.voltar !== false) {
+    raiz.append(h('button.btn.btn-fantasma', {
+      type: 'button', onClick: () => ctx.navegar('#/treino')
+    }, icone('voltar'), 'Todas as sessões'));
+  }
 
   raiz.append(cabecalhoPagina({
     kicker: `${s.dia} · ~${s.duracaoMin} min`,
@@ -138,7 +140,7 @@ function telaSessao(s, treinos, jan, ctx) {
     s.exercicios.map((ex) => cartaoExercicio(ex, s, registro, atualizarProgresso))
   ));
 
-  raiz.append(secao('Volume da sessão',
+  if (opcoes.volume !== false) raiz.append(secao('Volume da sessão',
     card(
       barrasHorizontais(
         Object.entries(vol.porGrupo).sort((a, b) => b[1] - a[1]).map(([nome, valor]) => ({ nome, valor })),

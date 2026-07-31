@@ -210,6 +210,113 @@ export function descreverComposicao(alimentos, composicao) {
     .join(' + ');
 }
 
+/* ===================== o que fazer agora ===================== */
+
+/**
+ * Hora aproximada de uma refeição, em horas decimais, a partir do rótulo do
+ * cardápio ("~5:30", "~12h"). As refeições ancoradas em evento — "após o
+ * treino", "durante o pedal" — não têm hora e devolvem null: elas são
+ * disparadas pela atividade, não pelo relógio.
+ */
+export function horaDaRefeicao(refeicao) {
+  const m = String(refeicao.hora || '').match(/(\d{1,2})(?::(\d{2}))?/);
+  if (!m) return null;
+  if (/minuto/i.test(refeicao.hora)) return null; // "minuto 45" é do treino, não do dia
+  return Number(m[1]) + (m[2] ? Number(m[2]) / 60 : 0);
+}
+
+/**
+ * A refeição que vem agora: entre as pendentes, a de hora mais próxima que
+ * ainda não passou; se todas já passaram, a mais atrasada. Refeições ancoradas
+ * em evento entram apenas quando a atividade correspondente foi registrada.
+ */
+export function proximaRefeicao(resumo, agoraH = new Date().getHours() + new Date().getMinutes() / 60) {
+  const candidatas = resumo.pendentes.filter((r) => {
+    if (horaDaRefeicao(r) !== null) return true;
+    // ancorada em evento: só depois de haver atividade registrada
+    return resumo.atividades.length > 0;
+  });
+  if (!candidatas.length) return null;
+
+  // Ancoradas em evento são as mais urgentes: a janela anabólica não espera.
+  const porEvento = candidatas.find((r) => r.janelaAnabolica);
+  if (porEvento) return porEvento;
+
+  const comHora = candidatas
+    .map((r) => ({ r, h: horaDaRefeicao(r) }))
+    .filter((x) => x.h !== null)
+    .sort((a, b) => a.h - b.h);
+  if (!comHora.length) return candidatas[0];
+
+  const aVir = comHora.find((x) => x.h >= agoraH - 0.5);
+  return (aVir || comHora[comHora.length - 1]).r;
+}
+
+/**
+ * A única coisa que o app precisa dizer ao abrir: o que fazer agora. Devolve
+ * `{ tipo, titulo, texto, rota, acao }` — a tela Hoje só renderiza.
+ *
+ * A ordem é de urgência real, não de importância abstrata: o que tem prazo
+ * (janela anabólica, combustível) vem antes do que pode esperar.
+ */
+export function proximaAcao(dados, dia, jan) {
+  const agora = new Date();
+  const h = agora.getHours() + agora.getMinutes() / 60;
+
+  // 1. Janela anabólica aberta — prazo de 30 min.
+  const anabolica = dia.pendentes.find((x) => x.janelaAnabolica);
+  if (dia.atividades.length && anabolica) {
+    return {
+      tipo: 'refeicao',
+      urgencia: 'critico',
+      titulo: anabolica.nome,
+      texto: `${anabolica.itens} — janela de 30 min depois da atividade.`,
+      rota: '#/comer',
+      acao: 'Registrar agora'
+    };
+  }
+
+  // 2. Refeição da hora.
+  const prox = proximaRefeicao(dia, h);
+  if (prox) {
+    const hr = horaDaRefeicao(prox);
+    const atrasada = hr !== null && h > hr + 1;
+    return {
+      tipo: 'refeicao',
+      urgencia: atrasada ? 'atencao' : 'info',
+      titulo: `${prox.nome}${hr !== null ? ` · ${prox.hora}` : ''}`,
+      texto: atrasada ? `${prox.itens} — passou da hora.` : prox.itens,
+      rota: '#/comer',
+      acao: 'Ver e registrar'
+    };
+  }
+
+  // 3. Nada pendente para comer: sobra o treino.
+  if (!dia.sessoes.length && jan.proxima.escolhida) {
+    const s = jan.proxima.escolhida.sessao;
+    return {
+      tipo: 'treino',
+      urgencia: 'info',
+      titulo: `Treino ${s.id} — ${s.nome}`,
+      texto: `${s.foco.join(' · ')} · ~${s.duracaoMin} min.`,
+      rota: '#/treinar',
+      acao: 'Abrir a série'
+    };
+  }
+
+  // 4. Dia cumprido.
+  return {
+    tipo: 'ok',
+    urgencia: 'ok',
+    titulo: 'Dia fechado',
+    texto: dia.sessoes.length
+      ? 'Refeições marcadas e treino registrado. Nada pendente.'
+      : 'Todas as refeições do cardápio já foram marcadas.',
+    rota: '#/comer',
+    acao: 'Revisar o dia'
+  };
+}
+
 /* ===================== tipo de dia derivado ===================== */
 
 /**

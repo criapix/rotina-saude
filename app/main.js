@@ -8,6 +8,9 @@ import { Store, Registro, montarIndiceBusca, buscar } from './store.js';
 import { h, icone, carregando, realcar, toast, aviso } from './ui.js';
 
 import * as vHoje from './views/hoje.js';
+import * as vComer from './views/comer.js';
+import * as vTreinar from './views/treinar.js';
+import * as vConsultar from './views/consultar.js';
 import * as vSemana from './views/semana.js';
 import * as vTreino from './views/treino.js';
 import * as vPedal from './views/pedal.js';
@@ -17,13 +20,21 @@ import * as vMais from './views/mais.js';
 
 /* ===================== definição das seções ===================== */
 
+// `principal` = aba inferior. São quatro, e correspondem aos momentos de uso:
+// decidir o que fazer agora (Hoje), comer, treinar/pedalar e consultar o resto.
+// Tudo mais é alcançado por Consultar, pela busca ou por link direto.
 const SECOES = [
   { id: 'hoje', nome: 'Hoje', icone: 'hoje', cor: 'var(--c-hoje)', principal: true, render: vHoje.render },
-  { id: 'semana', nome: 'Semana', icone: 'historico', cor: 'var(--c-hoje)', principal: true, render: vSemana.render },
-  { id: 'treino', nome: 'Treino', icone: 'treino', cor: 'var(--c-treino)', principal: true, render: vTreino.render },
-  { id: 'pedal', nome: 'Pedal', icone: 'pedal', cor: 'var(--c-pedal)', render: vPedal.render },
-  { id: 'nutricao', nome: 'Nutrição', icone: 'nutricao', cor: 'var(--c-nutricao)', principal: true, render: vNutricao.render },
-  { id: 'saude', nome: 'Saúde', icone: 'saude', cor: 'var(--c-saude)', principal: true, render: vSaude.render },
+  { id: 'comer', nome: 'Comer', icone: 'nutricao', cor: 'var(--c-nutricao)', principal: true, render: vComer.render },
+  { id: 'treinar', nome: 'Treinar', icone: 'treino', cor: 'var(--c-treino)', principal: true, render: vTreinar.render },
+  { id: 'consultar', nome: 'Consultar', icone: 'lista', cor: 'var(--c-geral)', principal: true, render: vConsultar.render },
+
+  // Referência, alcançada por Consultar.
+  { id: 'nutricao', nome: 'Nutrição', icone: 'nutricao', cor: 'var(--c-nutricao)', render: vNutricao.render },
+  { id: 'treino', nome: 'Série de musculação', icone: 'treino', cor: 'var(--c-treino)', render: vTreino.render },
+  { id: 'pedal', nome: 'Ciclismo', icone: 'pedal', cor: 'var(--c-pedal)', render: vPedal.render },
+  { id: 'semana', nome: 'Últimos 7 dias', icone: 'historico', cor: 'var(--c-hoje)', render: vSemana.render },
+  { id: 'saude', nome: 'Saúde', icone: 'saude', cor: 'var(--c-saude)', render: vSaude.render },
   { id: 'dermatologia', nome: 'Dermatologia', icone: 'derma', cor: 'var(--c-derma)', render: vMais.dermatologia },
   { id: 'historico', nome: 'Histórico', icone: 'historico', cor: 'var(--c-geral)', render: vMais.historico },
   { id: 'pareceres', nome: 'Pareceres', icone: 'parecer', cor: 'var(--c-geral)', render: vMais.pareceres },
@@ -92,11 +103,11 @@ function montarNavegacao() {
   // coluna lateral (desktop)
   el.rail.replaceChildren(
     h('div.rail-grupo', null,
-      h('p.rail-titulo', { texto: 'Rotina' }),
-      ...SECOES.filter((s) => s.principal).map(itemRail)
+      h('p.rail-titulo', { texto: 'Operar' }),
+      ...SECOES.filter((s) => s.principal && s.id !== 'consultar').map(itemRail)
     ),
     h('div.rail-grupo', null,
-      h('p.rail-titulo', { texto: 'Registros' }),
+      h('p.rail-titulo', { texto: 'Consultar' }),
       ...SECOES.filter((s) => !s.principal && s.id !== 'editor').map(itemRail)
     ),
     h('div.rail-grupo', null,
@@ -151,10 +162,9 @@ function menuMais() {
   );
 
   abrirSheet(h('div', null,
-    h('p.sheet-titulo', { texto: 'Registros' }),
-    h('div.pilha-2', null, SECOES.filter((s) => !s.principal && s.id !== 'editor').map(item)),
     h('p.sheet-titulo', { texto: 'Dados' }),
     h('div.pilha-2', null,
+      item(porId('consultar')),
       item(porId('editor')),
       h('button.nav-card', {
         type: 'button', estilo: { '--accent': 'var(--c-critico)' },
