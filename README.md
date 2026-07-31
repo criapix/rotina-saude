@@ -67,8 +67,9 @@ busca e checklists.
 
 Não há programação fixa por dia da semana. Você registra o que fez e o app recalcula.
 
-**O que se registra** (aba Hoje): `Pedalei`, `Malhei` (escolhendo a série) e `Fiz rolo` —
-mais de uma execução por dia é aceita. As refeições do plano são marcadas uma a uma.
+**O que se registra** (aba Hoje): `Pedalei` e `Malhei` (escolhendo a série) — mais de uma
+execução por dia é aceita. As refeições do plano são marcadas uma a uma, ou
+[personalizadas](#personalizar-refeições) com o que você realmente comeu.
 
 **O que se registra, em detalhe.** Cada execução leva **duração** e, no pedal, um **perfil de
 intensidade**; o gasto estimado aparece no botão antes de gravar e continua editável depois
@@ -94,7 +95,7 @@ marcação, então mudar o tipo do dia depois não reescreve o que já foi comid
 
 **Ajuste semanal — janela móvel de 7 dias** (aba Semana). A cada dia o app olha os 7 dias
 anteriores, em vez de uma semana de calendário: treinar no domingo conta e não existe virada
-que zera o progresso. Metas da janela: 4 academias, 3 pedais, 2 rolos. Mostra o que falta,
+que zera o progresso. Metas da janela: 4 academias e 3 pedais. Mostra o que falta,
 o que sai da janela nos próximos dias, o volume por grupo muscular comparado ao alvo semanal
 da série, e a próxima sessão sugerida.
 
@@ -158,7 +159,6 @@ implícita em quatro degraus.
 | Pedal · Z2 (padrão) | 650 kcal/h | 2h | meio-termo — ver divergência abaixo |
 | Pedal · forte | curva `1h=1000 · 2h=1800 · 3h=2500 · 4h=3200`, +700 kcal/h acima | — | informado pelo usuário |
 | Pedal · leve | 500 kcal/h | — | recuperação ativa |
-| Rolo (sweet spot) | 700 kcal/h | 35 min | **estimado**, não medido |
 
 O perfil *forte* usa interpolação linear entre os pontos da curva e extrapola pela taxa
 marginal final — a taxa por hora cai com a duração, como acontece na prática.
@@ -227,6 +227,46 @@ recalcule as porções e reescreva os totais do tipo de dia com a soma das refei
 
 ⚠️ As porções são estimativa para acompanhamento, não medição. Os totais diários são
 do plano; o rateio por refeição foi calculado a partir das quantidades dos alimentos.
+
+## Personalizar refeições
+
+O cardápio é uma sugestão, não um contrato. Cada refeição tem duas ações:
+
+- **marcar** (toque na linha) — comeu como no plano, entram os macros planejados;
+- **personalizar** (ícone de lápis) — abre o compositor com a composição do plano já carregada;
+  você troca, tira e ajusta as quantidades, e o que entra na conta do dia são os macros do que
+  foi montado.
+
+Há também **Registrar outra refeição**, para o que não está no cardápio. Essas aparecem numa
+seção *Fora do cardápio* e contam no total do dia sem mexer nas pendências do plano.
+
+O compositor mostra os macros recalculando a cada mudança e, quando é uma refeição do plano,
+a **diferença em relação ao planejado** — com alerta quando falta mais de 10 g de proteína ou
+sobra mais de 10 g de gordura, que são os dois macros fixos do dia.
+
+### Tabela de alimentos
+
+`nutricao.alimentos` traz 45 alimentos com a composição por 100 g, agrupados por
+carboidrato / proteína / gordura / legume / fruta / bebida / combustível. Cada um tem:
+
+| Campo | Para que serve |
+|---|---|
+| `por100` | `{p, g, c, kcal}` por 100 g — a base de todo cálculo |
+| `porcaoG` | quanto entra ao adicionar o alimento |
+| `passoG` | incremento dos botões `−` / `+` |
+| `unidadeG`, `unidadeNome` | quando o alimento é contável, para exibir "100 g (2 unidades)" |
+| `nota` | ressalva clínica, mostrada como dica (ex.: a gordura do queijo minas padrão) |
+
+Os valores dos alimentos que compõem o cardápio são **os mesmos que geraram as porções**, então
+a tabela e as refeições não divergem. Cada refeição do plano carrega uma `composicao`
+`[{alimentoId, gramas}]`, e há um teste que recalcula os macros de todas as 23 refeições a partir
+dela e compara com os macros gravados — o desvio atual é **0 g**.
+
+Para acrescentar um alimento: adicione a entrada em `nutricao.alimentos.itens` e refaça o build.
+Nada no código conhece nomes de alimentos.
+
+⚠️ A composição por 100 g é a usual (TACO e rótulos). Peso cru × cozido, corte da carne e marca
+do produto mudam o resultado — é estimativa para acompanhamento, não medição.
 
 ## Editar conteúdo
 
@@ -299,8 +339,12 @@ Preservadas como estavam nos documentos originais e sinalizadas na interface —
 5. **Gasto do pedal.** Resolvida em 31/07/2026 adotando 650 kcal/h em Z2, um meio-termo entre
    os 500 kcal/h do plano e os 800–1000 kcal/h relatados; o árbitro foi a estabilidade do peso
    sob os alvos do plano. Detalhes em
-   [Compensação do gasto calórico](#️-divergência-resolvida-sobre-o-gasto-do-pedal). O gasto do
-   rolo (700 kcal/h) é **estimativa**, marcada com `estimado: true` — não foi medida.
+   [Compensação do gasto calórico](#️-divergência-resolvida-sobre-o-gasto-do-pedal).
+6. **Rolo fora do acompanhamento.** Removido em 31/07/2026 a pedido do usuário (a taxa de
+   700 kcal/h era estimativa, não medição). A prescrição de sweet spot de 14/05/2026 continua
+   documentada na aba Pedal → Resistência, marcada como não rastreada, porque era a resposta
+   indicada para a queima de quadríceps em alta intensidade — sem ela, o trabalho de limiar
+   precisa sair do pedal na rua. Para voltar: ver `pedal.plano.roloRemovido.comoVoltar`.
 
 ## ⚠️ Avisos de segurança
 

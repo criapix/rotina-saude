@@ -89,7 +89,7 @@ export function alvoPorGasto(compensacao, gasto) {
 /** Combustível sugerido para uma atividade de pedal, pela duração. */
 export function combustivelDoPedal(atividades, compensacao) {
   const min = atividades
-    .filter((a) => a.tipo === 'pedal' || a.tipo === 'rolo')
+    .filter((a) => a.tipo === 'pedal')
     .reduce((a, at) => a + (at.duracaoMin || 0), 0);
   if (!min) return null;
 
@@ -148,6 +148,66 @@ export function sugerirReforco(compensacao, kcalFaltando) {
     carboG: escolhidos.reduce((a, i) => a + i.porcoes * i.carboG, 0),
     texto: escolhidos.map((i) => `${i.porcoes}× ${i.nome} (${i.medida})`).join(' + ')
   };
+}
+
+/* ===================== composição de refeições ===================== */
+
+/** Índice id -> alimento, para não varrer a tabela a cada item. */
+export function indiceAlimentos(alimentos) {
+  return new Map((alimentos.itens || []).map((a) => [a.id, a]));
+}
+
+/**
+ * Macros de uma composição [{ alimentoId, gramas }]. Arredonda só no fim: somar
+ * valores já arredondados erra vários gramas numa refeição de 6 itens.
+ */
+export function macrosDaComposicao(alimentos, composicao) {
+  const idx = alimentos instanceof Map ? alimentos : indiceAlimentos(alimentos);
+  const t = (composicao || []).reduce((a, x) => {
+    const f = idx.get(x.alimentoId);
+    if (!f) return a;
+    const k = x.gramas / 100;
+    return { p: a.p + f.por100.p * k, g: a.g + f.por100.g * k, c: a.c + f.por100.c * k };
+  }, { p: 0, g: 0, c: 0 });
+  return {
+    p: Math.round(t.p),
+    g: Math.round(t.g),
+    c: Math.round(t.c),
+    kcal: Math.round(t.p * 4 + t.g * 9 + t.c * 4)
+  };
+}
+
+/** Quantidade legível: "100 g (2 unidades)" quando o alimento é contável. */
+export function medidaLegivel(alimento, gramas) {
+  if (!alimento) return `${gramas} g`;
+  if (!alimento.unidadeG) return `${gramas} g`;
+  const n = gramas / alimento.unidadeG;
+  const txt = Number.isInteger(n) ? String(n) : n.toFixed(1).replace('.', ',');
+  return `${gramas} g (${txt} ${pluralizar(alimento.unidadeNome || 'unidade', n)})`;
+}
+
+/**
+ * Plural da medida caseira. Só a primeira palavra flexiona ("2 colheres de
+ * sopa", não "2 colher de sopas"), e palavra terminada em r ganha -es.
+ */
+function pluralizar(nome, n) {
+  if (n === 1) return nome;
+  const [primeira, ...resto] = nome.split(' ');
+  if (primeira.endsWith('s')) return nome;
+  const flexionada = primeira.endsWith('r') ? `${primeira}es` : `${primeira}s`;
+  return [flexionada, ...resto].join(' ');
+}
+
+/** Descrição de uma composição, no mesmo formato dos itens do cardápio. */
+export function descreverComposicao(alimentos, composicao) {
+  const idx = alimentos instanceof Map ? alimentos : indiceAlimentos(alimentos);
+  return (composicao || [])
+    .filter((x) => x.gramas > 0)
+    .map((x) => {
+      const f = idx.get(x.alimentoId);
+      return f ? `${f.nome.toLowerCase()} ${medidaLegivel(f, x.gramas)}` : `${x.alimentoId} ${x.gramas} g`;
+    })
+    .join(' + ');
 }
 
 /* ===================== tipo de dia derivado ===================== */
@@ -488,7 +548,6 @@ export function resumoJanela(dados, registro, ref = new Date()) {
 
   const academias = execucoes.filter((e) => e.tipo === 'academia' && e.sessao);
   const pedais = execucoes.filter((e) => e.tipo === 'pedal');
-  const rolos = execucoes.filter((e) => e.tipo === 'rolo');
 
   const volume = volumePorGrupo(treinos, academias);
 
@@ -512,13 +571,11 @@ export function resumoJanela(dados, registro, ref = new Date()) {
     janelaDias: plano.janelaDias,
     academias,
     pedais,
-    rolos,
     feitasIds: academias.map((a) => a.sessao),
     faltamAcademia: Math.max(0, plano.sessoesPorJanela - academias.length),
     faltamPedal: Math.max(0, pedal.plano.sessoesPorJanela - pedais.length),
     metaAcademia: plano.sessoesPorJanela,
     metaPedal: pedal.plano.sessoesPorJanela,
-    metaRolo: pedal.plano.rolo.minPorJanela,
     volume,
     alvoVolume,
     limites,

@@ -87,7 +87,10 @@ function abaResistencia(pedal) {
         [{ nome: 'Sessão' }, { nome: 'Estrutura' }, { nome: 'Intensidade' }, { nome: 'Cadência' }],
         r.rolo.sessoes.map((s) => [s.nome, s.estrutura, s.intensidade, s.cadencia])
       )),
-      h('div.mt-3', null, aviso({ nivel: 'info', titulo: 'Por que funciona', texto: r.rolo.porQue }))
+      h('div.mt-3', null, aviso({ nivel: 'info', titulo: 'Por que funciona', texto: r.rolo.porQue })),
+      r.rolo.naoRastreado
+        ? h('div.mt-3', null, aviso({ nivel: 'atencao', titulo: 'Fora do acompanhamento', texto: r.rolo.naoRastreado }))
+        : null
     )
   ));
 

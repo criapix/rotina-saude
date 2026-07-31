@@ -86,6 +86,7 @@ const CAMINHOS = {
   estavel: '<path d="M5 12h14"/>',
   foto: '<rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10.5" r="1.8"/><path d="M3 16.5 8 12l4 3.5 3-2.5 5 4"/>',
   check: '<path d="M4 12.5l5 5L20 6.5"/>',
+  lixeira: '<path d="M4 7h16"/><path d="M10 4h4a1 1 0 0 1 1 1v2H9V5a1 1 0 0 1 1-1z"/><path d="M6 7l1 13a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1l1-13"/><path d="M10.5 11v6M13.5 11v6"/>',
   relogio: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/>',
   gota: '<path d="M12 3s5.5 6 5.5 10a5.5 5.5 0 0 1-11 0C6.5 9 12 3 12 3z"/>',
   pilula: '<rect x="2.5" y="8.5" width="19" height="7" rx="3.5" transform="rotate(-45 12 12)"/><path d="M8.5 8.5 15.5 15.5"/>',
