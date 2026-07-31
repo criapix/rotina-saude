@@ -52,12 +52,11 @@ function blocoMetas(jan) {
     h('div.metrica-nota', { texto: nota })
   );
 
-  return h('div.grade.grade-3', null,
+  return h('div.grade.grade-2', null,
     meta('Academia', jan.academias.length, jan.metaAcademia,
       jan.faltamAcademia ? `faltam ${jan.faltamAcademia}` : 'meta batida'),
     meta('Pedal', jan.pedais.length, jan.metaPedal,
-      jan.faltamPedal ? `faltam ${jan.faltamPedal}` : 'meta batida'),
-    meta('Rolo', jan.rolos.length, jan.metaRolo, 'sweet spot')
+      jan.faltamPedal ? `faltam ${jan.faltamPedal}` : 'meta batida')
   );
 }
 
@@ -109,7 +108,7 @@ function blocoPendencia(jan, treinos) {
 
 function blocoLinhaDoTempo(jan, treinos, ctx) {
   const porDia = new Map(jan.dias.map((d) => [d, []]));
-  for (const a of [...jan.academias, ...jan.pedais, ...jan.rolos]) {
+  for (const a of [...jan.academias, ...jan.pedais]) {
     porDia.get(a.data).push(a);
   }
 
@@ -124,7 +123,7 @@ function blocoLinhaDoTempo(jan, treinos, ctx) {
           ? h('span.chip-linha', null, itens.map((a) => {
               const s = a.tipo === 'academia' ? treinos.sessoes.find((x) => x.id === a.sessao) : null;
               return chip(
-                a.tipo === 'academia' ? (s ? `${s.id} — ${s.nome}` : a.sessao) : a.tipo === 'rolo' ? 'Rolo' : 'Pedal',
+                a.tipo === 'academia' ? (s ? `${s.id} — ${s.nome}` : a.sessao) : 'Pedal',
                 a.tipo === 'academia' ? 'accent' : 'atencao',
                 a.tipo === 'academia' ? 'treino' : 'pedal'
               );
@@ -149,7 +148,7 @@ function blocoEnergia(en, banco, comp, treinos) {
         const s = treinos.sessoes.find((x) => x.id === a.sessao);
         return s ? s.id : a.sessao;
       }
-      return a.tipo === 'rolo' ? 'rolo' : 'pedal';
+      return 'pedal';
     });
     return {
       dataset: l.hoje ? { destaque: 'true' } : {},

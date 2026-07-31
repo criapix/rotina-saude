@@ -7,8 +7,9 @@ import {
 } from '../ui.js';
 import {
   resumoDia, resumoJanela, suplementosDoDia,
-  gastoDaAtividade, bancoCalorico, formatarDuracao
+  gastoDaAtividade, bancoCalorico, formatarDuracao, descreverComposicao
 } from '../motor.js';
+import { abrirCompositor } from './compositor.js';
 
 const CORES_MACRO = { p: 'var(--c-nutricao)', g: 'var(--c-atencao)', c: 'var(--c-treino)' };
 
@@ -35,7 +36,7 @@ export async function render(ctx) {
   }
 
   raiz.append(blocoTreinoDoDia(dia, jan, ctx));
-  raiz.append(blocoNutricao(dia, banco, nutricao.compensacao, ctx));
+  raiz.append(blocoNutricao(dia, banco, nutricao, ctx));
   raiz.append(blocoSuplementos(dia, nutricao, ctx));
 
   const infos = dia.orientacoes.filter((x) => x.nivel === 'info');
@@ -66,7 +67,6 @@ function resumoTexto(dia, jan) {
   }
   const partes = dia.sessoes.map((s) => `Treino ${s.id}`);
   if (dia.atividades.some((a) => a.tipo === 'pedal')) partes.push('pedal');
-  if (dia.atividades.some((a) => a.tipo === 'rolo')) partes.push('rolo');
   return `${partes.join(' + ')} · gasto ${dia.gasto} kcal · alvo ${dia.alvo.kcal} kcal · ${dia.consumido.kcal} kcal registradas`;
 }
 
@@ -165,10 +165,6 @@ function blocoRegistro(dia, jan, dados, ctx) {
         botaoAcademia
       )
     ),
-    h('button.btn.btn-fantasma.mt-2', {
-      type: 'button',
-      onClick: () => registrar({ tipo: 'rolo', duracaoMin: dados.pedal.plano.rolo.duracaoMin })
-    }, icone('pedal'), `Fiz rolo (sweet spot) · ≈ ${gastoDaAtividade({ tipo: 'rolo' }, comp)} kcal`),
     feitasHoje
   );
 }
@@ -211,7 +207,7 @@ function linhaAtividade(a, comp, treinos, ctx) {
 function rotuloAtividade(a, treinos) {
   const dur = a.duracaoMin ? ` ${formatarDuracao(a.duracaoMin)}` : '';
   if (a.tipo === 'pedal') return `Pedal ${a.perfil || 'z2'}${dur}`;
-  if (a.tipo === 'rolo') return `Rolo${dur}`;
+  if (a.tipo !== 'academia') return `${a.tipo}${dur}`; // registro antigo de um tipo removido
   const s = treinos.sessoes.find((x) => x.id === a.sessao);
   return s ? `Treino ${s.id}${dur}` : `Treino ${a.sessao}${dur}`;
 }
@@ -290,8 +286,10 @@ function blocoTreinoDoDia(dia, jan, ctx) {
 
 /* ===================== nutrição ===================== */
 
-function blocoNutricao(dia, banco, comp, ctx) {
+function blocoNutricao(dia, banco, nutricao, ctx) {
   const { registro } = ctx;
+  const comp = nutricao.compensacao;
+  const alimentos = nutricao.alimentos;
   const t = dia.tipo;
   const alvo = dia.alvo;
 
@@ -343,22 +341,92 @@ function blocoNutricao(dia, banco, comp, ctx) {
     banco.saldo > 0 ? blocoBanco(banco, comp) : null,
 
     h('h4.mt-4', { texto: `Refeições (${t.refeicoes.length - dia.pendentes.length}/${t.refeicoes.length})` }),
-    h('div.mt-2', null, t.refeicoes.map((r) => {
-      const feita = registro.refeicaoFeita(r.id);
-      return h('button.check-item', {
-        type: 'button', dataset: { feito: String(feita) }, onClick: () => marcar(r)
-      },
-        h('span.check-box', null, icone('check')),
-        h('span.check-texto', null,
-          h('strong', null, `${r.hora} · ${r.nome}`,
-            r.tag ? h('span', null, ' ', chip(r.tag, 'accent')) : null,
-            r.combustivel ? h('span', null, ' ', chip('combustível', 'atencao')) : null),
-          h('span', { texto: r.itens }),
-          h('span.texto-xs', { texto: `~${r.macros.kcal} kcal · P${r.macros.p} G${r.macros.g} C${r.macros.c}` })
-        )
-      );
-    })),
-    h('p.legenda.mt-3', { texto: 'Macros por refeição são estimativa a partir das quantidades do plano, normalizadas para fechar o total do dia.' })
+    h('div.mt-2', null, t.refeicoes.map((r) => linhaRefeicaoDoDia(r, alimentos, ctx))),
+
+    // Refeições que não estão no cardápio do dia (avulsas ou de outro tipo).
+    avulsas(dia, t, alimentos, ctx),
+
+    h('button.btn.btn-fantasma.mt-3', {
+      type: 'button',
+      onClick: () => abrirCompositor({ alimentos, ctx })
+    }, icone('lista'), 'Registrar outra refeição'),
+
+    h('p.legenda.mt-3', { texto: 'Marque para comer como no plano, ou toque no lápis para dizer o que realmente comeu — os macros passam a ser os do que você montou.' })
+  );
+}
+
+/**
+ * Uma refeição do cardápio: marcar como feita (macros do plano) ou personalizar
+ * (macros do que foi montado). Quando personalizada, mostra o que foi comido em
+ * vez do que estava planejado.
+ */
+function linhaRefeicaoDoDia(r, alimentos, ctx) {
+  const { registro } = ctx;
+  const registrada = registro.refeicao(r.id);
+  const feita = Boolean(registrada);
+  const personalizada = Boolean(registrada && registrada.personalizada);
+
+  const itens = personalizada && registrada.composicao
+    ? descreverComposicao(alimentos, registrada.composicao)
+    : r.itens;
+  const m = personalizada ? registrada : r.macros;
+
+  return h('div.linha', null,
+    h('button.check-item.esticar', {
+      type: 'button', dataset: { feito: String(feita) },
+      onClick: () => { registro.alternarRefeicao(r); ctx.recarregar(); }
+    },
+      h('span.check-box', null, icone('check')),
+      h('span.check-texto', null,
+        h('strong', null, `${r.hora} · ${r.nome}`,
+          r.tag ? h('span', null, ' ', chip(r.tag, 'accent')) : null,
+          r.combustivel ? h('span', null, ' ', chip('combustível', 'atencao')) : null,
+          personalizada ? h('span', null, ' ', chip('personalizada', 'info')) : null),
+        h('span', { texto: itens }),
+        h('span.texto-xs', { texto: `${personalizada ? '' : '~'}${m.kcal} kcal · P${m.p} G${m.g} C${m.c}` })
+      )
+    ),
+    h('button.icon-btn', {
+      type: 'button', 'aria-label': `Personalizar ${r.nome}`, title: 'Dizer o que realmente comeu',
+      onClick: () => abrirCompositor({
+        alimentos, refeicao: r, ctx,
+        inicial: personalizada ? registrada.composicao : r.composicao
+      })
+    }, icone('editor'))
+  );
+}
+
+/** Refeições registradas que não fazem parte do cardápio do dia. */
+function avulsas(dia, tipo, alimentos, ctx) {
+  const { registro } = ctx;
+  const doCardapio = new Set(tipo.refeicoes.map((r) => r.id));
+  const extras = (registro.dia().refeicoes || []).filter((r) => !doCardapio.has(r.id));
+  if (!extras.length) return null;
+
+  return h('div.mt-3', null,
+    h('h4', { texto: `Fora do cardápio (${extras.length})` }),
+    h('div.pilha-2.mt-2', null, extras.map((r) => h('div.linha', null,
+      h('div.esticar', null,
+        h('strong.texto-sm', null, r.hora ? `${r.hora} · ${r.nome}` : r.nome),
+        h('div.texto-xs.texto-3', {
+          texto: r.composicao ? descreverComposicao(alimentos, r.composicao) : '—'
+        }),
+        h('div.texto-xs', { texto: `${r.kcal} kcal · P${r.p} G${r.g} C${r.c}` })
+      ),
+      r.composicao
+        ? h('button.icon-btn', {
+            type: 'button', 'aria-label': `Editar ${r.nome}`, title: 'Editar',
+            onClick: () => abrirCompositor({
+              alimentos, ctx,
+              refeicao: { id: r.id, nome: r.nome, hora: r.hora, itens: '', composicao: r.composicao }
+            })
+          }, icone('editor'))
+        : null,
+      h('button.icon-btn', {
+        type: 'button', 'aria-label': `Remover ${r.nome}`, title: 'Remover',
+        onClick: () => { registro.removerRefeicao(r.id); toast('Refeição removida.'); ctx.recarregar(); }
+      }, icone('voltar'))
+    )))
   );
 }
 
@@ -463,7 +531,7 @@ function blocoJanela(jan, ctx) {
       h('h2', null, icone('historico'), ` Últimos ${jan.janelaDias} dias`),
       h('button.btn.btn-fantasma', { type: 'button', onClick: () => ctx.navegar('#/semana') }, 'Detalhes', icone('seta'))
     ),
-    h('div.grade.grade-3', null,
+    h('div.grade.grade-2', null,
       h('div.metrica', { dataset: { nivel: jan.faltamAcademia ? 'atencao' : 'ok' } },
         h('div.metrica-label', { texto: 'Academia' }),
         h('div.metrica-valor', null, h('b', { texto: anelAcad })),
@@ -474,11 +542,6 @@ function blocoJanela(jan, ctx) {
         h('div.metrica-valor', null, h('b', { texto: anelPedal })),
         h('div.metrica-nota', { texto: jan.faltamPedal ? `faltam ${jan.faltamPedal}` : 'meta batida' })
       ),
-      h('div.metrica', null,
-        h('div.metrica-label', { texto: 'Rolo' }),
-        h('div.metrica-valor', null, h('b', { texto: `${jan.rolos.length}/${jan.metaRolo}` })),
-        h('div.metrica-nota', { texto: 'sweet spot' })
-      )
     ),
     jan.alertas.length
       ? h('div.pilha-2.mt-3', null, jan.alertas.map((a) => aviso(a)))

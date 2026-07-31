@@ -346,7 +346,8 @@ async function rotear() {
       store, registro, cofre,
       params,
       navegar,
-      recarregar: rotear
+      recarregar: rotear,
+      abrirSheet, fecharSheet
     });
     if (meu !== tokenRender) return; // navegação mais nova já assumiu
     el.conteudo.replaceChildren(vista);

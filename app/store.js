@@ -110,7 +110,7 @@ export { hojeISO };
  * Um item só (em vez de um por data) permite exportar/importar tudo de uma vez,
  * já que não há servidor para sincronizar.
  *
- * - atividades: [{ id, tipo: 'pedal'|'academia'|'rolo', sessao?, em, ... }]
+ * - atividades: [{ id, tipo: 'pedal'|'academia', sessao?, em, ... }]
  * - refeicoes:  [{ id, nome, em, p, g, c, kcal }] — macros gravados no momento
  *   da marcação, para que mudar o tipo do dia depois não reescreva o passado.
  */
@@ -248,6 +248,44 @@ export class Registro {
     });
     this.#gravar();
     return true;
+  }
+
+  /** A refeição registrada com este id, ou null. */
+  refeicao(id, dataISO = hojeISO()) {
+    return this.dia(dataISO).refeicoes.find((r) => r.id === id) || null;
+  }
+
+  /**
+   * Grava uma refeição com composição própria — seja uma do plano que foi
+   * alterada, seja uma avulsa. Substitui a de mesmo id, se houver, para que
+   * personalizar duas vezes não some duas refeições no dia.
+   *
+   * `composicao` é [{ alimentoId, gramas }]; fica guardada para que a refeição
+   * possa ser reaberta e ajustada depois.
+   */
+  salvarRefeicao({ id, nome, hora, composicao, macros, doPlano }, dataISO = hojeISO()) {
+    const d = this.#diaEditavel(dataISO);
+    const m = macros || { p: 0, g: 0, c: 0, kcal: 0 };
+    const item = {
+      id: id || `livre-${Date.now().toString(36)}${Math.random().toString(36).slice(2, 5)}`,
+      nome,
+      em: new Date().toISOString(),
+      p: m.p, g: m.g, c: m.c, kcal: m.kcal,
+      personalizada: true,
+      ...(hora ? { hora } : {}),
+      ...(doPlano ? { doPlano: true } : {}),
+      ...(composicao ? { composicao } : {})
+    };
+    const i = d.refeicoes.findIndex((r) => r.id === item.id);
+    if (i >= 0) d.refeicoes[i] = item; else d.refeicoes.push(item);
+    this.#gravar();
+    return item;
+  }
+
+  removerRefeicao(id, dataISO = hojeISO()) {
+    const d = this.#diaEditavel(dataISO);
+    d.refeicoes = d.refeicoes.filter((r) => r.id !== id);
+    this.#gravar();
   }
 
   /* ---------------- suplementos ---------------- */
