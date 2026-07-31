@@ -15,3 +15,12 @@ Desktop.ini
 # Conteúdo em texto puro extraído por `node tools/crypto.mjs dump`.
 # NUNCA versionar: o repositório guarda apenas os blobs cifrados em data/.
 /content/
+
+# Memória dos subagentes: texto puro com nome, diagnósticos, antropometria e
+# restrições. Este repositório é PÚBLICO — só os blobs cifrados em data/ podem
+# carregar dado pessoal. O mesmo conteúdo está nos documentos cifrados
+# (perfil, saude, laudos, pareceres, historico), que é onde ele pertence.
+/.claude/agent-memory/
+
+# Permissões locais: carrega caminho e usuário da máquina de quem rodou.
+/.claude/settings.local.json

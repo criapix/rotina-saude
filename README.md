@@ -188,16 +188,17 @@ O documento do pedal assumia ~1000 kcal para 2h de Z2 — 500 kcal/h, ou ~134 W 
 baixo até para Z2. O usuário relatou 1h = 1000 kcal e 4h = 3200 kcal — 800–1000 kcal/h, ou
 ~214–267 W (2,7–3,4 W/kg), desempenho de ciclista treinado e acima de Z2.
 
-O árbitro foi a evidência empírica: nas 10 semanas até 04/04/2026, comendo os alvos do plano,
-o peso variou 0,0 kg (78,8 → 78,8) com **+2,0 kg de massa magra e −1,8 kg de gordura** —
-recomposição em manutenção, não o padrão de quem está em déficit de 800 kcal três vezes por
-semana. Se o gasto fosse o relatado, o peso teria caído.
+O árbitro foi a evidência empírica das últimas 10 semanas de bioimpedância, comendo os alvos do
+plano: peso estável com ganho de massa magra e perda de gordura — recomposição em manutenção,
+não o padrão de quem está em déficit de 800 kcal três vezes por semana. Se o gasto fosse o
+relatado, o peso teria caído. Os números estão em `nutricao.compensacao.divergenciaGasto`, nos
+dados cifrados.
 
 Decisão do usuário (31/07/2026): **650 kcal/h em Z2** e a curva relatada reservada ao perfil
 *forte*. Consequência: um dia de pedal Z2 de 2h passa de 3200 para 3600 kcal de alvo. O
 registro fica em `nutricao.compensacao.divergenciaGasto` e aparece nas abas Semana e Nutrição.
-**Reavaliar na próxima bioimpedância:** se a gordura subir, a taxa está alta; se cair abaixo
-de 11%, está baixa.
+**Reavaliar na próxima bioimpedância:** se o percentual de gordura subir, a taxa está alta; se
+cair abaixo do piso clínico registrado no perfil, está baixa.
 
 ## Cardápio
 
@@ -332,8 +333,8 @@ Preservadas como estavam nos documentos originais e sinalizadas na interface —
    nutricional. As porções de cada refeição foram calculadas para fechar esses totais com os
    alimentos que o usuário aceita. É estimativa, não medição, e está rotulada como tal.
    Consequências registradas em `nutricao.preferencias.consequencias`: com peixe limitado a
-   tilápia e merluza, o ômega-3 passou a depender exclusivamente da cápsula de 3 g/dia — o
-   que pesa porque o HDL está em 43 mg/dL.
+   tilápia e merluza, o ômega-3 passou a depender exclusivamente da cápsula diária — o que pesa
+   dado o resultado de HDL no último painel.
 4. **Prioridade em semana curta** é escolha do usuário, não recomendação clínica — ver a
    ressalva na seção de modo flexível.
 5. **Gasto do pedal.** Resolvida em 31/07/2026 adotando 650 kcal/h em Z2, um meio-termo entre
@@ -347,6 +348,39 @@ Preservadas como estavam nos documentos originais e sinalizadas na interface —
    precisa sair do pedal na rua. Para voltar: ver `pedal.plano.roloRemovido.comoVoltar`.
 
 ## ⚠️ Avisos de segurança
+
+### Limite de exposição: o que pode ficar em claro
+
+O repositório é **público**. A regra é: dado pessoal só existe nos blobs cifrados em `data/`.
+Nem o frontend, nem o README, nem arquivos de ferramenta podem carregar nome, e-mail,
+antropometria, diagnóstico ou resultado laboratorial.
+
+Isso vale para o código também. Os avisos que precisam citar um número clínico guardam uma
+**lacuna** (`{bfPerc}`, `{proteinaFixaG}`) e o valor vem de `nutricao.orientacoes`, nos dados
+cifrados. Quais sessões contam como treino de perna também vem de lá, em vez de uma lista
+`['B','D']` no motor.
+
+Há um teste (`=== 20`) que varre todos os arquivos públicos procurando nome, e-mail,
+percentual de gordura, peso, massa magra, nomes de diagnóstico e resultados laboratoriais.
+Ele falha se algum voltar.
+
+**Faxina de 31/07/2026.** Uma auditoria dos 60 arquivos em claro encontrou:
+
+| O que | Onde | Ação |
+|---|---|---|
+| Nome completo, e-mail, idade, antropometria e diagnósticos ortopédicos detalhados (~80 KB, 28 arquivos) | `.claude/agent-memory/` | removido do versionamento e adicionado ao `.gitignore` — o mesmo conteúdo já vive nos documentos cifrados |
+| Percentual de gordura, meta de proteína e tendão específico | textos de orientação em `app/motor.js` | movidos para `nutricao.orientacoes` |
+| Peso, ganho de massa magra, perda de gordura, HDL | `README.md` | trocados pelo raciocínio, com ponteiro para os dados cifrados |
+| Caminho e usuário da máquina local | `.claude/settings.local.json` | removido do versionamento |
+
+⚠️ **O histórico não foi reescrito.** Os commits anteriores a 31/07/2026 seguem contendo esses
+arquivos, e as mensagens de commit e descrições de PR de #30 a #34 citam números clínicos.
+Remover isso de verdade exige `git filter-repo`/BFG e force-push — e mesmo assim os blobs
+antigos continuam acessíveis pela API do GitHub até um pedido de purga ao suporte, além de
+persistirem em qualquer fork ou clone existente. Tornar o repositório privado é a única medida
+que fecha a exposição imediatamente.
+
+### Outros pontos
 
 - A senha em uso é curta. Como o ciphertext é **baixável publicamente**, ela é vulnerável a
   **força bruta offline** por um atacante dedicado. Protege contra olhares casuais,
