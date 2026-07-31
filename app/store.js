@@ -194,6 +194,23 @@ export class Registro {
     return item;
   }
 
+  /**
+   * Corrige uma atividade já registrada (duração, perfil de intensidade ou o
+   * gasto medido pelo ciclocomputador). Passar `kcal: null` volta para a
+   * estimativa. Devolve a atividade atualizada, ou null se o id não existir.
+   */
+  atualizarAtividade(id, campos, dataISO = hojeISO()) {
+    const d = this.#diaEditavel(dataISO);
+    const a = d.atividades.find((x) => x.id === id);
+    if (!a) return null;
+    for (const [k, v] of Object.entries(campos)) {
+      if (v === null || v === undefined || v === '') delete a[k];
+      else a[k] = v;
+    }
+    this.#gravar();
+    return a;
+  }
+
   removerAtividade(id, dataISO = hojeISO()) {
     const d = this.#diaEditavel(dataISO);
     d.atividades = d.atividades.filter((a) => a.id !== id);

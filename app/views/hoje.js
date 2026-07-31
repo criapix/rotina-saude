@@ -3,9 +3,12 @@
 
 import {
   h, icone, cabecalhoPagina, aviso, chip, card, cartaoNavegacao,
-  barraMacro, dataLonga, secao, toast, nb
+  barraMacro, dataLonga, dataCurta, secao, toast, nb
 } from '../ui.js';
-import { resumoDia, resumoJanela, suplementosDoDia } from '../motor.js';
+import {
+  resumoDia, resumoJanela, suplementosDoDia,
+  gastoDaAtividade, bancoCalorico, formatarDuracao
+} from '../motor.js';
 
 const CORES_MACRO = { p: 'var(--c-nutricao)', g: 'var(--c-atencao)', c: 'var(--c-treino)' };
 
@@ -16,6 +19,7 @@ export async function render(ctx) {
 
   const dia = resumoDia(dados, registro);
   const jan = resumoJanela(dados, registro);
+  const banco = bancoCalorico(dados, registro);
 
   const raiz = h('div');
   raiz.append(cabecalhoPagina({
@@ -31,7 +35,7 @@ export async function render(ctx) {
   }
 
   raiz.append(blocoTreinoDoDia(dia, jan, ctx));
-  raiz.append(blocoNutricao(dia, ctx));
+  raiz.append(blocoNutricao(dia, banco, nutricao.compensacao, ctx));
   raiz.append(blocoSuplementos(dia, nutricao, ctx));
 
   const infos = dia.orientacoes.filter((x) => x.nivel === 'info');
@@ -63,14 +67,19 @@ function resumoTexto(dia, jan) {
   const partes = dia.sessoes.map((s) => `Treino ${s.id}`);
   if (dia.atividades.some((a) => a.tipo === 'pedal')) partes.push('pedal');
   if (dia.atividades.some((a) => a.tipo === 'rolo')) partes.push('rolo');
-  return `${partes.join(' + ')} · alvo ${dia.tipo.kcal} kcal · ${dia.consumido.kcal} kcal registradas`;
+  return `${partes.join(' + ')} · gasto ${dia.gasto} kcal · alvo ${dia.alvo.kcal} kcal · ${dia.consumido.kcal} kcal registradas`;
 }
 
 /* ===================== registro de atividades ===================== */
 
+const DURACOES_PEDAL = [45, 60, 90, 120, 150, 180, 210, 240, 300];
+const DURACOES_ACADEMIA = [45, 60, 75, 90, 105];
+
 function blocoRegistro(dia, jan, dados, ctx) {
   const { registro } = ctx;
-  const { treinos } = dados;
+  const { treinos, nutricao } = dados;
+  const comp = nutricao.compensacao;
+  const defPedal = comp.atividades.find((a) => a.id === 'pedal');
 
   const registrar = (atividade) => {
     registro.registrarAtividade(atividade);
@@ -80,63 +89,131 @@ function blocoRegistro(dia, jan, dados, ctx) {
   const pedalFeito = dia.atividades.some((a) => a.tipo === 'pedal');
   const sugerida = jan.proxima.escolhida;
 
-  const botaoPedal = h('button.btn.btn-bloco', {
+  /* --- pedal: perfil + duração, com o gasto estimado ao vivo --- */
+  const selPerfil = h('select', { 'aria-label': 'Intensidade do pedal' },
+    defPedal.perfis.map((p) => h('option', { value: p.id, selected: Boolean(p.padrao) }, p.nome))
+  );
+  const selDurPedal = h('select', { 'aria-label': 'Duração do pedal' },
+    DURACOES_PEDAL.map((m) => h('option', {
+      value: String(m), selected: m === defPedal.duracaoPadraoMin
+    }, formatarDuracao(m)))
+  );
+  const previaPedal = h('b.num');
+  const atualizarPrevia = () => {
+    const kcal = gastoDaAtividade(
+      { tipo: 'pedal', perfil: selPerfil.value, duracaoMin: Number(selDurPedal.value) }, comp);
+    previaPedal.textContent = `≈ ${kcal} kcal`;
+  };
+  selPerfil.addEventListener('change', atualizarPrevia);
+  selDurPedal.addEventListener('change', atualizarPrevia);
+  atualizarPrevia();
+
+  const botaoPedal = h('button.btn.btn-bloco.btn-primario', {
     type: 'button',
-    class: 'btn btn-bloco ' + (pedalFeito ? 'btn-secundario' : 'btn-primario'),
-    estilo: pedalFeito ? {} : { background: 'var(--c-pedal)' },
-    onClick: () => registrar({ tipo: 'pedal', duracaoMin: dados.pedal.plano.duracaoMin, zona: dados.pedal.plano.zona })
+    estilo: { background: 'var(--c-pedal)' },
+    onClick: () => registrar({
+      tipo: 'pedal',
+      perfil: selPerfil.value,
+      duracaoMin: Number(selDurPedal.value),
+      zona: dados.pedal.plano.zona
+    })
   }, icone('pedal'), pedalFeito ? 'Registrar outro pedal' : 'Pedalei');
 
+  /* --- academia: série + duração --- */
   const seletorSessao = h('select', { 'aria-label': 'Qual série' },
     treinos.sessoes.map((s) => h('option', {
       value: s.id,
       selected: sugerida && sugerida.sessao.id === s.id
     }, `${s.id} — ${s.nome}`))
   );
+  const selDurAcad = h('select', { 'aria-label': 'Duração do treino' },
+    DURACOES_ACADEMIA.map((m) => h('option', {
+      value: String(m),
+      selected: m === comp.atividades.find((a) => a.id === 'academia').duracaoPadraoMin
+    }, formatarDuracao(m)))
+  );
 
-  const botaoAcademia = h('button.btn.btn-primario', {
+  const botaoAcademia = h('button.btn.btn-bloco.btn-primario', {
     type: 'button',
     estilo: { background: 'var(--c-treino)' },
-    onClick: () => registrar({ tipo: 'academia', sessao: seletorSessao.value })
+    onClick: () => registrar({
+      tipo: 'academia', sessao: seletorSessao.value, duracaoMin: Number(selDurAcad.value)
+    })
   }, icone('treino'), 'Malhei');
 
   const feitasHoje = dia.atividades.length
-    ? h('div.mt-3', null,
-        h('p.legenda', { texto: 'Registrado hoje:' }),
-        h('div.pilha-2.mt-2', null, dia.atividades.map((a) => h('div.linha', null,
-          chip(rotuloAtividade(a, treinos), a.tipo === 'pedal' ? 'atencao' : 'accent',
-            a.tipo === 'pedal' ? 'pedal' : a.tipo === 'rolo' ? 'pedal' : 'treino'),
-          h('span.esticar'),
-          h('button.icon-btn', {
-            type: 'button', 'aria-label': 'Desfazer este registro', title: 'Desfazer',
-            onClick: () => { registro.removerAtividade(a.id); toast('Registro desfeito.'); ctx.recarregar(); }
-          }, icone('voltar'))
-        )))
+    ? h('div.mt-4', null,
+        h('p.legenda', { texto: 'Registrado hoje — toque no gasto para corrigir pelo ciclocomputador:' }),
+        h('div.pilha-2.mt-2', null, dia.atividades.map((a) => linhaAtividade(a, comp, treinos, ctx)))
       )
     : null;
 
   return h('div.card', { estilo: { '--accent': 'var(--c-hoje)' } },
     h('h2.card-titulo', null, icone('lista'), ' O que você fez hoje?'),
-    h('p.legenda', { texto: 'Registre a cada execução — as orientações abaixo se ajustam ao que entrar aqui.' }),
+    h('p.legenda', { texto: 'Registre a cada execução com a duração — o alvo do dia é a base de descanso mais o gasto do que entrar aqui.' }),
+
     h('div.grade.grade-2.mt-3', null,
-      botaoPedal,
-      h('div', null,
-        h('div.linha', null, h('span.esticar', null, seletorSessao), botaoAcademia)
+      h('div.pilha-2', null,
+        h('div.linha', null, h('span.esticar', null, selPerfil)),
+        h('div.linha', null, h('span.esticar', null, selDurPedal), previaPedal),
+        botaoPedal
+      ),
+      h('div.pilha-2', null,
+        h('div.linha', null, h('span.esticar', null, seletorSessao)),
+        h('div.linha', null, h('span.esticar', null, selDurAcad),
+          h('b.num', { texto: `≈ ${gastoDaAtividade({ tipo: 'academia' }, comp)} kcal` })),
+        botaoAcademia
       )
     ),
     h('button.btn.btn-fantasma.mt-2', {
       type: 'button',
       onClick: () => registrar({ tipo: 'rolo', duracaoMin: dados.pedal.plano.rolo.duracaoMin })
-    }, icone('pedal'), 'Fiz rolo (sweet spot)'),
+    }, icone('pedal'), `Fiz rolo (sweet spot) · ≈ ${gastoDaAtividade({ tipo: 'rolo' }, comp)} kcal`),
     feitasHoje
   );
 }
 
+/**
+ * Uma atividade registrada, com o gasto que ela gerou. O gasto é um campo
+ * editável: se o ciclocomputador deu outro número, ele substitui a estimativa.
+ */
+function linhaAtividade(a, comp, treinos, ctx) {
+  const { registro } = ctx;
+  const kcal = gastoDaAtividade(a, comp);
+  const medido = Number.isFinite(a.kcal);
+
+  const entrada = h('input', {
+    type: 'number', min: '0', step: '10', value: String(kcal),
+    'aria-label': 'Gasto em kcal',
+    estilo: { width: '6.5rem', textAlign: 'right' },
+    onChange: (e) => {
+      const v = Number(e.target.value);
+      registro.atualizarAtividade(a.id, { kcal: Number.isFinite(v) && v > 0 ? Math.round(v) : null });
+      toast(Number.isFinite(v) && v > 0 ? 'Gasto corrigido.' : 'Voltou para a estimativa.');
+      ctx.recarregar();
+    }
+  });
+
+  return h('div.linha', null,
+    chip(rotuloAtividade(a, treinos), a.tipo === 'academia' ? 'accent' : 'atencao',
+      a.tipo === 'academia' ? 'treino' : 'pedal'),
+    h('span.esticar'),
+    medido ? chip('medido', 'ok') : null,
+    entrada,
+    h('span.texto-xs.texto-3', { texto: 'kcal' }),
+    h('button.icon-btn', {
+      type: 'button', 'aria-label': 'Desfazer este registro', title: 'Desfazer',
+      onClick: () => { registro.removerAtividade(a.id); toast('Registro desfeito.'); ctx.recarregar(); }
+    }, icone('voltar'))
+  );
+}
+
 function rotuloAtividade(a, treinos) {
-  if (a.tipo === 'pedal') return `Pedal ${a.zona || ''} ${a.duracaoMin ? a.duracaoMin + ' min' : ''}`.trim();
-  if (a.tipo === 'rolo') return `Rolo ${a.duracaoMin ? a.duracaoMin + ' min' : ''}`.trim();
+  const dur = a.duracaoMin ? ` ${formatarDuracao(a.duracaoMin)}` : '';
+  if (a.tipo === 'pedal') return `Pedal ${a.perfil || 'z2'}${dur}`;
+  if (a.tipo === 'rolo') return `Rolo${dur}`;
   const s = treinos.sessoes.find((x) => x.id === a.sessao);
-  return s ? `Treino ${s.id} — ${s.nome}` : `Treino ${a.sessao}`;
+  return s ? `Treino ${s.id}${dur}` : `Treino ${a.sessao}${dur}`;
 }
 
 /* ===================== treino ===================== */
@@ -213,9 +290,10 @@ function blocoTreinoDoDia(dia, jan, ctx) {
 
 /* ===================== nutrição ===================== */
 
-function blocoNutricao(dia, ctx) {
+function blocoNutricao(dia, banco, comp, ctx) {
   const { registro } = ctx;
   const t = dia.tipo;
+  const alvo = dia.alvo;
 
   const marcar = (r) => { registro.alternarRefeicao(r); ctx.recarregar(); };
 
@@ -231,7 +309,7 @@ function blocoNutricao(dia, ctx) {
     h('div.linha', null,
       h('span.nav-card-icone', null, icone('nutricao')),
       h('div.esticar', null,
-        h('h3', { texto: `${t.nome} · alvo ${t.kcal} kcal` }),
+        h('h3', { texto: `${t.nome} · alvo ${alvo.kcal} kcal` }),
         h('p.legenda', {
           texto: dia.provisorio
             ? 'Alvo provisório de descanso — sobe se você registrar uma atividade.'
@@ -243,11 +321,14 @@ function blocoNutricao(dia, ctx) {
       }, icone('seta'))
     ),
 
+    // De onde vem o número: base de um dia parado + o gasto registrado.
+    blocoContaDoAlvo(dia, comp),
+
     h('div.mt-3', null,
-      barraMacro('Calorias', dia.consumido.kcal, t.kcal, ` / ${t.kcal}`, 'var(--c-nutricao)'),
-      barraMacro('Proteína', dia.consumido.p, t.proteinaG, ` / ${t.proteinaG} g`, CORES_MACRO.p),
-      barraMacro('Gordura', dia.consumido.g, t.gorduraG, ` / ${t.gorduraG} g`, CORES_MACRO.g),
-      barraMacro('Carboidrato', dia.consumido.c, t.carboG, ` / ${t.carboG} g`, CORES_MACRO.c)
+      barraMacro('Calorias', dia.consumido.kcal, alvo.kcal, ` / ${alvo.kcal}`, 'var(--c-nutricao)'),
+      barraMacro('Proteína', dia.consumido.p, alvo.p, ` / ${alvo.p} g`, CORES_MACRO.p),
+      barraMacro('Gordura', dia.consumido.g, alvo.g, ` / ${alvo.g} g`, CORES_MACRO.g),
+      barraMacro('Carboidrato', dia.consumido.c, alvo.c, ` / ${alvo.c} g`, CORES_MACRO.c)
     ),
 
     h('h4.mt-4', { texto: 'Falta ingerir' }),
@@ -256,6 +337,10 @@ function blocoNutricao(dia, ctx) {
       linhaRestante('Proteína', dia.restante.p, ' g'),
       linhaRestante('Carboidrato', dia.restante.c, ' g')
     ),
+
+    // O reforço do cardápio e o corte pelo teto já saem em dia.orientacoes,
+    // renderizadas no topo da página — aqui só o banco, que o motor não avisa.
+    banco.saldo > 0 ? blocoBanco(banco, comp) : null,
 
     h('h4.mt-4', { texto: `Refeições (${t.refeicoes.length - dia.pendentes.length}/${t.refeicoes.length})` }),
     h('div.mt-2', null, t.refeicoes.map((r) => {
@@ -274,6 +359,51 @@ function blocoNutricao(dia, ctx) {
       );
     })),
     h('p.legenda.mt-3', { texto: 'Macros por refeição são estimativa a partir das quantidades do plano, normalizadas para fechar o total do dia.' })
+  );
+}
+
+/**
+ * A conta que produziu o alvo. Sem isso o número aparece do nada e não dá para
+ * conferir contra o ciclocomputador.
+ */
+function blocoContaDoAlvo(dia, comp) {
+  const d = dia.derivado;
+  const parcela = (rotulo, valor, cor) => h('div.metrica', { estilo: cor ? { '--accent': cor } : {} },
+    h('div.metrica-label', { texto: rotulo }),
+    h('div.metrica-valor', null, h('b.num', { texto: String(valor) })),
+    h('div.metrica-nota', { texto: 'kcal' })
+  );
+
+  return h('div.mt-3', null,
+    h('div.grade.grade-3', null,
+      parcela('Base (dia parado)', comp.baseKcal),
+      parcela('Gasto registrado', d.gasto, 'var(--c-pedal)'),
+      parcela(d.noTeto ? `Alvo (teto ${comp.tetoKcalDia})` : 'Alvo de hoje', d.kcal, 'var(--c-nutricao)')
+    ),
+    h('p.legenda.mt-2', {
+      texto: `Proteína (${comp.proteinaFixaG} g) e gordura (${comp.gorduraFixaG} g) são fixas — todo o gasto vira carboidrato: ${comp.baseCarboG} g de base + ${Math.round((d.kcal - comp.baseKcal) / 4)} g do gasto.`
+    })
+  );
+}
+
+/** Saldo a repor nos próximos dias, quando o teto cortou parte do gasto. */
+function blocoBanco(banco, comp) {
+  return h('div.card.mt-3', { estilo: { '--accent': 'var(--c-atencao)' } },
+    h('div.linha', null,
+      h('span.nav-card-icone', null, icone('historico')),
+      h('div.esticar', null,
+        h('h4', { texto: `${banco.titulo}: ${banco.saldo} kcal a repor` }),
+        h('p.legenda', { texto: `Gerado ${banco.gerado} kcal · já reposto ${banco.reposto} kcal · janela de ${banco.janelaDias} dias.` })
+      )
+    ),
+    h('p.legenda.mt-2', { texto: banco.descricao }),
+    banco.detalhe.length
+      ? h('div.chip-linha.mt-2', null, banco.detalhe.map((x) => chip(
+          `${dataCurta(x.data)}: gasto ${x.gasto}${x.cortado ? ` · ${x.cortado} pendentes` : ''}${x.acimaDoAlvo ? ` · ${x.acimaDoAlvo} repostas` : ''}`,
+          x.cortado > x.acimaDoAlvo ? 'atencao' : 'ok'
+        )))
+      : null,
+    h('p.legenda.mt-2', { texto: comp.banco.nota })
   );
 }
 

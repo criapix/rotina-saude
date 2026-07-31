@@ -4,7 +4,7 @@ import {
   h, icone, cabecalhoPagina, aviso, chip, card, cardTitulado, segmentos,
   tabela, lista, definicoes, secao, barraMacro, dataBR
 } from '../ui.js';
-import { resumoDia } from '../motor.js';
+import { resumoDia, alvoPorGasto, gastoDaAtividade, formatarDuracao } from '../motor.js';
 
 const CORES = { p: 'var(--c-nutricao)', g: 'var(--c-atencao)', c: 'var(--c-treino)' };
 
@@ -21,6 +21,7 @@ export async function render(ctx) {
 
   const abas = [
     ...nutricao.tiposDia.map((t) => ({ id: t.id, nome: t.nome })),
+    { id: 'compensacao', nome: 'Compensação' },
     { id: 'suplementos', nome: 'Suplementos' },
     { id: 'estrategias', nome: 'Estratégias' },
     { id: 'metas', nome: 'Metas' }
@@ -40,7 +41,8 @@ export async function render(ctx) {
   raiz.append(h('div.mt-3'));
   raiz.append(segmentos(abas, sub, (id) => ctx.navegar(`#/nutricao/${id}`)));
 
-  if (sub === 'suplementos') raiz.append(abaSuplementos(nutricao, ctx));
+  if (sub === 'compensacao') raiz.append(abaCompensacao(nutricao, dia));
+  else if (sub === 'suplementos') raiz.append(abaSuplementos(nutricao, ctx));
   else if (sub === 'estrategias') raiz.append(abaEstrategias(nutricao));
   else if (sub === 'metas') raiz.append(abaMetas(nutricao));
   else raiz.append(abaTipoDia(nutricao.tiposDia.find((t) => t.id === sub), nutricao, dia));
@@ -67,7 +69,15 @@ function abaTipoDia(tipo, nutricao, dia) {
       barraMacro('Gordura', tipo.gorduraG, 100, ' g', CORES.g),
       barraMacro('Carboidrato', tipo.carboG, 560, ' g', CORES.c)
     ),
-    tipo.nota && h('p.legenda.mt-3', { texto: tipo.nota })
+    tipo.nota && h('p.legenda.mt-3', { texto: tipo.nota }),
+    tipo.notaAlvo && h('p.legenda.mt-2', { texto: tipo.notaAlvo }),
+    ehHoje && dia.alvo.kcal !== tipo.kcal
+      ? h('div.mt-3', null, aviso({
+          nivel: 'info',
+          titulo: `Hoje o alvo é ${dia.alvo.kcal} kcal, não ${tipo.kcal}`,
+          texto: `Este cardápio é o molde do tipo de dia. O alvo real vem do gasto registrado (${dia.gasto} kcal) — veja a aba Compensação.`
+        }))
+      : null
   ));
 
   const refeicoes = tipo.refeicoes.filter((r) => !r.combustivel);
@@ -145,6 +155,165 @@ function linhaRefeicao(r) {
         : null
     )
   );
+}
+
+/* ===================== compensação do gasto ===================== */
+
+// Durações de referência para a tabela de simulação — cobre de um treino curto
+// a um pedal de 5h.
+const SIMULACOES = [60, 90, 120, 180, 240, 300];
+
+function abaCompensacao(nutricao, dia) {
+  const c = nutricao.compensacao;
+  const frag = h('div');
+
+  frag.append(h('div.card', { estilo: { '--accent': 'var(--c-nutricao)' } },
+    h('h2', { texto: c.titulo }),
+    h('p.legenda.mt-2', { texto: `Definido em ${dataBR(c.definidoEm)}` }),
+    h('p.texto-2.mt-3', { texto: c.descricao }),
+    h('p.texto-2.mt-3', null, h('strong', { texto: 'Regra: ' }), c.regra),
+    h('div.grade.grade-2.mt-3', null,
+      h('div.metrica', null,
+        h('div.metrica-label', { texto: 'Base (dia parado)' }),
+        h('div.metrica-valor', null, h('b.num', { texto: String(c.baseKcal) })),
+        h('div.metrica-nota', { texto: `${c.baseCarboG} g de carboidrato` })
+      ),
+      h('div.metrica', { dataset: { nivel: 'atencao' } },
+        h('div.metrica-label', { texto: 'Teto do dia' }),
+        h('div.metrica-valor', null, h('b.num', { texto: String(c.tetoKcalDia) })),
+        h('div.metrica-nota', { texto: 'acima disso vai para o banco' })
+      )
+    ),
+    h('p.legenda.mt-3', { texto: c.notaTeto }),
+    h('div.mt-3', null, definicoes([
+      ['Proteína', `${c.proteinaFixaG} g`, 'fixa — não muda com o gasto'],
+      ['Gordura', `${c.gorduraFixaG} g`, 'fixa — não muda com o gasto'],
+      ['Carboidrato', `${c.baseCarboG} g + gasto/4`, 'absorve todo o excedente calórico']
+    ]))
+  ));
+
+  // Hoje, na prática.
+  frag.append(secao('Como está hoje',
+    card(
+      h('div.grade.grade-3', null,
+        h('div.metrica', null,
+          h('div.metrica-label', { texto: 'Gasto registrado' }),
+          h('div.metrica-valor', null, h('b.num', { texto: String(dia.gasto) })),
+          h('div.metrica-nota', { texto: dia.provisorio ? 'nada registrado' : 'kcal' })
+        ),
+        h('div.metrica', null,
+          h('div.metrica-label', { texto: 'Alvo derivado' }),
+          h('div.metrica-valor', null, h('b.num', { texto: String(dia.alvo.kcal) })),
+          h('div.metrica-nota', { texto: `${dia.alvo.c} g de carboidrato` })
+        ),
+        h('div.metrica', { dataset: { nivel: dia.derivado.noTeto ? 'atencao' : 'ok' } },
+          h('div.metrica-label', { texto: 'Cortado pelo teto' }),
+          h('div.metrica-valor', null, h('b.num', { texto: String(dia.derivado.cortadoPeloTeto) })),
+          h('div.metrica-nota', { texto: dia.derivado.noTeto ? 'vai para o banco' : 'nada pendente' })
+        )
+      )
+    )
+  ));
+
+  // Taxas por atividade.
+  const linhasAtividade = [];
+  for (const a of c.atividades) {
+    if (a.perfis) {
+      for (const p of a.perfis) {
+        linhasAtividade.push({
+          dataset: p.padrao ? { destaque: 'true' } : {},
+          celulas: [
+            h('span', null, a.nome, h('small.texto-3', { texto: ` · ${p.nome}` })),
+            p.kcalPorHora ? `${p.kcalPorHora} kcal/h` : 'curva por duração',
+            formatarDuracao(a.duracaoPadraoMin),
+            p.nota || (p.curvaMin ? p.curvaMin.map(([m, k]) => `${formatarDuracao(m)} = ${k}`).join(' · ') : '')
+          ]
+        });
+      }
+    } else {
+      linhasAtividade.push({
+        celulas: [
+          h('span', null, a.nome, a.estimado ? h('span', null, ' ', chip('estimado', 'atencao')) : null),
+          `${a.kcalPorHora} kcal/h`,
+          formatarDuracao(a.duracaoPadraoMin),
+          a.fonte || ''
+        ]
+      });
+    }
+  }
+
+  frag.append(secao('Taxas por atividade',
+    tabela(
+      [{ nome: 'Atividade' }, { nome: 'Taxa' }, { nome: 'Padrão' }, { nome: 'Origem' }],
+      linhasAtividade
+    ),
+    h('p.legenda.mt-2', { texto: 'Toda estimativa é editável no registro em Hoje — o valor do ciclocomputador substitui a taxa.' })
+  ));
+
+  // O que cada duração vira de alvo.
+  const perfisPedal = c.atividades.find((a) => a.id === 'pedal').perfis;
+  frag.append(secao('Quanto comer para cada pedal',
+    tabela(
+      [{ nome: 'Duração' }, ...perfisPedal.map((p) => ({ nome: p.id, classe: 'num' })), { nome: 'Alvo (Z2)', classe: 'num' }],
+      SIMULACOES.map((min) => {
+        const gastoZ2 = gastoDaAtividade({ tipo: 'pedal', duracaoMin: min }, c);
+        const a = alvoPorGasto(c, gastoZ2);
+        return {
+          celulas: [
+            formatarDuracao(min),
+            ...perfisPedal.map((p) => gastoDaAtividade({ tipo: 'pedal', perfil: p.id, duracaoMin: min }, c)),
+            h('span', null, `${a.kcal} kcal`,
+              a.noTeto ? h('small.texto-3', { texto: ` · ${a.cortadoPeloTeto} no banco` }) : null)
+          ]
+        };
+      })
+    ),
+    h('p.legenda.mt-2', { texto: 'Gasto em kcal por perfil de intensidade. A última coluna é o alvo do dia se o pedal for em Z2 e não houver outra atividade.' })
+  ));
+
+  // Combustível durante.
+  const ia = c.intraAtividade;
+  frag.append(secao(ia.titulo,
+    card(
+      h('p.texto-2', { texto: ia.descricao }),
+      h('p.texto-2.mt-3', null, h('strong', { texto: `Alvo: ${ia.alvoCarboPorHora[0]}–${ia.alvoCarboPorHora[1]} g de carboidrato por hora. ` }), ia.porHora),
+      h('div.mt-3', null, tabela(
+        [{ nome: 'Item' }, { nome: 'Medida' }, { nome: 'CHO', classe: 'num' }, { nome: 'kcal', classe: 'num' }],
+        ia.itens.map((i) => [i.nome, i.medida, `${i.carboG} g`, i.kcal])
+      )),
+      h('div.mt-3', null, aviso({ nivel: 'critico', titulo: 'Por que não dá para pular', texto: ia.alerta }))
+    )
+  ));
+
+  // Banco calórico.
+  frag.append(secao(c.banco.titulo,
+    card(
+      h('p.texto-2', { texto: c.banco.descricao }),
+      h('p.texto-2.mt-3', null, h('strong', { texto: 'Fórmula: ' }), c.banco.formula),
+      h('p.legenda.mt-3', { texto: c.banco.nota })
+    )
+  ));
+
+  // Reforços.
+  frag.append(secao(c.reforcos.titulo,
+    tabela(
+      [{ nome: 'Item' }, { nome: 'Porção' }, { nome: 'CHO', classe: 'num' }, { nome: 'kcal', classe: 'num' }],
+      c.reforcos.itens.map((i) => [i.nome, i.medida, `${i.carboG} g`, i.kcal])
+    ),
+    h('p.legenda.mt-2', { texto: c.reforcos.descricao })
+  ));
+
+  // Divergência registrada.
+  const dv = c.divergenciaGasto;
+  frag.append(secao(dv.titulo,
+    h('div.card', { estilo: { '--accent': 'var(--c-atencao)' } },
+      h('p.legenda', { texto: `Resolvida em ${dataBR(dv.resolvidoEm)}` }),
+      h('p.texto-2.mt-3', { texto: dv.texto }),
+      h('div.mt-3', null, aviso({ nivel: 'atencao', titulo: 'Consequência', texto: dv.consequencia }))
+    )
+  ));
+
+  return frag;
 }
 
 /* ===================== suplementos ===================== */

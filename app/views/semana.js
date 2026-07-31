@@ -5,7 +5,7 @@ import {
   h, icone, cabecalhoPagina, aviso, chip, card, cardTitulado, tabela, lista,
   secao, dataBR, dataCurta, toast
 } from '../ui.js';
-import { resumoJanela, diasEntre } from '../motor.js';
+import { resumoJanela, resumoEnergetico, bancoCalorico, diasEntre } from '../motor.js';
 import { barrasHorizontais } from '../charts.js';
 
 export async function render(ctx) {
@@ -13,6 +13,8 @@ export async function render(ctx) {
   const [perfil, treinos, nutricao, pedal] = await store.docs('perfil', 'treinos', 'nutricao', 'pedal');
   const dados = { perfil, treinos, nutricao, pedal };
   const jan = resumoJanela(dados, registro);
+  const energia = resumoEnergetico(dados, registro);
+  const banco = bancoCalorico(dados, registro);
 
   const raiz = h('div');
   raiz.append(cabecalhoPagina({
@@ -29,6 +31,7 @@ export async function render(ctx) {
 
   raiz.append(blocoPendencia(jan, treinos));
   raiz.append(blocoLinhaDoTempo(jan, treinos, ctx));
+  raiz.append(blocoEnergia(energia, banco, nutricao.compensacao, treinos));
   raiz.append(blocoVolume(jan));
   raiz.append(blocoLimites(jan));
   raiz.append(blocoProxima(jan));
@@ -134,6 +137,92 @@ function blocoLinhaDoTempo(jan, treinos, ctx) {
   return secao('Dia a dia',
     tabela([{ nome: 'Data' }, { nome: 'Registrado' }], linhas)
   );
+}
+
+/* ===================== balanço energético ===================== */
+
+function blocoEnergia(en, banco, comp, treinos) {
+  const linhas = en.linhas.slice().reverse().map((l) => {
+    const dist = diasEntre(l.data, en.hoje);
+    const nomes = l.atividades.map((a) => {
+      if (a.tipo === 'academia') {
+        const s = treinos.sessoes.find((x) => x.id === a.sessao);
+        return s ? s.id : a.sessao;
+      }
+      return a.tipo === 'rolo' ? 'rolo' : 'pedal';
+    });
+    return {
+      dataset: l.hoje ? { destaque: 'true' } : {},
+      celulas: [
+        h('span', null, dataCurta(l.data),
+          h('small.texto-3', { texto: dist === 0 ? ' · hoje' : ` · há ${dist}d` }),
+          nomes.length ? h('small.texto-3', { texto: ' · ' + nomes.join('+') }) : null),
+        l.gasto || h('span.texto-3', { texto: '—' }),
+        l.registrou ? l.alvo : h('span.texto-3', { texto: '—' }),
+        l.consumido || h('span.texto-3', { texto: '—' }),
+        l.registrou
+          ? h('span', {
+              estilo: { color: Math.abs(l.saldo) <= 200 ? 'var(--c-ok)' : l.saldo < 0 ? 'var(--c-atencao)' : 'var(--c-info)' },
+              texto: `${l.saldo > 0 ? '+' : ''}${l.saldo}`
+            })
+          : h('span.texto-3', { texto: 'sem registro' })
+      ]
+    };
+  });
+
+  const balanco = en.saldo;
+
+  return secao(`Gasto e compensação (${en.janelaDias} dias)`,
+    h('div.grade.grade-3', null,
+      h('div.metrica', { estilo: { '--accent': 'var(--c-pedal)' } },
+        h('div.metrica-label', { texto: 'Gasto na janela' }),
+        h('div.metrica-valor', null, h('b.num', { texto: String(en.gasto) })),
+        h('div.metrica-nota', { texto: en.mediaGasto ? `~${en.mediaGasto} kcal/dia ativo` : 'kcal' })
+      ),
+      h('div.metrica', { estilo: { '--accent': 'var(--c-nutricao)' } },
+        h('div.metrica-label', { texto: 'Alvo × consumido' }),
+        h('div.metrica-valor', null, h('b.num', { texto: `${en.consumido}/${en.alvo}` })),
+        h('div.metrica-nota', { texto: 'kcal, só dias com registro' })
+      ),
+      h('div.metrica', { dataset: { nivel: Math.abs(balanco) <= 500 ? 'ok' : 'atencao' } },
+        h('div.metrica-label', { texto: 'Balanço' }),
+        h('div.metrica-valor', null, h('b.num', { texto: `${balanco > 0 ? '+' : ''}${balanco}` })),
+        h('div.metrica-nota', { texto: balanco < 0 ? 'abaixo do alvo' : 'acima do alvo' })
+      )
+    ),
+
+    banco.saldo > 0
+      ? h('div.mt-3', null, aviso({
+          nivel: 'atencao',
+          titulo: `${banco.titulo}: ${banco.saldo} kcal a repor`,
+          texto: `${banco.gerado} kcal ficaram acima do teto de ${comp.tetoKcalDia} nos últimos ${banco.janelaDias} dias e ${banco.reposto} já foram repostas. ${comp.banco.nota}`
+        }))
+      : null,
+
+    h('div.mt-3', null, tabela(
+      [{ nome: 'Dia' }, { nome: 'Gasto', classe: 'num' }, { nome: 'Alvo', classe: 'num' },
+       { nome: 'Comido', classe: 'num' }, { nome: 'Saldo', classe: 'num' }],
+      linhas
+    )),
+    h('p.legenda.mt-2', { texto: comp.regra }),
+    h('p.legenda.mt-2', {
+      texto: `Taxas usadas: ${comp.atividades.map(taxaTexto).join(' · ')}. O valor de cada registro é editável em Hoje.`
+    }),
+    comp.divergenciaGasto
+      ? h('div.mt-3', null, aviso({
+          nivel: comp.divergenciaGasto.nivel,
+          titulo: comp.divergenciaGasto.titulo,
+          texto: `${comp.divergenciaGasto.texto} ${comp.divergenciaGasto.consequencia}`
+        }))
+      : null
+  );
+}
+
+function taxaTexto(a) {
+  if (a.perfis) {
+    return `${a.nome} ${a.perfis.map((p) => p.kcalPorHora ? `${p.id} ${p.kcalPorHora} kcal/h` : `${p.id} pela curva`).join(', ')}`;
+  }
+  return `${a.nome} ${a.kcalPorHora} kcal/h${a.estimado ? ' (estimado)' : ''}`;
 }
 
 /* ===================== volume por grupo ===================== */

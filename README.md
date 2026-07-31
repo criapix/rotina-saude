@@ -70,14 +70,21 @@ Não há programação fixa por dia da semana. Você registra o que fez e o app 
 **O que se registra** (aba Hoje): `Pedalei`, `Malhei` (escolhendo a série) e `Fiz rolo` —
 mais de uma execução por dia é aceita. As refeições do plano são marcadas uma a uma.
 
-**Ajuste diário.** O tipo de dia deixa de vir do calendário e passa a vir do registro:
+**O que se registra, em detalhe.** Cada execução leva **duração** e, no pedal, um **perfil de
+intensidade**; o gasto estimado aparece no botão antes de gravar e continua editável depois
+(o valor do ciclocomputador substitui a estimativa). O tipo de dia deixa de vir do calendário
+e passa a vir do registro:
 
-| Registrado | Tipo de dia | Alvo |
+| Registrado | Tipo de dia | Molde de cardápio |
 |---|---|---|
-| pedal + academia | duplo | 3500 kcal |
-| só pedal | pedal | 3200 kcal |
-| só academia | academia | 2700 kcal |
-| nada | descanso | 2300 kcal (provisório) |
+| pedal + academia | duplo | 3483 kcal |
+| só pedal | pedal | 3302 kcal |
+| só academia | academia | 2706 kcal |
+| nada | descanso | 2332 kcal (provisório) |
+
+O **alvo do dia**, porém, não é mais esse degrau fixo — vem do gasto registrado (ver
+[Compensação do gasto calórico](#compensação-do-gasto-calórico)). O tipo de dia continua
+servindo como molde de cardápio, e o app diz o que somar quando o alvo passa do molde.
 
 A partir daí o app mostra quanto falta de caloria, proteína e carboidrato; quais refeições
 estão pendentes; e só os suplementos aplicáveis (whey e caseína em dia de treino, colágeno
@@ -128,27 +135,95 @@ e não tem servidor, então **não há sincronização entre aparelhos**: use *E
 *Importar* na aba Semana para levar o histórico de um dispositivo a outro ou fazer backup —
 limpar os dados do site apaga o registro.
 
+## Compensação do gasto calórico
+
+O alvo do dia é **base + gasto**, não um degrau fixo:
+
+```
+alvo   = baseKcal (2300) + gasto            , limitado ao teto de 4000 kcal/dia
+proteína = 170 g   (fixa)
+gordura  =  80 g   (fixa)
+carbo    = 236 g + gastoAceito / 4          — todo o excedente vira carboidrato
+```
+
+Proteína e gordura não se movem porque não é o gasto que as define; o carboidrato absorve
+tudo. É a mesma regra que os quatro tipos de dia do plano já seguiam — só deixou de estar
+implícita em quatro degraus.
+
+**Taxas por atividade** (`nutricao.compensacao.atividades`, nada disso está no código):
+
+| Atividade | Taxa | Padrão | Origem |
+|---|---|---|---|
+| Musculação | 350 kcal/h | 1h15 | informado pelo usuário |
+| Pedal · Z2 (padrão) | 650 kcal/h | 2h | meio-termo — ver divergência abaixo |
+| Pedal · forte | curva `1h=1000 · 2h=1800 · 3h=2500 · 4h=3200`, +700 kcal/h acima | — | informado pelo usuário |
+| Pedal · leve | 500 kcal/h | — | recuperação ativa |
+| Rolo (sweet spot) | 700 kcal/h | 35 min | **estimado**, não medido |
+
+O perfil *forte* usa interpolação linear entre os pontos da curva e extrapola pela taxa
+marginal final — a taxa por hora cai com a duração, como acontece na prática.
+
+**Teto de 4000 kcal/dia.** Um pedal forte de 4h pediria 5500 kcal, o que ninguém come. O que
+não couber no teto vai para o **banco calórico** (`compensacao.banco`): saldo a repor nos
+3 dias seguintes, que é a janela real de ressíntese de glicogênio. Comer acima do alvo num dia
+abate o saldo. Só entra no banco o que o *teto cortou* — o que você simplesmente deixou de
+comer aparece como déficit do dia, não como saldo.
+
+**Combustível durante a atividade** (`compensacao.intraAtividade`): gel, bala de goma e
+isotônico, dimensionados pela duração para 60–70 g de carboidrato por hora. Em pedal longo
+isso responde por um terço a metade do gasto e não compete com as refeições.
+
+**Reforço** (`compensacao.reforcos`): quando o alvo passa do molde do cardápio, o app escolhe
+itens que já estão no seu cardápio (arroz, batata, macarrão, tapioca, pão, banana, aveia, mel)
+para fechar a diferença.
+
+Onde ver: **Hoje** mostra a conta (base · gasto · alvo), o combustível, o reforço e o banco;
+**Semana** mostra gasto/alvo/comido/saldo dia a dia e o balanço da janela; **Nutrição →
+Compensação** é a referência completa, com uma tabela de quanto comer para cada duração de
+pedal.
+
+### ⚠️ Divergência resolvida sobre o gasto do pedal
+
+O documento do pedal assumia ~1000 kcal para 2h de Z2 — 500 kcal/h, ou ~134 W (1,7 W/kg),
+baixo até para Z2. O usuário relatou 1h = 1000 kcal e 4h = 3200 kcal — 800–1000 kcal/h, ou
+~214–267 W (2,7–3,4 W/kg), desempenho de ciclista treinado e acima de Z2.
+
+O árbitro foi a evidência empírica: nas 10 semanas até 04/04/2026, comendo os alvos do plano,
+o peso variou 0,0 kg (78,8 → 78,8) com **+2,0 kg de massa magra e −1,8 kg de gordura** —
+recomposição em manutenção, não o padrão de quem está em déficit de 800 kcal três vezes por
+semana. Se o gasto fosse o relatado, o peso teria caído.
+
+Decisão do usuário (31/07/2026): **650 kcal/h em Z2** e a curva relatada reservada ao perfil
+*forte*. Consequência: um dia de pedal Z2 de 2h passa de 3200 para 3600 kcal de alvo. O
+registro fica em `nutricao.compensacao.divergenciaGasto` e aparece nas abas Semana e Nutrição.
+**Reavaliar na próxima bioimpedância:** se a gordura subir, a taxa está alta; se cair abaixo
+de 11%, está baixa.
+
 ## Cardápio
 
 As refeições não são genéricas: foram montadas a partir das preferências do usuário,
 registradas em `nutricao.preferencias`. São **5 refeições** — 4 grandes (café, almoço,
-lanche, jantar) + 1 após a atividade — mais os itens de *combustível* (maltodextrina
-durante o pedal, tâmaras no minuto 45), que são marcados com `combustivel: true` e não
-contam como refeição.
+lanche, jantar) + 1 após a atividade — mais os itens de *combustível* (gel + isotônico +
+bala de goma durante o pedal, tâmaras no minuto 45), que são marcados com `combustivel: true`
+e não contam como refeição. O item intra-pedal do cardápio está dimensionado para 2h; em Hoje
+o app recalcula pela duração efetivamente registrada.
 
 Cada refeição traz `hora`, `itens` (com as porções em gramas), `macros` e `trocas`
 equivalentes. As porções foram resolvidas por iteração para fechar o total de cada tipo
 de dia — a proteína e o carbo-base de cada refeição são dimensionados para atingir a
 fração-alvo do dia, considerando que arroz, pão e batata também trazem proteína. Desvio
-máximo por dia: 2 g de proteína, 4 g de gordura, 13 g de carboidrato.
+máximo em relação ao alvo original do plano (guardado em `tiposDia[].alvoPlano`): 4 g de
+proteína, 4 g de gordura, 27 g de carboidrato. Os campos `kcal`/`proteinaG`/`gorduraG`/
+`carboG` de cada tipo de dia são a **soma exata** das refeições — é esse número que o motor
+usa para calcular o reforço.
 
 Duas refeições são marcadas semanticamente para o motor, em vez de por id:
 `janelaAnabolica: true` (dispara o alerta de pós-atividade) e `regraDoRelogio: true`
 (intra-treino no minuto 45). Renomear a refeição não quebra a regra.
 
-**Para remontar o cardápio** depois de mudar o gosto: atualize `nutricao.preferencias`
-e recalcule as porções — os totais por tipo de dia (que vêm do plano da nutricionista)
-são a restrição, não as porções.
+**Para remontar o cardápio** depois de mudar o gosto: atualize `nutricao.preferencias`,
+recalcule as porções e reescreva os totais do tipo de dia com a soma das refeições —
+`alvoPlano` (que vem do plano da nutricionista) é a referência a não perder de vista.
 
 ⚠️ As porções são estimativa para acompanhamento, não medição. Os totais diários são
 do plano; o rateio por refeição foi calculado a partir das quantidades dos alimentos.
@@ -221,6 +296,11 @@ Preservadas como estavam nos documentos originais e sinalizadas na interface —
    que pesa porque o HDL está em 43 mg/dL.
 4. **Prioridade em semana curta** é escolha do usuário, não recomendação clínica — ver a
    ressalva na seção de modo flexível.
+5. **Gasto do pedal.** Resolvida em 31/07/2026 adotando 650 kcal/h em Z2, um meio-termo entre
+   os 500 kcal/h do plano e os 800–1000 kcal/h relatados; o árbitro foi a estabilidade do peso
+   sob os alvos do plano. Detalhes em
+   [Compensação do gasto calórico](#️-divergência-resolvida-sobre-o-gasto-do-pedal). O gasto do
+   rolo (700 kcal/h) é **estimativa**, marcada com `estimado: true` — não foi medida.
 
 ## ⚠️ Avisos de segurança
 
