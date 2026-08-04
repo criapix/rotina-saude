@@ -131,7 +131,7 @@ e passa a vir do registro:
 |---|---|---|
 | pedal + academia | duplo | 3483 kcal |
 | só pedal | pedal | 3302 kcal |
-| só academia | academia | 2706 kcal |
+| só academia | academia | 2781 kcal |
 | nada | descanso | 2332 kcal (provisório) |
 
 O **alvo do dia**, porém, não é mais esse degrau fixo — vem do gasto registrado (ver
@@ -228,7 +228,10 @@ abate o saldo. Só entra no banco o que o *teto cortou* — o que você simplesm
 comer aparece como déficit do dia, não como saldo.
 
 **Combustível durante a atividade** (`compensacao.intraAtividade`): gel, bala de goma e
-isotônico, dimensionados pela duração para 60–70 g de carboidrato por hora. Em pedal longo
+isotônico, dimensionados pela duração para 60–70 g de carboidrato por hora. `trocas` lista as
+substituições equivalentes (2 tâmaras no lugar de 1 pacote de bala, por exemplo) — são
+documentadas, não calculadas: o motor dimensiona os três itens e a troca mantém o carbo por
+hora. Em pedal longo
 isso responde por um terço a metade do gasto e não compete com as refeições.
 
 **Reforço** (`compensacao.reforcos`): quando o alvo passa do molde do cardápio, o app escolhe
@@ -264,8 +267,8 @@ cair abaixo do piso clínico registrado no perfil, está baixa.
 As refeições não são genéricas: foram montadas a partir das preferências do usuário,
 registradas em `nutricao.preferencias`. São **5 refeições** — 4 grandes (café, almoço,
 lanche, jantar) + 1 após a atividade — mais os itens de *combustível* (gel + isotônico +
-bala de goma durante o pedal, tâmaras no minuto 45), que são marcados com `combustivel: true`
-e não contam como refeição. O item intra-pedal do cardápio está dimensionado para 2h; em Hoje
+bala de goma durante o pedal, 2 tâmaras no minuto 45 do treino), que são marcados com
+`combustivel: true` e não contam como refeição. O item intra-pedal do cardápio está dimensionado para 2h; em Hoje
 o app recalcula pela duração efetivamente registrada.
 
 Cada refeição traz `hora`, `itens` (com as porções em gramas), `macros` e `trocas`
@@ -326,6 +329,13 @@ dela e compara com os macros gravados — o desvio atual é **0 g**.
 
 Para acrescentar um alimento: adicione a entrada em `nutricao.alimentos.itens` e refaça o build.
 Nada no código conhece nomes de alimentos.
+
+**Cuidado com `unidadeG`.** É o campo que mais facilmente introduz erro silencioso: ele define
+quantos gramas vale "1 unidade", e um chute errado muda a dose sem mudar nada visível. Foi o
+que aconteceu com a tâmara — a tabela assumiu 8 g por unidade (tâmara pequena) enquanto o plano
+prescreve 2 unidades para ~30 g de carboidrato, o que só fecha com Medjool de ~20 g. O cardápio
+entregava 12 g em vez de 30 g no intra-treino. Corrigido em 01/08/2026, com um teste (`=== 21`)
+que compara a dose do cardápio com a faixa que o plano prescreve, em vez de confiar no número.
 
 ⚠️ A composição por 100 g é a usual (TACO e rótulos). Peso cru × cozido, corte da carne e marca
 do produto mudam o resultado — é estimativa para acompanhamento, não medição.
@@ -402,7 +412,11 @@ Preservadas como estavam nos documentos originais e sinalizadas na interface —
    os 500 kcal/h do plano e os 800–1000 kcal/h relatados; o árbitro foi a estabilidade do peso
    sob os alvos do plano. Detalhes em
    [Compensação do gasto calórico](#️-divergência-resolvida-sobre-o-gasto-do-pedal).
-6. **Rolo fora do acompanhamento.** Removido em 31/07/2026 a pedido do usuário (a taxa de
+6. **Dose de tâmara do intra-treino.** Corrigida em 01/08/2026 — ver
+   [Tabela de alimentos](#tabela-de-alimentos). O carboidrato do dia de academia subiu de 323
+   para 341 g como consequência, o que é coerente: carboidrato é o macro flexível, proteína e
+   gordura não se movem.
+7. **Rolo fora do acompanhamento.** Removido em 31/07/2026 a pedido do usuário (a taxa de
    700 kcal/h era estimativa, não medição). A prescrição de sweet spot de 14/05/2026 continua
    documentada na aba Pedal → Resistência, marcada como não rastreada, porque era a resposta
    indicada para a queima de quadríceps em alta intensidade — sem ela, o trabalho de limiar
