@@ -331,11 +331,17 @@ Para acrescentar um alimento: adicione a entrada em `nutricao.alimentos.itens` e
 Nada no código conhece nomes de alimentos.
 
 **Cuidado com `unidadeG`.** É o campo que mais facilmente introduz erro silencioso: ele define
-quantos gramas vale "1 unidade", e um chute errado muda a dose sem mudar nada visível. Foi o
-que aconteceu com a tâmara — a tabela assumiu 8 g por unidade (tâmara pequena) enquanto o plano
-prescreve 2 unidades para ~30 g de carboidrato, o que só fecha com Medjool de ~20 g. O cardápio
-entregava 12 g em vez de 30 g no intra-treino. Corrigido em 01/08/2026, com um teste (`=== 21`)
-que compara a dose do cardápio com a faixa que o plano prescreve, em vez de confiar no número.
+quantos gramas vale "1 unidade", e um chute errado muda a dose sem mudar nada visível.
+
+A tâmara passou por isso duas vezes, em direções opostas. Em 01/08/2026 a tabela dizia 8 g por
+unidade mas a refeição usava a contagem do plano (2 unidades), entregando 16 g — 12 g de carbo
+em vez dos 30 g prescritos. Em 04/08/2026, com o tamanho real confirmado (~8 g, tâmara pequena),
+a dose em gramas foi mantida e a **contagem** corrigida para 5 unidades.
+
+A lição está no dado: **o alvo clínico é o carboidrato em gramas; a contagem em unidades depende
+do tamanho do alimento e não é a prescrição.** O teste (`=== 21`) verifica os dois lados —
+que a refeição cai na faixa de carbo que o plano prescreve, e que `contagem × unidadeG` bate com
+os gramas do cardápio.
 
 ⚠️ A composição por 100 g é a usual (TACO e rótulos). Peso cru × cozido, corte da carne e marca
 do produto mudam o resultado — é estimativa para acompanhamento, não medição.
