@@ -281,6 +281,12 @@ function abaCompensacao(nutricao, dia) {
         [{ nome: 'Item' }, { nome: 'Medida' }, { nome: 'CHO', classe: 'num' }, { nome: 'kcal', classe: 'num' }],
         ia.itens.map((i) => [i.nome, i.medida, `${i.carboG} g`, i.kcal])
       )),
+      ia.trocas && ia.trocas.length
+        ? h('div.mt-3', null,
+            h('h4', { texto: 'Trocas' }),
+            lista(ia.trocas)
+          )
+        : null,
       h('div.mt-3', null, aviso({ nivel: 'critico', titulo: 'Por que não dá para pular', texto: ia.alerta }))
     )
   ));
