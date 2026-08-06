@@ -189,10 +189,57 @@ avisando quando os inferiores passam 7 dias sem estímulo. Para inverter, troque
 ### Onde o registro fica guardado
 
 No `localStorage` do navegador, em `rs.registro`, com 180 dias de retenção. O app é estático
-e não tem servidor, então **não há sincronização entre aparelhos**: use *Exportar registro* /
-*Importar* em Consultar → Últimos 7 dias para levar o histórico de um aparelho a outro ou
-fazer backup —
-limpar os dados do site apaga o registro.
+e não tem servidor, então **não há sincronização entre aparelhos** — e limpar os dados do site
+apaga o registro. É por isso que existe a tela de backup.
+
+## Backup
+
+**Consultar → Backup.** Um arquivo com tudo: o registro (o único dado insubstituível, porque
+só existe no aparelho), os 11 documentos e a preferência de tema.
+
+O arquivo é **cifrado com a senha do app**. O envelope fica em claro — dá para ver o que é, de
+quando é e quantos dias carrega sem digitar a senha — e só o conteúdo é cifrado:
+
+```json
+{
+  "app": "rotina-saude", "formato": 2,
+  "geradoEm": "2026-08-06T13:35:00.000Z",
+  "resumo": { "dias": 42, "documentos": 11 },
+  "cifrado": { "iv": "…", "ct": "…" }
+}
+```
+
+Isso significa que o backup pode ir para qualquer nuvem sem expor nada — e que **sem a senha
+ele não abre, nem por você**.
+
+Três caminhos, na ordem de confiabilidade:
+
+| Caminho | Precisa de | Onde funciona |
+|---|---|---|
+| **Baixar** | nada | sempre |
+| **Compartilhar** | nada | celular — abre a folha do sistema, um toque até o Drive |
+| **Google Drive** | um client ID OAuth seu | depois de configurado |
+
+Na importação, por padrão os dias do arquivo entram por cima dos existentes e o resto é
+preservado; há uma caixa para *substituir tudo*. Os documentos voltam **só para a sessão**: o
+app serve os documentos de `data/`, então para fixar é preciso baixá-los cifrados em
+Consultar → Editar dados e fazer commit. A tela diz isso quando restaura documentos.
+
+### Google Drive
+
+Fluxo de token do Google Identity Services, direto do navegador — não há servidor para guardar
+segredo, então também não há client secret envolvido. O escopo é **`drive.file`**: o app só
+enxerga os arquivos que ele mesmo criou, nunca o resto do Drive. O token dura ~1 hora e vive só
+na memória da aba.
+
+Para ativar, crie um client ID OAuth de aplicação web na sua conta Google e coloque em
+`perfil.integracoes.googleDrive.clientId`. O passo a passo está no próprio documento e aparece
+na tela enquanto o campo estiver vazio. Client ID de aplicação web é público por definição.
+
+⚠️ **O fluxo OAuth não foi testado de ponta a ponta** — exige um client ID real e um popup de
+consentimento do Google, que não existem no ambiente onde o código foi escrito. Exportar,
+compartilhar e importar foram testados no navegador, incluindo a recusa de um arquivo cifrado
+com outra senha.
 
 ## Compensação do gasto calórico
 
