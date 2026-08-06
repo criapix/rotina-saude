@@ -3,7 +3,7 @@
 
 import {
   h, icone, cabecalhoPagina, aviso, chip, card, cardTitulado, tabela, lista,
-  secao, dataBR, dataCurta, toast
+  secao, dataBR, dataCurta
 } from '../ui.js';
 import { resumoJanela, resumoEnergetico, bancoCalorico, diasEntre } from '../motor.js';
 import { barrasHorizontais } from '../charts.js';
@@ -326,48 +326,19 @@ function blocoReferencia(perfil, treinos) {
   );
 }
 
-/* ===================== exportar / importar ===================== */
+/* ===================== ponteiro para o backup ===================== */
 
+// Exportar/importar mora numa tela só, em Consultar → Backup. Duas portas para
+// a mesma coisa foi o que fez o usuário não achar o que procurava antes.
 function blocoDados(registro, ctx) {
-  const entrada = h('input', { type: 'file', accept: 'application/json', estilo: { display: 'none' } });
-
-  entrada.addEventListener('change', async () => {
-    const arq = entrada.files && entrada.files[0];
-    if (!arq) return;
-    try {
-      const n = registro.importar(await arq.text());
-      toast(`${n} dia${n === 1 ? '' : 's'} importado${n === 1 ? '' : 's'}.`);
-      ctx.recarregar();
-    } catch (e) {
-      toast('Não foi possível importar: ' + ((e && e.message) || e));
-    } finally {
-      entrada.value = '';
-    }
-  });
-
-  const exportar = () => {
-    const blob = new Blob([registro.exportar()], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = `registro-rotina-${new Date().toISOString().slice(0, 10)}.json`;
-    document.body.append(a);
-    a.click();
-    a.remove();
-    setTimeout(() => URL.revokeObjectURL(url), 1000);
-    toast('Registro exportado.');
-  };
-
   return secao('Seus registros',
     card(
       h('p.texto-2', {
-        texto: `${registro.totalDias()} dia(s) registrado(s) neste dispositivo. Como o app é estático e não tem servidor, o registro fica no navegador — exporte de vez em quando para não perder ao limpar os dados do site ou trocar de aparelho.`
+        texto: `${registro.totalDias()} dia(s) registrado(s) neste aparelho. Como o app é estático e não tem servidor, o registro vive no navegador e some ao limpar os dados do site.`
       }),
-      h('div.linha.mt-3', null,
-        h('button.btn.btn-secundario', { type: 'button', onClick: exportar }, 'Exportar registro'),
-        h('button.btn.btn-secundario', { type: 'button', onClick: () => entrada.click() }, 'Importar'),
-        entrada
-      )
+      h('button.btn.btn-secundario.mt-3', {
+        type: 'button', onClick: () => ctx.navegar('#/backup')
+      }, icone('escudo'), 'Exportar, importar e backup no Drive')
     )
   );
 }

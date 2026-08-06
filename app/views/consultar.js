@@ -29,6 +29,7 @@ const GRUPOS = [
       { id: 'historico', nome: 'Histórico', desc: 'Mudanças de plano ao longo do tempo', icone: 'historico', cor: 'var(--c-geral)' },
       { id: 'pareceres', nome: 'Pareceres', desc: 'Avaliações multidisciplinares', icone: 'parecer', cor: 'var(--c-geral)' },
       { id: 'perfil', nome: 'Perfil', desc: 'Dados pessoais e agenda de referência', icone: 'perfil', cor: 'var(--c-geral)' },
+      { id: 'backup', nome: 'Backup', desc: 'Exportar e importar tudo, com envio para o Google Drive', icone: 'escudo', cor: 'var(--c-geral)' },
       { id: 'editor', nome: 'Editar dados', desc: 'Editar o JSON de um documento e baixar cifrado', icone: 'editor', cor: 'var(--c-geral)' }
     ]
   }

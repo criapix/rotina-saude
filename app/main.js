@@ -11,6 +11,7 @@ import * as vHoje from './views/hoje.js';
 import * as vComer from './views/comer.js';
 import * as vTreinar from './views/treinar.js';
 import * as vConsultar from './views/consultar.js';
+import * as vBackup from './views/backup.js';
 import * as vSemana from './views/semana.js';
 import * as vTreino from './views/treino.js';
 import * as vPedal from './views/pedal.js';
@@ -39,6 +40,7 @@ const SECOES = [
   { id: 'historico', nome: 'Histórico', icone: 'historico', cor: 'var(--c-geral)', render: vMais.historico },
   { id: 'pareceres', nome: 'Pareceres', icone: 'parecer', cor: 'var(--c-geral)', render: vMais.pareceres },
   { id: 'perfil', nome: 'Perfil', icone: 'perfil', cor: 'var(--c-geral)', render: vMais.perfil },
+  { id: 'backup', nome: 'Backup', icone: 'escudo', cor: 'var(--c-geral)', render: vBackup.render },
   { id: 'editor', nome: 'Editar dados', icone: 'editor', cor: 'var(--c-geral)', render: vMais.editor }
 ];
 
@@ -165,6 +167,7 @@ function menuMais() {
     h('p.sheet-titulo', { texto: 'Dados' }),
     h('div.pilha-2', null,
       item(porId('consultar')),
+      item(porId('backup')),
       item(porId('editor')),
       h('button.nav-card', {
         type: 'button', estilo: { '--accent': 'var(--c-critico)' },
