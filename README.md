@@ -311,8 +311,10 @@ sobra mais de 10 g de gordura, que são os dois macros fixos do dia.
 
 ### Tabela de alimentos
 
-`nutricao.alimentos` traz 45 alimentos com a composição por 100 g, agrupados por
-carboidrato / proteína / gordura / legume / fruta / bebida / combustível. Cada um tem:
+`nutricao.alimentos` traz 99 alimentos com a composição por 100 g, agrupados por
+carboidrato / proteína / gordura / legume / fruta / bebida / combustível / fora do plano.
+O último grupo existe de propósito: registrar a pizza vale mais que fingir que não comeu.
+Cada item tem:
 
 | Campo | Para que serve |
 |---|---|
@@ -320,7 +322,26 @@ carboidrato / proteína / gordura / legume / fruta / bebida / combustível. Cada
 | `porcaoG` | quanto entra ao adicionar o alimento |
 | `passoG` | incremento dos botões `−` / `+` |
 | `unidadeG`, `unidadeNome` | quando o alimento é contável, para exibir "100 g (2 unidades)" |
-| `nota` | ressalva clínica, mostrada como dica (ex.: a gordura do queijo minas padrão) |
+| `nota` | ressalva clínica, mostrada como dica e num toast ao adicionar |
+| `sinonimos` | como a pessoa procura de verdade — "peixe", "gatorade", "catupiry" |
+| `frequente` | aparece no cardápio; é o que a busca mostra sem termo digitado |
+
+**A porção padrão é o que se come de uma vez**, não a embalagem. Foi recalibrada em
+04/08/2026 depois que o usuário apontou o cottage entrando com 200 g — meio pote. Um teste
+verifica que nenhum item servido a granel entra com mais de 400 kcal e que nenhum contável
+entra com mais de 5 unidades; itens de uma unidade só (um hambúrguer, uma fatia de pizza)
+ficam de fora do teto calórico, porque uma unidade é realista por definição.
+
+### Busca de alimentos
+
+`buscarAlimentos(alimentos, termo, grupo)` procura em nome, grupo e sinônimos, **sem acento e
+sem caixa** — quem digita "tamara" acha "Tâmara seca". Sem termo, devolve só os `frequente`;
+com filtro de grupo, o grupo inteiro. Quem começa com o termo aparece antes de quem só o
+contém no meio.
+
+Isso corrigiu um bug real: a tâmara existia na tabela desde 01/08 mas era inalcançável na
+prática — era o 13º item de uma lista que mostrava 12, e a busca por "tamara" sem circunflexo
+não retornava nada. O usuário concluiu, com razão, que ela não estava cadastrada.
 
 Os valores dos alimentos que compõem o cardápio são **os mesmos que geraram as porções**, então
 a tabela e as refeições não divergem. Cada refeição do plano carrega uma `composicao`
@@ -328,7 +349,8 @@ a tabela e as refeições não divergem. Cada refeição do plano carrega uma `c
 dela e compara com os macros gravados — o desvio atual é **0 g**.
 
 Para acrescentar um alimento: adicione a entrada em `nutricao.alimentos.itens` e refaça o build.
-Nada no código conhece nomes de alimentos.
+Nada no código conhece nomes de alimentos — nem o compositor, nem o cálculo do combustível do
+pedal, que escolhe pelos campos `papel` e `porHora` de `compensacao.intraAtividade`.
 
 **Cuidado com `unidadeG`.** É o campo que mais facilmente introduz erro silencioso: ele define
 quantos gramas vale "1 unidade", e um chute errado muda a dose sem mudar nada visível.
