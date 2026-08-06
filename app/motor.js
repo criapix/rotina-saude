@@ -96,30 +96,56 @@ export function combustivelDoPedal(atividades, compensacao) {
   const horas = min / 60;
   const ia = compensacao.intraAtividade;
   const [minH, maxH] = ia.alvoCarboPorHora;
-  const gel = ia.itens.find((i) => /gel/i.test(i.nome));
-  const iso = ia.itens.find((i) => /isot/i.test(i.nome));
-  const bala = ia.itens.find((i) => /bala/i.test(i.nome));
 
-  const nGel = Math.round(horas);
-  const mlIso = Math.round(horas * 500);
-  // gel + isotônico dão ~55 g/h e não alcançam o alvo: a bala de goma fecha a
-  // diferença. Arredonda para o pacote mais próximo — arredondar para cima
-  // passaria dos 70 g/h e é mais carboidrato do que o estômago aceita.
-  const carboBase = nGel * gel.carboG + (mlIso / 500) * iso.carboG;
-  const alvoCarbo = Math.round(horas * maxH);
-  const nBala = Math.max(0, Math.round((alvoCarbo - carboBase) / bala.carboG));
+  // Quem é base e quem fecha a conta vem do dado, não de nome de alimento no
+  // código. A ordem da lista só desempata — o critério é chegar perto do alvo.
+  const alvo = horas * ((minH + maxH) / 2);
+  const teto = horas * maxH;
+  const escolhidos = [];
+  let carbo = 0;
+  let kcal = 0;
 
-  const itens = [`${nGel} gel`, `${mlIso} ml de isotônico`];
-  if (nBala) itens.push(`${nBala} pacote${nBala > 1 ? 's' : ''} de bala de goma`);
+  const somar = (item, n) => {
+    const j = escolhidos.find((x) => x.item === item);
+    if (j) j.n += n; else escolhidos.push({ item, n });
+    carbo += n * item.carboG;
+    kcal += n * item.kcal;
+  };
 
-  const carbo = carboBase + nBala * bala.carboG;
+  const bases = ia.itens.filter((i) => i.papel === 'base');
+  if (horas < 1) {
+    // Pedal curto: o glicogênio cobre ~60–75 min sozinho. Uma dose única da
+    // primeira base é preventiva; a base cheia passaria muito da faixa.
+    if (bases.length) somar(bases[0], 1);
+  } else {
+    // Piso, não arredondamento: em 1h30 arredondar para 2 doses daria 80 g/h.
+    for (const item of bases) somar(item, Math.floor(horas * (item.porHora || 1)));
+  }
+
+  // Fecha a diferença uma dose por vez, sempre com o item que chega mais perto
+  // do alvo sem passar do teto. Qualquer item pode completar, inclusive os da
+  // base — é o que permite 1h30 fechar com mais uma dose em vez de um gel.
+  for (let passo = 0; passo < 12 && carbo < alvo; passo++) {
+    const cabe = ia.itens
+      .filter((i) => carbo + i.carboG <= teto)
+      .sort((a, b) => Math.abs(carbo + a.carboG - alvo) - Math.abs(carbo + b.carboG - alvo));
+    if (!cabe.length) break;
+    somar(cabe[0], 1);
+  }
+
+  const nome = (i) => i.curto || i.nome.toLowerCase();
   return {
     duracaoMin: min,
     horas,
-    itens: itens.join(' + '),
+    escolhidos,
+    itens: escolhidos.map(({ item, n }) =>
+      `${nome(item)}: ${n === 1 ? item.medida : `${n}× ${item.medida}`}`).join(' · '),
     carboG: Math.round(carbo),
-    kcal: Math.round(nGel * gel.kcal + (mlIso / 500) * iso.kcal + nBala * bala.kcal),
-    faixaAlvo: `${Math.round(horas * minH)}–${alvoCarbo} g`
+    carboPorHora: Math.round(carbo / horas),
+    kcal: Math.round(kcal),
+    faixaAlvo: `${Math.round(horas * minH)}–${Math.round(horas * maxH)} g`,
+    // Pedal curto fica abaixo da faixa de propósito — a view explica.
+    abaixoDaFaixa: carbo < horas * minH
   };
 }
 
@@ -155,6 +181,37 @@ export function sugerirReforco(compensacao, kcalFaltando) {
 /** Índice id -> alimento, para não varrer a tabela a cada item. */
 export function indiceAlimentos(alimentos) {
   return new Map((alimentos.itens || []).map((a) => [a.id, a]));
+}
+
+/** Minúsculas e sem acento — quem digita "tamara" tem que achar "Tâmara". */
+export function normalizar(texto) {
+  return String(texto || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
+}
+
+/**
+ * Busca na tabela de alimentos. Sem termo, devolve os frequentes (os que
+ * aparecem no cardápio) — é o que ele mais registra. Com termo, procura em
+ * nome, grupo e sinônimos, tudo sem acento.
+ */
+export function buscarAlimentos(alimentos, termo, grupo) {
+  const itens = alimentos.itens || [];
+  const t = normalizar(termo);
+
+  if (!t) {
+    const base = grupo ? itens.filter((a) => a.grupo === grupo) : itens.filter((a) => a.frequente);
+    return base.length ? base : itens;
+  }
+
+  const casa = (a) => {
+    const campos = [a.nome, a.grupo, ...(a.sinonimos || [])];
+    return campos.some((c) => normalizar(c).includes(t));
+  };
+  // Quem começa com o termo vem antes de quem só o contém no meio.
+  return itens.filter(casa).sort((a, b) => {
+    const pa = normalizar(a.nome).startsWith(t) ? 0 : 1;
+    const pb = normalizar(b.nome).startsWith(t) ? 0 : 1;
+    return pa - pb || a.nome.localeCompare(b.nome, 'pt-BR');
+  });
 }
 
 /**

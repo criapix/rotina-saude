@@ -278,9 +278,17 @@ function abaCompensacao(nutricao, dia) {
       h('p.texto-2', { texto: ia.descricao }),
       h('p.texto-2.mt-3', null, h('strong', { texto: `Alvo: ${ia.alvoCarboPorHora[0]}–${ia.alvoCarboPorHora[1]} g de carboidrato por hora. ` }), ia.porHora),
       h('div.mt-3', null, tabela(
-        [{ nome: 'Item' }, { nome: 'Medida' }, { nome: 'CHO', classe: 'num' }, { nome: 'kcal', classe: 'num' }],
-        ia.itens.map((i) => [i.nome, i.medida, `${i.carboG} g`, i.kcal])
+        [{ nome: 'Item' }, { nome: 'Papel' }, { nome: 'Medida' }, { nome: 'CHO', classe: 'num' }, { nome: 'kcal', classe: 'num' }],
+        ia.itens.map((i) => ({
+          dataset: i.papel === 'base' ? { destaque: 'true' } : {},
+          celulas: [
+            h('span', null, i.nome, i.nota ? h('div.texto-xs.texto-3', { texto: i.nota }) : null),
+            i.papel === 'base' ? `base · ${i.porHora || 1}/hora` : 'completa',
+            i.medida, `${i.carboG} g`, i.kcal
+          ]
+        }))
       )),
+      h('p.legenda.mt-2', { texto: 'Base entra por hora de pedal; os demais fecham a diferença até o meio da faixa. A escolha é do dado — o motor não conhece nome de alimento.' }),
       ia.trocas && ia.trocas.length
         ? h('div.mt-3', null,
             h('h4', { texto: 'Trocas' }),

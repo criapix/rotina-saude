@@ -9,7 +9,7 @@
 // realmente montado, não os do cardápio.
 
 import { h, icone, chip, aviso, toast } from '../ui.js';
-import { macrosDaComposicao, medidaLegivel, descreverComposicao, indiceAlimentos } from '../motor.js';
+import { macrosDaComposicao, medidaLegivel, descreverComposicao, indiceAlimentos, buscarAlimentos } from '../motor.js';
 
 /**
  * Abre o compositor numa bottom sheet.
@@ -131,6 +131,7 @@ export function abrirCompositor({ alimentos, refeicao, inicial, ctx }) {
     const existente = composicao.find((x) => x.alimentoId === id);
     if (existente) existente.gramas += a.passoG || 10;
     else composicao.push({ alimentoId: id, gramas: a.porcaoG });
+    if (a.nota) toast(a.nota);
     pintarItens();
     pintarResumo();
   }
@@ -144,23 +145,27 @@ export function abrirCompositor({ alimentos, refeicao, inicial, ctx }) {
   let grupoAtivo = null;
 
   function pintarSugestoes() {
-    const termo = busca.value.trim().toLowerCase();
-    let lista = alimentos.itens;
-    if (termo) {
-      lista = lista.filter((a) => a.nome.toLowerCase().includes(termo));
-    } else if (grupoAtivo) {
-      lista = lista.filter((a) => a.grupo === grupoAtivo);
-    } else {
-      lista = lista.slice(0, 12);
+    // A busca ignora acento e olha nome, grupo e sinônimos: quem digita
+    // "tamara" tem que achar "Tâmara seca".
+    const lista = buscarAlimentos(alimentos, busca.value, grupoAtivo);
+    if (!lista.length) {
+      sugestoes.replaceChildren(h('p.legenda', { texto: `Nada encontrado para "${busca.value.trim()}".` }));
+      return;
     }
-    sugestoes.replaceChildren(...lista.slice(0, 40).map((a) => h('button.chip', {
-      type: 'button',
-      dataset: { nivel: 'accent' },
-      estilo: { cursor: 'pointer' },
-      title: a.nota || `${a.por100.kcal} kcal por 100 g`,
-      onClick: () => { adicionar(a.id); busca.value = ''; pintarSugestoes(); }
-    }, `+ ${a.nome}`)));
-    if (!lista.length) sugestoes.replaceChildren(h('p.legenda', { texto: 'Nada encontrado nessa busca.' }));
+    const semTermo = !busca.value.trim();
+    sugestoes.replaceChildren(
+      semTermo && !grupoAtivo
+        ? h('p.legenda', { texto: 'Os que aparecem no seu cardápio. Busque ou filtre por grupo para ver os outros.' })
+        : null,
+      ...lista.slice(0, 60).map((a) => h('button.chip', {
+        type: 'button',
+        dataset: { nivel: a.frequente ? 'accent' : 'info' },
+        estilo: { cursor: 'pointer' },
+        title: a.nota || `${a.por100.kcal} kcal por 100 g · porção padrão ${a.porcaoG} g`,
+        onClick: () => { adicionar(a.id); busca.value = ''; pintarSugestoes(); }
+      }, `+ ${a.nome}`)),
+      lista.length > 60 ? h('p.legenda', { texto: `+${lista.length - 60} — refine a busca.` }) : null
+    );
   }
   busca.addEventListener('input', pintarSugestoes);
 
