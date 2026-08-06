@@ -20,7 +20,7 @@ import { macrosDaComposicao, medidaLegivel, descreverComposicao, indiceAlimentos
  * @param {Array}  [o.inicial]  composição inicial, quando difere da do plano
  * @param {object} o.ctx        contexto da view (registro, sheet, recarregar)
  */
-export function abrirCompositor({ alimentos, refeicao, inicial, ctx }) {
+export function abrirCompositor({ alimentos, refeicao, inicial, ctx, data }) {
   const idx = indiceAlimentos(alimentos);
   const doPlano = Boolean(refeicao);
 
@@ -186,6 +186,17 @@ export function abrirCompositor({ alimentos, refeicao, inicial, ctx }) {
 
   /* --- ações --- */
 
+  const jaFavorita = () =>
+    ctx.registro.favoritos().some((f) => f.nome.toLowerCase() === nomeCampo.value.trim().toLowerCase());
+
+  const favoritar = () => {
+    const nome = nomeCampo.value.trim();
+    if (!nome) { toast('Dê um nome à refeição antes de favoritar.'); return; }
+    if (!composicao.length) { toast('Escolha pelo menos um alimento.'); return; }
+    ctx.registro.salvarFavorito({ nome, composicao, macros: macros() });
+    toast(`"${nome}" salva nas favoritas.`);
+  };
+
   const salvar = () => {
     const nome = nomeCampo.value.trim() || (refeicao ? refeicao.nome : 'Refeição');
     if (!composicao.length) { toast('Escolha pelo menos um alimento.'); return; }
@@ -196,7 +207,7 @@ export function abrirCompositor({ alimentos, refeicao, inicial, ctx }) {
       composicao,
       macros: macros(),
       doPlano
-    });
+    }, data);
     ctx.fecharSheet();
     toast(doPlano ? 'Refeição personalizada.' : 'Refeição registrada.');
     ctx.recarregar();
@@ -228,6 +239,11 @@ export function abrirCompositor({ alimentos, refeicao, inicial, ctx }) {
       h('button.btn.btn-primario', { type: 'button', onClick: salvar }, icone('check'), 'Salvar'),
       h('button.btn.btn-secundario', { type: 'button', onClick: () => ctx.fecharSheet() }, 'Cancelar')
     ),
+    h('button.btn.btn-fantasma.mt-2', { type: 'button', onClick: favoritar },
+      icone('escudo'), 'Salvar como favorita, para repetir depois'),
+    jaFavorita()
+      ? h('p.legenda.mt-2', { texto: 'Já existe uma favorita com este nome — salvar de novo substitui.' })
+      : null,
     h('p.legenda.mt-3', { texto: alimentos.aviso })
   ), doPlano ? 'Personalizar refeição' : 'Registrar refeição');
 }

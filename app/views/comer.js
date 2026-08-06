@@ -6,32 +6,44 @@
 // fica em Consultar → Nutrição. Aqui só entra o que é do dia de hoje.
 
 import {
-  h, icone, cabecalhoPagina, aviso, chip, secao, toast, dataLonga, barraMacro
+  h, icone, cabecalhoPagina, aviso, chip, card, secao, toast, dataLonga, dataBR,
+  barraMacro, seletorData
 } from '../ui.js';
 import {
   resumoDia, bancoCalorico, suplementosDoDia,
   proximaRefeicao, horaDaRefeicao, descreverComposicao
 } from '../motor.js';
+import { hojeISO } from '../store.js';
 import { abrirCompositor } from './compositor.js';
+
+const ehData = (s) => /^\d{4}-\d{2}-\d{2}$/.test(s || '');
 
 export async function render(ctx) {
   const { store, registro } = ctx;
   const [perfil, treinos, nutricao, pedal] = await store.docs('perfil', 'treinos', 'nutricao', 'pedal');
   const dados = { perfil, treinos, nutricao, pedal };
 
-  const dia = resumoDia(dados, registro);
+  const hoje = hojeISO();
+  // A data vem da rota (#/comer/2026-08-05) para poder recuperar um dia perdido.
+  const data = ehData(ctx.params[0]) && ctx.params[0] <= hoje ? ctx.params[0] : hoje;
+  const deHoje = data === hoje;
+  ctx.data = data; // as funções de bloco leem daqui em vez de receber por parâmetro
+
+  const dia = resumoDia(dados, registro, data);
   const alimentos = nutricao.alimentos;
-  const prox = proximaRefeicao(dia);
+  // Num dia passado, "próxima refeição" não faz sentido: não há relógio correndo.
+  const prox = deHoje ? proximaRefeicao(dia) : null;
 
   const raiz = h('div');
   raiz.append(cabecalhoPagina({
-    kicker: dataLonga(new Date()),
+    kicker: deHoje ? dataLonga(new Date()) : `Registrando ${dataBR(data)}`,
     titulo: 'Comer',
     subtitulo: dia.provisorio
       ? `Alvo provisório de ${dia.alvo.kcal} kcal — registre a atividade em Treinar e ele sobe.`
       : `Alvo de ${dia.alvo.kcal} kcal (base ${nutricao.compensacao.baseKcal} + gasto ${dia.gasto}).`
   }));
 
+  raiz.append(seletorData(data, hoje, (d) => ctx.navegar(`#/comer/${d}`)));
   raiz.append(barraDoDia(dia));
 
   // A refeição da vez, em destaque e com as duas ações a um toque.
@@ -40,11 +52,14 @@ export async function render(ctx) {
   raiz.append(listaRefeicoes(dia, prox, alimentos, ctx));
   raiz.append(avulsas(dia, alimentos, ctx));
 
+  raiz.append(blocoFavoritos(alimentos, ctx));
+
   raiz.append(h('button.btn.btn-secundario.mt-3', {
     type: 'button',
-    onClick: () => abrirCompositor({ alimentos, ctx })
+    onClick: () => abrirCompositor({ alimentos, ctx, data })
   }, icone('lista'), 'Registrar algo fora do plano'));
 
+  raiz.append(blocoFecharDia(dia, data, ctx));
   raiz.append(blocoSuplementos(dia, nutricao, ctx));
 
   // Só os avisos que mudam o que ele vai comer agora.
@@ -110,11 +125,11 @@ function cartaoProxima(r, alimentos, ctx) {
     h('div.grade.grade-2.mt-3', null,
       h('button.btn.btn-primario', {
         type: 'button',
-        onClick: () => { registro.alternarRefeicao(r); toast('Registrado.'); ctx.recarregar(); }
+        onClick: () => { registro.alternarRefeicao(r, ctx.data); toast('Registrado.'); ctx.recarregar(); }
       }, icone('check'), 'Comi isso'),
       h('button.btn.btn-secundario', {
         type: 'button',
-        onClick: () => abrirCompositor({ alimentos, refeicao: r, ctx })
+        onClick: () => abrirCompositor({ alimentos, refeicao: r, ctx, data: ctx.data })
       }, icone('editor'), 'Comi outra coisa')
     ),
 
@@ -136,7 +151,7 @@ function listaRefeicoes(dia, prox, alimentos, ctx) {
 
   return secao(`Refeições do dia (${feitas}/${dia.tipo.refeicoes.length})`,
     h('div.pilha-2', null, restantes.map((r) => {
-      const registrada = registro.refeicao(r.id);
+      const registrada = registro.refeicao(r.id, ctx.data);
       const feita = Boolean(registrada);
       const personalizada = Boolean(registrada && registrada.personalizada);
       const itens = personalizada && registrada.composicao
@@ -147,7 +162,7 @@ function listaRefeicoes(dia, prox, alimentos, ctx) {
       return h('div.linha', null,
         h('button.check-item.esticar', {
           type: 'button', dataset: { feito: String(feita) },
-          onClick: () => { registro.alternarRefeicao(r); ctx.recarregar(); }
+          onClick: () => { registro.alternarRefeicao(r, ctx.data); ctx.recarregar(); }
         },
           h('span.check-box', null, icone('check')),
           h('span.check-texto', null,
@@ -160,7 +175,7 @@ function listaRefeicoes(dia, prox, alimentos, ctx) {
         h('button.icon-btn', {
           type: 'button', 'aria-label': `Personalizar ${r.nome}`, title: 'Comi outra coisa',
           onClick: () => abrirCompositor({
-            alimentos, refeicao: r, ctx,
+            alimentos, refeicao: r, ctx, data: ctx.data,
             inicial: personalizada ? registrada.composicao : r.composicao
           })
         }, icone('editor'))
@@ -173,7 +188,7 @@ function listaRefeicoes(dia, prox, alimentos, ctx) {
 function avulsas(dia, alimentos, ctx) {
   const { registro } = ctx;
   const doCardapio = new Set(dia.tipo.refeicoes.map((r) => r.id));
-  const extras = (registro.dia().refeicoes || []).filter((r) => !doCardapio.has(r.id));
+  const extras = (registro.dia(ctx.data).refeicoes || []).filter((r) => !doCardapio.has(r.id));
   if (!extras.length) return h('div');
 
   return secao(`Fora do cardápio (${extras.length})`,
@@ -189,16 +204,119 @@ function avulsas(dia, alimentos, ctx) {
         ? h('button.icon-btn', {
             type: 'button', 'aria-label': `Editar ${r.nome}`, title: 'Editar',
             onClick: () => abrirCompositor({
-              alimentos, ctx,
+              alimentos, ctx, data: ctx.data,
               refeicao: { id: r.id, nome: r.nome, hora: r.hora, itens: '', composicao: r.composicao }
             })
           }, icone('editor'))
         : null,
       h('button.icon-btn', {
         type: 'button', 'aria-label': `Remover ${r.nome}`, title: 'Remover',
-        onClick: () => { registro.removerRefeicao(r.id); toast('Removida.'); ctx.recarregar(); }
+        onClick: () => { registro.removerRefeicao(r.id, ctx.data); toast('Removida.'); ctx.recarregar(); }
       }, icone('lixeira'))
     )))
+  );
+}
+
+/* ===================== favoritos e repetir ===================== */
+
+/**
+ * Atalhos para o que ele já come. O registro real trouxe o mesmo café da manhã
+ * quatro vezes, idêntico — remontar item por item era o maior atrito do app.
+ */
+function blocoFavoritos(alimentos, ctx) {
+  const { registro } = ctx;
+  const favs = registro.favoritos();
+  const ontem = diaAnterior(ctx.data);
+  const doOntem = (registro.dia(ontem).refeicoes || []).filter((r) => r.composicao);
+
+  if (!favs.length && !doOntem.length) {
+    return h('p.legenda.mt-3', {
+      texto: 'Ao personalizar uma refeição, dá para salvá-la como favorita e repetir depois com um toque.'
+    });
+  }
+
+  const repetir = (r, nome) => {
+    registro.salvarRefeicao({
+      id: r.id && !r.id.startsWith('livre-') ? r.id : undefined,
+      nome: nome || r.nome,
+      hora: r.hora,
+      composicao: r.composicao,
+      macros: { p: r.p ?? r.macros.p, g: r.g ?? r.macros.g, c: r.c ?? r.macros.c, kcal: r.kcal ?? r.macros.kcal },
+      doPlano: Boolean(r.doPlano)
+    }, ctx.data);
+    toast(`${nome || r.nome} registrada.`);
+    ctx.recarregar();
+  };
+
+  return secao('Repetir',
+    card(
+      favs.length
+        ? h('div', null,
+            h('h4', { texto: 'Favoritas' }),
+            h('div.chip-linha.mt-2', null, favs.map((f) => h('button.chip', {
+              type: 'button', dataset: { nivel: 'accent' }, estilo: { cursor: 'pointer' },
+              title: `${f.macros.kcal} kcal · P${f.macros.p} G${f.macros.g} C${f.macros.c}`,
+              onClick: () => repetir({ ...f, ...f.macros, composicao: f.composicao }, f.nome)
+            }, `+ ${f.nome}`))),
+            h('p.legenda.mt-2', { texto: 'Toque para lançar. Para remover uma favorita, abra-a no compositor.' })
+          )
+        : null,
+      doOntem.length
+        ? h('div.mt-3', null,
+            h('h4', { texto: `De ${dataBR(ontem)}` }),
+            h('div.chip-linha.mt-2', null, doOntem.map((r) => h('button.chip', {
+              type: 'button', dataset: { nivel: 'info' }, estilo: { cursor: 'pointer' },
+              title: `${r.kcal} kcal · P${r.p} G${r.g} C${r.c}`,
+              onClick: () => repetir(r)
+            }, `+ ${r.nome}`)))
+          )
+        : null
+    )
+  );
+}
+
+function diaAnterior(dataISO) {
+  const d = new Date(dataISO + 'T12:00:00');
+  d.setDate(d.getDate() - 1);
+  return d.toISOString().slice(0, 10);
+}
+
+/* ===================== fechar o dia ===================== */
+
+/**
+ * Marca explicitamente que o dia acabou. Sem isso o app não distingue "não
+ * comi" de "não registrei", e um dia com uma refeição lançada virava déficit de
+ * 2000 kcal no balanço da semana e no banco calórico.
+ */
+function blocoFecharDia(dia, data, ctx) {
+  const { registro } = ctx;
+  const fechado = registro.diaFechado(data);
+  const faltam = dia.pendentes.length;
+
+  return h('div.card.mt-3', { estilo: { '--accent': fechado ? 'var(--c-ok)' : 'var(--c-geral)' } },
+    h('div.linha', null,
+      h('div.esticar', null,
+        h('h4', { texto: fechado ? 'Dia fechado' : 'Fechar o dia' }),
+        h('p.legenda', {
+          texto: fechado
+            ? `Contabilizado como está: ${dia.consumido.kcal} de ${dia.alvo.kcal} kcal.`
+            : faltam
+              ? `${faltam} refeição(ões) do cardápio ainda sem marcar. Fechar assim diz ao app que o que falta não foi comido.`
+              : 'Todas as refeições do cardápio marcadas.'
+        })
+      ),
+      h('button.btn.btn-secundario', {
+        type: 'button',
+        onClick: () => {
+          const agora = registro.alternarDiaFechado(data);
+          toast(agora ? 'Dia fechado.' : 'Dia reaberto.');
+          ctx.recarregar();
+        }
+      }, icone(fechado ? 'voltar' : 'check'), fechado ? 'Reabrir' : 'Fechei o dia')
+    ),
+    !fechado
+      ? h('p.legenda.mt-2', { texto: 'Enquanto o dia não é fechado, ele não entra no balanço da semana nem no banco calórico — melhor ficar de fora que entrar errado.' })
+      : null
   );
 }
 
@@ -206,19 +324,20 @@ function avulsas(dia, alimentos, ctx) {
 
 function blocoSuplementos(dia, nutricao, ctx) {
   const { registro } = ctx;
-  const lista = suplementosDoDia(nutricao.suplementos, dia, nutricao.orientacoes);
+  const nota = nutricao.suplementosNota;
+  const lista = suplementosDoDia(nutricao.suplementos, dia, nutricao.orientacoes, nota && nota.ordem);
   if (!lista.length) return h('div');
 
-  const feitos = () => lista.filter((s) => registro.suplementoTomado(s.nome)).length;
+  const feitos = () => lista.filter((s) => registro.suplementoTomado(s.nome, ctx.data)).length;
   const contador = h('span.chip', { dataset: { nivel: feitos() === lista.length ? 'ok' : 'accent' } },
     `${feitos()}/${lista.length}`);
 
   const itens = lista.map((s) => {
     const item = h('button.check-item', {
       type: 'button',
-      dataset: { feito: String(registro.suplementoTomado(s.nome)) },
+      dataset: { feito: String(registro.suplementoTomado(s.nome, ctx.data)) },
       onClick: () => {
-        item.dataset.feito = String(registro.alternarSuplemento(s.nome));
+        item.dataset.feito = String(registro.alternarSuplemento(s.nome, ctx.data));
         contador.textContent = `${feitos()}/${lista.length}`;
         contador.dataset.nivel = feitos() === lista.length ? 'ok' : 'accent';
       }
@@ -228,17 +347,26 @@ function blocoSuplementos(dia, nutricao, ctx) {
         h('strong', null, s.nome, ' ', h('span.texto-3.texto-sm', { texto: s.dose })),
         h('span', { texto: s.quando })
       ),
-      s.critico ? chip('obrigatório', 'critico') : null
+      s.prioridade === 'essencial' ? chip('essencial', 'critico') : null
     );
     return item;
   });
+
+  const essenciais = lista.filter((s) => s.prioridade === 'essencial');
 
   return h('section.secao', null,
     h('div.secao-cabecalho', null,
       h('h2', null, icone('pilula'), ' Suplementos'),
       contador
     ),
-    h('div.mt-2', null, itens)
+    h('div.mt-2', null, itens),
+    essenciais.length
+      ? h('p.legenda.mt-2', null,
+          'Se o dia apertar, os que não podem faltar são ',
+          h('strong', { texto: essenciais.map((s) => s.nome).join(', ') }),
+          '. O porquê de cada um está em Consultar → Nutrição → Suplementos.'
+        )
+      : null
   );
 }
 

@@ -176,6 +176,66 @@ export function sugerirReforco(compensacao, kcalFaltando) {
   };
 }
 
+/**
+ * Compara o gasto MEDIDO (corrigido pelo ciclocomputador) com o que o app teria
+ * estimado, por tipo e perfil de atividade.
+ *
+ * A taxa de 650 kcal/h em Z2 foi arbitrada por estabilidade de peso, entre os
+ * 500 do plano e os 800–1000 relatados. Medição é melhor que arbitragem: com
+ * medições suficientes, esta função diz se a taxa deveria mudar e para quanto.
+ */
+export function medicoesDeGasto(dados, registro, diasAtras = 180) {
+  const comp = dados.nutricao.compensacao;
+  const cfg = comp.revisaoDaTaxa || { minimoMedicoes: 3, desvioRelevante: 0.1 };
+  const grupos = new Map();
+
+  for (const data of janela(diasAtras)) {
+    for (const a of registro.dia(data).atividades || []) {
+      if (!Number.isFinite(a.kcal) || !a.duracaoMin) continue;
+      // A estimativa que o app teria dado, ignorando a correção.
+      const estimado = gastoDaAtividade({ ...a, kcal: undefined }, comp);
+      if (!estimado) continue;
+
+      const chave = a.perfil ? `${a.tipo}/${a.perfil}` : a.tipo;
+      if (!grupos.has(chave)) grupos.set(chave, { chave, tipo: a.tipo, perfil: a.perfil || null, medicoes: [] });
+      grupos.get(chave).medicoes.push({
+        data,
+        duracaoMin: a.duracaoMin,
+        medido: a.kcal,
+        estimado,
+        medidoPorHora: Math.round(a.kcal / (a.duracaoMin / 60)),
+        estimadoPorHora: Math.round(estimado / (a.duracaoMin / 60))
+      });
+    }
+  }
+
+  const out = [];
+  for (const g of grupos.values()) {
+    const n = g.medicoes.length;
+    const razao = g.medicoes.reduce((s, m) => s + m.medido / m.estimado, 0) / n;
+    const taxaMedida = Math.round(g.medicoes.reduce((s, m) => s + m.medidoPorHora, 0) / n);
+    const taxaAtual = g.medicoes[0].estimadoPorHora;
+    out.push({
+      ...g,
+      n,
+      razao,
+      desvioPerc: Math.round((razao - 1) * 100),
+      taxaAtual,
+      taxaMedida,
+      // Só sugere trocar com amostra mínima E desvio que importa. Uma medição
+      // 18% acima é indício; três seguidas são motivo.
+      sugereRevisar: n >= cfg.minimoMedicoes && Math.abs(razao - 1) >= cfg.desvioRelevante,
+      faltamMedicoes: Math.max(0, cfg.minimoMedicoes - n)
+    });
+  }
+  return {
+    grupos: out.sort((a, b) => b.n - a.n),
+    minimoMedicoes: cfg.minimoMedicoes,
+    desvioRelevante: cfg.desvioRelevante,
+    nota: cfg.nota
+  };
+}
+
 /* ===================== composição de refeições ===================== */
 
 /** Índice id -> alimento, para não varrer a tabela a cada item. */
@@ -396,7 +456,7 @@ export function tipoDiaDe(atividades) {
  * `provisorio` = ainda não há atividade registrada, então o alvo é de descanso
  * e sobe se algo for registrado.
  */
-export function resumoDia(dados, registro, dataISO = hojeISO()) {
+export function resumoDia(dados, registro, dataISO = hojeISO(), ref = new Date()) {
   const { nutricao, treinos } = dados;
   const dia = registro.dia(dataISO);
   const atividades = dia.atividades || [];
@@ -447,6 +507,10 @@ export function resumoDia(dados, registro, dataISO = hojeISO()) {
     percKcal: alvo.kcal ? Math.min(100, Math.round((consumido.kcal / alvo.kcal) * 100)) : 0,
     provisorio: atividades.length === 0
   };
+  // Vários avisos só valem a partir de certa hora ("já é 19h e falta gordura").
+  // Num dia passado essa cobrança tem de valer sempre: o dia acabou, o prazo
+  // venceu. Só o dia de hoje anda pelo relógio.
+  resumo.hora = dataISO === hojeISO(ref) ? ref.getHours() : 23;
   resumo.orientacoes = orientacoesDoDia(nutricao, resumo);
   return resumo;
 }
@@ -461,6 +525,7 @@ export function bancoCalorico(dados, registro, ref = new Date()) {
 
   let gerado = 0;
   let reposto = 0;
+  let semDado = 0;
   const detalhe = [];
 
   for (const d of dias) {
@@ -469,13 +534,18 @@ export function bancoCalorico(dados, registro, ref = new Date()) {
     const gasto = gastoTotal(atividades, comp);
     const alvo = alvoPorGasto(comp, gasto);
     const consumido = (dia.refeicoes || []).reduce((a, r) => a + r.kcal, 0);
+    // O que o teto cortou vem do gasto, que ele registra — isso é dado.
+    // Já a reposição só existe se houver refeição registrada ou dia fechado:
+    // sem isso não se sabe se ele repôs ou só não anotou.
+    const confiavel = (dia.refeicoes || []).length > 0 || Boolean(dia.fechado);
 
     gerado += alvo.cortadoPeloTeto;
-    const acima = Math.max(0, consumido - alvo.kcal);
+    const acima = confiavel ? Math.max(0, consumido - alvo.kcal) : 0;
     reposto += acima;
+    if (alvo.cortadoPeloTeto > 0 && !confiavel) semDado += alvo.cortadoPeloTeto;
 
     if (alvo.cortadoPeloTeto > 0 || acima > 0) {
-      detalhe.push({ data: d, gasto, cortado: alvo.cortadoPeloTeto, acimaDoAlvo: acima });
+      detalhe.push({ data: d, gasto, cortado: alvo.cortadoPeloTeto, acimaDoAlvo: acima, confiavel });
     }
   }
 
@@ -483,6 +553,7 @@ export function bancoCalorico(dados, registro, ref = new Date()) {
     janelaDias: comp.banco.janelaDias,
     gerado,
     reposto,
+    semDado,
     saldo: Math.max(0, gerado - reposto),
     detalhe,
     titulo: comp.banco.titulo,
@@ -506,7 +577,11 @@ export function resumoEnergetico(dados, registro, ref = new Date()) {
     const gasto = gastoTotal(atividades, comp);
     const alvo = alvoPorGasto(comp, gasto);
     const consumido = (dia.refeicoes || []).reduce((a, r) => a + r.kcal, 0);
-    const registrou = atividades.length > 0 || (dia.refeicoes || []).length > 0;
+    const temRefeicao = (dia.refeicoes || []).length > 0;
+    const registrou = atividades.length > 0 || temRefeicao;
+    // "Fechei o dia" é o que autoriza tratar o déficit como real. Sem a marca e
+    // sem refeição, o dia é incompleto, não deficitário.
+    const confiavel = dia.fechado || temRefeicao;
     return {
       data,
       hoje: data === hoje,
@@ -515,15 +590,16 @@ export function resumoEnergetico(dados, registro, ref = new Date()) {
       alvo: alvo.kcal,
       cortadoPeloTeto: alvo.cortadoPeloTeto,
       consumido,
-      // sem nada registrado não há saldo: um dia em branco é falta de registro,
-      // não um déficit de 2300 kcal
-      saldo: registrou ? consumido - alvo.kcal : 0,
-      registrou
+      saldo: confiavel ? consumido - alvo.kcal : 0,
+      registrou,
+      fechado: Boolean(dia.fechado),
+      confiavel
     };
   });
 
   const somar = (campo) => linhas.reduce((a, l) => a + l[campo], 0);
   const comRegistro = linhas.filter((l) => l.registrou);
+  const confiaveis = linhas.filter((l) => l.confiavel);
 
   return {
     janelaDias: dias.length,
@@ -531,10 +607,18 @@ export function resumoEnergetico(dados, registro, ref = new Date()) {
     hoje,
     linhas,
     gasto: somar('gasto'),
-    alvo: somar('alvo'),
+    // O alvo comparável é só o dos dias confiáveis: somar o alvo de um dia que
+    // ele não registrou inventa um déficit que nunca existiu.
+    alvo: confiaveis.reduce((a, l) => a + l.alvo, 0),
+    alvoJanela: somar('alvo'),
     consumido: somar('consumido'),
     saldo: somar('saldo'),
     diasComRegistro: comRegistro.length,
+    diasConfiaveis: confiaveis.length,
+    diasFechados: linhas.filter((l) => l.fechado).length,
+    // Média só sobre o que é confiável: incluir dia pela metade puxa para baixo
+    // e faz parecer que ele comeu menos do que comeu.
+    mediaSaldo: confiaveis.length ? Math.round(somar('saldo') / confiaveis.length) : 0,
     mediaGasto: comRegistro.length ? Math.round(somar('gasto') / comRegistro.length) : 0
   };
 }
@@ -556,8 +640,8 @@ export { formatarDuracao };
 function orientacoesDoDia(nutricao, r) {
   const av = [];
   const O = nutricao.orientacoes || {};
-  const hora = new Date().getHours();
   const { tipo, tipoId, alvo, derivado, restante, consumido, pendentes, sessoes, atividades, combustivel, reforco } = r;
+  const hora = Number.isFinite(r.hora) ? r.hora : new Date().getHours();
   let jaAvisouDeficitKcal = false;
 
   // O alvo subiu depois de já ter comido como dia mais leve.
@@ -643,6 +727,17 @@ function orientacoesDoDia(nutricao, r) {
       nivel: 'atencao',
       titulo: cp.titulo,
       texto: `Restam ${restante.c} g de carboidrato (${Math.round((restante.c / alvo.c) * 100)}% do dia). ${cp.texto}`
+    });
+  }
+
+  // Gordura também é macro fixo, e era o único que ninguém cobrava. O registro
+  // real mostrou cinco dias seguidos abaixo de 62% do alvo sem um aviso.
+  const gb = O.gorduraBaixa;
+  if (gb && hora >= gb.horaMinima && consumido.kcal > 0 && consumido.g < alvo.g * gb.fracaoLimite) {
+    av.push({
+      nivel: 'atencao',
+      titulo: `${gb.titulo}: ${consumido.g} g de ${alvo.g}`,
+      texto: preencher(gb.texto, { gorduraFixaG: alvo.g })
     });
   }
 
@@ -924,13 +1019,26 @@ function pendenciaDaJanela(plano, academias, hoje) {
  * contam como treino de perna vem do dado (a mesma lista que dispara o aviso do
  * colágeno), não de uma constante aqui.
  */
-export function suplementosDoDia(suplementos, resumo, orientacoes) {
+export function suplementosDoDia(suplementos, resumo, orientacoes, ordem) {
   const temTreino = resumo.sessoes.length > 0;
   const dePerna = (orientacoes && orientacoes.preTreinoPerna && orientacoes.preTreinoPerna.sessoes) || [];
   const ehBD = resumo.sessoes.some((s) => dePerna.includes(s.id));
-  return suplementos.filter((s) => {
+  const doDia = suplementos.filter((s) => {
     if (s.frequencia === 'treino') return temTreino;
     if (s.frequencia === 'treinoBD') return ehBD;
     return s.frequencia === 'diario' || s.critico;
   });
+
+  // Se o dado traz a ordem de prioridade, a checklist segue ela: o que tem
+  // deficiência medida vem primeiro, o que é opcional desce. Marcar sete itens
+  // é diferente de marcar os três que importam.
+  if (!Array.isArray(ordem) || !ordem.length) return doDia;
+  const posicao = (s) => {
+    const i = ordem.indexOf(s.prioridade);
+    return i < 0 ? ordem.length : i;
+  };
+  return doDia
+    .map((s, i) => ({ s, i }))
+    .sort((a, b) => posicao(a.s) - posicao(b.s) || a.i - b.i)
+    .map((x) => x.s);
 }

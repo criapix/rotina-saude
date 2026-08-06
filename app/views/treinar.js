@@ -8,8 +8,11 @@
 // 7 dias ficam em Consultar → Treino e Consultar → Semana.
 
 import {
-  h, icone, cabecalhoPagina, aviso, chip, secao, toast, dataLonga
+  h, icone, cabecalhoPagina, aviso, chip, secao, toast, dataLonga, dataBR, seletorData
 } from '../ui.js';
+import { hojeISO } from '../store.js';
+
+const ehData = (s) => /^\d{4}-\d{2}-\d{2}$/.test(s || '');
 import {
   resumoDia, resumoJanela, gastoDaAtividade, formatarDuracao
 } from '../motor.js';
@@ -23,15 +26,22 @@ export async function render(ctx) {
   const [perfil, treinos, nutricao, pedal] = await store.docs('perfil', 'treinos', 'nutricao', 'pedal');
   const dados = { perfil, treinos, nutricao, pedal };
 
-  const dia = resumoDia(dados, registro);
+  const hoje = hojeISO();
+  const data = ehData(ctx.params[0]) && ctx.params[0] <= hoje ? ctx.params[0] : hoje;
+  const deHoje = data === hoje;
+  ctx.data = data;
+
+  const dia = resumoDia(dados, registro, data);
   const jan = resumoJanela(dados, registro);
   const comp = nutricao.compensacao;
+  const seletor = () => seletorData(data, hoje, (d) => ctx.navegar(`#/treinar/${d}`));
 
-  // Já treinou: a página é a série. Nada antes dela.
+  // Já treinou: a página é a série. Nada antes dela, além do seletor de dia.
   if (dia.sessoes.length) {
     const raiz = h('div');
+    raiz.append(seletor());
     for (const s of dia.sessoes) {
-      raiz.append(telaSessao(s, treinos, jan, ctx, { voltar: false, volume: false }));
+      raiz.append(telaSessao(s, treinos, jan, ctx, { voltar: false, volume: false, data }));
     }
     raiz.append(registrado(dia, comp, treinos, ctx));
     raiz.append(blocoPedal(dia, dados, comp, ctx));
@@ -40,11 +50,12 @@ export async function render(ctx) {
 
   const raiz = h('div');
   raiz.append(cabecalhoPagina({
-    kicker: dataLonga(new Date()),
+    kicker: deHoje ? dataLonga(new Date()) : `Registrando ${dataBR(data)}`,
     titulo: 'Treinar',
     subtitulo: `${jan.academias.length}/${jan.metaAcademia} academias e ${jan.pedais.length}/${jan.metaPedal} pedais nos últimos ${jan.janelaDias} dias.`
   }));
 
+  raiz.append(seletor());
   raiz.append(blocoSerie(dia, jan, comp, ctx));
   raiz.append(blocoPedal(dia, dados, comp, ctx));
   if (dia.atividades.length) raiz.append(registrado(dia, comp, treinos, ctx));
@@ -99,7 +110,7 @@ function blocoSerie(dia, jan, comp, ctx) {
     h('button.btn.btn-bloco.btn-primario.mt-3', {
       type: 'button', estilo: { background: 'var(--c-treino)' },
       onClick: () => {
-        registro.registrarAtividade({ tipo: 'academia', sessao: s.id, duracaoMin: Number(selDur.value) });
+        registro.registrarAtividade({ tipo: 'academia', sessao: s.id, duracaoMin: Number(selDur.value) }, ctx.data);
         ctx.recarregar();
       }
     }, icone('check'), `Começar o treino ${s.id}`),
@@ -118,7 +129,7 @@ function blocoSerie(dia, jan, comp, ctx) {
           onClick: () => {
             registro.registrarAtividade({
               tipo: 'academia', sessao: seletorSessao.value, duracaoMin: Number(selDur.value)
-            });
+            }, ctx.data);
             ctx.recarregar();
           }
         }, icone('check'), 'Registrar essa')
@@ -165,7 +176,7 @@ function blocoPedal(dia, dados, comp, ctx) {
             perfil: selPerfil.value,
             duracaoMin: Number(selDur.value),
             zona: dados.pedal.plano.zona
-          });
+          }, ctx.data);
           toast('Pedal registrado.');
           ctx.recarregar();
         }
@@ -189,7 +200,7 @@ function registrado(dia, comp, treinos, ctx) {
         estilo: { width: '6.5rem', textAlign: 'right' },
         onChange: (e) => {
           const v = Number(e.target.value);
-          registro.atualizarAtividade(a.id, { kcal: Number.isFinite(v) && v > 0 ? Math.round(v) : null });
+          registro.atualizarAtividade(a.id, { kcal: Number.isFinite(v) && v > 0 ? Math.round(v) : null }, ctx.data);
           toast(Number.isFinite(v) && v > 0 ? 'Gasto corrigido.' : 'Voltou para a estimativa.');
           ctx.recarregar();
         }
@@ -204,7 +215,7 @@ function registrado(dia, comp, treinos, ctx) {
         h('span.texto-xs.texto-3', { texto: 'kcal' }),
         h('button.icon-btn', {
           type: 'button', 'aria-label': 'Desfazer este registro', title: 'Desfazer',
-          onClick: () => { registro.removerAtividade(a.id); toast('Registro desfeito.'); ctx.recarregar(); }
+          onClick: () => { registro.removerAtividade(a.id, ctx.data); toast('Registro desfeito.'); ctx.recarregar(); }
         }, icone('lixeira'))
       );
     })),

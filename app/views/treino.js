@@ -82,6 +82,7 @@ function abaSessoes(treinos, jan, ctx) {
 
 export function telaSessao(s, treinos, jan, ctx, opcoes = {}) {
   const { registro } = ctx;
+  const data = opcoes.data;
   const vol = volumeSessao(s);
   const raiz = h('div');
 
@@ -111,11 +112,11 @@ export function telaSessao(s, treinos, jan, ctx, opcoes = {}) {
   }
 
   // progresso + zerar
-  const prog = registro.progressoSessao(s);
+  const prog = registro.progressoSessao(s, data);
   const barra = h('i', { estilo: { width: prog.perc + '%' } });
   const contador = h('b.num', { texto: `${prog.feitas}/${prog.total}` });
   const atualizarProgresso = () => {
-    const p = registro.progressoSessao(s);
+    const p = registro.progressoSessao(s, data);
     barra.style.width = p.perc + '%';
     contador.textContent = `${p.feitas}/${p.total}`;
   };
@@ -127,7 +128,7 @@ export function telaSessao(s, treinos, jan, ctx, opcoes = {}) {
     h('button.icon-btn', {
       type: 'button', 'aria-label': 'Zerar marcações desta sessão', title: 'Zerar marcações',
       onClick: () => {
-        registro.zerarSessao(s.id);
+        registro.zerarSessao(s.id, data);
         ctx.recarregar();
         toast('Marcações da sessão zeradas.');
       }
@@ -137,7 +138,7 @@ export function telaSessao(s, treinos, jan, ctx, opcoes = {}) {
   if (s.ativacao) raiz.append(blocoAtivacao(s.ativacao));
 
   raiz.append(h('div.mt-3', null,
-    s.exercicios.map((ex) => cartaoExercicio(ex, s, registro, atualizarProgresso))
+    s.exercicios.map((ex) => cartaoExercicio(ex, s, registro, atualizarProgresso, data))
   ));
 
   if (opcoes.volume !== false) raiz.append(secao('Volume da sessão',
@@ -169,7 +170,7 @@ function blocoAtivacao(at) {
   );
 }
 
-function cartaoExercicio(ex, sessao, registro, aoMudar) {
+function cartaoExercicio(ex, sessao, registro, aoMudar, data) {
   const el = h('article.ex', { dataset: { terapeutico: String(Boolean(ex.terapeutico)) } });
 
   el.append(h('div.ex-topo', null,
@@ -205,7 +206,7 @@ function cartaoExercicio(ex, sessao, registro, aoMudar) {
   const acoes = h('div.ex-acoes');
   const bolinhas = [];
   const desenhar = () => {
-    const feitas = registro.seriesFeitas(sessao.id, ex.ordem);
+    const feitas = registro.seriesFeitas(sessao.id, ex.ordem, data);
     bolinhas.forEach((b, i) => { b.dataset.feito = String(i < feitas); });
     el.dataset.feito = String(feitas >= ex.series);
   };
@@ -214,7 +215,7 @@ function cartaoExercicio(ex, sessao, registro, aoMudar) {
       type: 'button',
       'aria-label': `Marcar série ${i + 1} de ${ex.series}`,
       onClick: () => {
-        registro.marcarSerie(sessao.id, ex.ordem, ex.series);
+        registro.marcarSerie(sessao.id, ex.ordem, ex.series, data);
         desenhar();
         aoMudar();
       }

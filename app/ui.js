@@ -287,7 +287,44 @@ export function barraMacro(nome, valor, max, unidade, cor) {
   );
 }
 
+/**
+ * Seletor do dia que está sendo registrado. Existe porque o registro real
+ * mostrou lançamentos em bloco à noite e dois dias que ficaram em branco sem
+ * possibilidade de recuperar: sem escolher a data, um dia perdido é perdido.
+ */
+export function seletorData(dataISO, hoje, aoTrocar) {
+  const campo = h('input', {
+    type: 'date', value: dataISO, max: hoje, 'aria-label': 'Dia registrado',
+    onChange: (e) => { if (e.target.value) aoTrocar(e.target.value); }
+  });
+
+  const desloca = (dias) => {
+    const d = new Date(dataISO + 'T12:00:00');
+    d.setDate(d.getDate() + dias);
+    const iso = d.toISOString().slice(0, 10);
+    if (iso <= hoje) aoTrocar(iso);
+  };
+
+  const ehHoje = dataISO === hoje;
+  return h('div.linha', { estilo: { marginBottom: 'var(--sp-3)' } },
+    h('button.icon-btn', { type: 'button', 'aria-label': 'Dia anterior', onClick: () => desloca(-1) }, icone('voltar')),
+    h('span.esticar', null, campo),
+    h('button.icon-btn', {
+      type: 'button', 'aria-label': 'Dia seguinte', disabled: ehHoje,
+      estilo: ehHoje ? { opacity: '0.35' } : {},
+      onClick: () => desloca(1)
+    }, icone('seta')),
+    ehHoje
+      ? h('span.chip', { dataset: { nivel: 'ok' } }, 'hoje')
+      : h('button.chip', {
+          type: 'button', dataset: { nivel: 'atencao' }, estilo: { cursor: 'pointer' },
+          onClick: () => aoTrocar(hoje)
+        }, 'voltar para hoje')
+  );
+}
+
 export function vazio(texto) {
+
   return h('p.vazio', { texto });
 }
 
