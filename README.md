@@ -76,7 +76,7 @@ A navegação inferior tem exatamente quatro itens:
 | Aba | Responde | Contém |
 |---|---|---|
 | **Hoje** | o que eu faço agora? | uma ação em destaque, quatro atalhos, no máximo um alerta |
-| **Comer** | o que preciso comer? como registro? | progresso do dia, refeição da vez, lista do cardápio, suplementos |
+| **Comer** | o que preciso comer? como registro? | progresso do dia, refeição da vez, lista do cardápio, repetir favoritas, fechar o dia, suplementos |
 | **Treinar** | qual série? como registro série e pedal? | série de hoje (ou a sugerida), registro de pedal, o que já entrou |
 | **Consultar** | onde está aquilo? | todo o resto, agrupado |
 
@@ -114,6 +114,13 @@ contínuos empilhados na mesma tela. Agora:
 Efeito medido no navegador, com o mesmo estado: a tela Hoje passou de **~10 300 px** de altura
 para **~1 000 px** — cabe numa tela e meia em vez de dez.
 
+Cortar alertas não é o mesmo que não ter os que faltam. A análise do registro real de
+01–06/08/2026 encontrou a **gordura** cronicamente baixa (67, 50, 20, 16 e 9 g contra 80 g de
+alvo, inclusive no dia melhor registrado) sem nenhum aviso: era o único macro fixo que ninguém
+cobrava. O alerta existe agora em `nutricao.orientacoes.gorduraBaixa`, com o mesmo formato dos
+outros (`fracaoLimite`, `horaMinima`, texto no dado) — dispara a partir das 19h quando a
+gordura consumida fica abaixo de 60% do alvo e já houve alguma refeição no dia.
+
 ## Modo flexível: registrar e deixar o app se ajustar
 
 Não há programação fixa por dia da semana. Você registra o que fez e o app recalcula.
@@ -143,6 +150,29 @@ estão pendentes; e só os suplementos aplicáveis (whey e caseína em dia de tr
 apenas nos treinos B e D). Se você já comeu como dia leve e depois treinou, ele diz quanto o
 alvo subiu e quanto falta repor. Os macros de cada refeição são gravados no momento da
 marcação, então mudar o tipo do dia depois não reescreve o que já foi comido.
+
+**Registrar em outro dia.** Comer e Treinar aceitam uma data na rota (`#/comer/2026-08-05`,
+`#/treinar/2026-08-05`) e trazem um seletor de dia no topo — dia anterior, dia seguinte,
+calendário limitado a hoje e um atalho "voltar para hoje". Tudo o que se grava naquela tela
+cai na data escolhida: refeições, atividades, correção de gasto, marcação de série e
+suplementos. Também os avisos que dependem da hora ("já é 19h e falta gordura"): num dia
+passado o prazo já venceu, então eles são avaliados como fim de dia em vez de seguirem o
+relógio de agora.
+
+**Repetir uma refeição.** Ao personalizar uma refeição, dá para salvá-la como **favorita**;
+em Comer aparece a seção *Repetir* com um toque para lançar cada favorita e cada refeição
+composta **do dia anterior**. Foi a resposta ao registro real, em que o mesmo café da manhã
+foi remontado item por item quatro vezes. As favoritas moram no estado e portanto entram no
+backup.
+
+**Fechar o dia.** O app não conseguia distinguir *"não comi"* de *"não registrei"* — um dia
+com uma única refeição lançada virava déficit de ~2000 kcal no balanço da semana e alimentava
+o banco calórico. Agora um dia só entra na conta se tiver refeição registrada **ou** estiver
+marcado como fechado (botão "Fechei o dia", em Comer). Dia sem nada anotado é dia sem dado,
+não dia de déficit, e fica de fora do balanço. Em Últimos 7 dias a coluna de saldo diz
+`sem registro` ou `só treino` nesses casos, e o alvo da janela soma apenas os dias contáveis.
+O corte pelo teto diário é a exceção: ele vem do gasto, que é registrado, então continua
+contando — mas o banco avisa quanto do saldo vem de dias sem registro de reposição.
 
 **Ajuste semanal — janela móvel de 7 dias** (Consultar → Últimos 7 dias). A cada dia o app olha os 7 dias
 anteriores, em vez de uma semana de calendário: treinar no domingo conta e não existe virada
@@ -178,8 +208,9 @@ avisando quando os inferiores passam 7 dias sem estímulo. Para inverter, troque
   alertas, marcação de séries feitas), volume semanal, progressão, restrições e rotação. A
   lista marca qual é a `próxima` e quais já foram `✓ feitas` na janela.
 - **Ciclismo** — rotina, protocolo do joelho, plano de resistência e cuidados.
-- **Últimos 7 dias** — o que foi feito, gasto e balanço calórico dia a dia, volume por grupo,
-  limites clínicos, por que cada sessão foi escolhida, exportar/importar o registro.
+- **Últimos 7 dias** — o que foi feito, gasto e balanço calórico dia a dia, sua taxa real de
+  gasto comparada à do plano, volume por grupo, limites clínicos, por que cada sessão foi
+  escolhida, exportar/importar o registro.
 - **Saúde** — resumo clínico, composição corporal com gráficos, exames, laudos e pendências.
 - **Dermatologia · Histórico · Pareceres · Perfil · Editar dados.**
 - **Ir direto** — atalhos vindos de `perfil.atalhos` para sub-abas específicas.
@@ -308,6 +339,46 @@ Decisão do usuário (31/07/2026): **650 kcal/h em Z2** e a curva relatada reser
 registro fica em `nutricao.compensacao.divergenciaGasto` e aparece nas abas Semana e Nutrição.
 **Reavaliar na próxima bioimpedância:** se o percentual de gordura subir, a taxa está alta; se
 cair abaixo do piso clínico registrado no perfil, está baixa.
+
+### Taxa medida × taxa do plano
+
+A arbitragem acima é um chute informado; medição é melhor. Cada vez que o gasto de um registro
+é corrigido à mão (o número do ciclocomputador substituindo a estimativa), a diferença fica
+guardada. **Últimos 7 dias → Sua taxa real de gasto** acumula essas correções por tipo e
+perfil de treino e compara a sua taxa real com a do plano. Com `minimoMedicoes` correções do
+mesmo tipo (3, em `nutricao.compensacao.revisaoDaTaxa`) e desvio de pelo menos
+`desvioRelevante` (10%), o app passa a sugerir trocar a taxa — abaixo disso mostra quantas
+medições ainda faltam. Uma medição 18% acima é indício; três seguidas são motivo. O primeiro
+dado real, do registro exportado em 06/08/2026, foi **765 kcal/h medido em Z2 contra 650 do
+plano (+18%)** — na direção do que o usuário relatava, e ainda com uma medição só.
+
+## Suplementos: o que realmente tomar
+
+A lista tinha 10 itens sem hierarquia, e o usuário toma dois (creatina e whey). Cada
+suplemento agora carrega `prioridade` e `porQue`, e a nota de priorização mora em
+`nutricao.suplementosNota` — a rotulagem, a ordem e o alerta vêm do dado, não do código. A aba
+Consultar → Nutrição → Suplementos agrupa por prioridade e mostra o porquê de cada um; a
+checklist diária em Comer segue a mesma ordem, para que os essenciais fiquem no topo.
+
+| Prioridade | Critério | Itens |
+|---|---|---|
+| **essencial** | deficiência medida ou alvo clínico ativo | Creatina · Ômega-3 · Vitamina D3 |
+| **apoio** | faz sentido junto de outra coisa, ou é preventivo | Vitamina K2 · Colágeno + Vitamina C · Whey |
+| **opcional** | justificativa genérica, sem medição que a sustente | Magnésio · Caseína · Zinco |
+
+A priorização vem dos exames do próprio usuário, não de regra geral: **ômega-3** e **vitamina
+D3** são as duas lacunas — nenhum dos dois está em uso, e cada um tem razão independente no
+dado (dose terapêutica anti-inflamatória para a osteíte reacional do ombro + Modic I cervical
+e HDL em 43 mg/dL; e vitamina D medida em 28,2 ng/mL, abaixo do ideal de 30–60). Com o peixe
+limitado a tilápia e merluza, que quase não têm EPA/DHA, a dieta não cobre o ômega-3. O
+**zinco** é o mais fraco da lista: não há zinco nem testosterona medidos, e reposição crônica
+prejudica a absorção de cobre.
+
+⚠️ **Tudo isso se apoia no painel de 10/02/2026.** A reavaliação da vitamina D estava marcada
+para abril/2026 e o painel completo para maio/2026 — os dois estão atrasados. A dose de 5000 UI
+de D3 roda em cima de uma medição de seis meses atrás, e o CK de 480 U/L (ref 35–232) foi
+medido antes da carga de treino atual. Sem número novo, qualquer ajuste de dose é chute; o
+alerta e a ação imediata aparecem no fim da aba de suplementos.
 
 ## Cardápio
 

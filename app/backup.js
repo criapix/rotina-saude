@@ -22,7 +22,9 @@ const APP = 'rotina-saude';
 export async function montarBackup({ store, registro, cofre, incluirDocumentos = true }) {
   if (!cofre.aberto) throw new Error('desbloqueie os dados antes de gerar o backup');
 
-  const conteudo = { registro: { dias: registro.estado.dias } };
+  const conteudo = {
+    registro: { dias: registro.estado.dias, favoritos: registro.favoritos() }
+  };
 
   if (incluirDocumentos) {
     conteudo.documentos = await store.todos();
@@ -39,6 +41,7 @@ export async function montarBackup({ store, registro, cofre, incluirDocumentos =
     geradoEm: new Date().toISOString(),
     resumo: {
       dias: Object.keys(conteudo.registro.dias).length,
+      favoritos: conteudo.registro.favoritos.length,
       documentos: conteudo.documentos ? Object.keys(conteudo.documentos).length : 0
     },
     aviso: 'Conteúdo cifrado com a senha do app. Sem ela, este arquivo não abre.',

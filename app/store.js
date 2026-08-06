@@ -147,12 +147,13 @@ export class Registro {
   /** Dia em modo leitura (sempre devolve objeto, nunca undefined). */
   dia(dataISO = hojeISO()) {
     const d = this.estado.dias[dataISO];
-    if (!d) return { atividades: [], refeicoes: [], suplementos: {}, series: {} };
+    if (!d) return { atividades: [], refeicoes: [], suplementos: {}, series: {}, fechado: false };
     return {
       atividades: d.atividades || [],
       refeicoes: d.refeicoes || [],
       suplementos: d.suplementos || {},
-      series: d.series || {}
+      series: d.series || {},
+      fechado: Boolean(d.fechado)
     };
   }
 
@@ -288,6 +289,61 @@ export class Registro {
     this.#gravar();
   }
 
+  /* ---------------- favoritos ---------------- */
+
+  /**
+   * Refeições salvas para repetir. O registro real mostrou o mesmo café da
+   * manhã lançado quatro vezes, idêntico — remontar item por item era o maior
+   * atrito do app.
+   *
+   * Ficam no estado (e portanto no backup), não numa chave separada.
+   */
+  favoritos() {
+    return this.estado.favoritos || [];
+  }
+
+  salvarFavorito({ nome, composicao, macros }) {
+    this.#sincronizar();
+    this.estado.favoritos = this.estado.favoritos || [];
+    const item = {
+      id: `fav-${Date.now().toString(36)}${Math.random().toString(36).slice(2, 5)}`,
+      nome,
+      composicao,
+      macros,
+      criadoEm: new Date().toISOString()
+    };
+    // Mesmo nome sobrescreve: salvar duas vezes é corrigir, não duplicar.
+    const i = this.estado.favoritos.findIndex((f) => f.nome.toLowerCase() === nome.toLowerCase());
+    if (i >= 0) this.estado.favoritos[i] = { ...item, id: this.estado.favoritos[i].id };
+    else this.estado.favoritos.push(item);
+    this.#gravar();
+    return item;
+  }
+
+  removerFavorito(id) {
+    this.#sincronizar();
+    this.estado.favoritos = (this.estado.favoritos || []).filter((f) => f.id !== id);
+    this.#gravar();
+  }
+
+  /* ---------------- dia fechado ---------------- */
+
+  /**
+   * "Fechei o dia" é diferente de "não registrei". Sem essa marca, um dia com
+   * uma refeição lançada vira um déficit de 2000 kcal no balanço da semana e no
+   * banco calórico — dado sujo entrando em conta clínica.
+   */
+  diaFechado(dataISO = hojeISO()) {
+    return Boolean((this.estado.dias[dataISO] || {}).fechado);
+  }
+
+  alternarDiaFechado(dataISO = hojeISO()) {
+    const d = this.#diaEditavel(dataISO);
+    d.fechado = !d.fechado;
+    this.#gravar();
+    return d.fechado;
+  }
+
   /* ---------------- suplementos ---------------- */
 
   suplementoTomado(nome, dataISO = hojeISO()) {
@@ -335,16 +391,22 @@ export class Registro {
 
   exportar() {
     return JSON.stringify({
-      versao: 1,
+      versao: 2,
       geradoEm: new Date().toISOString(),
-      dias: this.estado.dias
+      dias: this.estado.dias,
+      favoritos: this.estado.favoritos || []
     }, null, 1);
   }
 
   importar(texto, { substituir = false } = {}) {
     const bruto = JSON.parse(texto);
     if (!bruto || typeof bruto !== 'object' || !bruto.dias) throw new Error('arquivo sem o campo "dias"');
-    if (substituir) this.estado.dias = {};
+    if (substituir) { this.estado.dias = {}; this.estado.favoritos = []; }
+    if (Array.isArray(bruto.favoritos)) {
+      const porNome = new Map((this.estado.favoritos || []).map((f) => [f.nome.toLowerCase(), f]));
+      for (const f of bruto.favoritos) if (f && f.nome) porNome.set(f.nome.toLowerCase(), f);
+      this.estado.favoritos = [...porNome.values()];
+    }
     let n = 0;
     for (const [data, dia] of Object.entries(bruto.dias)) {
       if (!/^\d{4}-\d{2}-\d{2}$/.test(data)) continue;

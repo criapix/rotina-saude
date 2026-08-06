@@ -332,31 +332,51 @@ function abaCompensacao(nutricao, dia) {
 
 /* ===================== suplementos ===================== */
 
+const NIVEL_PRIORIDADE = { essencial: 'critico', apoio: 'accent', opcional: 'info' };
+const TITULO_PRIORIDADE = { essencial: 'Essenciais', apoio: 'Apoio', opcional: 'Opcionais' };
+
 function abaSuplementos(nutricao, ctx) {
   const { registro } = ctx;
   const frag = h('div');
+  const nota = nutricao.suplementosNota;
 
-  frag.append(h('div.pilha-2', null, nutricao.suplementos.map((s) => {
-    const item = h('button.check-item', {
-      type: 'button',
-      dataset: { feito: String(registro.suplementoTomado(s.nome)) },
-      onClick: () => { item.dataset.feito = String(registro.alternarSuplemento(s.nome)); }
-    },
-      h('span.check-box', null, icone('check')),
-      h('span.check-texto', null,
-        h('strong', null, s.nome, ' ', h('span.texto-3.texto-sm', { texto: s.dose })),
-        h('span', { texto: s.quando }),
-        s.obs && h('span.texto-xs.mt-2', { texto: s.obs })
-      ),
-      h('span.chip-linha', { estilo: { flexDirection: 'column', alignItems: 'flex-end' } },
-        s.critico ? chip('obrigatório', 'critico') : null,
-        chip(ROTULO_FREQUENCIA[s.frequencia] || s.frequencia, s.frequencia === 'diario' ? 'accent' : 'info')
-      )
-    );
-    return item;
-  })));
+  // A lista deixou de ser alfabética: primeiro o que tem deficiência medida
+  // ou alvo clínico ativo, por último o que só tem justificativa genérica.
+  const ordem = (nota && nota.ordem) || ['essencial', 'apoio', 'opcional'];
+  const grupos = ordem
+    .map((p) => ({ p, itens: nutricao.suplementos.filter((s) => s.prioridade === p) }))
+    .filter((g) => g.itens.length);
+  const semPrioridade = nutricao.suplementos.filter((s) => !ordem.includes(s.prioridade));
+  if (semPrioridade.length) grupos.push({ p: null, itens: semPrioridade });
+
+  if (nota) {
+    frag.append(h('div.card', { estilo: { '--accent': 'var(--c-nutricao)' } },
+      h('h2', { texto: nota.titulo }),
+      h('p.legenda.mt-2', { texto: `Revisado em ${dataBR(nota.revisadoEm)}` }),
+      h('p.texto-2.mt-3', { texto: nota.descricao })
+    ));
+  }
+
+  for (const g of grupos) {
+    const rotulo = g.p ? (nota && nota.rotulos && nota.rotulos[g.p]) || '' : '';
+    frag.append(secao(g.p ? (TITULO_PRIORIDADE[g.p] || g.p) : 'Outros',
+      rotulo ? h('p.legenda', { texto: rotulo }) : null,
+      h('div.pilha-2.mt-2', null, g.itens.map((s) => item(s, registro, g.p)))
+    ));
+  }
 
   frag.append(h('p.legenda.mt-3', { texto: 'As marcações valem só para hoje e ficam guardadas neste dispositivo.' }));
+
+  if (nota && nota.alerta) {
+    frag.append(h('div.mt-3', null, aviso({
+      nivel: 'atencao', titulo: 'Os números já venceram', texto: nota.alerta
+    })));
+  }
+  if (nota && nota.acaoImediata) {
+    frag.append(h('div.mt-2', null, aviso({
+      nivel: 'critico', titulo: 'Ação imediata', texto: nota.acaoImediata
+    })));
+  }
 
   frag.append(secao('Estratégia anti-inflamatória',
     h('div.grade.grade-2', null,
@@ -372,6 +392,27 @@ function abaSuplementos(nutricao, ctx) {
   ));
 
   return frag;
+}
+
+function item(s, registro, prioridade) {
+  const el = h('button.check-item', {
+    type: 'button',
+    dataset: { feito: String(registro.suplementoTomado(s.nome)) },
+    onClick: () => { el.dataset.feito = String(registro.alternarSuplemento(s.nome)); }
+  },
+    h('span.check-box', null, icone('check')),
+    h('span.check-texto', null,
+      h('strong', null, s.nome, ' ', h('span.texto-3.texto-sm', { texto: s.dose })),
+      h('span', { texto: s.quando }),
+      s.porQue && h('span.texto-xs.mt-2', { texto: s.porQue }),
+      s.obs && h('span.texto-xs.texto-3.mt-2', { texto: s.obs })
+    ),
+    h('span.chip-linha', { estilo: { flexDirection: 'column', alignItems: 'flex-end' } },
+      prioridade ? chip(prioridade, NIVEL_PRIORIDADE[prioridade] || 'info') : null,
+      chip(ROTULO_FREQUENCIA[s.frequencia] || s.frequencia, s.frequencia === 'diario' ? 'accent' : 'info')
+    )
+  );
+  return el;
 }
 
 /* ===================== estratégias ===================== */

@@ -5,7 +5,9 @@ import {
   h, icone, cabecalhoPagina, aviso, chip, card, cardTitulado, tabela, lista,
   secao, dataBR, dataCurta
 } from '../ui.js';
-import { resumoJanela, resumoEnergetico, bancoCalorico, diasEntre } from '../motor.js';
+import {
+  resumoJanela, resumoEnergetico, bancoCalorico, medicoesDeGasto, diasEntre
+} from '../motor.js';
 import { barrasHorizontais } from '../charts.js';
 
 export async function render(ctx) {
@@ -15,6 +17,7 @@ export async function render(ctx) {
   const jan = resumoJanela(dados, registro);
   const energia = resumoEnergetico(dados, registro);
   const banco = bancoCalorico(dados, registro);
+  const med = medicoesDeGasto(dados, registro);
 
   const raiz = h('div');
   raiz.append(cabecalhoPagina({
@@ -32,6 +35,7 @@ export async function render(ctx) {
   raiz.append(blocoPendencia(jan, treinos));
   raiz.append(blocoLinhaDoTempo(jan, treinos, ctx));
   raiz.append(blocoEnergia(energia, banco, nutricao.compensacao, treinos));
+  raiz.append(blocoMedicoes(med));
   raiz.append(blocoVolume(jan));
   raiz.append(blocoLimites(jan));
   raiz.append(blocoProxima(jan));
@@ -157,14 +161,17 @@ function blocoEnergia(en, banco, comp, treinos) {
           h('small.texto-3', { texto: dist === 0 ? ' · hoje' : ` · há ${dist}d` }),
           nomes.length ? h('small.texto-3', { texto: ' · ' + nomes.join('+') }) : null),
         l.gasto || h('span.texto-3', { texto: '—' }),
-        l.registrou ? l.alvo : h('span.texto-3', { texto: '—' }),
+        l.confiavel ? l.alvo : h('span.texto-3', { texto: '—' }),
         l.consumido || h('span.texto-3', { texto: '—' }),
-        l.registrou
-          ? h('span', {
-              estilo: { color: Math.abs(l.saldo) <= 200 ? 'var(--c-ok)' : l.saldo < 0 ? 'var(--c-atencao)' : 'var(--c-info)' },
-              texto: `${l.saldo > 0 ? '+' : ''}${l.saldo}`
-            })
-          : h('span.texto-3', { texto: 'sem registro' })
+        l.confiavel
+          ? h('span', null,
+              h('span', {
+                estilo: { color: Math.abs(l.saldo) <= 200 ? 'var(--c-ok)' : l.saldo < 0 ? 'var(--c-atencao)' : 'var(--c-info)' },
+                texto: `${l.saldo > 0 ? '+' : ''}${l.saldo}`
+              }),
+              l.fechado ? h('small.texto-3', { texto: ' · fechado' }) : null
+            )
+          : h('span.texto-3', { texto: l.registrou ? 'só treino' : 'sem registro' })
       ]
     };
   });
@@ -181,20 +188,38 @@ function blocoEnergia(en, banco, comp, treinos) {
       h('div.metrica', { estilo: { '--accent': 'var(--c-nutricao)' } },
         h('div.metrica-label', { texto: 'Alvo × consumido' }),
         h('div.metrica-valor', null, h('b.num', { texto: `${en.consumido}/${en.alvo}` })),
-        h('div.metrica-nota', { texto: 'kcal, só dias com registro' })
+        h('div.metrica-nota', {
+          texto: `kcal em ${en.diasConfiaveis} de ${en.janelaDias} dias contáveis`
+        })
       ),
       h('div.metrica', { dataset: { nivel: Math.abs(balanco) <= 500 ? 'ok' : 'atencao' } },
         h('div.metrica-label', { texto: 'Balanço' }),
         h('div.metrica-valor', null, h('b.num', { texto: `${balanco > 0 ? '+' : ''}${balanco}` })),
-        h('div.metrica-nota', { texto: balanco < 0 ? 'abaixo do alvo' : 'acima do alvo' })
+        h('div.metrica-nota', {
+          texto: en.diasConfiaveis
+            ? `${balanco < 0 ? 'abaixo' : 'acima'} do alvo · ~${en.mediaSaldo > 0 ? '+' : ''}${en.mediaSaldo}/dia`
+            : 'nenhum dia contável'
+        })
       )
     ),
+
+    // Sem essa distinção o app lia "não anotei" como "não comi" e alimentava o
+    // banco calórico com déficits que nunca existiram.
+    en.diasConfiaveis < en.janelaDias
+      ? h('div.mt-3', null, aviso({
+          nivel: 'info',
+          titulo: `${en.janelaDias - en.diasConfiaveis} dia(s) fora da conta`,
+          texto: 'Um dia só entra no balanço se tiver refeição registrada ou estiver marcado como fechado em Comer. Dia sem nada anotado não é dia de déficit — é dia sem dado, e por isso fica de fora.'
+        }))
+      : null,
 
     banco.saldo > 0
       ? h('div.mt-3', null, aviso({
           nivel: 'atencao',
           titulo: `${banco.titulo}: ${banco.saldo} kcal a repor`,
-          texto: `${banco.gerado} kcal ficaram acima do teto de ${comp.tetoKcalDia} nos últimos ${banco.janelaDias} dias e ${banco.reposto} já foram repostas. ${comp.banco.nota}`
+          texto: `${banco.gerado} kcal ficaram acima do teto de ${comp.tetoKcalDia} nos últimos ${banco.janelaDias} dias e ${banco.reposto} já foram repostas.`
+            + (banco.semDado ? ` Atenção: ${banco.semDado} kcal vêm de dias sem refeição registrada — você pode ter reposto e não anotado.` : '')
+            + ` ${comp.banco.nota}`
         }))
       : null,
 
@@ -214,6 +239,58 @@ function blocoEnergia(en, banco, comp, treinos) {
           texto: `${comp.divergenciaGasto.texto} ${comp.divergenciaGasto.consequencia}`
         }))
       : null
+  );
+}
+
+/* ===================== taxa medida × taxa usada ===================== */
+
+// Cada gasto corrigido à mão é uma medição. Acumuladas, elas dizem se a taxa
+// do plano está errada — o que uma correção isolada nunca prova.
+function blocoMedicoes(med) {
+  if (!med.grupos.length) {
+    return secao('Sua taxa real de gasto',
+      card(
+        h('p.texto-2', { texto: `Nenhuma medição ainda. Sempre que o ciclocomputador ou o relógio der outro número, corrija o gasto do registro em Treinar: a partir de ${med.minimoMedicoes} correções do mesmo tipo de treino o app compara a sua taxa real com a taxa do plano.` })
+      )
+    );
+  }
+
+  const linhas = med.grupos.map((g) => ({
+    dataset: g.sugereRevisar ? { destaque: 'true' } : {},
+    celulas: [
+      h('span', null, g.perfil ? `${g.tipo} ${g.perfil}` : g.tipo,
+        h('small.texto-3', { texto: ` · ${g.n} medição${g.n === 1 ? '' : 'ões'}` })),
+      g.taxaAtual,
+      h('b.num', { texto: String(g.taxaMedida) }),
+      h('span', {
+        estilo: { color: Math.abs(g.desvioPerc) < 10 ? 'var(--c-ok)' : 'var(--c-atencao)' },
+        texto: `${g.desvioPerc > 0 ? '+' : ''}${g.desvioPerc}%`
+      }),
+      g.sugereRevisar
+        ? chip('revisar a taxa', 'atencao')
+        : g.faltamMedicoes
+          ? h('span.texto-3', { texto: `faltam ${g.faltamMedicoes}` })
+          : chip('taxa confere', 'ok')
+    ]
+  }));
+
+  const revisar = med.grupos.filter((g) => g.sugereRevisar);
+
+  return secao('Sua taxa real de gasto',
+    tabela(
+      [{ nome: 'Treino' }, { nome: 'Plano', classe: 'num' }, { nome: 'Medido', classe: 'num' },
+       { nome: 'Desvio', classe: 'num' }, { nome: 'Situação' }],
+      linhas
+    ),
+    h('p.legenda.mt-2', { texto: 'kcal por hora. "Plano" é a taxa que o app usa para estimar; "medido" é a média das suas correções manuais.' }),
+    revisar.length
+      ? h('div.mt-3', null, aviso({
+          nivel: 'atencao',
+          titulo: 'A taxa do plano está fora do que você mede',
+          texto: revisar.map((g) => `${g.perfil ? `${g.tipo} ${g.perfil}` : g.tipo}: ${g.taxaMedida} kcal/h medido contra ${g.taxaAtual} do plano (${g.desvioPerc > 0 ? '+' : ''}${g.desvioPerc}%) em ${g.n} medições`).join('; ') + '. Vale trocar a taxa no plano — cada 10% de erro aqui vira ~100 kcal por hora de pedal no seu alvo do dia.'
+        }))
+      : null,
+    med.nota ? h('p.legenda.mt-2', { texto: med.nota }) : null
   );
 }
 
