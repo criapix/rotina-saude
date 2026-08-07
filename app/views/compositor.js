@@ -84,6 +84,26 @@ export function abrirCompositor({ alimentos, refeicao, inicial, ctx, data }) {
           texto: 'A gordura do dia também é fixa (80 g). Vale conferir o queijo, o requeijão e o azeite das outras refeições.'
         })));
       }
+      // O aviso de gordura só existia para cima. Em 7 dias de registro a
+      // gordura ficou em 38% do alvo enquanto o app não dizia nada — o
+      // desequilíbrio estava justamente na direção que faltava cobrir.
+      if (d.g < -8) {
+        comparativo.append(h('div.mt-2', null, aviso({
+          nivel: 'atencao',
+          titulo: `${Math.abs(d.g)} g de gordura a menos que o planejado`,
+          texto: 'Gordura é macro fixo e sustenta produção hormonal e absorção de vitaminas lipossolúveis. O que sai aqui precisa entrar em outra refeição.'
+        })));
+      }
+      // Dizer qual item saiu resolve mais do que mostrar a diferença: foi item
+      // omitido, não porção reduzida, que abriu o buraco.
+      const faltando = itensRemovidos(refeicao, composicao, idx);
+      if (faltando.length) {
+        comparativo.append(h('div.mt-2', null, aviso({
+          nivel: 'info',
+          titulo: faltando.length === 1 ? 'Um item do plano ficou de fora' : `${faltando.length} itens do plano ficaram de fora`,
+          itens: faltando
+        })));
+      }
     }
   }
 
@@ -246,6 +266,23 @@ export function abrirCompositor({ alimentos, refeicao, inicial, ctx, data }) {
       : null,
     h('p.legenda.mt-3', { texto: alimentos.aviso })
   ), doPlano ? 'Personalizar refeição' : 'Registrar refeição');
+}
+
+/**
+ * Itens do plano que sumiram da composição atual, descritos com a gramatura
+ * que o plano pedia. "Faltou azeite de oliva 10 g" resolve o que uma diferença
+ * de macros não resolve: o registro mostrou item omitido, não porção menor.
+ */
+export function itensRemovidos(refeicao, composicao, idx) {
+  const doPlano = (refeicao && refeicao.composicao) || [];
+  if (!doPlano.length) return [];
+  const presentes = new Set(composicao.map((x) => x.alimentoId));
+  return doPlano
+    .filter((x) => !presentes.has(x.alimentoId))
+    .map((x) => {
+      const a = idx.get ? idx.get(x.alimentoId) : idx[x.alimentoId];
+      return `${a ? a.nome : x.alimentoId} — ${x.gramas} g`;
+    });
 }
 
 export { descreverComposicao };
