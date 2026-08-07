@@ -147,13 +147,14 @@ export class Registro {
   /** Dia em modo leitura (sempre devolve objeto, nunca undefined). */
   dia(dataISO = hojeISO()) {
     const d = this.estado.dias[dataISO];
-    if (!d) return { atividades: [], refeicoes: [], suplementos: {}, series: {}, fechado: false };
+    if (!d) return { atividades: [], refeicoes: [], suplementos: {}, series: {}, fechado: false, tranquilo: false };
     return {
       atividades: d.atividades || [],
       refeicoes: d.refeicoes || [],
       suplementos: d.suplementos || {},
       series: d.series || {},
-      fechado: Boolean(d.fechado)
+      fechado: Boolean(d.fechado),
+      tranquilo: Boolean(d.tranquilo)
     };
   }
 
@@ -342,6 +343,22 @@ export class Registro {
     d.fechado = !d.fechado;
     this.#gravar();
     return d.fechado;
+  }
+
+  /**
+   * Dia fora da rotina: troca o cardápio de 5 refeições com hora marcada pelo
+   * modo tranquilo, de 3 sem horário. É marcação do usuário, não do calendário —
+   * o app nunca deduziu nada de dia da semana e não vai começar agora.
+   */
+  diaTranquilo(dataISO = hojeISO()) {
+    return Boolean((this.estado.dias[dataISO] || {}).tranquilo);
+  }
+
+  alternarDiaTranquilo(dataISO = hojeISO()) {
+    const d = this.#diaEditavel(dataISO);
+    d.tranquilo = !d.tranquilo;
+    this.#gravar();
+    return d.tranquilo;
   }
 
   /* ---------------- suplementos ---------------- */

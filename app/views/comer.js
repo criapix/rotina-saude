@@ -44,6 +44,7 @@ export async function render(ctx) {
   }));
 
   raiz.append(seletorData(data, hoje, (d) => ctx.navegar(`#/comer/${d}`)));
+  raiz.append(blocoModo(dia, nutricao, data, ctx));
   raiz.append(barraDoDia(dia));
 
   // A refeição da vez, em destaque e com as duas ações a um toque.
@@ -282,6 +283,51 @@ function diaAnterior(dataISO) {
   const d = new Date(dataISO + 'T12:00:00');
   d.setDate(d.getDate() - 1);
   return d.toISOString().slice(0, 10);
+}
+
+/* ===================== modo do dia ===================== */
+
+/**
+ * Alterna entre o cardápio de 5 refeições com hora marcada e o modo tranquilo,
+ * de 3 sem horário. É marcação do usuário, não do calendário: o app nunca
+ * deduziu nada de dia da semana. O alvo calórico não muda — só o cardápio.
+ */
+function blocoModo(dia, nutricao, data, ctx) {
+  const mt = nutricao.modoTranquilo;
+  if (!mt) return h('div');
+  const { registro } = ctx;
+  const ligado = dia.tranquilo;
+
+  return h('div.card.card-com-ajuda.mt-3', {
+    estilo: { '--accent': ligado ? 'var(--c-hoje)' : 'var(--c-geral)' }
+  },
+    ajuda([mt.descricao, mt.porQue, ...mt.regras, mt.nota], mt.titulo),
+    h('div.linha', null,
+      h('div.esticar', null,
+        h('h4', { texto: ligado ? mt.titulo : 'Dia de rotina' }),
+        h('p.legenda', {
+          texto: ligado
+            ? `${mt.refeicoes.length} refeições sem hora marcada.`
+            : `${dia.tipoDoPlano.refeicoes.length} refeições com hora — o cardápio normal.`
+        })
+      ),
+      h('button.btn.btn-secundario', {
+        type: 'button',
+        onClick: () => {
+          const agora = registro.alternarDiaTranquilo(data);
+          toast(agora ? 'Modo tranquilo ligado.' : 'De volta ao cardápio normal.');
+          ctx.recarregar();
+        }
+      }, icone(ligado ? 'voltar' : 'rotacao'), ligado ? 'Voltar ao normal' : 'Estou fora da rotina')
+    ),
+    ligado && mt.piso
+      ? h('div.mt-3', null, aviso({
+          nivel: 'ok',
+          titulo: `O piso do dia: ${mt.piso.refeicoes.length} refeições`,
+          texto: mt.piso.texto
+        }))
+      : null
+  );
 }
 
 /* ===================== fechar o dia ===================== */

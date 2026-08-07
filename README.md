@@ -368,6 +368,26 @@ medições ainda faltam. Uma medição 18% acima é indício; três seguidas sã
 dado real, do registro exportado em 06/08/2026, foi **765 kcal/h medido em Z2 contra 650 do
 plano (+18%)** — na direção do que o usuário relatava, e ainda com uma medição só.
 
+### Fim de semana: o modo tranquilo
+
+O cardápio de 5 refeições com hora marcada não sobrevive ao fim de semana. No registro de
+30/07 a 07/08 a sexta teve 5 refeições; o **sábado teve 1 e o domingo, nenhuma**. Um plano que
+não sobrevive dois dias em sete não é o plano de sete dias.
+
+`nutricao.modoTranquilo` traz um cardápio paralelo de **3 refeições sem hora marcada** mais uma
+dose coringa de whey, montado para funcionar comendo fora, acordando tarde ou na casa de
+alguém. Entrega ~102% da proteína e ~93% da gordura do dia normal com menos da metade da
+operação. Traz também um `piso` — as duas refeições que sustentam o dia sozinhas — para o dia
+que desandar ter um alvo alcançável em vez de uma lista de falhas.
+
+Duas invariantes:
+
+- **É marca do usuário, não do calendário.** Um botão em Comer grava `tranquilo: true` no dia,
+  no mesmo padrão de `fechado`. O app nunca deduziu nada de dia da semana e não passa a
+  deduzir — há teste garantindo que nem o motor nem a view chamam `getDay()`.
+- **Troca o cardápio, não o alvo.** O alvo calórico continua vindo do gasto registrado: pedalou
+  no sábado, o alvo sobe igual e o reforço de carboidrato é sugerido como em qualquer dia.
+
 ## Suplementos: o que realmente tomar
 
 A lista tinha 10 itens sem hierarquia, e o usuário toma dois (creatina e whey). Cada
