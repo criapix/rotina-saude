@@ -5,7 +5,7 @@
 // Drive exige um client ID OAuth criado pelo dono da conta.
 
 import {
-  h, icone, cabecalhoPagina, aviso, card, secao, toast, dataBR, carregando
+  h, icone, ajuda, cabecalhoPagina, aviso, card, secao, toast, dataBR, carregando
 } from '../ui.js';
 import {
   montarBackup, restaurarBackup, lerEnvelope,
@@ -79,7 +79,7 @@ function blocoExportar(ctx) {
       h('p.texto-2', { texto: 'Um arquivo com tudo. Guarde onde quiser — e-mail para você mesmo, pendrive, qualquer nuvem.' }),
       h('div.grade.grade-2.mt-3', null, btnBaixar, btnCompartilhar),
       btnCompartilhar
-        ? h('p.legenda.mt-2', { texto: 'Compartilhar abre a folha do sistema: no celular é o caminho mais curto até o Drive, sem configurar nada.' })
+        ? h('div.linha', null, h('span.esticar'), ajuda('Compartilhar abre a folha do sistema: no celular é o caminho mais curto até o Drive, sem configurar nada.', 'Como mandar para o Drive sem configurar'))
         : h('p.legenda.mt-2', { texto: 'Este navegador não compartilha arquivos — no celular aparece também o botão de compartilhar.' }),
       estado
     )
@@ -150,16 +150,16 @@ function blocoDrive(perfil, ctx) {
 
   if (!cfg) {
     const g = (perfil.integracoes && perfil.integracoes.googleDrive) || {};
+    // Setup de uma vez na vida: o passo a passo não precisa ocupar a tela
+    // depois de lido. O que fica visível é a saída prática — use Compartilhar.
     return secao('Google Drive',
-      card(
-        h('p.texto-2', { texto: 'Enviar o backup direto para o Drive precisa de um ID de cliente OAuth criado na sua conta Google. Enquanto ele não existir, use Compartilhar — no celular resolve em um toque.' }),
-        g.comoConfigurar
-          ? h('div.mt-3', null,
-              h('h4', { texto: 'Como configurar' }),
-              h('ol.lista.mt-2', null, g.comoConfigurar.map((t) => h('li', { texto: t })))
-            )
-          : null,
-        g.notaSeguranca ? h('p.legenda.mt-3', { texto: g.notaSeguranca }) : null
+      h('div.card.card-com-ajuda', null,
+        ajuda([
+          'Enviar o backup direto para o Drive precisa de um ID de cliente OAuth criado na sua conta Google.',
+          ...(g.comoConfigurar || []),
+          ...(g.notaSeguranca ? [g.notaSeguranca] : [])
+        ], 'Como configurar o envio automático'),
+        h('p.texto-2', { texto: 'Ainda não configurado. Use Compartilhar acima — no celular resolve em um toque.' })
       )
     );
   }
@@ -223,12 +223,17 @@ function blocoDrive(perfil, ctx) {
 
   return secao('Google Drive',
     card(
-      h('p.texto-2', { texto: 'O app envia o backup cifrado para o seu Drive. O escopo é drive.file: ele só enxerga os arquivos que ele mesmo criou.' }),
+      h('div.linha', null,
+        h('span.esticar'),
+        ajuda('O app envia o backup cifrado para o seu Drive. O escopo é drive.file: ele só enxerga os arquivos que ele mesmo criou — nada mais da sua conta. O conteúdo vai cifrado com a senha do app, então nem o Google lê.',
+          'O que o app enxerga no seu Drive')),
       h('div.grade.grade-2.mt-3', null,
         h('button.btn.btn-primario', { type: 'button', onClick: enviar }, icone('seta'), 'Enviar backup'),
         h('button.btn.btn-secundario', { type: 'button', onClick: listar }, icone('historico'), 'Ver backups')
       ),
-      h('p.legenda.mt-2', { texto: cfg.notaBackup || '' }),
+      cfg.notaBackup
+        ? h('div.linha.mt-2', null, h('span.esticar'), ajuda(cfg.notaBackup, 'Sobre o envio'))
+        : null,
       painel
     )
   );

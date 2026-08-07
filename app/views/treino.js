@@ -1,7 +1,7 @@
 // Aba "Treino" — sessões A/B/C/D, volume, progressão, restrições e rotação.
 
 import {
-  h, icone, cabecalhoPagina, aviso, chip, card, cardTitulado, segmentos,
+  h, icone, ajuda, cabecalhoPagina, aviso, chip, card, cardTitulado, segmentos,
   tabela, lista, definicoes, secao, dataBR, toast
 } from '../ui.js';
 import { volumeSessao, contaNovos } from '../store.js';
@@ -152,8 +152,9 @@ export function telaSessao(s, treinos, jan, ctx, opcoes = {}) {
         Object.entries(vol.porGrupo).sort((a, b) => b[1] - a[1]).map(([nome, valor]) => ({ nome, valor })),
         { unidade: ' séries' }
       ),
-      h('p.legenda.mt-3', { texto: `Total calculado: ${vol.total} séries.` }),
-      s.notaVolume && h('p.legenda.mt-2', { texto: s.notaVolume })
+      h('div.linha.mt-3', null,
+        h('span.legenda.esticar', { texto: `Total calculado: ${vol.total} séries.` }),
+        s.notaVolume ? ajuda(s.notaVolume, 'Sobre este total') : null)
     )
   ));
 
@@ -162,8 +163,10 @@ export function telaSessao(s, treinos, jan, ctx, opcoes = {}) {
 
 function blocoAtivacao(at, cor = 'var(--c-saude)') {
   return h('div.card.mt-3', { estilo: { '--accent': cor } },
-    h('h3.card-titulo', null, icone('escudo'), ' ', at.titulo),
-    h('p.legenda', { texto: at.nota }),
+    h('div.linha', null,
+      h('h3.card-titulo.esticar', null, icone('escudo'), ' ', at.titulo),
+      ajuda(at.nota, at.titulo)
+    ),
     h('div.mt-3', null, at.itens.map((i) => h('div.refeicao', null,
       h('span.refeicao-hora', { texto: i.series }),
       h('div.refeicao-corpo', null,
@@ -171,7 +174,11 @@ function blocoAtivacao(at, cor = 'var(--c-saude)') {
         i.cue && h('div.refeicao-itens', { texto: i.cue })
       )
     ))),
-    at.cueGeral && h('p.legenda.mt-3', null, h('strong', { texto: 'Cue geral: ' }), at.cueGeral)
+    at.cueGeral
+      ? h('div.linha.mt-3', null,
+          h('span.legenda.esticar', { texto: 'Cue geral' }),
+          ajuda(at.cueGeral, 'Cue geral'))
+      : null
   );
 }
 
