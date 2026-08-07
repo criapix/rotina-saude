@@ -206,7 +206,10 @@ avisando quando os inferiores passam 7 dias sem estímulo. Para inverter, troque
   alimentos, compensação do gasto, suplementos, estratégias e metas.
 - **Série de musculação** — sessões A/B/C/D com cartões de exercício (séries × reps, cues,
   alertas, marcação de séries feitas), volume semanal, progressão, restrições e rotação. A
-  lista marca qual é a `próxima` e quais já foram `✓ feitas` na janela.
+  lista marca qual é a `próxima` e quais já foram `✓ feitas` na janela. Cada sessão pode trazer
+  dois blocos antes dos exercícios, ambos sem carga e fora do volume de hipertrofia: `postura`
+  (mobilidade, primeiro) e `ativacao` (preparo específico). Os dois usam a mesma estrutura
+  — `titulo`, `nota`, `itens[{nome, series, cue, opcional}]`, `cueGeral` — e só diferem na cor.
 - **Ciclismo** — rotina, protocolo do joelho, plano de resistência e cuidados.
 - **Últimos 7 dias** — o que foi feito, gasto e balanço calórico dia a dia, sua taxa real de
   gasto comparada à do plano, volume por grupo, limites clínicos, por que cada sessão foi

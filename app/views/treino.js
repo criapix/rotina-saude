@@ -137,6 +137,9 @@ export function telaSessao(s, treinos, jan, ctx, opcoes = {}) {
     }, icone('rotacao'))
   ));
 
+  // Postura vem antes da ativação: mobilizar antes de ativar, e é o bloco que
+  // muda o padrão que ele quer corrigir.
+  if (s.postura) raiz.append(blocoAtivacao(s.postura, 'var(--c-hoje)'));
   if (s.ativacao) raiz.append(blocoAtivacao(s.ativacao));
 
   raiz.append(h('div.mt-3', null,
@@ -157,8 +160,8 @@ export function telaSessao(s, treinos, jan, ctx, opcoes = {}) {
   return raiz;
 }
 
-function blocoAtivacao(at) {
-  return h('div.card.mt-3', { estilo: { '--accent': 'var(--c-saude)' } },
+function blocoAtivacao(at, cor = 'var(--c-saude)') {
+  return h('div.card.mt-3', { estilo: { '--accent': cor } },
     h('h3.card-titulo', null, icone('escudo'), ' ', at.titulo),
     h('p.legenda', { texto: at.nota }),
     h('div.mt-3', null, at.itens.map((i) => h('div.refeicao', null,
