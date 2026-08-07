@@ -368,17 +368,15 @@ checklist diária em Comer segue a mesma ordem, para que os essenciais fiquem no
 
 A priorização vem dos exames do próprio usuário, não de regra geral: **ômega-3** e **vitamina
 D3** são as duas lacunas — nenhum dos dois está em uso, e cada um tem razão independente no
-dado (dose terapêutica anti-inflamatória para a osteíte reacional do ombro + Modic I cervical
-e HDL em 43 mg/dL; e vitamina D medida em 28,2 ng/mL, abaixo do ideal de 30–60). Com o peixe
-limitado a tilápia e merluza, que quase não têm EPA/DHA, a dieta não cobre o ômega-3. O
-**zinco** é o mais fraco da lista: não há zinco nem testosterona medidos, e reposição crônica
-prejudica a absorção de cobre.
+dado. Os valores medidos, os diagnósticos que sustentam cada indicação e o texto de cada
+`porQue` ficam **só em `nutricao.enc.json`**, cifrado; este README descreve o mecanismo, não os
+resultados. O **zinco** é o mais fraco da lista: não há medição que o sustente, e reposição
+crônica prejudica a absorção de cobre.
 
-⚠️ **Tudo isso se apoia no painel de 10/02/2026.** A reavaliação da vitamina D estava marcada
-para abril/2026 e o painel completo para maio/2026 — os dois estão atrasados. A dose de 5000 UI
-de D3 roda em cima de uma medição de seis meses atrás, e o CK de 480 U/L (ref 35–232) foi
-medido antes da carga de treino atual. Sem número novo, qualquer ajuste de dose é chute; o
-alerta e a ação imediata aparecem no fim da aba de suplementos.
+⚠️ **A priorização inteira se apoia num painel laboratorial já vencido**, com duas reavaliações
+atrasadas — o app mostra isso em `suplementosNota.alerta` e `suplementosNota.acaoImediata`, no
+fim da aba de suplementos. Sem número novo, qualquer ajuste de dose é chute. As datas e os
+valores estão nos documentos cifrados (`exames`, `saude`), que é onde pertencem.
 
 ## Cardápio
 

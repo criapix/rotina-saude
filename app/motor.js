@@ -485,9 +485,20 @@ export function resumoDia(dados, registro, dataISO = hojeISO(), ref = new Date()
   const feitas = new Set((dia.refeicoes || []).map((r) => r.id));
   const pendentes = tipo.refeicoes.filter((r) => !feitas.has(r.id));
 
+  // Mais de uma série no mesmo dia é permitido. As séries feitas são gravadas
+  // sob uma chave por execução: a primeira do dia mantém a chave antiga (o
+  // próprio id da sessão, para não invalidar o que já está gravado) e a
+  // segunda em diante ganha sufixo, senão marcar série numa marcaria na outra.
+  const vistas = new Map();
   const sessoes = atividades
     .filter((a) => a.tipo === 'academia' && a.sessao)
-    .map((a) => treinos.sessoes.find((s) => s.id === a.sessao))
+    .map((a) => {
+      const s = treinos.sessoes.find((x) => x.id === a.sessao);
+      if (!s) return null;
+      const n = (vistas.get(s.id) || 0) + 1;
+      vistas.set(s.id, n);
+      return { ...s, execucaoId: a.id, repeticao: n, chave: n === 1 ? s.id : `${s.id}#${n}` };
+    })
     .filter(Boolean);
 
   const resumo = {

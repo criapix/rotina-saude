@@ -43,6 +43,9 @@ export async function render(ctx) {
     for (const s of dia.sessoes) {
       raiz.append(telaSessao(s, treinos, jan, ctx, { voltar: false, volume: false, data }));
     }
+    // Mais de uma série no mesmo dia é permitido — recolhido, para não competir
+    // com a lista de exercícios, que é o que se olha dentro da academia.
+    raiz.append(blocoSerie(dia, jan, comp, ctx, { extra: true }));
     raiz.append(registrado(dia, comp, treinos, ctx));
     raiz.append(blocoPedal(dia, dados, comp, ctx));
     return raiz;
@@ -65,30 +68,90 @@ export async function render(ctx) {
 
 /* ===================== a série de hoje ===================== */
 
-function blocoSerie(dia, jan, comp, ctx) {
+function blocoSerie(dia, jan, comp, ctx, opcoes = {}) {
   const { registro } = ctx;
+  const extra = Boolean(opcoes.extra);
   const p = jan.proxima.escolhida;
+  const s = p && p.sessao;
 
-  if (!p) {
-    return h('div', null, aviso({
-      nivel: 'ok',
-      titulo: 'Nenhuma série liberada agora',
-      texto: 'Todas as opções estão bloqueadas por limite clínico ou intervalo de recuperação. Hoje é pedal leve ou descanso.'
-    }));
-  }
-
-  const s = p.sessao;
   const selDur = h('select', { 'aria-label': 'Duração do treino' },
     DURACOES_ACADEMIA.map((m) => h('option', {
       value: String(m),
       selected: m === comp.atividades.find((a) => a.id === 'academia').duracaoPadraoMin
     }, formatarDuracao(m)))
   );
+  // Todas as sessões entram no seletor manual, inclusive as já feitas na
+  // janela: quem faz a segunda série do dia pode querer justamente repetir.
   const seletorSessao = h('select', { 'aria-label': 'Qual série' },
     jan.proxima.candidatos.map((c) => h('option',
-      { value: c.sessao.id, selected: c.sessao.id === s.id },
+      { value: c.sessao.id, selected: Boolean(s) && c.sessao.id === s.id },
       `${c.sessao.id} — ${c.sessao.nome}${c.livre ? '' : ' (com ressalva)'}`))
   );
+
+  const registrar = (sessaoId) => {
+    registro.registrarAtividade(
+      { tipo: 'academia', sessao: sessaoId, duracaoMin: Number(selDur.value) }, ctx.data);
+    if (extra) toast('Segunda série registrada.');
+    ctx.recarregar();
+  };
+
+  // A ressalva da sessão escolhida, atualizada ao trocar no seletor. Sem isso
+  // dá para registrar a segunda série do dia sem ver que ela estoura um limite
+  // clínico — o aviso existia só em Consultar → Semana, longe da decisão.
+  const ressalva = h('p.legenda');
+  const atualizarRessalva = () => {
+    const c = jan.proxima.candidatos.find((x) => x.sessao.id === seletorSessao.value);
+    const bs = (c && c.bloqueios) || [];
+    ressalva.textContent = bs.length
+      ? (c.temDuro ? 'Bloqueio: ' : 'Ressalva: ') + bs.map((b) => b.texto).join('; ') + '.'
+      : 'Sem restrição para esta sessão agora.';
+    ressalva.dataset.nivel = bs.length ? (c.temDuro ? 'critico' : 'atencao') : 'ok';
+    ressalva.style.color = bs.length
+      ? (c.temDuro ? 'var(--c-critico)' : 'var(--c-atencao)')
+      : '';
+  };
+  seletorSessao.addEventListener('change', atualizarRessalva);
+  atualizarRessalva();
+
+  const manual = h('div.pilha-2.mt-2', null,
+    h('div.linha', null, h('span.esticar', null, seletorSessao)),
+    ressalva,
+    h('div.linha', null,
+      h('span.esticar', null, selDur),
+      h('b.num', { texto: `≈ ${gastoDaAtividade({ tipo: 'academia' }, comp)} kcal` })
+    ),
+    h('button.btn.btn-secundario', {
+      type: 'button', onClick: () => registrar(seletorSessao.value)
+    }, icone('check'), 'Registrar essa')
+  );
+
+  // Segunda série do dia: recolhido, para não disputar espaço com a lista de
+  // exercícios da série que já está em andamento.
+  if (extra) {
+    return h('details.card.mt-3', { estilo: { '--accent': 'var(--c-treino)' } },
+      h('summary', null, h('strong', { texto: 'Registrar outra série hoje' })),
+      h('p.legenda.mt-2', {
+        texto: s
+          ? `Sugerida agora: ${s.id} — ${s.nome}. As marcações de série de cada execução são independentes.`
+          : 'Nenhuma sugestão livre — escolha a série na lista. As marcações de série de cada execução são independentes.'
+      }),
+      manual
+    );
+  }
+
+  if (!p) {
+    return h('div', null,
+      aviso({
+        nivel: 'ok',
+        titulo: 'Nenhuma série liberada agora',
+        texto: 'Todas as opções estão bloqueadas por limite clínico ou intervalo de recuperação. Hoje é pedal leve ou descanso.'
+      }),
+      h('details.card.mt-3', null,
+        h('summary.legenda', { texto: 'Registrar uma série mesmo assim' }),
+        manual
+      )
+    );
+  }
 
   return h('div.card', { estilo: { '--accent': 'var(--c-treino)' } },
     h('div.linha', null,
@@ -109,31 +172,13 @@ function blocoSerie(dia, jan, comp, ctx) {
 
     h('button.btn.btn-bloco.btn-primario.mt-3', {
       type: 'button', estilo: { background: 'var(--c-treino)' },
-      onClick: () => {
-        registro.registrarAtividade({ tipo: 'academia', sessao: s.id, duracaoMin: Number(selDur.value) }, ctx.data);
-        ctx.recarregar();
-      }
+      onClick: () => registrar(s.id)
     }, icone('check'), `Começar o treino ${s.id}`),
     h('p.legenda.mt-2', { texto: 'Registra a sessão e abre a lista de exercícios para marcar série por série.' }),
 
     h('details.mt-3', null,
       h('summary.legenda', { texto: 'Outra série, ou outra duração' }),
-      h('div.pilha-2.mt-2', null,
-        h('div.linha', null, h('span.esticar', null, seletorSessao)),
-        h('div.linha', null,
-          h('span.esticar', null, selDur),
-          h('b.num', { texto: `≈ ${gastoDaAtividade({ tipo: 'academia' }, comp)} kcal` })
-        ),
-        h('button.btn.btn-secundario', {
-          type: 'button',
-          onClick: () => {
-            registro.registrarAtividade({
-              tipo: 'academia', sessao: seletorSessao.value, duracaoMin: Number(selDur.value)
-            }, ctx.data);
-            ctx.recarregar();
-          }
-        }, icone('check'), 'Registrar essa')
-      )
+      manual
     )
   );
 }
@@ -191,7 +236,8 @@ function registrado(dia, comp, treinos, ctx) {
   const { registro } = ctx;
   if (!dia.atividades.length) return h('div');
 
-  return secao(`Registrado hoje · gasto ${dia.gasto} kcal`,
+  const quando = ctx.data === hojeISO() ? 'hoje' : `em ${dataBR(ctx.data)}`;
+  return secao(`Registrado ${quando} · gasto ${dia.gasto} kcal`,
     h('div.pilha-2', null, dia.atividades.map((a) => {
       const kcal = gastoDaAtividade(a, comp);
       const entrada = h('input', {
