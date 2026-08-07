@@ -462,7 +462,14 @@ export function resumoDia(dados, registro, dataISO = hojeISO(), ref = new Date()
   const atividades = dia.atividades || [];
 
   const tipoId = tipoDiaDe(atividades);
-  const tipo = nutricao.tiposDia.find((t) => t.id === tipoId) || nutricao.tiposDia[0];
+  const doPlano = nutricao.tiposDia.find((t) => t.id === tipoId) || nutricao.tiposDia[0];
+
+  // Dia marcado como fora da rotina troca o cardápio — não o alvo. O alvo
+  // continua vindo do gasto registrado; se ele pedalar no sábado, sobe igual.
+  const tranquilo = Boolean(dia.tranquilo) && Boolean(nutricao.modoTranquilo);
+  const tipo = tranquilo
+    ? { ...doPlano, refeicoes: nutricao.modoTranquilo.refeicoes, modoTranquilo: true }
+    : doPlano;
 
   const consumido = (dia.refeicoes || []).reduce(
     (a, r) => ({ p: a.p + r.p, g: a.g + r.g, c: a.c + r.c, kcal: a.kcal + r.kcal }),
@@ -506,6 +513,8 @@ export function resumoDia(dados, registro, dataISO = hojeISO(), ref = new Date()
     atividades,
     tipoId,
     tipo,
+    tipoDoPlano: doPlano,
+    tranquilo,
     sessoes,
     alvo,
     derivado,
