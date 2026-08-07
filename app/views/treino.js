@@ -104,6 +104,8 @@ export function telaSessao(s, treinos, jan, ctx, opcoes = {}) {
     contaNovos(s) > 0 && chip(`${contaNovos(s)} variantes novas`, 'info', 'rotacao'),
     s.comPedal && chip('dia duplo (pedal + academia)', 'atencao', 'pedal'),
     jan.proxima.escolhida && jan.proxima.escolhida.sessao.id === s.id && chip('próxima sugerida', 'ok'),
+    // Mesma sessão repetida no mesmo dia tem marcação de série independente.
+    s.repeticao > 1 && chip(`${s.repeticao}ª vez hoje`, 'atencao', 'rotacao'),
     jan.feitasIds.includes(s.id) && chip(`já feita nos últimos ${jan.janelaDias} dias`, 'info')
   ));
 
@@ -128,7 +130,7 @@ export function telaSessao(s, treinos, jan, ctx, opcoes = {}) {
     h('button.icon-btn', {
       type: 'button', 'aria-label': 'Zerar marcações desta sessão', title: 'Zerar marcações',
       onClick: () => {
-        registro.zerarSessao(s.id, data);
+        registro.zerarSessao(s.chave || s.id, data);
         ctx.recarregar();
         toast('Marcações da sessão zeradas.');
       }
@@ -206,7 +208,7 @@ function cartaoExercicio(ex, sessao, registro, aoMudar, data) {
   const acoes = h('div.ex-acoes');
   const bolinhas = [];
   const desenhar = () => {
-    const feitas = registro.seriesFeitas(sessao.id, ex.ordem, data);
+    const feitas = registro.seriesFeitas(sessao.chave || sessao.id, ex.ordem, data);
     bolinhas.forEach((b, i) => { b.dataset.feito = String(i < feitas); });
     el.dataset.feito = String(feitas >= ex.series);
   };
@@ -215,7 +217,7 @@ function cartaoExercicio(ex, sessao, registro, aoMudar, data) {
       type: 'button',
       'aria-label': `Marcar série ${i + 1} de ${ex.series}`,
       onClick: () => {
-        registro.marcarSerie(sessao.id, ex.ordem, ex.series, data);
+        registro.marcarSerie(sessao.chave || sessao.id, ex.ordem, ex.series, data);
         desenhar();
         aoMudar();
       }

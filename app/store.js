@@ -380,10 +380,15 @@ export class Registro {
     this.#gravar();
   }
 
+  /**
+   * `sessao.chave` distingue duas execuções da mesma sessão no mesmo dia; a
+   * primeira do dia tem chave igual ao id, então o dado antigo continua válido.
+   */
   progressoSessao(sessao, dataISO = hojeISO()) {
+    const chave = sessao.chave || sessao.id;
     const total = sessao.exercicios.reduce((s, e) => s + e.series, 0);
     const feitas = sessao.exercicios.reduce(
-      (s, e) => s + Math.min(this.seriesFeitas(sessao.id, e.ordem, dataISO), e.series), 0);
+      (s, e) => s + Math.min(this.seriesFeitas(chave, e.ordem, dataISO), e.series), 0);
     return { feitas, total, perc: total ? Math.round((feitas / total) * 100) : 0 };
   }
 
