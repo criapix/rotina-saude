@@ -168,6 +168,47 @@ export function cabecalhoPagina({ kicker, titulo, subtitulo, acoes }) {
   );
 }
 
+/**
+ * Explicação que se lê uma vez e não precisa ocupar a tela todo dia: vira um
+ * ícone que abre um cartão ao toque. Usa a Popover API nativa — o navegador
+ * cuida da camada de topo, do fechar-ao-tocar-fora e do Esc, sem posicionamento
+ * manual, que em tela de celular sempre erra.
+ *
+ * `ajuda('texto')` devolve só o botão; o cartão vai junto, invisível.
+ */
+let seqAjuda = 0;
+export function ajuda(texto, titulo) {
+  if (!texto) return null;
+  const id = `ajuda-${++seqAjuda}`;
+  const corpo = h('div.ajuda-pop', { id, popover: 'auto' },
+    titulo ? h('strong.ajuda-titulo', { texto: titulo }) : null,
+    Array.isArray(texto)
+      ? h('ul.lista', null, texto.map((t) => h('li', { texto: t })))
+      : h('p', { texto }),
+    h('button.btn.btn-secundario.mt-3', {
+      type: 'button', popovertarget: id, popovertargetaction: 'hide'
+    }, 'Entendi')
+  );
+  const botao = h('button.ajuda-btn', {
+    type: 'button', popovertarget: id,
+    'aria-label': titulo ? `Explicação: ${titulo}` : 'Por que isso',
+    title: 'Por que isso'
+  }, icone('info'));
+
+  // Fragmento: o chamador insere os dois, o cartão fica fora de fluxo.
+  const frag = document.createDocumentFragment();
+  frag.append(botao, corpo);
+  return frag;
+}
+
+/** Título de seção com a explicação recolhida num ícone ao lado. */
+export function tituloComAjuda(texto, explicacao) {
+  return h('div.linha.titulo-ajuda', null,
+    h('h2.esticar', { texto }),
+    ajuda(explicacao, texto)
+  );
+}
+
 export function chip(texto, nivel, nomeIcone) {
   return h('span.chip', { dataset: nivel ? { nivel } : {} },
     nomeIcone && icone(nomeIcone),

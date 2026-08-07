@@ -2,13 +2,17 @@
 // volume por grupo se compara ao alvo semanal e o que priorizar se apertar.
 
 import {
-  h, icone, cabecalhoPagina, aviso, chip, card, cardTitulado, tabela, lista,
+  h, icone, ajuda, cabecalhoPagina, aviso, chip, card, cardTitulado, tabela, lista,
   secao, dataBR, dataCurta
 } from '../ui.js';
 import {
   resumoJanela, resumoEnergetico, bancoCalorico, medicoesDeGasto, diasEntre
 } from '../motor.js';
 import { barrasHorizontais } from '../charts.js';
+
+/** Ícone de ajuda numa linha própria, alinhado à direita. */
+const ajudaLinha = (texto, titulo) =>
+  h('div.linha.mt-2', null, h('span.esticar'), ajuda(texto, titulo));
 
 export async function render(ctx) {
   const { store, registro } = ctx;
@@ -206,11 +210,12 @@ function blocoEnergia(en, banco, comp, treinos) {
     // Sem essa distinção o app lia "não anotei" como "não comi" e alimentava o
     // banco calórico com déficits que nunca existiram.
     en.diasConfiaveis < en.janelaDias
-      ? h('div.mt-3', null, aviso({
-          nivel: 'info',
-          titulo: `${en.janelaDias - en.diasConfiaveis} dia(s) fora da conta`,
-          texto: 'Um dia só entra no balanço se tiver refeição registrada ou estiver marcado como fechado em Comer. Dia sem nada anotado não é dia de déficit — é dia sem dado, e por isso fica de fora.'
-        }))
+      ? h('div.linha.mt-3', null,
+          h('span.legenda.esticar', {
+            texto: `${en.janelaDias - en.diasConfiaveis} dia(s) fora da conta`
+          }),
+          ajuda('Um dia só entra no balanço se tiver refeição registrada ou estiver marcado como fechado em Comer. Dia sem nada anotado não é dia de déficit — é dia sem dado, e por isso fica de fora.',
+            'Dias fora da conta'))
       : null,
 
     banco.saldo > 0
@@ -228,10 +233,9 @@ function blocoEnergia(en, banco, comp, treinos) {
        { nome: 'Comido', classe: 'num' }, { nome: 'Saldo', classe: 'num' }],
       linhas
     )),
-    h('p.legenda.mt-2', { texto: comp.regra }),
-    h('p.legenda.mt-2', {
-      texto: `Taxas usadas: ${comp.atividades.map(taxaTexto).join(' · ')}. O valor de cada registro é editável em Hoje.`
-    }),
+    ajudaLinha([comp.regra,
+      `Taxas usadas: ${comp.atividades.map(taxaTexto).join(' · ')}.`,
+      'O valor de cada registro é editável em Treinar.'], 'Como o balanço é calculado'),
     comp.divergenciaGasto
       ? h('div.mt-3', null, aviso({
           nivel: comp.divergenciaGasto.nivel,
@@ -282,7 +286,8 @@ function blocoMedicoes(med) {
        { nome: 'Desvio', classe: 'num' }, { nome: 'Situação' }],
       linhas
     ),
-    h('p.legenda.mt-2', { texto: 'kcal por hora. "Plano" é a taxa que o app usa para estimar; "medido" é a média das suas correções manuais.' }),
+    ajudaLinha('Os números são kcal por hora. "Plano" é a taxa que o app usa para estimar o gasto; "medido" é a média das suas correções manuais. Corrigir o gasto de um registro em Treinar alimenta esta tabela.',
+      'Plano × medido'),
     revisar.length
       ? h('div.mt-3', null, aviso({
           nivel: 'atencao',
@@ -290,7 +295,7 @@ function blocoMedicoes(med) {
           texto: revisar.map((g) => `${g.perfil ? `${g.tipo} ${g.perfil}` : g.tipo}: ${g.taxaMedida} kcal/h medido contra ${g.taxaAtual} do plano (${g.desvioPerc > 0 ? '+' : ''}${g.desvioPerc}%) em ${g.n} medições`).join('; ') + '. Vale trocar a taxa no plano — cada 10% de erro aqui vira ~100 kcal por hora de pedal no seu alvo do dia.'
         }))
       : null,
-    med.nota ? h('p.legenda.mt-2', { texto: med.nota }) : null
+    med.nota ? ajudaLinha(med.nota, 'Por que revisar a taxa') : null
   );
 }
 
@@ -332,7 +337,8 @@ function blocoVolume(jan) {
       [{ nome: 'Grupo' }, { nome: 'Feito', classe: 'num' }, { nome: 'Alvo', classe: 'num' }, { nome: '%', classe: 'num' }],
       linhas
     ),
-    h('p.legenda.mt-2', { texto: 'Alvo = volume semanal da série. Somado a partir das sessões efetivamente registradas na janela.' })
+    ajudaLinha('Alvo é o volume semanal previsto na série. O feito vem das sessões efetivamente registradas na janela — se você treinou e não registrou, não conta aqui.',
+      'De onde vem o volume')
   );
 }
 
@@ -410,9 +416,10 @@ function blocoReferencia(perfil, treinos) {
 function blocoDados(registro, ctx) {
   return secao('Seus registros',
     card(
-      h('p.texto-2', {
-        texto: `${registro.totalDias()} dia(s) registrado(s) neste aparelho. Como o app é estático e não tem servidor, o registro vive no navegador e some ao limpar os dados do site.`
-      }),
+      h('div.linha', null,
+        h('span.texto-2.esticar', { texto: `${registro.totalDias()} dia(s) registrado(s) neste aparelho.` }),
+        ajuda('O app é estático e não tem servidor: o registro vive no navegador deste aparelho e some ao limpar os dados do site. Não há sincronização entre celular e computador — por isso existe o backup.',
+          'Onde o registro fica')),
       h('button.btn.btn-secundario.mt-3', {
         type: 'button', onClick: () => ctx.navegar('#/backup')
       }, icone('escudo'), 'Exportar, importar e backup no Drive')

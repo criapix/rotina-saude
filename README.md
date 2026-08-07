@@ -114,6 +114,19 @@ contínuos empilhados na mesma tela. Agora:
 Efeito medido no navegador, com o mesmo estado: a tela Hoje passou de **~10 300 px** de altura
 para **~1 000 px** — cabe numa tela e meia em vez de dez.
 
+**Explicação que se lê uma vez não fica na tela.** O componente `ajuda(texto, titulo)` em
+`ui.js` transforma um parágrafo explicativo num ícone que abre um cartão ao toque. Usa a
+[Popover API](https://developer.mozilla.org/docs/Web/API/Popover_API) nativa — `popover="auto"`
+mais `popovertarget` —, então o navegador cuida da camada de topo, do fechar-ao-tocar-fora e do
+Esc, sem posicionamento manual. Aceita string ou lista (para passos numerados) e devolve um
+fragmento com o botão e o cartão. `ajuda()` sem texto devolve `null`, então dá para encadear
+com dados opcionais.
+
+A regra de corte: **fica na tela o que muda a ação de agora; vira ícone o que explica o
+mecanismo**. Alerta clínico, ressalva de sessão bloqueada e estado do dia continuam
+renderizados por extenso — nenhum aviso foi para trás de um ícone. Para ancorar o ícone no
+canto de um cartão sem abrir linha vazia, use a classe `card-com-ajuda`.
+
 Cortar alertas não é o mesmo que não ter os que faltam. A análise do registro real de
 01–06/08/2026 encontrou a **gordura** cronicamente baixa (67, 50, 20, 16 e 9 g contra 80 g de
 alvo, inclusive no dia melhor registrado) sem nenhum aviso: era o único macro fixo que ninguém

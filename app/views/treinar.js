@@ -8,15 +8,19 @@
 // 7 dias ficam em Consultar → Treino e Consultar → Semana.
 
 import {
-  h, icone, cabecalhoPagina, aviso, chip, secao, toast, dataLonga, dataBR, seletorData
+  h, icone, ajuda, cabecalhoPagina, aviso, chip, secao, toast, dataLonga, dataBR, seletorData
 } from '../ui.js';
 import { hojeISO } from '../store.js';
-
-const ehData = (s) => /^\d{4}-\d{2}-\d{2}$/.test(s || '');
 import {
   resumoDia, resumoJanela, gastoDaAtividade, formatarDuracao
 } from '../motor.js';
 import { telaSessao } from './treino.js';
+
+const ehData = (s) => /^\d{4}-\d{2}-\d{2}$/.test(s || '');
+
+/** Ícone de ajuda alinhado à direita, ocupando uma linha só. */
+const ajudaLinha = (texto, titulo) =>
+  h('div.linha.mt-2', null, h('span.esticar'), ajuda(texto, titulo));
 
 const DURACOES_PEDAL = [45, 60, 90, 120, 150, 180, 210, 240, 300];
 const DURACOES_ACADEMIA = [45, 60, 75, 90, 105];
@@ -131,10 +135,10 @@ function blocoSerie(dia, jan, comp, ctx, opcoes = {}) {
     return h('details.card.mt-3', { estilo: { '--accent': 'var(--c-treino)' } },
       h('summary', null, h('strong', { texto: 'Registrar outra série hoje' })),
       h('p.legenda.mt-2', {
-        texto: s
-          ? `Sugerida agora: ${s.id} — ${s.nome}. As marcações de série de cada execução são independentes.`
-          : 'Nenhuma sugestão livre — escolha a série na lista. As marcações de série de cada execução são independentes.'
+        texto: s ? `Sugerida agora: ${s.id} — ${s.nome}.` : 'Nenhuma sugestão livre — escolha a série na lista.'
       }),
+      ajudaLinha('Cada execução tem marcação de série própria: registrar o mesmo treino duas vezes no mesmo dia não faz uma sobrescrever a outra. Atenção ao volume — repetir a mesma sessão dobra o volume daquele grupo muscular na janela.',
+        'Duas séries no mesmo dia'),
       manual
     );
   }
@@ -174,7 +178,8 @@ function blocoSerie(dia, jan, comp, ctx, opcoes = {}) {
       type: 'button', estilo: { background: 'var(--c-treino)' },
       onClick: () => registrar(s.id)
     }, icone('check'), `Começar o treino ${s.id}`),
-    h('p.legenda.mt-2', { texto: 'Registra a sessão e abre a lista de exercícios para marcar série por série.' }),
+    ajudaLinha('Registra a sessão e abre a lista de exercícios para marcar série por série. A escolha segue, nesta ordem: limite clínico, não repetir sessão já feita na janela, 24h desde a última e 48h para a mesma categoria, e a ordem de prioridade do plano.',
+      'Como a série é escolhida'),
 
     h('details.mt-3', null,
       h('summary.legenda', { texto: 'Outra série, ou outra duração' }),
@@ -209,7 +214,8 @@ function blocoPedal(dia, dados, comp, ctx) {
 
   return h('div.card.mt-3', { estilo: { '--accent': 'var(--c-pedal)' } },
     h('h2.card-titulo', null, icone('pedal'), pedalFeito ? ' Outro pedal' : ' Pedalei'),
-    h('p.legenda', { texto: 'Duração e intensidade definem o gasto — e o gasto define quanto você precisa comer hoje.' }),
+    ajudaLinha('Duração e intensidade definem o gasto — e o gasto define quanto você precisa comer hoje. O alvo calórico do dia é base + gasto registrado.',
+      'Por que a duração importa'),
     h('div.pilha-2.mt-3', null,
       h('div.linha', null, h('span.esticar', null, selPerfil)),
       h('div.linha', null, h('span.esticar', null, selDur), previa),
@@ -265,7 +271,8 @@ function registrado(dia, comp, treinos, ctx) {
         }, icone('lixeira'))
       );
     })),
-    h('p.legenda.mt-2', { texto: 'O número é editável: se o ciclocomputador deu outro valor, ele substitui a estimativa.' })
+    ajudaLinha('O número é editável: se o ciclocomputador ou o relógio deu outro valor, ele substitui a estimativa. Cada correção fica guardada — com três do mesmo tipo de treino, o app compara sua taxa real com a do plano em Consultar → Semana.',
+      'Corrigir o gasto')
   );
 }
 

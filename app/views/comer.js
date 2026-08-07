@@ -6,7 +6,7 @@
 // fica em Consultar → Nutrição. Aqui só entra o que é do dia de hoje.
 
 import {
-  h, icone, cabecalhoPagina, aviso, chip, card, secao, toast, dataLonga, dataBR,
+  h, icone, ajuda, cabecalhoPagina, aviso, chip, card, secao, toast, dataLonga, dataBR,
   barraMacro, seletorData
 } from '../ui.js';
 import {
@@ -99,10 +99,11 @@ function barraDoDia(dia) {
     );
   };
 
-  return h('div.card', { estilo: { '--accent': 'var(--c-nutricao)' } },
+  return h('div.card.card-com-ajuda', { estilo: { '--accent': 'var(--c-nutricao)' } },
+    ajuda('Caloria e proteína são o que se acompanha de cabeça. Gordura é fixa e o carboidrato absorve o resto — o detalhe por macro está em cada refeição.',
+      'Por que só duas barras'),
     item('Calorias', dia.consumido.kcal, dia.alvo.kcal, ' kcal', 'var(--c-nutricao)'),
-    item('Proteína', dia.consumido.p, dia.alvo.p, ' g', 'var(--c-treino)'),
-    h('p.legenda.mt-2', { texto: 'Caloria e proteína são o que se acompanha de cabeça. Gordura é fixa e o carboidrato absorve o resto — o detalhe por macro está em cada refeição.' })
+    item('Proteína', dia.consumido.p, dia.alvo.p, ' g', 'var(--c-treino)')
   );
 }
 
@@ -230,9 +231,11 @@ function blocoFavoritos(alimentos, ctx) {
   const doOntem = (registro.dia(ontem).refeicoes || []).filter((r) => r.composicao);
 
   if (!favs.length && !doOntem.length) {
-    return h('p.legenda.mt-3', {
-      texto: 'Ao personalizar uma refeição, dá para salvá-la como favorita e repetir depois com um toque.'
-    });
+    return h('div.linha.mt-3', null,
+      h('span.legenda.esticar', { texto: 'Nada para repetir ainda.' }),
+      ajuda('Ao personalizar uma refeição no compositor, dá para salvá-la como favorita. Ela passa a aparecer aqui como um chip, e um toque lança a refeição inteira no dia. As refeições compostas de ontem também aparecem.',
+        'Repetir refeições')
+    );
   }
 
   const repetir = (r, nome) => {
@@ -258,7 +261,7 @@ function blocoFavoritos(alimentos, ctx) {
               title: `${f.macros.kcal} kcal · P${f.macros.p} G${f.macros.g} C${f.macros.c}`,
               onClick: () => repetir({ ...f, ...f.macros, composicao: f.composicao }, f.nome)
             }, `+ ${f.nome}`))),
-            h('p.legenda.mt-2', { texto: 'Toque para lançar. Para remover uma favorita, abra-a no compositor.' })
+            ajuda('Toque num chip para lançar a refeição no dia. Para remover uma favorita, abra-a no compositor e salve de novo com outro nome — o nome igual substitui.', 'Como usar as favoritas')
           )
         : null,
       doOntem.length
@@ -312,11 +315,10 @@ function blocoFecharDia(dia, data, ctx) {
           toast(agora ? 'Dia fechado.' : 'Dia reaberto.');
           ctx.recarregar();
         }
-      }, icone(fechado ? 'voltar' : 'check'), fechado ? 'Reabrir' : 'Fechei o dia')
-    ),
-    !fechado
-      ? h('p.legenda.mt-2', { texto: 'Enquanto o dia não é fechado, ele não entra no balanço da semana nem no banco calórico — melhor ficar de fora que entrar errado.' })
-      : null
+      }, icone(fechado ? 'voltar' : 'check'), fechado ? 'Reabrir' : 'Fechei o dia'),
+      ajuda('Enquanto o dia não é fechado, ele não entra no balanço da semana nem no banco calórico — melhor ficar de fora que entrar errado. O app não consegue distinguir "não comi" de "não registrei": fechar o dia é você dizendo que o que falta não foi comido.',
+        'Para que serve fechar o dia')
+    )
   );
 }
 

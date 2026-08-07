@@ -1,7 +1,7 @@
 // Aba "Nutrição" — tipos de dia, refeições, suplementos, regras e metas.
 
 import {
-  h, icone, cabecalhoPagina, aviso, chip, card, cardTitulado, segmentos,
+  h, icone, ajuda, cabecalhoPagina, aviso, chip, card, cardTitulado, segmentos,
   tabela, lista, definicoes, secao, barraMacro, dataBR
 } from '../ui.js';
 import { resumoDia, alvoPorGasto, gastoDaAtividade, formatarDuracao } from '../motor.js';
@@ -365,7 +365,8 @@ function abaSuplementos(nutricao, ctx) {
     ));
   }
 
-  frag.append(h('p.legenda.mt-3', { texto: 'As marcações valem só para hoje e ficam guardadas neste dispositivo.' }));
+  frag.append(h('div.linha.mt-3', null, h('span.esticar'),
+    ajuda('As marcações valem só para hoje e ficam guardadas neste dispositivo.', 'Sobre as marcações')));
 
   if (nota && nota.alerta) {
     frag.append(h('div.mt-3', null, aviso({

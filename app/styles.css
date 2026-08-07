@@ -842,3 +842,53 @@ input:focus, textarea:focus, select:focus { outline: none; border-color: var(--c
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
 }
+
+/* ===================== ajuda recolhida =====================
+   Explicações que se leem uma vez viram um ícone. O cartão usa a Popover API:
+   o navegador coloca na camada de topo, fecha ao tocar fora e no Esc. */
+
+.ajuda-btn {
+  width: 26px; height: 26px; flex: none;
+  border-radius: 50%;
+  display: inline-grid; place-items: center;
+  color: var(--text-3);
+  vertical-align: middle;
+}
+.ajuda-btn svg { width: 15px; height: 15px; }
+.ajuda-btn:hover { background: color-mix(in srgb, var(--text) 8%, transparent); color: var(--text-2); }
+/* alvo de toque de 44px sem inflar o desenho */
+.ajuda-btn::after {
+  content: ''; position: absolute;
+  min-width: 44px; min-height: 44px;
+  translate: -50% -50%; left: 50%; top: 50%;
+}
+.ajuda-btn { position: relative; }
+
+.ajuda-pop {
+  width: min(30rem, calc(100vw - 2 * var(--sp-4)));
+  margin: auto;                     /* centra no viewport */
+  padding: var(--sp-5);
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg);
+  box-shadow: 0 18px 48px rgb(0 0 0 / 0.28);
+  color: var(--text-2);
+  font-size: var(--fs-sm);
+  line-height: 1.55;
+}
+.ajuda-pop::backdrop { background: rgb(0 0 0 / 0.45); }
+.ajuda-pop .ajuda-titulo { display: block; color: var(--text); margin-bottom: var(--sp-2); }
+.ajuda-pop p { margin: 0; }
+.ajuda-pop .lista { margin: 0; }
+
+.titulo-ajuda { gap: var(--sp-2); align-items: center; }
+.titulo-ajuda h2 { margin: 0; }
+
+/* Cabeçalho de seção: o ícone acompanha o título sem empurrar o contador. */
+.secao-cabecalho .ajuda-btn { margin-left: calc(-1 * var(--sp-1)); }
+
+/* Ajuda ancorada no canto do cartão, sem abrir linha própria. */
+.card-com-ajuda { position: relative; }
+.card-com-ajuda > .ajuda-btn {
+  position: absolute; top: var(--sp-3); right: var(--sp-3);
+}
