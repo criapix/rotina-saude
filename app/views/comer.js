@@ -381,7 +381,7 @@ function blocoSuplementos(dia, nutricao, ctx) {
     `${feitos()}/${lista.length}`);
 
   const itens = lista.map((s) => {
-    const item = h('button.check-item', {
+    const item = h('button.check-item.esticar', {
       type: 'button',
       dataset: { feito: String(registro.suplementoTomado(s.nome, ctx.data)) },
       onClick: () => {
@@ -397,7 +397,8 @@ function blocoSuplementos(dia, nutricao, ctx) {
       ),
       s.prioridade === 'essencial' ? chip('essencial', 'critico') : null
     );
-    return item;
+    // Mesma explicação da aba de referência, à mão na checklist do dia.
+    return h('div.linha', null, item, ajuda([s.objetivo, s.porQue, s.obs].filter(Boolean), s.nome));
   });
 
   const essenciais = lista.filter((s) => s.prioridade === 'essencial');
