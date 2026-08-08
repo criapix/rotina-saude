@@ -396,7 +396,9 @@ function abaSuplementos(nutricao, ctx) {
 }
 
 function item(s, registro, prioridade) {
-  const el = h('button.check-item', {
+  // O ícone de ajuda precisa ser irmão do check, não filho: botão dentro de
+  // botão é HTML inválido e o toque cairia no checkbox.
+  const el = h('button.check-item.esticar', {
     type: 'button',
     dataset: { feito: String(registro.suplementoTomado(s.nome)) },
     onClick: () => { el.dataset.feito = String(registro.alternarSuplemento(s.nome)); }
@@ -404,16 +406,22 @@ function item(s, registro, prioridade) {
     h('span.check-box', null, icone('check')),
     h('span.check-texto', null,
       h('strong', null, s.nome, ' ', h('span.texto-3.texto-sm', { texto: s.dose })),
-      h('span', { texto: s.quando }),
-      s.porQue && h('span.texto-xs.mt-2', { texto: s.porQue }),
-      s.obs && h('span.texto-xs.texto-3.mt-2', { texto: s.obs })
+      h('span', { texto: s.quando })
     ),
     h('span.chip-linha', { estilo: { flexDirection: 'column', alignItems: 'flex-end' } },
       prioridade ? chip(prioridade, NIVEL_PRIORIDADE[prioridade] || 'info') : null,
       chip(ROTULO_FREQUENCIA[s.frequencia] || s.frequencia, s.frequencia === 'diario' ? 'accent' : 'info')
     )
   );
-  return el;
+
+  // Para que serve, por que está nesta prioridade e o detalhe da dose — tudo
+  // leitura de uma vez, tudo atrás do ícone.
+  return h('div.linha', null, el, ajuda(explicacao(s), s.nome));
+}
+
+/** As três camadas da explicação de um suplemento, na ordem em que se lê. */
+function explicacao(s) {
+  return [s.objetivo, s.porQue, s.obs].filter(Boolean);
 }
 
 /* ===================== estratégias ===================== */
