@@ -386,6 +386,23 @@ function abaSuplementos(nutricao, ctx) {
     )
   ));
 
+  const fora = nutricao.suplementosDescartados;
+  if (fora && fora.itens.length) {
+    frag.append(secao(`${fora.titulo} (${fora.itens.length})`,
+      h('div.card.card-com-ajuda', null,
+        ajuda(fora.criterio, 'Critério do corte'),
+        h('p.legenda', { texto: `Revisado em ${dataBR(fora.revisadoEm)}.` }),
+        h('div.pilha-2.mt-3', null, fora.itens.map((i) => h('div.linha', null,
+          h('div.esticar', null,
+            h('strong.texto-3', null, i.nome, ' ', h('span.texto-sm', { texto: i.dose })),
+            h('p.texto-xs.texto-3', { texto: `Volta se: ${i.voltaSe}` })
+          ),
+          ajuda([i.motivo, `Volta se: ${i.voltaSe}`], `Por que ${i.nome} saiu`)
+        )))
+      )
+    ));
+  }
+
   frag.append(secao('Regras simples',
     card(h('ul.lista', null, nutricao.regras.map((r) =>
       h('li', null, r.texto, r.novo ? h('span', null, ' ', chip('novo', 'ok')) : null)
