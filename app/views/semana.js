@@ -6,7 +6,8 @@ import {
   secao, dataBR, dataCurta
 } from '../ui.js';
 import {
-  resumoJanela, resumoEnergetico, bancoCalorico, medicoesDeGasto, diasEntre
+  resumoJanela, resumoEnergetico, bancoCalorico, medicoesDeGasto,
+  aderenciaSuplementos, diasEntre
 } from '../motor.js';
 import { barrasHorizontais } from '../charts.js';
 
@@ -22,6 +23,7 @@ export async function render(ctx) {
   const energia = resumoEnergetico(dados, registro);
   const banco = bancoCalorico(dados, registro);
   const med = medicoesDeGasto(dados, registro);
+  const ader = aderenciaSuplementos(dados, registro);
 
   const raiz = h('div');
   raiz.append(cabecalhoPagina({
@@ -40,6 +42,7 @@ export async function render(ctx) {
   raiz.append(blocoLinhaDoTempo(jan, treinos, ctx));
   raiz.append(blocoEnergia(energia, banco, nutricao.compensacao, treinos));
   raiz.append(blocoMedicoes(med));
+  raiz.append(blocoSuplementos(ader));
   raiz.append(blocoVolume(jan));
   raiz.append(blocoLimites(jan));
   raiz.append(blocoProxima(jan));
@@ -304,6 +307,46 @@ function taxaTexto(a) {
     return `${a.nome} ${a.perfis.map((p) => p.kcalPorHora ? `${p.id} ${p.kcalPorHora} kcal/h` : `${p.id} pela curva`).join(', ')}`;
   }
   return `${a.nome} ${a.kcalPorHora} kcal/h${a.estimado ? ' (estimado)' : ''}`;
+}
+
+/* ===================== aderência aos suplementos ===================== */
+
+// A checklist mostra hoje; nunca mostra a série. Um essencial em zero há duas
+// semanas é invisível numa tela que só pergunta "tomou hoje?".
+function blocoSuplementos(a) {
+  if (!a.itens.length) return h('div');
+
+  const linhas = a.ordenado.map((i) => ({
+    dataset: i.nunca ? { destaque: 'true' } : {},
+    celulas: [
+      h('span', null, i.nome,
+        i.prioridade === 'essencial' ? h('small.texto-3', { texto: ' · essencial' }) : null),
+      `${i.feitos}/${i.aplicaveis}`,
+      i.perc === null
+        ? h('span.texto-3', { texto: 'nenhum dia aplicável' })
+        : h('span', {
+            estilo: {
+              color: i.perc >= 80 ? 'var(--c-ok)' : i.perc === 0 ? 'var(--c-critico)' : 'var(--c-atencao)'
+            },
+            texto: i.perc + '%'
+          })
+    ]
+  }));
+
+  return secao(`Suplementos na janela (${a.janelaDias} dias)`,
+    tabela([{ nome: 'Item' }, { nome: 'Dias', classe: 'num' }, { nome: 'Aderência', classe: 'num' }], linhas),
+    a.essenciaisEmZero.length
+      ? h('div.mt-3', null, aviso({
+          nivel: 'critico',
+          titulo: a.essenciaisEmZero.length === 1
+            ? `${a.essenciaisEmZero[0]}: nenhuma marcação na janela`
+            : `${a.essenciaisEmZero.length} essenciais sem nenhuma marcação na janela`,
+          texto: `${a.essenciaisEmZero.join(', ')} — classificados como essenciais por deficiência medida ou alvo clínico ativo, e sem um único dia marcado nos últimos ${a.janelaDias} dias.`
+        }))
+      : null,
+    ajudaLinha('Só entra aqui o que não é alimento. O whey mora no cardápio, e os macros dele entram pela composição da refeição — contá-lo também aqui somaria o mesmo item duas vezes.',
+      'O que conta como suplemento')
+  );
 }
 
 /* ===================== volume por grupo ===================== */

@@ -236,6 +236,50 @@ export function medicoesDeGasto(dados, registro, diasAtras = 180) {
   };
 }
 
+/**
+ * Aderência aos suplementos na janela: quantos dias aplicáveis tiveram a marca.
+ *
+ * Só entra aqui o que NÃO é alimento. Whey mora no cardápio e seus macros vêm
+ * da composição da refeição — tê-lo também na checklist contava o mesmo item
+ * duas vezes e dava a falsa sensação de "tomei" sem macro nenhum entrar.
+ */
+export function aderenciaSuplementos(dados, registro, ref = new Date()) {
+  const nut = dados.nutricao;
+  const dias = janela(dados.treinos.plano.janelaDias, ref);
+
+  const itens = nut.suplementos.map((s) => {
+    // Dia aplicável depende da frequência: um item de dia de treino não pode
+    // ser cobrado num dia de descanso.
+    const aplicaveis = dias.filter((d) => {
+      const resumo = resumoDia(dados, registro, d, ref);
+      return suplementosDoDia(nut.suplementos, resumo, nut.orientacoes).some((x) => x.nome === s.nome);
+    });
+    const feitos = aplicaveis.filter((d) => registro.suplementoTomado(s.nome, d));
+    return {
+      nome: s.nome,
+      prioridade: s.prioridade,
+      aplicaveis: aplicaveis.length,
+      feitos: feitos.length,
+      perc: aplicaveis.length ? Math.round((feitos.length / aplicaveis.length) * 100) : null,
+      // Zero em toda a janela num essencial é a informação que se perde na
+      // checklist do dia: ela mostra hoje, nunca a série.
+      nunca: aplicaveis.length > 0 && feitos.length === 0
+    };
+  });
+
+  const essenciais = itens.filter((i) => i.prioridade === 'essencial');
+  return {
+    janelaDias: dias.length,
+    itens,
+    // Ordena pelo que está pior, e essencial na frente de apoio.
+    ordenado: itens.slice().sort((a, b) =>
+      (a.prioridade === 'essencial' ? 0 : 1) - (b.prioridade === 'essencial' ? 0 : 1) ||
+      (a.perc ?? 101) - (b.perc ?? 101)),
+    essenciaisEmZero: essenciais.filter((i) => i.nunca).map((i) => i.nome),
+    nota: nut.suplementosNota && nut.suplementosNota.alerta
+  };
+}
+
 /* ===================== composição de refeições ===================== */
 
 /** Índice id -> alimento, para não varrer a tabela a cada item. */
