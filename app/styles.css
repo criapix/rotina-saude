@@ -512,7 +512,6 @@ h2 > svg, h3 > svg, h4 > svg, .card-titulo > svg, .secao-cabecalho h2 > svg {
 .ex-series b { display: block; font-size: var(--fs-lg); font-weight: 700; letter-spacing: -0.02em; }
 .ex-series span { font-size: var(--fs-xs); color: var(--text-3); }
 
-.ex-meta { padding: 0 var(--sp-4) var(--sp-3) calc(var(--sp-4) + 24px + var(--sp-3)); }
 .ex-lista { margin-top: var(--sp-2); }
 .ex-lista li {
   list-style: none; position: relative;
@@ -897,10 +896,15 @@ input:focus, textarea:focus, select:focus { outline: none; border-color: var(--c
    Tudo que é instrução vive recolhido: entre séries o que se olha é o nome e
    as bolinhas. Um toque abre o exercício em questão, sem mexer nos outros. */
 
-.ex-instrucoes { border-top: 1px solid var(--border); margin-top: var(--sp-3); }
+.ex-instrucoes {
+  border-top: 1px solid var(--border);
+  /* Mesmo recuo que o bloco anterior usava: alinhado ao nome do exercício,
+     saltando a coluna do número da ordem. */
+  --ex-recuo: calc(var(--sp-4) + 24px + var(--sp-3));
+}
 .ex-instrucoes-topo {
   display: flex; align-items: center; gap: var(--sp-2);
-  padding: var(--sp-3) 0;
+  padding: var(--sp-3) var(--sp-4) var(--sp-3) var(--ex-recuo);
   color: var(--text-3); font-size: var(--fs-sm);
   cursor: pointer; list-style: none;
 }
@@ -914,7 +918,7 @@ input:focus, textarea:focus, select:focus { outline: none; border-color: var(--c
 }
 .ex-instrucoes[open] > .ex-instrucoes-topo { color: var(--text-2); }
 .ex-instrucoes[open] > .ex-instrucoes-topo::after { rotate: -135deg; translate: 0 2px; }
-.ex-instrucoes-corpo { padding-bottom: var(--sp-3); }
+.ex-instrucoes-corpo { padding: 0 var(--sp-4) var(--sp-4) var(--ex-recuo); }
 
 .ex-grupo + .ex-grupo { margin-top: var(--sp-4); }
 .ex-grupo-titulo {
