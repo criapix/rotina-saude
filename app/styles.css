@@ -892,3 +892,32 @@ input:focus, textarea:focus, select:focus { outline: none; border-color: var(--c
 .card-com-ajuda > .ajuda-btn {
   position: absolute; top: var(--sp-3); right: var(--sp-3);
 }
+
+/* ===================== detalhe do exercício =====================
+   Tudo que é instrução vive recolhido: entre séries o que se olha é o nome e
+   as bolinhas. Um toque abre o exercício em questão, sem mexer nos outros. */
+
+.ex-instrucoes { border-top: 1px solid var(--border); margin-top: var(--sp-3); }
+.ex-instrucoes-topo {
+  display: flex; align-items: center; gap: var(--sp-2);
+  padding: var(--sp-3) 0;
+  color: var(--text-3); font-size: var(--fs-sm);
+  cursor: pointer; list-style: none;
+}
+.ex-instrucoes-topo::-webkit-details-marker { display: none; }
+.ex-instrucoes-topo::after {
+  content: '';
+  width: 8px; height: 8px; flex: none;
+  border-right: 2px solid currentColor; border-bottom: 2px solid currentColor;
+  rotate: 45deg; translate: 0 -2px;
+  transition: rotate .15s ease;
+}
+.ex-instrucoes[open] > .ex-instrucoes-topo { color: var(--text-2); }
+.ex-instrucoes[open] > .ex-instrucoes-topo::after { rotate: -135deg; translate: 0 2px; }
+.ex-instrucoes-corpo { padding-bottom: var(--sp-3); }
+
+.ex-grupo + .ex-grupo { margin-top: var(--sp-4); }
+.ex-grupo-titulo {
+  font-size: var(--fs-xs); text-transform: uppercase; letter-spacing: .06em;
+  color: var(--text-3); margin: 0 0 var(--sp-2);
+}

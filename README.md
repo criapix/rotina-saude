@@ -217,8 +217,12 @@ avisando quando os inferiores passam 7 dias sem estímulo. Para inverter, troque
 
 - **Nutrição** — um painel por tipo de dia (abre no tipo derivado de hoje), tabela de
   alimentos, compensação do gasto, suplementos, estratégias e metas.
-- **Série de musculação** — sessões A/B/C/D com cartões de exercício (séries × reps, cues,
-  alertas, marcação de séries feitas), volume semanal, progressão, restrições e rotação. A
+- **Série de musculação** — sessões A/B/C/D com cartões de exercício (séries × reps, marcação de
+  séries feitas), volume semanal, progressão, restrições e rotação. A instrução de cada exercício
+  vive num `<details>` recolhido — **Montagem** (como se posicionar antes da 1ª rep), **Execução**
+  (`cues`), **Atenção** (`alertas`), **Progressão** e **Por que assim**. Entre séries o que se olha
+  é o nome e as bolinhas; o detalhe se abre por exercício, um de cada vez. Quando há `alertas`, o
+  resumo mostra um chip com a contagem: recolher não pode virar esconder. A
   lista marca qual é a `próxima` e quais já foram `✓ feitas` na janela. Cada sessão pode trazer
   dois blocos antes dos exercícios, ambos sem carga e fora do volume de hipertrofia: `postura`
   (mobilidade, primeiro) e `ativacao` (preparo específico). Os dois usam a mesma estrutura
