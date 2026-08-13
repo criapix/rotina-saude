@@ -203,16 +203,45 @@ function cartaoExercicio(ex, sessao, registro, aoMudar, data) {
     )
   ));
 
-  const meta = h('div.ex-meta');
+  // Instrução completa num bloco recolhido: na academia, o que se olha entre
+  // séries é o nome e as bolinhas. O detalhe se abre por exercício, um de cada
+  // vez, e o estado não persiste — abrir de novo é um toque.
+  const secoes = [];
   if (ex.partes) {
-    meta.append(h('div.ex-partes', null, ex.partes.map((p) =>
+    secoes.push(h('div.ex-partes', null, ex.partes.map((p) =>
       h('div', null, h('span', { texto: p.nome }), h('b.num', { texto: `${p.series}×${p.reps}` }))
     )));
   }
-  if (ex.cues && ex.cues.length) meta.append(h('ul.ex-lista', null, ex.cues.map((c) => h('li', { texto: c }))));
-  if (ex.alertas && ex.alertas.length) meta.append(h('ul.ex-lista.alertas', null, ex.alertas.map((c) => h('li', { texto: c }))));
-  if (ex.progressao) meta.append(h('p.legenda.mt-2', null, h('strong', { texto: 'Progressão: ' }), ex.progressao));
-  if (meta.childElementCount) el.append(meta);
+  const grupo = (titulo, filho) => h('div.ex-grupo', null,
+    h('h4.ex-grupo-titulo', { texto: titulo }), filho);
+
+  if (ex.montagem && ex.montagem.length) {
+    secoes.push(grupo('Montagem', h('ul.ex-lista', null, ex.montagem.map((c) => h('li', { texto: c })))));
+  }
+  if (ex.cues && ex.cues.length) {
+    secoes.push(grupo('Execução', h('ul.ex-lista', null, ex.cues.map((c) => h('li', { texto: c })))));
+  }
+  if (ex.alertas && ex.alertas.length) {
+    secoes.push(grupo('Atenção', h('ul.ex-lista.alertas', null, ex.alertas.map((c) => h('li', { texto: c })))));
+  }
+  if (ex.progressao) {
+    secoes.push(grupo('Progressão', h('p.texto-2.texto-sm', { texto: ex.progressao })));
+  }
+  const porQue = ex.porQueAssim || ex.porQueLiberado;
+  if (porQue) secoes.push(grupo('Por que assim', h('p.texto-2.texto-sm', { texto: porQue })));
+
+  if (secoes.length) {
+    el.append(h('details.ex-instrucoes', null,
+      h('summary.ex-instrucoes-topo', null,
+        h('span.esticar', { texto: 'Como fazer' }),
+        // O alerta não pode ficar invisível: o resumo diz que existe.
+        ex.alertas && ex.alertas.length
+          ? chip(ex.alertas.length === 1 ? '1 atenção' : `${ex.alertas.length} atenções`, 'atencao')
+          : null
+      ),
+      h('div.ex-instrucoes-corpo', null, ...secoes)
+    ));
+  }
 
   // marcação de séries: cada bolinha alterna feito/não feito
   const acoes = h('div.ex-acoes');
